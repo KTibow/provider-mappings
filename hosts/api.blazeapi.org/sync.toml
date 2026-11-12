@@ -3,6 +3,41 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["Kling 2.6 Pro (image-to-video)"]
+model = "kwaivgi/kling-2.6-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 Turbo Standard (image-to-video)"]
+model = "kwaivgi/kling-v3.0-turbo-std"
+pin = "pinned"
+quant = "fp16"
+
+["Seedance 2.0 (image-to-video)"]
+model = "bytedance/seedance-2.0"
+pin = "pinned"
+quant = "fp16"
+
+["Seedance 2.0 Fast (image-to-video)"]
+model = "bytedance/seedance-2.0-fast"
+pin = "pinned"
+quant = "fp16"
+
+["Veo3.1 Fast (image-to-video)"]
+model = "google/veo-3.1-fast"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.6 Flash Image-to-Video"]
+model = "alibaba/wan-2.6-flash"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.7 (image-to-video)"]
+model = "alibaba/wan-2.7"
+pin = "pinned"
+quant = "fp16"
+
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -982,3 +1017,8 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
+
+["xiaomi-mimo-v2-5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"

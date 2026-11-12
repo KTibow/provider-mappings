@@ -111,16 +111,16 @@ pin = "pinned"
 model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
 
-["gemini-3.6-flash"]
-model = "google/gemini-3.6-flash"
-pin = "pinned"
-
 ["gemini-3.7-flash"]
 model = "google/gemini-3.7-flash"
 pin = "pinned"
 
 ["gemini-3.8-flash"]
 model = "google/gemini-3.8-flash"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["gemini-omni-1.1-flash"]
@@ -305,6 +305,10 @@ pin = "pinned"
 
 ["kling-2.6-pro"]
 model = "kwaivgi/kling-2.6-pro"
+pin = "pinned"
+
+["ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
 pin = "pinned"
 
 ["llama-4-maverick"]

@@ -420,6 +420,19 @@
   ],
   "permaslug": "anthropic/claude-sonnet-5.5-20260928"
  },
+ "apodex/apodex-1.1-mini": {
+  "formerly": [
+   "apodex/apodex-1.1-mini:free"
+  ],
+  "input": [
+   "text"
+  ],
+  "name": "Apodex: Apodex 1.1 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "apodex/apodex-1.1-mini-20261001"
+ },
  "assemblyai/assemblyai-tts-1": {
   "input": [
    "text"
@@ -733,6 +746,17 @@
    "image"
   ],
   "permaslug": "bytedance-seed/seedream-5-0-pro-20260812"
+ },
+ "bytedance-seed/seedream-5-5": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "ByteDance Seed: Seedream 5.5",
+  "output": [
+   "image"
+  ],
+  "permaslug": "bytedance-seed/seedream-5-5-20261112"
  },
  "bytedance/seedance-2.0": {
   "input": [
@@ -1764,6 +1788,20 @@
   ],
   "permaslug": "google/gemini-4-carbon-20261110"
  },
+ "google/gemini-4-hydrogen": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 4 Hydrogen",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-4-hydrogen-20261112"
+ },
  "google/gemini-decision-1": {
   "input": [
    "audio",
@@ -2071,6 +2109,26 @@
    "text"
   ],
   "permaslug": "inclusionai/ling-3.0-flash-20260723"
+ },
+ "inclusionai/ling-3.0-flash-fin": {
+  "input": [
+   "text"
+  ],
+  "name": "inclusionAI: Ling 3.0 Flash Fin",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.0-flash-fin-20260827"
+ },
+ "inclusionai/ling-3.0-flash-sante": {
+  "input": [
+   "text"
+  ],
+  "name": "inclusionAI: Ling 3.0 Flash Sante",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.0-flash-sante-20260904"
  },
  "inclusionai/ling-3.0-flash-vl": {
   "hf": "inclusionAI/Ling-3.0-flash-VL",
@@ -4709,6 +4767,20 @@
   ],
   "permaslug": "perplexity/pplx-decider-flash-v1.2-20261016"
  },
+ "perplexity/pplx-decider-flash-v1.3": {
+  "formerly": [
+   "perplexity/pplx-decider-flash-v1.3:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Decider Flash V1.3",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "perplexity/pplx-decider-flash-v1.3-20261112"
+ },
  "perplexity/pplx-decider-v1.2": {
   "hf": "perplexity-ai/pplx-decider-v1.2",
   "input": [
@@ -4720,6 +4792,20 @@
    "decisions"
   ],
   "permaslug": "perplexity/pplx-decider-v1.2-20261016"
+ },
+ "perplexity/pplx-decider-v1.3": {
+  "formerly": [
+   "perplexity/pplx-decider-v1.3:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Decider V1.3",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "perplexity/pplx-decider-v1.3-20261112"
  },
  "perplexity/pplx-embed-v1-0.6b": {
   "input": [
@@ -6183,6 +6269,7 @@
   "formerly": [
    "thinkingmachines/inkling-2-small:free"
   ],
+  "hf": "thinkingmachines/Inkling-2-Small",
   "input": [
    "image",
    "text"

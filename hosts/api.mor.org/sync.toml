@@ -267,6 +267,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["Gemini 4 Carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["Gemini Embedding 2 Preview"]
 model = "google/gemini-embedding-2-preview"
 pin = "pinned"
@@ -335,8 +339,8 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
-["MiMo-V2.6-Flash"]
-model = "xiaomi/mimo-v2.6-flash"
+["MiMo-V2.5"]
+model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
 ["MiniMax M3 Preview"]

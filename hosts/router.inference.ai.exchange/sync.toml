@@ -79,6 +79,10 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
+["claude-haiku-4-5-20251001"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5:thinking"
 pin = "pinned"
@@ -647,6 +651,10 @@ pin = "pinned"
 model = "openai/gpt-4o-mini"
 pin = "pinned"
 
+["gpt-4o-mini-2024-07-18"]
+model = "openai/gpt-4o-mini-2024-07-18"
+pin = "pinned"
+
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"
@@ -969,6 +977,10 @@ pin = "pinned"
 
 ["ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
 pin = "pinned"
 
 ["ling-3.0-flash-vl"]

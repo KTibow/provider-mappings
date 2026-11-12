@@ -59,3 +59,8 @@ pin = "pinned"
 # ["ep-20261002021946-dn9rv"]
 # model = "bytedance-seed/seedream-5-0-flash"
 # pin = "pinned"
+
+# needs review: model id is a per-account endpoint (seed)
+# ["ep-20261113005217-2sxr8"]
+# model = "bytedance-seed/seedream-5-5"
+# pin = "pinned"

@@ -168,3 +168,8 @@ quant = "fp8"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp8"
+
+["zai-org/glm-5.3-flashX"]
+model = "z-ai/glm-5.3-flashx"
+pin = "pinned"
+quant = "fp8"

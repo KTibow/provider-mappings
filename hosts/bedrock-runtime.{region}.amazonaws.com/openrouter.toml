@@ -14,6 +14,10 @@ pin = "pinned"
 model = "amazon/titan-embed-text-v2"
 pin = "pinned"
 
+["cohere.rerank-v3-5:0"]
+model = "cohere/rerank-v3.5"
+pin = "pinned"
+
 ["eu.amazon.nova-2-lite-v1:0"]
 model = "amazon/nova-2-lite-v1"
 pin = "pinned"

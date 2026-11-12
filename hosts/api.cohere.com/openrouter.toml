@@ -46,6 +46,11 @@ pin = "pinned"
 model = "cohere/embed-5-pro"
 pin = "pinned"
 
+["glm-5-3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+quant = "nvfp4"
+
 ["glm-5-3-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"

@@ -32,11 +32,6 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 quant = "fp4"
 
-["deepseek-ai/DeepSeek-V4-Flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-quant = "fp8"
-
 ["deepseek-ai/DeepSeek-V4-Pro-0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -79,6 +74,11 @@ quant = "fp4"
 
 ["reflection/beam"]
 model = "reflection/beam-1.0-501b-a23b"
+pin = "pinned"
+quant = "fp4"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 quant = "fp4"
 

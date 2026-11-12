@@ -1328,6 +1328,10 @@ model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 quant = "bf16"
 
+["deepinfra/inclusionAI/Ling-3.0-flash-Fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
 ["deepinfra/inclusionAI/Ling-3.0-flash-VL"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
@@ -1792,6 +1796,10 @@ pin = "pinned"
 
 ["google/gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["google/gemini-flash-latest"]
@@ -3478,6 +3486,18 @@ pin = "pinned"
 
 ["vertex/gemini-4-carbon@us"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen@eu"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen@us"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["vertex/gemini-flash-latest"]

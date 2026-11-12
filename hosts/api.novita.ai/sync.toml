@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["apodex/apodex-1.1-mini"]
+model = "apodex/apodex-1.1-mini"
+pin = "pinned"
+
 ["deepseek/deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
@@ -25,6 +29,14 @@ pin = "pinned"
 
 ["gryphe/mythomax-l2-13b"]
 model = "gryphe/mythomax-l2-13b"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]
@@ -121,8 +133,4 @@ pin = "pinned"
 
 ["xiaomimimo/mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["zai-org/glm-5.3-flashX"]
-model = "z-ai/glm-5.3-flashx"
 pin = "pinned"

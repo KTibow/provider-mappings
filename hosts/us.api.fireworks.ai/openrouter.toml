@@ -10,6 +10,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["accounts/fireworks/routers/glm-5p3-flash-us"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
 ["accounts/fireworks/routers/kimi-k3-us"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

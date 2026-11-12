@@ -315,10 +315,6 @@ pin = "pinned"
 model = "alibaba/happyhorse-1.0"
 pin = "pinned"
 
-["hermes-3-llama-3.1-405b"]
-model = "nousresearch/hermes-3-llama-3.1-405b"
-pin = "pinned"
-
 ["inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -367,16 +363,8 @@ pin = "pinned"
 model = "inception/mercury-2.5"
 pin = "pinned"
 
-["mercury-3"]
-model = "inception/mercury-3"
-pin = "pinned"
-
 ["mimo-v2-6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["minimax-m2.1"]
-model = "minimax/minimax-m2.1"
 pin = "pinned"
 
 ["minimax-m2.5"]

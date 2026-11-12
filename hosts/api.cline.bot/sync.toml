@@ -115,6 +115,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["apodex/apodex-1.1-mini:free"]
+model = "apodex/apodex-1.1-mini"
+pin = "pinned"
+
 ["baidu/ernie-5.5-flash-preview:free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
@@ -323,6 +327,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
@@ -385,6 +393,14 @@ pin = "pinned"
 
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]
@@ -947,6 +963,10 @@ pin = "pinned"
 model = "particle-ai/particle-1"
 pin = "pinned"
 
+["particle-ai/particle-1:free"]
+model = "particle-ai/particle-1:free"
+pin = "pinned"
+
 ["perceptron/perceptron-mk1"]
 model = "perceptron/perceptron-mk1"
 pin = "pinned"
@@ -1261,6 +1281,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/inkling-2-small:free"]

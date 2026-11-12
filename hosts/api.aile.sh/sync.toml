@@ -383,6 +383,10 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
+["g4f-gemini/models/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["g4f-gemini/models/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -1007,6 +1011,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-uncensored"
 pin = "pinned"
 
+["venice/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["vercel-ai-gateway/alibaba/qwen-3-14b"]
 model = "qwen/qwen3-14b"
 pin = "pinned"
@@ -1355,6 +1363,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["vercel-ai-gateway/google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["vercel-ai-gateway/google/gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
@@ -1385,6 +1397,14 @@ pin = "pinned"
 
 ["vercel-ai-gateway/inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["vercel-ai-gateway/inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["vercel-ai-gateway/inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["vercel-ai-gateway/inclusionai/ling-3.0-flash-vl"]

@@ -659,6 +659,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-decision-1"]
 model = "google/gemini-decision-1"
 pin = "pinned"
@@ -725,6 +729,30 @@ pin = "pinned"
 
 ["gryphe/mythomax-l2-13b"]
 model = "gryphe/mythomax-l2-13b"
+pin = "pinned"
+
+["heygen/avatar-iv"]
+model = "heygen/avatar-iv"
+pin = "pinned"
+
+["heygen/video-1-image-to-video"]
+model = "heygen/heygen-video-1:image-to-video"
+pin = "pinned"
+
+["heygen/video-1-reference-to-video"]
+model = "heygen/heygen-video-1:reference-to-video"
+pin = "pinned"
+
+["heygen/video-1-text-to-video"]
+model = "heygen/heygen-video-1"
+pin = "pinned"
+
+["heygen/voice-1"]
+model = "heygen/heygen-voice-1"
+pin = "pinned"
+
+["heygen/voice-1-turbo"]
+model = "heygen/heygen-voice-1-turbo"
 pin = "pinned"
 
 ["ibm-granite/granite-4.2-8b"]

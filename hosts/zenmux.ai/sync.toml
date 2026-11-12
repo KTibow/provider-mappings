@@ -175,6 +175,14 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"

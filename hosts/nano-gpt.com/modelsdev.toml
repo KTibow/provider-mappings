@@ -1066,10 +1066,6 @@ pin = "pinned"
 model = "openai/o1"
 pin = "pinned"
 
-["openai/o1-pro"]
-model = "openai/o1-pro"
-pin = "pinned"
-
 ["openai/o3"]
 model = "openai/o3"
 pin = "pinned"

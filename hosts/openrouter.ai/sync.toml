@@ -151,6 +151,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["apodex/apodex-1.1-mini:free"]
+model = "apodex/apodex-1.1-mini"
+pin = "pinned"
+
 ["assemblyai/assemblyai-tts-1"]
 model = "assemblyai/assemblyai-tts-1"
 pin = "pinned"
@@ -261,6 +265,10 @@ pin = "pinned"
 
 ["bytedance-seed/seedream-5-0-pro"]
 model = "bytedance-seed/seedream-5-0-pro"
+pin = "pinned"
+
+["bytedance-seed/seedream-5-5"]
+model = "bytedance-seed/seedream-5-5"
 pin = "pinned"
 
 ["bytedance/seedance-2.0"]
@@ -619,6 +627,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-decision-1"]
 model = "google/gemini-decision-1"
 pin = "pinned"
@@ -733,6 +745,14 @@ pin = "pinned"
 
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]
@@ -1643,6 +1663,10 @@ pin = "pinned"
 model = "particle-ai/particle-1"
 pin = "pinned"
 
+["particle-ai/particle-1:free"]
+model = "particle-ai/particle-1:free"
+pin = "pinned"
+
 ["perceptron/perceptron-mk1"]
 model = "perceptron/perceptron-mk1"
 pin = "pinned"
@@ -1655,8 +1679,16 @@ pin = "pinned"
 model = "perplexity/pplx-decider-flash-v1.2"
 pin = "pinned"
 
+["perplexity/pplx-decider-flash-v1.3:free"]
+model = "perplexity/pplx-decider-flash-v1.3"
+pin = "pinned"
+
 ["perplexity/pplx-decider-v1.2"]
 model = "perplexity/pplx-decider-v1.2"
+pin = "pinned"
+
+["perplexity/pplx-decider-v1.3:free"]
+model = "perplexity/pplx-decider-v1.3"
 pin = "pinned"
 
 ["perplexity/pplx-embed-v1-0.6b"]
@@ -2177,6 +2209,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/inkling-2-small:free"]

@@ -103,10 +103,6 @@ pin = "pinned"
 model = "qwen/qwen3.6-27b"
 pin = "pinned"
 
-["Qwen/Qwen3.6-35B-A3B"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-
 ["Qwen/Qwen3.8-2.4T-A95B"]
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
@@ -213,6 +209,10 @@ pin = "pinned"
 
 ["inclusionAI/Ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["inclusionAI/Ling-3.0-flash-Fin"]
+model = "inclusionai/ling-3.0-flash-fin"
 pin = "pinned"
 
 ["inclusionAI/Ling-3.0-flash-VL"]

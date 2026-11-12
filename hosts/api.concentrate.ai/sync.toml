@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["apodex-1.1-mini"]
+model = "apodex/apodex-1.1-mini"
+pin = "pinned"
+
 ["beam-1.0-501b-a23b"]
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
@@ -181,6 +185,10 @@ pin = "pinned"
 
 ["gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["gemma-4-31b"]

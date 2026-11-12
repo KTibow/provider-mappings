@@ -155,6 +155,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["gemini-decision-1"]
 model = "google/gemini-decision-1"
 pin = "pinned"
@@ -362,6 +366,10 @@ pin = "pinned"
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["seedream55"]
+model = "bytedance-seed/seedream-5-5"
+pin = "pinned"
 
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"

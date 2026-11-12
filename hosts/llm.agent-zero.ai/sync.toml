@@ -183,6 +183,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["gemma-4-uncensored"]
 model = "google/gemma-4-uncensored"
 pin = "pinned"

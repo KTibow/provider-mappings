@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["ag/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
 ["ag/claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
@@ -116,6 +120,10 @@ model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["alicn/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["alicn/kimi/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
@@ -241,10 +249,6 @@ pin = "pinned"
 
 ["cb/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["cb/gemini-3.1-pro"]
-model = "google/gemini-3.1-pro"
 pin = "pinned"
 
 ["cb/glm-5.2"]
@@ -509,6 +513,10 @@ pin = "pinned"
 
 ["cmc/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["cmc/gpt-6-luna"]
+model = "openai/gpt-6-luna"
 pin = "pinned"
 
 ["cmc/inclusionai/ling-3.1-flash"]
@@ -891,74 +899,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["kiro/claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
-["kiro/claude-opus-4.6"]
-model = "anthropic/claude-opus-4.6"
-pin = "pinned"
-
-["kiro/claude-opus-4.7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["kiro/claude-opus-4.8"]
-model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["kiro/claude-opus-5"]
-model = "anthropic/claude-opus-5"
-pin = "pinned"
-
-["kiro/claude-opus-5.5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["kiro/claude-sonnet-4.6"]
-model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-
-["kiro/claude-sonnet-5"]
-model = "anthropic/claude-sonnet-5"
-pin = "pinned"
-
-["kiro/claude-sonnet-5.5"]
-model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
-["kiro/glm-5"]
-model = "z-ai/glm-5"
-pin = "pinned"
-
-["kiro/gpt-5.6-luna"]
-model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["kiro/gpt-5.6-sol"]
-model = "openai/gpt-5.6-sol"
-pin = "pinned"
-
-["kiro/gpt-5.6-terra"]
-model = "openai/gpt-5.6-terra"
-pin = "pinned"
-
-["kiro/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["kiro/minimax-m2.1"]
-model = "minimax/minimax-m2.1"
-pin = "pinned"
-
-["kiro/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["kiro/qwen3-coder-next"]
-model = "qwen/qwen3-coder-next"
-pin = "pinned"
-
 ["kling-video-o-1"]
 model = "kwaivgi/kling-video-o1"
 pin = "pinned"
@@ -1065,14 +1005,6 @@ pin = "pinned"
 
 ["mistral-medium-3.5"]
 model = "mistralai/mistral-medium-3-5"
-pin = "pinned"
-
-["mm/MiniMax-M2"]
-model = "minimax/minimax-m2"
-pin = "pinned"
-
-["mm/MiniMax-M2.1"]
-model = "minimax/minimax-m2.1"
 pin = "pinned"
 
 ["mm/MiniMax-M2.5"]
@@ -1193,6 +1125,50 @@ pin = "pinned"
 
 ["nano-banana-2-lite"]
 model = "google/gemini-3.1-flash-lite-image"
+pin = "pinned"
+
+["oai/gpt-5.4"]
+model = "openai/gpt-5.4"
+pin = "pinned"
+
+["oai/gpt-5.4-mini"]
+model = "openai/gpt-5.4-mini"
+pin = "pinned"
+
+["oai/gpt-5.5"]
+model = "openai/gpt-5.5"
+pin = "pinned"
+
+["oai/gpt-5.6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["oai/gpt-5.6-sol"]
+model = "openai/gpt-5.6-sol"
+pin = "pinned"
+
+["oai/gpt-5.6-terra"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["oai/gpt-6-astra"]
+model = "openai/gpt-6-astra"
+pin = "pinned"
+
+["oai/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["oai/gpt-6-sol"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
+["oai/gpt-6.1-sol"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["oai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
 ["ocg/deepseek-v4-flash"]

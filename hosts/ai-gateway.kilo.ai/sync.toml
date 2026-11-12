@@ -27,10 +27,6 @@ pin = "pinned"
 model = "aion-labs/aion-rp-llama-3.1-8b"
 pin = "pinned"
 
-["amazon/nova-2-lite"]
-model = "amazon/nova-2-lite-v1"
-pin = "pinned"
-
 ["amazon/nova-2-lite-v1"]
 model = "amazon/nova-2-lite-v1"
 pin = "pinned"
@@ -131,6 +127,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["apodex/apodex-1.1-mini:free"]
+model = "apodex/apodex-1.1-mini"
+pin = "pinned"
+
 ["baidu/ernie-5.5-flash-preview:free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
@@ -201,10 +201,6 @@ pin = "pinned"
 
 ["deepseek/deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
-pin = "pinned"
-
-["deepseek/deepseek-v3.1"]
-model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
 ["deepseek/deepseek-v3.1-terminus"]
@@ -351,6 +347,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
@@ -419,6 +419,14 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
@@ -457,10 +465,6 @@ pin = "pinned"
 
 ["liquid/lfm-3-1.7b:free"]
 model = "liquid/lfm-3-1.7b:free"
-pin = "pinned"
-
-["liquid/lfm2.5-24b-a2b"]
-model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
 ["mancer/weaver"]
@@ -536,10 +540,6 @@ model = "meta/muse-spark-open"
 pin = "pinned"
 
 ["meta/muse-wonder"]
-model = "meta/muse-wonder"
-pin = "pinned"
-
-["meta/muse-wonder-1.0"]
 model = "meta/muse-wonder"
 pin = "pinned"
 
@@ -1023,6 +1023,10 @@ pin = "pinned"
 model = "particle-ai/particle-1"
 pin = "pinned"
 
+["particle-ai/particle-1:free"]
+model = "particle-ai/particle-1:free"
+pin = "pinned"
+
 ["particle/particle-1"]
 model = "particle-ai/particle-1"
 pin = "pinned"
@@ -1357,6 +1361,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/inkling-small"]

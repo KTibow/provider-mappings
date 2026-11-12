@@ -23,10 +23,6 @@ pin = "pinned"
 model = "openai/gpt-oss-safeguard-120b"
 pin = "pinned"
 
-["kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
 ["kimi-k3-1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

@@ -67,6 +67,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["@cf/thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["@cf/zai-org/glm-4.7-flash"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
