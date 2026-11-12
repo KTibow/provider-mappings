@@ -3,10 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["ag/claude-opus-5-5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
 ["ag/claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
@@ -120,10 +116,6 @@ model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["alicn/kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-
-["alicn/kimi/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
@@ -519,10 +511,6 @@ pin = "pinned"
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
 
-["cmc/gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
 ["cmc/inclusionai/ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
@@ -903,10 +891,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["kiro/claude-haiku-4.5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
 ["kiro/claude-opus-4.5"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
@@ -1219,32 +1203,8 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
-["ocg/glm-5.3"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-
 ["ocg/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["ocg/gpt-5.6-luna"]
-model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["ocg/gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["ocg/grok-4.6"]
-model = "x-ai/grok-4.6"
-pin = "pinned"
-
-["ocg/grok-4.7"]
-model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["ocg/hy4-preview"]
-model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["ocg/kimi-k2.6"]
@@ -1253,14 +1213,6 @@ pin = "pinned"
 
 ["ocg/kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
-["ocg/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["ocg/kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["ocg/longcat-2.0"]
@@ -1273,10 +1225,6 @@ pin = "pinned"
 
 ["ocg/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["ocg/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["ocg/minimax-m2.5"]
@@ -1302,14 +1250,6 @@ pin = "pinned"
 ["ocg/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
-
-["ocg/qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
-["ocg/qwen3.8-max"]
-model = "~qwen/qwen3.8-max-latest"
-pin = "floating"
 
 ["ocg/step-5-preview"]
 model = "stepfun/step-5-preview"

@@ -110,6 +110,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["gemini/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"

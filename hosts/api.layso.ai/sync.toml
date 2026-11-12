@@ -11,6 +11,10 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
+["claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -21,6 +25,10 @@ pin = "pinned"
 
 ["claude-haiku-5-5"]
 model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["claude-opus-4-5"]
+model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
 ["claude-opus-4-5-20251101"]
@@ -379,12 +387,12 @@ pin = "pinned"
 model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
-["grok-4"]
-model = "x-ai/grok-4"
-pin = "pinned"
-
 ["grok-4.3"]
 model = "x-ai/grok-4.3"
+pin = "pinned"
+
+["grok-4.5"]
+model = "x-ai/grok-4.5"
 pin = "pinned"
 
 ["grok-4.7"]

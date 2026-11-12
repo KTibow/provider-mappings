@@ -113,6 +113,11 @@ model = "google/gemini-4-argon"
 pin = "pinned"
 quant = "fp8"
 
+["google/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+quant = "fp8"
+
 ["minimaxai/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"

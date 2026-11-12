@@ -170,6 +170,12 @@ quant = "fp8"
 # Rows below need a person to check them, so they are commented out.
 # Once verified, copy the row (uncommented) into manual.toml.
 
+# needs review: native id has "ultrafast", which deepseek/deepseek-v4.1-flash lacks: a tier or variant, not the model itself
+# ["deepseek-v4-1-flash-1017-ultrafast"]
+# model = "deepseek/deepseek-v4.1-flash"
+# pin = "pinned"
+# quant = "fp8"
+
 # needs review: native id has "turbo", which qwen/qwen3-coder lacks: a tier or variant, not the model itself
 # ["qwen3-coder-480b-a35b-instruct-turbo"]
 # model = "qwen/qwen3-coder"

@@ -347,10 +347,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash:thinking"
 pin = "pinned"
 
-["deepseek/deepseek-v4-pro"]
-model = "deepseek/deepseek-v4-pro"
-pin = "pinned"
-
 ["deepseek/deepseek-v4-pro-0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -359,7 +355,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro-0813:thinking"
 pin = "pinned"
 
-["deepseek/deepseek-v4-pro:thinking"]
+["deepseek/deepseek-v4-pro-20260423"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["deepseek/deepseek-v4-pro-20260423:thinking"]
 model = "deepseek/deepseek-v4-pro:thinking"
 pin = "pinned"
 

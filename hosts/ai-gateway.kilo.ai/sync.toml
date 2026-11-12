@@ -27,12 +27,24 @@ pin = "pinned"
 model = "aion-labs/aion-rp-llama-3.1-8b"
 pin = "pinned"
 
+["amazon/nova-2-lite"]
+model = "amazon/nova-2-lite-v1"
+pin = "pinned"
+
 ["amazon/nova-2-lite-v1"]
 model = "amazon/nova-2-lite-v1"
 pin = "pinned"
 
+["amazon/nova-lite"]
+model = "amazon/nova-lite-v1"
+pin = "pinned"
+
 ["amazon/nova-lite-v1"]
 model = "amazon/nova-lite-v1"
+pin = "pinned"
+
+["amazon/nova-micro"]
+model = "amazon/nova-micro-v1"
 pin = "pinned"
 
 ["amazon/nova-micro-v1"]
@@ -41,6 +53,10 @@ pin = "pinned"
 
 ["amazon/nova-premier-v1"]
 model = "amazon/nova-premier-v1"
+pin = "pinned"
+
+["amazon/nova-pro"]
+model = "amazon/nova-pro-v1"
 pin = "pinned"
 
 ["amazon/nova-pro-v1"]
@@ -179,8 +195,16 @@ pin = "pinned"
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
+["deepseek/deepseek-r1"]
+model = "deepseek/deepseek-r1"
+pin = "pinned"
+
 ["deepseek/deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
+pin = "pinned"
+
+["deepseek/deepseek-v3.1"]
+model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
 ["deepseek/deepseek-v3.1-terminus"]
@@ -253,6 +277,10 @@ pin = "pinned"
 
 ["google/gemini-2.5-pro-preview"]
 model = "google/gemini-2.5-pro-preview"
+pin = "pinned"
+
+["google/gemini-3-flash"]
+model = "google/gemini-3-flash-preview"
 pin = "pinned"
 
 ["google/gemini-3-flash-preview"]
@@ -375,6 +403,18 @@ pin = "pinned"
 model = "ibm-granite/granite-4.2-8b"
 pin = "pinned"
 
+["inception/mercury-2"]
+model = "inception/mercury-2"
+pin = "pinned"
+
+["inception/mercury-2.5"]
+model = "inception/mercury-2.5"
+pin = "pinned"
+
+["inception/mercury-3"]
+model = "inception/mercury-3"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
@@ -417,6 +457,10 @@ pin = "pinned"
 
 ["liquid/lfm-3-1.7b:free"]
 model = "liquid/lfm-3-1.7b:free"
+pin = "pinned"
+
+["liquid/lfm2.5-24b-a2b"]
+model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
 ["mancer/weaver"]
@@ -495,16 +539,36 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["meta/muse-wonder-1.0"]
+model = "meta/muse-wonder"
+pin = "pinned"
+
 ["microsoft/phi-4"]
 model = "microsoft/phi-4"
+pin = "pinned"
+
+["minimax/minimax-m2"]
+model = "minimax/minimax-m2"
+pin = "pinned"
+
+["minimax/minimax-m2.1"]
+model = "minimax/minimax-m2.1"
 pin = "pinned"
 
 ["minimax/minimax-m2.5"]
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
+["minimax/minimax-m2.5-highspeed"]
+model = "minimax/minimax-m2.5-highspeed"
+pin = "pinned"
+
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
+pin = "pinned"
+
+["minimax/minimax-m2.7-highspeed"]
+model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m3"]
@@ -631,6 +695,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["moonshotai/kimi-k3-fast"]
+model = "moonshotai/kimi-k3-fast"
+pin = "pinned"
+
 ["moonshotai/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
@@ -701,6 +769,14 @@ pin = "pinned"
 
 ["nvidia/nemotron-3.5-super-vl:free"]
 model = "nvidia/nemotron-3.5-super-vl:free"
+pin = "pinned"
+
+["nvidia/nemotron-nano-12b-v2-vl"]
+model = "nvidia/nemotron-nano-12b-v2-vl"
+pin = "pinned"
+
+["nvidia/nemotron-nano-9b-v2"]
+model = "nvidia/nemotron-nano-9b-v2"
 pin = "pinned"
 
 ["nvidia/switchyard"]
@@ -919,6 +995,10 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
+["openai/gpt-oss-safeguard-120b"]
+model = "openai/gpt-oss-safeguard-120b"
+pin = "pinned"
+
 ["openai/gpt-oss-safeguard-20b"]
 model = "openai/gpt-oss-safeguard-20b"
 pin = "pinned"
@@ -927,11 +1007,23 @@ pin = "pinned"
 model = "openai/o3"
 pin = "pinned"
 
+["openai/o3-mini"]
+model = "openai/o3-mini"
+pin = "pinned"
+
 ["openai/o3-pro"]
 model = "openai/o3-pro"
 pin = "pinned"
 
+["openai/o4-mini"]
+model = "openai/o4-mini"
+pin = "pinned"
+
 ["particle-ai/particle-1"]
+model = "particle-ai/particle-1"
+pin = "pinned"
+
+["particle/particle-1"]
 model = "particle-ai/particle-1"
 pin = "pinned"
 
@@ -977,6 +1069,10 @@ pin = "pinned"
 
 ["qwen/qwen-2.5-coder-32b-instruct"]
 model = "qwen/qwen-2.5-coder-32b-instruct"
+pin = "pinned"
+
+["qwen/qwen-3-14b"]
+model = "qwen/qwen3-14b"
 pin = "pinned"
 
 ["qwen/qwen-plus"]
@@ -1067,8 +1163,16 @@ pin = "pinned"
 model = "qwen/qwen3.5-9b"
 pin = "pinned"
 
+["qwen/qwen3.5-flash"]
+model = "alibaba/qwen3.5-flash"
+pin = "pinned"
+
 ["qwen/qwen3.5-flash-02-23"]
 model = "qwen/qwen3.5-flash-02-23"
+pin = "pinned"
+
+["qwen/qwen3.5-plus"]
+model = "alibaba/qwen3.5-plus"
 pin = "pinned"
 
 ["qwen/qwen3.5-plus-02-15"]
@@ -1118,6 +1222,10 @@ pin = "pinned"
 ["qwen/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
+
+["qwen/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
 
 ["qwen/qwen3.8-max-0902"]
 model = "qwen/qwen3.8-max-0902"
@@ -1215,6 +1323,10 @@ pin = "pinned"
 model = "tencent/hy-mt2-7b"
 pin = "pinned"
 
+["tencent/hy-mt2-plus"]
+model = "tencent/hy-mt2-7b"
+pin = "pinned"
+
 ["tencent/hy3"]
 model = "tencent/hy3"
 pin = "pinned"
@@ -1245,10 +1357,6 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
-pin = "pinned"
-
-["thinkingmachines/inkling-2-small:free"]
-model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/inkling-small"]
@@ -1292,6 +1400,10 @@ model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["x-ai/grok-4.20-multi-agent"]
+model = "x-ai/grok-4.20-multi-agent"
+pin = "pinned"
+
+["x-ai/grok-4.20-multi-agent-beta"]
 model = "x-ai/grok-4.20-multi-agent"
 pin = "pinned"
 

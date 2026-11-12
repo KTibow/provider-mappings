@@ -215,6 +215,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["google/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -225,6 +229,10 @@ pin = "pinned"
 
 ["google/gemini-omni-1.1-flash"]
 model = "google/gemini-omni-1.1-flash"
+pin = "pinned"
+
+["google/gemini-omni-1.2-flash"]
+model = "google/gemini-omni-1.2-flash"
 pin = "pinned"
 
 ["google/gemma-3-12b-it"]
@@ -293,6 +301,10 @@ pin = "pinned"
 
 ["meta-llama/llama-guard-4-12b"]
 model = "meta-llama/llama-guard-4-12b"
+pin = "pinned"
+
+["meta/muse-ember-1.0"]
+model = "meta/muse-ember"
 pin = "pinned"
 
 ["meta/muse-glimmer-30b"]
@@ -537,6 +549,14 @@ pin = "pinned"
 
 ["openai/gpt-image-2.5-sunburst"]
 model = "openai/gpt-image-2.5-sunburst"
+pin = "pinned"
+
+["openai/gpt-image-2.6-flare"]
+model = "openai/gpt-image-2.6-flare"
+pin = "pinned"
+
+["openai/gpt-image-2.6-sunburst"]
+model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
 ["openai/gpt-oss-120b"]

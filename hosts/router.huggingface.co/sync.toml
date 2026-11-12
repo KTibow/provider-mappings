@@ -15,6 +15,10 @@ pin = "pinned"
 model = "cohere/command-r7b-12-2024"
 pin = "pinned"
 
+["CohereLabs/command-a-plus-05-2026-bf16"]
+model = "cohere/command-a-plus"
+pin = "pinned"
+
 ["CohereLabs/command-a-plus-05-2026-fp8"]
 model = "cohere/command-a-plus"
 pin = "pinned"

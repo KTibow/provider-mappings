@@ -1238,10 +1238,6 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
-["thinkingmachines/inkling-2-small:free"]
-model = "thinkingmachines/inkling-2-small"
-pin = "pinned"
-
 ["thinkingmachines/inkling-small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"

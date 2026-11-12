@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
 ["cc/claude-fable-5-2"]
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
@@ -77,6 +81,14 @@ pin = "pinned"
 
 ["deepseek-v4.1-flash-uncensored"]
 model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+
+["gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["glm-5.3-flash"]
@@ -157,6 +169,26 @@ pin = "pinned"
 
 ["hy3"]
 model = "tencent/hy3"
+pin = "pinned"
+
+["hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["minimax-m3"]
+model = "minimax/minimax-m3"
+pin = "pinned"
+
+["minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["nano-banana-2"]

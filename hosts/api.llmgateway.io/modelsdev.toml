@@ -842,6 +842,14 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
+["flexai/mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["flexai/minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["fugu-max"]
 model = "sakana/fugu-max"
 pin = "pinned"

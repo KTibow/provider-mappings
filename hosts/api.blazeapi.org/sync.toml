@@ -43,11 +43,6 @@ model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 quant = "fp16"
 
-["claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-quant = "fp16"
-
 ["claude-opus-4.6"]
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
@@ -320,11 +315,6 @@ quant = "fp16"
 
 ["glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-quant = "fp16"
-
-["glm-5.3-prime"]
-model = "z-ai/glm-5.3-prime"
 pin = "pinned"
 quant = "fp16"
 
@@ -688,11 +678,6 @@ model = "qwen/qwen3-32b"
 pin = "pinned"
 quant = "fp16"
 
-["qwen3-6-35b-a3b"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-quant = "fp16"
-
 ["qwen3-coder"]
 model = "qwen/qwen3-coder"
 pin = "pinned"
@@ -718,21 +703,6 @@ model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
 quant = "fp16"
 
-["qwen3.5-397b-a17b"]
-model = "qwen/qwen3.5-397b-a17b"
-pin = "pinned"
-quant = "fp16"
-
-["qwen3.6-27b"]
-model = "qwen/qwen3.6-27b"
-pin = "pinned"
-quant = "fp16"
-
-["qwen3.7-flash"]
-model = "qwen/qwen3.7-flash"
-pin = "pinned"
-quant = "fp16"
-
 ["qwen3.8-2.4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
@@ -740,11 +710,6 @@ quant = "fp16"
 
 ["qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-quant = "fp16"
-
-["qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
 pin = "pinned"
 quant = "fp16"
 
@@ -1017,8 +982,3 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
-
-["xiaomi-mimo-v2-5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-quant = "fp16"

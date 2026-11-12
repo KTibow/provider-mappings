@@ -3,6 +3,14 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["mercury-2"]
+model = "inception/mercury-2"
+pin = "pinned"
+
+["mercury-2.5"]
+model = "inception/mercury-2.5"
+pin = "pinned"
+
 ["mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"

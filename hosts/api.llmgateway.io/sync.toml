@@ -535,6 +535,10 @@ pin = "pinned"
 model = "typesafe/jev-1.14"
 pin = "pinned"
 
+["jev-latest"]
+model = "~typesafe/jev-latest"
+pin = "floating"
+
 ["kimi-k2"]
 model = "moonshotai/kimi-k2"
 pin = "pinned"

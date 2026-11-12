@@ -51,6 +51,10 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
+["claude-haiku-5-5:free"]
+model = "anthropic/claude-haiku-5.5:free"
+pin = "pinned"
+
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
@@ -159,6 +163,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["deepseek-v4-flash:free"]
+model = "deepseek/deepseek-v4-flash:free"
+pin = "pinned"
+
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -173,14 +181,6 @@ pin = "pinned"
 
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
-["deepseek-v4.1-flash-1017:free"]
-model = "deepseek/deepseek-v4.1-flash-1017:free"
-pin = "pinned"
-
-["deepseek-v4.1-flash:free"]
-model = "deepseek/deepseek-v4.1-flash:free"
 pin = "pinned"
 
 ["dots-3-note-preview:free"]
@@ -215,24 +215,12 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
-["gemini-2.5-flash-lite:free"]
-model = "google/gemini-2.5-flash-lite:free"
-pin = "pinned"
-
-["gemini-2.5-flash:free"]
-model = "google/gemini-2.5-flash:free"
-pin = "pinned"
-
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
 
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
-pin = "pinned"
-
-["gemini-3-flash:free"]
-model = "google/gemini-3-flash-preview:free"
 pin = "pinned"
 
 ["gemini-3-pro-image"]
@@ -301,10 +289,6 @@ pin = "pinned"
 
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
-pin = "pinned"
-
-["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it:free"
 pin = "pinned"
 
 ["glm-4.5"]
@@ -463,6 +447,14 @@ pin = "pinned"
 model = "liquid/lfm-2.5-embedding-350m:free"
 pin = "pinned"
 
+["ling-3.1-flash:free"]
+model = "inclusionai/ling-3.1-flash:free"
+pin = "pinned"
+
+["llama-3.2-3b:free"]
+model = "meta-llama/llama-3.2-3b-instruct:free"
+pin = "pinned"
+
 ["llama-4-scout:free"]
 model = "meta-llama/llama-4-scout:free"
 pin = "pinned"
@@ -493,14 +485,6 @@ pin = "pinned"
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
-pin = "pinned"
-
-["minimax-m3.1-flash:free"]
-model = "minimax/minimax-m3.1-flash:free"
-pin = "pinned"
-
-["minimax-m3:free"]
-model = "minimax/minimax-m3:free"
 pin = "pinned"
 
 ["mistral-large-3"]
@@ -545,6 +529,10 @@ pin = "pinned"
 
 ["qwen2.5-vl-72b-instruct:free"]
 model = "qwen/qwen2.5-vl-72b-instruct:free"
+pin = "pinned"
+
+["qwen3-30b-a3b:free"]
+model = "qwen/qwen3-30b-a3b:free"
 pin = "pinned"
 
 ["qwen3-embedding-8b:free"]

@@ -279,10 +279,6 @@ pin = "pinned"
 model = "meta/muse-spark-1.3-contributor"
 pin = "pinned"
 
-["muse-spark-1-3-contributor:free"]
-model = "meta/muse-spark-1.3-contributor:free"
-pin = "pinned"
-
 ["muse-spark-open"]
 model = "meta/muse-spark-open"
 pin = "pinned"

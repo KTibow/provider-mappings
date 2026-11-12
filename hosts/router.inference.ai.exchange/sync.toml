@@ -283,10 +283,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro-0813:thinking"
 pin = "pinned"
 
-["deepseek-v4-pro:thinking"]
-model = "deepseek/deepseek-v4-pro:thinking"
-pin = "pinned"
-
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -847,10 +843,6 @@ pin = "pinned"
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
-["grok-4.20-0309-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
 ["grok-4.20-multi-agent"]
 model = "x-ai/grok-4.20-multi-agent"
 pin = "pinned"
@@ -861,6 +853,10 @@ pin = "pinned"
 
 ["grok-4.7"]
 model = "x-ai/grok-4.7"
+pin = "pinned"
+
+["grok-imagine-image"]
+model = "x-ai/grok-imagine-image"
 pin = "pinned"
 
 ["grok-imagine-image-2-0"]
@@ -1211,6 +1207,10 @@ pin = "pinned"
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
+["nano-banana-2"]
+model = "google/gemini-3.1-flash-image-preview"
+pin = "pinned"
+
 ["nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
@@ -1292,10 +1292,6 @@ model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["o3"]
-model = "openai/o3"
-pin = "pinned"
-
-["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 
@@ -1381,6 +1377,10 @@ pin = "pinned"
 
 ["qwen-2.5-72b-instruct"]
 model = "qwen/qwen-2.5-72b-instruct"
+pin = "pinned"
+
+["qwen-image"]
+model = "qwen/qwen-image"
 pin = "pinned"
 
 ["qwen-plus"]
@@ -1695,8 +1695,8 @@ pin = "pinned"
 model = "upstage/solar-pro4:thinking"
 pin = "pinned"
 
-["sonar"]
-model = "perplexity/sonar"
+["sonar-pro"]
+model = "perplexity/sonar-pro"
 pin = "pinned"
 
 ["stable-diffusion-3.5-large"]
