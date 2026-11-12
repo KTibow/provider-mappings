@@ -55,7 +55,7 @@ for (const f of [LOCK_FILE]) {
 
 // 2. Host keys.
 for (const host of files.keys()) {
-  if (!isHostKey(host)) errors.push(`hosts/${host}: not a normalized host key (lowercase hostname, no scheme, port, path or "www.")`)
+  if (!isHostKey(host)) errors.push(`hosts/${host}: not a normalized host key (lowercase hostname, no scheme, port or path)`)
   if (aliases.has(host)) errors.push(`hosts/${host}: is an alias of ${aliases.get(host)}; move its rows there`)
 }
 
