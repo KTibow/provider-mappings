@@ -9,10 +9,9 @@ publishes merged JSON.
 
 ## Use it
 
-```
-https://<owner>.github.io/provider-mappings/model-hosts.json
-https://<owner>.github.io/provider-mappings/models.json
-```
+The published site is the website link in this repository's sidebar. The data is
+at `model-hosts.json` and `models.json` under it (the other files below sit next to
+them).
 
 The site has two searchable views:
 - **Models**: who serves each model, and the exact id to send.
