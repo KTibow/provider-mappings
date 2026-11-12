@@ -1646,10 +1646,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["flexai/MiniMax-M2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
 ["flexai/MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
@@ -1688,10 +1684,6 @@ pin = "pinned"
 
 ["flexai/Qwen3.8-Flash-Next"]
 model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
-["flexai/Step-3.7-Flash"]
-model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["flexai/gemma-4-26B-A4B-it"]
@@ -3113,6 +3105,34 @@ pin = "pinned"
 
 ["together_ai/zai-org/GLM-5.3-Flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["tsystems/GLM-5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["tsystems/GLM-5.3-Flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["tsystems/Mistral-Small-4-119B-2603"]
+model = "mistralai/mistral-small-2603"
+pin = "pinned"
+
+["tsystems/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"]
+model = "nvidia/nemotron-3-super-120b-a12b"
+pin = "pinned"
+
+["tsystems/Qwen3.6-35B-A3B-FP8"]
+model = "qwen/qwen3.6-35b-a3b"
+pin = "pinned"
+
+["tsystems/gemma-4-31B-it-FP8"]
+model = "google/gemma-4-31b-it"
+pin = "pinned"
+
+["tsystems/gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["vertex/claude-fable-5"]

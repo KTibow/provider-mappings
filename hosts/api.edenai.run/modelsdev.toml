@@ -582,10 +582,6 @@ pin = "pinned"
 model = "meta/muse-glimmer-30b"
 pin = "pinned"
 
-["flexai/Step-3.7-Flash"]
-model = "stepfun/step-3.7-flash"
-pin = "pinned"
-
 ["flexai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -1284,6 +1280,10 @@ pin = "pinned"
 
 ["together_ai/thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["tsystems/gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["vertex/gemini-2.5-flash-image"]

@@ -19,14 +19,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["kimi-k3-fast"]
-model = "moonshotai/kimi-k3-fast"
-pin = "pinned"
-
 ["kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

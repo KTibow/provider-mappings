@@ -2,10 +2,6 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["Qwen3.8-27B"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
 ["alibaba/deepseek-v4-flash"]
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
@@ -654,10 +650,6 @@ pin = "pinned"
 model = "mistralai/codestral-2508"
 pin = "pinned"
 
-["consensusprotocol/Qwen3.8-27B"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
 ["consensusprotocol/deepseek-v4-flash"]
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
@@ -680,6 +672,10 @@ pin = "pinned"
 
 ["consensusprotocol/gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
+pin = "pinned"
+
+["consensusprotocol/qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["deepinfra/deepseek-v3.2"]
@@ -1972,6 +1968,10 @@ pin = "pinned"
 
 ["qwen3.8-2.4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
+pin = "pinned"
+
+["qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["qwen3.8-flash"]

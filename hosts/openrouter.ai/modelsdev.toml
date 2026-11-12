@@ -1262,6 +1262,10 @@ pin = "pinned"
 model = "unbiased/pareto-26.10"
 pin = "pinned"
 
+["unbiased/pareto-26.10-preview"]
+model = "unbiased/pareto-26.10-preview"
+pin = "pinned"
+
 ["unbiased/pareto-26.9"]
 model = "unbiased/pareto-26.9"
 pin = "pinned"

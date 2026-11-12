@@ -355,6 +355,10 @@ pin = "pinned"
 model = "fireworks/ember-1"
 pin = "pinned"
 
+["ernie-light-dt-1.0-intl"]
+model = "baidu/ernie-light-dt-1.0-intl"
+pin = "pinned"
+
 ["flux-2-klein-4b"]
 model = "black-forest-labs/flux.2-klein-4b"
 pin = "pinned"
@@ -795,10 +799,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio-2025-08-28"]
-model = "openai/gpt-audio"
-pin = "pinned"
-
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -844,6 +844,10 @@ model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
 ["grok-4.20"]
+model = "x-ai/grok-4.20"
+pin = "pinned"
+
+["grok-4.20-0309-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
@@ -1111,10 +1115,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistral-large-4.0"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1169,6 +1169,10 @@ pin = "pinned"
 
 ["moondream3.1-9b-a2b"]
 model = "moondream/moondream3.1-9b-a2b"
+pin = "pinned"
+
+["muse-ember"]
+model = "meta/muse-ember"
 pin = "pinned"
 
 ["muse-glimmer-30b"]
@@ -1288,6 +1292,10 @@ model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["o3"]
+model = "openai/o3"
+pin = "pinned"
+
+["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 
@@ -1691,20 +1699,12 @@ pin = "pinned"
 model = "perplexity/sonar"
 pin = "pinned"
 
-["sonar-pro"]
-model = "perplexity/sonar-pro"
-pin = "pinned"
-
 ["stable-diffusion-3.5-large"]
 model = "stabilityai/stable-diffusion-3.5-large"
 pin = "pinned"
 
 ["step-3.5-flash"]
 model = "stepfun/step-3.5-flash"
-pin = "pinned"
-
-["step-3.7-flash"]
-model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-3.7-flash:thinking"]
@@ -1741,10 +1741,6 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
-pin = "pinned"
-
-["veo3.1-lite"]
-model = "google/veo-3.1-lite"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

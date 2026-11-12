@@ -407,6 +407,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["Qwen 3.8 Flash"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
 ["Qwen 3.8 Max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
@@ -641,10 +645,6 @@ pin = "pinned"
 
 ["meta/llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
 ["mistral-31-24b"]

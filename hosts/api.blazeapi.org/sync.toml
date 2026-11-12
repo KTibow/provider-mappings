@@ -78,11 +78,6 @@ model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 quant = "fp16"
 
-["claude-sonnet-4.5"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-quant = "fp16"
-
 ["claude-sonnet-4.6"]
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
@@ -360,6 +355,11 @@ quant = "fp16"
 
 ["gpt-5.2"]
 model = "openai/gpt-5.2"
+pin = "pinned"
+quant = "fp16"
+
+["gpt-5.3-codex"]
+model = "openai/gpt-5.3-codex"
 pin = "pinned"
 quant = "fp16"
 

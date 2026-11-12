@@ -395,6 +395,10 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["gemini/gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
 ["gemini/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
@@ -461,14 +465,6 @@ pin = "pinned"
 
 ["groq/whisper-large-v3-turbo"]
 model = "openai/whisper-large-v3-turbo"
-pin = "pinned"
-
-["kr/claude-opus-5.5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["kr/claude-sonnet-5.5"]
-model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["minimax/MiniMax-M3.1-Flash"]

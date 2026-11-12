@@ -175,6 +175,10 @@ pin = "pinned"
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
 
+["ernie-5.5-flash-preview-free"]
+model = "baidu/ernie-5.5-flash-preview"
+pin = "pinned"
+
 ["flint-v1.0-free"]
 model = "recursive/flint-v1.0"
 pin = "pinned"
