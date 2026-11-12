@@ -795,6 +795,10 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
+["gpt-audio-2025-08-28"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -1683,6 +1687,10 @@ pin = "pinned"
 model = "upstage/solar-pro4:thinking"
 pin = "pinned"
 
+["sonar"]
+model = "perplexity/sonar"
+pin = "pinned"
+
 ["sonar-pro"]
 model = "perplexity/sonar-pro"
 pin = "pinned"
@@ -1733,6 +1741,10 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+pin = "pinned"
+
+["veo3.1-lite"]
+model = "google/veo-3.1-lite"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

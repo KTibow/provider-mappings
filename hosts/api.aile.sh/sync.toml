@@ -915,6 +915,10 @@ pin = "pinned"
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
+["orcarouter/openai/gpt-4.1-nano"]
+model = "openai/gpt-4.1-nano"
+pin = "pinned"
+
 ["orcarouter/openai/gpt-4o-mini"]
 model = "openai/gpt-4o-mini"
 pin = "pinned"
@@ -951,6 +955,10 @@ pin = "pinned"
 model = "qwen/qwen3.5-35b-a3b"
 pin = "pinned"
 
+["orcarouter/qwen/qwen3.5-397b-a17b"]
+model = "qwen/qwen3.5-397b-a17b"
+pin = "pinned"
+
 ["orcarouter/qwen/qwen3.5-flash"]
 model = "alibaba/qwen3.5-flash"
 pin = "pinned"
@@ -973,6 +981,10 @@ pin = "pinned"
 
 ["orcarouter/xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["orcarouter/xiaomi/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["orcarouter/z-ai/glm-5.3-flash"]

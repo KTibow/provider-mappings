@@ -91,6 +91,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["elorian-labs/glimpse-1.0"]
+model = "elorian/glimpse"
+pin = "pinned"
+
 ["flux2_pro"]
 model = "black-forest-labs/flux.2-pro"
 pin = "pinned"
@@ -149,6 +153,10 @@ pin = "pinned"
 
 ["gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-decision-1"]
+model = "google/gemini-decision-1"
 pin = "pinned"
 
 ["gemini-nano-banana-2.1"]

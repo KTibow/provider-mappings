@@ -667,6 +667,22 @@ pin = "pinned"
 model = "black-forest-labs/flux-3-video"
 pin = "pinned"
 
+["fw/ember-1"]
+model = "fireworks/ember-1"
+pin = "pinned"
+
+["fw/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["fw/minimax-m3"]
+model = "minimax/minimax-m3"
+pin = "pinned"
+
+["fw/muse-spark-open"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
 ["gemini-2.5-flash-image"]
 model = "google/gemini-2.5-flash-image"
 pin = "pinned"

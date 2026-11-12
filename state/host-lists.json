@@ -23,6 +23,7 @@
  "api.cortecs.ai": "https://api.cortecs.ai/v1/models",
  "api.deepinfra.com": "https://api.deepinfra.com/v1/openai/models",
  "api.edenai.run": "https://api.edenai.run/v3/models",
+ "api.empiriolabs.ai": "https://api.empiriolabs.ai/v1/models",
  "api.engy.ai": "https://api.engy.ai/v1/models",
  "api.eu.munito.ai": "https://api.eu.munito.ai/inference/v1/models",
  "api.fastino.ai": "https://api.fastino.ai/v1/models",
@@ -105,5 +106,6 @@
  "softforge.cc": "https://softforge.cc/v1/models",
  "us.api.deepinfra.com": "https://us.api.deepinfra.com/v1/models",
  "us.pass.wafer.ai": "https://us.pass.wafer.ai/v1/models",
+ "www.xpersona.co": "https://www.xpersona.co/v1/models",
  "zenmux.ai": "https://zenmux.ai/api/v1/models"
 }

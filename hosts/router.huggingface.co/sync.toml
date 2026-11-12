@@ -59,10 +59,6 @@ pin = "pinned"
 model = "qwen/qwen3-32b"
 pin = "pinned"
 
-["Qwen/Qwen3-Next-80B-A3B-Instruct"]
-model = "qwen/qwen3-next-80b-a3b-instruct"
-pin = "pinned"
-
 ["Qwen/Qwen3-VL-235B-A22B-Instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
@@ -313,6 +309,10 @@ pin = "pinned"
 
 ["tencent/Hy4-preview"]
 model = "tencent/hy4-preview"
+pin = "pinned"
+
+["thinkingmachines/Inkling"]
+model = "thinkingmachines/inkling"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-Small"]
