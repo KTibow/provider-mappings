@@ -1,0 +1,8 @@
+# Native ids api.vikey.ai is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+glm/glm-5.3-flash
+qwen/qwen3.8-max
+xiaomi/mimo-v2.6-pro
+zai/glm-5.3

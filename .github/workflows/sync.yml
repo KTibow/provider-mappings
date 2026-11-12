@@ -1,0 +1,97 @@
+name: sync
+
+on:
+  schedule:
+    - cron: '17 * * * *' # hourly
+  workflow_dispatch:
+  push:
+    branches: [main] # merged PRs: rebuild and republish only
+
+permissions: {}
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      # Always the tip of main: a run queued behind an hourly sync must not
+      # publish the older commit that triggered it.
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: pnpm/setup@v3
+        with:
+          require-lockfile: true
+
+      # A failing source keeps its last good rows; the job still commits what
+      # the other sources found, then fails at the end so someone notices.
+      - name: Sync
+        id: sync
+        if: github.event_name != 'push'
+        continue-on-error: true
+        # A sync killed here may leave half-written host files that validate rejects;
+        # then this hour commits nothing and the next run starts over.
+        timeout-minutes: 30
+        run: node sync/all.ts
+
+      - name: Build
+        run: node build.ts
+
+      - name: Validate
+        run: node validate.ts --base HEAD
+
+      - name: Commit
+        if: github.event_name != 'push'
+        run: |
+          msg="$(node summary.ts)"
+          if [ -z "$(git status --porcelain -- hosts state upstream.lock)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A hosts state upstream.lock
+          git commit --quiet -m "$msg"
+          git pull --rebase --quiet origin main
+          git push --quiet origin HEAD:main
+          git log -1 --format=%B
+
+      # Again, so meta.json names the commit just made.
+      - name: Rebuild
+        run: node build.ts
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+      # The data above is committed and published either way; these only turn the
+      # run red so someone looks.
+      - name: Fail if hand-maintained files are stale
+        if: ${{ !cancelled() }}
+        run: node validate.ts --strict --base HEAD
+
+      - name: Fail if a source failed
+        if: ${{ !cancelled() && steps.sync.outcome == 'failure' }}
+        run: |
+          echo "::error::At least one sync failed; its previous rows were kept. See the Sync step."
+          exit 1
+
+  deploy:
+    needs: update
+    if: always() && needs.update.result != 'cancelled'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5

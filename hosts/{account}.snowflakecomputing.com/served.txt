@@ -1,0 +1,19 @@
+# Native ids {account}.snowflakecomputing.com is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+claude-haiku-4-5
+claude-opus-4-5
+claude-opus-4-6
+claude-opus-4-7
+claude-opus-4-8
+claude-opus-5
+claude-sonnet-4-5
+claude-sonnet-4-6
+claude-sonnet-5
+openai-gpt-5-mini
+openai-gpt-5-nano
+openai-gpt-5.2
+openai-gpt-5.4
+openai-gpt-5.4-mini
+openai-gpt-5.5

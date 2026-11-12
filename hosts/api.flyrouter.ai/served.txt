@@ -1,0 +1,25 @@
+# Native ids api.flyrouter.ai is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+claude-fable-5
+claude-fable-5-1
+claude-haiku-4-5
+claude-haiku-5-5
+claude-opus-4-6
+claude-opus-4-7
+claude-opus-4-8
+claude-opus-5
+claude-opus-5-5
+claude-sonnet-4-6
+claude-sonnet-5
+claude-sonnet-5-5
+gemini-4-argon
+gpt-5.6-luna
+gpt-5.6-sol
+gpt-5.6-terra
+gpt-6-astra
+gpt-6-luna
+gpt-6-sol
+gpt-6.1-sol
+gpt-6.1-terra

@@ -1,0 +1,35 @@
+# Hand-maintained mappings for api.uncensored.com; highest precedence.
+# Checked against https://api.uncensored.com/api/v1/models?type=all.
+
+# The host's own video products ("owned_by": "uncensored"; names like
+# "Text-to-Video Turbo", "AV Gen"), which say nothing about the model behind
+# them, so each is its own model id.
+["av-gen"]
+model = "uncensored-ai/uncensored-av-gen"
+
+["i2v-pro"]
+model = "uncensored-ai/uncensored-i2v-pro"
+
+["i2v-standard"]
+model = "uncensored-ai/uncensored-i2v-standard"
+
+["i2v-turbo"]
+model = "uncensored-ai/uncensored-i2v-turbo"
+
+["t2v-standard"]
+model = "uncensored-ai/uncensored-t2v-standard"
+
+["t2v-turbo"]
+model = "uncensored-ai/uncensored-t2v-turbo"
+
+# "LTX Distilled" and "WAN 2.2 Ultra-Fast T2V": which LTX version and which
+# Wan 2.2 size isn't said, so not filed under a Lightricks or Alibaba model.
+["ltx-distilled"]
+model = "uncensored-ai/uncensored-ltx-distilled"
+
+["wan-2.2-ultra-fast-t2v"]
+model = "uncensored-ai/uncensored-wan-2.2-ultra-fast"
+
+# "Grok Imagine Reference-to-Video": one operation of xAI's Grok Imagine video model.
+["grok-imagine-video-reference"]
+model = "x-ai/grok-imagine-video:reference-to-video"

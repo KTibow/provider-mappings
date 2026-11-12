@@ -1,0 +1,7 @@
+# Hand-maintained mappings for api.mor.org; highest precedence.
+
+# A Venice id Venice has since retired. mor.org registered it in December 2025,
+# after Qwen split Qwen3-235B into Instruct-2507 and Thinking-2507, and tags it
+# without "Reasoning" (its "Qwen 3 235B A22B Thinking 2507" has that tag).
+["qwen3-235b"]
+model = "qwen/qwen3-235b-a22b-2507"

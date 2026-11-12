@@ -1,0 +1,54 @@
+# Native ids bedrock-mantle.{region}.api.aws is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+anthropic.claude-fable-5
+anthropic.claude-haiku-4-5
+anthropic.claude-opus-4-7
+anthropic.claude-opus-4-8
+anthropic.claude-sonnet-5
+deepseek.v3.1
+deepseek.v3.2
+google.gemma-3-12b-it
+google.gemma-3-27b-it
+google.gemma-3-4b-it
+google.gemma-4-26b-a4b
+google.gemma-4-31b
+google.gemma-4-e2b
+minimax.minimax-m2
+minimax.minimax-m2.1
+minimax.minimax-m2.5
+mistral.devstral-2-123b
+mistral.magistral-small-2509
+mistral.ministral-3-14b-instruct
+mistral.ministral-3-3b-instruct
+mistral.ministral-3-8b-instruct
+mistral.mistral-large-3-675b-instruct
+moonshotai.kimi-k2-thinking
+moonshotai.kimi-k2.5
+nvidia.nemotron-nano-12b-v2
+nvidia.nemotron-nano-3-30b
+nvidia.nemotron-nano-9b-v2
+nvidia.nemotron-super-3-120b
+openai.gpt-5.4
+openai.gpt-5.5
+openai.gpt-5.6-luna
+openai.gpt-5.6-sol
+openai.gpt-5.6-terra
+openai.gpt-oss-120b
+openai.gpt-oss-20b
+openai.gpt-oss-safeguard-120b
+openai.gpt-oss-safeguard-20b
+qwen.qwen3-235b-a22b-2507
+qwen.qwen3-32b
+qwen.qwen3-coder-30b-a3b-instruct
+qwen.qwen3-coder-480b-a35b-instruct
+qwen.qwen3-coder-next
+qwen.qwen3-next-80b-a3b-instruct
+qwen.qwen3-vl-235b-a22b-instruct
+writer.palmyra-vision-7b
+xai.grok-4.3
+zai.glm-4.6
+zai.glm-4.7
+zai.glm-4.7-flash
+zai.glm-5

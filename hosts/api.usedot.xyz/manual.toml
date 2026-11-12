@@ -1,0 +1,11 @@
+# Hand-maintained mappings for api.usedot.xyz; highest precedence.
+#
+# Dot prefixes the open models it hosts with "dot-" (https://api.usedot.xyz/agent/v1/models).
+# Not a rule for every "dot-" id: the same list has its own fine-tunes
+# ("dot-uncensored-obli-24B", "dot-qwen-3.6-plus-uncensored").
+
+["dot-glm-5-2"]
+model = "z-ai/glm-5.2"
+
+["dot-glm-5-3"]
+model = "z-ai/glm-5.3"

@@ -1,0 +1,11 @@
+# Native ids api.akashml.com is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+Qwen/Qwen3.5-35B-A3B
+Qwen/Qwen3.6-35B-A3B
+black-forest-labs/FLUX.2-klein-4B
+deepseek-ai/DeepSeek-V4-Flash
+deepseek-ai/DeepSeek-V4-Flash-0731
+meta-llama/Llama-3.3-70B-Instruct
+zai-org/GLM-5.2

@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 2 # the PR merge commit and its base
+      - uses: pnpm/setup@v3
+        with:
+          require-lockfile: true
+      - run: pnpm typecheck
+      - run: pnpm test
+      # HEAD is the merge commit; HEAD^1 is the base branch it merges into.
+      - run: node validate.ts --base HEAD^1
+      - run: node build.ts

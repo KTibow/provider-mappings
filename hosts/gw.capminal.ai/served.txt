@@ -1,0 +1,35 @@
+# Native ids gw.capminal.ai is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+claude-fable-5
+claude-haiku-4.5
+claude-opus-4.8
+claude-opus-5
+claude-opus-5.5
+claude-sonnet-4.6
+claude-sonnet-5
+deepseek-v4-flash
+deepseek-v4.1-flash
+gemini-3.1-pro-preview
+glm-5.2
+glm-5.3
+gpt-5.4-mini
+gpt-5.5
+gpt-5.6-luna
+gpt-5.6-luna-pro
+gpt-5.6-sol
+gpt-5.6-sol-pro
+gpt-5.6-terra
+gpt-5.6-terra-pro
+gpt-6-luna
+gpt-6-sol
+gpt-6.1-sol
+grok-4.3
+grok-4.5
+kimi-k2.6
+kimi-k2.7-code
+kimi-k3
+kimi-k3.1-pro
+minimax-m3
+openrouter/mimo-v2.5

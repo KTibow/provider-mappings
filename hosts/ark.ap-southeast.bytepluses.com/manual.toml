@@ -1,0 +1,26 @@
+# Hand-maintained mappings for ark.ap-southeast.bytepluses.com (BytePlus
+# ModelArk); highest precedence. No keyless model list; ids end in the
+# release date as YYMMDD, with "-ga-" for general-availability releases.
+# BytePlus deactivates old dates and answers them with a different model, so
+# check https://docs.byteplus.com/en/docs/ModelArk/model-deprecation-notice
+# before adding one.
+
+# DeepSeek V4 Flash and Pro as first released (April 2026).
+["deepseek-v4-flash-260425"]
+model = "deepseek/deepseek-v4-flash"
+
+["deepseek-v4-pro-260425"]
+model = "deepseek/deepseek-v4-pro"
+
+# The later checkpoints, dated like OpenRouter's ids.
+["deepseek-v4-flash-ga-260731"]
+model = "deepseek/deepseek-v4-flash-0731"
+
+["deepseek-v4-pro-ga-260813"]
+model = "deepseek/deepseek-v4-pro-0813"
+
+["deepseek-v4-1-flash-261017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+
+["glm-5-2-260617"]
+model = "z-ai/glm-5.2"

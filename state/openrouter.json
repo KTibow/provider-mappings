@@ -1,0 +1,499 @@
+{
+  "conflicts": [
+    {
+      "chosen": {
+        "model": "mistralai/mistral-large-2407",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.eu.mistral.ai",
+      "id": "mistral-large-2407",
+      "others": [
+        {
+          "model": "mistralai/mistral-large",
+          "note": "mistralai/mistral-large",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "mistralai/mistral-large-2407",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.mistral.ai",
+      "id": "mistral-large-2407",
+      "others": [
+        {
+          "model": "mistralai/mistral-large",
+          "note": "mistralai/mistral-large",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "(none published)",
+        "note": "several OpenRouter models list this id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-5-2025-08-07",
+      "others": [
+        {
+          "model": "openai/gpt-5",
+          "note": "openai/gpt-5-2025-08-07",
+          "source": "openrouter"
+        },
+        {
+          "model": "openai/gpt-5-image",
+          "note": "openai/gpt-5-image",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "(none published)",
+        "note": "several OpenRouter models list this id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-5-mini-2025-08-07",
+      "others": [
+        {
+          "model": "openai/gpt-5-image-mini",
+          "note": "openai/gpt-5-image-mini",
+          "source": "openrouter"
+        },
+        {
+          "model": "openai/gpt-5-mini",
+          "note": "openai/gpt-5-mini-2025-08-07",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "(none published)",
+        "note": "several OpenRouter models list this id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-5.4-2026-03-05",
+      "others": [
+        {
+          "model": "openai/gpt-5.4",
+          "note": "openai/gpt-5.4-20260305",
+          "source": "openrouter"
+        },
+        {
+          "model": "openai/gpt-5.4-image-2",
+          "note": "openai/gpt-5.4-image-2-20260421",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-5.6-luna",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-5.6-luna",
+      "others": [
+        {
+          "model": "openai/gpt-5.6-luna-pro",
+          "note": "openai/gpt-5.6-luna-pro-20260709",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-5.6-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-5.6-sol",
+      "others": [
+        {
+          "model": "openai/gpt-5.6-sol-pro",
+          "note": "openai/gpt-5.6-sol-pro-20260709",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-5.6-terra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-5.6-terra",
+      "others": [
+        {
+          "model": "openai/gpt-5.6-terra-pro",
+          "note": "openai/gpt-5.6-terra-pro-20260709",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-astra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-6-astra",
+      "others": [
+        {
+          "model": "openai/gpt-6-astra-pro",
+          "note": "openai/gpt-6-astra-pro-20260903",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-luna",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-6-luna",
+      "others": [
+        {
+          "model": "openai/gpt-6-luna-decisions",
+          "note": "openai/gpt-6-luna-decisions-20261006",
+          "source": "openrouter"
+        },
+        {
+          "model": "openai/gpt-6-luna-pro",
+          "note": "openai/gpt-6-luna-pro-20260922",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-6-sol",
+      "others": [
+        {
+          "model": "openai/gpt-6-sol-pro",
+          "note": "openai/gpt-6-sol-pro-20260922",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6.1-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-6.1-sol",
+      "others": [
+        {
+          "model": "openai/gpt-6.1-sol-pro",
+          "note": "openai/gpt-6.1-sol-pro-20260929",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6.1-terra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.openai.com",
+      "id": "gpt-6.1-terra",
+      "others": [
+        {
+          "model": "openai/gpt-6.1-terra-pro",
+          "note": "openai/gpt-6.1-terra-pro-20261026",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "perplexity/sonar-pro",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "api.perplexity.ai",
+      "id": "sonar-pro",
+      "others": [
+        {
+          "model": "perplexity/sonar-pro-search",
+          "note": "perplexity/sonar-pro-search",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "z-ai/glm-5.3-prime",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{account}.ap-southeast-1.maas.aliyuncs.com",
+      "id": "glm-5.3-prime",
+      "others": [
+        {
+          "model": "z-ai/glm-5.3",
+          "note": "z-ai/glm-5.3-20260816",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-5.6-luna",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-5.6-luna",
+      "others": [
+        {
+          "model": "openai/gpt-5.6-luna-pro",
+          "note": "openai/gpt-5.6-luna-pro-20260709",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-5.6-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-5.6-sol",
+      "others": [
+        {
+          "model": "openai/gpt-5.6-sol-pro",
+          "note": "openai/gpt-5.6-sol-pro-20260709",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-5.6-terra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-5.6-terra",
+      "others": [
+        {
+          "model": "openai/gpt-5.6-terra-pro",
+          "note": "openai/gpt-5.6-terra-pro-20260709",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-astra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-6-astra",
+      "others": [
+        {
+          "model": "openai/gpt-6-astra-pro",
+          "note": "openai/gpt-6-astra-pro-20260903",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-luna",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-6-luna",
+      "others": [
+        {
+          "model": "openai/gpt-6-luna-pro",
+          "note": "openai/gpt-6-luna-pro-20260922",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-6-sol",
+      "others": [
+        {
+          "model": "openai/gpt-6-sol-pro",
+          "note": "openai/gpt-6-sol-pro-20260922",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6.1-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-6.1-sol",
+      "others": [
+        {
+          "model": "openai/gpt-6.1-sol-pro",
+          "note": "openai/gpt-6.1-sol-pro-20260929",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6.1-terra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-6.1-terra",
+      "others": [
+        {
+          "model": "openai/gpt-6.1-terra-pro",
+          "note": "openai/gpt-6.1-terra-pro-20261026",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "(none published)",
+        "note": "several OpenRouter models list this id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.cognitiveservices.azure.com",
+      "id": "gpt-6.1-terra-dz",
+      "others": [
+        {
+          "model": "openai/gpt-6.1-terra",
+          "note": "openai/gpt-6.1-terra-20261026",
+          "source": "openrouter"
+        },
+        {
+          "model": "openai/gpt-6.1-terra-pro",
+          "note": "openai/gpt-6.1-terra-pro-20261026",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-4o",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.openai.azure.com",
+      "id": "gpt-4o",
+      "others": [
+        {
+          "model": "openai/gpt-4o-2024-05-13",
+          "note": "openai/gpt-4o-2024-05-13",
+          "source": "openrouter"
+        },
+        {
+          "model": "openai/gpt-4o-2024-08-06",
+          "note": "openai/gpt-4o-2024-08-06",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-astra",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.services.ai.azure.com",
+      "id": "gpt-6-astra",
+      "others": [
+        {
+          "model": "openai/gpt-6-astra-pro",
+          "note": "openai/gpt-6-astra-pro-20260903",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-luna",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.services.ai.azure.com",
+      "id": "gpt-6-luna",
+      "others": [
+        {
+          "model": "openai/gpt-6-luna-pro",
+          "note": "openai/gpt-6-luna-pro-20260922",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.services.ai.azure.com",
+      "id": "gpt-6-sol",
+      "others": [
+        {
+          "model": "openai/gpt-6-sol-pro",
+          "note": "openai/gpt-6-sol-pro-20260922",
+          "source": "openrouter"
+        }
+      ]
+    },
+    {
+      "chosen": {
+        "model": "openai/gpt-6.1-sol",
+        "note": "its name matches the native id",
+        "source": "openrouter"
+      },
+      "host": "{resource}.services.ai.azure.com",
+      "id": "gpt-6.1-sol",
+      "others": [
+        {
+          "model": "openai/gpt-6.1-sol-pro",
+          "note": "openai/gpt-6.1-sol-pro-20260929",
+          "source": "openrouter"
+        }
+      ]
+    }
+  ],
+  "unmapped": {}
+}

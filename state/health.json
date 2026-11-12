@@ -1,0 +1,6 @@
+{
+ "api.kairence.ai": {
+  "error": "DNS: ENOTFOUND",
+  "failing_since": "2026-11-12"
+ }
+}

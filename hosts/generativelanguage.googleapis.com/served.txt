@@ -1,0 +1,11 @@
+# Native ids generativelanguage.googleapis.com is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+gemini-2.5-flash
+gemini-2.5-flash-image
+gemini-2.5-pro
+gemini-3-flash-preview
+gemini-3.1-pro-preview
+gemini-3.5-flash
+gemma-3-27b-it

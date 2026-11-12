@@ -1,0 +1,28 @@
+# Native ids api.fireworks.ai is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+accounts/fireworks/models/deepseek-r1
+accounts/fireworks/models/deepseek-v3p2
+accounts/fireworks/models/deepseek-v4-flash-0731
+accounts/fireworks/models/deepseek-v4-pro-0813
+accounts/fireworks/models/gemma3-27b-it
+accounts/fireworks/models/glm-5
+accounts/fireworks/models/glm-5p2
+accounts/fireworks/models/gpt-oss-120b
+accounts/fireworks/models/inkling
+accounts/fireworks/models/kimi-k2p6
+accounts/fireworks/models/kimi-k2p7-code
+accounts/fireworks/models/kimi-k3
+accounts/fireworks/models/llama-v3p2-3b-instruct
+accounts/fireworks/models/llama-v3p3-70b-instruct
+accounts/fireworks/models/minimax-m3
+accounts/fireworks/models/muse-glimmer-30b
+accounts/fireworks/models/nemotron-3-ultra-nvfp4
+accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b
+accounts/fireworks/models/qwen3-235b-a22b-instruct-2507
+accounts/fireworks/models/qwen3-30b-a3b
+accounts/fireworks/models/qwen3-next-80b-a3b-instruct
+accounts/fireworks/models/qwen3p7-plus
+accounts/fireworks/models/qwen3p8-2p4t-a95b
+accounts/fireworks/models/qwen3p8-max

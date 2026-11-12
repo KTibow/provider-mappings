@@ -1,0 +1,10 @@
+# Hostnames that are the same API. Rows reported under an alias are filed
+# under the host on the left, which is the one sellers configure.
+#
+#   "<host sellers configure>" = ["<other hostname>", ...]
+
+"api.together.xyz" = ["api-inference.together.ai"]
+"ai-gateway.kilo.ai" = ["api.kilo.ai"]
+
+# Jatevo pivoted (2026-11): jatevo.ai now serves the same API and list as Oyenza.
+"inference.oyenza.com" = ["jatevo.ai"]

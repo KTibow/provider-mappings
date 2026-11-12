@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>provider-mappings</title>
+<meta name="description" content="Which API host serves which model, under which native model id.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #18181b; --muted: #71717a; --faint: #a1a1aa; --line: #e4e4e7;
+    --hover: #f4f4f5; --accent: #2563eb; --chip: #f4f4f5; --warn: #b45309; --float: #7c3aed;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0b0d; --fg: #e4e4e7; --muted: #a1a1aa; --faint: #71717a; --line: #27272a;
+      --hover: #18181b; --accent: #60a5fa; --chip: #1f1f23; --warn: #fbbf24; --float: #a78bfa;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0b0d; --fg: #e4e4e7; --muted: #a1a1aa; --faint: #71717a; --line: #27272a;
+    --hover: #18181b; --accent: #60a5fa; --chip: #1f1f23; --warn: #fbbf24; --float: #a78bfa;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 var(--sans); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .mono { font-family: var(--mono); font-size: 12.5px; }
+  .muted { color: var(--muted); }
+  .faint { color: var(--faint); }
+
+  header { position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .bar { max-width: 1200px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  .brand { font-family: var(--mono); font-weight: 600; font-size: 15px; color: var(--fg); }
+  .brand small { font-family: var(--sans); font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 8px; }
+  nav { display: flex; gap: 2px; }
+  nav button { font: inherit; border: 0; background: none; color: var(--muted); padding: 6px 10px; border-radius: 6px; cursor: pointer; }
+  nav button[aria-pressed="true"] { color: var(--fg); background: var(--chip); }
+  .search { flex: 1; min-width: 200px; display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+  .search input { flex: 1; border: 0; outline: 0; background: none; color: var(--fg); font: inherit; min-width: 0; }
+  .search kbd { font-family: var(--mono); font-size: 11px; color: var(--faint); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; }
+  .links { display: flex; gap: 12px; font-size: 13px; }
+
+  main { max-width: 1200px; margin: 0 auto; padding: 8px 16px 48px; }
+  .summary { color: var(--muted); font-size: 13px; padding: 8px 0 12px; }
+  .wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th { background: var(--bg); text-align: left; font-weight: 500; color: var(--muted); font-size: 12px;
+       padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; cursor: pointer; user-select: none; }
+  th.num, td.num { text-align: right; }
+  th[aria-sort="descending"]::after { content: " ↓"; }
+  th[aria-sort="ascending"]::after { content: " ↑"; }
+  td { padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr.row { cursor: pointer; }
+  tr.row:hover td { background: var(--hover); }
+  tr.row[aria-expanded="true"] td { background: var(--hover); border-bottom-color: transparent; }
+  .name { font-weight: 500; }
+  .id { display: block; color: var(--muted); }
+  .chip { display: inline-block; font-size: 11px; padding: 0 6px; border-radius: 4px; background: var(--chip); color: var(--muted); margin-left: 6px; white-space: nowrap; }
+  .chip.warn { color: var(--warn); }
+  .chip.float { color: var(--float); }
+  td.detail { padding: 0 10px 14px 28px; background: var(--hover); }
+  .detail table { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; }
+  .detail th { cursor: default; }
+  .detail td { padding: 5px 10px; }
+  .detail td.mono { word-break: break-all; }
+  .copy { border: 0; background: none; color: var(--faint); cursor: pointer; font-size: 12px; padding: 0 4px; }
+  .copy:hover { color: var(--fg); }
+  .more { padding: 12px 0; text-align: center; }
+  .more button, .empty button { font: inherit; border: 1px solid var(--line); background: var(--bg); color: var(--fg); padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+  .empty { padding: 40px 0; text-align: center; color: var(--muted); }
+  footer { max-width: 1200px; margin: 0 auto; padding: 16px; color: var(--faint); font-size: 12px; border-top: 1px solid var(--line); }
+  @media (max-width: 720px) {
+    .hide-sm { display: none; }
+    .links { display: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="#">provider-mappings<small>who serves which model, under which id</small></a>
+    <nav aria-label="View">
+      <button id="tab-models" aria-pressed="true">Models</button>
+      <button id="tab-hosts" aria-pressed="false">Hosts</button>
+    </nav>
+    <label class="search"><input id="q" type="search" placeholder="Search models, hosts, native ids…" autocomplete="off" spellcheck="false" aria-label="Search"><kbd>/</kbd></label>
+    <div class="links">
+      <a href="model-hosts.json">model-hosts.json</a>
+      <a href="models.json">models.json</a>
+      <a href="unmapped.json">unmapped</a>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="summary" id="summary">Loading…</div>
+  <div class="wrap"><table id="table"></table></div>
+  <div class="more" id="more" hidden><button id="more-btn">Show more</button></div>
+</main>
+<footer id="footer"></footer>
+<script>
+'use strict'
+// All data is inserted with textContent: native ids come from third-party model lists.
+const el = (tag, attrs = {}, ...kids) => {
+  const n = document.createElement(tag)
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue
+    if (k === 'class') n.className = v
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v)
+    else n.setAttribute(k, v === true ? '' : v)
+  }
+  for (const c of kids.flat(Infinity)) if (c != null && c !== false) n.append(c instanceof Node ? c : String(c))
+  return n
+}
+const fmt = (n) => n.toLocaleString('en-US')
+const PAGE = 200
+
+const state = { view: 'models', q: '', sort: { models: ['hosts', -1], hosts: ['models', -1] }, open: null, limit: PAGE }
+let MODELS = [], HOSTS = [], byModel = new Map(), byHost = new Map()
+
+function copyBtn(text) {
+  const b = el('button', { class: 'copy', title: 'Copy', 'aria-label': 'Copy ' + text, onclick: (e) => {
+    e.stopPropagation(); navigator.clipboard?.writeText(text); b.textContent = '✓'
+    setTimeout(() => (b.textContent = '⧉'), 900)
+  } }, '⧉')
+  return b
+}
+const modalities = (m) => (m.input || m.output) ? `${(m.input || []).join('+')} → ${(m.output || []).join('+')}` : ''
+
+async function load() {
+  const [mh, ms, meta] = await Promise.all(['model-hosts.json', 'models.json', 'meta.json'].map((f) => fetch(f).then((r) => (r.ok ? r.json() : null)).catch(() => null)))
+  if (!mh || !ms) { document.getElementById('summary').textContent = 'Could not load the data files.'; return }
+  for (const [host, rows] of Object.entries(mh)) {
+    const list = []
+    for (const [native, r] of Object.entries(rows)) {
+      const item = { host, native, model: r.model, pin: r.pin, current: r.current, quant: r.quant }
+      list.push(item)
+      if (!byModel.has(r.model)) byModel.set(r.model, [])
+      byModel.get(r.model).push(item)
+      // A floating id also serves its current checkpoint, for now.
+      if (r.current && r.current !== r.model) {
+        if (!byModel.has(r.current)) byModel.set(r.current, [])
+        byModel.get(r.current).push({ ...item, via: r.model })
+      }
+    }
+    byHost.set(host, list)
+  }
+  MODELS = Object.entries(ms).map(([id, m]) => ({ id, ...m, hosts: new Set((byModel.get(id) || []).filter((x) => !x.via).map((x) => x.host)).size }))
+  HOSTS = [...byHost].map(([host, list]) => ({ host, rows: list.length, models: new Set(list.map((x) => x.model)).size, family: host.includes('{') }))
+  if (meta) document.getElementById('footer').append(
+    'Built ', new Date(meta.generated_at).toLocaleString(), meta.commit ? ` from ${meta.commit.slice(0, 7)}` : '',
+    meta.sources ? ' · sources: ' + Object.entries(meta.sources).map(([s, v]) => `${s} ${v.ok ? 'ok' : 'failing'}`).join(', ') : '',
+    ' · ', el('a', { href: 'https://openrouter.ai' }, 'OpenRouter'), ' ids · ', el('a', { href: 'https://models.dev' }, 'models.dev'), ' data (MIT)')
+  readHash()
+  render()
+}
+
+// ---------------------------------------------------------------- views
+
+function matches(q, ...fields) { return !q || fields.some((f) => f && String(f).toLowerCase().includes(q)) }
+
+function modelRows() {
+  const q = state.q
+  let list = MODELS.filter((m) => matches(q, m.id, m.name, m.short, ...(m.aliases || []), ...(m.surplus_legacy || []))
+    || (q && (byModel.get(m.id) || []).some((x) => matches(q, x.native, x.host))))
+  const [key, dir] = state.sort.models
+  const val = (m) => key === 'name' ? (m.name || m.id).toLowerCase() : key === 'modalities' ? modalities(m) : key === 'short' ? m.short || '' : m[key] ?? 0
+  return list.sort((a, b) => (val(a) > val(b) ? 1 : val(a) < val(b) ? -1 : a.id.localeCompare(b.id)) * dir)
+}
+
+function hostRows() {
+  const q = state.q
+  let list = HOSTS.filter((h) => matches(q, h.host) || (q && byHost.get(h.host).some((x) => matches(q, x.native, x.model))))
+  const [key, dir] = state.sort.hosts
+  const val = (h) => key === 'host' ? h.host : h[key]
+  return list.sort((a, b) => (val(a) > val(b) ? 1 : val(a) < val(b) ? -1 : a.host.localeCompare(b.host)) * dir)
+}
+
+function header(view, cols) {
+  const [key, dir] = state.sort[view]
+  return el('thead', {}, el('tr', {}, cols.map(([k, label, cls]) => el('th', {
+    class: cls, 'aria-sort': k === key ? (dir < 0 ? 'descending' : 'ascending') : null, scope: 'col',
+    onclick: () => { const [ck, cd] = state.sort[view]; state.sort[view] = [k, ck === k ? -cd : k === 'hosts' || k === 'models' || k === 'rows' ? -1 : 1]; render() },
+  }, label))))
+}
+
+function modelDetail(m) {
+  const rows = (byModel.get(m.id) || []).slice().sort((a, b) => a.host.localeCompare(b.host) || a.native.localeCompare(b.native))
+  const facts = [m.short && ['short', m.short], m.permaslug && ['checkpoint', m.permaslug], (m.aliases || []).length && ['aliases', m.aliases.join(', ')],
+    (m.surplus_legacy || []).length && ['legacy ids', m.surplus_legacy.join(', ')], modalities(m) && ['modalities', modalities(m)], m.delisted && ['delisted', m.delisted]].filter(Boolean)
+  return el('div', {},
+    el('p', { class: 'muted' }, facts.map(([k, v], i) => [i ? ' · ' : '', k + ': ', el('span', { class: 'mono' }, v)])),
+    rows.length ? el('table', {}, el('thead', {}, el('tr', {}, el('th', {}, 'Host'), el('th', {}, 'Send as model'), el('th', { class: 'hide-sm' }, 'Quant'))),
+      el('tbody', {}, rows.map((x) => el('tr', {},
+        el('td', { class: 'mono' }, el('a', { href: '#h=' + encodeURIComponent(x.host) }, x.host)),
+        el('td', { class: 'mono' }, x.native, copyBtn(x.native), floatChip(x)),
+        el('td', { class: 'mono muted hide-sm' }, x.quant || ''))))) : el('p', { class: 'faint' }, 'No host rows yet.'))
+}
+
+// Floating: the host may repoint this id. Under its current checkpoint it is listed "via" the "~" id.
+function floatChip(x) {
+  if (x.pin !== 'floating') return null
+  return el('span', { class: 'chip float', title: x.via ? `Moving alias (${x.via}); serves this checkpoint today, may move` : 'Moving alias; the host may repoint it' }, x.via ? 'floating, today' : 'floating')
+}
+
+function hostDetail(h) {
+  const rows = byHost.get(h.host).slice().sort((a, b) => a.native.localeCompare(b.native))
+  const name = new Map(MODELS.map((m) => [m.id, m.name]))
+  return el('div', {},
+    h.family ? el('p', { class: 'muted' }, 'Host family: the ', el('span', { class: 'mono' }, '{…}'), ' label matches any single DNS label.') : null,
+    el('table', {}, el('thead', {}, el('tr', {}, el('th', {}, 'Native id'), el('th', {}, 'Model'), el('th', { class: 'hide-sm' }, 'Quant'))),
+      el('tbody', {}, rows.map((x) => el('tr', {},
+        el('td', { class: 'mono' }, x.native, copyBtn(x.native), floatChip(x)),
+        el('td', {}, el('a', { class: 'mono', href: '#m=' + encodeURIComponent(x.model) }, x.model), name.get(x.model) ? el('span', { class: 'faint' }, '  ' + name.get(x.model)) : null,
+          x.current ? el('div', { class: 'faint' }, 'now serves ', el('a', { class: 'mono', href: '#m=' + encodeURIComponent(x.current) }, x.current)) : null),
+        el('td', { class: 'mono muted hide-sm' }, x.quant || ''))))))
+}
+
+function render() {
+  document.getElementById('tab-models').setAttribute('aria-pressed', String(state.view === 'models'))
+  document.getElementById('tab-hosts').setAttribute('aria-pressed', String(state.view === 'hosts'))
+  const table = document.getElementById('table')
+  const isModels = state.view === 'models'
+  const all = isModels ? modelRows() : hostRows()
+  const shown = all.slice(0, state.limit)
+  const cols = isModels
+    ? [['name', 'Model'], ['short', 'Short id', 'hide-sm'], ['hosts', 'Hosts', 'num'], ['modalities', 'Modalities', 'hide-sm']]
+    : [['host', 'Host'], ['models', 'Models', 'num'], ['rows', 'Native ids', 'num']]
+  const body = el('tbody')
+  for (const r of shown) {
+    const key = isModels ? r.id : r.host
+    const open = state.open === key
+    const tr = el('tr', { class: 'row', 'aria-expanded': String(open), tabindex: '0',
+      onclick: () => { state.open = open ? null : key; writeHash(); render() },
+      onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tr.click() } } },
+      isModels ? [
+        el('td', {}, el('span', { class: 'name' }, r.name || r.id),
+          r.floating ? el('span', { class: 'chip float' }, 'floating') : null,
+          r.delisted ? el('span', { class: 'chip warn', title: 'OpenRouter stopped listing it on ' + r.delisted }, 'delisted') : null,
+          r.source !== 'openrouter' ? el('span', { class: 'chip', title: 'Not an OpenRouter model; id from ' + r.source }, r.source) : null,
+          el('span', { class: 'id mono' }, r.id)),
+        el('td', { class: 'mono muted hide-sm' }, r.short || ''),
+        el('td', { class: 'num' }, r.hosts ? fmt(r.hosts) : el('span', { class: 'faint' }, '0')),
+        el('td', { class: 'muted hide-sm' }, modalities(r)),
+      ] : [
+        el('td', { class: 'mono' }, r.host, r.family ? el('span', { class: 'chip' }, 'family') : null),
+        el('td', { class: 'num' }, fmt(r.models)),
+        el('td', { class: 'num' }, fmt(r.rows)),
+      ])
+    body.append(tr)
+    if (open) body.append(el('tr', {}, el('td', { class: 'detail', colspan: String(cols.length) }, isModels ? modelDetail(r) : hostDetail(r))))
+  }
+  table.replaceChildren(header(state.view, cols), body)
+  const total = isModels ? MODELS.length : HOSTS.length
+  const rowCount = [...byHost.values()].reduce((n, l) => n + l.length, 0)
+  document.getElementById('summary').textContent = state.q
+    ? `${fmt(all.length)} of ${fmt(total)} ${state.view} match “${state.q}”`
+    : isModels ? `${fmt(MODELS.length)} models · ${fmt(HOSTS.length)} hosts · ${fmt(rowCount)} host × native id mappings. Click a model to see who serves it.`
+      : `${fmt(HOSTS.length)} hosts. Click a host to see what it serves and the exact model id to send.`
+  document.getElementById('more').hidden = all.length <= state.limit
+  if (!all.length) table.replaceChildren(el('tbody', {}, el('tr', {}, el('td', { class: 'empty' }, 'Nothing matches.'))))
+}
+
+// ---------------------------------------------------------------- routing & input
+
+function writeHash() {
+  const p = new URLSearchParams()
+  if (state.open) p.set(state.view === 'models' ? 'm' : 'h', state.open)
+  else if (state.view === 'hosts') p.set('view', 'hosts')
+  if (state.q) p.set('q', state.q)
+  history.replaceState(null, '', p.toString() ? '#' + p.toString() : location.pathname)
+}
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1))
+  state.q = (p.get('q') || '').toLowerCase()
+  document.getElementById('q').value = p.get('q') || ''
+  if (p.get('m')) { state.view = 'models'; state.open = p.get('m') }
+  else if (p.get('h')) { state.view = 'hosts'; state.open = p.get('h') }
+  else { state.view = p.get('view') === 'hosts' ? 'hosts' : 'models'; state.open = null }
+  // Make sure a linked row is visible even if it sorts far down.
+  if (state.open) { const rows = state.view === 'models' ? modelRows() : hostRows(); const i = rows.findIndex((r) => (r.id || r.host) === state.open); state.limit = Math.max(PAGE, i + 1) }
+}
+window.addEventListener('hashchange', () => { readHash(); render(); document.querySelector('tr[aria-expanded="true"]')?.scrollIntoView({ block: 'center' }) })
+for (const v of ['models', 'hosts']) document.getElementById('tab-' + v).addEventListener('click', () => { state.view = v; state.open = null; state.limit = PAGE; writeHash(); render() })
+let t
+document.getElementById('q').addEventListener('input', (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); state.limit = PAGE; state.open = null; writeHash(); render() }, 120) })
+document.getElementById('more-btn').addEventListener('click', () => { state.limit += PAGE * 5; render() })
+document.addEventListener('keydown', (e) => {
+  const q = document.getElementById('q')
+  if ((e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) && document.activeElement !== q) { e.preventDefault(); q.focus(); q.select() }
+  else if (e.key === 'Escape' && document.activeElement === q) { q.value = ''; q.dispatchEvent(new Event('input')); q.blur() }
+})
+load().then(() => document.querySelector('tr[aria-expanded="true"]')?.scrollIntoView({ block: 'center' }))
+</script>
+</body>
+</html>

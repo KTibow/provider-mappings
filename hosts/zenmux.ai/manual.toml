@@ -1,0 +1,11 @@
+# Hand-maintained mappings for zenmux.ai; highest precedence.
+#
+# "x-ai/grok-voice-stt-1.0" ("Grok Voice STT 1.0") is xAI's 1.0 speech-to-text
+# route, filed here under OpenRouter's x-ai/grok-stt-1.0 like the same route on
+# every other host. models.dev files it under xai/grok-voice-transcribe-2.0
+# instead, deliberately: xAI retired grok-voice-transcribe-1.0 on 2026-10-02 and
+# serves 1.0 requests with 2.0 (docs.x.ai release notes). Both are defensible;
+# this keeps the 1.0 routes together.
+
+["x-ai/grok-voice-stt-1.0"]
+model = "x-ai/grok-stt-1.0"

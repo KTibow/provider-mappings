@@ -1,0 +1,38 @@
+{
+  "name": "provider-mappings",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Which API host serves which model, under which native model id.",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@11.1.1",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^26.0.0",
+      "onFail": "download"
+    }
+  },
+  "scripts": {
+    "sync": "node sync/all.ts",
+    "sync:openrouter": "node sync/openrouter.ts",
+    "sync:modelsdev": "node sync/modelsdev.ts",
+    "sync:hosts": "node sync/hosts.ts",
+    "build": "node build.ts",
+    "validate": "node validate.ts",
+    "summary": "node summary.ts",
+    "preview": "node build.ts && node scripts/serve.ts",
+    "typecheck": "tsc",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "smol-toml": "^1.9.1"
+  }
+}

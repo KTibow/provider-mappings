@@ -1,0 +1,1222 @@
+# Extra names for model ids. A model id is an OpenRouter model id, exactly as
+# OpenRouter writes it ("moonshotai/kimi-k3").
+#
+# Every OpenRouter model is known automatically, and so are its short name (the
+# id without the vendor, "kimi-k3"), its permaslug and any id it was renamed
+# from. Add an entry here only to:
+#
+#   - record a legacy Surplus Intelligence id that is not the short name
+#     (backcompat; published in surplus-legacy-ids.json):
+#       ["openai/gpt-oss-120b"]
+#       surplus_legacy = ["openai-gpt-oss-120b"]
+#
+#   - add other spellings that should resolve to the model:
+#       aliases = ["gpt-oss-120b-instruct"]
+#
+#   - declare a model OpenRouter does not list (keep the "vendor/slug" shape):
+#       ["venice/e2ee-gpt-oss-120b-p"]
+#       name = "GPT OSS 120B (E2EE)"
+#
+#   - merge one OpenRouter id into another: list it in the other's aliases.
+#
+# A name may resolve to only one model id.
+
+["aion-labs/aion-2.0"]
+surplus_legacy = ["aion-labs.aion-2-0"]
+
+["aion-labs/aion-3.0"]
+surplus_legacy = ["aion-labs-aion-3-0"]
+
+["aion-labs/aion-3.0-mini"]
+surplus_legacy = ["aion-labs-aion-3-0-mini"]
+
+["aion-labs/aion-3.5"]
+surplus_legacy = ["aion-labs-aion-3-5"]
+
+["aion-labs/aion-3.5-mini"]
+surplus_legacy = ["aion-labs-aion-3-5-mini"]
+
+["cognitivecomputations/dolphin-mistral-24b-venice-edition"]
+surplus_legacy = ["venice-uncensored"]
+
+["deepseek/deepseek-chat-v3.1"]
+surplus_legacy = ["deepseek-v3.1"]
+
+["elevenlabs/scribe-v2"]
+surplus_legacy = ["elevenlabs-scribe-v2"]
+
+["google/gemini-3-flash-preview"]
+aliases = ["gemini-3-flash"]
+
+["google/gemini-3.5-flash"]
+surplus_legacy = ["gemini-3-5-flash"]
+
+["google/gemini-3.5-flash-lite"]
+surplus_legacy = ["gemini-3-5-flash-lite"]
+
+["google/gemini-3.6-flash"]
+surplus_legacy = ["gemini-3-6-flash"]
+
+["google/gemma-4-26b-a4b-it"]
+aliases = ["gemma-4-26b-a4b"]
+
+["minimax/minimax-m3.1-flash"]
+surplus_legacy = ["minimax-m3-1-flash"]
+
+["mistralai/mistral-small-3.1-24b-instruct"]
+aliases = ["mistral-31-24b"]
+
+["nvidia/nemotron-3-nano-30b-a3b"]
+surplus_legacy = ["nvidia-nemotron-3-nano-30b-a3b"]
+
+["nvidia/nemotron-3-ultra-550b-a55b"]
+surplus_legacy = ["nvidia-nemotron-3-ultra-550b-a55b"]
+aliases = ["nemotron-3-ultra"]
+
+["nvidia/nemotron-3.5-lightning"]
+surplus_legacy = ["nvidia-nemotron-3-5-lightning-30b-a3b"]
+
+["openai/gpt-oss-120b"]
+surplus_legacy = ["openai-gpt-oss-120b"]
+
+["openai/gpt-oss-20b"]
+surplus_legacy = ["openai-gpt-oss-20b"]
+
+["openai/gpt-oss-safeguard-20b"]
+surplus_legacy = ["openai-gpt-oss-safeguard-20b"]
+
+["qwen/qwen3.5-35b-a3b"]
+surplus_legacy = ["qwen3-5-35b-a3b"]
+
+["qwen/qwen3.5-9b"]
+surplus_legacy = ["qwen3-5-9b"]
+
+["qwen/qwen3.6-35b-a3b"]
+surplus_legacy = ["qwen3-6-35b-a3b"]
+
+["qwen/qwen3.7-max"]
+surplus_legacy = ["qwen-3-7-max"]
+
+["qwen/qwen3.7-plus"]
+surplus_legacy = ["qwen-3-7-plus"]
+
+["qwen/qwen3.8-27b"]
+surplus_legacy = ["qwen-3-8-27b"]
+
+["runway/gen-4.5"]
+surplus_legacy = ["venice-runway-gen4-5-text"]
+aliases = ["runway-gen4-5-text"]
+
+# Venice's "runway-gen4-5" is image-to-video; "runway-gen4-5-text" is text-to-video.
+["runway/gen-4.5:image-to-video"]
+surplus_legacy = ["runway-gen4-5"]
+
+["tencent/hy-mt2-1.8b"]
+aliases = ["hy-mt2-lite"]
+
+["tencent/hy-mt2-30b-a3b"]
+aliases = ["hy-mt2-pro"]
+
+["tencent/hy-mt2-7b"]
+aliases = ["hy-mt2-plus"]
+
+["x-ai/grok-build-0.1"]
+surplus_legacy = ["grok-build-0-1"]
+
+["xiaomi/mimo-v2.5"]
+surplus_legacy = ["xiaomi-mimo-v2-5"]
+
+# Legacy ids whose OpenRouter id was renamed or re-dated (checked against the
+# marketplace catalog on 2026-11-11).
+
+["google/gemma-4-31b-it"]
+surplus_legacy = ["gemma-4-31b"]
+
+["mistralai/devstral-2512"]
+surplus_legacy = ["devstral-2-123b"]
+
+["mistralai/ministral-3b-2512"]
+surplus_legacy = ["ministral-3-3b-instruct"]
+
+["mistralai/mistral-large-2512"]
+surplus_legacy = ["mistral-large-3"]
+
+["nvidia/nemotron-3-super-120b-a12b"]
+surplus_legacy = ["nvidia-nemotron-3-super-120b"]
+
+["x-ai/grok-4.20"]
+# models.dev splits it by mode; OpenRouter's id is the reasoning one (permaslug x-ai/grok-4.20-20260309).
+aliases = ["x-ai/grok-4.20-0309-reasoning"]
+surplus_legacy = ["grok-4.20-beta"]
+
+["x-ai/grok-4.20-multi-agent"]
+surplus_legacy = ["grok-4.20-multi-agent-beta"]
+
+# Moving aliases a host exposes that OpenRouter has no "~" router for.
+
+["~mistralai/mistral-large-latest"]
+name = "Mistral: Mistral Large (latest)"
+
+["~mistralai/mistral-small-latest"]
+name = "Mistral: Mistral Small (latest)"
+
+# Alibaba's undated "qwen3.8-max" moves to each new snapshot; OpenRouter lists only
+# the dated qwen3.8-max-0902. Venice served "qwen-3-8-max" from 2026-07-22, before
+# that snapshot existed.
+["~qwen/qwen3.8-max-latest"]
+name = "Qwen: Qwen3.8 Max (latest)"
+aliases = ["alibaba/qwen3.8-max", "qwen/qwen3.8-max", "qwen3.8-max"]
+surplus_legacy = ["qwen-3-8-max"]
+
+["mistralai/ministral-8b-2512"]
+surplus_legacy = ["ministral-3-8b-instruct"]
+
+["mistralai/ministral-14b-2512"]
+surplus_legacy = ["ministral-3-14b-instruct"]
+
+# OpenRouter delisted x-ai/grok-4.1-fast; hosts still serve it. models.dev calls it
+# by its reasoning mode, which is the same model.
+["x-ai/grok-4.1-fast"]
+name = "xAI: Grok 4.1 Fast"
+aliases = ["x-ai/grok-4.1-fast-reasoning"]
+
+# models.dev's undated id for OpenRouter's dated one (same model, same description).
+# models.dev drops OpenRouter's "-v1" from Amazon Nova ids.
+["amazon/nova-lite-v1"]
+aliases = ["amazon/nova-lite"]
+
+["amazon/nova-micro-v1"]
+aliases = ["amazon/nova-micro"]
+
+["amazon/nova-pro-v1"]
+aliases = ["amazon/nova-pro"]
+
+["amazon/nova-2-lite-v1"]
+aliases = ["amazon/nova-2-lite"]
+
+# Models OpenRouter delisted before state/catalog.json started recording
+# delisted models (2026-11-11); other hosts still serve them. Later delistings
+# stay in the catalog by themselves. models.dev spells some of them differently
+# ("minimax/MiniMax-M2").
+
+["deepseek/deepseek-r1"]
+name = "DeepSeek: R1"
+
+["inception/mercury-2"]
+name = "Inception: Mercury 2"
+
+["nousresearch/hermes-3-llama-3.1-405b"]
+name = "Nous: Hermes 3 405B Instruct"
+
+["inception/mercury-2.5"]
+name = "Inception: Mercury 2.5"
+
+["inception/mercury-3"]
+name = "Inception: Mercury 3"
+
+# Alibaba's undated Qwen3.5 Flash and Plus (models.dev's ids). OpenRouter
+# lists only dated snapshots (qwen/qwen3.5-flash-02-23, qwen/qwen3.5-plus-02-15).
+["alibaba/qwen3.5-flash"]
+name = "Qwen3.5 Flash"
+
+["alibaba/qwen3.5-plus"]
+name = "Qwen3.5 Plus"
+
+# OpenRouter's free tier of Tencent HY3; the catalog lists it as its own model.
+["tencent/hy3:free"]
+surplus_legacy = ["hy3-free"]
+
+["minimax/minimax-m2"]
+name = "MiniMax: MiniMax M2"
+
+["minimax/minimax-m2.1"]
+name = "MiniMax: MiniMax M2.1"
+
+# ZenMux names "minimax/minimax-m2.5-lightning" "MiniMax M2.5 highspeed".
+["minimax/minimax-m2.5-highspeed"]
+name = "MiniMax: MiniMax M2.5 Highspeed"
+aliases = ["minimax/minimax-m2.5-lightning"]
+
+["minimax/minimax-m2.7-highspeed"]
+name = "MiniMax: MiniMax M2.7 Highspeed"
+
+# Models OpenRouter does not list, and legacy ids, from a marketplace's catalog
+# (2026-11-11). Operations a host sells separately (text-to-video, image-to-video,
+# edit, ...) are one model; the vendor is the model's maker.
+
+["abliteration-ai/abliterated-model-large-flash"]
+name = "Abliterated Model Large Flash"
+surplus_legacy = ["abliteration-abliterated-model-large-flash"]
+
+["abliteration-ai/abliterated-model-large-v2"]
+name = "Abliterated Model Large V2"
+surplus_legacy = ["abliteration-abliterated-model-large-v2"]
+
+["ace-step/ace-step-1.5"]
+name = "ACE-Step 1.5"
+surplus_legacy = ["venice-ace-step-15"]
+
+["alibaba/happyhorse-1.0"]
+surplus_legacy = ["happyhorse-1-0-text-to-video"]
+
+["alibaba/happyhorse-1.0:image-to-video"]
+surplus_legacy = ["happyhorse-1-0-image-to-video"]
+
+["alibaba/happyhorse-1.0:reference-to-video"]
+surplus_legacy = ["happyhorse-1-0-reference-to-video"]
+
+["alibaba/happyhorse-1.1:image-to-video"]
+surplus_legacy = ["happyhorse-1-1-image-to-video"]
+
+["alibaba/happyhorse-1.1:reference-to-video"]
+surplus_legacy = ["happyhorse-1-1-reference-to-video"]
+
+["alibaba/wan-2.1-pro"]
+name = "Wan 2.1 Pro"
+
+["alibaba/wan-2.1-pro:image-to-video"]
+surplus_legacy = ["wan-2-1-pro-image-to-video"]
+
+["alibaba/wan-2.2-a14b"]
+name = "Wan 2.2 A14B"
+surplus_legacy = ["wan-2-2-a14b-text-to-video"]
+
+["alibaba/wan-2.5-preview"]
+name = "Wan 2.5 Preview"
+surplus_legacy = ["wan-2-5-preview-text-to-video"]
+
+["alibaba/wan-2.5-preview:image-to-video"]
+surplus_legacy = ["wan-2-5-preview-image-to-video"]
+
+["alibaba/wan-2.6"]
+surplus_legacy = ["wan-2-6-text-to-video"]
+
+["alibaba/wan-2.6:image-to-video"]
+surplus_legacy = ["wan-2-6-image-to-video"]
+
+["alibaba/wan-2.6-flash"]
+name = "Wan 2.6 Flash"
+
+["alibaba/wan-2.6-flash:image-to-video"]
+surplus_legacy = ["wan-2-6-flash-image-to-video"]
+
+["alibaba/wan-2.6-ultra"]
+name = "Wan 2.6 Ultra"
+
+["alibaba/wan-2.6-ultra:image-to-video"]
+surplus_legacy = ["wan-2-6-ultra-image-to-video"]
+
+["alibaba/wan-2.7"]
+surplus_legacy = ["uncensored-wan-2-7-t2v", "wan-2-7-text-to-video"]
+
+# Wan 2.7's image model; OpenRouter's alibaba/wan-2.7 is the video model.
+
+["alibaba/wan-2.7:image-to-video"]
+surplus_legacy = ["wan-2-7-image-to-video"]
+
+["alibaba/wan-2.7:reference-to-video"]
+surplus_legacy = ["wan-2-7-reference-to-video"]
+
+["alibaba/wan-2.7-image"]
+name = "Wan 2.7 (image)"
+surplus_legacy = ["venice-wan-2.7"]
+aliases = ["wan-2-7-text-to-image"]
+
+["alibaba/wan-2.7-pro"]
+name = "Wan 2.7 Pro"
+
+["alibaba/wan-2.7-pro:image-to-video"]
+surplus_legacy = ["wan-2-7-pro-image-to-video"]
+
+["alibaba/wan-2.7-pro-image"]
+name = "Wan 2.7 Pro (image)"
+surplus_legacy = ["venice-wan-2.7-pro"]
+aliases = ["wan-2-7-pro-text-to-image"]
+
+["alibaba/wan-2.7-pro-image:edit"]
+surplus_legacy = ["wan-2-7-pro-edit"]
+
+["alibaba/wan-3.0"]
+surplus_legacy = ["venice-wan-3-0-text-to-video"]
+
+["alibaba/wan-3.0:image-to-video"]
+surplus_legacy = ["venice-wan-3-0-image-to-video"]
+
+["alibaba/wan-3.0:reference-to-video"]
+surplus_legacy = ["venice-wan-3-0-reference-to-video"]
+
+["alibaba/wan-3.0-prime"]
+surplus_legacy = ["venice-wan-3-0-prime-text-to-video"]
+
+["alibaba/wan-3.0-prime:image-to-video"]
+surplus_legacy = ["venice-wan-3-0-prime-image-to-video"]
+
+["alibaba/wan-3.0-prime:reference-to-video"]
+surplus_legacy = ["venice-wan-3-0-prime-reference-to-video"]
+
+["alibaba/wan-3.0-prime-pro"]
+name = "Wan 3.0 Prime Pro"
+surplus_legacy = ["venice-wan-3-0-prime-pro-text-to-video"]
+
+["alibaba/wan-3.0-prime-pro:image-to-video"]
+surplus_legacy = ["venice-wan-3-0-prime-pro-image-to-video"]
+
+["alibaba/wan-3.0-prime-pro:reference-to-video"]
+surplus_legacy = ["venice-wan-3-0-prime-pro-reference-to-video"]
+
+["alibaba/wan-3.0-pro"]
+name = "Wan 3.0 Pro"
+surplus_legacy = ["venice-wan-3-0-pro-text-to-video"]
+
+["alibaba/wan-3.0-pro:image-to-video"]
+surplus_legacy = ["venice-wan-3-0-pro-image-to-video"]
+
+["alibaba/wan-3.0-pro:reference-to-video"]
+surplus_legacy = ["venice-wan-3-0-pro-reference-to-video"]
+
+["alibaba/z-image-turbo"]
+name = "Z-Image Turbo"
+surplus_legacy = ["venice-z-image-turbo"]
+
+["anthropic/claude-opus-4.6-fast"]
+name = "Claude Opus 4.6 Fast"
+
+["anthropic/claude-opus-4.7-fast"]
+name = "Claude Opus 4.7 Fast"
+surplus_legacy = ["claude-opus-4-7-fast"]
+
+["anthropic/claude-opus-4.8-fast"]
+name = "Claude Opus 4.8 Fast"
+surplus_legacy = ["claude-opus-4-8-fast"]
+
+["anthropic/claude-opus-5-fast"]
+
+["black-forest-labs/flux-3-image"]
+surplus_legacy = ["venice-flux-3-image"]
+
+["black-forest-labs/flux-3-image:edit"]
+surplus_legacy = ["flux-3-image-edit"]
+
+["black-forest-labs/flux.2-max"]
+surplus_legacy = ["venice-flux-2-max"]
+
+["black-forest-labs/flux.2-max:edit"]
+surplus_legacy = ["flux-2-max-edit"]
+
+["black-forest-labs/flux.2-pro"]
+surplus_legacy = ["venice-flux-2-pro"]
+
+# The rest of the Seed 2.0 family (OpenRouter lists Lite and Mini); models.dev names
+# these, so hosts' own lists can match them too.
+["bytedance-seed/seed-2.0-code"]
+name = "ByteDance Seed: Seed-2.0-Code"
+
+["bytedance-seed/seed-2.0-pro"]
+name = "ByteDance Seed: Seed-2.0-Pro"
+
+["bytedance-seed/seedream-4.5"]
+surplus_legacy = ["venice-seedream-v4"]
+
+["bytedance-seed/seedream-4.5:edit"]
+surplus_legacy = ["seedream-v4-edit"]
+
+["bytedance-seed/seedream-5-0-lite"]
+surplus_legacy = ["venice-seedream-v5-lite"]
+aliases = ["seedream-v5-lite"]
+
+["bytedance-seed/seedream-5-0-lite:edit"]
+surplus_legacy = ["seedream-v5-lite-edit"]
+
+["bytedance-seed/seedream-5-0-pro"]
+surplus_legacy = ["venice-seedream-v5-pro"]
+aliases = ["seedream-v5-pro"]
+
+["bytedance-seed/seedream-5-0-pro:edit"]
+surplus_legacy = ["seedream-v5-pro-edit"]
+
+["bytedance/seedance-1.5-pro"]
+name = "Seedance 1.5 Pro"
+surplus_legacy = ["seedance-1-5-pro-text-to-video"]
+
+["bytedance/seedance-1.5-pro:image-to-video"]
+surplus_legacy = ["seedance-1-5-pro-image-to-video"]
+
+["bytedance/seedance-2.0"]
+surplus_legacy = ["seedance-2-0-text-to-video", "uncensored-seedance-2-0-t2v"]
+
+["bytedance/seedance-2.0:enhanced-reference-to-video"]
+surplus_legacy = ["seedance-2-0-enhanced-reference-to-video"]
+
+["bytedance/seedance-2.0:image-to-video"]
+surplus_legacy = ["seedance-2-0-image-to-video"]
+
+["bytedance/seedance-2.0:reference-to-video"]
+surplus_legacy = ["seedance-2-0-reference-to-video"]
+
+["bytedance/seedance-2.0-fast"]
+surplus_legacy = ["uncensored-seedance-2-0-fast-t2v", "venice-seedance-2-fast-t2v"]
+
+["bytedance/seedance-2.0-fast:image-to-video"]
+surplus_legacy = ["seedance-2-0-fast-image-to-video"]
+
+["bytedance/seedance-2.0-fast:reference-to-video"]
+surplus_legacy = ["seedance-2-0-fast-reference-to-video"]
+
+["bytedance/seedance-2.0-mini:enhanced-reference-to-video"]
+surplus_legacy = ["seedance-2-0-mini-enhanced-reference-to-video"]
+
+["bytedance/seedance-2.0-mini:image-to-video"]
+surplus_legacy = ["seedance-2-0-mini-image-to-video"]
+
+["bytedance/seedance-2.0-mini:reference-to-video"]
+surplus_legacy = ["seedance-2-0-mini-reference-to-video"]
+
+["bytedance/seedance-2.5"]
+surplus_legacy = ["venice-seedance-2-5-text-to-video-basic", "venice-seedance-2-5-us-text-to-video-private"]
+
+["bytedance/seedance-2.5:image-to-video"]
+surplus_legacy = ["venice-seedance-2-5-image-to-video-basic", "venice-seedance-2-5-us-image-to-video-private"]
+
+["bytedance/seedance-2.5:reference-to-video"]
+surplus_legacy = ["venice-seedance-2-5-reference-to-video-basic", "venice-seedance-2-5-us-reference-to-video-private"]
+
+["canopylabs/orpheus-3b-0.1-ft"]
+surplus_legacy = ["tts-orpheus"]
+
+["character-ai/ovi"]
+name = "Ovi"
+
+["character-ai/ovi:image-to-video"]
+surplus_legacy = ["ovi-image-to-video"]
+
+["deepseek/deepseek-v4-flash-0731-fast"]
+name = "DeepSeek V4 Flash 0731 Fast"
+
+["deepseek/deepseek-v4.1-flash-uncensored"]
+name = "DeepSeek V4.1 Flash Uncensored"
+
+["elevenlabs/eleven-multilingual-v2"]
+surplus_legacy = ["venice-elevenlabs-tts-multilingual-v2"]
+aliases = ["elevenlabs-tts-multilingual-v2"]
+
+["elevenlabs/eleven-turbo-v2.5"]
+surplus_legacy = ["venice-elevenlabs-tts-turbo-v2-5"]
+aliases = ["tts-elevenlabs-turbo-v2-5"]
+
+["elevenlabs/eleven-v3"]
+surplus_legacy = ["venice-elevenlabs-tts-v3"]
+aliases = ["elevenlabs-tts-v3"]
+
+["elevenlabs/eleven-v4"]
+surplus_legacy = ["elevenlabs-tts-v4"]
+
+["elevenlabs/eleven-v4-turbo"]
+surplus_legacy = ["elevenlabs-tts-v4-turbo"]
+
+["elevenlabs/music"]
+name = "ElevenLabs Music"
+surplus_legacy = ["venice-elevenlabs-music"]
+
+["elevenlabs/music-v2"]
+name = "ElevenLabs Music v2"
+surplus_legacy = ["elevenlabs-music-v2"]
+
+["elevenlabs/music-v2.5"]
+name = "ElevenLabs Music v2.5"
+surplus_legacy = ["elevenlabs-music-v2-5"]
+
+["elevenlabs/sound-effects-v2"]
+name = "ElevenLabs Sound Effects v2"
+surplus_legacy = ["venice-elevenlabs-sound-effects-v2"]
+
+["elevenlabs/voice-changer"]
+name = "ElevenLabs Voice Changer"
+surplus_legacy = ["elevenlabs-voice-changer"]
+
+["google/gemini-3-pro-image-preview"]
+surplus_legacy = ["venice-nano-banana-pro"]
+aliases = ["nano-banana-pro"]
+
+["google/gemini-3-pro-image-preview:edit"]
+surplus_legacy = ["nano-banana-pro-edit"]
+
+["google/gemini-3.1-flash-image-preview"]
+surplus_legacy = ["venice-nano-banana-2"]
+aliases = ["nano-banana-2"]
+
+["google/gemini-3.1-flash-image-preview:edit"]
+surplus_legacy = ["nano-banana-2-edit"]
+
+["google/gemini-3.1-flash-lite-image"]
+surplus_legacy = ["venice-nano-banana-2-lite"]
+aliases = ["nano-banana-2-lite"]
+
+["google/gemini-3.1-flash-lite-image:edit"]
+surplus_legacy = ["nano-banana-2-lite-edit"]
+
+["google/gemini-3.1-flash-tts-preview"]
+surplus_legacy = ["tts-gemini-3-1-flash"]
+
+["google/gemini-3.1-pro"]
+name = "Gemini 3.1 Pro"
+
+["google/gemini-nano-banana-2.1"]
+surplus_legacy = ["venice-nano-banana-2-1"]
+aliases = ["nano-banana-2-1"]
+
+["google/gemini-nano-banana-2.1:edit"]
+surplus_legacy = ["nano-banana-2-1-edit"]
+
+["google/gemini-omni-flash"]
+name = "Gemini Omni Flash"
+
+["google/gemini-omni-flash:image-to-video"]
+surplus_legacy = ["gemini-omni-flash-image-to-video"]
+
+["google/gemini-omni-flash:reference-to-video"]
+surplus_legacy = ["gemini-omni-flash-reference-to-video"]
+
+["google/gemma-4-E2B-it"]
+surplus_legacy = ["gemma-4-e2b"]
+
+["google/gemma-4-uncensored"]
+name = "Gemma 4 Uncensored"
+
+["google/lyria-3-pro-preview"]
+surplus_legacy = ["lyria-3-pro"]
+
+["google/veo-3"]
+name = "Veo 3"
+surplus_legacy = ["veo3-full-text-to-video"]
+
+["google/veo-3:image-to-video"]
+surplus_legacy = ["veo3-full-image-to-video"]
+
+["google/veo-3-fast"]
+name = "Veo 3 Fast"
+surplus_legacy = ["veo3-fast-text-to-video"]
+
+["google/veo-3-fast:image-to-video"]
+surplus_legacy = ["veo3-fast-image-to-video"]
+
+["google/veo-3.1"]
+surplus_legacy = ["veo3-1-full-text-to-video"]
+
+["google/veo-3.1:image-to-video"]
+surplus_legacy = ["veo3-1-full-image-to-video"]
+
+["google/veo-3.1-fast"]
+surplus_legacy = ["veo3-1-fast-text-to-video"]
+
+["google/veo-3.1-fast:image-to-video"]
+surplus_legacy = ["veo3-1-fast-image-to-video"]
+
+["hexgrad/kokoro-82m"]
+surplus_legacy = ["venice-kokoro-tts"]
+
+["ideogram/ideogram-v4"]
+name = "Ideogram V4"
+surplus_legacy = ["venice-ideogram-v4"]
+
+["ideogram/ideogram-v4.5"]
+name = "Ideogram V4.5"
+surplus_legacy = ["venice-ideogram-v4-5"]
+
+["ideogram/ideogram-v4.5:edit"]
+surplus_legacy = ["ideogram-v4-5-edit"]
+
+["imagineart/imagineart-1.5-pro"]
+name = "ImagineArt 1.5 Pro"
+surplus_legacy = ["venice-imagineart-1.5-pro"]
+
+["inception/mercury-2.5-preview"]
+
+["inworld/inworld-tts-1.5-max"]
+name = "Inworld TTS 1.5 Max"
+surplus_legacy = ["tts-inworld-1-5-max"]
+
+["krea/krea-2-large"]
+surplus_legacy = ["venice-krea-v2-large"]
+aliases = ["krea-v2-large"]
+
+["krea/krea-2-medium"]
+surplus_legacy = ["venice-krea-v2-medium"]
+aliases = ["krea-v2-medium"]
+
+["krea/krea-2-turbo"]
+name = "Krea 2 Turbo"
+surplus_legacy = ["venice-krea-2-turbo"]
+
+["kwaivgi/kling-2.5-turbo-pro"]
+name = "Kling 2.5 Turbo Pro"
+surplus_legacy = ["kling-2-5-turbo-pro-text-to-video"]
+
+["kwaivgi/kling-2.5-turbo-pro:image-to-video"]
+surplus_legacy = ["kling-2-5-turbo-pro-image-to-video"]
+
+["kwaivgi/kling-2.6-pro"]
+name = "Kling 2.6 Pro"
+surplus_legacy = ["kling-2-6-pro-text-to-video"]
+
+["kwaivgi/kling-2.6-pro:image-to-video"]
+surplus_legacy = ["kling-2-6-pro-image-to-video"]
+
+["kwaivgi/kling-o3-4k"]
+name = "Kling O3 4K"
+surplus_legacy = ["kling-o3-4k-text-to-video"]
+
+["kwaivgi/kling-o3-4k:image-to-video"]
+surplus_legacy = ["kling-o3-4k-image-to-video"]
+
+["kwaivgi/kling-o3-4k:reference-to-video"]
+surplus_legacy = ["kling-o3-4k-reference-to-video"]
+
+["kwaivgi/kling-o3-pro"]
+name = "Kling O3 Pro"
+surplus_legacy = ["kling-o3-pro-text-to-video"]
+
+["kwaivgi/kling-o3-pro:image-to-video"]
+surplus_legacy = ["kling-o3-pro-image-to-video"]
+
+["kwaivgi/kling-o3-pro:reference-to-video"]
+surplus_legacy = ["kling-o3-pro-reference-to-video"]
+
+["kwaivgi/kling-o3-std"]
+name = "Kling O3 Standard"
+surplus_legacy = ["kling-o3-standard-text-to-video"]
+
+["kwaivgi/kling-o3-std:image-to-video"]
+surplus_legacy = ["kling-o3-standard-image-to-video"]
+
+["kwaivgi/kling-o3-std:reference-to-video"]
+surplus_legacy = ["kling-o3-standard-reference-to-video"]
+
+["kwaivgi/kling-v3.0-4k"]
+name = "Kling V3 4K"
+surplus_legacy = ["kling-v3-4k-text-to-video"]
+
+["kwaivgi/kling-v3.0-4k:reference-to-video"]
+surplus_legacy = ["kling-v3-4k-reference-to-video"]
+
+["kwaivgi/kling-v3.0-pro"]
+surplus_legacy = ["kling-v3-pro-text-to-video"]
+
+["kwaivgi/kling-v3.0-pro:image-to-video"]
+surplus_legacy = ["kling-v3-pro-image-to-video"]
+
+["kwaivgi/kling-v3.0-std"]
+surplus_legacy = ["kling-v3-standard-text-to-video"]
+
+["kwaivgi/kling-v3.0-std:image-to-video"]
+surplus_legacy = ["kling-v3-standard-image-to-video"]
+
+["kwaivgi/kling-v3.0-turbo-pro"]
+name = "Kling V3 Turbo Pro"
+
+["kwaivgi/kling-v3.0-turbo-pro:image-to-video"]
+surplus_legacy = ["kling-v3-turbo-pro-image-to-video"]
+
+["kwaivgi/kling-v3.0-turbo-std"]
+name = "Kling V3 Turbo Standard"
+
+["kwaivgi/kling-v3.0-turbo-std:image-to-video"]
+surplus_legacy = ["kling-v3-turbo-standard-image-to-video"]
+
+["lightricks/ltx-2"]
+name = "LTX-2"
+surplus_legacy = ["ltx-2-full-text-to-video"]
+
+["lightricks/ltx-2:image-to-video"]
+surplus_legacy = ["ltx-2-full-image-to-video"]
+
+["lightricks/ltx-2-19b"]
+name = "LTX-2 19B"
+surplus_legacy = ["ltx-2-19b-full-text-to-video"]
+
+["lightricks/ltx-2-19b:image-to-video"]
+surplus_legacy = ["ltx-2-19b-full-image-to-video"]
+
+["lightricks/ltx-2-fast"]
+name = "LTX-2 Fast"
+surplus_legacy = ["ltx-2-fast-text-to-video"]
+
+["lightricks/ltx-2.3"]
+name = "LTX-2.3"
+surplus_legacy = ["ltx-2-v2-3-full-text-to-video"]
+
+["lightricks/ltx-2.3:image-to-video"]
+surplus_legacy = ["ltx-2-v2-3-full-image-to-video"]
+
+["lightricks/ltx-2.3-fast"]
+name = "LTX-2.3 Fast"
+surplus_legacy = ["ltx-2-v2-3-fast-text-to-video"]
+
+["lightricks/ltx-2.3-fast:image-to-video"]
+surplus_legacy = ["ltx-2-v2-3-fast-image-to-video"]
+
+["lodestones/chroma"]
+name = "Chroma"
+surplus_legacy = ["venice-chroma"]
+
+["luma/uni-1"]
+name = "Luma Uni-1"
+surplus_legacy = ["venice-luma-uni-1"]
+
+["luma/uni-1:edit"]
+surplus_legacy = ["luma-uni-1-edit"]
+
+["luma/uni-1-max"]
+name = "Luma Uni-1 Max"
+surplus_legacy = ["venice-luma-uni-1-max"]
+
+["luma/uni-1-max:edit"]
+surplus_legacy = ["luma-uni-1-max-edit"]
+
+["meituan/longcat-video"]
+name = "LongCat Video"
+surplus_legacy = ["longcat-text-to-video"]
+
+["meituan/longcat-video:image-to-video"]
+surplus_legacy = ["longcat-image-to-video"]
+
+["meituan/longcat-video-distilled"]
+name = "LongCat Video Distilled"
+surplus_legacy = ["longcat-distilled-text-to-video"]
+
+["meituan/longcat-video-distilled:image-to-video"]
+surplus_legacy = ["longcat-distilled-image-to-video"]
+
+["meta/muse-image"]
+
+# Venice kept its launch name; OpenRouter routes minimax/minimax-m3 to it.
+
+["meta/muse-image:edit"]
+surplus_legacy = ["muse-image-edit"]
+
+["minimax/minimax-m3"]
+surplus_legacy = ["minimax-m3-preview"]
+
+["minimax/music-2.0"]
+name = "MiniMax Music 2.0"
+surplus_legacy = ["venice-minimax-music-v2"]
+aliases = ["minimax-music-v2"]
+
+["minimax/music-2.5"]
+name = "MiniMax Music 2.5"
+surplus_legacy = ["venice-minimax-music-v25"]
+aliases = ["minimax-music-v25"]
+
+["minimax/music-2.6"]
+name = "MiniMax Music 2.6"
+surplus_legacy = ["venice-minimax-music-v26"]
+aliases = ["minimax-music-v26"]
+
+["minimax/speech-02-hd"]
+name = "MiniMax Speech 02 HD"
+surplus_legacy = ["tts-minimax-speech-02-hd"]
+
+["mistralai/magistral-small-2509"]
+name = "Magistral Small 2509"
+
+["mistralai/mistral-small-2603"]
+surplus_legacy = ["mistral-small-4"]
+
+["moonshotai/kimi-k3-fast"]
+name = "Kimi K3 Fast"
+surplus_legacy = ["kimi-k3-fast-api"]
+
+["nvidia/cosmos-predict"]
+name = "Cosmos Predict"
+
+["nvidia/cosmos-predict:image-to-video"]
+surplus_legacy = ["cosmos-predict-image-to-video"]
+
+["nvidia/nemotron-cascade-2-30b-a3b"]
+name = "NVIDIA Nemotron Cascade 2 30B A3B"
+surplus_legacy = ["nvidia-nemotron-cascade-2-30b-a3b"]
+
+["nvidia/nemotron-nano-12b-v2-vl"]
+name = "NVIDIA Nemotron Nano 12B v2 VL"
+surplus_legacy = ["nvidia-nemotron-nano-12b-v2"]
+
+["nvidia/nemotron-nano-9b-v2"]
+surplus_legacy = ["nvidia-nemotron-nano-9b-v2"]
+
+["nvidia/parakeet-tdt-0.6b-v3"]
+surplus_legacy = ["venice-parakeet-asr"]
+
+["olafangensan/glm-4.7-flash-heretic"]
+name = "GLM 4.7 Flash Heretic"
+aliases = ["z-ai/glm-4.7-flash-heretic"]
+
+["openai/gpt-image-1.5"]
+name = "GPT Image 1.5"
+surplus_legacy = ["venice-gpt-image-1.5"]
+
+["openai/gpt-image-1.5:edit"]
+surplus_legacy = ["gpt-image-1-5-edit"]
+
+["openai/gpt-image-2"]
+surplus_legacy = ["venice-gpt-image-2"]
+
+["openai/gpt-image-2:edit"]
+surplus_legacy = ["gpt-image-2-edit"]
+
+["openai/gpt-image-2.5-flare"]
+surplus_legacy = ["venice-gpt-image-2-5-flare"]
+
+["openai/gpt-image-2.5-flare:edit"]
+surplus_legacy = ["gpt-image-2-5-flare-edit"]
+
+["openai/gpt-image-2.5-sunburst"]
+surplus_legacy = ["venice-gpt-image-2-5-sunburst"]
+
+["openai/gpt-image-2.5-sunburst:edit"]
+surplus_legacy = ["gpt-image-2-5-sunburst-edit"]
+
+["openai/gpt-oss-safeguard-120b"]
+surplus_legacy = ["openai-gpt-oss-safeguard-120b"]
+
+["openai/sora-2"]
+name = "Sora 2"
+
+["openai/sora-2:image-to-video"]
+surplus_legacy = ["sora-2-image-to-video"]
+
+["openai/sora-2-pro"]
+name = "Sora 2 Pro"
+
+["openai/sora-2-pro:image-to-video"]
+surplus_legacy = ["sora-2-pro-image-to-video"]
+
+["openai/text-embedding-3-large"]
+surplus_legacy = ["venice-embed-1"]
+
+["openai/whisper-large-v3"]
+surplus_legacy = ["fal-wizper","venice-whisper-large-v3"]
+aliases = ["fal/wizper"]
+
+["orcacyber/orcacyber-flash-1.0"]
+name = "OrcaCyber Flash 1.0 (DeepSeek V4.1 Flash, abliterated)"
+
+["orcacyber/orcacyber-glm-5.3-flash"]
+name = "OrcaCyber GLM 5.3 Flash (abliterated)"
+
+["orcacyber/orcacyber-mimo-flash"]
+name = "OrcaCyber MiMo Flash"
+
+["orcacyber/orcacyber-minimax-m3.1-flash"]
+name = "OrcaCyber MiniMax M3.1 Flash (abliterated)"
+
+["orcacyber/orcacyber-qwen3.8-flash-next"]
+name = "OrcaCyber Qwen3.8 Flash Next (abliterated)"
+
+["orcacyber/orcacyber-ultra-1.0"]
+name = "OrcaCyber Ultra 1.0"
+
+["orcacyber/orcacyber-zero-1.0"]
+name = "OrcaCyber Zero 1.0"
+
+["orcacyber/orcacyber-zero-1.5"]
+name = "OrcaCyber Zero 1.5"
+
+["pixverse/pixverse-c1"]
+name = "PixVerse C1"
+surplus_legacy = ["venice-pixverse-c1-t2v"]
+
+["pixverse/pixverse-c1:image-to-video"]
+surplus_legacy = ["pixverse-c1-image-to-video"]
+
+["pixverse/pixverse-c1:reference-to-video"]
+surplus_legacy = ["pixverse-c1-reference-to-video"]
+
+["pixverse/pixverse-c1:transition"]
+surplus_legacy = ["pixverse-c1-transition"]
+
+["pixverse/pixverse-v5.6"]
+name = "PixVerse V5.6"
+surplus_legacy = ["pixverse-v5-6-text-to-video"]
+
+["pixverse/pixverse-v5.6:image-to-video"]
+surplus_legacy = ["pixverse-v5-6-image-to-video"]
+
+["pixverse/pixverse-v5.6:transition"]
+surplus_legacy = ["pixverse-v5-6-transition"]
+
+["qwen/qwen-image"]
+name = "Qwen Image"
+surplus_legacy = ["venice-qwen-image"]
+
+["qwen/qwen-image-2"]
+name = "Qwen Image 2"
+surplus_legacy = ["venice-qwen-image-2"]
+
+["qwen/qwen-image-2:edit"]
+surplus_legacy = ["qwen-image-2-edit"]
+
+["qwen/qwen-image-2-pro"]
+name = "Qwen Image 2 Pro"
+surplus_legacy = ["venice-qwen-image-2-pro"]
+
+["qwen/qwen-image-2-pro:edit"]
+surplus_legacy = ["qwen-image-2-pro-edit"]
+
+["qwen/qwen-image-2.1-pro"]
+surplus_legacy = ["venice-qwen-image-2-1-pro"]
+
+["qwen/qwen-image-2.1-turbo"]
+surplus_legacy = ["venice-qwen-image-2-1-turbo"]
+
+["qwen/qwen-image-3"]
+surplus_legacy = ["venice-qwen-image-3"]
+
+["qwen/qwen-image-3-pro"]
+surplus_legacy = ["venice-qwen-image-3-pro"]
+
+["qwen/qwen3-coder-turbo"]
+name = "Qwen3 Coder 480B Turbo"
+aliases = ["alibaba/qwen3-coder-turbo"]
+
+["qwen/qwen3-tts-0.6b"]
+name = "Qwen3 TTS 0.6B"
+surplus_legacy = ["tts-qwen3-0-6b"]
+
+["qwen/qwen3-tts-1.7b"]
+name = "Qwen3 TTS 1.7B"
+surplus_legacy = ["tts-qwen3-1-7b"]
+
+["recraft/recraft-v4"]
+surplus_legacy = ["venice-recraft-v4"]
+
+["recraft/recraft-v4-pro"]
+surplus_legacy = ["venice-recraft-v4-pro"]
+
+["resemble-ai/chatterbox-hd"]
+name = "Chatterbox HD"
+surplus_legacy = ["tts-chatterbox-hd"]
+
+["runway/gen-4-aleph"]
+name = "Runway Gen-4 Aleph"
+surplus_legacy = ["runway-gen4-aleph"]
+
+["runway/gen-4-turbo"]
+name = "Runway Gen-4 Turbo"
+surplus_legacy = ["runway-gen4-turbo"]
+
+["sonilo/music-v1.1"]
+name = "Sonilo Music v1.1"
+surplus_legacy = ["sonilo-music-v1-1"]
+aliases = ["sonilo-v1-1-music"]
+
+["sonilo/sound-effects-v1.1"]
+name = "Sonilo Sound Effects v1.1"
+aliases = ["sonilo-v1-1-sound-effects"]
+surplus_legacy = ["sonilo-sound-effects-v1-0"]
+
+["stabilityai/stable-audio-2.5"]
+name = "Stable Audio 2.5"
+surplus_legacy = ["venice-stable-audio-25"]
+
+["stabilityai/stable-diffusion-3.5-large"]
+name = "Stable Diffusion 3.5 Large"
+surplus_legacy = ["venice-sd35"]
+
+["tencent/hunyuan-image-3.0"]
+name = "Hunyuan Image 3.0"
+surplus_legacy = ["venice-hunyuan-image-v3"]
+aliases = ["hunyuan-image-v3"]
+
+["topaz-labs/video-upscale"]
+name = "Topaz Video Upscale"
+surplus_legacy = ["topaz-video-upscale"]
+
+["uncensored-ai/uncensored-av-gen"]
+name = "AV-Gen"
+
+["uncensored-ai/uncensored-cosmos-predict"]
+name = "Cosmos Predict (Uncensored AI)"
+
+["uncensored-ai/uncensored-i2v-pro"]
+name = "I2V Pro"
+
+["uncensored-ai/uncensored-i2v-standard"]
+name = "I2V Standard"
+
+["uncensored-ai/uncensored-i2v-turbo"]
+name = "I2V Turbo"
+
+["uncensored-ai/uncensored-ltx-distilled"]
+name = "LTX Distilled (Uncensored AI)"
+
+["uncensored-ai/uncensored-t2v-standard"]
+name = "T2V Standard"
+
+["uncensored-ai/uncensored-t2v-turbo"]
+name = "T2V Turbo"
+
+["uncensored-ai/uncensored-wan-2.2-ultra-fast"]
+name = "Wan 2.2 Ultra-Fast (Uncensored AI)"
+surplus_legacy = ["uncensored-wan-2-2-ultra-fast-t2v"]
+
+["venice/e2ee-deepseek-v4-flash"]
+name = "DeepSeek V4 Flash (E2EE)"
+
+["venice/e2ee-gemma-3-27b"]
+name = "Gemma 3 27B (E2EE)"
+
+["venice/e2ee-gemma-4-26b-a4b-uncensored"]
+name = "Gemma 4 26B A4B Uncensored (E2EE)"
+surplus_legacy = ["e2ee-gemma-4-26b-a4b-uncensored-p"]
+
+["venice/e2ee-gemma-4-31b"]
+name = "Gemma 4 31B (E2EE)"
+
+["venice/e2ee-glm-4.7"]
+name = "GLM 4.7 (E2EE)"
+
+["venice/e2ee-glm-4.7-flash"]
+name = "GLM 4.7 Flash (E2EE)"
+
+["venice/e2ee-glm-5"]
+name = "GLM 5 (E2EE)"
+
+["venice/e2ee-glm-5.1"]
+name = "GLM 5.1 (E2EE)"
+
+["venice/e2ee-glm-5.2"]
+name = "GLM 5.2 (E2EE)"
+surplus_legacy = ["e2ee-glm-5-2-p"]
+
+["venice/e2ee-gpt-oss-120b"]
+name = "GPT OSS 120B (E2EE)"
+surplus_legacy = ["e2ee-gpt-oss-120b-p"]
+
+["venice/e2ee-gpt-oss-20b"]
+name = "GPT OSS 20B (E2EE)"
+surplus_legacy = ["e2ee-gpt-oss-20b-p"]
+
+["venice/e2ee-qwen2.5-7b"]
+name = "Qwen 2.5 7B (E2EE)"
+surplus_legacy = ["e2ee-qwen-2-5-7b-p"]
+
+["venice/e2ee-qwen3-30b-a3b"]
+name = "Qwen3 30B A3B (E2EE)"
+
+["venice/e2ee-qwen3-vl-30b-a3b"]
+name = "Qwen3 VL 30B A3B (E2EE)"
+aliases = ["e2ee-qwen3-vl-30b-a3b-p"]
+
+["venice/e2ee-qwen3.5-122b-a10b"]
+name = "Qwen 3.5 122B A10B (E2EE)"
+surplus_legacy = ["e2ee-qwen3-5-122b-a10b"]
+
+["venice/e2ee-qwen3.6-35b-a3b"]
+name = "Qwen 3.6 35B A3B (E2EE)"
+surplus_legacy = ["e2ee-qwen3-6-35b-a3b"]
+
+["venice/e2ee-qwen3.6-35b-a3b-uncensored"]
+name = "Qwen 3.6 35B A3B Uncensored (E2EE)"
+surplus_legacy = ["e2ee-qwen3-6-35b-a3b-uncensored-p"]
+
+["venice/e2ee-venice-uncensored"]
+name = "Venice Uncensored (E2EE)"
+surplus_legacy = ["e2ee-venice-uncensored-24b-p"]
+
+["venice/lustify-sdxl"]
+name = "Lustify SDXL"
+surplus_legacy = ["venice-lustify-sdxl"]
+
+["venice/lustify-v7"]
+name = "Lustify v7"
+surplus_legacy = ["venice-lustify-v7"]
+
+["venice/lustify-v8"]
+name = "Lustify v8"
+surplus_legacy = ["venice-lustify-v8"]
+
+["venice/mmaudio-v2"]
+name = "MMAudio V2"
+surplus_legacy = ["venice-mmaudio-v2-text-to-audio"]
+
+["venice/qwen-image-edit-uncensored"]
+name = "Qwen Image Edit Uncensored"
+surplus_legacy = ["qwen-edit-uncensored"]
+
+["venice/qwen3.6-plus-uncensored"]
+name = "Qwen 3.6 Plus Uncensored"
+aliases = ["alibaba/qwen3.6-plus-uncensored"]
+
+["venice/venice-uncensored-1.2"]
+name = "Venice Uncensored 1.2"
+
+["venice/venice-uncensored-role-play"]
+name = "Venice Role Play Uncensored"
+
+["venice/wai-illustrious"]
+name = "Anime (WAI Illustrious)"
+surplus_legacy = ["venice-wai-illustrious"]
+
+["vidu/vidu-q3-image-to-video"]
+
+["vidu/vidu-q3-text-to-video"]
+
+["writer/palmyra-vision-7b"]
+name = "Palmyra Vision 7B"
+
+["x-ai/grok-4"]
+
+["x-ai/grok-imagine-image"]
+name = "Grok Imagine"
+surplus_legacy = ["venice-grok-imagine"]
+
+["x-ai/grok-imagine-image:edit"]
+surplus_legacy = ["grok-imagine-edit"]
+
+["x-ai/grok-imagine-image-2.0"]
+surplus_legacy = ["venice-grok-imagine-pro"]
+
+["x-ai/grok-imagine-image-2.0:edit"]
+surplus_legacy = ["grok-imagine-image-2-0-edit"]
+
+["x-ai/grok-imagine-image-quality"]
+name = "Grok Imagine (quality)"
+surplus_legacy = ["venice-grok-imagine-quality"]
+
+["x-ai/grok-imagine-image-quality:edit"]
+surplus_legacy = ["grok-imagine-quality-edit"]
+
+["x-ai/grok-imagine-video"]
+surplus_legacy = ["grok-imagine-text-to-video"]
+aliases = ["grok-imagine-text-to-video-private"]
+
+["x-ai/grok-imagine-video:image-to-video"]
+surplus_legacy = ["grok-imagine-image-to-video-private"]
+
+["x-ai/grok-imagine-video:reference-to-video"]
+surplus_legacy = ["grok-imagine-reference-to-video-private"]
+
+["x-ai/grok-imagine-video-1.5:image-to-video"]
+surplus_legacy = ["grok-imagine-1-5-image-to-video-private"]
+
+["x-ai/grok-stt-1.0"]
+surplus_legacy = ["venice-xai-stt-v1"]
+aliases = ["stt-xai-v1"]
+
+["x-ai/grok-voice-tts-1.0"]
+surplus_legacy = ["tts-xai-v1"]
+
+["xiaohongshu/firered-image-edit"]
+name = "Firered Image (image-to-image)"
+
+["z-ai/glm-4.7:thinking"]
+surplus_legacy = ["glm-4.7-thinking"]
+
+["z-ai/glm-5.1:non-thinking"]
+surplus_legacy = ["glm-5.1-non-thinking"]
+
+["z-ai/glm-5.3-uncensored"]
+
+# models.dev's canonical id for Mistral Large 4 ("mistral-large-4", "mistral-large-4-0-8")
+# is OpenRouter's mistral-large-4-0 ("Mistral: Mistral Large 4").
+["mistralai/mistral-large-4-0"]
+aliases = ["mistralai/mistral-large-4"]

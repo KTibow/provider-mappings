@@ -1,0 +1,20 @@
+# Hand-maintained mappings for api.deepseek.com; highest precedence.
+#
+# Every DeepSeek model name is a moving alias: "use deepseek-flash to access the
+# latest model" (api-docs.deepseek.com/updates, 2026-10-17). They sit under
+# OpenRouter's "~" routers; what each serves today comes from OpenRouter and
+# models.dev and is published as "current". deepseek-v4-flash and
+# deepseek-v4-flash-vision-exp are retired names DeepSeek routes to the current
+# Flash. deepseek-chat and deepseek-reasoner were discontinued on 2026-07-24.
+
+["deepseek-flash"]
+model = "~deepseek/deepseek-flash-latest"
+pin = "floating"
+
+["deepseek-v4-flash"]
+model = "~deepseek/deepseek-v4-flash-latest"
+pin = "floating"
+
+["deepseek-v4-flash-vision-exp"]
+model = "~deepseek/deepseek-v4-flash-latest"
+pin = "floating"

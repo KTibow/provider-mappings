@@ -1,0 +1,11 @@
+# Native ids api.cloudflare.com is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+@cf/google/gemma-4-26b-a4b-it
+@cf/meta/llama-3.2-3b-instruct
+@cf/moonshotai/kimi-k2.6
+@cf/moonshotai/kimi-k2.7-code
+@cf/zai-org/glm-4.7-flash
+@cf/zai-org/glm-5.2
+@cf/zai-org/glm-5.3

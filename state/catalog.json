@@ -1,0 +1,6863 @@
+{
+ "aion-labs/aion-2.0": {
+  "input": [
+   "text"
+  ],
+  "name": "AionLabs: Aion-2.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "aion-labs/aion-2.0-20260223"
+ },
+ "aion-labs/aion-3.0": {
+  "input": [
+   "text"
+  ],
+  "name": "AionLabs: Aion-3.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "aion-labs/aion-3.0-20260707"
+ },
+ "aion-labs/aion-3.0-mini": {
+  "input": [
+   "text"
+  ],
+  "name": "AionLabs: Aion-3.0-Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "aion-labs/aion-3.0-mini-20260707"
+ },
+ "aion-labs/aion-3.5": {
+  "input": [
+   "text"
+  ],
+  "name": "AionLabs: Aion 3.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "aion-labs/aion-3.5-20260923"
+ },
+ "aion-labs/aion-3.5-mini": {
+  "input": [
+   "text"
+  ],
+  "name": "AionLabs: Aion 3.5 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "aion-labs/aion-3.5-mini-20260923"
+ },
+ "aion-labs/aion-rp-llama-3.1-8b": {
+  "hf": "aion-labs/Aion-RP-Llama-3.1-8B",
+  "input": [
+   "text"
+  ],
+  "name": "AionLabs: Aion-RP 1.0 (8B)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "aion-labs/aion-rp-llama-3.1-8b"
+ },
+ "alibaba/happyhorse-1.0": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Alibaba: HappyHorse 1.0",
+  "output": [
+   "video"
+  ],
+  "permaslug": "alibaba/happyhorse-1.0-20260624"
+ },
+ "alibaba/happyhorse-1.1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Alibaba: HappyHorse 1.1",
+  "output": [
+   "video"
+  ],
+  "permaslug": "alibaba/happyhorse-1.1-20260624"
+ },
+ "alibaba/wan-2.6": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Alibaba: Wan 2.6",
+  "output": [
+   "video"
+  ],
+  "permaslug": "alibaba/wan-2.6-20260327"
+ },
+ "alibaba/wan-2.7": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Alibaba: Wan 2.7",
+  "output": [
+   "video"
+  ],
+  "permaslug": "alibaba/wan-2.7-20260414"
+ },
+ "alibaba/wan-3.0": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Alibaba: Wan 3.0",
+  "output": [
+   "video"
+  ],
+  "permaslug": "alibaba/wan-3.0-20260824"
+ },
+ "alibaba/wan-3.0-prime": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Alibaba: Wan 3.0 Prime",
+  "output": [
+   "video"
+  ],
+  "permaslug": "alibaba/wan-3.0-prime-20260827"
+ },
+ "amazon/nova-2-lite-v1": {
+  "input": [
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Amazon: Nova 2 Lite",
+  "output": [
+   "text"
+  ],
+  "permaslug": "amazon/nova-2-lite-v1"
+ },
+ "amazon/nova-lite-v1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Amazon: Nova Lite 1.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "amazon/nova-lite-v1"
+ },
+ "amazon/nova-micro-v1": {
+  "input": [
+   "text"
+  ],
+  "name": "Amazon: Nova Micro 1.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "amazon/nova-micro-v1"
+ },
+ "amazon/nova-premier-v1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Amazon: Nova Premier 1.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "amazon/nova-premier-v1"
+ },
+ "amazon/nova-pro-v1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Amazon: Nova Pro 1.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "amazon/nova-pro-v1"
+ },
+ "amazon/titan-embed-image-v1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Amazon: Titan Multimodal Embeddings G1",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "amazon/titan-embed-image-v1-20261026"
+ },
+ "amazon/titan-embed-text-v1": {
+  "input": [
+   "text"
+  ],
+  "name": "Amazon: Titan Embeddings G1 - Text",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "amazon/titan-embed-text-v1-20261026"
+ },
+ "amazon/titan-embed-text-v2": {
+  "input": [
+   "text"
+  ],
+  "name": "Amazon: Titan Text Embeddings V2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "amazon/titan-embed-text-v2-20261026"
+ },
+ "anthracite-org/magnum-v4-72b": {
+  "hf": "anthracite-org/magnum-v4-72b",
+  "input": [
+   "text"
+  ],
+  "name": "Magnum v4 72B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthracite-org/magnum-v4-72b"
+ },
+ "anthropic/claude-fable-5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Fable 5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-5-fable-20260609"
+ },
+ "anthropic/claude-fable-5.1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Fable 5.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-fable-5.1-20260831"
+ },
+ "anthropic/claude-fable-5.2": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Fable 5.2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-fable-5.2-20261109"
+ },
+ "anthropic/claude-haiku-4.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Haiku 4.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.5-haiku-20251001"
+ },
+ "anthropic/claude-haiku-5.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Haiku 5.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-haiku-5.5-20261007"
+ },
+ "anthropic/claude-opus-4.1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 4.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.1-opus-20250805"
+ },
+ "anthropic/claude-opus-4.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 4.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.5-opus-20251124"
+ },
+ "anthropic/claude-opus-4.6": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 4.6",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.6-opus-20260205"
+ },
+ "anthropic/claude-opus-4.7": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 4.7",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.7-opus-20260416"
+ },
+ "anthropic/claude-opus-4.8": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 4.8",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.8-opus-20260528"
+ },
+ "anthropic/claude-opus-5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-opus-5-20260723"
+ },
+ "anthropic/claude-opus-5.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Opus 5.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-opus-5.5-20260921"
+ },
+ "anthropic/claude-sonnet-4.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Sonnet 4.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.5-sonnet-20250929"
+ },
+ "anthropic/claude-sonnet-4.6": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Sonnet 4.6",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-4.6-sonnet-20260217"
+ },
+ "anthropic/claude-sonnet-5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Sonnet 5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-sonnet-5-20260630"
+ },
+ "anthropic/claude-sonnet-5.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Anthropic: Claude Sonnet 5.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "anthropic/claude-sonnet-5.5-20260928"
+ },
+ "assemblyai/assemblyai-tts-1": {
+  "input": [
+   "text"
+  ],
+  "name": "AssemblyAI: TTS 1",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "assemblyai/assemblyai-tts-1-20261028"
+ },
+ "assemblyai/universal-3-5-pro": {
+  "input": [
+   "audio"
+  ],
+  "name": "AssemblyAI: Universal-3.5 Pro",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "assemblyai/universal-3-5-pro-20260914"
+ },
+ "assemblyai/universal-3-6-pro": {
+  "input": [
+   "audio"
+  ],
+  "name": "AssemblyAI: Universal-3.6 Pro",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "assemblyai/universal-3-6-pro-20261014"
+ },
+ "baai/bge-base-en-v1.5": {
+  "hf": "BAAI/bge-base-en-v1.5",
+  "input": [
+   "text"
+  ],
+  "name": "BAAI: bge-base-en-v1.5",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "baai/bge-base-en-v1.5-20251117"
+ },
+ "baai/bge-large-en-v1.5": {
+  "hf": "BAAI/bge-large-en-v1.5",
+  "input": [
+   "text"
+  ],
+  "name": "BAAI: bge-large-en-v1.5",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "baai/bge-large-en-v1.5-20251117"
+ },
+ "baai/bge-m3": {
+  "hf": "BAAI/bge-m3",
+  "input": [
+   "text"
+  ],
+  "name": "BAAI: bge-m3",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "baai/bge-m3-20251117"
+ },
+ "baidu/ernie-5.5-flash-preview": {
+  "formerly": [
+   "baidu/ernie-5.5-flash-preview:free"
+  ],
+  "hf": "baidu/ERNIE-5.5-Flash-Preview",
+  "input": [
+   "text"
+  ],
+  "name": "Baidu: ERNIE-5.5-Flash-Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "baidu/ernie-5.5-flash-preview-20261110"
+ },
+ "baidu/ernie-light-dt-1.0-intl": {
+  "input": [
+   "text"
+  ],
+  "name": "Baidu: ERNIE-Light-DT-1.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "baidu/ernie-light-dt-1.0-intl-20261110"
+ },
+ "baseten/elephant-1": {
+  "hf": "baselabs/elephant-1",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Baseten: Elephant 1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "baseten/elephant-1-20261021"
+ },
+ "baseten/joey-1": {
+  "hf": "baselabs/joey-1",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Baseten: Joey 1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "baseten/joey-1-20261029"
+ },
+ "baseten/mammoth-1": {
+  "hf": "baselabs/mammoth-1",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Baseten: Mammoth 1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "baseten/mammoth-1-20261021"
+ },
+ "black-forest-labs/flux-3-image": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Black Forest Labs: FLUX 3 Image",
+  "output": [
+   "image"
+  ],
+  "permaslug": "black-forest-labs/flux-3-image-20261001"
+ },
+ "black-forest-labs/flux-3-image-klein": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Black Forest Labs: FLUX 3 Image Klein",
+  "output": [
+   "image"
+  ],
+  "permaslug": "black-forest-labs/flux-3-image-klein-20261015"
+ },
+ "black-forest-labs/flux-3-video": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Black Forest Labs: FLUX 3 Video",
+  "output": [
+   "video"
+  ],
+  "permaslug": "black-forest-labs/flux-3-video-20260804"
+ },
+ "black-forest-labs/flux-video-edit": {
+  "input": [
+   "text",
+   "video"
+  ],
+  "name": "Black Forest Labs: FLUX Video Edit",
+  "output": [
+   "video"
+  ],
+  "permaslug": "black-forest-labs/flux-video-edit-20260910"
+ },
+ "black-forest-labs/flux-video-upscale": {
+  "input": [
+   "text",
+   "video"
+  ],
+  "name": "Black Forest Labs: FLUX Video Upscale",
+  "output": [
+   "video"
+  ],
+  "permaslug": "black-forest-labs/flux-video-upscale-20260819"
+ },
+ "black-forest-labs/flux.2-flex": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Black Forest Labs: FLUX.2 Flex",
+  "output": [
+   "image"
+  ],
+  "permaslug": "black-forest-labs/flux.2-flex"
+ },
+ "black-forest-labs/flux.2-klein-4b": {
+  "hf": "black-forest-labs/FLUX.2-klein-4B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Black Forest Labs: FLUX.2 Klein 4B",
+  "output": [
+   "image"
+  ],
+  "permaslug": "black-forest-labs/flux.2-klein-4b"
+ },
+ "black-forest-labs/flux.2-max": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Black Forest Labs: FLUX.2 Max",
+  "output": [
+   "image"
+  ],
+  "permaslug": "black-forest-labs/flux.2-max"
+ },
+ "black-forest-labs/flux.2-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Black Forest Labs: FLUX.2 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "black-forest-labs/flux.2-pro"
+ },
+ "bytedance-seed/seed-2-1-turbo": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance Seed: Seed 2.1 Turbo",
+  "output": [
+   "text"
+  ],
+  "permaslug": "bytedance-seed/seed-2-1-turbo-20260810"
+ },
+ "bytedance-seed/seed-2.0-lite": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance Seed: Seed-2.0-Lite",
+  "output": [
+   "text"
+  ],
+  "permaslug": "bytedance-seed/seed-2.0-lite-20260309"
+ },
+ "bytedance-seed/seed-2.0-mini": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance Seed: Seed-2.0-Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "bytedance-seed/seed-2.0-mini-20260224"
+ },
+ "bytedance-seed/seed-audio-1-0": {
+  "input": [
+   "text"
+  ],
+  "name": "ByteDance Seed: Seed Audio 1.0",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "bytedance-seed/seed-audio-1-0-20260630"
+ },
+ "bytedance-seed/seedream-4.5": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "ByteDance Seed: Seedream 4.5",
+  "output": [
+   "image"
+  ],
+  "permaslug": "bytedance-seed/seedream-4.5-20251203"
+ },
+ "bytedance-seed/seedream-5-0-flash": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "ByteDance Seed: Seedream 5.0 Flash",
+  "output": [
+   "image"
+  ],
+  "permaslug": "bytedance-seed/seedream-5-0-flash-20261001"
+ },
+ "bytedance-seed/seedream-5-0-lite": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "ByteDance Seed: Seedream 5.0 Lite",
+  "output": [
+   "image"
+  ],
+  "permaslug": "bytedance-seed/seedream-5-0-lite-20260812"
+ },
+ "bytedance-seed/seedream-5-0-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "ByteDance Seed: Seedream 5.0 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "bytedance-seed/seedream-5-0-pro-20260812"
+ },
+ "bytedance/seedance-2.0": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance: Seedance 2.0",
+  "output": [
+   "video"
+  ],
+  "permaslug": "bytedance/seedance-2.0-20260414"
+ },
+ "bytedance/seedance-2.0-fast": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance: Seedance 2.0 Fast",
+  "output": [
+   "video"
+  ],
+  "permaslug": "bytedance/seedance-2.0-fast-20260414"
+ },
+ "bytedance/seedance-2.0-mini": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance: Seedance 2.0 Mini",
+  "output": [
+   "video"
+  ],
+  "permaslug": "bytedance/seedance-2.0-mini-20260811"
+ },
+ "bytedance/seedance-2.5": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance: Seedance 2.5",
+  "output": [
+   "video"
+  ],
+  "permaslug": "bytedance/seedance-2.5-20260807"
+ },
+ "bytedance/ui-tars-1.5-7b": {
+  "hf": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "ByteDance: UI-TARS 7B ",
+  "output": [
+   "text"
+  ],
+  "permaslug": "bytedance/ui-tars-1.5-7b"
+ },
+ "canopylabs/orpheus-3b-0.1-ft": {
+  "input": [
+   "text"
+  ],
+  "name": "Canopy Labs: Orpheus 3B",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "canopylabs/orpheus-3b-0.1-ft"
+ },
+ "cloudflare/clairic": {
+  "hf": "Cloudflare/clairic",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Cloudflare: Clairic",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "cloudflare/clairic-20261029"
+ },
+ "cloudflare/clef": {
+  "hf": "Cloudflare/clef",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Cloudflare: Clef",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "cloudflare/clef"
+ },
+ "cloudflare/clef-flash": {
+  "hf": "Cloudflare/clef-flash",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Cloudflare: Clef Flash",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "cloudflare/clef-flash"
+ },
+ "cloudflare/clef-omni": {
+  "hf": "Cloudflare/clef-omni",
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Cloudflare: Clef Omni",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "cloudflare/clef-omni-20261009"
+ },
+ "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
+  "hf": "cognitivecomputations/Dolphin-Mistral-24B-Venice-Edition",
+  "input": [
+   "text"
+  ],
+  "name": "Venice: Uncensored",
+  "output": [
+   "text"
+  ],
+  "permaslug": "venice/uncensored"
+ },
+ "cohere/command-a": {
+  "hf": "CohereForAI/c4ai-command-a-03-2025",
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Command A",
+  "output": [
+   "text"
+  ],
+  "permaslug": "cohere/command-a-03-2025"
+ },
+ "cohere/command-a-plus": {
+  "hf": "CohereLabs/command-a-plus-05-2026-bf16",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Cohere: Command A+",
+  "output": [
+   "text"
+  ],
+  "permaslug": "cohere/command-a-plus-05-2026"
+ },
+ "cohere/command-r-08-2024": {
+  "hf": "CohereLabs/c4ai-command-r-08-2024",
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Command R (08-2024)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "cohere/command-r-08-2024"
+ },
+ "cohere/command-r-plus-08-2024": {
+  "hf": "CohereLabs/c4ai-command-r-plus-08-2024",
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Command R+ (08-2024)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "cohere/command-r-plus-08-2024"
+ },
+ "cohere/command-r7b-12-2024": {
+  "hf": "CohereLabs/c4ai-command-r7b-12-2024",
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Command R7B (12-2024)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "cohere/command-r7b-12-2024"
+ },
+ "cohere/embed-5-fast": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Cohere: Embed 5 Fast",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "cohere/embed-5-fast-20261029"
+ },
+ "cohere/embed-5-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Cohere: Embed 5 Pro",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "cohere/embed-5-pro-20261029"
+ },
+ "cohere/north-mini-code": {
+  "formerly": [
+   "cohere/north-mini-code:free"
+  ],
+  "hf": "CohereLabs/North-Mini-Code-1.0",
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: North Mini Code",
+  "output": [
+   "text"
+  ],
+  "permaslug": "cohere/north-mini-code-20260617"
+ },
+ "cohere/rerank-4-fast": {
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Rerank 4 Fast",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "cohere/rerank-4-fast"
+ },
+ "cohere/rerank-4-pro": {
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Rerank 4 Pro",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "cohere/rerank-4-pro"
+ },
+ "cohere/rerank-5-fast": {
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Rerank 5 Fast",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "cohere/rerank-5-fast-20261028"
+ },
+ "cohere/rerank-5-pro": {
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Rerank 5 Pro",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "cohere/rerank-5-pro-20261028"
+ },
+ "cohere/rerank-v3.5": {
+  "input": [
+   "text"
+  ],
+  "name": "Cohere: Rerank v3.5",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "cohere/rerank-v3.5"
+ },
+ "deepgram/aura-2": {
+  "input": [
+   "text"
+  ],
+  "name": "Deepgram: Aura-2",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "deepgram/aura-2-20260716"
+ },
+ "deepgram/flux-tts": {
+  "input": [
+   "text"
+  ],
+  "name": "Deepgram: Flux TTS",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "deepgram/flux-tts-20260812"
+ },
+ "deepgram/nova-3": {
+  "input": [
+   "audio"
+  ],
+  "name": "Deepgram: Nova-3",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "deepgram/nova-3-20260714"
+ },
+ "deepseek/deepseek-chat": {
+  "hf": "deepseek-ai/DeepSeek-V3",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-chat-v3"
+ },
+ "deepseek/deepseek-chat-v3-0324": {
+  "hf": "deepseek-ai/DeepSeek-V3-0324",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V3 0324",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-chat-v3-0324"
+ },
+ "deepseek/deepseek-chat-v3.1": {
+  "hf": "deepseek-ai/DeepSeek-V3.1",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V3.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-chat-v3.1"
+ },
+ "deepseek/deepseek-r1-0528": {
+  "hf": "deepseek-ai/DeepSeek-R1-0528",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: R1 0528",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-r1-0528"
+ },
+ "deepseek/deepseek-v3.1-terminus": {
+  "hf": "deepseek-ai/DeepSeek-V3.1-Terminus",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V3.1 Terminus",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v3.1-terminus"
+ },
+ "deepseek/deepseek-v3.2": {
+  "hf": "deepseek-ai/DeepSeek-V3.2",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V3.2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v3.2-20251201"
+ },
+ "deepseek/deepseek-v3.2-exp": {
+  "hf": "deepseek-ai/DeepSeek-V3.2-Exp",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V3.2 Exp",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v3.2-exp"
+ },
+ "deepseek/deepseek-v4-flash": {
+  "hf": "deepseek-ai/DeepSeek-V4-Flash",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4 Flash 0423",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4-flash-20260423"
+ },
+ "deepseek/deepseek-v4-flash-0731": {
+  "hf": "deepseek-ai/DeepSeek-V4-Flash-0731",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4 Flash 0731",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4-flash-20260731"
+ },
+ "deepseek/deepseek-v4-flash-vision-exp": {
+  "hf": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4-flash-vision-exp-20260821"
+ },
+ "deepseek/deepseek-v4-pro": {
+  "hf": "deepseek-ai/DeepSeek-V4-Pro",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4 Pro 0423",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4-pro-20260423"
+ },
+ "deepseek/deepseek-v4-pro-0813": {
+  "hf": "deepseek-ai/DeepSeek-V4-Pro-0813",
+  "input": [
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4 Pro 0813",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4-pro-20260813"
+ },
+ "deepseek/deepseek-v4.1-flash": {
+  "hf": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4.1 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4.1-flash-20260910"
+ },
+ "deepseek/deepseek-v4.1-flash-1017": {
+  "hf": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+  "output": [
+   "text"
+  ],
+  "permaslug": "deepseek/deepseek-v4.1-flash-20261017"
+ },
+ "dots-studio/dots-3-note-preview": {
+  "formerly": [
+   "dots-studio/dots-3-note-preview:free"
+  ],
+  "hf": "dots-studio/dots3-note-prev",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Dots Studio: Dots3-Note Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "dots-studio/dots-3-note-preview-20260813"
+ },
+ "elevenlabs/eleven-flash-v2": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven Flash v2",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-flash-v2-20260930"
+ },
+ "elevenlabs/eleven-flash-v2.5": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven Flash v2.5",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-flash-v2.5-20260930"
+ },
+ "elevenlabs/eleven-multilingual-v2": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven Multilingual v2",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-multilingual-v2-20260930"
+ },
+ "elevenlabs/eleven-turbo-v2": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven Turbo v2",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-turbo-v2-20260930"
+ },
+ "elevenlabs/eleven-turbo-v2.5": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven Turbo v2.5",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-turbo-v2.5-20260930"
+ },
+ "elevenlabs/eleven-v3": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven v3",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-v3-20260930"
+ },
+ "elevenlabs/eleven-v3-conversational": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven v3 Conversational",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-v3-conversational-20260930"
+ },
+ "elevenlabs/eleven-v4": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven v4",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-v4-20260930"
+ },
+ "elevenlabs/eleven-v4-turbo": {
+  "input": [
+   "text"
+  ],
+  "name": "ElevenLabs: Eleven v4 Turbo",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "elevenlabs/eleven-v4-turbo-20260930"
+ },
+ "elevenlabs/scribe-v2": {
+  "input": [
+   "audio"
+  ],
+  "name": "ElevenLabs: Scribe v2",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "elevenlabs/scribe-v2-20260929"
+ },
+ "elevenlabs/scribe-v2-medical": {
+  "input": [
+   "audio"
+  ],
+  "name": "ElevenLabs: Scribe v2 Medical",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "elevenlabs/scribe-v2-medical-20260929"
+ },
+ "elorian/glimpse": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Elorian: Glimpse",
+  "output": [
+   "text"
+  ],
+  "permaslug": "elorian/glimpse-20261016"
+ },
+ "fireworks/ember-1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Fireworks: Ember-1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "fireworks/ember-1-20260923"
+ },
+ "fish-audio/drama-3": {
+  "input": [
+   "text"
+  ],
+  "name": "Fish Audio: Drama 3",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "fish-audio/drama-3-20261013"
+ },
+ "fish-audio/s1": {
+  "input": [
+   "text"
+  ],
+  "name": "Fish Audio: S1",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "fish-audio/s1-20260729"
+ },
+ "fish-audio/s2-pro": {
+  "input": [
+   "text"
+  ],
+  "name": "Fish Audio: S2 Pro",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "fish-audio/s2-pro-20260729"
+ },
+ "fish-audio/s2.1-pro": {
+  "input": [
+   "text"
+  ],
+  "name": "Fish Audio: S2.1 Pro",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "fish-audio/s2.1-pro-20260729"
+ },
+ "fish-audio/s2.1-pro-free": {
+  "formerly": [
+   "fish-audio/s2.1-pro-free:free"
+  ],
+  "input": [
+   "text"
+  ],
+  "name": "Fish Audio: S2.1 Pro Free",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "fish-audio/s2.1-pro-free-20260729"
+ },
+ "fish-audio/transcribe-1": {
+  "input": [
+   "audio"
+  ],
+  "name": "Fish Audio: Transcribe 1",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "fish-audio/transcribe-1-20260729"
+ },
+ "fish-audio/transcribe-1-pro": {
+  "input": [
+   "audio"
+  ],
+  "name": "Fish Audio: Transcribe 1 Pro",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "fish-audio/transcribe-1-pro-20260924"
+ },
+ "google/chirp-3": {
+  "input": [
+   "audio"
+  ],
+  "name": "Google: Chirp 3",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "google/chirp-3"
+ },
+ "google/gemini-2.5-flash": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 2.5 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-2.5-flash"
+ },
+ "google/gemini-2.5-flash-image": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-2.5-flash-image"
+ },
+ "google/gemini-2.5-flash-lite": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 2.5 Flash Lite",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-2.5-flash-lite"
+ },
+ "google/gemini-2.5-pro": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 2.5 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-2.5-pro"
+ },
+ "google/gemini-2.5-pro-preview": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Google: Gemini 2.5 Pro Preview 06-05",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-2.5-pro-preview-06-05"
+ },
+ "google/gemini-3-flash-preview": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3 Flash Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3-flash-preview-20251217"
+ },
+ "google/gemini-3-pro-image": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-3-pro-image-20260528"
+ },
+ "google/gemini-3-pro-image-preview": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-3-pro-image-preview-20251120"
+ },
+ "google/gemini-3.1-flash-image": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-flash-image-20260528"
+ },
+ "google/gemini-3.1-flash-image-preview": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-flash-image-preview-20260226"
+ },
+ "google/gemini-3.1-flash-lite": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.1 Flash Lite",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-flash-lite-20260507"
+ },
+ "google/gemini-3.1-flash-lite-image": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-flash-lite-image-20260630"
+ },
+ "google/gemini-3.1-flash-lite-preview": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.1 Flash Lite Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-flash-lite-preview-20260303"
+ },
+ "google/gemini-3.1-flash-tts-preview": {
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemini 3.1 Flash TTS Preview",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "google/gemini-3.1-flash-tts-preview"
+ },
+ "google/gemini-3.1-pro-preview": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.1 Pro Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-pro-preview-20260219"
+ },
+ "google/gemini-3.1-pro-preview-customtools": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.1-pro-preview-customtools-20260219"
+ },
+ "google/gemini-3.5-flash": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.5 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.5-flash-20260519"
+ },
+ "google/gemini-3.5-flash-lite": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.5 Flash Lite",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.5-flash-lite-20260721"
+ },
+ "google/gemini-3.5-transcribe": {
+  "input": [
+   "audio"
+  ],
+  "name": "Google: Gemini 3.5 Transcribe",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "google/gemini-3.5-transcribe-20260827"
+ },
+ "google/gemini-3.6-flash": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.6 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.6-flash-20260721"
+ },
+ "google/gemini-3.7-flash": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.7 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.7-flash-20260813"
+ },
+ "google/gemini-3.8-flash": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 3.8 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-3.8-flash-20260902"
+ },
+ "google/gemini-3.8-flash-lite-tts": {
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemini 3.8 Flash Lite TTS",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "google/gemini-3.8-flash-lite-tts-20260922"
+ },
+ "google/gemini-3.8-flash-tts": {
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemini 3.8 Flash TTS",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "google/gemini-3.8-flash-tts-20260922"
+ },
+ "google/gemini-4-argon": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 4 Argon",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-4-argon-20261013"
+ },
+ "google/gemini-4-carbon": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 4 Carbon",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-4-carbon-20261110"
+ },
+ "google/gemini-decision-1": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini Decision 1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "google/gemini-decision-1-20261111"
+ },
+ "google/gemini-embedding-001": {
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemini Embedding 001",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "google/gemini-embedding-001"
+ },
+ "google/gemini-embedding-2": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini Embedding 2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "google/gemini-embedding-2"
+ },
+ "google/gemini-embedding-2-preview": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini Embedding 2 Preview",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "google/gemini-embedding-2-preview"
+ },
+ "google/gemini-nano-banana-2.1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Nano Banana 2.1",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "google/gemini-nano-banana-2.1-20261006"
+ },
+ "google/gemini-omni-1.1-flash": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini Omni 1.1 Flash",
+  "output": [
+   "text",
+   "video"
+  ],
+  "permaslug": "google/gemini-omni-1.1-flash-20260911"
+ },
+ "google/gemini-omni-1.2-flash": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini Omni 1.2 Flash",
+  "output": [
+   "text",
+   "video"
+  ],
+  "permaslug": "google/gemini-omni-1.2-flash-20261105"
+ },
+ "google/gemma-2-27b-it": {
+  "hf": "google/gemma-2-27b-it",
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemma 2 27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemma-2-27b-it"
+ },
+ "google/gemma-3-12b-it": {
+  "hf": "google/gemma-3-12b-it",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Gemma 3 12B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemma-3-12b-it"
+ },
+ "google/gemma-3-27b-it": {
+  "hf": "google/gemma-3-27b-it",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Gemma 3 27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemma-3-27b-it"
+ },
+ "google/gemma-3-4b-it": {
+  "hf": "google/gemma-3-4b-it",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Gemma 3 4B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemma-3-4b-it"
+ },
+ "google/gemma-4-26b-a4b-it": {
+  "hf": "google/gemma-4-26B-A4B-it",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemma 4 26B A4B ",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemma-4-26b-a4b-it-20260403"
+ },
+ "google/gemma-4-31b-it": {
+  "hf": "google/gemma-4-31B-it",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemma 4 31B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemma-4-31b-it-20260402"
+ },
+ "google/lyria-3-clip-preview": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Lyria 3 Clip Preview",
+  "output": [
+   "audio",
+   "text"
+  ],
+  "permaslug": "google/lyria-3-clip-preview-20260330"
+ },
+ "google/lyria-3-pro-preview": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Lyria 3 Pro Preview",
+  "output": [
+   "audio",
+   "text"
+  ],
+  "permaslug": "google/lyria-3-pro-preview-20260330"
+ },
+ "google/veo-3.1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Veo 3.1",
+  "output": [
+   "video"
+  ],
+  "permaslug": "google/veo-3.1-20260320"
+ },
+ "google/veo-3.1-fast": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Veo 3.1 Fast",
+  "output": [
+   "video"
+  ],
+  "permaslug": "google/veo-3.1-fast-20260320"
+ },
+ "google/veo-3.1-lite": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Google: Veo 3.1 Lite",
+  "output": [
+   "video"
+  ],
+  "permaslug": "google/veo-3.1-lite-20260331"
+ },
+ "gryphe/mythomax-l2-13b": {
+  "hf": "Gryphe/MythoMax-L2-13b",
+  "input": [
+   "text"
+  ],
+  "name": "MythoMax 13B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "gryphe/mythomax-l2-13b"
+ },
+ "hexgrad/kokoro-82m": {
+  "input": [
+   "text"
+  ],
+  "name": "hexgrad: Kokoro 82M",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "hexgrad/kokoro-82m"
+ },
+ "heygen/avatar-iv": {
+  "input": [
+   "audio",
+   "image",
+   "text"
+  ],
+  "name": "HeyGen: Avatar IV",
+  "output": [
+   "video"
+  ],
+  "permaslug": "heygen/avatar-iv-20260625"
+ },
+ "heygen/heygen-video-1": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "HeyGen: HeyGen Video",
+  "output": [
+   "video"
+  ],
+  "permaslug": "heygen/heygen-video-1-20260930"
+ },
+ "heygen/heygen-voice-1": {
+  "input": [
+   "text"
+  ],
+  "name": "HeyGen: HeyGen Voice",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "heygen/heygen-voice-1-20261009"
+ },
+ "heygen/heygen-voice-1-turbo": {
+  "input": [
+   "text"
+  ],
+  "name": "HeyGen: HeyGen Voice Turbo",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "heygen/heygen-voice-1-turbo-20261009"
+ },
+ "ibm-granite/granite-4.2-8b": {
+  "hf": "ibm-granite/granite-4.2-8b",
+  "input": [
+   "text"
+  ],
+  "name": "IBM: Granite 4.2 8B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "ibm-granite/granite-4.2-8b-20260831"
+ },
+ "inclusionai/ling-3.0-flash": {
+  "hf": "inclusionAI/Ling-3.0-flash",
+  "input": [
+   "text"
+  ],
+  "name": "inclusionAI: Ling 3.0 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.0-flash-20260723"
+ },
+ "inclusionai/ling-3.0-flash-vl": {
+  "hf": "inclusionAI/Ling-3.0-flash-VL",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "inclusionAI: Ling 3.0 Flash VL",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.0-flash-vl-20260910"
+ },
+ "inclusionai/ling-3.0-tiny": {
+  "hf": "inclusionAI/Ling-3.0-tiny",
+  "input": [
+   "text"
+  ],
+  "name": "inclusionAI: Ling 3.0 Tiny",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.0-tiny-20260806"
+ },
+ "inclusionai/ling-3.1-flash": {
+  "hf": "inclusionAI/Ling-3.1-flash",
+  "input": [
+   "text"
+  ],
+  "name": "inclusionAI: Ling 3.1 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.1-flash-20261002"
+ },
+ "inference-net/schematron-v2-small": {
+  "hf": "inference-net/schematron-v2-llama-3.2-3b",
+  "input": [
+   "text"
+  ],
+  "name": "Inference.net: Schematron V2 Small",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inference-net/schematron-v2-small-20260902"
+ },
+ "inference-net/schematron-v2-turbo": {
+  "hf": "inference-net/schematron-v2-granite-4.0-h-micro",
+  "input": [
+   "text"
+  ],
+  "name": "Inference.net: Schematron V2 Turbo",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inference-net/schematron-v2-turbo-20260902"
+ },
+ "intfloat/e5-base-v2": {
+  "hf": "intfloat/e5-base-v2",
+  "input": [
+   "text"
+  ],
+  "name": "Intfloat: E5-Base-v2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "intfloat/e5-base-v2-20251117"
+ },
+ "intfloat/e5-large-v2": {
+  "hf": "intfloat/e5-large-v2",
+  "input": [
+   "text"
+  ],
+  "name": "Intfloat: E5-Large-v2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "intfloat/e5-large-v2-20251117"
+ },
+ "intfloat/multilingual-e5-large": {
+  "hf": "intfloat/multilingual-e5-large",
+  "input": [
+   "text"
+  ],
+  "name": "Intfloat: Multilingual-E5-Large",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "intfloat/multilingual-e5-large-20251117"
+ },
+ "jaredpalmer/kev-4b": {
+  "hf": "jaredpalmer/kev-4b",
+  "input": [
+   "text"
+  ],
+  "name": "Jared Palmer: Kev 4B",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "jaredpalmer/kev-4b-20260924"
+ },
+ "krea/k3-edit": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Krea: K3 Edit",
+  "output": [
+   "image"
+  ],
+  "permaslug": "krea/k3-edit-20260914"
+ },
+ "krea/krea-2-large": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Krea: Krea 2 Large",
+  "output": [
+   "image"
+  ],
+  "permaslug": "krea/krea-2-large-20260720"
+ },
+ "krea/krea-2-medium": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Krea: Krea 2 Medium",
+  "output": [
+   "image"
+  ],
+  "permaslug": "krea/krea-2-medium-20260720"
+ },
+ "krea/krea-2-medium-turbo": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Krea: Krea 2 Medium Turbo",
+  "output": [
+   "image"
+  ],
+  "permaslug": "krea/krea-2-medium-turbo-20260720"
+ },
+ "kt/midm-k-3.0-pro": {
+  "input": [
+   "text"
+  ],
+  "name": "KT: Mi:dm K 3.0 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "kt/midm-k-3.0-pro"
+ },
+ "kwaivgi/kling-v3.0-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Kling: Video v3.0 Pro",
+  "output": [
+   "video"
+  ],
+  "permaslug": "kwaivgi/kling-v3.0-pro-20260429"
+ },
+ "kwaivgi/kling-v3.0-std": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Kling: Video v3.0 Standard",
+  "output": [
+   "video"
+  ],
+  "permaslug": "kwaivgi/kling-v3.0-std-20260429"
+ },
+ "kwaivgi/kling-video-o1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Kling: Video O1",
+  "output": [
+   "video"
+  ],
+  "permaslug": "kwaivgi/kling-video-o1-20260420"
+ },
+ "liquid/d1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "LiquidAI: d1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "liquid/d1-20260930"
+ },
+ "liquid/d1-ultra": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "LiquidAI: d1-ultra",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "liquid/d1-ultra-20261015"
+ },
+ "liquid/d1.1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "LiquidAI: d1.1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "liquid/d1.1-20261027"
+ },
+ "liquid/lfm-2.5-2.6b": {
+  "hf": "LiquidAI/LFM2.5-2.6B",
+  "input": [
+   "text"
+  ],
+  "name": "LiquidAI: LFM2.5-2.6B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "liquid/lfm-2.5-2.6b-20260811"
+ },
+ "liquid/lfm-2.5-24b-a2b": {
+  "hf": "LiquidAI/LFM2.5-24B-A2B",
+  "input": [
+   "text"
+  ],
+  "name": "LiquidAI: LFM2.5-24B-A2B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "liquid/lfm-2.5-24b-a2b-20261012"
+ },
+ "liquid/lfm-2.5-embedding-350m": {
+  "formerly": [
+   "liquid/lfm-2.5-embedding-350m:free"
+  ],
+  "hf": "LiquidAI/LFM2.5-Embedding-350M",
+  "input": [
+   "text"
+  ],
+  "name": "LiquidAI: LFM2.5-Embedding-350M",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "liquid/lfm-2.5-embedding-350m-20260818"
+ },
+ "liquid/lfm-3-1.7b": {
+  "hf": "LiquidAI/LFM3-1.7B",
+  "input": [
+   "text"
+  ],
+  "name": "LiquidAI: LFM3-1.7B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "liquid/lfm-3-1.7b-20261106"
+ },
+ "mancer/weaver": {
+  "input": [
+   "text"
+  ],
+  "name": "Mancer: Weaver (alpha)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mancer/weaver"
+ },
+ "meituan/longcat-2.0": {
+  "hf": "meituan-longcat/LongCat-2.0",
+  "input": [
+   "text"
+  ],
+  "name": "Meituan: LongCat 2.0",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meituan/longcat-2.0-20260720"
+ },
+ "meta-llama/llama-3.1-70b-instruct": {
+  "hf": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Meta: Llama 3.1 70B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-3.1-70b-instruct"
+ },
+ "meta-llama/llama-3.1-8b-instruct": {
+  "hf": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Meta: Llama 3.1 8B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-3.1-8b-instruct"
+ },
+ "meta-llama/llama-3.2-1b-instruct": {
+  "hf": "meta-llama/Llama-3.2-1B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Meta: Llama 3.2 1B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-3.2-1b-instruct"
+ },
+ "meta-llama/llama-3.2-3b-instruct": {
+  "hf": "meta-llama/Llama-3.2-3B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Meta: Llama 3.2 3B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-3.2-3b-instruct"
+ },
+ "meta-llama/llama-3.3-70b-instruct": {
+  "hf": "meta-llama/Llama-3.3-70B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Meta: Llama 3.3 70B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-3.3-70b-instruct"
+ },
+ "meta-llama/llama-4-maverick": {
+  "hf": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Meta: Llama 4 Maverick",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-4-maverick-17b-128e-instruct"
+ },
+ "meta-llama/llama-4-scout": {
+  "hf": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Meta: Llama 4 Scout",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-4-scout-17b-16e-instruct"
+ },
+ "meta-llama/llama-guard-4-12b": {
+  "hf": "meta-llama/Llama-Guard-4-12B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Meta: Llama Guard 4 12B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta-llama/llama-guard-4-12b"
+ },
+ "meta/muse-ember": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Ember",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-ember-20261109"
+ },
+ "meta/muse-glimmer-30b": {
+  "hf": "meta-models/Muse-Glimmer-30B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Meta: Muse Glimmer 30B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-glimmer-30b-20260810"
+ },
+ "meta/muse-image": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Meta: Muse Image",
+  "output": [
+   "image"
+  ],
+  "permaslug": "meta/muse-image-1.0-eval-20260824"
+ },
+ "meta/muse-spark-1.1": {
+  "input": [
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Spark 1.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-spark-1.1-20260709"
+ },
+ "meta/muse-spark-1.2": {
+  "input": [
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Spark 1.2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-spark-1.2-20260805"
+ },
+ "meta/muse-spark-1.2-contributor": {
+  "input": [
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Spark 1.2 Contributor",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-spark-1.2-contributor-20260805"
+ },
+ "meta/muse-spark-1.3": {
+  "input": [
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Spark 1.3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-spark-1.3-20260902"
+ },
+ "meta/muse-spark-1.3-contributor": {
+  "input": [
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Spark 1.3 Contributor",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-spark-1.3-contributor-20260902"
+ },
+ "meta/muse-spark-open": {
+  "hf": "meta-models/Muse-Spark-Open-816B-A42B",
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Spark Open",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-spark-open-20261015"
+ },
+ "meta/muse-voice-transcribe-1.0": {
+  "input": [
+   "audio"
+  ],
+  "name": "Meta: Muse Voice Transcribe 1.0",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "meta/muse-voice-transcribe-1.0-20260903"
+ },
+ "meta/muse-wonder": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Meta: Muse Wonder",
+  "output": [
+   "text"
+  ],
+  "permaslug": "meta/muse-wonder-20261012"
+ },
+ "microsoft/mai-image-2.5": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Image-2.5",
+  "output": [
+   "image"
+  ],
+  "permaslug": "microsoft/mai-image-2.5"
+ },
+ "microsoft/mai-image-2.5-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Image-2.5 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "microsoft/mai-image-2.5-pro-20260723"
+ },
+ "microsoft/mai-image-2.6": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Image-2.6",
+  "output": [
+   "image"
+  ],
+  "permaslug": "microsoft/mai-image-2.6-20260904"
+ },
+ "microsoft/mai-image-2.6-flash": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Image-2.6 Flash",
+  "output": [
+   "image"
+  ],
+  "permaslug": "microsoft/mai-image-2.6-flash-20260904"
+ },
+ "microsoft/mai-transcribe-1.5": {
+  "input": [
+   "audio"
+  ],
+  "name": "Microsoft AI: MAI-Transcribe 1.5",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "microsoft/mai-transcribe-1.5"
+ },
+ "microsoft/mai-transcribe-2": {
+  "input": [
+   "audio"
+  ],
+  "name": "Microsoft AI: MAI-Transcribe 2",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "microsoft/mai-transcribe-2-20260903"
+ },
+ "microsoft/mai-voice-2": {
+  "input": [
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Voice-2",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "microsoft/mai-voice-2"
+ },
+ "microsoft/mai-voice-2-flash": {
+  "input": [
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Voice-2-Flash",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "microsoft/mai-voice-2-flash-20260723"
+ },
+ "microsoft/mai-voice-2.1": {
+  "input": [
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Voice-2.1",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "microsoft/mai-voice-2.1-20261001"
+ },
+ "microsoft/mai-voice-2.1-flash": {
+  "input": [
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Voice-2.1-Flash",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "microsoft/mai-voice-2.1-flash-20261001"
+ },
+ "microsoft/microsoft-decision-1": {
+  "input": [
+   "text"
+  ],
+  "name": "Microsoft: Microsoft-Decision-1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "microsoft/microsoft-decision-1-20261009"
+ },
+ "microsoft/phi-4": {
+  "hf": "microsoft/phi-4",
+  "input": [
+   "text"
+  ],
+  "name": "Microsoft: Phi 4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "microsoft/phi-4"
+ },
+ "minimax/hailuo-2.3": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MiniMax: Hailuo 2.3",
+  "output": [
+   "video"
+  ],
+  "permaslug": "minimax/hailuo-2.3-20260420"
+ },
+ "minimax/hailuo-3": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "MiniMax: H3",
+  "output": [
+   "video"
+  ],
+  "permaslug": "minimax/hailuo-03-20260730"
+ },
+ "minimax/hailuo-3-max": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MiniMax: H3 Max",
+  "output": [
+   "video"
+  ],
+  "permaslug": "minimax/hailuo-3-max-20260901"
+ },
+ "minimax/minimax-h3-image": {
+  "hf": "MiniMaxAI/MiniMax-H3-Image",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MiniMax: MiniMax H3 Image",
+  "output": [
+   "image"
+  ],
+  "permaslug": "minimax/minimax-h3-image-20261110"
+ },
+ "minimax/minimax-h3-image-highspeed": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MiniMax: MiniMax H3 Image Highspeed",
+  "output": [
+   "image"
+  ],
+  "permaslug": "minimax/minimax-h3-image-highspeed-20261110"
+ },
+ "minimax/minimax-m2.5": {
+  "hf": "MiniMaxAI/MiniMax-M2.5",
+  "input": [
+   "text"
+  ],
+  "name": "MiniMax: MiniMax M2.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "minimax/minimax-m2.5-20260211"
+ },
+ "minimax/minimax-m2.7": {
+  "hf": "MiniMaxAI/MiniMax-M2.7",
+  "input": [
+   "text"
+  ],
+  "name": "MiniMax: MiniMax M2.7",
+  "output": [
+   "text"
+  ],
+  "permaslug": "minimax/minimax-m2.7-20260318"
+ },
+ "minimax/minimax-m3": {
+  "hf": "MiniMaxAI/Minimax-M3",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "MiniMax: MiniMax M3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "minimax/minimax-m3-20260531"
+ },
+ "minimax/minimax-m3.1-flash": {
+  "hf": "MiniMaxAI/MiniMax-M3.1-Flash",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "MiniMax: MiniMax M3.1 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "minimax/minimax-m3.1-flash-20261019"
+ },
+ "minimax/speech-2.8-hd": {
+  "input": [
+   "text"
+  ],
+  "name": "MiniMax: Speech 2.8 HD",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "minimax/speech-2.8-hd-20260716"
+ },
+ "minimax/speech-2.8-turbo": {
+  "input": [
+   "text"
+  ],
+  "name": "MiniMax: Speech 2.8 Turbo",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "minimax/speech-2.8-turbo-20260716"
+ },
+ "mistralai/codestral-2508": {
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "Mistral: Codestral 2508",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/codestral-2508"
+ },
+ "mistralai/codestral-embed-2505": {
+  "input": [
+   "text"
+  ],
+  "name": "Mistral: Codestral Embed 2505",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "mistralai/codestral-embed-2505"
+ },
+ "mistralai/devstral-2512": {
+  "hf": "mistralai/Devstral-2-123B-Instruct-2512",
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "Mistral: Devstral 2 2512",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/devstral-2512"
+ },
+ "mistralai/ministral-14b-2512": {
+  "hf": "mistralai/Ministral-3-14B-Instruct-2512",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Ministral 3 14B 2512",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/ministral-14b-2512"
+ },
+ "mistralai/ministral-3b-2512": {
+  "hf": "mistralai/Ministral-3-3B-Instruct-2512",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Ministral 3 3B 2512",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/ministral-3b-2512"
+ },
+ "mistralai/ministral-8b-2512": {
+  "hf": "mistralai/Ministral-3-8B-Instruct-2512",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Ministral 3 8B 2512",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/ministral-8b-2512"
+ },
+ "mistralai/mistral-embed-2312": {
+  "input": [
+   "text"
+  ],
+  "name": "Mistral: Mistral Embed 2312",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "mistralai/mistral-embed-2312"
+ },
+ "mistralai/mistral-large": {
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "Mistral Large",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-large"
+ },
+ "mistralai/mistral-large-2407": {
+  "hf": "mistralai/Mistral-Large-Instruct-2407",
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "Mistral Large 2407",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-large-2407"
+ },
+ "mistralai/mistral-large-2512": {
+  "hf": "mistralai/Mistral-Large-3-675B-Instruct-2512",
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Large 3 2512",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-large-2512"
+ },
+ "mistralai/mistral-large-4-0": {
+  "hf": "mistralai/Mistral-Large-4-1T-A52B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Large 4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-large-4-0-20261006"
+ },
+ "mistralai/mistral-medium-3": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Medium 3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-medium-3"
+ },
+ "mistralai/mistral-medium-3-5": {
+  "hf": "mistralai/Mistral-Medium-3.5-128B",
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Medium 3.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-medium-3.5-20260430"
+ },
+ "mistralai/mistral-medium-3.1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Medium 3.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-medium-3.1"
+ },
+ "mistralai/mistral-nemo": {
+  "hf": "mistralai/Mistral-Nemo-Instruct-2407",
+  "input": [
+   "text"
+  ],
+  "name": "Mistral: Mistral Nemo",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-nemo"
+ },
+ "mistralai/mistral-saba": {
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "Mistral: Saba",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-saba-2502"
+ },
+ "mistralai/mistral-small-24b-instruct-2501": {
+  "hf": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "input": [
+   "text"
+  ],
+  "name": "Mistral: Mistral Small 3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-small-24b-instruct-2501"
+ },
+ "mistralai/mistral-small-2603": {
+  "hf": "mistralai/Mistral-Small-4-119B-2603",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Small 4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-small-2603"
+ },
+ "mistralai/mistral-small-3.1-24b-instruct": {
+  "hf": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Small 3.1 24B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-small-3.1-24b-instruct-2503"
+ },
+ "mistralai/mistral-small-3.2-24b-instruct": {
+  "hf": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Mistral Small 3.2 24B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mistral-small-3.2-24b-instruct-2506"
+ },
+ "mistralai/mixtral-8x22b-instruct": {
+  "hf": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "Mistral: Mixtral 8x22B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/mixtral-8x22b-instruct"
+ },
+ "mistralai/voxtral-mini-3b-2507": {
+  "hf": "mistralai/Voxtral-Mini-3B-2507",
+  "input": [
+   "audio"
+  ],
+  "name": "Mistral: Voxtral Mini 3B 2507",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "mistralai/voxtral-mini-3b-2507-20260813"
+ },
+ "mistralai/voxtral-mini-transcribe": {
+  "input": [
+   "audio"
+  ],
+  "name": "Mistral: Voxtral Mini Transcribe",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "mistralai/voxtral-mini-transcribe-2602"
+ },
+ "mistralai/voxtral-mini-transcribe-3-0": {
+  "input": [
+   "audio"
+  ],
+  "name": "Mistral: Voxtral Mini Transcribe 3",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "mistralai/voxtral-mini-transcribe-3-0-20261020"
+ },
+ "mistralai/voxtral-mini-tts-2603": {
+  "input": [
+   "text"
+  ],
+  "name": "Mistral: Voxtral Mini TTS",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "mistralai/voxtral-mini-tts-2603"
+ },
+ "mistralai/voxtral-mini-tts-3-0": {
+  "input": [
+   "text"
+  ],
+  "name": "Mistral: Voxtral TTS 3",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "mistralai/voxtral-mini-tts-3-0-20261020"
+ },
+ "mistralai/voxtral-small-24b-2507": {
+  "hf": "mistralai/Voxtral-Small-24B-2507",
+  "input": [
+   "audio",
+   "file",
+   "text"
+  ],
+  "name": "Mistral: Voxtral Small 24B 2507",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/voxtral-small-24b-2507"
+ },
+ "mistralai/voxtral-small-24b-2507-stt": {
+  "hf": "mistralai/Voxtral-Small-24B-2507",
+  "input": [
+   "audio"
+  ],
+  "name": "Mistral: Voxtral Small 24B 2507 STT",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "mistralai/voxtral-small-24b-2507-stt-20260813"
+ },
+ "mistralai/voxtral-small-transcribe-3-0": {
+  "input": [
+   "audio"
+  ],
+  "name": "Mistral: Voxtral Small Transcribe 3",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "mistralai/voxtral-small-transcribe-3-0-20261020"
+ },
+ "mongodb/rerank-2.5": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: rerank-2.5",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "voyageai/rerank-2.5-20260727"
+ },
+ "mongodb/rerank-2.5-lite": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: rerank-2.5-lite",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "voyageai/rerank-2.5-lite-20260727"
+ },
+ "mongodb/rerank-3": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: rerank-3",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "voyageai/rerank-3-20260930"
+ },
+ "mongodb/rerank-3-lite": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: rerank-3-lite",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "voyageai/rerank-3-lite-20260930"
+ },
+ "mongodb/voyage-4": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: voyage-4",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "voyageai/voyage-4-20260727"
+ },
+ "mongodb/voyage-4-large": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: voyage-4-large",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "voyageai/voyage-4-large-20260727"
+ },
+ "mongodb/voyage-4-lite": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: voyage-4-lite",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "voyageai/voyage-4-lite-20260727"
+ },
+ "mongodb/voyage-code-4": {
+  "input": [
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: voyage-code-4",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "voyageai/voyage-code-4-20260812"
+ },
+ "mongodb/voyage-multimodal-3.5": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "VoyageAI by MongoDB: voyage-multimodal-3.5",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "voyageai/voyage-multimodal-3.5-20260727"
+ },
+ "moondream/moondream3-preview": {
+  "hf": "moondream/moondream3-preview",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Moondream: Moondream 3 Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moondream/moondream3-preview-20261013"
+ },
+ "moondream/moondream3.1-9b-a2b": {
+  "hf": "moondream/moondream3.1-9B-A2B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Moondream: Moondream 3.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moondream/moondream3.1-9b-a2b-20261013"
+ },
+ "moondream/parakeet-ultra": {
+  "hf": "moondream/parakeet-ultra",
+  "input": [
+   "audio"
+  ],
+  "name": "Moondream: Parakeet Ultra",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "moondream/parakeet-ultra-20261102"
+ },
+ "moonshotai/kimi-k2": {
+  "hf": "moonshotai/Kimi-K2-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "MoonshotAI: Kimi K2 0711",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k2"
+ },
+ "moonshotai/kimi-k2-0905": {
+  "hf": "moonshotai/Kimi-K2-Instruct-0905",
+  "input": [
+   "text"
+  ],
+  "name": "MoonshotAI: Kimi K2 0905",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k2-0905"
+ },
+ "moonshotai/kimi-k2-thinking": {
+  "hf": "moonshotai/Kimi-K2-Thinking",
+  "input": [
+   "text"
+  ],
+  "name": "MoonshotAI: Kimi K2 Thinking",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k2-thinking-20251106"
+ },
+ "moonshotai/kimi-k2.5": {
+  "hf": "moonshotai/Kimi-K2.5",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MoonshotAI: Kimi K2.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k2.5-0127"
+ },
+ "moonshotai/kimi-k2.6": {
+  "hf": "moonshotai/Kimi-K2.6",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MoonshotAI: Kimi K2.6",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k2.6-20260420"
+ },
+ "moonshotai/kimi-k2.7-code": {
+  "hf": "moonshotai/Kimi-K2.7-Code",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "MoonshotAI: Kimi K2.7 Code",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k2.7-code-20260612"
+ },
+ "moonshotai/kimi-k3": {
+  "hf": "moonshotai/Kimi-K3",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "MoonshotAI: Kimi K3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k3-20260715"
+ },
+ "moonshotai/kimi-k3.1-pro": {
+  "hf": "moonshotai/Kimi-K3.1-Pro",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "MoonshotAI: Kimi K3.1 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "moonshotai/kimi-k3.1-pro-20261023"
+ },
+ "morph/morph-v3-fast": {
+  "input": [
+   "text"
+  ],
+  "name": "Morph: Morph V3 Fast",
+  "output": [
+   "text"
+  ],
+  "permaslug": "morph/morph-v3-fast"
+ },
+ "morph/morph-v3-large": {
+  "input": [
+   "text"
+  ],
+  "name": "Morph: Morph V3 Large",
+  "output": [
+   "text"
+  ],
+  "permaslug": "morph/morph-v3-large"
+ },
+ "morph/reflex": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Morph: Reflex",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "morph/reflex-20261103"
+ },
+ "motif-technologies/motif-3": {
+  "hf": "Motif-Technologies/Motif-3",
+  "input": [
+   "text"
+  ],
+  "name": "Motif Technologies: Motif 3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "motif-technologies/motif-3"
+ },
+ "nace-ai/drex-max": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Nace.AI: Drex Max",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "nace-ai/drex-max-20261016"
+ },
+ "nace-ai/drex-max-finance": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Nace.AI: Drex Max Finance",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "nace-ai/drex-max-finance-20261110"
+ },
+ "nace-ai/drex-v1.5": {
+  "hf": "nace-ai/drex-v1.5",
+  "input": [
+   "text"
+  ],
+  "name": "Nace.AI: Drex v1.5",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "nace-ai/drex-v1.5-20261009"
+ },
+ "nace-ai/drex-v2.0": {
+  "input": [
+   "text"
+  ],
+  "name": "Nace.AI: Drex v2.0",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "nace-ai/drex-v2.0-20261009"
+ },
+ "nex-agi/nex-n2.5-mini": {
+  "hf": "nex-agi/Nex-N2.5-mini",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Nex AGI: Nex-N2.5-Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nex-agi/nex-n2.5-mini-20260908"
+ },
+ "nex-agi/nex-n2.5-pro": {
+  "hf": "nex-agi/Nex-N2.5-Pro",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Nex AGI: Nex-N2.5-Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nex-agi/nex-n2.5-pro-20260907"
+ },
+ "nex-agi/nex-n2.6": {
+  "hf": "nex-agi/Nex-N2.6",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Nex AGI: Nex-N2.6",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nex-agi/nex-n2.6-20261110"
+ },
+ "nousresearch/hermes-4-405b": {
+  "hf": "NousResearch/Hermes-4-405B",
+  "input": [
+   "text"
+  ],
+  "name": "Nous: Hermes 4 405B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nousresearch/hermes-4-405b"
+ },
+ "nvidia/llama-nemotron-embed-vl-1b-v2": {
+  "formerly": [
+   "nvidia/llama-nemotron-embed-vl-1b-v2:free"
+  ],
+  "hf": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "NVIDIA: Llama Nemotron Embed VL 1B V2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "nvidia/llama-nemotron-embed-vl-1b-v2-20260224"
+ },
+ "nvidia/llama-nemotron-rerank-vl-1b-v2": {
+  "formerly": [
+   "nvidia/llama-nemotron-rerank-vl-1b-v2:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "NVIDIA: Llama Nemotron Rerank VL 1B V2",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "nvidia/llama-nemotron-rerank-vl-1b-v2"
+ },
+ "nvidia/nemotron-3-embed-1b": {
+  "formerly": [
+   "nvidia/nemotron-3-embed-1b:free"
+  ],
+  "input": [
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3 Embed 1B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "nvidia/nemotron-3-embed-1b-20260716"
+ },
+ "nvidia/nemotron-3-nano-30b-a3b": {
+  "hf": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+  "input": [
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3-nano-30b-a3b"
+ },
+ "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+  "formerly": [
+   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+  ],
+  "hf": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "NVIDIA: Nemotron 3 Nano Omni",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428"
+ },
+ "nvidia/nemotron-3-super-120b-a12b": {
+  "hf": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+  "input": [
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3 Super",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3-super-120b-a12b-20230311"
+ },
+ "nvidia/nemotron-3-ultra-550b-a55b": {
+  "hf": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+  "input": [
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3 Ultra",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3-ultra-550b-a55b-20260604"
+ },
+ "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b": {
+  "hf": "nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b",
+  "input": [
+   "audio"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 ASR Streaming Multilingual 0.6B",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b-20260813"
+ },
+ "nvidia/nemotron-3.5-content-safety": {
+  "hf": "nvidia/Nemotron-3.5-Content-Safety",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Content Safety",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-content-safety-20260604"
+ },
+ "nvidia/nemotron-3.5-embed-1b": {
+  "formerly": [
+   "nvidia/nemotron-3.5-embed-1b:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Embed 1B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-embed-1b-20261021"
+ },
+ "nvidia/nemotron-3.5-embed-8b": {
+  "formerly": [
+   "nvidia/nemotron-3.5-embed-8b:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Embed 8B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-embed-8b-20261021"
+ },
+ "nvidia/nemotron-3.5-lightning": {
+  "hf": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+  "input": [
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Lightning",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-lightning-20260807"
+ },
+ "nvidia/nemotron-3.5-rerank-8b": {
+  "formerly": [
+   "nvidia/nemotron-3.5-rerank-8b:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Rerank 8B",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-rerank-8b-20261021"
+ },
+ "nvidia/nemotron-3.5-super-vl": {
+  "hf": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Super VL",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-super-vl-20261015"
+ },
+ "nvidia/nemotron-3.5-transcribe": {
+  "hf": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "input": [
+   "audio"
+  ],
+  "name": "NVIDIA: Nemotron 3.5 Transcribe",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "nvidia/nemotron-3.5-transcribe-20261028"
+ },
+ "nvidia/parakeet-tdt-0.6b-v3": {
+  "input": [
+   "audio"
+  ],
+  "name": "NVIDIA: Parakeet TDT 0.6B v3",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "nvidia/parakeet-tdt-0.6b-v3"
+ },
+ "nvidia/switchyard": {
+  "input": [
+   "text"
+  ],
+  "name": "NVIDIA: Switchyard",
+  "output": [
+   "text"
+  ],
+  "permaslug": "nvidia/switchyard"
+ },
+ "openai/gpt-3.5-turbo-0613": {
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-3.5-turbo-0613"
+ },
+ "openai/gpt-3.5-turbo-16k": {
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: GPT-3.5 Turbo 16k",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-3.5-turbo-16k"
+ },
+ "openai/gpt-4": {
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: GPT-4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4"
+ },
+ "openai/gpt-4-turbo": {
+  "formerly": [
+   "openai/gpt-4-turbo:batch"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4 Turbo",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4-turbo"
+ },
+ "openai/gpt-4.1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4.1-2025-04-14"
+ },
+ "openai/gpt-4.1-mini": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4.1 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4.1-mini-2025-04-14"
+ },
+ "openai/gpt-4.1-nano": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4.1 Nano",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4.1-nano-2025-04-14"
+ },
+ "openai/gpt-4o": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4o",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4o"
+ },
+ "openai/gpt-4o-2024-05-13": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4o (2024-05-13)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4o-2024-05-13"
+ },
+ "openai/gpt-4o-2024-08-06": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4o (2024-08-06)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4o-2024-08-06"
+ },
+ "openai/gpt-4o-2024-11-20": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4o (2024-11-20)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4o-2024-11-20"
+ },
+ "openai/gpt-4o-mini": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4o-mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4o-mini"
+ },
+ "openai/gpt-4o-mini-2024-07-18": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-4o-mini-2024-07-18"
+ },
+ "openai/gpt-4o-mini-transcribe": {
+  "input": [
+   "audio"
+  ],
+  "name": "OpenAI: GPT-4o Mini Transcribe",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "openai/gpt-4o-mini-transcribe"
+ },
+ "openai/gpt-4o-transcribe": {
+  "input": [
+   "audio"
+  ],
+  "name": "OpenAI: GPT-4o Transcribe",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "openai/gpt-4o-transcribe"
+ },
+ "openai/gpt-5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5-2025-08-07"
+ },
+ "openai/gpt-5-image": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5 Image",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "openai/gpt-5-image"
+ },
+ "openai/gpt-5-image-mini": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5 Image Mini",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "openai/gpt-5-image-mini"
+ },
+ "openai/gpt-5-mini": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5-mini-2025-08-07"
+ },
+ "openai/gpt-5-nano": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5 Nano",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5-nano-2025-08-07"
+ },
+ "openai/gpt-5-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5-pro-2025-10-06"
+ },
+ "openai/gpt-5.1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.1-20251113"
+ },
+ "openai/gpt-5.1-codex": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.1-Codex",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.1-codex-20251113"
+ },
+ "openai/gpt-5.1-codex-max": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.1-Codex-Max",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.1-codex-max-20251204"
+ },
+ "openai/gpt-5.1-codex-mini": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.1-Codex-Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.1-codex-mini-20251113"
+ },
+ "openai/gpt-5.2": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.2-20251211"
+ },
+ "openai/gpt-5.2-chat": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.2 Chat",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.2-chat-20251211"
+ },
+ "openai/gpt-5.2-codex": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.2-Codex",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.2-codex-20260114"
+ },
+ "openai/gpt-5.2-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.2 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.2-pro-20251211"
+ },
+ "openai/gpt-5.3-codex": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.3-Codex",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.3-codex-20260224"
+ },
+ "openai/gpt-5.4": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.4-20260305"
+ },
+ "openai/gpt-5.4-image-2": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.4 Image 2",
+  "output": [
+   "image",
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.4-image-2-20260421"
+ },
+ "openai/gpt-5.4-mini": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.4 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.4-mini-20260317"
+ },
+ "openai/gpt-5.4-nano": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.4 Nano",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.4-nano-20260317"
+ },
+ "openai/gpt-5.4-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.4 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.4-pro-20260305"
+ },
+ "openai/gpt-5.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.5-20260423"
+ },
+ "openai/gpt-5.5-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.5 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.5-pro-20260423"
+ },
+ "openai/gpt-5.6-luna": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.6 Luna",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.6-luna-20260709"
+ },
+ "openai/gpt-5.6-luna-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.6 Luna Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.6-luna-pro-20260709"
+ },
+ "openai/gpt-5.6-sol": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.6 Sol",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.6-sol-20260709"
+ },
+ "openai/gpt-5.6-sol-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.6 Sol Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.6-sol-pro-20260709"
+ },
+ "openai/gpt-5.6-terra": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.6 Terra",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.6-terra-20260709"
+ },
+ "openai/gpt-5.6-terra-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-5.6 Terra Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-5.6-terra-pro-20260709"
+ },
+ "openai/gpt-6-astra": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Astra",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6-astra-20260903"
+ },
+ "openai/gpt-6-astra-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Astra Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6-astra-pro-20260903"
+ },
+ "openai/gpt-6-luna": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Luna",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6-luna-20260922"
+ },
+ "openai/gpt-6-luna-decisions": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Luna Decisions",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "openai/gpt-6-luna-decisions-20261006"
+ },
+ "openai/gpt-6-luna-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Luna Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6-luna-pro-20260922"
+ },
+ "openai/gpt-6-sol": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Sol",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6-sol-20260922"
+ },
+ "openai/gpt-6-sol-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6 Sol Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6-sol-pro-20260922"
+ },
+ "openai/gpt-6.1-sol": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.1 Sol",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.1-sol-20260929"
+ },
+ "openai/gpt-6.1-sol-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.1 Sol Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.1-sol-pro-20260929"
+ },
+ "openai/gpt-6.1-terra": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.1 Terra",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.1-terra-20261026"
+ },
+ "openai/gpt-6.1-terra-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.1 Terra Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.1-terra-pro-20261026"
+ },
+ "openai/gpt-audio": {
+  "input": [
+   "audio",
+   "text"
+  ],
+  "name": "OpenAI: GPT Audio",
+  "output": [
+   "audio",
+   "text"
+  ],
+  "permaslug": "openai/gpt-audio"
+ },
+ "openai/gpt-audio-mini": {
+  "input": [
+   "audio",
+   "text"
+  ],
+  "name": "OpenAI: GPT Audio Mini",
+  "output": [
+   "audio",
+   "text"
+  ],
+  "permaslug": "openai/gpt-audio-mini"
+ },
+ "openai/gpt-chat-latest": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Chat Latest",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-chat-latest-20260505"
+ },
+ "openai/gpt-image-1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 1",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-1"
+ },
+ "openai/gpt-image-1-mini": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 1 Mini",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-1-mini"
+ },
+ "openai/gpt-image-2": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 2",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-2"
+ },
+ "openai/gpt-image-2.5-flare": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 2.5 Flare",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-2.5-flare-20260908"
+ },
+ "openai/gpt-image-2.5-sunburst": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 2.5 Sunburst",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-2.5-sunburst-20260908"
+ },
+ "openai/gpt-image-2.6-flare": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 2.6 Flare",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-2.6-flare-20261104"
+ },
+ "openai/gpt-image-2.6-sunburst": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT Image 2.6 Sunburst",
+  "output": [
+   "image"
+  ],
+  "permaslug": "openai/gpt-image-2.6-sunburst-20261104"
+ },
+ "openai/gpt-oss-120b": {
+  "hf": "openai/gpt-oss-120b",
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: gpt-oss-120b",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-oss-120b"
+ },
+ "openai/gpt-oss-20b": {
+  "hf": "openai/gpt-oss-20b",
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: gpt-oss-20b",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-oss-20b"
+ },
+ "openai/gpt-oss-safeguard-20b": {
+  "hf": "openai/gpt-oss-safeguard-20b",
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: gpt-oss-safeguard-20b",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-oss-safeguard-20b"
+ },
+ "openai/gpt-transcribe": {
+  "input": [
+   "audio"
+  ],
+  "name": "OpenAI: GPT Transcribe",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "openai/gpt-transcribe-20260805"
+ },
+ "openai/o3": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: o3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/o3-2025-04-16"
+ },
+ "openai/o3-mini": {
+  "formerly": [
+   "openai/o3-mini:batch"
+  ],
+  "input": [
+   "file",
+   "text"
+  ],
+  "name": "OpenAI: o3 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/o3-mini-2025-01-31"
+ },
+ "openai/o3-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: o3 Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/o3-pro-2025-06-10"
+ },
+ "openai/o4-mini": {
+  "formerly": [
+   "openai/o4-mini:batch"
+  ],
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: o4 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/o4-mini-2025-04-16"
+ },
+ "openai/text-embedding-3-large": {
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: Text Embedding 3 Large",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "openai/text-embedding-3-large"
+ },
+ "openai/text-embedding-3-small": {
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: Text Embedding 3 Small",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "openai/text-embedding-3-small"
+ },
+ "openai/text-embedding-ada-002": {
+  "input": [
+   "text"
+  ],
+  "name": "OpenAI: Text Embedding Ada 002",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "openai/text-embedding-ada-002"
+ },
+ "openai/whisper-1": {
+  "input": [
+   "audio"
+  ],
+  "name": "OpenAI: Whisper 1",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "openai/whisper-1"
+ },
+ "openai/whisper-large-v3": {
+  "hf": "openai/whisper-large-v3",
+  "input": [
+   "audio"
+  ],
+  "name": "OpenAI: Whisper Large V3",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "openai/whisper-large-v3"
+ },
+ "openai/whisper-large-v3-turbo": {
+  "hf": "openai/whisper-large-v3-turbo",
+  "input": [
+   "audio"
+  ],
+  "name": "OpenAI: Whisper Large V3 Turbo",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "openai/whisper-large-v3-turbo"
+ },
+ "parallel/decisions-fast": {
+  "formerly": [
+   "parallel/decisions-fast:free"
+  ],
+  "input": [
+   "text"
+  ],
+  "name": "Parallel: Decisions Fast",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "parallel/decisions-fast-20261106"
+ },
+ "particle-ai/particle-1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Particle AI: Particle-1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "particle-ai/particle-1-20261027"
+ },
+ "perceptron/perceptron-mk1": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Perceptron: Perceptron Mk1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perceptron/perceptron-mk1-20260512"
+ },
+ "perceptron/perceptron-mk1.5": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Perceptron: Perceptron Mk1.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perceptron/perceptron-mk1.5-20260925"
+ },
+ "perplexity/pplx-decider-flash-v1.2": {
+  "hf": "perplexity-ai/pplx-decider-flash-v1.2",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Decider Flash V1.2",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "perplexity/pplx-decider-flash-v1.2-20261016"
+ },
+ "perplexity/pplx-decider-v1.2": {
+  "hf": "perplexity-ai/pplx-decider-v1.2",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Decider V1.2",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "perplexity/pplx-decider-v1.2-20261016"
+ },
+ "perplexity/pplx-embed-v1-0.6b": {
+  "input": [
+   "text"
+  ],
+  "name": "Perplexity: Embed V1 0.6B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "perplexity/pplx-embed-v1-0.6B"
+ },
+ "perplexity/pplx-embed-v1-4b": {
+  "input": [
+   "text"
+  ],
+  "name": "Perplexity: Embed V1 4B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "perplexity/pplx-embed-v1-4B"
+ },
+ "perplexity/sonar": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Sonar",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perplexity/sonar"
+ },
+ "perplexity/sonar-deep-research": {
+  "input": [
+   "text"
+  ],
+  "name": "Perplexity: Sonar Deep Research",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perplexity/sonar-deep-research"
+ },
+ "perplexity/sonar-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Sonar Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perplexity/sonar-pro"
+ },
+ "perplexity/sonar-pro-search": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Sonar Pro Search",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perplexity/sonar-pro-search"
+ },
+ "perplexity/sonar-reasoning-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Sonar Reasoning Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "perplexity/sonar-reasoning-pro"
+ },
+ "prism-ml/ternary-bonsai-2-27b": {
+  "hf": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "PrismML: Ternary Bonsai 2 27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "prism-ml/ternary-bonsai-2-27b-20260918"
+ },
+ "prism-ml/ternary-bonsai-2-9b": {
+  "hf": "prism-ml/Ternary-Bonsai-2-9B-gguf",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "PrismML: Ternary Bonsai 2 9B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "prism-ml/ternary-bonsai-2-9b-20261015"
+ },
+ "qwen/qwen-2.5-72b-instruct": {
+  "hf": "Qwen/Qwen2.5-72B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen2.5 72B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen-2.5-72b-instruct"
+ },
+ "qwen/qwen-2.5-coder-32b-instruct": {
+  "hf": "Qwen/Qwen2.5-Coder-32B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen2.5 Coder 32B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen-2.5-coder-32b-instruct"
+ },
+ "qwen/qwen-audio-3.0-tts-flash": {
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen-Audio-3.0-TTS Flash",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "qwen/qwen-audio-3.0-tts-flash-20260723"
+ },
+ "qwen/qwen-audio-3.0-tts-plus": {
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen-Audio-3.0-TTS Plus",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "qwen/qwen-audio-3.0-tts-plus-20260723"
+ },
+ "qwen/qwen-image-2.1-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen Image 2.1 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "qwen/qwen-image-2.1-pro-20261016"
+ },
+ "qwen/qwen-image-2.1-turbo": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen Image 2.1 Turbo",
+  "output": [
+   "image"
+  ],
+  "permaslug": "qwen/qwen-image-2.1-turbo-20261016"
+ },
+ "qwen/qwen-image-3": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen Image 3",
+  "output": [
+   "image"
+  ],
+  "permaslug": "qwen/qwen-image-3-20260805"
+ },
+ "qwen/qwen-image-3-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen Image 3 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "qwen/qwen-image-3-pro-20260805"
+ },
+ "qwen/qwen-plus": {
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen-Plus",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen-plus-2025-01-25"
+ },
+ "qwen/qwen2.5-vl-72b-instruct": {
+  "hf": "Qwen/Qwen2.5-VL-72B-Instruct",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen2.5 VL 72B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen2.5-vl-72b-instruct"
+ },
+ "qwen/qwen3-14b": {
+  "hf": "Qwen/Qwen3-14B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 14B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-14b-04-28"
+ },
+ "qwen/qwen3-235b-a22b-2507": {
+  "hf": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-235b-a22b-07-25"
+ },
+ "qwen/qwen3-235b-a22b-thinking-2507": {
+  "hf": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-235b-a22b-thinking-2507"
+ },
+ "qwen/qwen3-30b-a3b": {
+  "hf": "Qwen/Qwen3-30B-A3B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 30B A3B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-30b-a3b-04-28"
+ },
+ "qwen/qwen3-30b-a3b-instruct-2507": {
+  "hf": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-30b-a3b-instruct-2507"
+ },
+ "qwen/qwen3-32b": {
+  "hf": "Qwen/Qwen3-32B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 32B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-32b-04-28"
+ },
+ "qwen/qwen3-asr-0.6b": {
+  "hf": "Qwen/Qwen3-ASR-0.6B",
+  "input": [
+   "audio"
+  ],
+  "name": "Qwen: Qwen3 ASR 0.6B",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "qwen/qwen3-asr-0.6b-20260813"
+ },
+ "qwen/qwen3-asr-1.7b": {
+  "hf": "Qwen/Qwen3-ASR-1.7B",
+  "input": [
+   "audio"
+  ],
+  "name": "Qwen: Qwen3 ASR 1.7B",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "qwen/qwen3-asr-1.7b-20260813"
+ },
+ "qwen/qwen3-coder": {
+  "hf": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Coder 480B A35B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-coder-480b-a35b-07-25"
+ },
+ "qwen/qwen3-coder-30b-a3b-instruct": {
+  "hf": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-coder-30b-a3b-instruct"
+ },
+ "qwen/qwen3-coder-flash": {
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Coder Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-coder-flash"
+ },
+ "qwen/qwen3-coder-next": {
+  "hf": "Qwen/Qwen3-Coder-Next",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Coder Next",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-coder-next-2025-02-03"
+ },
+ "qwen/qwen3-embedding-4b": {
+  "hf": "Qwen/Qwen3-Embedding-4B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Embedding 4B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "qwen/qwen3-embedding-4b"
+ },
+ "qwen/qwen3-embedding-8b": {
+  "hf": "Qwen/Qwen3-Embedding-8B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Embedding 8B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "qwen/qwen3-embedding-8b"
+ },
+ "qwen/qwen3-next-80b-a3b-instruct": {
+  "hf": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-next-80b-a3b-instruct-2509"
+ },
+ "qwen/qwen3-reranker-0.6b": {
+  "hf": "Qwen/Qwen3-Reranker-0.6B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen3 Reranker 0.6B",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "qwen/qwen3-reranker-0.6b"
+ },
+ "qwen/qwen3-reranker-8b": {
+  "hf": "Qwen/Qwen3-Reranker-8B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen3 Reranker 8B",
+  "output": [
+   "rerank"
+  ],
+  "permaslug": "qwen/qwen3-reranker-8b"
+ },
+ "qwen/qwen3-vl-235b-a22b-instruct": {
+  "hf": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-vl-235b-a22b-instruct"
+ },
+ "qwen/qwen3-vl-30b-a3b-instruct": {
+  "hf": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-vl-30b-a3b-instruct"
+ },
+ "qwen/qwen3-vl-30b-a3b-thinking": {
+  "hf": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-vl-30b-a3b-thinking"
+ },
+ "qwen/qwen3-vl-8b-instruct": {
+  "hf": "Qwen/Qwen3-VL-8B-Instruct",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen3 VL 8B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3-vl-8b-instruct"
+ },
+ "qwen/qwen3.5-122b-a10b": {
+  "hf": "Qwen/Qwen3.5-122B-A10B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5-122B-A10B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-122b-a10b-20260224"
+ },
+ "qwen/qwen3.5-27b": {
+  "hf": "Qwen/Qwen3.5-27B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5-27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-27b-20260224"
+ },
+ "qwen/qwen3.5-35b-a3b": {
+  "hf": "Qwen/Qwen3.5-35B-A3B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5-35B-A3B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-35b-a3b-20260224"
+ },
+ "qwen/qwen3.5-397b-a17b": {
+  "hf": "Qwen/Qwen3.5-397B-A17B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5 397B A17B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-397b-a17b-20260216"
+ },
+ "qwen/qwen3.5-9b": {
+  "hf": "Qwen/Qwen3.5-9B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5-9B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-9b-20260310"
+ },
+ "qwen/qwen3.5-flash-02-23": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5-Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-flash-20260224"
+ },
+ "qwen/qwen3.5-plus-02-15": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-plus-20260216"
+ },
+ "qwen/qwen3.5-plus-20260420": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.5-plus-20260420"
+ },
+ "qwen/qwen3.6-27b": {
+  "hf": "Qwen/Qwen3.6-27B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.6 27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.6-27b-20260422"
+ },
+ "qwen/qwen3.6-35b-a3b": {
+  "hf": "Qwen/Qwen3.6-35B-A3B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.6 35B A3B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.6-35b-a3b-20260415"
+ },
+ "qwen/qwen3.6-flash": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.6 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.6-flash"
+ },
+ "qwen/qwen3.6-plus": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.6 Plus",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.6-plus-04-02"
+ },
+ "qwen/qwen3.7-flash": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.7 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.7-flash-20260727"
+ },
+ "qwen/qwen3.7-max": {
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3.7 Max",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.7-max-20260520"
+ },
+ "qwen/qwen3.7-plus": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Qwen: Qwen3.7 Plus",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.7-plus-20260602"
+ },
+ "qwen/qwen3.8-2.4t-a95b": {
+  "hf": "Qwen/Qwen3.8-2.4T-A95B",
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3.8 2.4T A95B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.8-2.4t-a95b-20260812"
+ },
+ "qwen/qwen3.8-27b": {
+  "hf": "Qwen/Qwen3.8-27B",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.8 27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.8-27b-20260814"
+ },
+ "qwen/qwen3.8-flash": {
+  "hf": "Qwen/Qwen3.8-Flash-Next",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.8 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.8-flash-20260826"
+ },
+ "qwen/qwen3.8-max-0902": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.8 Max (0902)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.8-max-20260902"
+ },
+ "qwen/qwen3.8-max-prime": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.8 Max Prime",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.8-max-prime-20260923"
+ },
+ "qwen/qwen3.8-omni-flash": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen3.8 Omni Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen3.8-omni-flash-20260918"
+ },
+ "recraft/recraft-v3": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V3",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v3-20260413"
+ },
+ "recraft/recraft-v4": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-20260413"
+ },
+ "recraft/recraft-v4-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-pro-20260413"
+ },
+ "recraft/recraft-v4-pro-vector": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Pro Vector",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-pro-vector-20260514"
+ },
+ "recraft/recraft-v4-styles": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Styles",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-styles-20260826"
+ },
+ "recraft/recraft-v4-styles-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Styles Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-styles-pro-20260826"
+ },
+ "recraft/recraft-v4-styles-pro-vector": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Styles Pro Vector",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-styles-pro-vector-20260826"
+ },
+ "recraft/recraft-v4-styles-vector": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Styles Vector",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-styles-vector-20260826"
+ },
+ "recraft/recraft-v4-vector": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4 Vector",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4-vector-20260514"
+ },
+ "recraft/recraft-v4.1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-20260514"
+ },
+ "recraft/recraft-v4.1-flash": {
+  "input": [
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Flash",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-flash-20260923"
+ },
+ "recraft/recraft-v4.1-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-pro-20260514"
+ },
+ "recraft/recraft-v4.1-pro-vector": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Pro Vector",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-pro-vector-20260514"
+ },
+ "recraft/recraft-v4.1-utility": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Utility",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-utility-20260514"
+ },
+ "recraft/recraft-v4.1-utility-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Utility Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-utility-pro-20260514"
+ },
+ "recraft/recraft-v4.1-vector": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Vector",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-vector-20260514"
+ },
+ "recursive/flint-v1.0": {
+  "formerly": [
+   "recursive/flint-v1.0:free"
+  ],
+  "hf": "RecursiveSI/flint",
+  "input": [
+   "text"
+  ],
+  "name": "Recursive: Flint",
+  "output": [
+   "text"
+  ],
+  "permaslug": "recursive/flint-v1.0-20261021"
+ },
+ "reflection/beam-1.0-501b-a23b": {
+  "hf": "reflection/Beam-1.0-501B-A23B",
+  "input": [
+   "text"
+  ],
+  "name": "Reflection: Beam 1.0 501B A23B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "reflection/beam-1.0-501b-a23b-20261016"
+ },
+ "rekaai/reka-edge": {
+  "hf": "RekaAI/reka-edge-2603",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Reka Edge",
+  "output": [
+   "text"
+  ],
+  "permaslug": "rekaai/reka-edge-2603"
+ },
+ "rekaai/reka-flash-3": {
+  "hf": "RekaAI/reka-flash-3",
+  "input": [
+   "text"
+  ],
+  "name": "Reka Flash 3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "rekaai/reka-flash-3"
+ },
+ "relace/relace-apply-3": {
+  "input": [
+   "text"
+  ],
+  "name": "Relace: Relace Apply 3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "relace/relace-apply-3"
+ },
+ "relace/relace-search": {
+  "input": [
+   "text"
+  ],
+  "name": "Relace: Relace Search",
+  "output": [
+   "text"
+  ],
+  "permaslug": "relace/relace-search-20251208"
+ },
+ "respan/span-01": {
+  "input": [
+   "text"
+  ],
+  "name": "Respan: Span-01",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "respan/span-01-20260925"
+ },
+ "respan/span-01-lite": {
+  "input": [
+   "text"
+  ],
+  "name": "Respan: Span-01 Lite",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "respan/span-01-lite-20260925"
+ },
+ "respan/span-02": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Respan: Span-02",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "respan/span-02-20261015"
+ },
+ "ricursiveai/ripple-65b-preview": {
+  "hf": "ricursiveAI/Ripple-65B-Preview",
+  "input": [
+   "text"
+  ],
+  "name": "Ricursive: Ripple 65B Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "ricursiveai/ripple-65b-preview-20261104"
+ },
+ "runway/aleph-2": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Runway: Aleph 2.0",
+  "output": [
+   "video"
+  ],
+  "permaslug": "runway/aleph-2-20260729"
+ },
+ "runway/gen-4.5": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Runway: Gen-4.5",
+  "output": [
+   "video"
+  ],
+  "permaslug": "runway/gen-4.5-20260729"
+ },
+ "sakana/fugu-max": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Sakana: Fugu Max",
+  "output": [
+   "text"
+  ],
+  "permaslug": "sakana/fugu-max-20260911"
+ },
+ "sakana/fugu-ultra": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Sakana: Fugu Ultra",
+  "output": [
+   "text"
+  ],
+  "permaslug": "sakana/fugu-ultra-20260615"
+ },
+ "sakana/fugu-ultra-v2": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Sakana: Fugu Ultra v2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "sakana/fugu-ultra-v2-20260911"
+ },
+ "sakana/sakana-namazu": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "Sakana: Sakana Namazu",
+  "output": [
+   "text"
+  ],
+  "permaslug": "sakana/namazu-20260811"
+ },
+ "sao10k/l3-lunaris-8b": {
+  "hf": "Sao10K/L3-8B-Lunaris-v1",
+  "input": [
+   "text"
+  ],
+  "name": "Sao10K: Llama 3 8B Lunaris",
+  "output": [
+   "text"
+  ],
+  "permaslug": "sao10k/l3-lunaris-8b"
+ },
+ "sao10k/l3.1-euryale-70b": {
+  "hf": "Sao10K/L3.1-70B-Euryale-v2.2",
+  "input": [
+   "text"
+  ],
+  "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "sao10k/l3.1-euryale-70b"
+ },
+ "scaledown/classify-1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "ScaleDown: Classify-1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "scaledown/classify-1-20260928"
+ },
+ "scaledown/extract": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "ScaleDown: Extract",
+  "output": [
+   "text"
+  ],
+  "permaslug": "scaledown/extract-20260928"
+ },
+ "scaledown/summarize": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "ScaleDown: Summarize",
+  "output": [
+   "text"
+  ],
+  "permaslug": "scaledown/summarize-20260928"
+ },
+ "sentence-transformers/all-minilm-l12-v2": {
+  "hf": "sentence-transformers/all-MiniLM-L12-v2",
+  "input": [
+   "text"
+  ],
+  "name": "Sentence Transformers: all-MiniLM-L12-v2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "sentence-transformers/all-minilm-l12-v2-20251117"
+ },
+ "sentence-transformers/all-minilm-l6-v2": {
+  "hf": "sentence-transformers/all-MiniLM-L6-v2",
+  "input": [
+   "text"
+  ],
+  "name": "Sentence Transformers: all-MiniLM-L6-v2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "sentence-transformers/all-minilm-l6-v2-20251117"
+ },
+ "sentence-transformers/all-mpnet-base-v2": {
+  "hf": "sentence-transformers/all-mpnet-base-v2",
+  "input": [
+   "text"
+  ],
+  "name": "Sentence Transformers: all-mpnet-base-v2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "sentence-transformers/all-mpnet-base-v2-20251117"
+ },
+ "sentence-transformers/multi-qa-mpnet-base-dot-v1": {
+  "hf": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+  "input": [
+   "text"
+  ],
+  "name": "Sentence Transformers: multi-qa-mpnet-base-dot-v1",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "sentence-transformers/multi-qa-mpnet-base-dot-v1-20251117"
+ },
+ "sentence-transformers/paraphrase-minilm-l6-v2": {
+  "hf": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+  "input": [
+   "text"
+  ],
+  "name": "Sentence Transformers: paraphrase-MiniLM-L6-v2",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "sentence-transformers/paraphrase-minilm-l6-v2-20251117"
+ },
+ "sesame/csm-1b": {
+  "input": [
+   "text"
+  ],
+  "name": "Sesame: CSM 1B",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "sesame/csm-1b"
+ },
+ "sourceful/riverflow-v2-fast": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Sourceful: Riverflow V2 Fast",
+  "output": [
+   "image"
+  ],
+  "permaslug": "sourceful/riverflow-v2-fast-20260130"
+ },
+ "sourceful/riverflow-v2-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Sourceful: Riverflow V2 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "sourceful/riverflow-v2-pro-20260130"
+ },
+ "sourceful/riverflow-v2.5-fast": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Sourceful: Riverflow V2.5 Fast",
+  "output": [
+   "image"
+  ],
+  "permaslug": "sourceful/riverflow-v2.5-fast-20260605"
+ },
+ "sourceful/riverflow-v2.5-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Sourceful: Riverflow V2.5 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "sourceful/riverflow-v2.5-pro-20260605"
+ },
+ "sourceful/riverflow-v2.6-pro": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Sourceful: Riverflow V2.6 Pro",
+  "output": [
+   "image"
+  ],
+  "permaslug": "sourceful/riverflow-v2.6-pro-20261029"
+ },
+ "speechify/simba-3.5": {
+  "input": [
+   "text"
+  ],
+  "name": "Speechify: Simba 3.5",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "speechify/simba-3.5-20261111"
+ },
+ "stepfun/step-3.5-flash": {
+  "hf": "stepfun-ai/Step-3.5-Flash",
+  "input": [
+   "text"
+  ],
+  "name": "StepFun: Step 3.5 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "stepfun/step-3.5-flash"
+ },
+ "stepfun/step-3.7-flash": {
+  "hf": "stepfun-ai/Step-3.7-Flash",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "StepFun: Step 3.7 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "stepfun/step-3.7-flash-20260528"
+ },
+ "stepfun/step-5-preview": {
+  "hf": "stepfun-ai/Step-5-Preview",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "StepFun: Step 5 Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "stepfun/step-5-preview-20261008"
+ },
+ "tbc/mischief-1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "TBC: mischief 1",
+  "output": [
+   "video"
+  ],
+  "permaslug": "tbc/mischief-1-20261023"
+ },
+ "tencent/hunyuan-a13b-instruct": {
+  "hf": "tencent/Hunyuan-A13B-Instruct",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hunyuan A13B Instruct",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hunyuan-a13b-instruct"
+ },
+ "tencent/hy-image-v3.5-preview": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Tencent: Hy Image 3.5 Preview",
+  "output": [
+   "image"
+  ],
+  "permaslug": "tencent/hy-image-v3.5-preview-20260922"
+ },
+ "tencent/hy-mt2-1.8b": {
+  "hf": "tencent/Hy-MT2-1.8B",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hy-MT2-1.8B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy-mt2-1.8b-20260521"
+ },
+ "tencent/hy-mt2-30b-a3b": {
+  "hf": "tencent/Hy-MT2-30B-A3B",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hy-MT2-30B-A3B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy-mt2-30b-a3b-20260521"
+ },
+ "tencent/hy-mt2-7b": {
+  "hf": "tencent/Hy-MT2-7B",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hy-MT2-7B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy-mt2-7b-20260521"
+ },
+ "tencent/hy3": {
+  "hf": "tencent/Hy3",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hy3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy3-20260706"
+ },
+ "tencent/hy3-preview": {
+  "hf": "tencent/Hy3-preview",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hy3 preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy3-preview-20260421"
+ },
+ "tencent/hy4": {
+  "hf": "tencent/Hy4",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Tencent: Hy4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy4-20261104"
+ },
+ "tencent/hy4-preview": {
+  "hf": "tencent/Hy4-preview",
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: Hy4 preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy4-preview-20260827"
+ },
+ "thedrummer/cydonia-24b-v4.1": {
+  "hf": "thedrummer/cydonia-24b-v4.1",
+  "input": [
+   "text"
+  ],
+  "name": "TheDrummer: Cydonia 24B V4.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thedrummer/cydonia-24b-v4.1"
+ },
+ "thedrummer/skyfall-36b-v2": {
+  "hf": "TheDrummer/Skyfall-36B-v2",
+  "input": [
+   "text"
+  ],
+  "name": "TheDrummer: Skyfall 36B V2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thedrummer/skyfall-36b-v2"
+ },
+ "thedrummer/unslopnemo-12b": {
+  "hf": "TheDrummer/UnslopNemo-12B-v4.1",
+  "input": [
+   "text"
+  ],
+  "name": "TheDrummer: UnslopNemo 12B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thedrummer/unslopnemo-12b"
+ },
+ "thenlper/gte-base": {
+  "hf": "thenlper/gte-base",
+  "input": [
+   "text"
+  ],
+  "name": "Thenlper: GTE-Base",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "thenlper/gte-base-20251117"
+ },
+ "thenlper/gte-large": {
+  "hf": "thenlper/gte-large",
+  "input": [
+   "text"
+  ],
+  "name": "Thenlper: GTE-Large",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "thenlper/gte-large-20251117"
+ },
+ "thinkingmachines/inkling": {
+  "hf": "thinkingmachines/Inkling",
+  "input": [
+   "audio",
+   "image",
+   "text"
+  ],
+  "name": "Thinking Machines: Inkling",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thinkingmachines/inkling-20260715"
+ },
+ "thinkingmachines/inkling-2-small": {
+  "formerly": [
+   "thinkingmachines/inkling-2-small:free"
+  ],
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Thinking Machines: Inkling 2 Small",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thinkingmachines/inkling-2-small-20261107"
+ },
+ "thinkingmachines/inkling-small": {
+  "hf": "thinkingmachines/Inkling-Small",
+  "input": [
+   "audio",
+   "image",
+   "text"
+  ],
+  "name": "Thinking Machines: Inkling Small",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thinkingmachines/inkling-small-20260730"
+ },
+ "togethercomputer/tev1-4b-experimental": {
+  "hf": "togethercomputer/Tev1-4B-experimental",
+  "input": [
+   "text"
+  ],
+  "name": "Together: Tev1 4B Experimental",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "togethercomputer/tev1-4b-experimental-20260923"
+ },
+ "typesafe/jev-1.13": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "TypeSafe: Jev 1.13",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "typesafe/jev-1.13-20260917"
+ },
+ "typesafe/jev-1.14": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "TypeSafe: Jev 1.14",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "typesafe/jev-1.14-20261014"
+ },
+ "typesafe/jev-router": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "TypeSafe: Jev Router",
+  "output": [
+   "text"
+  ],
+  "permaslug": "typesafe/jev-router"
+ },
+ "unbiased/pareto-26.10": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Pareto 26.10",
+  "output": [
+   "text"
+  ],
+  "permaslug": "unbiased/pareto-26.10-20261015"
+ },
+ "unbiased/pareto-26.10-preview": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Pareto 26.10 Preview",
+  "output": [
+   "text"
+  ],
+  "permaslug": "unbiased/pareto-26.10-preview-20260929"
+ },
+ "unbiased/pareto-26.9": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Pareto 26.9",
+  "output": [
+   "text"
+  ],
+  "permaslug": "unbiased/pareto-26.9-20260917"
+ },
+ "undi95/remm-slerp-l2-13b": {
+  "hf": "Undi95/ReMM-SLERP-L2-13B",
+  "input": [
+   "text"
+  ],
+  "name": "ReMM SLERP 13B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "undi95/remm-slerp-l2-13b"
+ },
+ "upstage/solar-decide": {
+  "input": [
+   "text"
+  ],
+  "name": "Upstage: Solar Decide",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "upstage/solar-decide-20260928"
+ },
+ "upstage/solar-decide-flash": {
+  "input": [
+   "text"
+  ],
+  "name": "Upstage: Solar Decide Flash",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "upstage/solar-decide-flash-20261008"
+ },
+ "upstage/solar-mini4": {
+  "input": [
+   "text"
+  ],
+  "name": "Upstage: Solar Mini 4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "upstage/solar-mini4-20260922"
+ },
+ "upstage/solar-pro4": {
+  "input": [
+   "text"
+  ],
+  "name": "Upstage: Solar Pro 4",
+  "output": [
+   "text"
+  ],
+  "permaslug": "upstage/solar-pro4-20260810"
+ },
+ "writer/palmyra-x5": {
+  "input": [
+   "text"
+  ],
+  "name": "Writer: Palmyra X5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "writer/palmyra-x5-20250428"
+ },
+ "x-ai/grok-4.20": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok 4.20",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-4.20-20260309"
+ },
+ "x-ai/grok-4.20-multi-agent": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-4.20-multi-agent-20260309"
+ },
+ "x-ai/grok-4.3": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok 4.3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-4.3-20260430"
+ },
+ "x-ai/grok-4.5": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok 4.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-4.5-20260708"
+ },
+ "x-ai/grok-4.6": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok 4.6",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-4.6-20260810"
+ },
+ "x-ai/grok-4.7": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok 4.7",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-4.7-20260916"
+ },
+ "x-ai/grok-build-0.1": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok Build 0.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "x-ai/grok-build-0.1-20260520"
+ },
+ "x-ai/grok-imagine-image-2.0": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "xAI: Grok Imagine Image 2.0",
+  "output": [
+   "image"
+  ],
+  "permaslug": "x-ai/grok-imagine-image-2.0-20260811"
+ },
+ "x-ai/grok-imagine-video": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok Imagine Video",
+  "output": [
+   "video"
+  ],
+  "permaslug": "x-ai/grok-imagine-video-20260512"
+ },
+ "x-ai/grok-imagine-video-1.5": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok Imagine Video 1.5",
+  "output": [
+   "video"
+  ],
+  "permaslug": "x-ai/grok-imagine-video-1.5-20260719"
+ },
+ "x-ai/grok-imagine-video-1.5-lite": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "SpaceXAI: Grok Imagine Video 1.5 Lite",
+  "output": [
+   "video"
+  ],
+  "permaslug": "x-ai/grok-imagine-video-1.5-lite-20261001"
+ },
+ "x-ai/grok-stt-1.0": {
+  "input": [
+   "audio"
+  ],
+  "name": "SpaceXAI: Grok STT 1.0",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "x-ai/grok-stt-20260723"
+ },
+ "x-ai/grok-stt-2.0": {
+  "input": [
+   "audio"
+  ],
+  "name": "SpaceXAI: Grok STT 2.0",
+  "output": [
+   "transcription"
+  ],
+  "permaslug": "x-ai/grok-stt-2.0-20260918"
+ },
+ "x-ai/grok-voice-tts-1.0": {
+  "input": [
+   "text"
+  ],
+  "name": "SpaceXAI: Grok Voice TTS 1.0",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "x-ai/grok-voice-tts-1.0"
+ },
+ "xiaomi/mimo-v2.5": {
+  "hf": "XiaomiMiMo/MiMo-V2.5",
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Xiaomi: MiMo-V2.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "xiaomi/mimo-v2.5-20260422"
+ },
+ "xiaomi/mimo-v2.5-pro": {
+  "hf": "XiaomiMiMo/MiMo-V2.5-Pro",
+  "input": [
+   "text"
+  ],
+  "name": "Xiaomi: MiMo-V2.5-Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "xiaomi/mimo-v2.5-pro-20260422"
+ },
+ "xiaomi/mimo-v2.6-flash": {
+  "hf": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Xiaomi: MiMo-V2.6-Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "xiaomi/mimo-v2.6-flash-20260921"
+ },
+ "xiaomi/mimo-v2.6-pro": {
+  "hf": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Xiaomi: MiMo-V2.6-Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "xiaomi/mimo-v2.6-pro-20260921"
+ },
+ "xiaomi/mimo-v2.6-pro-ultraspeed": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+  "output": [
+   "text"
+  ],
+  "permaslug": "xiaomi/mimo-v2.6-pro-ultraspeed-20260921"
+ },
+ "z-ai/glm-4.5": {
+  "hf": "zai-org/GLM-4.5",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 4.5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.5"
+ },
+ "z-ai/glm-4.5-air": {
+  "hf": "zai-org/GLM-4.5-Air",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 4.5 Air",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.5-air"
+ },
+ "z-ai/glm-4.5v": {
+  "hf": "zai-org/GLM-4.5V",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Z.ai: GLM 4.5V",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.5v"
+ },
+ "z-ai/glm-4.6": {
+  "hf": "zai-org/GLM-4.6",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 4.6",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.6"
+ },
+ "z-ai/glm-4.6v": {
+  "hf": "zai-org/GLM-4.6V",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Z.ai: GLM 4.6V",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.6-20251208"
+ },
+ "z-ai/glm-4.7": {
+  "hf": "zai-org/GLM-4.7",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 4.7",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.7-20251222"
+ },
+ "z-ai/glm-4.7-flash": {
+  "hf": "zai-org/GLM-4.7-Flash",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 4.7 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-4.7-flash-20260119"
+ },
+ "z-ai/glm-5": {
+  "hf": "zai-org/GLM-5",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 5",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5-20260211"
+ },
+ "z-ai/glm-5-turbo": {
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 5 Turbo",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5-turbo-20260315"
+ },
+ "z-ai/glm-5.1": {
+  "hf": "zai-org/GLM-5.1",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 5.1",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.1-20260406"
+ },
+ "z-ai/glm-5.2": {
+  "hf": "zai-org/GLM-5.2",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 5.2",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.2-20260616"
+ },
+ "z-ai/glm-5.3": {
+  "hf": "zai-org/GLM-5.3",
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 5.3",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.3-20260816"
+ },
+ "z-ai/glm-5.3-flash": {
+  "hf": "zai-org/GLM-5.3-Flash",
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Z.ai: GLM 5.3 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.3-flash-20260826"
+ },
+ "z-ai/glm-5.3-flashx": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Z.ai: GLM 5.3 FlashX",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.3-flashx-20260918"
+ },
+ "z-ai/glm-5.3-flashx-legal": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Z.ai: GLM 5.3 FlashX Legal",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.3-flashx-legal-20261102"
+ },
+ "z-ai/glm-5.3-prime": {
+  "input": [
+   "text"
+  ],
+  "name": "Z.ai: GLM 5.3 Prime",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5.3-prime-20260921"
+ },
+ "z-ai/glm-5v-turbo": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Z.ai: GLM 5V Turbo",
+  "output": [
+   "text"
+  ],
+  "permaslug": "z-ai/glm-5v-turbo-20260401"
+ },
+ "~anthropic/claude-fable-latest": {
+  "floating": true,
+  "name": "Anthropic: Claude Fable Latest"
+ },
+ "~anthropic/claude-haiku-latest": {
+  "floating": true,
+  "name": "Anthropic: Claude Haiku Latest"
+ },
+ "~anthropic/claude-opus-latest": {
+  "floating": true,
+  "name": "Anthropic: Claude Opus Latest"
+ },
+ "~anthropic/claude-sonnet-latest": {
+  "floating": true,
+  "name": "Anthropic: Claude Sonnet Latest"
+ },
+ "~deepseek/deepseek-flash-latest": {
+  "floating": true,
+  "name": "DeepSeek: DeepSeek Flash Latest"
+ },
+ "~deepseek/deepseek-pro-latest": {
+  "floating": true,
+  "name": "DeepSeek: DeepSeek Pro Latest"
+ },
+ "~deepseek/deepseek-v4-flash-latest": {
+  "floating": true,
+  "name": "DeepSeek: DeepSeek V4 Flash Latest"
+ },
+ "~google/gemini-flash-latest": {
+  "floating": true,
+  "name": "Google: Gemini Flash Latest"
+ },
+ "~google/gemini-pro-latest": {
+  "floating": true,
+  "name": "Google: Gemini Pro Latest"
+ },
+ "~liquid/d1-latest": {
+  "floating": true,
+  "name": "LiquidAI: d1 Latest"
+ },
+ "~liquid/d1-ultra-latest": {
+  "floating": true,
+  "name": "LiquidAI: d1-ultra Latest"
+ },
+ "~moonshotai/kimi-latest": {
+  "floating": true,
+  "name": "MoonshotAI: Kimi Latest"
+ },
+ "~openai/gpt-astra-latest": {
+  "floating": true,
+  "name": "OpenAI: GPT Astra Latest"
+ },
+ "~openai/gpt-luna-latest": {
+  "floating": true,
+  "name": "OpenAI: GPT Luna Latest"
+ },
+ "~openai/gpt-mini-latest": {
+  "floating": true,
+  "name": "OpenAI: GPT Mini Latest"
+ },
+ "~openai/gpt-sol-latest": {
+  "floating": true,
+  "name": "OpenAI: GPT Sol Latest"
+ },
+ "~openai/gpt-terra-latest": {
+  "floating": true,
+  "name": "OpenAI: GPT Terra Latest"
+ },
+ "~perplexity/pplx-decider-flash-latest": {
+  "floating": true,
+  "name": "Perplexity: Decider Flash Latest"
+ },
+ "~perplexity/pplx-decider-latest": {
+  "floating": true,
+  "name": "Perplexity: Decider Latest"
+ },
+ "~typesafe/jev-latest": {
+  "floating": true,
+  "name": "TypeSafe: Jev Latest"
+ },
+ "~unbiased/pareto-latest": {
+  "floating": true,
+  "name": "Pareto Latest"
+ },
+ "~x-ai/grok-latest": {
+  "floating": true,
+  "name": "xAI: Grok Latest"
+ },
+ "~z-ai/glm-flash-latest": {
+  "floating": true,
+  "name": "Z.ai: GLM Flash Latest"
+ },
+ "~z-ai/glm-latest": {
+  "floating": true,
+  "name": "Z.ai: GLM Latest"
+ }
+}

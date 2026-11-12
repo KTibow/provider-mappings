@@ -1,0 +1,32 @@
+# Hand-maintained mappings for api.venice.ai; highest precedence. Hosts
+# declared as Venice mirrors in sync/host-config.ts inherit these rows.
+# Each row cites Venice's own list (https://api.venice.ai/api/v1/models?type=all).
+
+# "Qwen 3.6 Plus Uncensored ... an uncensored variant of Alibaba's Qwen 3.6
+# Plus". models.dev files it under qwen/qwen3.6-plus.
+["qwen-3-6-plus"]
+model = "venice/qwen3.6-plus-uncensored"
+
+# "Venice Uncensored 1.2": improves on 1.1 and adds vision. OpenRouter files
+# Venice's endpoint for it under the older dolphin-mistral-24b-venice-edition (1.1).
+["venice-uncensored-1-2"]
+model = "venice/venice-uncensored-1.2"
+
+# "Qwen 3 Coder 480B Turbo", listed next to qwen3-coder-480b-a35b-instruct as
+# its own product. OpenRouter files Venice's endpoint under qwen/qwen3-coder.
+["qwen3-coder-480b-a35b-instruct-turbo"]
+model = "qwen/qwen3-coder-turbo"
+
+# "GLM 5 Turbo", Z.ai's GLM-5-Turbo (OpenRouter's z-ai/glm-5-turbo has the same
+# description). OpenRouter files Venice's endpoint under z-ai/glm-5.
+["z-ai-glm-5-turbo"]
+model = "z-ai/glm-5-turbo"
+
+# "Llama 3.2 3B": a chat endpoint with function calling, so the Instruct model,
+# though its modelSource links the base model's card.
+["llama-3.2-3b"]
+model = "meta-llama/llama-3.2-3b-instruct"
+
+# The id says v4; Venice names it "Seedream V4.5".
+["seedream-v4"]
+model = "bytedance-seed/seedream-4.5"

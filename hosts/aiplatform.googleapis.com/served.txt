@@ -1,0 +1,24 @@
+# Native ids aiplatform.googleapis.com is known to serve, from a marketplace's live routing
+# (scripts/import-mappings.ts, 2026-11-11). sync/hosts.ts maps each one like an
+# entry in a /models list; the rows land in sync.toml. Remove an id the host
+# no longer serves; put a mapping the sync gets wrong in manual.toml.
+claude-fable-5
+claude-haiku-4-5
+claude-opus-4-5
+claude-opus-4-6
+claude-opus-4-7
+claude-opus-4-8
+claude-sonnet-4-5
+claude-sonnet-4-6
+claude-sonnet-5
+google/gemini-2.5-flash
+google/gemini-2.5-pro
+google/gemini-3-flash-preview
+google/gemini-3.1-pro-preview
+google/gemini-3.5-flash
+google/gemma-4-26b-a4b-it-maas
+mistral-small-2506
+openai/gpt-oss-120b-maas
+xai/grok-4.1-fast-reasoning
+xai/grok-4.20-reasoning
+xai/grok-4.3
