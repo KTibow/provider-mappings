@@ -451,6 +451,10 @@ pin = "pinned"
 model = "thenlper/gte-large"
 pin = "pinned"
 
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["thinkingmachines/Inkling-Small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"

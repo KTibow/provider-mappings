@@ -695,6 +695,14 @@ pin = "pinned"
 model = "heygen/avatar-iv"
 pin = "pinned"
 
+["heygen/heygen-decision-1"]
+model = "heygen/heygen-decision-1"
+pin = "pinned"
+
+["heygen/heygen-decision-1-turbo"]
+model = "heygen/heygen-decision-1-turbo"
+pin = "pinned"
+
 ["heygen/heygen-video-1"]
 model = "heygen/heygen-video-1"
 pin = "pinned"
@@ -713,14 +721,6 @@ pin = "pinned"
 
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-fin"]
-model = "inclusionai/ling-3.0-flash-fin"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-sante"]
-model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]
@@ -801,10 +801,6 @@ pin = "pinned"
 
 ["liquid/d1.1"]
 model = "liquid/d1.1"
-pin = "pinned"
-
-["liquid/lfm-2.5-2.6b"]
-model = "liquid/lfm-2.5-2.6b"
 pin = "pinned"
 
 ["liquid/lfm-2.5-24b-a2b"]

@@ -115,6 +115,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
 pin = "pinned"
@@ -229,6 +233,10 @@ pin = "pinned"
 
 ["hermes-4-405b"]
 model = "nousresearch/hermes-4-405b"
+pin = "pinned"
+
+["inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["kimi-k2.6"]

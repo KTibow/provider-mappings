@@ -151,10 +151,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["apodex/apodex-1.1-mini:free"]
-model = "apodex/apodex-1.1-mini"
-pin = "pinned"
-
 ["assemblyai/assemblyai-tts-1"]
 model = "assemblyai/assemblyai-tts-1"
 pin = "pinned"
@@ -723,6 +719,14 @@ pin = "pinned"
 model = "heygen/avatar-iv"
 pin = "pinned"
 
+["heygen/heygen-decision-1"]
+model = "heygen/heygen-decision-1"
+pin = "pinned"
+
+["heygen/heygen-decision-1-turbo"]
+model = "heygen/heygen-decision-1-turbo"
+pin = "pinned"
+
 ["heygen/heygen-video-1"]
 model = "heygen/heygen-video-1"
 pin = "pinned"
@@ -745,14 +749,6 @@ pin = "pinned"
 
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-fin"]
-model = "inclusionai/ling-3.0-flash-fin"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-sante"]
-model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]
@@ -835,20 +831,8 @@ pin = "pinned"
 model = "liquid/d1.1"
 pin = "pinned"
 
-["liquid/lfm-2.5-2.6b"]
-model = "liquid/lfm-2.5-2.6b"
-pin = "pinned"
-
-["liquid/lfm-2.5-2.6b:free"]
-model = "liquid/lfm-2.5-2.6b:free"
-pin = "pinned"
-
 ["liquid/lfm-2.5-24b-a2b"]
 model = "liquid/lfm-2.5-24b-a2b"
-pin = "pinned"
-
-["liquid/lfm-2.5-embedding-350m:free"]
-model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
 
 ["liquid/lfm-3-1.7b"]

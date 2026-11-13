@@ -421,6 +421,7 @@
   "permaslug": "anthropic/claude-sonnet-5.5-20260928"
  },
  "apodex/apodex-1.1-mini": {
+  "delisted": "2026-11-13",
   "formerly": [
    "apodex/apodex-1.1-mini:free"
   ],
@@ -2055,6 +2056,28 @@
   ],
   "permaslug": "heygen/avatar-iv-20260625"
  },
+ "heygen/heygen-decision-1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "HeyGen: HeyGen Decision",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "heygen/heygen-decision-1-20261112"
+ },
+ "heygen/heygen-decision-1-turbo": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "HeyGen: HeyGen Decision Turbo",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "heygen/heygen-decision-1-turbo-20261112"
+ },
  "heygen/heygen-video-1": {
   "input": [
    "audio",
@@ -2111,6 +2134,7 @@
   "permaslug": "inclusionai/ling-3.0-flash-20260723"
  },
  "inclusionai/ling-3.0-flash-fin": {
+  "delisted": "2026-11-13",
   "input": [
    "text"
   ],
@@ -2121,6 +2145,7 @@
   "permaslug": "inclusionai/ling-3.0-flash-fin-20260827"
  },
  "inclusionai/ling-3.0-flash-sante": {
+  "delisted": "2026-11-13",
   "input": [
    "text"
   ],
@@ -2352,6 +2377,7 @@
   "permaslug": "liquid/d1.1-20261027"
  },
  "liquid/lfm-2.5-2.6b": {
+  "delisted": "2026-11-13",
   "hf": "LiquidAI/LFM2.5-2.6B",
   "input": [
    "text"
@@ -2374,6 +2400,7 @@
   "permaslug": "liquid/lfm-2.5-24b-a2b-20261012"
  },
  "liquid/lfm-2.5-embedding-350m": {
+  "delisted": "2026-11-13",
   "formerly": [
    "liquid/lfm-2.5-embedding-350m:free"
   ],

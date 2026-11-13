@@ -67,15 +67,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
-["minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["minimax-m3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-quant = "fp8"
-
 ["minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"

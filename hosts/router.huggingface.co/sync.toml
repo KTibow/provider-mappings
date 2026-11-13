@@ -311,10 +311,6 @@ pin = "pinned"
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
-["stepfun-ai/Step-3.7-Flash"]
-model = "stepfun/step-3.7-flash"
-pin = "pinned"
-
 ["tencent/Hy3"]
 model = "tencent/hy3"
 pin = "pinned"
@@ -325,6 +321,10 @@ pin = "pinned"
 
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-Small"]

@@ -1512,6 +1512,11 @@ quant = "fp4"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["deepinfra/thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+quant = "fp4"
+
 ["deepinfra/thinkingmachines/Inkling-Small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
@@ -1557,10 +1562,6 @@ quant = "fp4"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp4"
-
-["deepseek-v4-flash-vision-exp"]
-model = "deepseek/deepseek-v4-flash-vision-exp"
-pin = "pinned"
 
 ["deepseek/deepseek-chat"]
 model = "deepseek/deepseek-chat"
@@ -1650,6 +1651,10 @@ pin = "pinned"
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
+["flexai/Meta-Llama-3.1-8B-Instruct-FP8@eu"]
+model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
 ["flexai/MiMo-V2.6-Flash-RL"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -1675,6 +1680,10 @@ model = "qwen/qwen3-coder-30b-a3b-instruct"
 pin = "pinned"
 
 ["flexai/Qwen3.5-9B"]
+model = "qwen/qwen3.5-9b"
+pin = "pinned"
+
+["flexai/Qwen3.5-9B@eu"]
 model = "qwen/qwen3.5-9b"
 pin = "pinned"
 
@@ -1715,6 +1724,10 @@ model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["flexai/gpt-oss-20b"]
+model = "openai/gpt-oss-20b"
+pin = "pinned"
+
+["flexai/gpt-oss-20b@eu"]
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 

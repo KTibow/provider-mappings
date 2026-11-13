@@ -127,10 +127,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["apodex/apodex-1.1-mini:free"]
-model = "apodex/apodex-1.1-mini"
-pin = "pinned"
-
 ["baidu/ernie-5.5-flash-preview:free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
@@ -449,10 +445,6 @@ pin = "pinned"
 
 ["kt/midm-k-3.0-pro"]
 model = "kt/midm-k-3.0-pro"
-pin = "pinned"
-
-["liquid/lfm-2.5-2.6b"]
-model = "liquid/lfm-2.5-2.6b"
 pin = "pinned"
 
 ["liquid/lfm-2.5-24b-a2b"]

@@ -748,6 +748,11 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 quant = "fp16"
 
+["qwen3.8-flash"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+quant = "fp16"
+
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"

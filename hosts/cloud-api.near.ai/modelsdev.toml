@@ -30,6 +30,10 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
+["anthropic/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["anthropic/claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"

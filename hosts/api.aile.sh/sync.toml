@@ -1011,6 +1011,10 @@ pin = "pinned"
 model = "meta/muse-ember"
 pin = "pinned"
 
+["surplus/step-5-preview"]
+model = "stepfun/step-5-preview"
+pin = "pinned"
+
 ["venice/claude-fable-5-2"]
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"

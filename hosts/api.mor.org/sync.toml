@@ -343,10 +343,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
-["MiMo-V2.6-Flash"]
-model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
 ["MiniMax M3 Preview"]
 model = "minimax/minimax-m3"
 pin = "pinned"

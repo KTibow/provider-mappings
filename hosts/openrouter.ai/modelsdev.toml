@@ -114,10 +114,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["apodex/apodex-1.1-mini:free"]
-model = "apodex/apodex-1.1-mini"
-pin = "pinned"
-
 ["baidu/ernie-5.5-flash-preview:free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
@@ -392,14 +388,6 @@ pin = "pinned"
 
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-fin"]
-model = "inclusionai/ling-3.0-flash-fin"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-sante"]
-model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]

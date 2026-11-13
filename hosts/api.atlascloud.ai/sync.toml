@@ -113,8 +113,8 @@ model = "google/gemini-4-argon"
 pin = "pinned"
 quant = "fp8"
 
-["google/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 quant = "fp8"
 

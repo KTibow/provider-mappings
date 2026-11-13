@@ -6,6 +6,14 @@
 model = "heygen/avatar-iv"
 pin = "pinned"
 
+["heygen-decision-1"]
+model = "heygen/heygen-decision-1"
+pin = "pinned"
+
+["heygen-decision-1-turbo"]
+model = "heygen/heygen-decision-1-turbo"
+pin = "pinned"
+
 ["heygen-video-1"]
 model = "heygen/heygen-video-1"
 pin = "pinned"

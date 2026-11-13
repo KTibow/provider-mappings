@@ -12,6 +12,11 @@ model = "nvidia/parakeet-tdt-0.6b-v3"
 pin = "pinned"
 quant = "fp32"
 
+["openai/whisper-large-v3"]
+model = "openai/whisper-large-v3"
+pin = "pinned"
+quant = "int8"
+
 ["openai/whisper-large-v3-turbo"]
 model = "openai/whisper-large-v3-turbo"
 pin = "pinned"

@@ -367,6 +367,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -443,6 +447,14 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.0-flash-fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
@@ -516,10 +528,6 @@ model = "meta/muse-glimmer-30b"
 pin = "pinned"
 
 ["meta-models/muse-spark-open"]
-model = "meta/muse-spark-open"
-pin = "pinned"
-
-["meta-models/muse-spark-open-816b-a42b-nvfp4"]
 model = "meta/muse-spark-open"
 pin = "pinned"
 
@@ -1265,6 +1273,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/inkling-small"]

@@ -26,6 +26,10 @@ pin = "pinned"
 model = "z-ai/glm-5"
 pin = "pinned"
 
+["alibaba/glm-5.1"]
+model = "z-ai/glm-5.1"
+pin = "pinned"
+
 ["alibaba/glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
@@ -38,8 +42,16 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
+["alibaba/kimi-k2.7-code"]
+model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
 ["alibaba/kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["alibaba/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["alibaba/qwen-flash"]
@@ -96,6 +108,14 @@ pin = "pinned"
 
 ["alibaba/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
+pin = "pinned"
+
+["alibaba/qwen3.8-2.4t-a95b"]
+model = "qwen/qwen3.8-2.4t-a95b"
+pin = "pinned"
+
+["alibaba/qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["alibaba/qwen3.8-flash"]
@@ -902,6 +922,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
@@ -1002,6 +1026,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google-ai-studio/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google-vertex/gemini-3-flash-preview"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
@@ -1040,6 +1068,10 @@ pin = "pinned"
 
 ["google-vertex/gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["google-vertex/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["gpt-4.1"]
