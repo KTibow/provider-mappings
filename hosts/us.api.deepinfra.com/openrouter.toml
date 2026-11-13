@@ -222,12 +222,12 @@ quant = "bf16"
 ["inclusionAI/Ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
-quant = "bf16"
+quant = "fp4"
 
 ["inclusionAI/Ling-3.0-flash-VL"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
-quant = "fp16"
+quant = "fp4"
 
 ["intfloat/e5-base-v2"]
 model = "intfloat/e5-base-v2"
@@ -394,7 +394,7 @@ pin = "pinned"
 ["thinkingmachines/Inkling-Small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
-quant = "fp8"
+quant = "fp4"
 
 ["zai-org/GLM-4.6"]
 model = "z-ai/glm-4.6"

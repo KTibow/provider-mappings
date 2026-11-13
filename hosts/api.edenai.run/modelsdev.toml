@@ -278,6 +278,10 @@ pin = "pinned"
 model = "qwen/qwen-2.5-coder-32b-instruct"
 pin = "pinned"
 
+["cloudflare/@cf/thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["cloudflare/@cf/zai-org/glm-4.7-flash"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
@@ -670,6 +674,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -964,6 +972,10 @@ pin = "pinned"
 
 ["nebius/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
+pin = "pinned"
+
+["nebius/thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["openai/gpt-4.1"]
@@ -1286,6 +1298,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["together_ai/thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["tsystems/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -1408,6 +1424,18 @@ pin = "pinned"
 
 ["vertex/gemini-4-carbon@us"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen@eu"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen@us"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["vertex/gemini-flash-latest"]

@@ -65,7 +65,7 @@ quant = "fp8"
 ["nvidia/Nemotron-3.5-Super-VL"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
-quant = "bf16"
+quant = "fp4"
 
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"

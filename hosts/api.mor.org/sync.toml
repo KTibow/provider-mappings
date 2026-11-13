@@ -343,6 +343,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
+["MiMo-V2.6-Flash"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
 ["MiniMax M3 Preview"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -653,6 +657,10 @@ pin = "pinned"
 
 ["meta/llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
+["mimo-v2.5"]
+model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
 ["mistral-31-24b"]

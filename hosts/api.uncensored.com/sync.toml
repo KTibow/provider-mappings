@@ -359,10 +359,6 @@ pin = "pinned"
 model = "venice/lustify-v7"
 pin = "pinned"
 
-["mercury-2-5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["mimo-v2-6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -469,14 +465,6 @@ pin = "pinned"
 
 ["qwen3.5-397b-a17b"]
 model = "qwen/qwen3.5-397b-a17b"
-pin = "pinned"
-
-["qwen3.5-flash"]
-model = "alibaba/qwen3.5-flash"
-pin = "pinned"
-
-["qwen3.5-plus"]
-model = "alibaba/qwen3.5-plus"
 pin = "pinned"
 
 ["qwen3.6-27b"]

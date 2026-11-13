@@ -179,6 +179,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["deepseek-v4.1-flash-1017:free"]
+model = "deepseek/deepseek-v4.1-flash-1017:free"
+pin = "pinned"
+
 ["deepseek-v4.1-flash:free"]
 model = "deepseek/deepseek-v4.1-flash:free"
 pin = "pinned"
@@ -363,6 +367,10 @@ pin = "pinned"
 model = "openai/gpt-6-luna"
 pin = "pinned"
 
+["gpt-6-luna:free"]
+model = "openai/gpt-6-luna:free"
+pin = "pinned"
+
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
 pin = "pinned"
@@ -455,6 +463,10 @@ pin = "pinned"
 model = "liquid/lfm-2.5-embedding-350m:free"
 pin = "pinned"
 
+["lfm-3-1.7b:free"]
+model = "liquid/lfm-3-1.7b:free"
+pin = "pinned"
+
 ["llama-3.2-3b:free"]
 model = "meta-llama/llama-3.2-3b-instruct:free"
 pin = "pinned"
@@ -487,12 +499,20 @@ pin = "pinned"
 model = "minimax/minimax-m2.7"
 pin = "pinned"
 
+["minimax-m2.7:free"]
+model = "minimax/minimax-m2.7:free"
+pin = "pinned"
+
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
 
 ["minimax-m3.1-flash:free"]
 model = "minimax/minimax-m3.1-flash:free"
+pin = "pinned"
+
+["minimax-m3:free"]
+model = "minimax/minimax-m3:free"
 pin = "pinned"
 
 ["mistral-large-3"]
@@ -557,6 +577,10 @@ pin = "pinned"
 
 ["qwen3.6-27b:free"]
 model = "qwen/qwen3.6-27b:free"
+pin = "pinned"
+
+["qwen3.7-flash:free"]
+model = "qwen/qwen3.7-flash:free"
 pin = "pinned"
 
 ["qwen3.7-max"]

@@ -107,6 +107,10 @@ pin = "pinned"
 model = "apodex/apodex-1.1-mini"
 pin = "pinned"
 
+["baidu/ernie-5.5-flash-preview-free"]
+model = "baidu/ernie-5.5-flash-preview"
+pin = "pinned"
+
 ["baseten/elephant-1"]
 model = "baseten/elephant-1"
 pin = "pinned"

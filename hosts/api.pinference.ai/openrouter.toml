@@ -15,10 +15,6 @@ model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 quant = "fp4"
 
-["deepseek/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
 ["deepseek/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
@@ -118,10 +114,7 @@ model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 quant = "bf16"
 
-["z-ai/glm-5.3"]
-model = "z-ai/glm-5.3"
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
-
-["z-ai/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
+quant = "fp4"

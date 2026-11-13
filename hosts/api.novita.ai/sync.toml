@@ -134,3 +134,7 @@ pin = "pinned"
 ["xiaomimimo/mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
+
+["zai-org/glm-5.3-flashX"]
+model = "z-ai/glm-5.3-flashx"
+pin = "pinned"

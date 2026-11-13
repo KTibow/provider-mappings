@@ -159,6 +159,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/gemini-embedding-2"]
 model = "google/gemini-embedding-2"
 pin = "pinned"
@@ -221,6 +225,14 @@ pin = "pinned"
 
 ["meta/muse-wonder-1.0"]
 model = "meta/muse-wonder"
+pin = "pinned"
+
+["minimax/minimax-h3-image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
+["minimax/minimax-h3-image-highspeed"]
+model = "minimax/minimax-h3-image-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m2"]

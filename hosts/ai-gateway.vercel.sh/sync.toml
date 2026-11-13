@@ -967,8 +967,16 @@ pin = "pinned"
 model = "perplexity/pplx-decider-flash-v1.2"
 pin = "pinned"
 
+["perplexity/pplx-decider-flash-v1.3"]
+model = "perplexity/pplx-decider-flash-v1.3"
+pin = "pinned"
+
 ["perplexity/pplx-decider-v1.2"]
 model = "perplexity/pplx-decider-v1.2"
+pin = "pinned"
+
+["perplexity/pplx-decider-v1.3"]
+model = "perplexity/pplx-decider-v1.3"
 pin = "pinned"
 
 ["perplexity/pplx-embed-v1-0.6b"]

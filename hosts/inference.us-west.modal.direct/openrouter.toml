@@ -32,6 +32,12 @@
 # model = "z-ai/glm-5.3"
 # pin = "pinned"
 
+# needs review: model id is OpenRouter-only (modal/nvfp4)
+# ["openrouterteam--ep-inkling-2-small-server.us-west.modal.direct"]
+# model = "thinkingmachines/inkling-2-small"
+# pin = "pinned"
+# quant = "nvfp4"
+
 # needs review: model id is OpenRouter-only (modal/mxfp4)
 # ["openrouterteam--ep-kimi-k3-1-pro-server.us-west.modal.direct"]
 # model = "moonshotai/kimi-k3.1-pro"

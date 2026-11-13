@@ -191,6 +191,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["alitp/wan2.7-image"]
+model = "alibaba/wan-2.7-image"
+pin = "pinned"
+
 ["ant/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -527,6 +531,10 @@ pin = "pinned"
 model = "meituan/longcat-2.0"
 pin = "pinned"
 
+["cmc/meta/muse-ember"]
+model = "meta/muse-ember"
+pin = "pinned"
+
 ["cmc/meta/muse-spark-1.2"]
 model = "meta/muse-spark-1.2"
 pin = "pinned"
@@ -687,8 +695,16 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-image"
 pin = "pinned"
 
+["gemini-3.1-flash-lite"]
+model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+
 ["gemini-3.1-pro"]
 model = "google/gemini-3.1-pro"
+pin = "pinned"
+
+["gemini-3.5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
 
 ["gemini-3.6-flash"]
@@ -709,6 +725,10 @@ pin = "pinned"
 
 ["gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["gemini-omni-flash"]
@@ -867,6 +887,18 @@ pin = "pinned"
 model = "alibaba/happyhorse-1.1"
 pin = "pinned"
 
+["happyhorse-1.1-i2v"]
+model = "alibaba/happyhorse-1.1:image-to-video"
+pin = "pinned"
+
+["happyhorse-1.1-r2v"]
+model = "alibaba/happyhorse-1.1:reference-to-video"
+pin = "pinned"
+
+["happyhorse-1.1-t2v"]
+model = "alibaba/happyhorse-1.1"
+pin = "pinned"
+
 ["hy3"]
 model = "tencent/hy3"
 pin = "pinned"
@@ -897,6 +929,78 @@ pin = "pinned"
 
 ["kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["kiro/claude-haiku-4.5"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["kiro/claude-opus-4.5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["kiro/claude-opus-4.6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
+["kiro/claude-opus-4.7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["kiro/claude-opus-4.8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["kiro/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["kiro/claude-opus-5.5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["kiro/claude-sonnet-4.6"]
+model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["kiro/claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["kiro/claude-sonnet-5.5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
+["kiro/glm-5"]
+model = "z-ai/glm-5"
+pin = "pinned"
+
+["kiro/gpt-5.6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["kiro/gpt-5.6-sol"]
+model = "openai/gpt-5.6-sol"
+pin = "pinned"
+
+["kiro/gpt-5.6-terra"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["kiro/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["kiro/minimax-m2.1"]
+model = "minimax/minimax-m2.1"
+pin = "pinned"
+
+["kiro/minimax-m2.5"]
+model = "minimax/minimax-m2.5"
+pin = "pinned"
+
+["kiro/qwen3-coder-next"]
+model = "qwen/qwen3-coder-next"
 pin = "pinned"
 
 ["kling-video-o-1"]
@@ -967,6 +1071,14 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
+["minimax-h3-image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
+["minimax-h3-image-highspeed"]
+model = "minimax/minimax-h3-image-highspeed"
+pin = "pinned"
+
 ["minimax-m2"]
 model = "minimax/minimax-m2"
 pin = "pinned"
@@ -1005,6 +1117,14 @@ pin = "pinned"
 
 ["mistral-medium-3.5"]
 model = "mistralai/mistral-medium-3-5"
+pin = "pinned"
+
+["mm/MiniMax-M2"]
+model = "minimax/minimax-m2"
+pin = "pinned"
+
+["mm/MiniMax-M2.1"]
+model = "minimax/minimax-m2.1"
 pin = "pinned"
 
 ["mm/MiniMax-M2.5"]
@@ -1073,6 +1193,10 @@ pin = "pinned"
 
 ["moon/kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["muse-ember-1.0"]
+model = "meta/muse-ember"
 pin = "pinned"
 
 ["muse-spark-1.1"]
@@ -1219,16 +1343,16 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["ocg/qwen3.7-max"]
-model = "qwen/qwen3.7-max"
-pin = "pinned"
-
 ["ocg/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
 
 ["ocg/step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["qwen-image-3.0-pro"]
+model = "qwen/qwen-image-3-pro"
 pin = "pinned"
 
 ["qwen3.6-flash"]
@@ -1332,6 +1456,14 @@ model = "alibaba/wan-2.7"
 pin = "pinned"
 
 ["wan-3.0"]
+model = "alibaba/wan-3.0"
+pin = "pinned"
+
+["wan2.7-image"]
+model = "alibaba/wan-2.7-image"
+pin = "pinned"
+
+["wan3.0-video"]
 model = "alibaba/wan-3.0"
 pin = "pinned"
 

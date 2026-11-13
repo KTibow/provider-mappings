@@ -40,7 +40,6 @@
       "mistralai/mistral-small",
       "mixedbread/toast-1",
       "moonshotai/kimi-k3.1-pro-highspeed",
-      "nvidia/nemotron-3.5-lightning-free",
       "openai/gpt-4.1-fast",
       "openai/gpt-4.1-mini-fast",
       "openai/gpt-4o-fast",
@@ -67,11 +66,11 @@
       "openrouter/bodybuilder",
       "openrouter/free",
       "openrouter/pareto-code",
-      "poolside/laguna-s-2.1",
+      "paperinstruments/ultramarine-1-flash",
+      "particle-ai/particle-1:free",
       "quiverai/arrow-2",
       "quiverai/arrow-2-telos",
       "qwen/qwen3-max-thinking",
-      "qwen/qwen3-vl-instruct",
       "reflection/beam-free",
       "scaledown/scaledown-extract-1",
       "scaledown/scaledown-summarize-1",
@@ -115,9 +114,6 @@
       "deepseek/deepseek-v4.1-flash-1017-fast",
       "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "deepseek/deepseek-v4.1-flash-fast",
-      "google/veo-3.1-fast-generate-001",
-      "google/veo-3.1-generate-001",
-      "google/veo-3.1-lite-generate-001",
       "humansand/ampersand-v0.1",
       "inception/mercury-coder-small",
       "inclusionai/ling-3.1-flash-1019",
@@ -161,6 +157,7 @@
       "openai/gpt-6.1-sol-fast",
       "openai/gpt-6.1-terra-fast",
       "openai/o3-fast",
+      "paperinstruments/ultramarine-1-flash",
       "recraft/recraft-v2",
       "scaledown/scaledown-extract-1",
       "scaledown/scaledown-summarize-1",
@@ -744,6 +741,7 @@
       "leonardo-ai/lucid-realism"
     ],
     "hyper.charm.land": [
+      "deepseek-v4.1-flash-1017-basic",
       "prism",
       "prism-core",
       "prism-flash"
@@ -1054,7 +1052,8 @@
       "openrouter/bodybuilder",
       "openrouter/free",
       "openrouter/fusion",
-      "openrouter/pareto-code"
+      "openrouter/pareto-code",
+      "particle-ai/particle-1:free"
     ],
     "pass.wafer.ai": [
       "glm5.2-fast"

@@ -451,6 +451,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -651,10 +655,6 @@ pin = "pinned"
 model = "openai/gpt-4o-mini"
 pin = "pinned"
 
-["gpt-4o-mini-2024-07-18"]
-model = "openai/gpt-4o-mini-2024-07-18"
-pin = "pinned"
-
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"
@@ -803,6 +803,14 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
+["gpt-audio"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
+["gpt-audio-2025-08-28"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -861,10 +869,6 @@ pin = "pinned"
 
 ["grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["grok-imagine-image"]
-model = "x-ai/grok-imagine-image"
 pin = "pinned"
 
 ["grok-imagine-image-2-0"]
@@ -1123,6 +1127,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["mistral-large-4.0"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1219,10 +1227,6 @@ pin = "pinned"
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
-["nano-banana-2"]
-model = "google/gemini-3.1-flash-image-preview"
-pin = "pinned"
-
 ["nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
@@ -1301,6 +1305,10 @@ pin = "pinned"
 
 ["nvidia-nemotron-3-ultra-550b-a55b-bf16"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["nvidia/nemotron-3.5-super-vl:thinking"]
+model = "nvidia/nemotron-3.5-super-vl:thinking"
 pin = "pinned"
 
 ["o3"]
@@ -1389,10 +1397,6 @@ pin = "pinned"
 
 ["qwen-2.5-72b-instruct"]
 model = "qwen/qwen-2.5-72b-instruct"
-pin = "pinned"
-
-["qwen-image"]
-model = "qwen/qwen-image"
 pin = "pinned"
 
 ["qwen-plus"]
@@ -1707,6 +1711,10 @@ pin = "pinned"
 model = "upstage/solar-pro4:thinking"
 pin = "pinned"
 
+["sonar"]
+model = "perplexity/sonar"
+pin = "pinned"
+
 ["sonar-pro"]
 model = "perplexity/sonar-pro"
 pin = "pinned"
@@ -1717,6 +1725,10 @@ pin = "pinned"
 
 ["step-3.5-flash"]
 model = "stepfun/step-3.5-flash"
+pin = "pinned"
+
+["step-3.7-flash"]
+model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-3.7-flash:thinking"]
@@ -1753,6 +1765,10 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+pin = "pinned"
+
+["veo3.1-fast"]
+model = "google/veo-3.1-fast"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

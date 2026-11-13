@@ -58,10 +58,6 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
-["claude-opus-4-8-fast"]
-model = "anthropic/claude-opus-4.8-fast"
-pin = "pinned"
-
 ["claude-opus-5"]
 model = "anthropic/claude-opus-5"
 pin = "pinned"
@@ -152,6 +148,10 @@ pin = "pinned"
 
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
+pin = "pinned"
+
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["gemma-4-uncensored"]
@@ -364,6 +364,10 @@ pin = "pinned"
 
 ["openai-gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
+pin = "pinned"
+
+["pareto"]
+model = "unbiased/pareto"
 pin = "pinned"
 
 ["qwen-3-6-plus"]

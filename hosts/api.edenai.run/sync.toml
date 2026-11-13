@@ -942,6 +942,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["cloudflare/@cf/thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["cloudflare/@cf/zai-org/glm-4.7-flash"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
@@ -1326,7 +1330,7 @@ quant = "bf16"
 ["deepinfra/inclusionAI/Ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
-quant = "bf16"
+quant = "fp4"
 
 ["deepinfra/inclusionAI/Ling-3.0-flash-Fin"]
 model = "inclusionai/ling-3.0-flash-fin"
@@ -1335,7 +1339,7 @@ pin = "pinned"
 ["deepinfra/inclusionAI/Ling-3.0-flash-VL"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
-quant = "fp16"
+quant = "fp4"
 
 ["deepinfra/inclusionAI/Ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
@@ -1511,7 +1515,7 @@ pin = "pinned"
 ["deepinfra/thinkingmachines/Inkling-Small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
-quant = "fp8"
+quant = "fp4"
 
 ["deepinfra/zai-org/GLM-4.5"]
 model = "z-ai/glm-4.5"
@@ -2320,7 +2324,7 @@ pin = "pinned"
 ["nebius/nvidia/Nemotron-3.5-Super-VL"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
-quant = "bf16"
+quant = "fp4"
 
 ["nebius/nvidia/Nemotron-3_5-Lightning"]
 model = "nvidia/nemotron-3.5-lightning"
@@ -2332,6 +2336,11 @@ pin = "pinned"
 
 ["nebius/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
+pin = "pinned"
+quant = "fp4"
+
+["nebius/thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 quant = "fp4"
 
@@ -3094,6 +3103,10 @@ pin = "pinned"
 
 ["together_ai/thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["together_ai/thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["together_ai/together/Tev1-4B-experimental"]

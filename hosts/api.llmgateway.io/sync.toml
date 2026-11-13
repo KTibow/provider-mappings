@@ -603,6 +603,10 @@ pin = "pinned"
 model = "minimax/hailuo-3"
 pin = "pinned"
 
+["minimax-h3-image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
 ["minimax-h3-max"]
 model = "minimax/hailuo-3-max"
 pin = "pinned"

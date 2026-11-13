@@ -490,6 +490,18 @@ pin = "pinned"
 model = "google/text-multilingual-embedding-002"
 pin = "pinned"
 
+["google/veo-3.1-fast-generate-001"]
+model = "google/veo-3.1-fast-generate-001"
+pin = "pinned"
+
+["google/veo-3.1-generate-001"]
+model = "google/veo-3.1-generate-001"
+pin = "pinned"
+
+["google/veo-3.1-lite-generate-001"]
+model = "google/veo-3.1-lite-generate-001"
+pin = "pinned"
+
 ["heygen/heygen-video-1"]
 model = "heygen/heygen-video-1"
 pin = "pinned"
@@ -1030,10 +1042,6 @@ pin = "pinned"
 model = "perplexity/sonar"
 pin = "pinned"
 
-["poolside/laguna-s-2.1"]
-model = "poolside/laguna-s-2.1"
-pin = "pinned"
-
 ["quiverai/arrow-2"]
 model = "quiverai/arrow-2"
 pin = "pinned"
@@ -1184,6 +1192,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/inkling-small"]
