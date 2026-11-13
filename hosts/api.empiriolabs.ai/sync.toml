@@ -299,6 +299,10 @@ pin = "pinned"
 model = "bytedance-seed/seedream-5-0-pro"
 pin = "pinned"
 
+["seedream-5-5"]
+model = "bytedance-seed/seedream-5-5"
+pin = "pinned"
+
 ["stable-audio-2-5"]
 model = "stabilityai/stable-audio-2.5"
 pin = "pinned"

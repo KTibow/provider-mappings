@@ -1045,7 +1045,6 @@
       "x-preview-f-free"
     ],
     "openrouter.ai": [
-      "liquid/lfm-2.5-2.6b:free",
       "liquid/lfm-3-1.7b:free",
       "openai/gpt-chat-latest",
       "openrouter/auto",

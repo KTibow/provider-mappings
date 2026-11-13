@@ -2,6 +2,7 @@
 # Do not edit: this file is rewritten every hour. Put fixes and additions in
 # manual.toml next to it, which takes precedence.
 
-["moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
+["MiniMaxAI/MiniMax-M3.1-Flash"]
+model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
+quant = "nvfp4"

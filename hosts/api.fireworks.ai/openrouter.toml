@@ -34,6 +34,10 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["accounts/fireworks/models/muse-spark-open"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
 ["accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"]
 model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"

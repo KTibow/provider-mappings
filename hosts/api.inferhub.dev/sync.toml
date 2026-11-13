@@ -23,6 +23,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["ali/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
 ["ali/deepseek-v4-pro-0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -607,10 +611,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
-["cp/zai/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
 ["cx/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -989,18 +989,6 @@ pin = "pinned"
 
 ["kiro/kimi-k3"]
 model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["kiro/minimax-m2.1"]
-model = "minimax/minimax-m2.1"
-pin = "pinned"
-
-["kiro/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["kiro/qwen3-coder-next"]
-model = "qwen/qwen3-coder-next"
 pin = "pinned"
 
 ["kling-video-o-1"]

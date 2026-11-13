@@ -39,10 +39,6 @@ pin = "pinned"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
-["claude-haiku-4-5-20251001:free"]
-model = "anthropic/claude-haiku-4.5:free"
-pin = "pinned"
-
 ["claude-haiku-4-5-20251001[1m]"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -211,12 +207,20 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
+["gemini-2.5-flash:free"]
+model = "google/gemini-2.5-flash:free"
+pin = "pinned"
+
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
 
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
+["gemini-3-flash:free"]
+model = "google/gemini-3-flash-preview:free"
 pin = "pinned"
 
 ["gemini-3-pro-image"]
@@ -233,10 +237,6 @@ pin = "pinned"
 
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
-pin = "pinned"
-
-["gemini-3.1-flash-lite:free"]
-model = "google/gemini-3.1-flash-lite:free"
 pin = "pinned"
 
 ["gemini-3.1-pro"]
@@ -279,6 +279,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["gemini-embedding-001:free"]
 model = "google/gemini-embedding-001:free"
 pin = "pinned"
@@ -289,6 +293,10 @@ pin = "pinned"
 
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
+pin = "pinned"
+
+["gemma-4-31b-it:free"]
+model = "google/gemma-4-31b-it:free"
 pin = "pinned"
 
 ["glm-4.6"]
@@ -435,14 +443,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["lfm-2.5-2.6b"]
-model = "liquid/lfm-2.5-2.6b"
-pin = "pinned"
-
-["lfm-2.5-2.6b:free"]
-model = "liquid/lfm-2.5-2.6b:free"
-pin = "pinned"
-
 ["lfm-2.5-embedding-350m:free"]
 model = "liquid/lfm-2.5-embedding-350m:free"
 pin = "pinned"
@@ -491,10 +491,6 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash:free"
 pin = "pinned"
 
-["mistral-large-3"]
-model = "mistralai/mistral-large-2512"
-pin = "pinned"
-
 ["mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
@@ -521,6 +517,10 @@ pin = "pinned"
 
 ["nemotron-3-super-120b-a12b:free"]
 model = "nvidia/nemotron-3-super-120b-a12b:free"
+pin = "pinned"
+
+["nemotron-3-ultra-550b-a55b:free"]
+model = "nvidia/nemotron-3-ultra-550b-a55b:free"
 pin = "pinned"
 
 ["nemotron-3.5-super-vl:free"]
@@ -567,10 +567,6 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b:free"
 pin = "pinned"
 
-["qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
@@ -591,12 +587,12 @@ pin = "pinned"
 model = "upstage/solar-mini4:free"
 pin = "pinned"
 
-["solar-pro4:free"]
-model = "upstage/solar-pro4:free"
-pin = "pinned"
-
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["step-5-preview:free"]
+model = "stepfun/step-5-preview:free"
 pin = "pinned"
 
 ["text-embedding-3-large"]

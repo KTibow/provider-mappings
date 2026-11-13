@@ -1386,10 +1386,6 @@ pin = "pinned"
 model = "stepfun/step-3.5-flash"
 pin = "pinned"
 
-["stepfun-ai/step-3.5-flash-2603"]
-model = "stepfun/step-3.5-flash-2603"
-pin = "pinned"
-
 ["stepfun/step-3.7-flash:thinking"]
 model = "stepfun/step-3.7-flash:thinking"
 pin = "pinned"

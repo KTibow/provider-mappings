@@ -522,6 +522,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["deepinfra/thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["deepinfra/thinkingmachines/Inkling-Small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
@@ -587,6 +591,10 @@ model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["flexai/gpt-oss-20b"]
+model = "openai/gpt-oss-20b"
+pin = "pinned"
+
+["flexai/gpt-oss-20b@eu"]
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 

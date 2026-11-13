@@ -58,10 +58,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
-["deepseek/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
 ["deepseek/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
@@ -270,6 +266,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["thinkingmachines/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["x-ai/grok-4.6"]
 model = "x-ai/grok-4.6"
 pin = "pinned"
@@ -280,12 +280,4 @@ pin = "pinned"
 
 ["z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["z-ai/glm-5.3"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["z-ai/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
 pin = "pinned"

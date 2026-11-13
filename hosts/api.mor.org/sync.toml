@@ -43,10 +43,6 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
-["Claude Opus 4.8 Fast"]
-model = "anthropic/claude-opus-4.8-fast"
-pin = "pinned"
-
 ["Claude Opus 5"]
 model = "anthropic/claude-opus-5"
 pin = "pinned"
@@ -121,10 +117,6 @@ pin = "pinned"
 
 ["GLM 5.1"]
 model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["GLM 5.2"]
-model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["GLM 5.3"]
@@ -343,6 +335,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
+["MiMo-V2.6-Flash"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
 ["MiniMax M3 Preview"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -422,10 +418,6 @@ pin = "pinned"
 ["Qwen 3.8 Max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
-
-["Qwen3 Embedding 8B"]
-model = "qwen/qwen3-embedding-8b"
-pin = "pinned"
 
 ["Seed 2.1 Turbo"]
 model = "bytedance-seed/seed-2-1-turbo"
@@ -665,10 +657,6 @@ pin = "pinned"
 
 ["mistral-31-24b:web"]
 model = "mistralai/mistral-small-3.1-24b-instruct:web"
-pin = "pinned"
-
-["moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["qwen3-235b:web"]

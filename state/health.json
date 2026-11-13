@@ -1,10 +1,10 @@
 {
- "api.iteracompute.com": {
-  "error": "GET https://api.iteracompute.com/v1/models -> HTTP 503: {\"detail\":\"provider catalog unavailable\"}",
-  "failing_since": "2026-11-13"
- },
  "api.kairence.ai": {
   "error": "DNS: ENOTFOUND",
   "failing_since": "2026-11-12"
+ },
+ "apihub.agnes-ai.com": {
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261113220558682249086cz62Oqs9)\",\"type\":\"AgnesAI_error\"}}",
+  "failing_since": "2026-11-13"
  }
 }

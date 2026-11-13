@@ -103,6 +103,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
+["claude-opus-4-5-20251101"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
 ["claude-opus-4-5:thinking"]
 model = "anthropic/claude-opus-4.5:thinking"
 pin = "pinned"
@@ -799,10 +803,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio-mini"]
-model = "openai/gpt-audio-mini"
-pin = "pinned"
-
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -848,10 +848,6 @@ model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
 ["grok-4.20"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
-["grok-4.20-0309-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
@@ -1725,6 +1721,10 @@ pin = "pinned"
 
 ["step-3.5-flash"]
 model = "stepfun/step-3.5-flash"
+pin = "pinned"
+
+["step-3.7-flash"]
+model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-3.7-flash:thinking"]

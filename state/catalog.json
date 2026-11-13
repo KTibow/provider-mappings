@@ -2190,6 +2190,21 @@
   ],
   "permaslug": "inclusionai/ling-3.1-flash-20261002"
  },
+ "inclusionai/ling-3.2-flash": {
+  "formerly": [
+   "inclusionai/ling-3.2-flash:free"
+  ],
+  "hf": "inclusionAI/Ling-3.2-flash",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "inclusionAI: Ling 3.2 Flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/ling-3.2-flash-20261113"
+ },
  "inference-net/schematron-v2-small": {
   "hf": "inference-net/schematron-v2-llama-3.2-3b",
   "input": [
@@ -6178,6 +6193,16 @@
    "text"
   ],
   "permaslug": "tencent/hy-mt2-7b-20260521"
+ },
+ "tencent/hy-world-2.1-panorama": {
+  "input": [
+   "text"
+  ],
+  "name": "Tencent: HY-World 2.1 Panorama",
+  "output": [
+   "image"
+  ],
+  "permaslug": "tencent/hy-world-2.1-panorama-20261112"
  },
  "tencent/hy3": {
   "hf": "tencent/Hy3",

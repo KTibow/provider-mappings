@@ -763,6 +763,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.2-flash:free"]
+model = "inclusionai/ling-3.2-flash"
+pin = "pinned"
+
 ["inference-net/schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
 pin = "pinned"
@@ -2153,6 +2157,10 @@ pin = "pinned"
 
 ["tencent/hy-mt2-7b"]
 model = "tencent/hy-mt2-7b"
+pin = "pinned"
+
+["tencent/hy-world-2.1-panorama"]
+model = "tencent/hy-world-2.1-panorama"
 pin = "pinned"
 
 ["tencent/hy3"]

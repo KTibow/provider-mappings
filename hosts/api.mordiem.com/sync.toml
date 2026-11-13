@@ -67,10 +67,6 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
-["claude-opus-4-8-fast"]
-model = "anthropic/claude-opus-4.8-fast"
-pin = "pinned"
-
 ["claude-opus-5"]
 model = "anthropic/claude-opus-5"
 pin = "pinned"
@@ -865,6 +861,10 @@ pin = "pinned"
 
 ["ovi-image-to-video"]
 model = "character-ai/ovi:image-to-video"
+pin = "pinned"
+
+["pareto"]
+model = "unbiased/pareto"
 pin = "pinned"
 
 ["pixverse-c1-image-to-video"]

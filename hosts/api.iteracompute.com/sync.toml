@@ -7,6 +7,10 @@
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
+["anthropic/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["anthropic/claude-haiku-5-5"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
@@ -71,6 +75,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["moonshotai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["openai/gpt-6-astra"]
 model = "openai/gpt-6-astra"
 pin = "pinned"
@@ -83,12 +91,16 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
-["openai/gpt-image-2.5-flare"]
-model = "openai/gpt-image-2.5-flare"
+["openai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
-["openai/gpt-image-2.5-sunburst"]
-model = "openai/gpt-image-2.5-sunburst"
+["openai/gpt-image-2.6-flare"]
+model = "openai/gpt-image-2.6-flare"
+pin = "pinned"
+
+["openai/gpt-image-2.6-sunburst"]
+model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
 ["qwen/qwen3.8-27b"]

@@ -2071,6 +2071,10 @@ pin = "pinned"
 model = "tencent/hy-mt2-7b"
 pin = "pinned"
 
+["tencent/hy-world-2.1-panorama"]
+model = "tencent/hy-world-2.1-panorama"
+pin = "pinned"
+
 ["tencent/hy3"]
 model = "tencent/hy3"
 pin = "pinned"

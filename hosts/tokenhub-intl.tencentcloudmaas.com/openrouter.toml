@@ -21,6 +21,10 @@ model = "tencent/hy-mt2-30b-a3b"
 pin = "pinned"
 quant = "fp8"
 
+["hy-world2-panorama"]
+model = "tencent/hy-world-2.1-panorama"
+pin = "pinned"
+
 ["hy3"]
 model = "tencent/hy3"
 pin = "pinned"

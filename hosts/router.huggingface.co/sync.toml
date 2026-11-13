@@ -119,6 +119,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
+["XiaomiMiMo/MiMo-V2.5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+
 ["XiaomiMiMo/MiMo-V2.5-Pro"]
 model = "xiaomi/mimo-v2.5-pro"
 pin = "pinned"
@@ -309,6 +313,14 @@ pin = "pinned"
 
 ["reflection/Beam-1.0-501B-A23B"]
 model = "reflection/beam-1.0-501b-a23b"
+pin = "pinned"
+
+["stepfun-ai/Step-3.5-Flash"]
+model = "stepfun/step-3.5-flash"
+pin = "pinned"
+
+["stepfun-ai/Step-3.7-Flash"]
+model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["tencent/Hy3"]
