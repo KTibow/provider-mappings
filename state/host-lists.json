@@ -63,6 +63,7 @@
  "api.lucidquery.com": "https://api.lucidquery.com/v1/models",
  "api.mallardai.co.uk": "https://api.mallardai.co.uk/v1/models",
  "api.meganova.ai": "https://api.meganova.ai/v1/models",
+ "api.modular.com": "https://api.modular.com/models",
  "api.moneo.one": "https://api.moneo.one/v1/models",
  "api.mor.org": "https://api.mor.org/api/v1/models",
  "api.mordiem.com": "https://mordiem.com/api/models",
@@ -84,6 +85,7 @@
  "api.regolo.ai": "https://api.regolo.ai/v1/models",
  "api.runcrate.ai": "https://api.runcrate.ai/v1/models",
  "api.sambanova.ai": "https://api.sambanova.ai/v1/models",
+ "api.sandbase.ai": "https://api.sandbase.ai/api/models",
  "api.sarvam.ai": "https://api.sarvam.ai/v2/models",
  "api.sparrowcodes.com": "https://api.sparrowcodes.com/v1/models",
  "api.stdcmpt.com": "https://api.stdcmpt.com/v1/models",
@@ -104,6 +106,7 @@
  "api.zerogpu.ai": "https://api.zerogpu.ai/v1/models",
  "apihub.agnes-ai.com": "https://apihub.agnes-ai.com/v1/models",
  "cc.freemodel.dev": "https://cc.freemodel.dev/v1/models",
+ "chat.ionstream.ai": "https://chat.ionstream.ai/models",
  "cheapllm.shop": "https://cheapllm.shop/v1/models",
  "cloud-api.near.ai": "https://cloud-api.near.ai/v1/models",
  "coding-intl.dashscope.aliyuncs.com": "https://coding-intl.dashscope.aliyuncs.com/v1/models",
@@ -113,6 +116,7 @@
  "gateway.dothoosh.com": "https://gateway.dothoosh.com/v1/models",
  "gisoo.pro": "https://gisoo.pro/api/v1/models",
  "go.fastrouter.ai": "https://go.fastrouter.ai/v1/models",
+ "gw.capminal.ai": "https://gw.capminal.ai/api/public/models",
  "hyper.charm.land": "https://hyper.charm.land/v1/models",
  "inference.coralbricks.ai": "https://inference.coralbricks.ai/v1/models",
  "inference.oyenza.com": "https://inference.oyenza.com/v1/models",
@@ -149,5 +153,6 @@
  "us.pass.wafer.ai": "https://us.pass.wafer.ai/v1/models",
  "void-api.tech": "https://void-api.tech/v1/models",
  "www.xpersona.co": "https://www.xpersona.co/v1/models",
- "zenmux.ai": "https://zenmux.ai/api/v1/models"
+ "zenmux.ai": "https://zenmux.ai/api/v1/models",
+ "zro.moonmath.ai": "https://zro.moonmath.ai/models"
 }

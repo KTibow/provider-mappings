@@ -951,6 +951,12 @@
     "go.fastrouter.ai": [
       "x-ai/grok-4"
     ],
+    "gw.capminal.ai": [
+      "gpt-5.6-luna-pro",
+      "gpt-5.6-sol-pro",
+      "gpt-5.6-terra-pro",
+      "openrouter/mimo-v2.5"
+    ],
     "integrate.api.nvidia.com": [
       "google/diffusiongemma-26b-a4b-it",
       "meta/llama-3.2-11b-vision-instruct",
@@ -1351,6 +1357,9 @@
       "xiaomi/mimo-v2.5",
       "xiaomi/mimo-v2.5-pro",
       "z-ai/glm-image"
+    ],
+    "zro.moonmath.ai": [
+      "glm-5.3-flash"
     ]
   },
   "unmapped": {
@@ -3653,6 +3662,9 @@
       "munito/ocr-auto",
       "munito/ocr-fast"
     ],
+    "api.experientiallabs.ai": [
+      "glm-5.3-flash-uncensored"
+    ],
     "api.fastino.ai": [
       "fastino/Fastino-Nemotron-3.5-Lightning-Finance",
       "fastino/Fastino-Nemotron-3.5-Lightning-Healthcare",
@@ -5475,6 +5487,13 @@
       "minimax/hailuo-02",
       "openai/gpt-oss-120b-Ultra"
     ],
+    "api.sandbase.ai": [
+      "alibaba/text-embedding-v4",
+      "anthropic/claude-fable-5.5",
+      "bytedance/seed-2.1-pro",
+      "deepseek/deepseek-v4.1-flash-economy",
+      "z-ai/glm-5.5"
+    ],
     "api.sarvam.ai": [
       "deepseekv4.1-flash-1017-interactive",
       "embeddinggemma-2",
@@ -6450,6 +6469,9 @@
       "google.gemma-4-31b",
       "google.gemma-4-e2b"
     ],
+    "chat.ionstream.ai": [
+      "deepseek-ai/deepseek-v4.1-flash-1017-flex"
+    ],
     "cloud-api.near.ai": [
       "Qwen/Qwen3-Embedding-0.6B",
       "Qwen/Qwen3.8-27B-abliterated",
@@ -6590,6 +6612,9 @@
       "z-ai/glm-5.3-flash-abliterated",
       "z-ai/glm-image",
       "z-image/base"
+    ],
+    "gw.capminal.ai": [
+      "oc-uncensored-1.0"
     ],
     "hyper.charm.land": [
       "deepseek-v4.1-flash-1017-economy",

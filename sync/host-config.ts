@@ -92,6 +92,19 @@ const config: Record<string, HostConfig> = {
   // "Seedance 2.0 I2V"; "seedance-2.0-t2v" is text-to-video).
   'api.uncensored.com': { models: 'https://api.uncensored.com/api/v1/models?type=all', operation: specOperation },
   'api.usedot.xyz': { models: 'https://api.usedot.xyz/agent/v1/models' },
+  // Capminal: /v1 is deprecated in favour of /api/public (Capminal, 2026-11).
+  'gw.capminal.ai': { models: 'https://gw.capminal.ai/api/public/models' },
+  'api.modular.com': { models: 'https://api.modular.com/models' },
+  'chat.ionstream.ai': { models: 'https://chat.ionstream.ai/models' },
+  'zro.moonmath.ai': { models: 'https://zro.moonmath.ai/models' },
+  // A catalog of everything Sandbase runs: `id` is a UUID and `name` the model
+  // id to send. Only chat and embedding models: most entries are scraping tools
+  // ("tiktok/ads/…"), and media ids put tiers mid-path ("google/veo3.1/fast/text-to-video").
+  'api.sandbase.ai': {
+    models: 'https://api.sandbase.ai/api/models',
+    list: (r) => defaults.list(r).map((m) => ({ ...m, id: m.name })),
+    include: (m) => m.type === 'llm' || m.type === 'embedding',
+  },
 }
 
 export default config

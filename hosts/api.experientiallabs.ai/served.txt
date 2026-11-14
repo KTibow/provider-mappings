@@ -3,4 +3,5 @@
 # entry in a /models list; the rows land in sync.toml. Remove an id the host
 # no longer serves; put a mapping the sync gets wrong in manual.toml.
 deepseek-v4.1-flash-uncensored
+glm-5.3-flash-uncensored
 glm-5.3-uncensored
