@@ -4900,6 +4900,7 @@
       "Qwen3 VL 235B",
       "Qwen3 VL 30B A3B",
       "Venice Role Play Uncensored",
+      "Vireonix Auto",
       "clause-opus-4.8:web",
       "hermes-4-14b",
       "qwen3-coder:30b:tee",
@@ -6398,6 +6399,7 @@
       "kling-v4-reference-to-video",
       "kling-v4-text-to-video",
       "krea-3-edit",
+      "llama-3.2-3b",
       "ltx-2-5-fast-image-to-video",
       "ltx-2-5-fast-text-to-video",
       "ltx-2-5-pro-image-to-video",
@@ -6410,10 +6412,12 @@
       "minimax-h3-max-turbo-text-to-video",
       "openai-gpt-61-sol-ultrafast",
       "pareto",
+      "qwen-3-6-plus",
       "qwen-image-2-1-pro-edit",
       "qwen-image-2-1-turbo-edit",
       "qwen-image-3-edit",
       "qwen-image-3-pro-edit",
+      "qwen3-coder-480b-a35b-instruct-turbo",
       "seedance-2-5-edit-video-basic",
       "seedance-2-5-flash-edit-video-basic",
       "seedance-2-5-flash-image-to-video-basic",
@@ -6426,10 +6430,12 @@
       "text-embedding-qwen3-0-6b",
       "tts-gradium-v1",
       "upscaler",
+      "venice-uncensored-1-2",
       "wan-2-2-enhanced-image-to-video",
       "wan-2-7-enhanced-image-to-video",
       "wan-2-7-enhanced-text-to-video",
-      "wan-2-7-video-to-video"
+      "wan-2-7-video-to-video",
+      "z-ai-glm-5-turbo"
     ],
     "api.vultrinference.com": [
       "auk",
@@ -6463,6 +6469,14 @@
       "agnes-image-2.5-flash",
       "agnes-video-2.5",
       "agnes-video-2.5-flash"
+    ],
+    "ark.ap-southeast.bytepluses.com": [
+      "deepseek-v4-1-flash-261017",
+      "deepseek-v4-flash-260425",
+      "deepseek-v4-flash-ga-260731",
+      "deepseek-v4-pro-260425",
+      "deepseek-v4-pro-ga-260813",
+      "glm-5-2-260617"
     ],
     "bedrock-mantle.{region}.api.aws": [
       "google.gemma-4-26b-a4b",

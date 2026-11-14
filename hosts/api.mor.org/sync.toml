@@ -671,6 +671,10 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.1-24b-instruct:web"
 pin = "pinned"
 
+["moonshotai/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
 ["qwen3-235b:web"]
 model = "qwen/qwen3-235b-a22b-2507:web"
 pin = "pinned"
