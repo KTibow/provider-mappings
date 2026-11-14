@@ -171,10 +171,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-pro"
 pin = "pinned"
 
-["auto/deepseek/deepseek-r1"]
-model = "deepseek/deepseek-r1"
-pin = "pinned"
-
 ["auto/deepseek/deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
@@ -881,10 +877,6 @@ pin = "pinned"
 
 ["aws-bedrock/anthropic/claude-sonnet-5.5"]
 model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
-["aws-bedrock/deepseek/deepseek-r1"]
-model = "deepseek/deepseek-r1"
 pin = "pinned"
 
 ["aws-bedrock/deepseek/deepseek-v3"]

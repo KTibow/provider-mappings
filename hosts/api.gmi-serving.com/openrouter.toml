@@ -30,7 +30,7 @@ quant = "fp8"
 ["Qwen/Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
-quant = "bf16"
+quant = "fp8"
 
 ["XiaomiMiMo/MiMo-V2.6-Flash"]
 model = "xiaomi/mimo-v2.6-flash"

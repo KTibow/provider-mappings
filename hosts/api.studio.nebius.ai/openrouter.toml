@@ -96,3 +96,13 @@ quant = "fp4"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp4"
+
+# ---------------------------------------------------------------------------
+# Rows below need a person to check them, so they are commented out.
+# Once verified, copy the row (uncommented) into manual.toml.
+
+# needs review: model id is OpenRouter-only (nebius/fp4)
+# ["moonshotai/Kimi-K3-openrouter"]
+# model = "moonshotai/kimi-k3"
+# pin = "pinned"
+# quant = "fp4"

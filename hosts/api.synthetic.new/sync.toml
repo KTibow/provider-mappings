@@ -13,11 +13,6 @@ model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 quant = "fp8"
 
-["hf:moonshotai/Kimi-K3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-quant = "mxfp4"
-
 ["hf:moonshotai/Kimi-K3.1-Pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

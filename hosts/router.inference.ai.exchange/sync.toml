@@ -103,10 +103,6 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
-["claude-opus-4-5-20251101"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
 ["claude-opus-4-5:thinking"]
 model = "anthropic/claude-opus-4.5:thinking"
 pin = "pinned"
@@ -1123,6 +1119,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["mistral-large-4.0"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1709,10 +1709,6 @@ pin = "pinned"
 
 ["solar-pro4:thinking"]
 model = "upstage/solar-pro4:thinking"
-pin = "pinned"
-
-["sonar-pro"]
-model = "perplexity/sonar-pro"
 pin = "pinned"
 
 ["stable-diffusion-3.5-large"]

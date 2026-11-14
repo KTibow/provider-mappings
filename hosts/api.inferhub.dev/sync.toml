@@ -991,6 +991,18 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["kiro/minimax-m2.1"]
+model = "minimax/minimax-m2.1"
+pin = "pinned"
+
+["kiro/minimax-m2.5"]
+model = "minimax/minimax-m2.5"
+pin = "pinned"
+
+["kiro/qwen3-coder-next"]
+model = "qwen/qwen3-coder-next"
+pin = "pinned"
+
 ["kling-video-o-1"]
 model = "kwaivgi/kling-video-o1"
 pin = "pinned"
@@ -1137,6 +1149,14 @@ pin = "pinned"
 
 ["mm/MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
+["mmcn/MiniMax-H3-Image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
+["mmcn/MiniMax-H3-Image-Highspeed"]
+model = "minimax/minimax-h3-image-highspeed"
 pin = "pinned"
 
 ["mmcn/MiniMax-M2"]

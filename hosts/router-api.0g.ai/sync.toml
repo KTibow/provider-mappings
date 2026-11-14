@@ -155,18 +155,6 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
-["glm-4.5"]
-model = "z-ai/glm-4.5"
-pin = "pinned"
-
-["glm-4.5-air"]
-model = "z-ai/glm-4.5-air"
-pin = "pinned"
-
-["glm-4.7"]
-model = "z-ai/glm-4.7"
-pin = "pinned"
-
 ["glm-5"]
 model = "z-ai/glm-5"
 pin = "pinned"

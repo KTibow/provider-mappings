@@ -5667,6 +5667,16 @@
   ],
   "permaslug": "recraft/recraft-v4.1-flash-20260923"
  },
+ "recraft/recraft-v4.1-flash-v2": {
+  "input": [
+   "text"
+  ],
+  "name": "Recraft: Recraft V4.1 Flash V2",
+  "output": [
+   "image"
+  ],
+  "permaslug": "recraft/recraft-v4.1-flash-v2-20261113"
+ },
  "recraft/recraft-v4.1-pro": {
   "input": [
    "image",

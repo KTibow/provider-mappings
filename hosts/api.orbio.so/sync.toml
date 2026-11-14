@@ -1579,6 +1579,10 @@ pin = "pinned"
 model = "openai/whisper-large-v3-turbo"
 pin = "pinned"
 
+["parallel/decisions-fast"]
+model = "parallel/decisions-fast"
+pin = "pinned"
+
 ["particle-ai/particle-1"]
 model = "particle-ai/particle-1"
 pin = "pinned"
@@ -1885,6 +1889,10 @@ pin = "pinned"
 
 ["recraft/recraft-v4.1-flash"]
 model = "recraft/recraft-v4.1-flash"
+pin = "pinned"
+
+["recraft/recraft-v4.1-flash-v2"]
+model = "recraft/recraft-v4.1-flash-v2"
 pin = "pinned"
 
 ["recraft/recraft-v4.1-pro"]

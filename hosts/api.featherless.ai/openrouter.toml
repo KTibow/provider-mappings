@@ -6,3 +6,7 @@
 model = "stepfun/step-5-preview"
 pin = "pinned"
 quant = "fp4"
+
+["zai-org/GLM-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
