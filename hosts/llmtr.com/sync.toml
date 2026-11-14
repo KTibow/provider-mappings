@@ -275,10 +275,6 @@ pin = "pinned"
 model = "inception/mercury-2"
 pin = "pinned"
 
-["inception/mercury-2.5-preview"]
-model = "inception/mercury-2.5-preview"
-pin = "pinned"
-
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"
@@ -361,6 +357,14 @@ pin = "pinned"
 
 ["mimo/mimo-v2.6-pro-ultraspeed"]
 model = "xiaomi/mimo-v2.6-pro-ultraspeed"
+pin = "pinned"
+
+["minimax/minimax-h3-image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
+["minimax/minimax-h3-image-highspeed"]
+model = "minimax/minimax-h3-image-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m2.5"]

@@ -1979,6 +1979,18 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["vertex/google/gemini-2.5-flash"]
+model = "google/gemini-2.5-flash"
+pin = "pinned"
+
+["vertex/google/gemini-2.5-flash-lite"]
+model = "google/gemini-2.5-flash-lite"
+pin = "pinned"
+
+["vertex/google/gemini-2.5-pro"]
+model = "google/gemini-2.5-pro"
+pin = "pinned"
+
 ["vertex/google/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"

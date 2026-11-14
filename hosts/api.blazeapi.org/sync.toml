@@ -3,8 +3,103 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["Cosmos Predict (image-to-video)"]
+model = "nvidia/cosmos-predict"
+pin = "pinned"
+quant = "fp16"
+
+["HappyHorse 1.0 Text-to-Video"]
+model = "alibaba/happyhorse-1.0"
+pin = "pinned"
+quant = "fp16"
+
+["Happyhorse 1.0 (image-to-video)"]
+model = "alibaba/happyhorse-1.0"
+pin = "pinned"
+quant = "fp16"
+
+["Happyhorse 1.0 (reference-to-video)"]
+model = "alibaba/happyhorse-1.0"
+pin = "pinned"
+quant = "fp16"
+
+["Happyhorse 1.1 (image-to-video)"]
+model = "alibaba/happyhorse-1.1"
+pin = "pinned"
+quant = "fp16"
+
+["Happyhorse 1.1 (reference-to-video)"]
+model = "alibaba/happyhorse-1.1"
+pin = "pinned"
+quant = "fp16"
+
 ["Kling 2.6 Pro (image-to-video)"]
 model = "kwaivgi/kling-2.6-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Kling 2.6 Pro Text-to-Video"]
+model = "kwaivgi/kling-2.6-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Kling O3 Pro Text-to-Video"]
+model = "kwaivgi/kling-o3-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Kling O3 Standard (image-to-video)"]
+model = "kwaivgi/kling-o3-std"
+pin = "pinned"
+quant = "fp16"
+
+["Kling O3 Standard (reference-to-video)"]
+model = "kwaivgi/kling-o3-std"
+pin = "pinned"
+quant = "fp16"
+
+["Kling O3 Standard Text-to-Video"]
+model = "kwaivgi/kling-o3-std"
+pin = "pinned"
+quant = "fp16"
+
+["Kling O3.4k (image-to-video)"]
+model = "kwaivgi/kling-o3-4k"
+pin = "pinned"
+quant = "fp16"
+
+["Kling O3.4k (reference-to-video)"]
+model = "kwaivgi/kling-o3-4k"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 4K Text-to-Video"]
+model = "kwaivgi/kling-v3.0-4k"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 Pro (image-to-video)"]
+model = "kwaivgi/kling-v3.0-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 Pro Text-to-Video"]
+model = "kwaivgi/kling-v3.0-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 Standard (image-to-video)"]
+model = "kwaivgi/kling-v3.0-std"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 Standard Text-to-Video"]
+model = "kwaivgi/kling-v3.0-std"
+pin = "pinned"
+quant = "fp16"
+
+["Kling V3 Turbo Pro (image-to-video)"]
+model = "kwaivgi/kling-v3.0-turbo-pro"
 pin = "pinned"
 quant = "fp16"
 
@@ -13,7 +108,77 @@ model = "kwaivgi/kling-v3.0-turbo-std"
 pin = "pinned"
 quant = "fp16"
 
+["Kling V3.4k (reference-to-video)"]
+model = "kwaivgi/kling-v3.0-4k"
+pin = "pinned"
+quant = "fp16"
+
+["LTX 2 19B Full Text-to-Video"]
+model = "lightricks/ltx-2-19b"
+pin = "pinned"
+quant = "fp16"
+
+["LTX 2 Fast Text-to-Video"]
+model = "lightricks/ltx-2-fast"
+pin = "pinned"
+quant = "fp16"
+
+["LTX 2 Full Text-to-Video"]
+model = "lightricks/ltx-2"
+pin = "pinned"
+quant = "fp16"
+
+["LTX 2 v2.3 Fast Text-to-Video"]
+model = "lightricks/ltx-2.3-fast"
+pin = "pinned"
+quant = "fp16"
+
+["LTX 2 v2.3 Full Text-to-Video"]
+model = "lightricks/ltx-2.3"
+pin = "pinned"
+quant = "fp16"
+
+["Longcat Distilled (image-to-video)"]
+model = "meituan/longcat-video-distilled"
+pin = "pinned"
+quant = "fp16"
+
+["Ltx 2 V2.3 Fast (image-to-video)"]
+model = "lightricks/ltx-2.3-fast"
+pin = "pinned"
+quant = "fp16"
+
+["Ltx 2 V2.3 Full (image-to-video)"]
+model = "lightricks/ltx-2.3"
+pin = "pinned"
+quant = "fp16"
+
+["PixVerse V5.6 Text-to-Video"]
+model = "pixverse/pixverse-v5.6"
+pin = "pinned"
+quant = "fp16"
+
+["Pixverse C1 (reference-to-video)"]
+model = "pixverse/pixverse-c1"
+pin = "pinned"
+quant = "fp16"
+
+["Pixverse V5.6 (image-to-video)"]
+model = "pixverse/pixverse-v5.6"
+pin = "pinned"
+quant = "fp16"
+
+["Seedance 1.5 Pro Text-to-Video"]
+model = "bytedance/seedance-1.5-pro"
+pin = "pinned"
+quant = "fp16"
+
 ["Seedance 2.0 (image-to-video)"]
+model = "bytedance/seedance-2.0"
+pin = "pinned"
+quant = "fp16"
+
+["Seedance 2.0 (reference-to-video)"]
 model = "bytedance/seedance-2.0"
 pin = "pinned"
 quant = "fp16"
@@ -23,8 +188,73 @@ model = "bytedance/seedance-2.0-fast"
 pin = "pinned"
 quant = "fp16"
 
+["Seedance 2.0 Fast (reference-to-video)"]
+model = "bytedance/seedance-2.0-fast"
+pin = "pinned"
+quant = "fp16"
+
+["Seedance 2.0 Mini (reference-to-video)"]
+model = "bytedance/seedance-2.0-mini"
+pin = "pinned"
+quant = "fp16"
+
+["Seedance 2.0 Text-to-Video"]
+model = "bytedance/seedance-2.0"
+pin = "pinned"
+quant = "fp16"
+
+["Sora 2 (image-to-video)"]
+model = "openai/sora-2"
+pin = "pinned"
+quant = "fp16"
+
+["Sora 2 Pro (image-to-video)"]
+model = "openai/sora-2-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Veo 3.1 Fast Text-to-Video"]
+model = "google/veo-3.1-fast"
+pin = "pinned"
+quant = "fp16"
+
+["Veo 3.1 Full Text-to-Video"]
+model = "google/veo-3.1"
+pin = "pinned"
+quant = "fp16"
+
 ["Veo3.1 Fast (image-to-video)"]
 model = "google/veo-3.1-fast"
+pin = "pinned"
+quant = "fp16"
+
+["Vidu Q3 Text-to-Video"]
+model = "vidu/vidu-q3-text-to-video"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.1 Pro Image-to-Video"]
+model = "alibaba/wan-2.1-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.2 A14B Text-to-Video"]
+model = "alibaba/wan-2.2-a14b"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.5 Preview (image-to-video)"]
+model = "alibaba/wan-2.5-preview"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.5 Preview Text-to-Video"]
+model = "alibaba/wan-2.5-preview"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.6 (image-to-video)"]
+model = "alibaba/wan-2.6"
 pin = "pinned"
 quant = "fp16"
 
@@ -33,7 +263,27 @@ model = "alibaba/wan-2.6-flash"
 pin = "pinned"
 quant = "fp16"
 
+["Wan 2.6 Text-to-Video"]
+model = "alibaba/wan-2.6"
+pin = "pinned"
+quant = "fp16"
+
 ["Wan 2.7 (image-to-video)"]
+model = "alibaba/wan-2.7"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.7 (reference-to-video)"]
+model = "alibaba/wan-2.7"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.7 Pro (image-to-video)"]
+model = "alibaba/wan-2.7-pro"
+pin = "pinned"
+quant = "fp16"
+
+["Wan 2.7 Text-to-Video"]
 model = "alibaba/wan-2.7"
 pin = "pinned"
 quant = "fp16"
@@ -800,11 +1050,6 @@ quant = "fp16"
 
 ["qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
-pin = "pinned"
-quant = "fp16"
-
-["seedream-4.5"]
-model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
 quant = "fp16"
 

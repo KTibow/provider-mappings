@@ -11,8 +11,8 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["perplexity-ai/pplx-decider-v1.2"]
-model = "perplexity/pplx-decider-v1.2"
+["perplexity-ai/pplx-decider-v1.3"]
+model = "perplexity/pplx-decider-v1.3"
 pin = "pinned"
 
 ["qwen/qwen3.8-27b"]
