@@ -83,8 +83,6 @@ const config: Record<string, HostConfig> = {
   // display-name ids ("Claude Opus 4.7") and ":web" (web search) variants.
   'api.mor.org': { models: 'https://api.mor.org/api/v1/models', mirrors: 'api.venice.ai' },
   'api.orbio.so': { models: 'https://api.orbio.so/api/v1/models' },
-  // Neither models.dev nor OpenRouter knows it (formerly jatevo.ai, see host-aliases.toml).
-  'inference.oyenza.com': { models: 'https://inference.oyenza.com/v1/models' },
   // Ids like "gemma4"; display_name says which one ("Gemma 4 31B").
   'api.sarvam.ai': { models: 'https://api.sarvam.ai/v2/models', hints: (m) => [m.display_name as string] },
   // type=all adds image and video models to the default text list.
