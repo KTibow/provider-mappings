@@ -67,6 +67,7 @@ test('tier words block heuristic folding', () => {
   assert.equal(tierMismatch('e2ee-gpt-oss-120b-p', 'openai-gpt-oss-120b'), 'e2ee')
   assert.equal(tierMismatch('glm-5v-turbo', 'glm-5v-turbo'), undefined)
   assert.equal(tierMismatch('deepseek-v4-1-flash-economy-261017', 'deepseek/deepseek-v4.1-flash-1017'), 'economy')
+  assert.equal(tierMismatch('infer/claude-opus-5-5:low-cost', 'anthropic/claude-opus-5.5'), 'cost')
 })
 
 test('pin guess', () => {

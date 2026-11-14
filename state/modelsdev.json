@@ -827,6 +827,16 @@
       "prism-core",
       "prism-flash"
     ],
+    "infer.flow7.org": [
+      "infer/claude-fable-5-1:low-cost",
+      "infer/claude-opus-5-5:low-cost",
+      "infer/claude-sonnet-5-5:low-cost",
+      "infer/gemini-3.1-pro-preview:low-cost",
+      "infer/gemini-3.8-flash:low-cost",
+      "infer/gpt-6-astra:low-cost",
+      "infer/gpt-6.1-sol:low-cost",
+      "infer/grok-4.7:low-cost"
+    ],
     "inference.baseten.co": [
       "deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast",
       "deepseek-ai/DeepSeek-V4.1-Flash-Fast",

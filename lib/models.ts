@@ -513,12 +513,13 @@ export async function loadRegistry(): Promise<{ reg: Registry; models: OrModel[]
  * "web" (a host's web-search variant, "glm-4.7:web") is a different product, and
  * so are "lightning" (MiniMax's highspeed tier), "flashx" (Z.ai's faster Flash),
  * "ultra", "spot" and "economy" (serving tiers; Volcengine and BytePlus sell
- * "deepseek-v4-1-flash-economy-261017" beside the plain id) and "contributor" (Meta's Muse Spark
+ * "deepseek-v4-1-flash-economy-261017" beside the plain id), "cost" (flow7's
+ * "…:low-cost" routes, a tenth of its "…:official" price) and "contributor" (Meta's Muse Spark
  * builds, which OpenRouter lists separately).
  * "free" is not one: like OpenRouter's ":free", it is a pricing variant of the
  * same model.
  */
-const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'economy', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web'])
+const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'economy', 'cost', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web'])
 const words = (s: string) => new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))
 
 export function tierMismatch(nativeId: string, canonical: string): string | undefined {

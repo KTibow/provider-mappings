@@ -2,42 +2,10 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["infer/claude-fable-5-1:low-cost"]
-model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["infer/claude-opus-5-5:low-cost"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["infer/claude-sonnet-5-5:low-cost"]
-model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
-["infer/gemini-3.1-pro-preview:low-cost"]
-model = "google/gemini-3.1-pro-preview"
-pin = "pinned"
-
-["infer/gemini-3.8-flash:low-cost"]
-model = "google/gemini-3.8-flash"
-pin = "pinned"
-
 ["infer/gpt-5.6-sol:official"]
 model = "openai/gpt-5.6-sol"
 pin = "pinned"
 
-["infer/gpt-6-astra:low-cost"]
-model = "openai/gpt-6-astra"
-pin = "pinned"
-
 ["infer/gpt-6-astra:official"]
 model = "openai/gpt-6-astra"
-pin = "pinned"
-
-["infer/gpt-6.1-sol:low-cost"]
-model = "openai/gpt-6.1-sol"
-pin = "pinned"
-
-["infer/grok-4.7:low-cost"]
-model = "x-ai/grok-4.7"
 pin = "pinned"
