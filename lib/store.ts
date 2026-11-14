@@ -155,6 +155,13 @@ export function undatedAlias(nativeId: string, model: string): boolean {
 }
 
 /**
+ * An id specific enough to mean the same model on every host. A short
+ * digit-free word ("flux": Deepgram's speech model, phase's ClarityAI image
+ * editor) names different models on different hosts.
+ */
+const specificId = (id: string) => (/\d/.test(id) ? id.length >= 4 : id.length >= 8)
+
+/**
  * Native ids people or OpenRouter already mapped on any host are strong
  * evidence for the same id elsewhere. Only these two sources, so one heuristic
  * match can never vouch for the next.
@@ -162,7 +169,7 @@ export function undatedAlias(nativeId: string, model: string): boolean {
 export function addRowEvidence(matcher: Matcher, files: HostFiles) {
   for (const byHost of files.values()) {
     for (const src of ['manual', 'openrouter'] as const)
-      for (const [id, r] of byHost.get(src)?.rows ?? []) if (r.pin === 'pinned' && id.length >= 4 && !undatedAlias(id, r.model)) matcher.addExact(id, r.model)
+      for (const [id, r] of byHost.get(src)?.rows ?? []) if (r.pin === 'pinned' && specificId(id) && !undatedAlias(id, r.model)) matcher.addExact(id, r.model)
     // Model ids people or OpenRouter use are known model ids. Not ids from sync or
     // models.dev rows: a wrong id there would otherwise vouch for itself next run.
     for (const src of ['manual', 'openrouter'] as const) for (const r of byHost.get(src)?.rows.values() ?? []) matcher.add(r.model, r.model)

@@ -414,6 +414,13 @@ name = "ByteDance Seed: Seed-2.0-Code"
 ["bytedance-seed/seed-2.0-pro"]
 name = "ByteDance Seed: Seed-2.0-Pro"
 
+# Seedream 4.0 (OpenRouter lists 4.5 on). tokenlab's "seedream-v4" gives
+# "seedream-4.0" and "seedream-4-0" as its aliases; phase's "seedream-4" is
+# "Seedream 4". Venice's "seedream-v4" is 4.5 (its manual.toml).
+["bytedance-seed/seedream-4.0"]
+name = "ByteDance Seed: Seedream 4.0"
+aliases = ["seedream-4", "seedream-v4"]
+
 ["bytedance-seed/seedream-4.5"]
 surplus_legacy = ["venice-seedream-v4"]
 

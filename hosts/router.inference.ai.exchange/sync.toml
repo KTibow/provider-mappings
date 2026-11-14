@@ -1311,6 +1311,10 @@ pin = "pinned"
 model = "openai/o3"
 pin = "pinned"
 
+["o3-2025-04-16"]
+model = "openai/o3"
+pin = "pinned"
+
 ["o3-mini"]
 model = "openai/o3-mini"
 pin = "pinned"
@@ -1687,6 +1691,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["seedream-4-0"]
+model = "bytedance-seed/seedream-4.0"
+pin = "pinned"
+
 ["seedream-4.5"]
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
@@ -1757,10 +1765,6 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
-pin = "pinned"
-
-["veo3.1"]
-model = "google/veo-3.1"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

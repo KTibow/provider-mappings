@@ -112,7 +112,7 @@
  "gate.joingonka.ai": "https://gate.joingonka.ai/v1/models",
  "gateway.dothoosh.com": "https://gateway.dothoosh.com/v1/models",
  "gisoo.pro": "https://gisoo.pro/api/v1/models",
- "go.fastrouter.ai": "https://go.fastrouter.ai/api/v1/models",
+ "go.fastrouter.ai": "https://go.fastrouter.ai/v1/models",
  "hyper.charm.land": "https://hyper.charm.land/v1/models",
  "inference.coralbricks.ai": "https://inference.coralbricks.ai/v1/models",
  "inference.oyenza.com": "https://inference.oyenza.com/v1/models",

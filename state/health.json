@@ -1,4 +1,8 @@
 {
+ "api.empiriolabs.ai": {
+  "error": "fetch failed",
+  "failing_since": "2026-11-14"
+ },
  "api.featherless.ai": {
   "error": "list shrank to 50 entries (had 198 mapped rows)",
   "failing_since": "2026-11-14"

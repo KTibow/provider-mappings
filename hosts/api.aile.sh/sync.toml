@@ -1143,6 +1143,10 @@ pin = "pinned"
 model = "bytedance-seed/seed-2-1-turbo"
 pin = "pinned"
 
+["vercel-ai-gateway/bytedance/seedream-4.0"]
+model = "bytedance-seed/seedream-4.0"
+pin = "pinned"
+
 ["vercel-ai-gateway/bytedance/seedream-4.5"]
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"

@@ -23,6 +23,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.0"
 pin = "pinned"
 
+["ByteDance/Seedream-4"]
+model = "bytedance-seed/seedream-4.0"
+pin = "pinned"
+
 ["Lightricks/LTX-2.3-Fast"]
 model = "lightricks/ltx-2.3-fast"
 pin = "pinned"

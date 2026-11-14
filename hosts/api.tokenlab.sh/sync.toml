@@ -696,7 +696,7 @@ model = "bytedance-seed/seedream-5-0-pro"
 pin = "pinned"
 
 ["seedream-v4"]
-model = "bytedance-seed/seedream-4.5"
+model = "bytedance-seed/seedream-4.0"
 pin = "pinned"
 
 ["solar-pro4"]

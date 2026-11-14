@@ -54,11 +54,12 @@ export function variantRoot(id: string): string {
 /**
  * The operation a media host's native id names, when it is not the model's
  * default: "seedance-2-0-image-to-video-basic" -> "image-to-video",
- * "gpt-image-2/edit" -> "edit". Text-to-video ("-text-to-video", "-t2v") and
+ * "gpt-image-2/edit" -> "edit"; also after a space or in parentheses, as in
+ * blazeapi's display-name ids ("Wan 2.7 (image-to-video)"). Text-to-video ("-text-to-video", "-t2v") and
  * image generation are the model itself (undefined).
  */
 export function operationOf(nativeId: string): string | undefined {
-  const m = nativeId.trim().match(/[-/]((?:image|reference|enhanced-reference)-to-video|i2v|r2v|transition|edit)(?:-(?:basic|private))?$/i)
+  const m = nativeId.trim().match(/[-/\s(]((?:image|reference|enhanced-reference)-to-video|i2v|r2v|transition|edit)(?:-(?:basic|private))?\)?$/i)
   if (!m) return undefined
   const op = m[1]!.toLowerCase()
   return op === 'i2v' ? 'image-to-video' : op === 'r2v' ? 'reference-to-video' : op
@@ -408,7 +409,7 @@ export function undecorate(id: string): string {
     .replace(/@[a-z][a-z0-9-]*$/i, '')
     .replace(/-v?\d+:\d+$/, '')
     .replace(/-maas$/i, '')
-    .replace(/[-/](?:(?:text|image|reference|enhanced-reference)-to-video|t2v|i2v|r2v|text-to-audio)(?:-(?:basic|private))?$/i, '')
+    .replace(/\s*[-/\s(](?:(?:text|image|reference|enhanced-reference)-to-video|t2v|i2v|r2v|text-to-audio)(?:-(?:basic|private))?\)?$/i, '')
 }
 
 export type MatchVia = 'explicit' | 'exact' | 'normalized'
@@ -511,12 +512,13 @@ export async function loadRegistry(): Promise<{ reg: Registry; models: OrModel[]
  * "-uncensored", "-heretic"): models.dev links some of them to their base model.
  * "web" (a host's web-search variant, "glm-4.7:web") is a different product, and
  * so are "lightning" (MiniMax's highspeed tier), "flashx" (Z.ai's faster Flash),
- * "ultra" and "spot" (serving tiers) and "contributor" (Meta's Muse Spark
+ * "ultra", "spot" and "economy" (serving tiers; Volcengine and BytePlus sell
+ * "deepseek-v4-1-flash-economy-261017" beside the plain id) and "contributor" (Meta's Muse Spark
  * builds, which OpenRouter lists separately).
  * "free" is not one: like OpenRouter's ":free", it is a pricing variant of the
  * same model.
  */
-const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web'])
+const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'economy', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web'])
 const words = (s: string) => new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))
 
 export function tierMismatch(nativeId: string, canonical: string): string | undefined {

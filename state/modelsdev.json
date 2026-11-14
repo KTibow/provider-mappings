@@ -107,7 +107,6 @@
       "bfl/flux-pro-1.1-ultra",
       "bytedance/seedance-v1.0-pro",
       "bytedance/seedance-v1.0-pro-fast",
-      "bytedance/seedream-4.0",
       "callstack/apex",
       "cohere/rerank-v5-fast",
       "cohere/rerank-v5-pro",
@@ -727,6 +726,12 @@
       "agnes-2.5-flash",
       "agnes-2.5-pro-alpha",
       "agnes-3.0-flash"
+    ],
+    "ark.ap-southeast.bytepluses.com": [
+      "deepseek-v4-1-flash-economy-261017"
+    ],
+    "ark.cn-beijing.volces.com": [
+      "deepseek-v4.1-flash-economy"
     ],
     "cloud-api.near.ai": [
       "Qwen/Qwen3.8-27B-abliterated",

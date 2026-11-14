@@ -10,10 +10,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["deepseek-v4-1-flash-economy-261017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
 ["deepseek-v4-flash-260425"]
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"

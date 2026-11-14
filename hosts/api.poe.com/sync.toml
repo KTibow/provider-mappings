@@ -447,6 +447,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.0-mini"
 pin = "pinned"
 
+["seedream-4.0"]
+model = "bytedance-seed/seedream-4.0"
+pin = "pinned"
+
 ["seedream-4.5"]
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"

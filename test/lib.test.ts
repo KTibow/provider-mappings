@@ -66,6 +66,7 @@ test('tier words block heuristic folding', () => {
   assert.equal(tierMismatch('kimi-k3-fast', 'kimi-k3'), 'fast')
   assert.equal(tierMismatch('e2ee-gpt-oss-120b-p', 'openai-gpt-oss-120b'), 'e2ee')
   assert.equal(tierMismatch('glm-5v-turbo', 'glm-5v-turbo'), undefined)
+  assert.equal(tierMismatch('deepseek-v4-1-flash-economy-261017', 'deepseek/deepseek-v4.1-flash-1017'), 'economy')
 })
 
 test('pin guess', () => {
@@ -158,6 +159,8 @@ test('routing decorations are not part of the model', () => {
   assert.equal(undecorate('wan-2.7-t2v'), 'wan-2.7')
   assert.equal(undecorate('grok-imagine-1-5-image-to-video-private'), 'grok-imagine-1-5')
   assert.equal(undecorate('wan-2-7-text-to-image'), 'wan-2-7-text-to-image') // Wan's image model is another model
+  assert.equal(undecorate('Wan 2.7 (image-to-video)'), 'Wan 2.7')
+  assert.equal(undecorate('Kling O3 Standard Text-to-Video'), 'Kling O3 Standard')
 })
 
 test('fine-tunes and host variants are not their base model', () => {
@@ -213,6 +216,9 @@ test('media operations and reasoning modes are variants of their model', () => {
   assert.equal(operationOf('wan-2.7-i2v'), 'image-to-video')
   assert.equal(operationOf('seedance-2-0-text-to-video-basic'), undefined)
   assert.equal(operationOf('wan-2.7-t2v'), undefined)
+  assert.equal(operationOf('Wan 2.7 (reference-to-video)'), 'reference-to-video') // blazeapi's ids are display names
+  assert.equal(operationOf('Wan 2.6 Flash Image-to-Video'), 'image-to-video')
+  assert.equal(operationOf('Kling O3 Standard Text-to-Video'), undefined)
   assert.equal(withOperation('nano-banana-pro-edit', 'google/gemini-3-pro-image-preview'), 'google/gemini-3-pro-image-preview:edit')
   assert.equal(withOperation('k3-edit', 'krea/k3-edit'), 'krea/k3-edit') // the model is the edit model
   assert.equal(withOperation('x-edit', 'a/x:edit'), 'a/x:edit')

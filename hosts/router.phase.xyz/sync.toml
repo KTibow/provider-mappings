@@ -167,10 +167,6 @@ pin = "pinned"
 model = "fireworks/ember-1"
 pin = "pinned"
 
-["flux"]
-model = "deepgram/flux-tts"
-pin = "pinned"
-
 ["flux-2-klein-4b"]
 model = "black-forest-labs/flux.2-klein-4b"
 pin = "pinned"
@@ -1037,6 +1033,14 @@ pin = "pinned"
 
 ["seedance-2.5"]
 model = "bytedance/seedance-2.5"
+pin = "pinned"
+
+["seedream-4"]
+model = "bytedance-seed/seedream-4.0"
+pin = "pinned"
+
+["seedream-4.0"]
+model = "bytedance-seed/seedream-4.0"
 pin = "pinned"
 
 ["seedream-4.5"]
