@@ -307,10 +307,6 @@ pin = "pinned"
 model = "kwaivgi/kling-2.6-pro"
 pin = "pinned"
 
-["ling-3.0-flash-fin"]
-model = "inclusionai/ling-3.0-flash-fin"
-pin = "pinned"
-
 ["llama-4-maverick"]
 model = "meta-llama/llama-4-maverick"
 pin = "pinned"

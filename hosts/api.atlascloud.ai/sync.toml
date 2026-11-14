@@ -118,21 +118,6 @@ model = "google/gemini-4-hydrogen"
 pin = "pinned"
 quant = "fp8"
 
-["minimaxai/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-quant = "fp8"
-
-["minimaxai/minimax-m3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-quant = "fp8"
-
-["minimaxai/minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-quant = "fp4"
-
 ["moonshotai/kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"

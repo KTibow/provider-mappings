@@ -283,6 +283,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["longcat-2.0"]
 model = "meituan/longcat-2.0"
 pin = "pinned"

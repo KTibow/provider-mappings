@@ -8,7 +8,7 @@
   "failing_since": "2026-11-12"
  },
  "apihub.agnes-ai.com": {
-  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261114023252341378412K9BoFMJS)\",\"type\":\"AgnesAI_error\"}}",
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 202611141026039682921870A9eWeJq)\",\"type\":\"AgnesAI_error\"}}",
   "failing_since": "2026-11-13"
  }
 }

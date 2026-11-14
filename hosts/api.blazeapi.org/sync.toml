@@ -48,11 +48,6 @@ model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 quant = "fp16"
 
-["claude-fable-5-2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-quant = "fp16"
-
 ["claude-haiku-4-5-20251001"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -188,8 +183,23 @@ model = "black-forest-labs/flux.2-klein-4b"
 pin = "pinned"
 quant = "fp16"
 
-["free/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
+["free/claude-haiku-4.5"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+quant = "fp16"
+
+["free/deepseek-v3.2"]
+model = "deepseek/deepseek-v3.2"
+pin = "pinned"
+quant = "fp16"
+
+["free/deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+quant = "fp16"
+
+["free/deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 quant = "fp16"
 
@@ -208,6 +218,16 @@ model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp16"
 
+["free/kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+quant = "fp16"
+
+["free/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+quant = "fp16"
+
 ["free/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
@@ -216,6 +236,16 @@ quant = "fp16"
 ["free/qwen-3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+quant = "fp16"
+
+["free/qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
+pin = "pinned"
+quant = "fp16"
+
+["free/qwen3.8-flash-next"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
 quant = "fp16"
 
 ["gemini-2.5-flash"]
@@ -620,6 +650,11 @@ quant = "fp16"
 
 ["muse-spark-1.3-contributor"]
 model = "meta/muse-spark-1.3-contributor"
+pin = "pinned"
+quant = "fp16"
+
+["nano-banana-2"]
+model = "google/gemini-3.1-flash-image-preview"
 pin = "pinned"
 quant = "fp16"
 

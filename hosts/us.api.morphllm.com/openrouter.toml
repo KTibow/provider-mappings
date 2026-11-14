@@ -41,3 +41,13 @@ quant = "fp8"
 model = "morph/morph-v3-large"
 pin = "pinned"
 quant = "fp8"
+
+# ---------------------------------------------------------------------------
+# Rows below need a person to check them, so they are commented out.
+# Once verified, copy the row (uncommented) into manual.toml.
+
+# needs review: native id has "fast", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
+# ["morph-dsv41flash-1017-fast"]
+# model = "deepseek/deepseek-v4.1-flash-1017"
+# pin = "pinned"
+# quant = "fp8"

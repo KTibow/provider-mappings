@@ -183,10 +183,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017:free"
 pin = "pinned"
 
-["deepseek-v4.1-flash:free"]
-model = "deepseek/deepseek-v4.1-flash:free"
-pin = "pinned"
-
 ["dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview:free"
 pin = "pinned"
@@ -219,8 +215,8 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
-["gemini-2.5-flash-lite:free"]
-model = "google/gemini-2.5-flash-lite:free"
+["gemini-2.5-flash:free"]
+model = "google/gemini-2.5-flash:free"
 pin = "pinned"
 
 ["gemini-2.5-pro"]
@@ -229,10 +225,6 @@ pin = "pinned"
 
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
-pin = "pinned"
-
-["gemini-3-flash:free"]
-model = "google/gemini-3-flash-preview:free"
 pin = "pinned"
 
 ["gemini-3-pro-image"]
@@ -251,6 +243,10 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
+["gemini-3.1-flash-lite:free"]
+model = "google/gemini-3.1-flash-lite:free"
+pin = "pinned"
+
 ["gemini-3.1-pro"]
 model = "google/gemini-3.1-pro"
 pin = "pinned"
@@ -261,10 +257,6 @@ pin = "pinned"
 
 ["gemini-3.5-flash"]
 model = "google/gemini-3.5-flash"
-pin = "pinned"
-
-["gemini-3.5-flash-lite"]
-model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
 
 ["gemini-3.5-flash-lite:free"]
@@ -307,8 +299,8 @@ pin = "pinned"
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
 
-["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it:free"
+["glm-4.5"]
+model = "z-ai/glm-4.5"
 pin = "pinned"
 
 ["glm-4.6"]
@@ -491,10 +483,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash:free"]
-model = "xiaomi/mimo-v2.6-flash:free"
-pin = "pinned"
-
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
@@ -507,14 +495,6 @@ pin = "pinned"
 model = "minimax/minimax-m2.7"
 pin = "pinned"
 
-["minimax-m2.7:free"]
-model = "minimax/minimax-m2.7:free"
-pin = "pinned"
-
-["minimax-m2:free"]
-model = "minimax/minimax-m2:free"
-pin = "pinned"
-
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -525,10 +505,6 @@ pin = "pinned"
 
 ["minimax-m3:free"]
 model = "minimax/minimax-m3:free"
-pin = "pinned"
-
-["mistral-large-3-675b-instruct-2512:free"]
-model = "mistralai/mistral-large-2512:free"
 pin = "pinned"
 
 ["mistral-large-4"]
@@ -549,14 +525,6 @@ pin = "pinned"
 
 ["muse-wonder"]
 model = "meta/muse-wonder"
-pin = "pinned"
-
-["nemotron-3-5-super-vl:free"]
-model = "nvidia/nemotron-3.5-super-vl:free"
-pin = "pinned"
-
-["nemotron-3-nano-omni-30b-a3b-reasoning-free:free"]
-model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
 pin = "pinned"
 
 ["nemotron-3-nano-omni-30b-a3b-reasoning:free"]

@@ -399,6 +399,10 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["gemini/gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
 ["gemini/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
@@ -1593,10 +1597,6 @@ pin = "pinned"
 
 ["vercel-ai-gateway/morph/morph-v3-large"]
 model = "morph/morph-v3-large"
-pin = "pinned"
-
-["vercel-ai-gateway/nvidia/nemotron-3-nano-30b-a3b"]
-model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
 
 ["vercel-ai-gateway/nvidia/nemotron-3-super-120b-a12b"]

@@ -67,10 +67,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["deepseek-v4-pro"]
-model = "deepseek/deepseek-v4-pro"
-pin = "pinned"
-
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"

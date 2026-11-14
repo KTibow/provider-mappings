@@ -715,10 +715,6 @@ pin = "pinned"
 model = "nace-ai/drex-v2.0"
 pin = "pinned"
 
-["nvidia/nemotron-3-nano-30b-a3b"]
-model = "nvidia/nemotron-3-nano-30b-a3b"
-pin = "pinned"
-
 ["nvidia/nemotron-3-super-120b-a12b"]
 model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"

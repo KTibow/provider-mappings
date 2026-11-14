@@ -2320,6 +2320,7 @@ quant = "fp4"
 ["nebius/moonshotai/Kimi-K3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
+quant = "fp4"
 
 ["nebius/moonshotai/Kimi-K3.1-Pro"]
 model = "moonshotai/kimi-k3.1-pro"
