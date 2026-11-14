@@ -2,6 +2,10 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["abliterated-model-large-flash"]
+model = "abliteration-ai/abliterated-model-large-flash"
+pin = "pinned"
+
 ["abliterated-model-large-v2"]
 model = "abliteration-ai/abliterated-model-large-v2"
 pin = "pinned"

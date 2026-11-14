@@ -246,6 +246,14 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["gemma-4-26b-a4b-it-free"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
+["gemma-4-31b-it-free"]
+model = "google/gemma-4-31b-it"
+pin = "pinned"
+
 ["glm-4.5v"]
 model = "z-ai/glm-4.5v"
 pin = "pinned"
@@ -280,6 +288,14 @@ pin = "pinned"
 
 ["glm-5v-turbo"]
 model = "z-ai/glm-5v-turbo"
+pin = "pinned"
+
+["gpt-4.1-mini"]
+model = "openai/gpt-4.1-mini"
+pin = "pinned"
+
+["gpt-4o"]
+model = "openai/gpt-4o"
 pin = "pinned"
 
 ["gpt-5"]
@@ -372,6 +388,10 @@ pin = "pinned"
 
 ["gpt-image-2.5-sunburst"]
 model = "openai/gpt-image-2.5-sunburst"
+pin = "pinned"
+
+["grok-4-fast-non-reasoning"]
+model = "x-ai/grok-4-fast-non-reasoning"
 pin = "pinned"
 
 ["grok-4.3"]
@@ -500,6 +520,10 @@ pin = "pinned"
 
 ["o4-mini"]
 model = "openai/o4-mini"
+pin = "pinned"
+
+["qwen3-coder-next"]
+model = "qwen/qwen3-coder-next"
 pin = "pinned"
 
 ["qwen3-max"]

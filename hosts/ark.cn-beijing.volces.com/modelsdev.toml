@@ -18,6 +18,14 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 
+["deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["deepseek-v4.1-flash-economy"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
 ["doubao-seed-1-6-251015"]
 model = "bytedance-seed/seed-1-6"
 pin = "pinned"
@@ -62,6 +70,18 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-lite"
 pin = "pinned"
 
+["doubao-seed-2.0-mini"]
+model = "bytedance-seed/seed-2.0-mini"
+pin = "pinned"
+
+["doubao-seed-2.1-lite"]
+model = "bytedance-seed/seed-2.1-lite"
+pin = "pinned"
+
+["doubao-seed-2.1-pro"]
+model = "bytedance-seed/seed-2.1-pro"
+pin = "pinned"
+
 ["doubao-seed-2.1-turbo"]
 model = "bytedance-seed/seed-2-1-turbo"
 pin = "pinned"
@@ -94,8 +114,16 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
+["kimi-k2.8-preview"]
+model = "moonshotai/kimi-k2.8-preview"
+pin = "pinned"
+
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["minimax-m3"]

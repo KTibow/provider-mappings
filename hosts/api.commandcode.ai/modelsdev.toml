@@ -14,6 +14,22 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
+["Qwen/Qwen3.6-Plus"]
+model = "qwen/qwen3.6-plus"
+pin = "pinned"
+
+["Qwen/Qwen3.7-Flash"]
+model = "qwen/qwen3.7-flash"
+pin = "pinned"
+
+["Qwen/Qwen3.7-Max"]
+model = "qwen/qwen3.7-max"
+pin = "pinned"
+
+["Qwen/Qwen3.7-Plus"]
+model = "qwen/qwen3.7-plus"
+pin = "pinned"
+
 ["Qwen/Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
@@ -28,6 +44,10 @@ pin = "floating"
 
 ["Qwen/Qwen3.8-Max-0902"]
 model = "qwen/qwen3.8-max-0902"
+pin = "pinned"
+
+["Qwen/Qwen3.8-Max-Prime"]
+model = "qwen/qwen3.8-max-prime"
 pin = "pinned"
 
 ["Qwen/Qwen3.8-Omni-Flash"]
@@ -170,8 +190,16 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["inclusionai/ling-3.1-flash"]
+model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+
 ["inclusionai/ling-3.1-flash:free"]
 model = "inclusionai/ling-3.1-flash:free"
+pin = "pinned"
+
+["meituan/LongCat-2.0"]
+model = "meituan/longcat-2.0"
 pin = "pinned"
 
 ["meta/muse-spark-1.1"]
@@ -194,12 +222,28 @@ pin = "pinned"
 model = "meta/muse-spark-1.3-contributor"
 pin = "pinned"
 
+["meta/muse-spark-open"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
 ["meta/muse-wonder-1.0"]
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["minimax/minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["mistral/mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["moonshotai/Kimi-K2.5"]
+model = "moonshotai/kimi-k2.5"
+pin = "pinned"
+
+["moonshotai/Kimi-K2.6"]
+model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["moonshotai/Kimi-K2.7-Code"]
@@ -214,8 +258,28 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["nvidia/nemotron-3-ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["nvidia/nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["ornith/ornith-1.5-122b"]
+model = "deepreinforce/ornith-1.5-122b"
+pin = "pinned"
+
+["poolside/laguna-s-2.1-free"]
+model = "poolside/laguna-s-2.1"
+pin = "pinned"
+
+["reflection/beam:free"]
+model = "reflection/beam-1.0-501b-a23b:free"
 pin = "pinned"
 
 ["sakana/fugu-ultra"]
@@ -262,12 +326,28 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
+["xiaomi/mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-pro-ultraspeed"]
+model = "xiaomi/mimo-v2.6-pro-ultraspeed"
+pin = "pinned"
+
 ["z-ai/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["z-ai/glm-5.3-flashx"]
 model = "z-ai/glm-5.3-flashx"
+pin = "pinned"
+
+["zai-org/GLM-5"]
+model = "z-ai/glm-5"
 pin = "pinned"
 
 ["zai-org/GLM-5.2"]

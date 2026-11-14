@@ -183,6 +183,18 @@
     "ai.api.nvidia.com": [
       "nvidia/rerank-qa-mistral-4b"
     ],
+    "aistupidlevel.info": [
+      "auto",
+      "auto-best",
+      "auto-coding",
+      "auto-fastest-quality",
+      "auto-reasoning",
+      "auto-tooling",
+      "auto-value",
+      "auto-value-coding",
+      "auto-value-reasoning",
+      "auto-value-tooling"
+    ],
     "api-gateway.merge.dev": [
       "bytedance/dola-seed-2.0-code-preview",
       "google/gemini-flash-lite-latest",
@@ -217,6 +229,11 @@
       "gpt-5.3-chat-latest",
       "grok-4.1"
     ],
+    "api.abliteratedllm.dev": [
+      "deepseek-v4.1-flash-1017-ultrafast",
+      "glm-5.3-fast",
+      "glm-5.3-flash-abliterated"
+    ],
     "api.abliteration.ai": [
       "abliterated-model",
       "abliterated-model-large"
@@ -230,6 +247,15 @@
     "api.ambient.xyz": [
       "ambient/small",
       "unsloth/qwen3.8-27b-gguf"
+    ],
+    "api.augureai.ca": [
+      "ossington-4-1",
+      "ossington-5",
+      "rosedale-1",
+      "tofino-3"
+    ],
+    "api.autarcho.com": [
+      "llama-32-3b-uncensored"
     ],
     "api.bee.heossi.com": [
       "bee-brood",
@@ -257,6 +283,7 @@
     "api.commandcode.ai": [
       "deepseek/deepseek-v4-flash-fast",
       "deepseek/deepseek-v4.1-flash-fast",
+      "stealth/glyph-cluster:free",
       "zai-org/GLM-5.2-Fast"
     ],
     "api.cortecs.ai": [
@@ -327,6 +354,9 @@
       "glm-5.3:fast",
       "minimax-m3:fast"
     ],
+    "api.inferenceapis.com": [
+      "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+    ],
     "api.infomaniak.com": [
       "bge_multilingual_gemma2",
       "mini_lm_l12_v2",
@@ -337,6 +367,9 @@
       "meta-llama/Llama-3.2-90B-Vision-Instruct",
       "mistralai/Devstral-Small-2505"
     ],
+    "api.isoquant.ai": [
+      "deepseek-v4.1-flash-1017-fast"
+    ],
     "api.jiekou.ai": [
       "gpt-5-chat-latest",
       "grok-4-0709"
@@ -346,6 +379,10 @@
     ],
     "api.kimi.com": [
       "k3.1-pro-highspeed"
+    ],
+    "api.lithosai.cloud": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-fast",
+      "deepseek-ai/DeepSeek-V4.1-Flash-ultra"
     ],
     "api.lkeap.cloud.tencent.com": [
       "hunyuan-2.0-instruct",
@@ -440,6 +477,14 @@
     "api.modeloracle.com": [
       "auto"
     ],
+    "api.moneo.one": [
+      "MiniMax-M2.7:web",
+      "deepseek-v4-1-flash-1017-uncensored",
+      "deepseek-v4-flash:web",
+      "gemma-4-31b:web",
+      "kimi-k2.7-code:web",
+      "qwen3-235b:web"
+    ],
     "api.moonshot.ai": [
       "kimi-k2.7-code-highspeed",
       "kimi-k3.1-pro-highspeed"
@@ -453,15 +498,15 @@
       "morph-kimik3-fast"
     ],
     "api.neuralwatt.com": [
-      "deepseek-v4-flash-flex",
-      "deepseek-v4-flash-speed",
       "deepseek-v4.1-flash-flex",
+      "deepseek-v4.1-flash-speed",
       "glm-5.3-flash-flex",
       "glm-5.3-flex",
-      "kimi-k2.7-code-fast",
-      "kimi-k2.7-code-flex",
-      "kimi-k3-flex",
+      "kimi-k3.1-pro-flex",
       "mimo-v2.6-pro-flex",
+      "nw-flash-flex",
+      "nw-large-flex",
+      "nw-small-flex",
       "qwen-3.8-27b-flex",
       "qwen3.6-35b-fast",
       "qwen3.6-35b-flex"
@@ -551,11 +596,29 @@
       "x-ai/grok-4-fast",
       "z-ai/autoglm-phone-9b"
     ],
+    "api.rayline.ai": [
+      "arc-sage-1.0",
+      "arc-swift-1.0"
+    ],
+    "api.refuseless.com": [
+      "deepseek-v4.1-flash-abliterated",
+      "deepseek-v4.1-flash-abliterated-free",
+      "deepseek-v4.1-flash-fast",
+      "glm-5.3-abliterated",
+      "glm-5.3-flash-abliterated"
+    ],
     "api.regolo.ai": [
       "brick-complexity-pro",
       "brick-v1-beta",
       "faster-whisper-large-v3",
       "qwen3-reranker-4b"
+    ],
+    "api.runcrate.ai": [
+      "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+      "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+    ],
+    "api.scx.ai": [
+      "GLM-5.2-Fast"
     ],
     "api.siliconflow.cn": [
       "ByteDance-Seed/Seed-OSS-36B-Instruct",
@@ -571,6 +634,9 @@
       "Qwen/Qwen3-VL-32B-Thinking",
       "inclusionAI/Ling-flash-2.0"
     ],
+    "api.sparrowcodes.com": [
+      "sparrow/auto"
+    ],
     "api.stdcmpt.com": [
       "standardcompute"
     ],
@@ -585,9 +651,8 @@
       "stepaudio-2.5-asr",
       "stepaudio-2.5-tts"
     ],
-    "api.tbox.cn": [
-      "Ling-1T",
-      "Ring-1T"
+    "api.superbot.gg": [
+      "superbot-fast"
     ],
     "api.temprhq.io": [
       "google/gemini-flash-lite-latest",
@@ -626,6 +691,11 @@
       "trustedrouter/synth-code",
       "trustedrouter/zdr"
     ],
+    "api.unrestricted.sh": [
+      "glm-5.3-flash-uncensored",
+      "mimo-v2.6-flash-uncensored",
+      "qwen3.8-27b-uncensored"
+    ],
     "api.upstage.ai": [
       "solar-mini"
     ],
@@ -636,6 +706,9 @@
       "kimi-k3-1-pro-highspeed",
       "openai-gpt-61-sol-ultrafast"
     ],
+    "api.wallabytoken.com": [
+      "moonshotai/kimi-k3.1-pro-highspeed"
+    ],
     "api.withhopper.com": [
       "deepseek-v4.1-flash-1017-abliterated"
     ],
@@ -645,6 +718,9 @@
     ],
     "api.zeldoc.ai": [
       "zdev"
+    ],
+    "api.zerogpu.ai": [
+      "llama-3.1-8b-instruct-fast"
     ],
     "apihub.agnes-ai.com": [
       "agnes-2.0-flash",
@@ -792,6 +868,11 @@
       "nvidia/usdcode",
       "nvidia/usdvalidate",
       "qwen/qwen-image-edit"
+    ],
+    "jadai.freesrv.com": [
+      "jad-ai",
+      "jad-code",
+      "jad-go"
     ],
     "llm.chutes.ai": [
       "google/gemma-4-31B-turbo-TEE",
@@ -1017,6 +1098,10 @@
       "z-ai/glm-5.3-flash-uncensored",
       "z-ai/glm-latest"
     ],
+    "nokeep.ai": [
+      "deepseek-v4.1-flash-1017-uncensored",
+      "glm-5.3-flash-uncensored"
+    ],
     "oai.endpoints.kepler.ai.cloud.ovh.net": [
       "qwen3guard-gen-0.6b",
       "qwen3guard-gen-8b"
@@ -1053,9 +1138,6 @@
       "openrouter/fusion",
       "openrouter/pareto-code",
       "particle-ai/particle-1:free"
-    ],
-    "pass.wafer.ai": [
-      "glm5.2-fast"
     ],
     "routellm.abacus.ai": [
       "gpt-5.1-chat-latest",
@@ -1106,6 +1188,11 @@
     "token.sensenova.cn": [
       "sensenova-6.8-flash-lite"
     ],
+    "uncensuredai.com": [
+      "deepseek-v4.1-flash-abliterated",
+      "glm-5.3-abliterated",
+      "glm-5.3-flash-abliterated"
+    ],
     "www.xpersona.co": [
       "xpersona-frieren-coder"
     ],
@@ -1118,6 +1205,10 @@
       "volcengine/doubao-seed-code",
       "x-ai/grok-4.2-fast",
       "x-ai/grok-4.2-fast-non-reasoning"
+    ],
+    "zro.moonmath.ai": [
+      "dolly1-security",
+      "dolly2-security"
     ],
     "{resource}.cognitiveservices.azure.com": [
       "codestral-2501",

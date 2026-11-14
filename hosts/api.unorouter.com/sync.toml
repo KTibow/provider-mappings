@@ -155,6 +155,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["deepseek-v4-flash:free"]
+model = "deepseek/deepseek-v4-flash:free"
+pin = "pinned"
+
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -169,6 +173,10 @@ pin = "pinned"
 
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["deepseek-v4.1-flash-1017:free"]
+model = "deepseek/deepseek-v4.1-flash-1017:free"
 pin = "pinned"
 
 ["dots-3-note-preview:free"]
@@ -209,6 +217,10 @@ pin = "pinned"
 
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
+["gemini-3-flash:free"]
+model = "google/gemini-3-flash-preview:free"
 pin = "pinned"
 
 ["gemini-3-pro-image"]
@@ -279,6 +291,10 @@ pin = "pinned"
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
 
+["gemma-4-31b-it:free"]
+model = "google/gemma-4-31b-it:free"
+pin = "pinned"
+
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"
@@ -305,6 +321,10 @@ pin = "pinned"
 
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["glm-5.2:free"]
+model = "z-ai/glm-5.2:free"
 pin = "pinned"
 
 ["glm-5.3"]
@@ -377,10 +397,6 @@ pin = "pinned"
 
 ["gpt-oss-safeguard-20b:free"]
 model = "openai/gpt-oss-safeguard-20b:free"
-pin = "pinned"
-
-["grok-4.1-fast"]
-model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
 ["grok-4.5"]
@@ -467,12 +483,12 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash:free"]
-model = "xiaomi/mimo-v2.6-flash:free"
-pin = "pinned"
-
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+
+["minimax-m2.5"]
+model = "minimax/minimax-m2.5"
 pin = "pinned"
 
 ["minimax-m2.7"]
@@ -481,6 +497,14 @@ pin = "pinned"
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
+pin = "pinned"
+
+["minimax-m3.1-flash:free"]
+model = "minimax/minimax-m3.1-flash:free"
+pin = "pinned"
+
+["mistral-large-3"]
+model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
 ["mistral-large-4"]

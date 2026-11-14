@@ -2,6 +2,14 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["ai21/jamba-large"]
+model = "ai21/jamba-large"
+pin = "pinned"
+
+["ai21/jamba-mini"]
+model = "ai21/jamba-mini"
+pin = "pinned"
+
 ["anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -64,6 +72,46 @@ pin = "pinned"
 
 ["cerebras/qwen-3.8-27b"]
 model = "qwen/qwen3.8-27b"
+pin = "pinned"
+
+["cohere/command-a-03-2025"]
+model = "cohere/command-a"
+pin = "pinned"
+
+["cohere/command-a-plus-05-2026"]
+model = "cohere/command-a-plus"
+pin = "pinned"
+
+["cohere/command-a-reasoning-08-2025"]
+model = "cohere/command-a-reasoning-08-2025"
+pin = "pinned"
+
+["cohere/command-a-translate-08-2025"]
+model = "cohere/command-a-translate-08-2025"
+pin = "pinned"
+
+["cohere/command-a-vision-07-2025"]
+model = "cohere/command-a-vision-07-2025"
+pin = "pinned"
+
+["cohere/command-r-08-2024"]
+model = "cohere/command-r-08-2024"
+pin = "pinned"
+
+["cohere/command-r-plus-08-2024"]
+model = "cohere/command-r-plus-08-2024"
+pin = "pinned"
+
+["cohere/command-r7b-12-2024"]
+model = "cohere/command-r7b-12-2024"
+pin = "pinned"
+
+["cohere/command-r7b-arabic-02-2025"]
+model = "cohere/command-r7b-arabic-02-2025"
+pin = "pinned"
+
+["cohere/north-mini-code-1-0"]
+model = "cohere/north-mini-code"
 pin = "pinned"
 
 ["deepseek/deepseek-flash"]
@@ -146,6 +194,14 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["inception/mercury-2"]
+model = "inception/mercury-2"
+pin = "pinned"
+
+["inception/mercury-2.5"]
+model = "inception/mercury-2.5"
+pin = "pinned"
+
 ["minimax/MiniMax-M2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"
@@ -204,6 +260,18 @@ pin = "pinned"
 
 ["moonshot/kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["morph/morph-v3-fast"]
+model = "morph/morph-v3-fast"
+pin = "pinned"
+
+["morph/morph-v3-large"]
+model = "morph/morph-v3-large"
+pin = "pinned"
+
+["sarvam/sarvam-105b"]
+model = "sarvam/sarvam-105b"
 pin = "pinned"
 
 ["xai/grok-4.20-0309-non-reasoning"]

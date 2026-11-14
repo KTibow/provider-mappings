@@ -22,6 +22,10 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
+["MiniMax-M3.1-Flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"

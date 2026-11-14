@@ -2,12 +2,24 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["anthropic/claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
 ["anthropic/claude-opus-4.1"]
 model = "anthropic/claude-opus-4.1"
 pin = "pinned"
 
 ["anthropic/claude-opus-4.8"]
 model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["anthropic/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["anthropic/claude-opus-5.5"]
+model = "anthropic/claude-opus-5.5"
 pin = "pinned"
 
 ["anthropic/claude-sonnet-4.6"]
@@ -90,6 +102,10 @@ pin = "pinned"
 model = "openai/gpt-5-nano"
 pin = "pinned"
 
+["openai/gpt-5.2"]
+model = "openai/gpt-5.2"
+pin = "pinned"
+
 ["openai/gpt-5.3-codex"]
 model = "openai/gpt-5.3-codex"
 pin = "pinned"
@@ -108,6 +124,14 @@ pin = "pinned"
 
 ["openai/gpt-5.5-pro"]
 model = "openai/gpt-5.5-pro"
+pin = "pinned"
+
+["openai/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["openai/gpt-6-sol"]
+model = "openai/gpt-6-sol"
 pin = "pinned"
 
 ["openai/gpt-image-2"]
@@ -138,6 +162,14 @@ pin = "pinned"
 model = "x-ai/grok-4.3"
 pin = "pinned"
 
+["x-ai/grok-4.6"]
+model = "x-ai/grok-4.6"
+pin = "pinned"
+
+["x-ai/grok-4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+
 ["x-ai/grok-build-0.1"]
 model = "x-ai/grok-build-0.1"
 pin = "pinned"
@@ -148,4 +180,8 @@ pin = "pinned"
 
 ["z-ai/glm-5.1"]
 model = "z-ai/glm-5.1"
+pin = "pinned"
+
+["z-ai/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
 pin = "pinned"

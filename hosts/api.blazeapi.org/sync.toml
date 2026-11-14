@@ -998,6 +998,11 @@ model = "qwen/qwen3-32b"
 pin = "pinned"
 quant = "fp16"
 
+["qwen3-6-35b-a3b"]
+model = "qwen/qwen3.6-35b-a3b"
+pin = "pinned"
+quant = "fp16"
+
 ["qwen3-coder"]
 model = "qwen/qwen3-coder"
 pin = "pinned"
@@ -1050,6 +1055,11 @@ quant = "fp16"
 
 ["qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
+pin = "pinned"
+quant = "fp16"
+
+["seedream-4.5"]
+model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
 quant = "fp16"
 

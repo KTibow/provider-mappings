@@ -271,10 +271,6 @@ pin = "pinned"
 model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
 
-["inception/mercury-2"]
-model = "inception/mercury-2"
-pin = "pinned"
-
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"

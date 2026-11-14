@@ -3,66 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["anthropic/claude-fable-5"]
-model = "anthropic/claude-fable-5"
-pin = "pinned"
-
-["anthropic/claude-fable-5-1"]
-model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["anthropic/claude-fable-5-2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["anthropic/claude-haiku-4.5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
-["anthropic/claude-haiku-5-5"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["anthropic/claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
-["anthropic/claude-opus-4.6"]
-model = "anthropic/claude-opus-4.6"
-pin = "pinned"
-
-["anthropic/claude-opus-4.7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["anthropic/claude-opus-4.8"]
-model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["anthropic/claude-opus-5"]
-model = "anthropic/claude-opus-5"
-pin = "pinned"
-
-["anthropic/claude-opus-5-5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["anthropic/claude-sonnet-4.5"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-
-["anthropic/claude-sonnet-4.6"]
-model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-
-["anthropic/claude-sonnet-5"]
-model = "anthropic/claude-sonnet-5"
-pin = "pinned"
-
-["anthropic/claude-sonnet-5-5"]
-model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
 ["antigravity/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
@@ -722,6 +662,14 @@ pin = "pinned"
 ["openrouter/kwaivgi/kling-video-o1"]
 model = "kwaivgi/kling-video-o1"
 pin = "pinned"
+
+["openrouter/~anthropic/claude-opus-latest"]
+model = "~anthropic/claude-opus-latest"
+pin = "floating"
+
+["openrouter/~anthropic/claude-sonnet-latest"]
+model = "~anthropic/claude-sonnet-latest"
+pin = "floating"
 
 ["orcarouter/anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"

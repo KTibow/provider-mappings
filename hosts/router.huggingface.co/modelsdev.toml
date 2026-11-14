@@ -250,6 +250,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -276,6 +280,10 @@ pin = "pinned"
 
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-Small"]

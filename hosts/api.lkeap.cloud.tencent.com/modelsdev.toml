@@ -6,18 +6,6 @@
 model = "z-ai/glm-5"
 pin = "pinned"
 
-["hy3"]
-model = "tencent/hy3"
-pin = "pinned"
-
-["hy4"]
-model = "tencent/hy4"
-pin = "pinned"
-
-["hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-
 ["kimi-k2.5"]
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"

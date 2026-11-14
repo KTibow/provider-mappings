@@ -26,6 +26,10 @@ pin = "pinned"
 model = "deepreinforce/ornith-1.5-35b-a3b"
 pin = "pinned"
 
+["stepfun-ai/Step-5-Preview"]
+model = "stepfun/step-5-preview"
+pin = "pinned"
+
 ["zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

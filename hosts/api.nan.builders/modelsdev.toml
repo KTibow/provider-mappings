@@ -3,7 +3,11 @@
 # and additions in manual.toml next to it.
 
 ["deepseek-v4-flash"]
-model = "deepseek/deepseek-v4.1-flash"
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 
 ["gemma4"]
@@ -18,12 +22,16 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash"]
-model = "xiaomi/mimo-v2.6-flash"
+["hy4"]
+model = "tencent/hy4"
 pin = "pinned"
 
-["qwen-image-2.1"]
-model = "alibaba/qwen-image-2.1"
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
 ["qwen3.6"]
@@ -33,3 +41,7 @@ pin = "pinned"
 ["qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
+
+["qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"

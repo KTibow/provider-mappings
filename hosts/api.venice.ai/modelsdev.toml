@@ -231,7 +231,7 @@ model = "moonshotai/kimi-k3-fast"
 pin = "pinned"
 
 ["llama-3.2-3b"]
-model = "meta/llama-3.2-3b"
+model = "meta-llama/llama-3.2-3b-instruct"
 pin = "pinned"
 
 ["llama-3.3-70b"]
@@ -375,7 +375,7 @@ model = "unbiased/pareto"
 pin = "pinned"
 
 ["qwen-3-6-plus"]
-model = "qwen/qwen3.6-plus"
+model = "venice/qwen3.6-plus-uncensored"
 pin = "pinned"
 
 ["qwen-3-7-max"]

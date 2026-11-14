@@ -267,6 +267,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["Gemini 4 Hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["Gemini Embedding 2 Preview"]
 model = "google/gemini-embedding-2-preview"
 pin = "pinned"
@@ -665,10 +669,6 @@ pin = "pinned"
 
 ["mistral-31-24b:web"]
 model = "mistralai/mistral-small-3.1-24b-instruct:web"
-pin = "pinned"
-
-["moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["qwen3-235b:web"]

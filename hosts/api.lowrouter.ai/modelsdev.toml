@@ -2,6 +2,58 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["auto/anthropic/claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["auto/anthropic/claude-fable-5.1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["auto/anthropic/claude-haiku-4.5"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["auto/anthropic/claude-haiku-5.5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["auto/anthropic/claude-opus-4.5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["auto/anthropic/claude-opus-4.6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
+["auto/anthropic/claude-opus-4.7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["auto/anthropic/claude-opus-4.8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["auto/anthropic/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["auto/anthropic/claude-opus-5.5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["auto/anthropic/claude-sonnet-4.6"]
+model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["auto/anthropic/claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["auto/anthropic/claude-sonnet-5.5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
 ["auto/mistralai/codestral-2508"]
 model = "mistralai/codestral-2508"
 pin = "pinned"

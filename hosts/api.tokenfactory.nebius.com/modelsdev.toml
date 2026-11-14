@@ -50,6 +50,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["nvidia/Nemotron-3-Ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
@@ -72,6 +76,10 @@ pin = "pinned"
 
 ["reflection/beam"]
 model = "reflection/beam-1.0-501b-a23b"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["zai-org/GLM-5.2"]

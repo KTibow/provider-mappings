@@ -2,8 +2,44 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["DeepSeek-V4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+
+["DeepSeek-V4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["DeepSeek-V4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["DeepSeek-V4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["GLM-5.2"]
 model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["GLM-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["GLM-5.3-Flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["Kimi-K2.7-Code"]
+model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["Kimi-K3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["MiniMax-M2.7"]
