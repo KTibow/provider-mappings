@@ -67,6 +67,7 @@
  "api.moneo.one": "https://api.moneo.one/v1/models",
  "api.mor.org": "https://api.mor.org/api/v1/models",
  "api.mordiem.com": "https://mordiem.com/api/models",
+ "api.morphllm.com": "https://www.morphllm.com/api/models/json",
  "api.munito.ai": "https://api.munito.ai/inference/v1/models",
  "api.neuralwatt.com": "https://api.neuralwatt.com/v1/models",
  "api.nextbit256.com": "https://api.nextbit256.com/v1/models",

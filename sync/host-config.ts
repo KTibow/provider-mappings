@@ -93,6 +93,9 @@ const config: Record<string, HostConfig> = {
   // Capminal: /v1 is deprecated in favour of /api/public (Capminal, 2026-11).
   'gw.capminal.ai': { models: 'https://gw.capminal.ai/api/public/models' },
   'api.modular.com': { models: 'https://api.modular.com/models' },
+  // Morph publishes its list on its website, not under the API's /v1, with each
+  // id's OpenRouter slug ("morph-kimik3" is "moonshotai/kimi-k3").
+  'api.morphllm.com': { models: 'https://www.morphllm.com/api/models/json', hints: (m) => [(m.openrouter as { slug?: string } | undefined)?.slug] },
   'chat.ionstream.ai': { models: 'https://chat.ionstream.ai/models' },
   'zro.moonmath.ai': { models: 'https://zro.moonmath.ai/models' },
   // A catalog of everything Sandbase runs: `id` is a UUID and `name` the model
