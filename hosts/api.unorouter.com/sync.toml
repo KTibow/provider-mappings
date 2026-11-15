@@ -171,10 +171,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["deepseek-v4.1-flash-1017:free"]
-model = "deepseek/deepseek-v4.1-flash-1017:free"
-pin = "pinned"
-
 ["dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview:free"
 pin = "pinned"
@@ -207,6 +203,14 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
+["gemini-2.5-flash-lite:free"]
+model = "google/gemini-2.5-flash-lite:free"
+pin = "pinned"
+
+["gemini-2.5-flash:free"]
+model = "google/gemini-2.5-flash:free"
+pin = "pinned"
+
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
@@ -229,6 +233,10 @@ pin = "pinned"
 
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+
+["gemini-3.1-flash-lite:free"]
+model = "google/gemini-3.1-flash-lite:free"
 pin = "pinned"
 
 ["gemini-3.1-pro"]
@@ -281,10 +289,6 @@ pin = "pinned"
 
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
-pin = "pinned"
-
-["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it:free"
 pin = "pinned"
 
 ["glm-4.5"]
@@ -443,10 +447,6 @@ pin = "pinned"
 model = "liquid/lfm-2.5-embedding-350m:free"
 pin = "pinned"
 
-["lfm-3-1.7b:free"]
-model = "liquid/lfm-3-1.7b:free"
-pin = "pinned"
-
 ["ling-3.1-flash:free"]
 model = "inclusionai/ling-3.1-flash:free"
 pin = "pinned"
@@ -475,20 +475,12 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash:free"]
-model = "xiaomi/mimo-v2.6-flash:free"
-pin = "pinned"
-
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["minimax-m2.7"]
 model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax-m2:free"]
-model = "minimax/minimax-m2:free"
 pin = "pinned"
 
 ["minimax-m3"]
@@ -527,14 +519,6 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
-["nemotron-3-5-super-vl:free"]
-model = "nvidia/nemotron-3.5-super-vl:free"
-pin = "pinned"
-
-["nemotron-3-nano-omni-30b-a3b-reasoning-free:free"]
-model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
-pin = "pinned"
-
 ["nemotron-3-nano-omni-30b-a3b-reasoning:free"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
 pin = "pinned"
@@ -561,10 +545,6 @@ pin = "pinned"
 
 ["qwen3-30b-a3b:free"]
 model = "qwen/qwen3-30b-a3b:free"
-pin = "pinned"
-
-["qwen3-8-omni-flash:free"]
-model = "qwen/qwen3.8-omni-flash:free"
 pin = "pinned"
 
 ["qwen3-embedding-8b:free"]
@@ -615,12 +595,12 @@ pin = "pinned"
 model = "rekaai/reka-flash-3"
 pin = "pinned"
 
-["solar-mini4:free"]
-model = "upstage/solar-mini4:free"
-pin = "pinned"
-
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["step-5-preview:free"]
+model = "stepfun/step-5-preview:free"
 pin = "pinned"
 
 ["text-embedding-3-large"]

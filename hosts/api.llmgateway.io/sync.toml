@@ -203,6 +203,14 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
+["gemini-3.8-flash-lite-tts"]
+model = "google/gemini-3.8-flash-lite-tts"
+pin = "pinned"
+
+["gemini-3.8-flash-tts"]
+model = "google/gemini-3.8-flash-tts"
+pin = "pinned"
+
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
 pin = "pinned"

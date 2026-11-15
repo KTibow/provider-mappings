@@ -143,20 +143,12 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-vision-exp"
 pin = "pinned"
 
-["deepseek/deepseek-v4-flash:web"]
-model = "deepseek/deepseek-v4-flash:web"
-pin = "pinned"
-
 ["deepseek/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
 ["deepseek/deepseek-v4-pro-0813"]
 model = "deepseek/deepseek-v4-pro-0813"
-pin = "pinned"
-
-["deepseek/deepseek-v4-pro:web"]
-model = "deepseek/deepseek-v4-pro:web"
 pin = "pinned"
 
 ["deepseek/deepseek-v4.1-flash"]
@@ -267,10 +259,6 @@ pin = "pinned"
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
-["google/gemma-4-26b-a4b-it:web"]
-model = "google/gemma-4-26b-a4b-it:web"
-pin = "pinned"
-
 ["google/gemma-4-31b"]
 model = "google/gemma-4-31b-it"
 pin = "pinned"
@@ -279,16 +267,20 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["google/gemma-4-31b-it:web"]
-model = "google/gemma-4-31b-it:web"
-pin = "pinned"
-
 ["google/gemma-4-e2b"]
 model = "google/gemma-4-E2B-it"
 pin = "pinned"
 
 ["google/gemma-4-uncensored"]
 model = "google/gemma-4-uncensored"
+pin = "pinned"
+
+["inception/mercury-2"]
+model = "inception/mercury-2"
+pin = "pinned"
+
+["inception/mercury-2.5"]
+model = "inception/mercury-2.5"
 pin = "pinned"
 
 ["inception/mercury-3"]
@@ -303,24 +295,12 @@ pin = "pinned"
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
-["meta-llama/hermes-3-llama-3.1-405b:web"]
-model = "nousresearch/hermes-3-llama-3.1-405b:web"
-pin = "pinned"
-
 ["meta-llama/llama-3.2-3b-instruct"]
 model = "meta-llama/llama-3.2-3b-instruct"
 pin = "pinned"
 
-["meta-llama/llama-3.2-3b-instruct:web"]
-model = "meta-llama/llama-3.2-3b-instruct:web"
-pin = "pinned"
-
 ["meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-
-["meta-llama/llama-3.3-70b-instruct:web"]
-model = "meta-llama/llama-3.3-70b-instruct:web"
 pin = "pinned"
 
 ["meta-llama/muse-ember"]
@@ -369,10 +349,6 @@ pin = "pinned"
 
 ["minimax/minimax-m2.5"]
 model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["minimax/minimax-m2.5:web"]
-model = "minimax/minimax-m2.5:web"
 pin = "pinned"
 
 ["minimax/minimax-m2.7"]
@@ -431,10 +407,6 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
 
-["mistralai/mistral-small-3.2-24b-instruct:web"]
-model = "mistralai/mistral-small-3.2-24b-instruct:web"
-pin = "pinned"
-
 ["mistralai/mistral-small-4"]
 model = "mistralai/mistral-small-2603"
 pin = "pinned"
@@ -459,24 +431,12 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
-["moonshotai/kimi-k2.5:web"]
-model = "moonshotai/kimi-k2.5:web"
-pin = "pinned"
-
 ["moonshotai/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
-["moonshotai/kimi-k2.6:web"]
-model = "moonshotai/kimi-k2.6:web"
-pin = "pinned"
-
 ["moonshotai/kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
-["moonshotai/kimi-k2.7-code:web"]
-model = "moonshotai/kimi-k2.7-code:web"
 pin = "pinned"
 
 ["moonshotai/kimi-k3"]
@@ -651,10 +611,6 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
-["openai/gpt-oss-120b:web"]
-model = "openai/gpt-oss-120b:web"
-pin = "pinned"
-
 ["openai/gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
 pin = "pinned"
@@ -695,10 +651,6 @@ pin = "pinned"
 model = "venice/e2ee-qwen2.5-7b"
 pin = "pinned"
 
-["qwen/e2ee-qwen3-5-122b-a10b"]
-model = "venice/e2ee-qwen3.5-122b-a10b"
-pin = "pinned"
-
 ["qwen/e2ee-qwen3-6-35b-a3b"]
 model = "venice/e2ee-qwen3.6-35b-a3b"
 pin = "pinned"
@@ -717,10 +669,6 @@ pin = "floating"
 
 ["qwen/qwen3-235b-a22b-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
-["qwen/qwen3-235b-a22b-2507:web"]
-model = "qwen/qwen3-235b-a22b-2507:web"
 pin = "pinned"
 
 ["qwen/qwen3-235b-a22b-thinking-2507"]
@@ -757,10 +705,6 @@ pin = "pinned"
 
 ["qwen/qwen3-next-80b-a3b-instruct"]
 model = "qwen/qwen3-next-80b-a3b-instruct"
-pin = "pinned"
-
-["qwen/qwen3-next-80b-a3b-instruct:web"]
-model = "qwen/qwen3-next-80b-a3b-instruct:web"
 pin = "pinned"
 
 ["qwen/qwen3-vl-235b-a22b-instruct"]
@@ -979,10 +923,6 @@ pin = "pinned"
 model = "olafangensan/glm-4.7-flash-heretic"
 pin = "pinned"
 
-["z-ai/glm-4.7-thinking"]
-model = "z-ai/glm-4.7:thinking"
-pin = "pinned"
-
 ["z-ai/glm-5"]
 model = "z-ai/glm-5"
 pin = "pinned"
@@ -995,24 +935,8 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
-["z-ai/glm-5.1-non-thinking"]
-model = "z-ai/glm-5.1:non-thinking"
-pin = "pinned"
-
-["z-ai/glm-5.1-non-thinking:web"]
-model = "z-ai/glm-5.1:non-thinking:web"
-pin = "pinned"
-
-["z-ai/glm-5.1:web"]
-model = "z-ai/glm-5.1:web"
-pin = "pinned"
-
 ["z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["z-ai/glm-5.2:web"]
-model = "z-ai/glm-5.2:web"
 pin = "pinned"
 
 ["z-ai/glm-5.3"]
@@ -1037,10 +961,6 @@ pin = "pinned"
 
 ["z-ai/glm-5.3-uncensored"]
 model = "z-ai/glm-5.3-uncensored"
-pin = "pinned"
-
-["z-ai/glm-5:web"]
-model = "z-ai/glm-5:web"
 pin = "pinned"
 
 ["z-ai/glm-5v-turbo"]

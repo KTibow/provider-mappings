@@ -24,7 +24,6 @@
       "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "deepseek/deepseek-v4.1-flash-fast",
       "humansand/ampersand-v0.1",
-      "inception/mercury-coder-small",
       "inclusionai/ling-3.1-flash-1019",
       "interfaze/interfaze-beta",
       "kilo-auto/balanced",
@@ -114,7 +113,6 @@
       "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "deepseek/deepseek-v4.1-flash-fast",
       "humansand/ampersand-v0.1",
-      "inception/mercury-coder-small",
       "inclusionai/ling-3.1-flash-1019",
       "interfaze/interfaze-beta",
       "klingai/kling-v2.5-turbo-i2v",
@@ -652,11 +650,6 @@
     ],
     "api.superbot.gg": [
       "superbot-fast"
-    ],
-    "api.temprhq.io": [
-      "google/gemini-flash-lite-latest",
-      "mistral/mistral-medium-latest",
-      "mistral/voxtral-small-latest"
     ],
     "api.thegrid.ai": [
       "agent-max",

@@ -579,14 +579,6 @@ pin = "pinned"
 model = "alibaba/wan-3.0"
 pin = "pinned"
 
-["openrouter/anthropic/claude-opus-5.5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["openrouter/anthropic/claude-sonnet-5.5"]
-model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
 ["openrouter/black-forest-labs/flux-3-image"]
 model = "black-forest-labs/flux-3-image"
 pin = "pinned"
@@ -658,14 +650,6 @@ pin = "pinned"
 ["openrouter/kwaivgi/kling-video-o1"]
 model = "kwaivgi/kling-video-o1"
 pin = "pinned"
-
-["openrouter/~anthropic/claude-opus-latest"]
-model = "~anthropic/claude-opus-latest"
-pin = "floating"
-
-["openrouter/~anthropic/claude-sonnet-latest"]
-model = "~anthropic/claude-sonnet-latest"
-pin = "floating"
 
 ["orcarouter/anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"
@@ -1311,14 +1295,6 @@ pin = "pinned"
 model = "heygen/heygen-video-1"
 pin = "pinned"
 
-["vercel-ai-gateway/inception/mercury-2"]
-model = "inception/mercury-2"
-pin = "pinned"
-
-["vercel-ai-gateway/inception/mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["vercel-ai-gateway/inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"
@@ -1909,28 +1885,4 @@ pin = "pinned"
 
 ["vercel-ai-gateway/zai/glm-5v-turbo"]
 model = "z-ai/glm-5v-turbo"
-pin = "pinned"
-
-["xai/grok-4.20-0309-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
-["xai/grok-4.3"]
-model = "x-ai/grok-4.3"
-pin = "pinned"
-
-["xai/grok-4.5"]
-model = "x-ai/grok-4.5"
-pin = "pinned"
-
-["xai/grok-4.6"]
-model = "x-ai/grok-4.6"
-pin = "pinned"
-
-["xai/grok-4.7"]
-model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["xai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"

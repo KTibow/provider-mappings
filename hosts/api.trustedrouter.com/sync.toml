@@ -375,14 +375,6 @@ pin = "pinned"
 model = "google/gemini-embedding-001"
 pin = "pinned"
 
-["google/gemini-omni-1.1-flash"]
-model = "google/gemini-omni-1.1-flash"
-pin = "pinned"
-
-["google/gemini-omni-1.2-flash"]
-model = "google/gemini-omni-1.2-flash"
-pin = "pinned"
-
 ["google/gemini-omni-flash"]
 model = "google/gemini-omni-flash"
 pin = "pinned"
@@ -437,14 +429,6 @@ pin = "pinned"
 
 ["inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-fin"]
-model = "inclusionai/ling-3.0-flash-fin"
-pin = "pinned"
-
-["inclusionai/ling-3.0-flash-sante"]
-model = "inclusionai/ling-3.0-flash-sante"
 pin = "pinned"
 
 ["inclusionai/ling-3.0-flash-vl"]
@@ -520,6 +504,10 @@ model = "meta/muse-glimmer-30b"
 pin = "pinned"
 
 ["meta-models/muse-spark-open"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
+["meta-models/muse-spark-open-816b-a42b-nvfp4"]
 model = "meta/muse-spark-open"
 pin = "pinned"
 

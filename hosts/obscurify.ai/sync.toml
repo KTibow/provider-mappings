@@ -355,10 +355,6 @@ pin = "pinned"
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
-["liquid/lfm-3-1.7b"]
-model = "liquid/lfm-3-1.7b"
-pin = "pinned"
-
 ["mancer/weaver"]
 model = "mancer/weaver"
 pin = "pinned"
@@ -537,10 +533,6 @@ pin = "pinned"
 
 ["motif-technologies/motif-3"]
 model = "motif-technologies/motif-3"
-pin = "pinned"
-
-["nex-agi/nex-n2.6"]
-model = "nex-agi/nex-n2.6"
 pin = "pinned"
 
 ["nousresearch/hermes-4-405b"]

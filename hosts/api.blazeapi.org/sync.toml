@@ -753,16 +753,6 @@ model = "openai/gpt-oss-120b"
 pin = "pinned"
 quant = "fp16"
 
-["grok-4.20-beta"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-quant = "fp16"
-
-["grok-4.20-multi-agent-beta"]
-model = "x-ai/grok-4.20-multi-agent"
-pin = "pinned"
-quant = "fp16"
-
 ["grok-4.3"]
 model = "x-ai/grok-4.3"
 pin = "pinned"
@@ -830,11 +820,6 @@ quant = "fp16"
 
 ["magistral-small-2509"]
 model = "mistralai/magistral-small-2509"
-pin = "pinned"
-quant = "fp16"
-
-["mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 quant = "fp16"
 
