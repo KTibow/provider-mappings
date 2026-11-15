@@ -1,0 +1,8 @@
+# Hand-maintained mappings for api.respan.ai; highest precedence.
+
+# Respan has two Span-01 ids: span-01-free (Span-01 Lite, "the free, lighter
+# tier") and span-01-pro (Span-01 itself, "the higher-accuracy tier"). "pro" is
+# not a tier above Span-01. OpenRouter's live respan/span-01 endpoint calls
+# span-01-pro.
+["span-01-pro"]
+model = "respan/span-01"
