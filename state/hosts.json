@@ -1469,6 +1469,7 @@
       "stealth/glyph-cluster",
       "tencent/hy-mt2-lite",
       "tencent/hy-mt2-pro",
+      "typesafe/jev-router",
       "x-ai/grok-4.20-non-reasoning",
       "x-ai/grok-4.20-non-reasoning-beta",
       "x-ai/grok-4.20-reasoning",
@@ -2690,6 +2691,7 @@
       "topaz-labs/sharpen",
       "topaz-labs/sharpen-gen",
       "typesafe/jev",
+      "typesafe/jev-router",
       "unbiased/pareto",
       "uso",
       "veed/fabric-1.0",
@@ -2930,6 +2932,7 @@
       "qwen/qwen3.8-27b:batch",
       "qwen/qwen3.8-max-0902:batch",
       "thinkingmachines/inkling-small:batch",
+      "typesafe/jev-router",
       "x-ai/grok-4.3:batch",
       "x-ai/grok-4.6:batch",
       "x-ai/grok-4.7:batch",
@@ -5166,6 +5169,7 @@
       "qwen/qwen3.8-27b:batch",
       "qwen/qwen3.8-max-0902:batch",
       "thinkingmachines/inkling-small:batch",
+      "typesafe/jev-router",
       "x-ai/grok-4.3:batch",
       "x-ai/grok-4.6:batch",
       "x-ai/grok-4.7:batch",
@@ -6566,7 +6570,8 @@
       "dot-qwen-coder-480b",
       "dot-rp-uncensored-24B",
       "dot-supercharged",
-      "dot-uncensored-obli-24B"
+      "dot-uncensored-obli-24B",
+      "jev-router"
     ],
     "api.venice.ai": [
       "claude-opus-5-5-fast",
@@ -7624,6 +7629,7 @@
       "tee/qwen3.8-27b-uncensored",
       "tee/qwen3.8-27b-uncensored:thinking",
       "thedrummer/artemis-v1.1",
+      "typesafe/jev-router",
       "upstage/solar-pro-3",
       "xiaomi/mimo-v2.6-flash-abliterated",
       "xiaomi/mimo-v2.6-flash-uncensored",
@@ -7659,7 +7665,8 @@
       "openrouter/bodybuilder",
       "openrouter/free",
       "openrouter/fusion",
-      "openrouter/pareto-code"
+      "openrouter/pareto-code",
+      "typesafe/jev-router"
     ],
     "routellm.abacus.ai": [
       "abacusai/Smaug-Flash",

@@ -2131,10 +2131,6 @@ pin = "pinned"
 model = "typesafe/jev-1.14"
 pin = "pinned"
 
-["typesafe/jev-router"]
-model = "typesafe/jev-router"
-pin = "pinned"
-
 ["unbiased/pareto-26.10"]
 model = "unbiased/pareto-26.10"
 pin = "pinned"

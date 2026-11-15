@@ -91,10 +91,13 @@ test('rows file round-trips, review rows included', () => {
 test('catalog: routers excluded, renames remembered, modalities kept', () => {
   const v1 = toCatalog([
     { id: 'openrouter/auto', canonical_slug: 'openrouter/auto' },
+    { id: 'typesafe/jev-router', canonical_slug: 'typesafe/jev-router' },
     { id: 'mongodb/rerank-3', canonical_slug: 'voyageai/rerank-3-20260930', architecture: { input_modalities: ['text'], output_modalities: ['rerank'] } },
     { id: '~typesafe/jev-latest', canonical_slug: '~typesafe/jev-latest' },
   ])
   assert.equal(v1['openrouter/auto'], undefined)
+  assert.equal(v1['typesafe/jev-router'], undefined)
+  assert.equal(toCatalog([], { 'typesafe/jev-router': { permaslug: 'typesafe/jev-router' } })['typesafe/jev-router'], undefined) // not kept as delisted
   assert.deepEqual(v1['mongodb/rerank-3']?.output, ['rerank'])
   assert.equal(v1['~typesafe/jev-latest']?.floating, true)
   const v2 = toCatalog([{ id: 'voyageai/rerank-3', canonical_slug: 'voyageai/rerank-3-20260930' }], v1)

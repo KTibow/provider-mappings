@@ -10,7 +10,7 @@
  * the id; only one-to-one matches are proposed, and only when that model's own
  * short name is not itself a listed id. Review the output before committing.
  */
-import { Registry, baseModels, fetchOrModels, normalizedForms, shortName, toCatalog } from '../lib/models.ts'
+import { Registry, baseModels, fetchOrModels, isOpenRouterRouter, normalizedForms, shortName, toCatalog } from '../lib/models.ts'
 import { getJson } from '../lib/http.ts'
 import { byKey, tomlString } from '../lib/rows.ts'
 
@@ -27,7 +27,7 @@ for (const u of urls) {
 }
 const models = await fetchOrModels()
 const reg = Registry.load(toCatalog(models))
-const catalog = baseModels(models).filter((m) => !m.id.startsWith('openrouter/'))
+const catalog = baseModels(models).filter((m) => !isOpenRouterRouter(m.id))
 
 const byForm = new Map<string, Set<string>>()
 for (const m of catalog) {

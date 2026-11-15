@@ -1039,10 +1039,6 @@ pin = "pinned"
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
-["typesafe/jev-router"]
-model = "typesafe/jev-router"
-pin = "pinned"
-
 ["unbiased/pareto-26.10"]
 model = "unbiased/pareto-26.10"
 pin = "pinned"

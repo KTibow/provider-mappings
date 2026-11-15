@@ -148,6 +148,14 @@ export interface CatalogEntry {
 }
 export type Catalog = Record<string, CatalogEntry>
 
+/**
+ * OpenRouter's own routers ("openrouter/auto") pick a model per request: not a
+ * model anyone else serves. Jev Router is one too (no endpoints of its own; it
+ * runs on Jev), so hosts relaying it are relaying OpenRouter, and aimlapi's
+ * "typesafe/jev-router" is aimlapi's own dynamic router with Jev as the judge.
+ */
+export const isOpenRouterRouter = (id: string): boolean => id.startsWith('openrouter/') || id === 'typesafe/jev-router'
+
 export function toCatalog(models: OrModel[], previous: Catalog = {}, today = new Date().toISOString().slice(0, 10)): Catalog {
   const out: Catalog = {}
   const prevBySlug = new Map<string, string>()
@@ -155,8 +163,7 @@ export function toCatalog(models: OrModel[], previous: Catalog = {}, today = new
   const bases = baseModels(models)
   const plainIds = new Set(bases.map((m) => m.id).filter((id) => !id.includes(':')))
   for (const m of bases) {
-    // OpenRouter's own routers ("openrouter/auto") pick a model per request: not a model anyone else serves.
-    if (m.id.startsWith('openrouter/')) continue
+    if (isOpenRouterRouter(m.id)) continue
     // ":free" / ":batch" are OpenRouter pricing variants; its permaslug has no
     // suffix. When only the variant is listed, the model id is the plain id, and
     // the variant id resolves to it.
@@ -179,7 +186,7 @@ export function toCatalog(models: OrModel[], previous: Catalog = {}, today = new
   // Models OpenRouter stopped listing stay, marked delisted (unless they were renamed).
   const renamed = new Set(Object.values(out).flatMap((e) => e.formerly ?? []))
   for (const [id, e] of Object.entries(previous))
-    if (!(id in out) && !renamed.has(id) && !id.startsWith('openrouter/')) out[id] = { ...e, delisted: e.delisted ?? today }
+    if (!(id in out) && !renamed.has(id) && !isOpenRouterRouter(id)) out[id] = { ...e, delisted: e.delisted ?? today }
   return out
 }
 
@@ -462,7 +469,7 @@ export class Matcher {
 export function registryMatcher(reg: Registry): Matcher {
   const m = new Matcher()
   for (const [id, e] of Object.entries(reg.catalog)) {
-    if (id.startsWith('openrouter/') || e.floating) continue // OpenRouter's own routers; floating aliases
+    if (isOpenRouterRouter(id) || e.floating) continue // OpenRouter's own routers; floating aliases
     const c = reg.ofOpenRouter(id)
     for (const n of [id, shortName(id), e.permaslug, e.hf, ...(e.formerly ?? [])]) m.add(n, c)
   }

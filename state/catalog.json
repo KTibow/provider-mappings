@@ -6391,20 +6391,6 @@
   ],
   "permaslug": "typesafe/jev-1.14-20261014"
  },
- "typesafe/jev-router": {
-  "input": [
-   "audio",
-   "file",
-   "image",
-   "text",
-   "video"
-  ],
-  "name": "TypeSafe: Jev Router",
-  "output": [
-   "text"
-  ],
-  "permaslug": "typesafe/jev-router"
- },
  "unbiased/pareto-26.10": {
   "input": [
    "image",
