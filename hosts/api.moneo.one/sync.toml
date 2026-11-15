@@ -35,6 +35,10 @@ pin = "pinned"
 model = "google/gemma-4-31b-it:web"
 pin = "pinned"
 
+["gpt-5-6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
 ["gpt-5-6-terra"]
 model = "openai/gpt-5.6-terra"
 pin = "pinned"

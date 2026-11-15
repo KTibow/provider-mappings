@@ -103,6 +103,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
+["claude-opus-4-5-20251101"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
 ["claude-opus-4-5:thinking"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
@@ -799,10 +803,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio"]
-model = "openai/gpt-audio"
-pin = "pinned"
-
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -1124,10 +1124,6 @@ model = "mistralai/mistral-large"
 pin = "pinned"
 
 ["mistral-large-4"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 

@@ -119,10 +119,6 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
-["GLM 5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["GLM 5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

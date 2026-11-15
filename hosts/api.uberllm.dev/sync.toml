@@ -275,6 +275,10 @@ pin = "pinned"
 model = "google/gemma-4-uncensored"
 pin = "pinned"
 
+["inception/mercury-2"]
+model = "inception/mercury-2"
+pin = "pinned"
+
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"
@@ -615,24 +619,8 @@ pin = "pinned"
 model = "openai/gpt-oss-safeguard-20b"
 pin = "pinned"
 
-["orcacyber/orcacyber-flash-1.0"]
-model = "orcacyber/orcacyber-flash-1.0"
-pin = "pinned"
-
 ["orcacyber/orcacyber-glm-5.3-flash"]
 model = "orcacyber/orcacyber-glm-5.3-flash"
-pin = "pinned"
-
-["orcacyber/orcacyber-mimo-flash"]
-model = "orcacyber/orcacyber-mimo-flash"
-pin = "pinned"
-
-["orcacyber/orcacyber-minimax-m3.1-flash"]
-model = "orcacyber/orcacyber-minimax-m3.1-flash"
-pin = "pinned"
-
-["orcacyber/orcacyber-qwen3.8-flash-next"]
-model = "orcacyber/orcacyber-qwen3.8-flash-next"
 pin = "pinned"
 
 ["particle-ai/particle-1"]

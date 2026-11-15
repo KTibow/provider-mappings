@@ -47,6 +47,10 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
+["claude-haiku-5-5:free"]
+model = "anthropic/claude-haiku-5.5:free"
+pin = "pinned"
+
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
@@ -171,6 +175,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["deepseek-v4.1-flash:free"]
+model = "deepseek/deepseek-v4.1-flash:free"
+pin = "pinned"
+
 ["dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview:free"
 pin = "pinned"
@@ -201,10 +209,6 @@ pin = "pinned"
 
 ["gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
-pin = "pinned"
-
-["gemini-2.5-flash:free"]
-model = "google/gemini-2.5-flash:free"
 pin = "pinned"
 
 ["gemini-2.5-pro"]
@@ -259,10 +263,6 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
-["gemini-3.8-flash:free"]
-model = "google/gemini-3.8-flash:free"
-pin = "pinned"
-
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
 pin = "pinned"
@@ -287,6 +287,10 @@ pin = "pinned"
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
 
+["gemma-4-31b-it:free"]
+model = "google/gemma-4-31b-it:free"
+pin = "pinned"
+
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"
@@ -309,6 +313,10 @@ pin = "pinned"
 
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["glm-5.2:free"]
+model = "z-ai/glm-5.2:free"
 pin = "pinned"
 
 ["glm-5.3"]
@@ -463,10 +471,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash:free"]
-model = "xiaomi/mimo-v2.6-flash:free"
-pin = "pinned"
-
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
@@ -477,10 +481,6 @@ pin = "pinned"
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
-pin = "pinned"
-
-["minimax-m3.1-flash:free"]
-model = "minimax/minimax-m3.1-flash:free"
 pin = "pinned"
 
 ["mistral-large-3"]

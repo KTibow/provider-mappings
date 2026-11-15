@@ -1,26 +1,10 @@
 {
- "api.empiriolabs.ai": {
-  "error": "fetch failed",
-  "failing_since": "2026-11-15"
- },
  "api.featherless.ai": {
   "error": "list shrank to 50 entries (had 198 mapped rows)",
   "failing_since": "2026-11-14"
  },
- "api.flyrouter.ai": {
-  "error": "fetch failed",
-  "failing_since": "2026-11-15"
- },
  "api.kairence.ai": {
   "error": "DNS: ENOTFOUND",
   "failing_since": "2026-11-12"
- },
- "nokeep.ai": {
-  "error": "fetch failed",
-  "failing_since": "2026-11-15"
- },
- "www.xpersona.co": {
-  "error": "fetch failed",
-  "failing_since": "2026-11-15"
  }
 }

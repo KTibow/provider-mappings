@@ -515,10 +515,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
-["moonshotai/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
 ["moonshotai/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

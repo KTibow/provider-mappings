@@ -2102,6 +2102,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["sakana-namazu"]
+model = "sakana/sakana-namazu"
+pin = "pinned"
+
 ["sakana/fugu-max"]
 model = "sakana/fugu-max"
 pin = "pinned"
@@ -2112,6 +2116,10 @@ pin = "pinned"
 
 ["sakana/fugu-ultra-v2.0"]
 model = "sakana/fugu-ultra-v2"
+pin = "pinned"
+
+["sakana/sakana-namazu"]
+model = "sakana/sakana-namazu"
 pin = "pinned"
 
 ["sciforium/deepseek-v4.1-flash-1017"]
