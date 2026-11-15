@@ -209,7 +209,7 @@ test('web-search variants map as "model:web"; service tiers stay unmapped', () =
   assert.deepEqual(out.unmapped, ['glm-5.1:batch'])
 })
 
-test('media operations and reasoning modes are variants of their model', () => {
+test('media operations are variants of their model; reasoning modes are not', () => {
   // The id names the operation; text-to-video and generation are the model itself.
   assert.equal(operationOf('seedance-2-0-image-to-video-basic'), 'image-to-video')
   assert.equal(operationOf('minimax-h3-enhanced-reference-to-video'), 'enhanced-reference-to-video')
@@ -224,10 +224,10 @@ test('media operations and reasoning modes are variants of their model', () => {
   assert.equal(withOperation('k3-edit', 'krea/k3-edit'), 'krea/k3-edit') // the model is the edit model
   assert.equal(withOperation('x-edit', 'a/x:edit'), 'a/x:edit')
   // Variants nest, and keep their own short names.
-  assert.deepEqual(splitVariant('z-ai/glm-5.1:non-thinking:web'), ['z-ai/glm-5.1:non-thinking', 'web'])
-  assert.equal(variantRoot('z-ai/glm-5.1:non-thinking:web'), 'z-ai/glm-5.1')
-  const reg = new Registry({ 'z-ai/glm-5.1': {}, 'bytedance/seedance-2.0': {} }, new Map([['z-ai/glm-5.1:non-thinking', { aliases: [], surplusLegacy: ['glm-5.1-non-thinking'] }]]))
-  assert.equal(reg.shortOf('z-ai/glm-5.1:non-thinking'), 'glm-5.1:non-thinking')
+  assert.deepEqual(splitVariant('z-ai/glm-5.1:free:web'), ['z-ai/glm-5.1:free', 'web'])
+  assert.equal(variantRoot('z-ai/glm-5.1:free:web'), 'z-ai/glm-5.1')
+  const reg = new Registry({ 'z-ai/glm-5.1': {}, 'bytedance/seedance-2.0': {} }, new Map([['z-ai/glm-5.1:free', { aliases: [], surplusLegacy: [] }]]))
+  assert.equal(reg.shortOf('z-ai/glm-5.1:free'), 'glm-5.1:free')
   const matcher = new Matcher()
   matcher.add('seedance-2.0', 'bytedance/seedance-2.0')
   matcher.add('glm-5.1', 'z-ai/glm-5.1')
@@ -235,14 +235,15 @@ test('media operations and reasoning modes are variants of their model', () => {
     { id: 'seedance-2.0-image-to-video' }, { id: 'seedance-2.0-t2v' },
     // The list says what a bare id is (uncensored.com: "Seedance 2.0 I2V").
     { id: 'seedance-2.0', op: 'image-to-video' },
-    { id: 'glm-5.1-non-thinking' }, { id: 'glm-5.1-non-thinking:web' },
+    // Models reason by default: ":thinking" is the model; reasoning switched off is not.
+    { id: 'glm-5.1:thinking' }, { id: 'glm-5.1-non-thinking' }, { id: 'glm-5.1-non-thinking:web' },
   ]
   const out = mapEntries({ reg, matcher }, { operation: (m) => m.op as string | undefined }, listed)
   assert.equal(out.rows.get('seedance-2.0-image-to-video')?.model, 'bytedance/seedance-2.0:image-to-video')
   assert.equal(out.rows.get('seedance-2.0-t2v')?.model, 'bytedance/seedance-2.0')
   assert.equal(out.rows.get('seedance-2.0')?.model, 'bytedance/seedance-2.0:image-to-video')
-  assert.equal(out.rows.get('glm-5.1-non-thinking')?.model, 'z-ai/glm-5.1:non-thinking')
-  assert.equal(out.rows.get('glm-5.1-non-thinking:web')?.model, 'z-ai/glm-5.1:non-thinking:web')
+  assert.equal(out.rows.get('glm-5.1:thinking')?.model, 'z-ai/glm-5.1')
+  assert.deepEqual(out.unmapped, ['glm-5.1-non-thinking', 'glm-5.1-non-thinking:web'])
   // Unless model-aliases.toml names the id: a model that only does image-to-video.
   const reg2 = new Registry({ 'runway/gen-4-turbo': {} }, new Map([['runway/gen-4-turbo', { aliases: [], surplusLegacy: ['runway-gen4-turbo'] }]]))
   const one = mapEntries({ reg: reg2, matcher: new Matcher() }, { operation: (m) => m.op as string | undefined }, [{ id: 'runway-gen4-turbo', op: 'image-to-video' }])

@@ -218,16 +218,8 @@ pin = "pinned"
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
-["xai/grok-4.1-fast-non-reasoning"]
-model = "x-ai/grok-4.1-fast"
-pin = "pinned"
-
 ["xai/grok-4.1-fast-reasoning"]
 model = "x-ai/grok-4.1-fast"
-pin = "pinned"
-
-["xai/grok-4.20-non-reasoning"]
-model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["xai/grok-4.20-reasoning"]

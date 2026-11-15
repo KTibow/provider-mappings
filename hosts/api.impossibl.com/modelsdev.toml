@@ -250,10 +250,6 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
-["xai/grok-4.20-0309-non-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
 ["xai/grok-4.20-0309-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"

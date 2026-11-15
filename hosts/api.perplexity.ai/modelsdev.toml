@@ -182,10 +182,6 @@ pin = "pinned"
 model = "perplexity/sonar-reasoning-pro"
 pin = "pinned"
 
-["xai/grok-4-1-fast-non-reasoning"]
-model = "x-ai/grok-4.1-fast"
-pin = "pinned"
-
 ["xai/grok-4.5"]
 model = "x-ai/grok-4.5"
 pin = "pinned"

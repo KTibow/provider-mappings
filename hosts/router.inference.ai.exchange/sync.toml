@@ -16,7 +16,7 @@ model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["MiniMax-M3:thinking"]
-model = "minimax/minimax-m3:thinking"
+model = "minimax/minimax-m3"
 pin = "pinned"
 
 ["abliterated-model-large-flash"]
@@ -80,7 +80,7 @@ model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
 ["claude-haiku-4-5:thinking"]
-model = "anthropic/claude-haiku-4.5:thinking"
+model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
 ["claude-haiku-5-5"]
@@ -96,7 +96,7 @@ model = "anthropic/claude-opus-4.1"
 pin = "pinned"
 
 ["claude-opus-4-1:thinking"]
-model = "anthropic/claude-opus-4.1:thinking"
+model = "anthropic/claude-opus-4.1"
 pin = "pinned"
 
 ["claude-opus-4-5"]
@@ -104,7 +104,7 @@ model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
 ["claude-opus-4-5:thinking"]
-model = "anthropic/claude-opus-4.5:thinking"
+model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
 ["claude-opus-4-6"]
@@ -112,7 +112,7 @@ model = "anthropic/claude-opus-4.6"
 pin = "pinned"
 
 ["claude-opus-4-6:thinking"]
-model = "anthropic/claude-opus-4.6:thinking"
+model = "anthropic/claude-opus-4.6"
 pin = "pinned"
 
 ["claude-opus-4-7"]
@@ -120,7 +120,7 @@ model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
 ["claude-opus-4-7:thinking"]
-model = "anthropic/claude-opus-4.7:thinking"
+model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
 ["claude-opus-4-8"]
@@ -128,7 +128,7 @@ model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
 ["claude-opus-4-8:thinking"]
-model = "anthropic/claude-opus-4.8:thinking"
+model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
 ["claude-opus-5"]
@@ -148,7 +148,7 @@ model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
 ["claude-sonnet-4-5:thinking"]
-model = "anthropic/claude-sonnet-4.5:thinking"
+model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
 ["claude-sonnet-4-6"]
@@ -156,7 +156,7 @@ model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
 ["claude-sonnet-4-6:thinking"]
-model = "anthropic/claude-sonnet-4.6:thinking"
+model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
 ["claude-sonnet-5"]
@@ -168,11 +168,11 @@ model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["claude-sonnet-5-5:thinking"]
-model = "anthropic/claude-sonnet-5.5:thinking"
+model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["claude-sonnet-5:thinking"]
-model = "anthropic/claude-sonnet-5:thinking"
+model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
 ["claude-sonnet-latest"]
@@ -220,11 +220,11 @@ model = "deepseek/deepseek-v3.1-terminus"
 pin = "pinned"
 
 ["deepseek-v3.1-terminus:thinking"]
-model = "deepseek/deepseek-v3.1-terminus:thinking"
+model = "deepseek/deepseek-v3.1-terminus"
 pin = "pinned"
 
 ["deepseek-v3.1:thinking"]
-model = "deepseek/deepseek-chat-v3.1:thinking"
+model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
 ["deepseek-v3.2"]
@@ -236,7 +236,7 @@ model = "deepseek/deepseek-v3.2-exp"
 pin = "pinned"
 
 ["deepseek-v3.2:thinking"]
-model = "deepseek/deepseek-v3.2:thinking"
+model = "deepseek/deepseek-v3.2"
 pin = "pinned"
 
 ["deepseek-v4-flash"]
@@ -248,7 +248,7 @@ model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["deepseek-v4-flash-0423:thinking"]
-model = "deepseek/deepseek-v4-flash:thinking"
+model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["deepseek-v4-flash-0731"]
@@ -256,7 +256,7 @@ model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
 ["deepseek-v4-flash-0731:thinking"]
-model = "deepseek/deepseek-v4-flash-0731:thinking"
+model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
 ["deepseek-v4-flash-latest"]
@@ -268,7 +268,7 @@ model = "deepseek/deepseek-v4-flash-vision-exp"
 pin = "pinned"
 
 ["deepseek-v4-flash:thinking"]
-model = "deepseek/deepseek-v4-flash:thinking"
+model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["deepseek-v4-pro"]
@@ -280,7 +280,7 @@ model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 
 ["deepseek-v4-pro-0813:thinking"]
-model = "deepseek/deepseek-v4-pro-0813:thinking"
+model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 
 ["deepseek-v4.1-flash"]
@@ -292,11 +292,11 @@ model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["deepseek-v4.1-flash-1017:thinking"]
-model = "deepseek/deepseek-v4.1-flash-1017:thinking"
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["deepseek-v4.1-flash:thinking"]
-model = "deepseek/deepseek-v4.1-flash:thinking"
+model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
 ["devstral-2-123b-instruct-2512"]
@@ -484,7 +484,7 @@ model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
 ["gemma-4-26b-a4b-it:thinking"]
-model = "google/gemma-4-26b-a4b-it:thinking"
+model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
 ["gemma-4-31b-it"]
@@ -492,7 +492,7 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 
 ["gemma-4-31b-it:thinking"]
-model = "google/gemma-4-31b-it:thinking"
+model = "google/gemma-4-31b-it"
 pin = "pinned"
 
 ["glimpse"]
@@ -508,11 +508,11 @@ model = "z-ai/glm-4.5-air"
 pin = "pinned"
 
 ["glm-4.5-air:thinking"]
-model = "z-ai/glm-4.5-air:thinking"
+model = "z-ai/glm-4.5-air"
 pin = "pinned"
 
 ["glm-4.5:thinking"]
-model = "z-ai/glm-4.5:thinking"
+model = "z-ai/glm-4.5"
 pin = "pinned"
 
 ["glm-4.5v"]
@@ -520,7 +520,7 @@ model = "z-ai/glm-4.5v"
 pin = "pinned"
 
 ["glm-4.5v:thinking"]
-model = "z-ai/glm-4.5v:thinking"
+model = "z-ai/glm-4.5v"
 pin = "pinned"
 
 ["glm-4.6"]
@@ -528,7 +528,7 @@ model = "z-ai/glm-4.6"
 pin = "pinned"
 
 ["glm-4.6:thinking"]
-model = "z-ai/glm-4.6:thinking"
+model = "z-ai/glm-4.6"
 pin = "pinned"
 
 ["glm-4.6v"]
@@ -544,11 +544,11 @@ model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
 ["glm-4.7-flash:thinking"]
-model = "z-ai/glm-4.7-flash:thinking"
+model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
 ["glm-4.7:thinking"]
-model = "z-ai/glm-4.7:thinking"
+model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["glm-5"]
@@ -564,7 +564,7 @@ model = "z-ai/glm-5.1"
 pin = "pinned"
 
 ["glm-5.1:thinking"]
-model = "z-ai/glm-5.1:thinking"
+model = "z-ai/glm-5.1"
 pin = "pinned"
 
 ["glm-5.2"]
@@ -572,7 +572,7 @@ model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["glm-5.2:thinking"]
-model = "z-ai/glm-5.2:thinking"
+model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["glm-5.3"]
@@ -596,11 +596,11 @@ model = "z-ai/glm-5.3-uncensored"
 pin = "pinned"
 
 ["glm-5.3:thinking"]
-model = "z-ai/glm-5.3:thinking"
+model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["glm-5:thinking"]
-model = "z-ai/glm-5:thinking"
+model = "z-ai/glm-5"
 pin = "pinned"
 
 ["glm-5v-turbo"]
@@ -608,7 +608,7 @@ model = "z-ai/glm-5v-turbo"
 pin = "pinned"
 
 ["glm-5v-turbo:thinking"]
-model = "z-ai/glm-5v-turbo:thinking"
+model = "z-ai/glm-5v-turbo"
 pin = "pinned"
 
 ["glm-latest"]
@@ -843,10 +843,6 @@ pin = "pinned"
 model = "x-ai/grok-4-fast"
 pin = "pinned"
 
-["grok-4-fast-non-reasoning"]
-model = "x-ai/grok-4-fast"
-pin = "pinned"
-
 ["grok-4-fast-reasoning"]
 model = "x-ai/grok-4-fast"
 pin = "pinned"
@@ -916,11 +912,11 @@ model = "thinkingmachines/inkling-small"
 pin = "pinned"
 
 ["inkling-small:thinking"]
-model = "thinkingmachines/inkling-small:thinking"
+model = "thinkingmachines/inkling-small"
 pin = "pinned"
 
 ["inkling:thinking"]
-model = "thinkingmachines/inkling:thinking"
+model = "thinkingmachines/inkling"
 pin = "pinned"
 
 ["kimi-k2-instruct"]
@@ -936,7 +932,7 @@ model = "moonshotai/kimi-k2"
 pin = "pinned"
 
 ["kimi-k2.5:thinking"]
-model = "moonshotai/kimi-k2.5:thinking"
+model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
 ["kimi-k2.6"]
@@ -944,7 +940,7 @@ model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["kimi-k2.6:thinking"]
-model = "moonshotai/kimi-k2.6:thinking"
+model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["kimi-k2.7-code"]
@@ -996,7 +992,7 @@ model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
 ["ling-3.0-flash:thinking"]
-model = "inclusionai/ling-3.0-flash:thinking"
+model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
 ["ling-3.0-tiny"]
@@ -1004,7 +1000,7 @@ model = "inclusionai/ling-3.0-tiny"
 pin = "pinned"
 
 ["ling-3.0-tiny:thinking"]
-model = "inclusionai/ling-3.0-tiny:thinking"
+model = "inclusionai/ling-3.0-tiny"
 pin = "pinned"
 
 ["ling-3.1-flash"]
@@ -1052,7 +1048,7 @@ model = "meituan/longcat-2.0"
 pin = "pinned"
 
 ["longcat-2.0:thinking"]
-model = "meituan/longcat-2.0:thinking"
+model = "meituan/longcat-2.0"
 pin = "pinned"
 
 ["magnum-v4-72b"]
@@ -1084,11 +1080,11 @@ model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
 ["mimo-v2.5-pro:thinking"]
-model = "xiaomi/mimo-v2.5-pro:thinking"
+model = "xiaomi/mimo-v2.5-pro"
 pin = "pinned"
 
 ["mimo-v2.5:thinking"]
-model = "xiaomi/mimo-v2.5:thinking"
+model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
 ["mimo-v2.6-flash"]
@@ -1148,7 +1144,7 @@ model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
 
 ["mistral-medium-3.5:thinking"]
-model = "mistralai/mistral-medium-3-5:thinking"
+model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
 
 ["mistral-nemo-instruct-2407"]
@@ -1176,7 +1172,7 @@ model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
 ["mistral-small-4-119b-2603:thinking"]
-model = "mistralai/mistral-small-2603:thinking"
+model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
 ["mixtral-8x22b-instruct-v0.1"]
@@ -1240,7 +1236,7 @@ model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
 
 ["nemotron-3-super-120b-a12b:thinking"]
-model = "nvidia/nemotron-3-super-120b-a12b:thinking"
+model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
 
 ["nemotron-3-ultra-550b-a55b"]
@@ -1248,7 +1244,7 @@ model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["nemotron-3-ultra-550b-a55b:thinking"]
-model = "nvidia/nemotron-3-ultra-550b-a55b:thinking"
+model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["nemotron-3.5-content-safety"]
@@ -1268,7 +1264,7 @@ model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
 
 ["nemotron-3.5-lightning:thinking"]
-model = "nvidia/nemotron-3.5-lightning:thinking"
+model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
 
 ["nemotron-3.5-super-vl"]
@@ -1312,7 +1308,7 @@ model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["nvidia/nemotron-3.5-super-vl:thinking"]
-model = "nvidia/nemotron-3.5-super-vl:thinking"
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["o3"]
@@ -1336,7 +1332,7 @@ model = "orcacyber/orcacyber-flash-1.0"
 pin = "pinned"
 
 ["orcacyber-flash-1.0:thinking"]
-model = "orcacyber/orcacyber-flash-1.0:thinking"
+model = "orcacyber/orcacyber-flash-1.0"
 pin = "pinned"
 
 ["orcacyber-glm-5.3-flash"]
@@ -1480,7 +1476,7 @@ model = "qwen/qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["qwen3.5-122b-a10b:thinking"]
-model = "qwen/qwen3.5-122b-a10b:thinking"
+model = "qwen/qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["qwen3.5-27b"]
@@ -1488,7 +1484,7 @@ model = "qwen/qwen3.5-27b"
 pin = "pinned"
 
 ["qwen3.5-27b:thinking"]
-model = "qwen/qwen3.5-27b:thinking"
+model = "qwen/qwen3.5-27b"
 pin = "pinned"
 
 ["qwen3.5-35b-a3b"]
@@ -1496,7 +1492,7 @@ model = "qwen/qwen3.5-35b-a3b"
 pin = "pinned"
 
 ["qwen3.5-35b-a3b:thinking"]
-model = "qwen/qwen3.5-35b-a3b:thinking"
+model = "qwen/qwen3.5-35b-a3b"
 pin = "pinned"
 
 ["qwen3.5-397b-a17b"]
@@ -1504,7 +1500,7 @@ model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
 
 ["qwen3.5-397b-a17b:thinking"]
-model = "qwen/qwen3.5-397b-a17b:thinking"
+model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
 
 ["qwen3.5-9b"]
@@ -1516,7 +1512,7 @@ model = "alibaba/qwen3.5-flash"
 pin = "pinned"
 
 ["qwen3.5-flash:thinking"]
-model = "alibaba/qwen3.5-flash:thinking"
+model = "alibaba/qwen3.5-flash"
 pin = "pinned"
 
 ["qwen3.5-plus"]
@@ -1524,7 +1520,7 @@ model = "alibaba/qwen3.5-plus"
 pin = "pinned"
 
 ["qwen3.5-plus:thinking"]
-model = "alibaba/qwen3.5-plus:thinking"
+model = "alibaba/qwen3.5-plus"
 pin = "pinned"
 
 ["qwen3.6-27b"]
@@ -1532,7 +1528,7 @@ model = "qwen/qwen3.6-27b"
 pin = "pinned"
 
 ["qwen3.6-27b:thinking"]
-model = "qwen/qwen3.6-27b:thinking"
+model = "qwen/qwen3.6-27b"
 pin = "pinned"
 
 ["qwen3.6-35b-a3b"]
@@ -1540,7 +1536,7 @@ model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
 ["qwen3.6-35b-a3b:thinking"]
-model = "qwen/qwen3.6-35b-a3b:thinking"
+model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
 ["qwen3.6-flash"]
@@ -1556,7 +1552,7 @@ model = "qwen/qwen3.7-flash"
 pin = "pinned"
 
 ["qwen3.7-flash:thinking"]
-model = "qwen/qwen3.7-flash:thinking"
+model = "qwen/qwen3.7-flash"
 pin = "pinned"
 
 ["qwen3.7-max"]
@@ -1564,7 +1560,7 @@ model = "qwen/qwen3.7-max"
 pin = "pinned"
 
 ["qwen3.7-max:thinking"]
-model = "qwen/qwen3.7-max:thinking"
+model = "qwen/qwen3.7-max"
 pin = "pinned"
 
 ["qwen3.7-plus"]
@@ -1572,7 +1568,7 @@ model = "qwen/qwen3.7-plus"
 pin = "pinned"
 
 ["qwen3.7-plus:thinking"]
-model = "qwen/qwen3.7-plus:thinking"
+model = "qwen/qwen3.7-plus"
 pin = "pinned"
 
 ["qwen3.8-2.4t-a95b"]
@@ -1584,7 +1580,7 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["qwen3.8-27b:thinking"]
-model = "qwen/qwen3.8-27b:thinking"
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["qwen3.8-flash"]
@@ -1610,6 +1606,10 @@ pin = "pinned"
 ["qwen3.8-max-prime"]
 model = "qwen/qwen3.8-max-prime"
 pin = "pinned"
+
+["qwen3.8-max:thinking"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
 
 ["qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
@@ -1708,7 +1708,7 @@ model = "upstage/solar-mini4"
 pin = "pinned"
 
 ["solar-mini4:thinking"]
-model = "upstage/solar-mini4:thinking"
+model = "upstage/solar-mini4"
 pin = "pinned"
 
 ["solar-pro4"]
@@ -1716,7 +1716,7 @@ model = "upstage/solar-pro4"
 pin = "pinned"
 
 ["solar-pro4:thinking"]
-model = "upstage/solar-pro4:thinking"
+model = "upstage/solar-pro4"
 pin = "pinned"
 
 ["stable-diffusion-3.5-large"]
@@ -1732,7 +1732,7 @@ model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-3.7-flash:thinking"]
-model = "stepfun/step-3.7-flash:thinking"
+model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-5-preview"]

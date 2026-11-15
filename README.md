@@ -152,9 +152,6 @@ id, in OpenRouter's `model:variant` form; `models.json` lists it with `variant_o
 - web search built in: "glm-5.1:web" on mor.org is `z-ai/glm-5.1:web`;
 - a free tier: OpenRouter's `google/gemma-4-31b-it:free`. When OpenRouter lists
   only the free tier, that is the model itself;
-- a reasoning mode sold as its own id: "glm-5.1:thinking" is
-  `z-ai/glm-5.1:thinking`. A mode a host spells into the name
-  ("glm-5.1-non-thinking") is declared in `model-aliases.toml`, never guessed;
 - a media operation other than the model's default. Text-to-video and image
   generation are the model itself; `:image-to-video`, `:reference-to-video`,
   `:enhanced-reference-to-video`, `:transition` and `:edit` are variants. The
@@ -163,8 +160,11 @@ id, in OpenRouter's `model:variant` form; `models.json` lists it with `variant_o
   from the list ("seedance-2.0" is "Seedance 2.0 I2V"). A model that does only one
   operation is the model itself: name the host's id in `model-aliases.toml`.
 
-Variants nest (`z-ai/glm-5.1:non-thinking:web`). Service tiers (`:batch`, `:flex`,
-`:priority`) are not mapped.
+Variants nest (`z-ai/glm-5.1:free:web`). Service tiers (`:batch`, `:flex`,
+`:priority`) are not mapped. A reasoning mode is not a variant: models reason by
+default, so "claude-opus-4-5:thinking" is `anthropic/claude-opus-4.5`, and an id
+with reasoning switched off ("glm-5.1-non-thinking", "grok-4.20-0309-non-reasoning")
+is not the model and stays unmapped.
 
 Rows are keyed by the id, not the permaslug. Permaslugs change whenever OpenRouter
 swaps the checkpoint behind an id, so keying by them would rewrite every row with
@@ -239,7 +239,7 @@ OpenRouter's naming but not always (`mistralai/mistral-medium-2604` is OpenRoute
    These are never mapped automatically, from any source (an OpenRouter row that
    would do it is held for review; models.dev and host-list ids stay unmapped):
    - ids with a tier or variant word the model id lacks: `-fast`, `-flex`,
-     `-lightning`, `e2ee-`, `:web`, and fine-tunes such as `-abliterated`,
+     `-lightning`, `e2ee-`, `:web`, `-non-thinking`, and fine-tunes such as `-abliterated`,
      `-uncensored`, `-distill` (also checked against a host's display name where
      configured, so Venice's "Qwen 3.6 Plus Uncensored" is not Qwen 3.6 Plus);
    - moving aliases that have no `~` model to sit under.

@@ -146,10 +146,6 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
-["grok-4-1-fast-non-reasoning"]
-model = "x-ai/grok-4.1-fast"
-pin = "pinned"
-
 ["grok-4-1-fast-reasoning"]
 model = "x-ai/grok-4.1-fast"
 pin = "pinned"

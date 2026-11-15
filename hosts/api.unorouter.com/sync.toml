@@ -303,10 +303,6 @@ pin = "pinned"
 model = "z-ai/glm-4.7-flash:free"
 pin = "pinned"
 
-["glm-4.7-thinking"]
-model = "z-ai/glm-4.7:thinking"
-pin = "pinned"
-
 ["glm-5.1"]
 model = "z-ai/glm-5.1"
 pin = "pinned"

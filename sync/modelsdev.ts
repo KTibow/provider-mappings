@@ -11,7 +11,7 @@
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import { parse } from 'smol-toml'
-import { loadRegistry, registryMatcher, settlePin, splitVariant, tierMismatch, withOperation } from '../lib/models.ts'
+import { loadRegistry, reasoningOff, registryMatcher, settlePin, splitVariant, tierMismatch, withOperation } from '../lib/models.ts'
 import { loadAliases, parseBaseUrl, resolveHost } from '../lib/host.ts'
 import { NO_HOST, SDK_DEFAULT_BASE, fillHostVariables } from '../lib/sdk-hosts.ts'
 import { getText } from '../lib/http.ts'
@@ -120,7 +120,8 @@ async function main() {
         const hit = reg.resolve(cmi) ?? matcher.match([cmi])?.model ?? (undated !== cmi ? (reg.resolve(undated) ?? matcher.match([undated])?.model) : undefined)
         // A declared slug nothing knows becomes its own id, unless it names a moving
         // alias ("mistralai/codestral-latest"): that is only ever a "~" id.
-        model = hit && !tierMismatch(cmi, hit) ? hit : guessPin(cmi) === 'floating' ? reg.floatingFor(cmi) : reg.ofSlug(cmi)
+        // Nor does one with reasoning switched off ("xai/grok-4.20-0309-non-reasoning").
+        model = hit && !tierMismatch(cmi, hit) ? hit : reasoningOff(cmi) ? undefined : guessPin(cmi) === 'floating' ? reg.floatingFor(cmi) : reg.ofSlug(cmi)
         declared = true
         // A tier ("-highspeed") declared as its base model: use the tier's own
         // model id if OpenRouter has exactly that (vendor of the declared id +

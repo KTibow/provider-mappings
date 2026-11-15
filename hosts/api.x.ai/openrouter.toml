@@ -2,10 +2,6 @@
 # Do not edit: this file is rewritten every hour. Put fixes and additions in
 # manual.toml next to it, which takes precedence.
 
-["grok-4.20-0309-non-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
 ["grok-4.20-multi-agent-0309"]
 model = "x-ai/grok-4.20-multi-agent"
 pin = "pinned"
@@ -57,3 +53,12 @@ pin = "pinned"
 ["x-ai/grok-stt-1.0"]
 model = "x-ai/grok-stt-1.0"
 pin = "pinned"
+
+# ---------------------------------------------------------------------------
+# Rows below need a person to check them, so they are commented out.
+# Once verified, copy the row (uncommented) into manual.toml.
+
+# needs review: native id has "non", which x-ai/grok-4.20 lacks: a tier or variant, not the model itself
+# ["grok-4.20-0309-non-reasoning"]
+# model = "x-ai/grok-4.20"
+# pin = "pinned"

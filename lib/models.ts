@@ -28,15 +28,15 @@ import { MODEL_RE } from './rows.ts'
  *   - "web": with the host's web search built in ("glm-5.1:web");
  *   - "free": its free tier ("gemma-4-31b-it:free", with its own limits). When
  *     OpenRouter lists only the free tier, the catalog makes that the model itself;
- *   - "thinking", "non-thinking": a reasoning mode a host sells as its own id
- *     ("glm-5.1-non-thinking"; declared in model-aliases.toml, never guessed);
  *   - an operation of a media model other than its default (see operationOf).
- * Variants nest ("z-ai/glm-5.1:non-thinking:web"). Service tiers (":batch",
+ * Variants nest ("z-ai/glm-5.1:free:web"). A reasoning mode is not a variant:
+ * ":thinking" is the model itself (see undecorate), and an id with reasoning
+ * switched off ("-non-thinking") is not the model at all. Service tiers (":batch",
  * ":flex", ":priority") are left unmapped, and OpenRouter's ":online" is a
  * request option, not something a host lists.
  */
 export const OPERATIONS = ['image-to-video', 'reference-to-video', 'enhanced-reference-to-video', 'transition', 'edit'] as const
-export const VARIANTS = ['web', 'free', 'thinking', 'non-thinking', ...OPERATIONS] as const
+export const VARIANTS = ['web', 'free', ...OPERATIONS] as const
 const VARIANT_RE = new RegExp(`^(.+):(${VARIANTS.join('|')})$`, 'i')
 
 /** "z-ai/glm-5.1:web" -> ["z-ai/glm-5.1", "web"]; undefined for an id without a variant. */
@@ -45,7 +45,7 @@ export function splitVariant(id: string): [string, string] | undefined {
   return m && m[1]!.includes('/') === id.includes('/') ? [m[1]!, m[2]!.toLowerCase()] : undefined
 }
 
-/** The model a variant is of, through any nesting ("z-ai/glm-5.1:non-thinking:web" -> "z-ai/glm-5.1"). */
+/** The model a variant is of, through any nesting ("z-ai/glm-5.1:free:web" -> "z-ai/glm-5.1"). */
 export function variantRoot(id: string): string {
   const v = splitVariant(id)
   return v ? variantRoot(v[0]) : id
@@ -71,7 +71,7 @@ export function withOperation(nativeId: string, model: string, op = operationOf(
   return `${model}:${op}`
 }
 
-/** A variant's short name keeps its variants ("glm-5.1:non-thinking:web"), apart from its model's. */
+/** A variant's short name keeps its variants ("glm-5.1:free:web"), apart from its model's. */
 function shortKey(id: string): string {
   const v = splitVariant(id)
   return v ? `${shortKey(v[0])}:${v[1]}` : shortName(id)
@@ -394,7 +394,8 @@ export function normalizedForms(id: string): string[] {
 /**
  * An id without the routing decorations routers add: a region ("…@eu",
  * "…@us-east-1"; a version pin like "@20250929" starts with a digit and stays),
- * a context window ("…[1m]"), Bedrock's API version ("…-v1:0", "…-1:0"),
+ * a context window ("…[1m]"), a reasoning switch ("…:thinking": models reason
+ * by default, so that is the model itself), Bedrock's API version ("…-v1:0", "…-1:0"),
  * Vertex's model-as-a-service suffix ("…-maas"), and the operation a media
  * host sells separately ("seedance-2-0-text-to-video-basic", "wan-2.7-t2v",
  * "mmaudio-v2-text-to-audio"), so it matches its model; the sync then maps a
@@ -406,6 +407,7 @@ export function undecorate(id: string): string {
   return id
     .trim()
     .replace(/\[\d+[km]\]$/i, '')
+    .replace(/:thinking$/i, '')
     .replace(/@[a-z][a-z0-9-]*$/i, '')
     .replace(/-v?\d+:\d+$/, '')
     .replace(/-maas$/i, '')
@@ -515,12 +517,16 @@ export async function loadRegistry(): Promise<{ reg: Registry; models: OrModel[]
  * "ultra", "spot" and "economy" (serving tiers; Volcengine and BytePlus sell
  * "deepseek-v4-1-flash-economy-261017" beside the plain id), "cost" (flow7's
  * "…:low-cost" routes, a tenth of its "…:official" price) and "contributor" (Meta's Muse Spark
- * builds, which OpenRouter lists separately).
+ * builds, which OpenRouter lists separately). "non" ("-non-thinking",
+ * "-non-reasoning"): reasoning switched off is not the model, which reasons by default.
  * "free" is not one: like OpenRouter's ":free", it is a pricing variant of the
  * same model.
  */
-const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'economy', 'cost', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web'])
+const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'economy', 'cost', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web', 'non'])
 const words = (s: string) => new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))
+
+/** An id with reasoning switched off ("grok-4.20-0309-non-reasoning"): never a model id of its own. */
+export const reasoningOff = (id: string): boolean => words(shortName(id)).has('non')
 
 export function tierMismatch(nativeId: string, canonical: string): string | undefined {
   const c = words(shortName(canonical))

@@ -144,10 +144,9 @@ surplus_legacy = ["mistral-large-3"]
 ["nvidia/nemotron-3-super-120b-a12b"]
 surplus_legacy = ["nvidia-nemotron-3-super-120b"]
 
-# Reasoning on or off is a mode of one model, not two (OpenRouter's own xAI
-# endpoint calls grok-4.20-0309-non-reasoning); models.dev splits them.
 ["x-ai/grok-4.20"]
-aliases = ["x-ai/grok-4.20-0309-non-reasoning", "x-ai/grok-4.20-0309-reasoning"]
+# models.dev splits it by mode; OpenRouter's id is the reasoning one (permaslug x-ai/grok-4.20-20260309).
+aliases = ["x-ai/grok-4.20-0309-reasoning"]
 surplus_legacy = ["grok-4.20-beta"]
 
 ["x-ai/grok-4.20-multi-agent"]
@@ -181,10 +180,10 @@ surplus_legacy = ["ministral-3-14b-instruct"]
 name = "xAI: Grok 4.1 Fast"
 aliases = ["x-ai/grok-4.1-fast-reasoning"]
 
-# OpenRouter delisted x-ai/grok-4-fast; models.dev splits it by mode.
+# OpenRouter delisted x-ai/grok-4-fast; models.dev calls it by its reasoning mode.
 ["x-ai/grok-4-fast"]
 name = "xAI: Grok 4 Fast"
-aliases = ["x-ai/grok-4-fast-non-reasoning", "x-ai/grok-4-fast-reasoning"]
+aliases = ["x-ai/grok-4-fast-reasoning"]
 
 # models.dev's undated id for OpenRouter's dated one (same model, same description).
 # models.dev drops OpenRouter's "-v1" from Amazon Nova ids.
@@ -1220,12 +1219,6 @@ surplus_legacy = ["tts-xai-v1"]
 
 ["xiaohongshu/firered-image-edit"]
 name = "Firered Image (image-to-image)"
-
-["z-ai/glm-4.7:thinking"]
-surplus_legacy = ["glm-4.7-thinking"]
-
-["z-ai/glm-5.1:non-thinking"]
-surplus_legacy = ["glm-5.1-non-thinking"]
 
 ["z-ai/glm-5.3-uncensored"]
 

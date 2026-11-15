@@ -350,10 +350,6 @@ pin = "pinned"
 model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
-["grok-4-fast-non-reasoning"]
-model = "x-ai/grok-4-fast"
-pin = "pinned"
-
 ["grok-4-fast-reasoning"]
 model = "x-ai/grok-4-fast"
 pin = "pinned"

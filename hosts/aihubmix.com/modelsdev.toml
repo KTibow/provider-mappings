@@ -390,10 +390,6 @@ pin = "pinned"
 model = "openai/gpt-image-2.5-sunburst"
 pin = "pinned"
 
-["grok-4-fast-non-reasoning"]
-model = "x-ai/grok-4-fast"
-pin = "pinned"
-
 ["grok-4.3"]
 model = "x-ai/grok-4.3"
 pin = "pinned"

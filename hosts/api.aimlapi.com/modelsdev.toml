@@ -622,14 +622,6 @@ pin = "pinned"
 model = "upstage/solar-pro4"
 pin = "pinned"
 
-["x-ai/grok-4-20-0309-non-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
-["x-ai/grok-4-fast-non-reasoning"]
-model = "x-ai/grok-4-fast"
-pin = "pinned"
-
 ["xiaomi/mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"

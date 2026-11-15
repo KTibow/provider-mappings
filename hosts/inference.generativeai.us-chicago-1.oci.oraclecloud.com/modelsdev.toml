@@ -22,10 +22,6 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
-["xai.grok-4.20-non-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
 ["xai.grok-4.20-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"

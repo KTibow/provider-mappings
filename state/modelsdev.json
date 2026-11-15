@@ -11,6 +11,8 @@
       "gpt-5.1-chat-latest",
       "grok-3",
       "grok-3-mini",
+      "grok-4-1-fast-non-reasoning",
+      "grok-4-fast-non-reasoning",
       "llama-3.1-8b-instruct-turbo",
       "llama-guard-4",
       "o1-mini",
@@ -158,6 +160,7 @@
       "recraft/recraft-v2",
       "scaledown/scaledown-extract-1",
       "scaledown/scaledown-summarize-1",
+      "spacexai/grok-4.20-non-reasoning",
       "spacexai/grok-4.20-non-reasoning-beta",
       "spacexai/grok-4.20-reasoning-beta",
       "spacexai/grok-stt",
@@ -179,6 +182,13 @@
     ],
     "ai.api.nvidia.com": [
       "nvidia/rerank-qa-mistral-4b"
+    ],
+    "aihubmix.com": [
+      "grok-4-fast-non-reasoning"
+    ],
+    "aiplatform.googleapis.com": [
+      "xai/grok-4.1-fast-non-reasoning",
+      "xai/grok-4.20-non-reasoning"
     ],
     "aistupidlevel.info": [
       "auto",
@@ -203,7 +213,8 @@
       "openai/gpt-5-chat-latest",
       "openai/gpt-5.1-chat-latest",
       "openai/gpt-5.2-chat-latest",
-      "openai/gpt-5.3-chat-latest"
+      "openai/gpt-5.3-chat-latest",
+      "xai/grok-4.20-0309-non-reasoning"
     ],
     "api-gw.klok.ipaas.se": [
       "Kloker",
@@ -224,6 +235,7 @@
       "gpt-5.1-chat-latest",
       "gpt-5.2-chat-latest",
       "gpt-5.3-chat-latest",
+      "grok-4-fast-non-reasoning",
       "grok-4.1"
     ],
     "api.abliteratedllm.dev": [
@@ -239,7 +251,9 @@
       "glm-5.2-fast"
     ],
     "api.aimlapi.com": [
-      "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+      "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "x-ai/grok-4-20-0309-non-reasoning",
+      "x-ai/grok-4-fast-non-reasoning"
     ],
     "api.ambient.xyz": [
       "ambient/small",
@@ -308,7 +322,9 @@
       "openai/gpt-latest",
       "openai/gpt-mini-latest",
       "openai/gpt-pro-latest",
-      "vertex/gemini-pro-latest"
+      "vertex/gemini-pro-latest",
+      "xai/grok-4-fast-non-reasoning",
+      "xai/grok-4.20-0309-non-reasoning"
     ],
     "api.fastino.ai": [
       "fastino/GLiNER-2.5-Decide",
@@ -345,6 +361,9 @@
       "holo2-30b-a3b",
       "kimi-k2.6-fast"
     ],
+    "api.impossibl.com": [
+      "xai/grok-4.20-0309-non-reasoning"
+    ],
     "api.inco.ai": [
       "deepseek-v4.1-flash:fast",
       "glm-5.3-flash:fast",
@@ -369,7 +388,9 @@
     ],
     "api.jiekou.ai": [
       "gpt-5-chat-latest",
-      "grok-4-0709"
+      "grok-4-0709",
+      "grok-4-1-fast-non-reasoning",
+      "grok-4-fast-non-reasoning"
     ],
     "api.kimi.ai": [
       "k3.1-pro-highspeed"
@@ -414,6 +435,8 @@
       "glm-5.2-fast",
       "glm-5.3-fast",
       "google-ai-studio/gemini-pro-latest",
+      "grok-4-20-beta-0309-non-reasoning",
+      "grok-4-20-non-reasoning",
       "inference.net/deepseek-v4.1-flash-cyber",
       "inference.net/deepseek-v4.1-flash-latest",
       "inference.net/llama-3.2-11b-instruct",
@@ -439,6 +462,8 @@
       "seed-2-0-pro-260328",
       "tencent/deepseek-v4.1-flash-latest",
       "together-ai/deepseek-v4.1-flash-latest",
+      "vertex-openai/grok-4-20-non-reasoning",
+      "xai/grok-4-20-beta-0309-non-reasoning",
       "zai/glm-4-32b-0414-128k",
       "zai/glm-4.5-airx",
       "zai/glm-4.5-x",
@@ -542,6 +567,9 @@
       "orcarouter/fusion-flash",
       "orcarouter/fusion-mini"
     ],
+    "api.perplexity.ai": [
+      "xai/grok-4-1-fast-non-reasoning"
+    ],
     "api.poe.com": [
       "anthropic/claude-sonnet-3.5-june",
       "google/gemini-deep-research",
@@ -574,7 +602,9 @@
       "topazlabs-co/topazlabs",
       "trytako/tako",
       "xai/grok-3",
-      "xai/grok-3-mini"
+      "xai/grok-3-mini",
+      "xai/grok-4-fast-non-reasoning",
+      "xai/grok-4.1-fast-non-reasoning"
     ],
     "api.qnaigc.com": [
       "deepseek/deepseek-math-v2",
@@ -590,6 +620,8 @@
       "qwen-vl-max-2025-01-25",
       "qwen3-30b-a3b-thinking-2507",
       "stepfun-ai/gelab-zero-4b-preview",
+      "x-ai/grok-4-fast-non-reasoning",
+      "x-ai/grok-4.1-fast-non-reasoning",
       "z-ai/autoglm-phone-9b"
     ],
     "api.rayline.ai": [
@@ -673,6 +705,9 @@
       "Qwen/Qwen2.5-7B-Instruct-Turbo",
       "meta-llama/Llama-3.3-70B-Instruct-Turbo"
     ],
+    "api.tokenlab.sh": [
+      "grok-4.20-non-reasoning"
+    ],
     "api.trustedrouter.com": [
       "trustedrouter/auto",
       "trustedrouter/cheap",
@@ -704,6 +739,9 @@
     "api.withhopper.com": [
       "deepseek-v4.1-flash-1017-abliterated"
     ],
+    "api.x.ai": [
+      "grok-4.20-0309-non-reasoning"
+    ],
     "api.z.ai": [
       "glm-5.2-highspeed",
       "glm-5.3-highspeed"
@@ -719,6 +757,9 @@
       "agnes-2.5-flash",
       "agnes-2.5-pro-alpha",
       "agnes-3.0-flash"
+    ],
+    "app.frogbot.ai": [
+      "grok-4-1-fast-non-reasoning"
     ],
     "ark.ap-southeast.bytepluses.com": [
       "deepseek-v4-1-flash-economy-261017"
@@ -804,6 +845,9 @@
     "echo.tracerml.ai": [
       "echo"
     ],
+    "gateway.ai.cloudflare.com": [
+      "xai/grok-4.20-0309-non-reasoning"
+    ],
     "generativelanguage.googleapis.com": [
       "gemini-2.5-flash-preview-tts",
       "gemini-2.5-pro-preview-tts",
@@ -847,6 +891,9 @@
       "qwen3-embedding-0.6b",
       "qwen3-tts-voicedesign",
       "wan2-2-t2v-a14b"
+    ],
+    "inference.generativeai.us-chicago-1.oci.oraclecloud.com": [
+      "xai.grok-4.20-non-reasoning"
     ],
     "inference.net": [
       "google/gemma-3",
@@ -978,15 +1025,12 @@
       "claw-low",
       "claw-medium",
       "deepcogito/cogito-v1-preview-qwen-32B",
-      "deepseek-ai/DeepSeek-V3.1-Terminus:thinking",
       "deepseek-ai/deepseek-v3.2-exp-thinking",
       "deepseek/deepseek-latest",
-      "deepseek/deepseek-v4-pro-20260423:thinking",
       "deepseek/deepseek-v4.1-flash-0910-uncensored",
       "deepseek/deepseek-v4.1-flash-0910-uncensored:thinking",
       "deepseek/deepseek-v4.1-flash-1017-uncensored",
       "deepseek/deepseek-v4.1-flash-1017-uncensored:thinking",
-      "deepseek/deepseek-v4.1-flash-uncensored:thinking",
       "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
       "fastgpt",
       "featherless-ai/Qwerky-72B",
@@ -1037,7 +1081,6 @@
       "mistral-code-agent-latest",
       "mistral-code-latest",
       "mistralai/devstral-small-2505",
-      "mistralai/mistral-medium-3.5:thinking",
       "mlabonne/NeuralDaredevil-8B-abliterated",
       "moonshotai/kimi-k3.1-pro-highspeed",
       "moonshotai/kimi-latest",
@@ -1054,7 +1097,6 @@
       "openai/gpt-luna-latest",
       "openai/gpt-sol-latest",
       "openai/gpt-terra-latest",
-      "orca/orcacyber-flash-1.0:thinking",
       "orca/orcacyber-k3.1-pro",
       "ornith-ai/ornith-1.5-122b",
       "ornith-ai/ornith-1.5-35b-a3b",
@@ -1151,6 +1193,7 @@
       "gpt-5.3-chat-latest",
       "grok-4-0709",
       "grok-4-1-fast-non-reasoning",
+      "grok-4-fast-non-reasoning",
       "kimi-k2-turbo-preview",
       "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
       "route-llm"

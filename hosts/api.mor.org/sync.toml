@@ -519,14 +519,6 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
-["glm-5.1-non-thinking"]
-model = "z-ai/glm-5.1:non-thinking"
-pin = "pinned"
-
-["glm-5.1-non-thinking:web"]
-model = "z-ai/glm-5.1:non-thinking:web"
-pin = "pinned"
-
 ["glm-5.1:web"]
 model = "z-ai/glm-5.1:web"
 pin = "pinned"

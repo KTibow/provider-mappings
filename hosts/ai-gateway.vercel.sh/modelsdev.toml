@@ -1106,10 +1106,6 @@ pin = "pinned"
 model = "x-ai/grok-4.20-multi-agent"
 pin = "pinned"
 
-["spacexai/grok-4.20-non-reasoning"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
 ["spacexai/grok-4.20-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
