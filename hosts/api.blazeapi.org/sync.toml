@@ -1038,6 +1038,11 @@ model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
 quant = "fp16"
 
+["qwen3.7-flash"]
+model = "qwen/qwen3.7-flash"
+pin = "pinned"
+quant = "fp16"
+
 ["qwen3.8-2.4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"

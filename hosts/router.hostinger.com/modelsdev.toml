@@ -30,10 +30,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
-["glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

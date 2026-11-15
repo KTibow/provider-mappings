@@ -463,10 +463,6 @@ pin = "pinned"
 model = "baseten/mammoth-1"
 pin = "pinned"
 
-["mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"

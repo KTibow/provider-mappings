@@ -47,6 +47,11 @@ model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 quant = "mxfp4"
 
+["MiniMax-M3.1-Flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+quant = "nvfp4"
+
 ["Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"

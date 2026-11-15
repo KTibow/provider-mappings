@@ -855,10 +855,6 @@ pin = "pinned"
 model = "qwen/qwen3.5-397b-a17b:thinking"
 pin = "pinned"
 
-["qwen/qwen3.5-9b"]
-model = "qwen/qwen3.5-9b"
-pin = "pinned"
-
 ["qwen/qwen3.5-plus:thinking"]
 model = "alibaba/qwen3.5-plus:thinking"
 pin = "pinned"

@@ -43,6 +43,11 @@ model = "openai/gpt-oss-120b"
 pin = "pinned"
 quant = "int4"
 
+["hy4-preview"]
+model = "tencent/hy4-preview"
+pin = "pinned"
+quant = "fp4"
+
 ["kimi-k2-5"]
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"

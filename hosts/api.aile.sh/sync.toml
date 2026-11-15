@@ -559,10 +559,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
-["ollama-cloud/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
 ["ollama-cloud/minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"

@@ -431,14 +431,6 @@ pin = "pinned"
 model = "ibm-granite/granite-4.2-8b"
 pin = "pinned"
 
-["inception/mercury-2"]
-model = "inception/mercury-2"
-pin = "pinned"
-
-["inception/mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"

@@ -1,8 +1,4 @@
 {
- "api.empiriolabs.ai": {
-  "error": "fetch failed",
-  "failing_since": "2026-11-14"
- },
  "api.featherless.ai": {
   "error": "list shrank to 50 entries (had 198 mapped rows)",
   "failing_since": "2026-11-14"
@@ -12,7 +8,11 @@
   "failing_since": "2026-11-12"
  },
  "apihub.agnes-ai.com": {
-  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261114213524822226877jVEx2waK)\",\"type\":\"AgnesAI_error\"}}",
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261115020007246261109Q5g1vupN)\",\"type\":\"AgnesAI_error\"}}",
   "failing_since": "2026-11-13"
+ },
+ "router.bumo.ai": {
+  "error": "fetch failed",
+  "failing_since": "2026-11-15"
  }
 }

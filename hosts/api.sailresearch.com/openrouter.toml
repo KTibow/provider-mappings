@@ -25,12 +25,6 @@
 # quant = "fp4"
 
 # needs review: base URL is OpenRouter-only (https://api.sailresearch.com/partner/v1)
-# ["moonshotai/Kimi-K3"]
-# model = "moonshotai/kimi-k3"
-# pin = "pinned"
-# quant = "fp4"
-
-# needs review: base URL is OpenRouter-only (https://api.sailresearch.com/partner/v1)
 # ["moonshotai/Kimi-K3.1-Pro"]
 # model = "moonshotai/kimi-k3.1-pro"
 # pin = "pinned"

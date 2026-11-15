@@ -391,10 +391,6 @@ pin = "pinned"
 model = "tencent/hunyuan-image-3.0"
 pin = "pinned"
 
-["hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-
 ["ideogram-v4"]
 model = "ideogram/ideogram-v4"
 pin = "pinned"

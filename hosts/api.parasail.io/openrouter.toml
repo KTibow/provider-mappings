@@ -59,7 +59,7 @@ quant = "fp4"
 ["parasail-glm-53"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
-quant = "fp8"
+quant = "fp4"
 
 ["parasail-glm-53-flash"]
 model = "z-ai/glm-5.3-flash"
@@ -231,7 +231,7 @@ quant = "bf16"
 # ["parasail-glm-53-fast"]
 # model = "z-ai/glm-5.3"
 # pin = "pinned"
-# quant = "fp8"
+# quant = "fp4"
 
 # needs review: native id has "fast", which z-ai/glm-5.3-flash lacks: a tier or variant, not the model itself
 # ["parasail-glm-53-flash-fast"]

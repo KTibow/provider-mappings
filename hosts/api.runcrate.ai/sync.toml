@@ -124,6 +124,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.0-fast"
 pin = "pinned"
 
+["cohere/command-a-plus"]
+model = "cohere/command-a-plus"
+pin = "pinned"
+
 ["deepseek-ai/DeepSeek-R1-0528"]
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
