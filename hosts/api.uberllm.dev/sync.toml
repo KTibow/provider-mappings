@@ -275,14 +275,6 @@ pin = "pinned"
 model = "google/gemma-4-uncensored"
 pin = "pinned"
 
-["inception/mercury-2"]
-model = "inception/mercury-2"
-pin = "pinned"
-
-["inception/mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"

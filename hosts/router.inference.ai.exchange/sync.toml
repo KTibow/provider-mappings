@@ -651,10 +651,6 @@ pin = "pinned"
 model = "openai/gpt-4o-mini"
 pin = "pinned"
 
-["gpt-4o-mini-2024-07-18"]
-model = "openai/gpt-4o-mini-2024-07-18"
-pin = "pinned"
-
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"
@@ -803,6 +799,10 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
+["gpt-audio"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -839,6 +839,18 @@ pin = "pinned"
 model = "x-ai/grok-4"
 pin = "pinned"
 
+["grok-4-fast"]
+model = "x-ai/grok-4-fast"
+pin = "pinned"
+
+["grok-4-fast-non-reasoning"]
+model = "x-ai/grok-4-fast"
+pin = "pinned"
+
+["grok-4-fast-reasoning"]
+model = "x-ai/grok-4-fast"
+pin = "pinned"
+
 ["grok-4.1-fast"]
 model = "x-ai/grok-4.1-fast"
 pin = "pinned"
@@ -848,10 +860,6 @@ model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
 ["grok-4.20"]
-model = "x-ai/grok-4.20"
-pin = "pinned"
-
-["grok-4.20-0309-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
@@ -1123,6 +1131,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["mistral-large-4.0"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1304,10 +1316,6 @@ model = "nvidia/nemotron-3.5-super-vl:thinking"
 pin = "pinned"
 
 ["o3"]
-model = "openai/o3"
-pin = "pinned"
-
-["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 
@@ -1757,10 +1765,6 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
-pin = "pinned"
-
-["veo3.1-lite"]
-model = "google/veo-3.1-lite"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

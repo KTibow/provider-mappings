@@ -590,7 +590,6 @@
       "qwen-vl-max-2025-01-25",
       "qwen3-30b-a3b-thinking-2507",
       "stepfun-ai/gelab-zero-4b-preview",
-      "x-ai/grok-4-fast",
       "z-ai/autoglm-phone-9b"
     ],
     "api.rayline.ai": [

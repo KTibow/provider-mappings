@@ -1243,7 +1243,7 @@ model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
 ["grok-4-20-beta-0309-non-reasoning"]
-model = "x-ai/grok-4.20-0309-non-reasoning"
+model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["grok-4-20-beta-0309-reasoning"]
@@ -1251,7 +1251,7 @@ model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["grok-4-20-non-reasoning"]
-model = "x-ai/grok-4.20-0309-non-reasoning"
+model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["grok-4-20-reasoning"]
@@ -2359,7 +2359,7 @@ model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
 ["vertex-openai/grok-4-20-non-reasoning"]
-model = "x-ai/grok-4.20-0309-non-reasoning"
+model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["vertex-openai/grok-4-20-reasoning"]
@@ -2379,7 +2379,7 @@ model = "x-ai/grok-4"
 pin = "pinned"
 
 ["xai/grok-4-20-beta-0309-non-reasoning"]
-model = "x-ai/grok-4.20-0309-non-reasoning"
+model = "x-ai/grok-4.20"
 pin = "pinned"
 
 ["xai/grok-4-20-beta-0309-reasoning"]

@@ -1619,6 +1619,10 @@ pin = "pinned"
 model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
+["x-ai/grok-4-20-0309-non-reasoning"]
+model = "x-ai/grok-4.20"
+pin = "pinned"
+
 ["x-ai/grok-4-20-0309-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
@@ -1637,6 +1641,14 @@ pin = "pinned"
 
 ["x-ai/grok-4-7"]
 model = "x-ai/grok-4.7"
+pin = "pinned"
+
+["x-ai/grok-4-fast-non-reasoning"]
+model = "x-ai/grok-4-fast"
+pin = "pinned"
+
+["x-ai/grok-4-fast-reasoning"]
+model = "x-ai/grok-4-fast"
 pin = "pinned"
 
 ["x-ai/grok-build-0-1"]
