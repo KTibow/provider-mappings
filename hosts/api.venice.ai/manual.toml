@@ -2,6 +2,19 @@
 # declared as Venice mirrors in sync/host-config.ts inherit these rows.
 # Each row cites Venice's own list (https://api.venice.ai/api/v1/models?type=all).
 
+# "Qwen 3.6 Plus Uncensored ... an uncensored variant of Alibaba's Qwen 3.6
+# Plus". models.dev gives this key no canonical_model_id (it briefly did, on
+# 2026-11-14), and a normalized match on the key then files it under
+# qwen/qwen3.6-plus.
+["qwen-3-6-plus"]
+model = "venice/qwen3.6-plus-uncensored"
+
+# "Qwen 3 Coder 480B Turbo", listed next to qwen3-coder-480b-a35b-instruct as
+# its own product. OpenRouter files Venice's endpoint under qwen/qwen3-coder;
+# models.dev gives the key no canonical_model_id.
+["qwen3-coder-480b-a35b-instruct-turbo"]
+model = "qwen/qwen3-coder-turbo"
+
 # The id says v4; Venice names it "Seedream V4.5".
 ["seedream-v4"]
 model = "bytedance-seed/seedream-4.5"
