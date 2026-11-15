@@ -8,3 +8,12 @@
 
 # Jatevo pivoted (2026-11): jatevo.ai now serves the same API and list as Oyenza.
 "inference.oyenza.com" = ["jatevo.ai"]
+
+# Same API, older or OpenRouter-specific names: each answers with the other's
+# exact error (checked 2026-11-15). Docs and models.dev give the name on the left.
+"api.cohere.com" = ["api.cohere.ai"]
+"api.minimax.io" = ["api.minimaxi.chat"]
+"api.tokenfactory.nebius.com" = ["api.studio.nebius.ai"]
+# OpenRouter calls inference.net at its own "or" hostnames, with the same ids as
+# api.inference.net's list. models.dev gives https://inference.net/v1, which is the website.
+"api.inference.net" = ["api.or.inference.net", "us-api.or.inference.net", "inference.net"]

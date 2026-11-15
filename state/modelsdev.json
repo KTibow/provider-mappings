@@ -370,6 +370,11 @@
       "glm-5.3:fast",
       "minimax-m3:fast"
     ],
+    "api.inference.net": [
+      "google/gemma-3",
+      "osmosis/osmosis-structure-0.6b",
+      "qwen/qwen-2.5-7b-vision-instruct"
+    ],
     "api.inferenceapis.com": [
       "meta-llama/Llama-3.3-70B-Instruct-Turbo"
     ],
@@ -894,11 +899,6 @@
     ],
     "inference.generativeai.us-chicago-1.oci.oraclecloud.com": [
       "xai.grok-4.20-non-reasoning"
-    ],
-    "inference.net": [
-      "google/gemma-3",
-      "osmosis/osmosis-structure-0.6b",
-      "qwen/qwen-2.5-7b-vision-instruct"
     ],
     "inference.runanywhere.ai": [
       "deepseek-v4-pro-fast",

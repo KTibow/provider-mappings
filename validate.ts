@@ -97,7 +97,8 @@ else {
   for (const [host, bySource] of before)
     for (const [source, f] of bySource) {
       for (const id of f.rows.keys()) {
-        if (files.get(host)?.get(source as Source)?.rows.has(id)) continue
+        // A row whose host has since become an alias lives on under that alias's host.
+        if (files.get(aliases.get(host) ?? host)?.get(source as Source)?.rows.has(id)) continue
         if (source === 'manual') {
           warnings.push(`hosts/${host}/${source}.toml: row ${JSON.stringify(id)} removed`)
           continue

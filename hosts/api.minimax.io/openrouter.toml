@@ -18,6 +18,18 @@ pin = "pinned"
 model = "minimax/hailuo-3-max"
 pin = "pinned"
 
+["MiniMax-Hailuo-2.3"]
+model = "minimax/hailuo-2.3"
+pin = "pinned"
+
+["MiniMax-M3"]
+model = "minimax/minimax-m3"
+pin = "pinned"
+
+["MiniMax-M3.1-Flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["speech-2.8-hd"]
 model = "minimax/speech-2.8-hd"
 pin = "pinned"

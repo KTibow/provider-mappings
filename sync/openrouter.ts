@@ -329,7 +329,9 @@ async function main() {
   // Keep the last good rows of every previously mapped model we did not (successfully)
   // fetch, and of delisted models while they are fresh (see delistedFresh).
   const keep = (model: string) => !fetched.has(canon(model)) && (catalogCanon.has(canon(model)) || delistedFresh(model))
-  for (const [host, f] of prev) {
+  // Under the host they belong to now, if host-aliases.toml has since made theirs an alias.
+  for (const [prevHost, f] of prev) {
+    const host = resolveHost(aliases, prevHost)
     for (const [id, r] of f.rows) {
       if (!keep(r.model)) continue
       if (!next.has(host)) next.set(host, emptyRows())
@@ -348,8 +350,9 @@ async function main() {
   const drops: Drop[] = []
   for (const [host, f] of prev)
     for (const [id, r] of f.rows) {
-      if (next.get(host)?.rows.has(id)) continue
-      const rv = next.get(host)?.review.get(id)
+      const now = next.get(resolveHost(aliases, host))
+      if (now?.rows.has(id)) continue
+      const rv = now?.review.get(id)
       drops.push({
         host, id,
         reason: rv
