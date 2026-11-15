@@ -25,22 +25,3 @@ pin = "pinned"
 ["muse-wonder-1.0"]
 model = "meta/muse-wonder"
 pin = "pinned"
-
-# ---------------------------------------------------------------------------
-# Rows below need a person to check them, so they are commented out.
-# Once verified, copy the row (uncommented) into manual.toml.
-
-# needs review: model id is OpenRouter-only (meta)
-# ["openrouter_muse-spark-1.1"]
-# model = "meta/muse-spark-1.1"
-# pin = "pinned"
-
-# needs review: model id is OpenRouter-only (meta)
-# ["openrouter_muse-spark-1.2"]
-# model = "meta/muse-spark-1.2"
-# pin = "pinned"
-
-# needs review: model id is OpenRouter-only (meta)
-# ["openrouter_muse-spark-1.2-contributor"]
-# model = "meta/muse-spark-1.2-contributor"
-# pin = "pinned"

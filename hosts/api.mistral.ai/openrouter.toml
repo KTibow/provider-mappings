@@ -95,18 +95,3 @@ quant = "nvfp4"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 quant = "nvfp4"
-
-# ---------------------------------------------------------------------------
-# Rows below need a person to check them, so they are commented out.
-# Once verified, copy the row (uncommented) into manual.toml.
-
-# needs review: model id is OpenRouter-only (mistral/fp8)
-# ["deepseek-v4-1-flash-1017-openrouter"]
-# model = "deepseek/deepseek-v4.1-flash-1017"
-# pin = "pinned"
-# quant = "fp8"
-
-# needs review: model id is OpenRouter-only (mistral)
-# ["zai-glm-5-3-flash-openrouter"]
-# model = "z-ai/glm-5.3-flash"
-# pin = "pinned"

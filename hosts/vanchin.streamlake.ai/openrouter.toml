@@ -79,13 +79,3 @@ pin = "pinned"
 ["qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
-
-# ---------------------------------------------------------------------------
-# Rows below need a person to check them, so they are commented out.
-# Once verified, copy the row (uncommented) into manual.toml.
-
-# needs review: model id is a per-account endpoint (streamlake/fp8)
-# ["ep-z4ixbe-1774648625018296211"]
-# model = "z-ai/glm-5"
-# pin = "pinned"
-# quant = "fp8"

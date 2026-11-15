@@ -136,8 +136,10 @@ quant = "fp8"    # optional
 ```
 
 Rows that need a person to check them are written commented out, with the reason
-above them. This covers OpenRouter-only ids, endpoints OpenRouter has disabled or
-hidden, and moving aliases with no `~` model. To confirm one, copy it uncommented
+above them. This covers endpoints OpenRouter has disabled or hidden, moving aliases
+with no `~` model, tier words, and ids several OpenRouter models claim. Endpoints only
+OpenRouter can call (an OpenRouter-only hostname, base URL path or model id, or one
+account's `ep-…` endpoint) are skipped. To confirm one, copy it uncommented
 into `manual.toml`.
 
 ## Model ids
@@ -349,4 +351,4 @@ from `github-actions[bot]`.
 Not affiliated with OpenRouter or models.dev. OpenRouter's `stats/endpoint` and
 `rankings` routes are undocumented and may change; this repo only reads them,
 without a key, slowly. Some upstream ids and base URLs only work through
-OpenRouter's own accounts; those rows stay commented out.
+OpenRouter's own accounts; those endpoints are skipped.

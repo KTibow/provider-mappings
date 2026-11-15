@@ -135,15 +135,19 @@ function endpointHost(provider: string, baseUrl: string): { host: string } | { s
   return { host: parsed.host }
 }
 
-/** Why this endpoint should not be trusted without a person looking, or undefined. */
-function reviewReason(e: Endpoint, baseUrl: string): string | undefined {
+/**
+ * An endpoint only OpenRouter can call, like an OpenRouter-only hostname: an
+ * OpenRouter-only model id or base URL path, or one account's Volcengine /
+ * BytePlus endpoint ("ep-20251223020539-6m7wz"). Not a row, not even for review.
+ */
+function uncallable(e: Endpoint, baseUrl: string): boolean {
   const id = e.provider_model_id
-  if (/openrouter/i.test(id)) return `model id is OpenRouter-only (${e.provider_slug})`
-  // The hostname was handled by endpointHost; an OpenRouter-specific path is not callable elsewhere.
   const urlPath = baseUrl.replace(/^[a-z]+:\/\/[^/]*/i, '')
-  if (/openrouter/i.test(urlPath) || /\/partner\/v\d|\/integrations\//i.test(urlPath)) return `base URL is OpenRouter-only (${baseUrl})`
-  // Volcengine / BytePlus inference endpoints ("ep-20251223020539-6m7wz") belong to one account.
-  if (/^ep-[a-z0-9]+-[a-z0-9]+$/i.test(id) && /\d{10}/.test(id)) return `model id is a per-account endpoint (${e.provider_slug})`
+  return /openrouter/i.test(id) || /openrouter/i.test(urlPath) || /\/partner\/v\d|\/integrations\//i.test(urlPath) || (/^ep-[a-z0-9]+-[a-z0-9]+$/i.test(id) && /\d{10}/.test(id))
+}
+
+/** Why this endpoint should not be trusted without a person looking, or undefined. */
+function reviewReason(e: Endpoint): string | undefined {
   if (e.is_disabled) return `endpoint disabled on OpenRouter (${e.provider_slug})`
   if (e.is_hidden) return `endpoint hidden on OpenRouter (${e.provider_slug})`
   return undefined
@@ -260,7 +264,7 @@ async function main() {
 
     for (const e of eps) {
       const nativeId = e.provider_model_id.trim()
-      if (!nativeId) continue
+      if (!nativeId || uncallable(e, String(e.provider_info.baseUrl ?? ''))) continue
       const baseUrl = String(e.provider_info.baseUrl ?? '')
       const quant = cleanQuant(e.quantization)
       // A moving native id ("…-latest") never goes live under a pinned model id.
@@ -279,7 +283,7 @@ async function main() {
       // ...unless model-aliases.toml names the id explicitly (Tencent's "hy-mt2-lite" is its 1.8B).
       const tier = reg.explicit(nativeId) === row.model ? undefined : tierMismatch(nativeId, row.model)
       const tierReason = tier ? `native id has "${tier}", which ${row.model} lacks: a tier or variant, not the model itself` : undefined
-      const reason = reviewReason(e, baseUrl) ?? movingReason ?? tierReason
+      const reason = reviewReason(e) ?? movingReason ?? tierReason
       const k = `${host}\0${nativeId}`
       if (!claims.has(k)) claims.set(k, { host, id: nativeId, list: [] })
       claims.get(k)!.list.push({ model: row.model, slug: m.canonical_slug, row, reason })
