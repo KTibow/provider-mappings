@@ -4990,6 +4990,7 @@
       "qwen-image-2-1-turbo-edit",
       "qwen-image-3-edit",
       "qwen-image-3-pro-edit",
+      "qwen3-coder-480b-a35b-instruct-turbo",
       "seedance-2-5-edit-video-basic",
       "seedance-2-5-flash-edit-video-basic",
       "seedance-2-5-flash-image-to-video-basic",
@@ -6635,7 +6636,6 @@
       "minimax-h3-max-turbo-text-to-video",
       "openai-gpt-61-sol-ultrafast",
       "pareto",
-      "qwen-3-6-plus",
       "qwen-image-2-1-pro-edit",
       "qwen-image-2-1-turbo-edit",
       "qwen-image-3-edit",
@@ -6975,7 +6975,8 @@
       "e2ee-kimi-k3-p",
       "e2ee-qwen3-8-27b",
       "kimi-k3-1-pro-highspeed",
-      "openai-gpt-61-sol-ultrafast"
+      "openai-gpt-61-sol-ultrafast",
+      "qwen3-coder-480b-a35b-instruct-turbo"
     ],
     "llm.chutes.ai": [
       "google/gemma-4-31B-turbo-TEE",
