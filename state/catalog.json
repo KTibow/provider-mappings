@@ -5266,6 +5266,7 @@
   "permaslug": "qwen/qwen3-vl-30b-a3b-instruct"
  },
  "qwen/qwen3-vl-30b-a3b-thinking": {
+  "delisted": "2026-11-15",
   "hf": "Qwen/Qwen3-VL-30B-A3B-Thinking",
   "input": [
    "image",
@@ -6102,6 +6103,7 @@
   "permaslug": "speechify/simba-3.5-20261111"
  },
  "stepfun/step-3.5-flash": {
+  "delisted": "2026-11-15",
   "hf": "stepfun-ai/Step-3.5-Flash",
   "input": [
    "text"
@@ -6150,6 +6152,7 @@
   "permaslug": "tbc/mischief-1-20261023"
  },
  "tencent/hunyuan-a13b-instruct": {
+  "delisted": "2026-11-15",
   "hf": "tencent/Hunyuan-A13B-Instruct",
   "input": [
    "text"
@@ -6625,6 +6628,7 @@
   "permaslug": "x-ai/grok-imagine-video-1.5-lite-20261001"
  },
  "x-ai/grok-stt-1.0": {
+  "delisted": "2026-11-15",
   "input": [
    "audio"
   ],

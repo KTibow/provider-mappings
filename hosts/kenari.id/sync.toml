@@ -251,6 +251,10 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["muse-image"]
+model = "meta/muse-image"
+pin = "pinned"
+
 ["nano-banana-2"]
 model = "google/gemini-3.1-flash-image-preview"
 pin = "pinned"

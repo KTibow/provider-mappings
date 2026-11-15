@@ -875,6 +875,10 @@ pin = "pinned"
 model = "rekaai/reka-edge"
 pin = "pinned"
 
+["sakana-namazu"]
+model = "sakana/sakana-namazu"
+pin = "pinned"
+
 ["seedance-2-0"]
 model = "bytedance/seedance-2.0"
 pin = "pinned"

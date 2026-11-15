@@ -171,6 +171,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["deepseek-v4.1-flash:free"]
+model = "deepseek/deepseek-v4.1-flash:free"
+pin = "pinned"
+
 ["dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview:free"
 pin = "pinned"
@@ -203,14 +207,6 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
-["gemini-2.5-flash-lite:free"]
-model = "google/gemini-2.5-flash-lite:free"
-pin = "pinned"
-
-["gemini-2.5-flash:free"]
-model = "google/gemini-2.5-flash:free"
-pin = "pinned"
-
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
@@ -233,10 +229,6 @@ pin = "pinned"
 
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
-pin = "pinned"
-
-["gemini-3.1-flash-lite:free"]
-model = "google/gemini-3.1-flash-lite:free"
 pin = "pinned"
 
 ["gemini-3.1-pro"]
@@ -359,10 +351,6 @@ pin = "pinned"
 model = "openai/gpt-6-luna"
 pin = "pinned"
 
-["gpt-6-luna:free"]
-model = "openai/gpt-6-luna:free"
-pin = "pinned"
-
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
 pin = "pinned"
@@ -451,10 +439,6 @@ pin = "pinned"
 model = "inclusionai/ling-3.1-flash:free"
 pin = "pinned"
 
-["ling-3.2-flash:free"]
-model = "inclusionai/ling-3.2-flash:free"
-pin = "pinned"
-
 ["llama-4-scout:free"]
 model = "meta-llama/llama-4-scout:free"
 pin = "pinned"
@@ -489,10 +473,6 @@ pin = "pinned"
 
 ["minimax-m3.1-flash:free"]
 model = "minimax/minimax-m3.1-flash:free"
-pin = "pinned"
-
-["minimax-m3:free"]
-model = "minimax/minimax-m3:free"
 pin = "pinned"
 
 ["mistral-large-3"]

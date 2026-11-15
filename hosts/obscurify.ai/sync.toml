@@ -831,10 +831,6 @@ pin = "pinned"
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"
 
-["qwen/qwen3-vl-30b-a3b-thinking"]
-model = "qwen/qwen3-vl-30b-a3b-thinking"
-pin = "pinned"
-
 ["qwen/qwen3.5-35b-a3b"]
 model = "qwen/qwen3.5-35b-a3b"
 pin = "pinned"
@@ -845,6 +841,10 @@ pin = "pinned"
 
 ["qwen/qwen3.5-397b-a17b:thinking"]
 model = "qwen/qwen3.5-397b-a17b:thinking"
+pin = "pinned"
+
+["qwen/qwen3.5-9b"]
+model = "qwen/qwen3.5-9b"
 pin = "pinned"
 
 ["qwen/qwen3.5-plus:thinking"]
@@ -1005,10 +1005,6 @@ pin = "pinned"
 
 ["tee/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["tencent/hunyuan-a13b-instruct"]
-model = "tencent/hunyuan-a13b-instruct"
 pin = "pinned"
 
 ["tencent/hy-mt2-1.8b"]

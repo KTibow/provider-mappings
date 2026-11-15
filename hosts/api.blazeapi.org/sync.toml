@@ -333,6 +333,11 @@ model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 quant = "fp16"
 
+["claude-opus-4.5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+quant = "fp16"
+
 ["claude-opus-4.6"]
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
@@ -360,11 +365,6 @@ quant = "fp16"
 
 ["claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-quant = "fp16"
-
-["claude-sonnet-4.5"]
-model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 quant = "fp16"
 
@@ -823,6 +823,11 @@ model = "mistralai/magistral-small-2509"
 pin = "pinned"
 quant = "fp16"
 
+["mimo-v2.5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"
+
 ["mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -880,11 +885,6 @@ quant = "fp16"
 
 ["mistral-large-3"]
 model = "mistralai/mistral-large-2512"
-pin = "pinned"
-quant = "fp16"
-
-["mistral-large-4-0"]
-model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 quant = "fp16"
 

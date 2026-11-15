@@ -375,10 +375,6 @@ pin = "pinned"
 model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
-["grok-4.3"]
-model = "x-ai/grok-4.3"
-pin = "pinned"
-
 ["grok-4.5"]
 model = "x-ai/grok-4.5"
 pin = "pinned"
@@ -405,10 +401,6 @@ pin = "pinned"
 
 ["kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-
-["mimo-v2.6-flash"]
-model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
 ["minimax-m2"]
