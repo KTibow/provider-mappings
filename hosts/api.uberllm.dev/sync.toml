@@ -283,10 +283,6 @@ pin = "pinned"
 model = "inception/mercury-2"
 pin = "pinned"
 
-["inception/mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"
@@ -877,6 +873,10 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro-ultraspeed"]
 model = "xiaomi/mimo-v2.6-pro-ultraspeed"
+pin = "pinned"
+
+["z-ai/e2ee-glm-4.7-flash"]
+model = "venice/e2ee-glm-4.7-flash"
 pin = "pinned"
 
 ["z-ai/e2ee-glm-5-2-p"]

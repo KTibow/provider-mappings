@@ -5548,6 +5548,18 @@
   ],
   "permaslug": "qwen/qwen3.8-omni-flash-20260918"
  },
+ "qwen/qwen4-max": {
+  "input": [
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Qwen: Qwen4 Max",
+  "output": [
+   "text"
+  ],
+  "permaslug": "qwen/qwen4-max-20261115"
+ },
  "recraft/recraft-v3": {
   "input": [
    "image",

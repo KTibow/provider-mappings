@@ -559,6 +559,10 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.1-24b-instruct"
 pin = "pinned"
 
+["moonshotai/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
 ["qwen3-coder-480b-a35b-instruct"]
 model = "qwen/qwen3-coder"
 pin = "pinned"

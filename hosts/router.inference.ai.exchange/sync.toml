@@ -103,10 +103,6 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
-["claude-opus-4-5-20251101"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
 ["claude-opus-4-5:thinking"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
@@ -1721,6 +1717,10 @@ pin = "pinned"
 
 ["solar-pro4:thinking"]
 model = "upstage/solar-pro4"
+pin = "pinned"
+
+["sonar"]
+model = "perplexity/sonar"
 pin = "pinned"
 
 ["stable-diffusion-3.5-large"]

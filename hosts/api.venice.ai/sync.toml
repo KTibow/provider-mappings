@@ -855,6 +855,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["qwen-4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["qwen-edit-uncensored"]
 model = "venice/qwen-image-edit-uncensored"
 pin = "pinned"

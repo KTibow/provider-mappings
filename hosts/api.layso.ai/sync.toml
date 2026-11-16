@@ -15,20 +15,12 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
-["claude-haiku-4-5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
 ["claude-haiku-4-5-20251001"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
 ["claude-haiku-5-5"]
 model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["claude-opus-4-5"]
-model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
 ["claude-opus-4-5-20251101"]

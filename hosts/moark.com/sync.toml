@@ -179,6 +179,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["Step-3.7-Flash"]
 model = "stepfun/step-3.7-flash"
 pin = "pinned"

@@ -1147,6 +1147,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["recursive/flint-v1.0:free"]
 model = "recursive/flint-v1.0"
 pin = "pinned"

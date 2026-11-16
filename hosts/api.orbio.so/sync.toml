@@ -1843,6 +1843,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["recraft/recraft-v3"]
 model = "recraft/recraft-v3"
 pin = "pinned"

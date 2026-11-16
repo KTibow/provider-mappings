@@ -144,6 +144,7 @@
  "routellm.abacus.ai": "https://routellm.abacus.ai/v1/models",
  "router-api.0g.ai": "https://router-api.0g.ai/v1/models",
  "router.bumo.ai": "https://router.bumo.ai/v1/models",
+ "router.bynara.id": "https://router.bynara.id/v1/models",
  "router.hostinger.com": "https://router.hostinger.com/v1/models",
  "router.huggingface.co": "https://router.huggingface.co/v1/models",
  "router.inference.ai.exchange": "https://router.inference.ai.exchange/v1/models",

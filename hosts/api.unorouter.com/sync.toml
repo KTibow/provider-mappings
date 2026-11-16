@@ -49,6 +49,16 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
+["claude-haiku-5-5:free"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+free = true
+
+["claude-haiku-5-5:free[1m]"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+free = true
+
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
@@ -220,6 +230,11 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
+["gemini-2.5-flash-lite:free"]
+model = "google/gemini-2.5-flash-lite"
+pin = "pinned"
+free = true
+
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
@@ -227,6 +242,11 @@ pin = "pinned"
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
+
+["gemini-3-flash:free"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+free = true
 
 ["gemini-3-pro-image"]
 model = "google/gemini-3-pro-image"
@@ -300,6 +320,11 @@ free = true
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
+
+["gemma-4-31b-it:free"]
+model = "google/gemma-4-31b-it"
+pin = "pinned"
+free = true
 
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
@@ -528,11 +553,6 @@ free = true
 model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
-["mistral-large-3-675b-instruct-2512:free"]
-model = "mistralai/mistral-large-2512"
-pin = "pinned"
-free = true
-
 ["mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
@@ -553,11 +573,6 @@ pin = "pinned"
 ["muse-wonder"]
 model = "meta/muse-wonder"
 pin = "pinned"
-
-["nemotron-3-5-super-vl:free"]
-model = "nvidia/nemotron-3.5-super-vl"
-pin = "pinned"
-free = true
 
 ["nemotron-3-nano-omni-30b-a3b-reasoning:free"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
@@ -594,18 +609,8 @@ model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
 free = true
 
-["qwen3-8-omni-flash:free"]
-model = "qwen/qwen3.8-omni-flash"
-pin = "pinned"
-free = true
-
 ["qwen3-embedding-8b:free"]
 model = "qwen/qwen3-embedding-8b"
-pin = "pinned"
-free = true
-
-["qwen3.5-397b-a17b:free"]
-model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
 free = true
 
@@ -652,11 +657,6 @@ pin = "pinned"
 ["reka-flash-3"]
 model = "rekaai/reka-flash-3"
 pin = "pinned"
-
-["solar-mini4:free"]
-model = "upstage/solar-mini4"
-pin = "pinned"
-free = true
 
 ["step-5-preview"]
 model = "stepfun/step-5-preview"

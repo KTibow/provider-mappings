@@ -901,12 +901,12 @@
     "api.unorouter.com": [
       "claude-opus-4-8",
       "deepseek-v4-pro:free",
-      "gemma-4-31b-it:free",
       "glm-5.2:free",
       "gpt-5.2",
       "gpt-5.4",
       "gpt-5.4:free",
       "gpt-5.5:free",
+      "qwen3.5-397b-a17b:free",
       "step-3.7-flash:free"
     ],
     "api.venice.ai": [
@@ -950,9 +950,6 @@
     ],
     "go.fastrouter.ai": [
       "x-ai/grok-4"
-    ],
-    "inference.phala.com": [
-      "qwen/qwen-2.5-7b-instruct"
     ],
     "integrate.api.nvidia.com": [
       "google/diffusiongemma-26b-a4b-it",
@@ -1083,6 +1080,7 @@
       "qwen3-coder",
       "qwen3.6-plus-free",
       "qwen3.7-plus",
+      "qwen4-max",
       "step-5-preview",
       "step-5-preview-free",
       "trinity-large-preview-free"
@@ -1154,6 +1152,7 @@
       "Qwen/Qwen3-Coder-Next",
       "Qwen/Qwen3-Embedding-4B",
       "Qwen/Qwen3-Embedding-8B",
+      "Qwen/Qwen3-VL-235B-A22B-Instruct",
       "Qwen/Qwen3-VL-235B-A22B-Thinking",
       "moonshotai/Kimi-K2-Thinking"
     ],
@@ -1498,7 +1497,6 @@
       "alibaba/qwen3-max-thinking",
       "alibaba/qwen3-next-80b-a3b-thinking",
       "alibaba/qwen3-vl-instruct",
-      "alibaba/qwen4-max",
       "alibaba/wan-v2.5-t2v-preview",
       "alibaba/wan-v2.6-i2v",
       "alibaba/wan-v2.6-i2v-flash",
@@ -3484,7 +3482,6 @@
       "qwen/qwen3.7-max-2026-06-08",
       "qwen/qwen3.7-max-preview",
       "qwen/qwen3.7-plus-2026-05-26",
-      "qwen/qwen4-max",
       "scaleway/holo2-30b-a3b",
       "scaleway/pixtral-12b-2409",
       "tencent/deepseek-v4-flash-202605",
@@ -3899,7 +3896,6 @@
       "moon/kimi-k2.7-code-highspeed",
       "motion_2.0",
       "motion_2.0-fast",
-      "ocg/gemini-4-argon-contributor",
       "ocg/space-bunny",
       "p-image-ideogram",
       "phoenix-v0.9",
@@ -4924,6 +4920,7 @@
       "NVIDIA Nemotron 3 Ultra",
       "NVIDIA Nemotron 3.5 Super VL 120B",
       "Nemotron Embed VL 1B v2",
+      "Qwen 2.5 7B",
       "Qwen 3 Coder 30B",
       "Qwen 3 Coder 480B Turbo",
       "Qwen 3.5 397B",
@@ -4932,7 +4929,6 @@
       "Qwen3 VL 235B",
       "Qwen3 VL 30B A3B",
       "Venice Role Play Uncensored",
-      "Vireonix Auto",
       "claude-fable-5:web",
       "clause-opus-4.8:web",
       "deepseek-v4-flash:web",
@@ -6268,6 +6264,7 @@
       "gemini-2.5-pro-tts",
       "gemini-3-pro",
       "gemini-3-pro-preview",
+      "gemini-flash-lite-latest:free",
       "gemini-robotics-er-2-preview:free",
       "gemma-4-12b:free",
       "gemma-4-26b-a4b-it-chimerax:free",
@@ -6314,7 +6311,6 @@
       "llama-3.3-70b:free",
       "lucid-origin:free",
       "majicmix-realistic",
-      "manta-flash-1.0:free",
       "manta-mini-1.0:free",
       "mercury-decide:free",
       "mindshub-air:free",
@@ -6339,7 +6335,6 @@
       "or-kimi-k2.7-code",
       "or-kimi-k3",
       "or-kimi-k3.1-pro",
-      "orca-fusion-mini:free",
       "orca-router:free",
       "phoenix-1.0:free",
       "phonellm-mini-alpha-2:free",
@@ -6499,6 +6494,7 @@
       "gpt-6.1-sol-plus",
       "gpt-6.1-sol-pro-max",
       "gpt-6.1-sol-promax",
+      "gpt-oss-20b-abliterated",
       "grok-4.7-build-fast",
       "grok-4.7-heavy",
       "hanami-70b-x1",
@@ -6554,6 +6550,7 @@
       "qwen3.5-27b-claude-4.6-opus-distilled-derestricted-lite",
       "qwen3.5-27b-queen-derestricted",
       "qwen3.5-397b-a17b-uncensored",
+      "qwen3.6-35b-a3b-uncensored-heretic",
       "qwen3.8-2.4t-a95b-uncensored",
       "qwen3.8-27b-abliterated",
       "qwen3.8-27b-abliterated-huihui",
@@ -6906,7 +6903,8 @@
     ],
     "inference.phala.com": [
       "phala/gemma-4-26b-a4b-uncensored",
-      "phala/qwen3.8-27b-uncensored"
+      "phala/qwen3.8-27b-uncensored",
+      "qwen/qwen-2.5-7b-instruct"
     ],
     "inference.runanywhere.ai": [
       "deepseek-v4-pro-fast",
@@ -7735,6 +7733,16 @@
       "gpt-image-2-2026-04-21",
       "mo"
     ],
+    "router.bynara.id": [
+      "agnes-2.5-flash",
+      "agnes-3-flash",
+      "deepseek-v4.1-flash-abliterated",
+      "deepseek-v4.1-flash-fast",
+      "gemini-3.8-flash-high",
+      "glm-5.3-abliterated",
+      "glm-5.3-flash-abliterated",
+      "stepfun-3.7-flash"
+    ],
     "router.hostinger.com": [
       "claude-fable-5-eu",
       "claude-fable-5-us",
@@ -7953,7 +7961,7 @@
       "devstral-small-2505",
       "devstral-small-latest",
       "diffusiongemma",
-      "dola-seed-2.0-mini",
+      "dola-seed-2.0-lite",
       "doubao-seed-2.0-code-preview-260215",
       "doubao-seed-2.0-lite-260215",
       "doubao-seed-2.0-mini-260215",
@@ -7985,7 +7993,6 @@
       "flux-pro-v1.1-ultra",
       "flux-realism",
       "fugu-ultra-v1.1",
-      "gemini-2.5-flash-lite-preview",
       "gemini-2.5-flash-nothinking",
       "gemini-3-flash-preview-thinking",
       "gemini-3.1-pro-preview-high",
@@ -8141,8 +8148,6 @@
       "long-form",
       "longcat-2.5-preview",
       "longcat-image",
-      "ltxv-2",
-      "ltxv-2-fast",
       "lumimaid-v0.2-70b",
       "magidonia-24b-v4.3",
       "magnum-v2-72b",
@@ -8161,7 +8166,6 @@
       "minimax-latest",
       "minimax-m1-80k",
       "minimax-m2.7-turbo",
-      "minimax-text-01",
       "ministral-14b-instruct-2512",
       "mistral-code-agent-latest",
       "mistral-code-latest",
@@ -8269,8 +8273,6 @@
       "qwen3.8-27b-uncensored:thinking",
       "qwerky-72b",
       "qwq-32b",
-      "ray-2",
-      "ray-flash-2",
       "recraft-v4-style",
       "recraft-v4-style-pro",
       "recraft-v4.1-pro-text-to-image-utility",
