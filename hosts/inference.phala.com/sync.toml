@@ -23,10 +23,6 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["jaredpalmer/kev-4b"]
-model = "jaredpalmer/kev-4b"
-pin = "pinned"
-
 ["meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"

@@ -7,32 +7,12 @@
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["DeepSeek V4 Flash 0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-
-["GPT-5.6 Terra"]
-model = "openai/gpt-5.6-terra"
-pin = "pinned"
-
 ["deepseek-v4-1-flash-1017-uncensored"]
 model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
-["deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-
-["deepseek-v4-flash-0731-fast"]
-model = "deepseek/deepseek-v4-flash-0731-fast"
-pin = "pinned"
-
 ["gpt-5-6-luna"]
 model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["gpt-5-6-terra"]
-model = "openai/gpt-5.6-terra"
 pin = "pinned"
 
 ["gpt-oss-120b"]

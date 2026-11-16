@@ -523,6 +523,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
+["moonshotai/kimi-k2.7-code"]
+model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
 ["moonshotai/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
@@ -845,6 +849,10 @@ pin = "pinned"
 
 ["qwen/qwen3.5-397b-a17b:thinking"]
 model = "qwen/qwen3.5-397b-a17b"
+pin = "pinned"
+
+["qwen/qwen3.5-9b"]
+model = "qwen/qwen3.5-9b"
 pin = "pinned"
 
 ["qwen/qwen3.5-plus:thinking"]

@@ -31,16 +31,8 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["mistralai/mistral-large"]
-model = "mistralai/mistral-large"
-pin = "pinned"
-
 ["mistralai/mistral-large-4-1t-a52b"]
 model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["moonshotai/kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["nvidia/llama-nemotron-embed-vl-1b-v2"]
@@ -53,10 +45,6 @@ pin = "pinned"
 
 ["nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
-pin = "pinned"
-
-["nvidia/nemotron-3-super-120b-a12b"]
-model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
 
 ["nvidia/nemotron-3-ultra-550b-a55b"]
