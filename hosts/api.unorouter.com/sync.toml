@@ -4,12 +4,14 @@
 # are listed in state/hosts.json.
 
 ["bge-base-en-v1.5:free"]
-model = "baai/bge-base-en-v1.5:free"
+model = "baai/bge-base-en-v1.5"
 pin = "pinned"
+free = true
 
 ["bge-large-en-v1.5:free"]
-model = "baai/bge-large-en-v1.5:free"
+model = "baai/bge-large-en-v1.5"
 pin = "pinned"
+free = true
 
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
@@ -48,8 +50,14 @@ model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
 ["claude-haiku-5-5:free"]
-model = "anthropic/claude-haiku-5.5:free"
+model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
+free = true
+
+["claude-haiku-5-5:free[1m]"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+free = true
 
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
@@ -136,8 +144,9 @@ model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
 ["cohere-command-a:free"]
-model = "cohere/command-a:free"
+model = "cohere/command-a"
 pin = "pinned"
+free = true
 
 ["deepseek-v3-0324"]
 model = "deepseek/deepseek-chat-v3-0324"
@@ -156,8 +165,9 @@ model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
 ["deepseek-v4-flash:free"]
-model = "deepseek/deepseek-v4-flash:free"
+model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
+free = true
 
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
@@ -176,20 +186,24 @@ model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["deepseek-v4.1-flash:free"]
-model = "deepseek/deepseek-v4.1-flash:free"
+model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
+free = true
 
 ["dots-3-note-preview:free"]
-model = "dots-studio/dots-3-note-preview:free"
+model = "dots-studio/dots-3-note-preview"
 pin = "pinned"
+free = true
 
 ["flint-v1.0:free"]
-model = "recursive/flint-v1.0:free"
+model = "recursive/flint-v1.0"
 pin = "pinned"
+free = true
 
 ["flux-2-klein-4b:free"]
-model = "black-forest-labs/flux.2-klein-4b:free"
+model = "black-forest-labs/flux.2-klein-4b"
 pin = "pinned"
+free = true
 
 ["flux.2-flex"]
 model = "black-forest-labs/flux.2-flex"
@@ -248,12 +262,14 @@ model = "google/gemini-3.5-flash"
 pin = "pinned"
 
 ["gemini-3.5-flash-lite:free"]
-model = "google/gemini-3.5-flash-lite:free"
+model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
+free = true
 
 ["gemini-3.6-flash:free"]
-model = "google/gemini-3.6-flash:free"
+model = "google/gemini-3.6-flash"
 pin = "pinned"
+free = true
 
 ["gemini-3.7-flash"]
 model = "google/gemini-3.7-flash"
@@ -276,19 +292,17 @@ model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["gemini-embedding-001:free"]
-model = "google/gemini-embedding-001:free"
+model = "google/gemini-embedding-001"
 pin = "pinned"
+free = true
 
 ["gemini-embedding-2:free"]
-model = "google/gemini-embedding-2:free"
+model = "google/gemini-embedding-2"
 pin = "pinned"
+free = true
 
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
-pin = "pinned"
-
-["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it:free"
 pin = "pinned"
 
 ["glm-4.5"]
@@ -304,8 +318,9 @@ model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["glm-4.7-flash:free"]
-model = "z-ai/glm-4.7-flash:free"
+model = "z-ai/glm-4.7-flash"
 pin = "pinned"
+free = true
 
 ["glm-5.1"]
 model = "z-ai/glm-5.1"
@@ -313,10 +328,6 @@ pin = "pinned"
 
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["glm-5.2:free"]
-model = "z-ai/glm-5.2:free"
 pin = "pinned"
 
 ["glm-5.3"]
@@ -328,12 +339,14 @@ model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["glm-5.3-flash:free"]
-model = "z-ai/glm-5.3-flash:free"
+model = "z-ai/glm-5.3-flash"
 pin = "pinned"
+free = true
 
 ["gpt-4o:free"]
-model = "openai/gpt-4o:free"
+model = "openai/gpt-4o"
 pin = "pinned"
+free = true
 
 ["gpt-5.5"]
 model = "openai/gpt-5.5"
@@ -360,8 +373,9 @@ model = "openai/gpt-6-luna"
 pin = "pinned"
 
 ["gpt-6-luna:free"]
-model = "openai/gpt-6-luna:free"
+model = "openai/gpt-6-luna"
 pin = "pinned"
+free = true
 
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
@@ -384,16 +398,19 @@ model = "openai/gpt-image-2.5-sunburst"
 pin = "pinned"
 
 ["gpt-oss-120b:free"]
-model = "openai/gpt-oss-120b:free"
+model = "openai/gpt-oss-120b"
 pin = "pinned"
+free = true
 
 ["gpt-oss-20b:free"]
-model = "openai/gpt-oss-20b:free"
+model = "openai/gpt-oss-20b"
 pin = "pinned"
+free = true
 
 ["gpt-oss-safeguard-20b:free"]
-model = "openai/gpt-oss-safeguard-20b:free"
+model = "openai/gpt-oss-safeguard-20b"
 pin = "pinned"
+free = true
 
 ["grok-4.5"]
 model = "x-ai/grok-4.5"
@@ -444,16 +461,14 @@ model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["lfm-2.5-embedding-350m:free"]
-model = "liquid/lfm-2.5-embedding-350m:free"
+model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
-
-["ling-3.1-flash:free"]
-model = "inclusionai/ling-3.1-flash:free"
-pin = "pinned"
+free = true
 
 ["llama-4-scout:free"]
-model = "meta-llama/llama-4-scout:free"
+model = "meta-llama/llama-4-scout"
 pin = "pinned"
+free = true
 
 ["longcat-2.0"]
 model = "meituan/longcat-2.0"
@@ -492,8 +507,9 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["muse-glimmer-30b:free"]
-model = "meta/muse-glimmer-30b:free"
+model = "meta/muse-glimmer-30b"
 pin = "pinned"
+free = true
 
 ["muse-spark-1.2-contributor"]
 model = "meta/muse-spark-1.2-contributor"
@@ -508,60 +524,73 @@ model = "meta/muse-wonder"
 pin = "pinned"
 
 ["nemotron-3-nano-omni-30b-a3b-reasoning:free"]
-model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
+free = true
 
 ["nemotron-3-super-120b-a12b:free"]
-model = "nvidia/nemotron-3-super-120b-a12b:free"
+model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
+free = true
 
 ["nemotron-3-ultra-550b-a55b:free"]
-model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
+free = true
 
 ["nemotron-3.5-super-vl:free"]
-model = "nvidia/nemotron-3.5-super-vl:free"
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
+free = true
 
 ["north-mini-code:free"]
-model = "cohere/north-mini-code:free"
+model = "cohere/north-mini-code"
 pin = "pinned"
+free = true
 
 ["qwen2.5-vl-72b-instruct:free"]
-model = "qwen/qwen2.5-vl-72b-instruct:free"
+model = "qwen/qwen2.5-vl-72b-instruct"
 pin = "pinned"
+free = true
 
 ["qwen3-30b-a3b:free"]
-model = "qwen/qwen3-30b-a3b:free"
+model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
+free = true
 
 ["qwen3-embedding-8b:free"]
-model = "qwen/qwen3-embedding-8b:free"
+model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
+free = true
 
 ["qwen3.5-397b-a17b:free"]
-model = "qwen/qwen3.5-397b-a17b:free"
+model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
+free = true
 
 ["qwen3.5-9b:free"]
-model = "qwen/qwen3.5-9b:free"
+model = "qwen/qwen3.5-9b"
 pin = "pinned"
+free = true
 
 ["qwen3.6-27b:free"]
-model = "qwen/qwen3.6-27b:free"
+model = "qwen/qwen3.6-27b"
 pin = "pinned"
+free = true
 
 ["qwen3.7-flash:free"]
-model = "qwen/qwen3.7-flash:free"
+model = "qwen/qwen3.7-flash"
 pin = "pinned"
+free = true
 
 ["qwen3.7-max"]
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 
 ["qwen3.8-27b:free"]
-model = "qwen/qwen3.8-27b:free"
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
+free = true
 
 ["qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
@@ -592,33 +621,41 @@ model = "openai/text-embedding-3-large"
 pin = "pinned"
 
 ["text-embedding-3-large:free"]
-model = "openai/text-embedding-3-large:free"
+model = "openai/text-embedding-3-large"
 pin = "pinned"
+free = true
 
 ["text-embedding-3-small:free"]
-model = "openai/text-embedding-3-small:free"
+model = "openai/text-embedding-3-small"
 pin = "pinned"
+free = true
 
 ["voyage-4-large:free"]
-model = "mongodb/voyage-4-large:free"
+model = "mongodb/voyage-4-large"
 pin = "pinned"
+free = true
 
 ["voyage-4-lite:free"]
-model = "mongodb/voyage-4-lite:free"
+model = "mongodb/voyage-4-lite"
 pin = "pinned"
+free = true
 
 ["voyage-4:free"]
-model = "mongodb/voyage-4:free"
+model = "mongodb/voyage-4"
 pin = "pinned"
+free = true
 
 ["voyage-code-4:free"]
-model = "mongodb/voyage-code-4:free"
+model = "mongodb/voyage-code-4"
 pin = "pinned"
+free = true
 
 ["whisper-large-v3-turbo:free"]
-model = "openai/whisper-large-v3-turbo:free"
+model = "openai/whisper-large-v3-turbo"
 pin = "pinned"
+free = true
 
 ["whisper-large-v3:free"]
-model = "openai/whisper-large-v3:free"
+model = "openai/whisper-large-v3"
 pin = "pinned"
+free = true

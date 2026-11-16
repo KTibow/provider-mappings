@@ -599,6 +599,11 @@ pin = "pinned"
 model = "z-ai/glm-4.7"
 pin = "pinned"
 
+["z-ai/glm-4.7-flash-free"]
+model = "z-ai/glm-4.7-flash"
+pin = "pinned"
+free = true
+
 ["z-ai/glm-5"]
 model = "z-ai/glm-5"
 pin = "pinned"

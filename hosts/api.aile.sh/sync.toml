@@ -571,6 +571,31 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
+["opencode/deepseek-v4.1-flash-free"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+free = true
+
+["opencode/glm-5.3-flash-free"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+free = true
+
+["opencode/mimo-v2.6-flash-free"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+free = true
+
+["opencode/nemotron-3.5-lightning-free"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+free = true
+
+["opencode/nemotron-3.5-super-vl-free"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+free = true
+
 ["openrouter/alibaba/wan-3.0"]
 model = "alibaba/wan-3.0"
 pin = "pinned"
@@ -887,6 +912,10 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
+["surplus/deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
 ["surplus/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -909,6 +938,10 @@ pin = "pinned"
 
 ["venice/claude-fable-5-2"]
 model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["venice/deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
 ["venice/deepseek-v4-1-flash-uncensored"]

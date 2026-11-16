@@ -8,6 +8,8 @@ export interface Row {
   model: string
   pin: Pin
   quant?: string
+  /** The host's free tier of the model ("gemma-4-31b-it:free"): same model, no charge, usually tighter limits. */
+  free?: true
 }
 /** A row written commented out because a person should look at it first. */
 export interface ReviewRow extends Row {
@@ -22,7 +24,7 @@ export interface RowsFile {
 export const MODEL_RE = /^~?[A-Za-z0-9][A-Za-z0-9._-]*\/[A-Za-z0-9][A-Za-z0-9._:-]*$/
 export const QUANT_RE = /^[a-z0-9]+$/
 export const PINS: readonly Pin[] = ['pinned', 'floating']
-const ROW_KEYS = new Set(['model', 'pin', 'quant'])
+const ROW_KEYS = new Set(['model', 'pin', 'quant', 'free'])
 
 /** Quantization labels that carry no information. */
 export function cleanQuant(q: unknown): string | undefined {
@@ -54,6 +56,8 @@ export function rowProblems(id: string, v: unknown, { requirePin = true } = {}):
   if (typeof r.model === 'string' && r.pin !== undefined && (r.pin === 'floating') !== r.model.startsWith('~'))
     p.push(`${JSON.stringify(id)}: pin "${String(r.pin)}" disagrees with model ${JSON.stringify(r.model)}; floating rows go only under "~" model ids`)
   if (r.quant !== undefined && (typeof r.quant !== 'string' || !QUANT_RE.test(r.quant))) p.push(`${JSON.stringify(id)}: quant ${JSON.stringify(r.quant)} must be lowercase alphanumeric`)
+  if (typeof r.model === 'string' && /:free(:|$)/i.test(r.model)) p.push(`${JSON.stringify(id)}: model ${JSON.stringify(r.model)} names a free tier; a free tier is the model itself, so drop ":free" and set free = true`)
+  if (r.free !== undefined && r.free !== true) p.push(`${JSON.stringify(id)}: free must be true or left out`)
   return p
 }
 
@@ -61,6 +65,7 @@ function toRow(v: Record<string, unknown>): Row {
   const model = v.model as string
   const row: Row = { model, pin: (v.pin as Pin | undefined) ?? (model.startsWith('~') ? 'floating' : 'pinned') }
   if (typeof v.quant === 'string') row.quant = v.quant
+  if (v.free === true) row.free = true
   return row
 }
 
@@ -115,6 +120,7 @@ export const tomlString = (s: string) => JSON.stringify(s)
 function rowLines(id: string, r: Row): string[] {
   const l = [`[${tomlString(id)}]`, `model = ${tomlString(r.model)}`, `pin = ${tomlString(r.pin)}`]
   if (r.quant) l.push(`quant = ${tomlString(r.quant)}`)
+  if (r.free) l.push('free = true')
   return l
 }
 
@@ -150,7 +156,7 @@ export function writeIfChanged(file: string, text: string | null): boolean {
   return true
 }
 
-export const sameRow = (a: Row, b: Row) => a.model === b.model && a.pin === b.pin && a.quant === b.quant
+export const sameRow = (a: Row, b: Row) => a.model === b.model && a.pin === b.pin && a.quant === b.quant && a.free === b.free
 
 /** Stable JSON: object keys sorted recursively. */
 export function stableJson(v: unknown, indent?: number): string {

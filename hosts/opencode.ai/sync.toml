@@ -71,6 +71,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["deepseek-v4.1-flash-free"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+free = true
+
 ["gemini-3.5-flash"]
 model = "google/gemini-3.5-flash"
 pin = "pinned"
@@ -122,6 +127,11 @@ pin = "pinned"
 ["glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
+
+["glm-5.3-flash-free"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+free = true
 
 ["gpt-5"]
 model = "openai/gpt-5"
@@ -230,6 +240,7 @@ pin = "pinned"
 ["inkling-2-small-free"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
+free = true
 
 ["kimi-k2.5"]
 model = "moonshotai/kimi-k2.5"
@@ -247,6 +258,11 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["mimo-v2.6-flash-free"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+free = true
+
 ["minimax-m2.5"]
 model = "minimax/minimax-m2.5"
 pin = "pinned"
@@ -258,6 +274,11 @@ pin = "pinned"
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
+
+["minimax-m3.1-flash-free"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+free = true
 
 ["mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
@@ -278,6 +299,16 @@ pin = "pinned"
 ["muse-wonder-1.0"]
 model = "meta/muse-wonder"
 pin = "pinned"
+
+["nemotron-3.5-lightning-free"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+free = true
+
+["nemotron-3.5-super-vl-free"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+free = true
 
 ["qwen3.5-plus"]
 model = "alibaba/qwen3.5-plus"

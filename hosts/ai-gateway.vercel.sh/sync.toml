@@ -723,6 +723,11 @@ pin = "pinned"
 model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
 
+["nvidia/nemotron-3.5-lightning-free"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+free = true
+
 ["nvidia/nemotron-3.5-super-vl"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
@@ -1018,6 +1023,11 @@ pin = "pinned"
 ["reflection/beam"]
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
+
+["reflection/beam-free"]
+model = "reflection/beam-1.0-501b-a23b"
+pin = "pinned"
+free = true
 
 ["sakana/fugu-max"]
 model = "sakana/fugu-max"

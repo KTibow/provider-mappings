@@ -110,6 +110,7 @@ pin = "pinned"
 ["baidu/ernie-5.5-flash-preview-free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
+free = true
 
 ["baseten/elephant-1"]
 model = "baseten/elephant-1"
@@ -298,10 +299,16 @@ pin = "pinned"
 ["liquid/lfm-2.5-embedding-350m-free"]
 model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
+free = true
 
 ["liquid/lfm3-1.7b"]
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
+
+["liquid/lfm3-1.7b-free"]
+model = "liquid/lfm-3-1.7b"
+pin = "pinned"
+free = true
 
 ["llmtr/qwen3-8-27b"]
 model = "qwen/qwen3.8-27b"
@@ -442,6 +449,11 @@ pin = "pinned"
 ["nvidia/nemotron-3.5-super-vl"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
+
+["nvidia/nemotron-3.5-super-vl-free"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+free = true
 
 ["openai/gpt-4.1"]
 model = "openai/gpt-4.1"
@@ -686,6 +698,11 @@ pin = "pinned"
 ["qwen/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
+
+["qwen/qwen3.8-27b-free"]
+model = "qwen/qwen3.8-27b"
+pin = "pinned"
+free = true
 
 ["qwen/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"

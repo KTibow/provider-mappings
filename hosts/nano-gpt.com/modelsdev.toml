@@ -414,6 +414,14 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["deepseek/deepseek-v4.1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
+["deepseek/deepseek-v4.1-flash-1017-uncensored:thinking"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
 ["deepseek/deepseek-v4.1-flash-1017:thinking"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"

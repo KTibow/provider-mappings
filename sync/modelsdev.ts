@@ -11,7 +11,7 @@
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import { parse } from 'smol-toml'
-import { loadRegistry, reasoningOff, registryMatcher, settlePin, splitVariant, tierMismatch, withOperation } from '../lib/models.ts'
+import { isFree, loadRegistry, reasoningOff, splitFree, registryMatcher, settlePin, splitVariant, tierMismatch, withOperation } from '../lib/models.ts'
 import { loadAliases, parseBaseUrl, resolveHost } from '../lib/host.ts'
 import { NO_HOST, SDK_DEFAULT_BASE, fillHostVariables } from '../lib/sdk-hosts.ts'
 import { getText } from '../lib/http.ts'
@@ -115,7 +115,8 @@ async function main() {
         // "anthropic/claude-opus-4.8"), or the same slug without a release date
         // ("…claude-haiku-4-5-20251001" is "claude-haiku-4.5"). Only a slug that is
         // none of these is a model OpenRouter doesn't have, and becomes its own id.
-        const cmi = m.canonical_model_id
+        // A free tier's slug ("…:free") names its model.
+        const cmi = splitFree(m.canonical_model_id) ?? m.canonical_model_id
         const undated = cmi.replace(/-(\d{8}|\d{4}-\d{2}-\d{2})$/, '')
         const hit = reg.resolve(cmi) ?? matcher.match([cmi])?.model ?? (undated !== cmi ? (reg.resolve(undated) ?? matcher.match([undated])?.model) : undefined)
         // A declared slug nothing knows becomes its own id, unless it names a moving
@@ -144,7 +145,8 @@ async function main() {
         continue
       }
 
-      // "x:free" / "x:web": models.dev files the variant under its model; it is that model's variant.
+      // "x:edit": models.dev files the operation under its model; it is that model's variant.
+      // ("x:free" is the model itself, free.)
       const variant = reg.explicit(nativeId) ? undefined : splitVariant(nativeId)
       if (variant && !splitVariant(model)) model = `${model}:${variant[1]}`
       model = withOperation(nativeId, model)
@@ -154,7 +156,7 @@ async function main() {
         continue
       }
       model = settled.model
-      const row: Row = settled
+      const row: Row = isFree(nativeId) ? { ...settled, free: true } : settled
       if (!next.has(host)) next.set(host, emptyRows())
       const f = next.get(host)!
       const k = `${host}\0${nativeId}`

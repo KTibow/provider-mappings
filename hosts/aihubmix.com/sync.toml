@@ -170,6 +170,7 @@ pin = "pinned"
 ["dots-3-note-preview-free"]
 model = "dots-studio/dots-3-note-preview"
 pin = "pinned"
+free = true
 
 ["ernie-5.5-flash-preview"]
 model = "baidu/ernie-5.5-flash-preview"
@@ -178,10 +179,12 @@ pin = "pinned"
 ["ernie-5.5-flash-preview-free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
+free = true
 
 ["flint-v1.0-free"]
 model = "recursive/flint-v1.0"
 pin = "pinned"
+free = true
 
 ["gemini-2.5-flash-image"]
 model = "google/gemini-2.5-flash-image"
@@ -283,9 +286,19 @@ pin = "pinned"
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
+["gemma-4-26b-a4b-it-free"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+free = true
+
 ["gemma-4-31b-it"]
 model = "google/gemma-4-31b-it"
 pin = "pinned"
+
+["gemma-4-31b-it-free"]
+model = "google/gemma-4-31b-it"
+pin = "pinned"
+free = true
 
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
@@ -310,6 +323,11 @@ pin = "pinned"
 ["glm-4.7"]
 model = "z-ai/glm-4.7"
 pin = "pinned"
+
+["glm-4.7-flash-free"]
+model = "z-ai/glm-4.7-flash"
+pin = "pinned"
+free = true
 
 ["glm-5-turbo"]
 model = "z-ai/glm-5-turbo"
@@ -595,6 +613,16 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["lfm-2.5-2.6b-free"]
+model = "liquid/lfm-2.5-2.6b"
+pin = "pinned"
+free = true
+
+["lfm-3-1.7b-free"]
+model = "liquid/lfm-3-1.7b"
+pin = "pinned"
+free = true
+
 ["ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
@@ -602,6 +630,7 @@ pin = "pinned"
 ["ling-3.2-flash-free"]
 model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
+free = true
 
 ["llama-3.1-8b-instant"]
 model = "meta-llama/llama-3.1-8b-instruct"
@@ -632,16 +661,19 @@ model = "inception/mercury-2.5-preview"
 pin = "pinned"
 
 ["meta-llama/llama-3.1-70b-instruct:free"]
-model = "meta-llama/llama-3.1-70b-instruct:free"
+model = "meta-llama/llama-3.1-70b-instruct"
 pin = "pinned"
+free = true
 
 ["meta-llama/llama-3.1-8b-instruct:free"]
-model = "meta-llama/llama-3.1-8b-instruct:free"
+model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
+free = true
 
 ["meta-llama/llama-3.2-3b-instruct:free"]
-model = "meta-llama/llama-3.2-3b-instruct:free"
+model = "meta-llama/llama-3.2-3b-instruct"
 pin = "pinned"
+free = true
 
 ["mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
@@ -706,10 +738,27 @@ pin = "pinned"
 ["nemotron-3-nano-omni-30b-a3b-reasoning-free"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
+free = true
+
+["nemotron-3-ultra-550b-a55b-free"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+free = true
+
+["nemotron-3.5-lightning-free"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+free = true
+
+["nemotron-3.5-super-vl-free"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+free = true
 
 ["north-mini-code-free"]
 model = "cohere/north-mini-code"
 pin = "pinned"
+free = true
 
 ["nvidia-nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
@@ -742,6 +791,11 @@ pin = "pinned"
 ["o4-mini"]
 model = "openai/o4-mini"
 pin = "pinned"
+
+["particle-1-free"]
+model = "particle-ai/particle-1"
+pin = "pinned"
+free = true
 
 ["qwen-3-235b-a22b-instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
@@ -918,6 +972,16 @@ pin = "pinned"
 ["unsloth/gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
 pin = "pinned"
+
+["xiaomi-mimo-v2.6-flash-free"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+free = true
+
+["xiaomi-mimo-v2.6-pro-free"]
+model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+free = true
 
 ["zai-glm-5-turbo"]
 model = "z-ai/glm-5-turbo"

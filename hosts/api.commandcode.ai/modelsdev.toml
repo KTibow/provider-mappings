@@ -195,8 +195,9 @@ model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
 ["inclusionai/ling-3.1-flash:free"]
-model = "inclusionai/ling-3.1-flash:free"
+model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
+free = true
 
 ["meituan/LongCat-2.0"]
 model = "meituan/longcat-2.0"
@@ -277,10 +278,12 @@ pin = "pinned"
 ["poolside/laguna-s-2.1-free"]
 model = "poolside/laguna-s-2.1"
 pin = "pinned"
+free = true
 
 ["reflection/beam:free"]
-model = "reflection/beam-1.0-501b-a23b:free"
+model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
+free = true
 
 ["sakana/fugu-ultra"]
 model = "sakana/fugu-ultra"

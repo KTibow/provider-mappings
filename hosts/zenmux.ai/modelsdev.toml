@@ -361,6 +361,7 @@ pin = "pinned"
 ["z-ai/glm-4.6v-flash-free"]
 model = "z-ai/glm-4.6v-flash"
 pin = "pinned"
+free = true
 
 ["z-ai/glm-4.7"]
 model = "z-ai/glm-4.7"
@@ -369,6 +370,7 @@ pin = "pinned"
 ["z-ai/glm-4.7-flash-free"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
+free = true
 
 ["z-ai/glm-4.7-flashx"]
 model = "z-ai/glm-4.7-flashx"

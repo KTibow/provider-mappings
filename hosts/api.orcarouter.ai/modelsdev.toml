@@ -61,6 +61,7 @@ pin = "pinned"
 ["deepseek/deepseek-v4-flash-free"]
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
+free = true
 
 ["deepseek/deepseek-v4-flash-vision-exp"]
 model = "deepseek/deepseek-v4-flash-vision-exp"
@@ -393,6 +394,7 @@ pin = "pinned"
 ["tencent/hy3-free"]
 model = "tencent/hy3"
 pin = "pinned"
+free = true
 
 ["z-ai/glm-4.5"]
 model = "z-ai/glm-4.5"
@@ -433,3 +435,4 @@ pin = "pinned"
 ["z-ai/glm-5.3-flash-free"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
+free = true

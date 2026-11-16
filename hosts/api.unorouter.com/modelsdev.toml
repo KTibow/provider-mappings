@@ -19,36 +19,41 @@ model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["deepseek-v4-flash:free"]
-model = "deepseek/deepseek-v4-flash:free"
+model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
+free = true
 
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
 ["deepseek-v4-pro:free"]
-model = "deepseek/deepseek-v4-pro:free"
+model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
+free = true
 
 ["gemini-3.5-flash"]
 model = "google/gemini-3.5-flash"
 pin = "pinned"
 
 ["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it:free"
+model = "google/gemma-4-31b-it"
 pin = "pinned"
+free = true
 
 ["glm-4.5-flash:free"]
-model = "z-ai/glm-4.5-flash:free"
+model = "z-ai/glm-4.5-flash"
 pin = "pinned"
+free = true
 
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["glm-5.2:free"]
-model = "z-ai/glm-5.2:free"
+model = "z-ai/glm-5.2"
 pin = "pinned"
+free = true
 
 ["gpt-5.2"]
 model = "openai/gpt-5.2"
@@ -59,16 +64,18 @@ model = "openai/gpt-5.4"
 pin = "pinned"
 
 ["gpt-5.4:free"]
-model = "openai/gpt-5.4:free"
+model = "openai/gpt-5.4"
 pin = "pinned"
+free = true
 
 ["gpt-5.5"]
 model = "openai/gpt-5.5"
 pin = "pinned"
 
 ["gpt-5.5:free"]
-model = "openai/gpt-5.5:free"
+model = "openai/gpt-5.5"
 pin = "pinned"
+free = true
 
 ["kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
@@ -79,17 +86,21 @@ model = "minimax/minimax-m2.7"
 pin = "pinned"
 
 ["minimax-m2.7:free"]
-model = "minimax/minimax-m2.7:free"
+model = "minimax/minimax-m2.7"
 pin = "pinned"
+free = true
 
 ["nemotron-3-ultra-550b-a55b:free"]
-model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
+free = true
 
 ["qwen3.5-397b-a17b:free"]
-model = "qwen/qwen3.5-397b-a17b:free"
+model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
+free = true
 
 ["step-3.7-flash:free"]
-model = "stepfun/step-3.7-flash:free"
+model = "stepfun/step-3.7-flash"
 pin = "pinned"
+free = true

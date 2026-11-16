@@ -5,3 +5,4 @@
 ["z-ai/glm-5.3-free"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
+free = true

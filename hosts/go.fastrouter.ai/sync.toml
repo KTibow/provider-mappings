@@ -568,16 +568,18 @@ model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["openai/gpt-oss-120b:free"]
-model = "openai/gpt-oss-120b:free"
+model = "openai/gpt-oss-120b"
 pin = "pinned"
+free = true
 
 ["openai/gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
 ["openai/gpt-oss-20b:free"]
-model = "openai/gpt-oss-20b:free"
+model = "openai/gpt-oss-20b"
 pin = "pinned"
+free = true
 
 ["openai/gpt-transcribe"]
 model = "openai/gpt-transcribe"

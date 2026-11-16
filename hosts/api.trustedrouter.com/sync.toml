@@ -195,6 +195,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["dealignai/deepseek-v4.1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
 ["deepseek/deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
@@ -229,6 +233,10 @@ pin = "pinned"
 
 ["deepseek/deepseek-v4-1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["deepseek/deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
 ["deepseek/deepseek-v4-1-flash-uncensored"]

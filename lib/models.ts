@@ -24,31 +24,42 @@ import { MODEL_RE } from './rows.ts'
 
 /**
  * Variants of a model, in OpenRouter's "model:variant" convention, for a host id
- * that is the model sold as a separate offer:
- *   - "web": with the host's web search built in ("glm-5.1:web");
- *   - "free": its free tier ("gemma-4-31b-it:free", with its own limits). When
- *     OpenRouter lists only the free tier, the catalog makes that the model itself;
- *   - an operation of a media model other than its default (see operationOf).
- * Variants nest ("z-ai/glm-5.1:free:web"). A reasoning mode is not a variant:
+ * that is an operation of a media model other than its default (see operationOf).
+ * A free tier is not a variant: "gemma-4-31b-it:free" is the model itself, on a
+ * row marked `free` (see isFree). A reasoning mode is not a variant either:
  * ":thinking" is the model itself (see undecorate), and an id with reasoning
  * switched off ("-non-thinking") is not the model at all. Service tiers (":batch",
- * ":flex", ":priority") are left unmapped, and OpenRouter's ":online" is a
+ * ":flex", ":priority") and a host's web-search offers (":web") are left unmapped, and OpenRouter's ":online" is a
  * request option, not something a host lists.
  */
 export const OPERATIONS = ['image-to-video', 'reference-to-video', 'enhanced-reference-to-video', 'transition', 'edit'] as const
-export const VARIANTS = ['web', 'free', ...OPERATIONS] as const
-const VARIANT_RE = new RegExp(`^(.+):(${VARIANTS.join('|')})$`, 'i')
+const VARIANT_RE = new RegExp(`^(.+):(${OPERATIONS.join('|')})$`, 'i')
 
-/** "z-ai/glm-5.1:web" -> ["z-ai/glm-5.1", "web"]; undefined for an id without a variant. */
+/** "bytedance/seedance-2.0:edit" -> ["bytedance/seedance-2.0", "edit"]; undefined for an id without a variant. */
 export function splitVariant(id: string): [string, string] | undefined {
   const m = id.trim().match(VARIANT_RE)
   return m && m[1]!.includes('/') === id.includes('/') ? [m[1]!, m[2]!.toLowerCase()] : undefined
 }
 
-/** The model a variant is of, through any nesting ("z-ai/glm-5.1:free:web" -> "z-ai/glm-5.1"). */
+/** The model a variant is of, through any nesting ("bytedance/seedance-2.0:image-to-video" -> "bytedance/seedance-2.0"). */
 export function variantRoot(id: string): string {
   const v = splitVariant(id)
   return v ? variantRoot(v[0]) : id
+}
+
+/**
+ * A host's free tier of a model, by its native id: OpenRouter's "…:free",
+ * aihubmix's "glm-4.7-flash-free", blazeapi's "free/kimi-k3". It is the model
+ * itself at no charge (usually with tighter limits), so it maps to the model and
+ * its row says `free`. Not lowrouter's "…/cloud-act-free": a routing policy (no
+ * provider under the US CLOUD Act), not a price.
+ */
+export const isFree = (nativeId: string): boolean => /^free\/|[:-]free(?:\[\d+[km]\])?$/i.test(nativeId.trim()) && !/cloud-act-free$/i.test(nativeId.trim())
+
+/** "google/gemma-4-31b-it:free" -> "google/gemma-4-31b-it"; undefined without ":free". */
+export function splitFree(id: string): string | undefined {
+  const m = id.trim().match(/^(.+):free$/i)
+  return m?.[1]
 }
 
 /**
@@ -71,7 +82,7 @@ export function withOperation(nativeId: string, model: string, op = operationOf(
   return `${model}:${op}`
 }
 
-/** A variant's short name keeps its variants ("glm-5.1:free:web"), apart from its model's. */
+/** A variant's short name keeps its variant ("seedance-2.0:edit"), apart from its model's. */
 function shortKey(id: string): string {
   const v = splitVariant(id)
   return v ? `${shortKey(v[0])}:${v[1]}` : shortName(id)
@@ -164,9 +175,9 @@ export function toCatalog(models: OrModel[], previous: Catalog = {}, today = new
   const plainIds = new Set(bases.map((m) => m.id).filter((id) => !id.includes(':')))
   for (const m of bases) {
     if (isOpenRouterRouter(m.id)) continue
-    // ":free" / ":batch" are OpenRouter pricing variants; its permaslug has no
-    // suffix. When only the variant is listed, the model id is the plain id, and
-    // the variant id resolves to it.
+    // ":free" / ":batch" are OpenRouter pricing tiers, not models; the permaslug has
+    // no suffix. When only the tier is listed, the model id is the plain id, and
+    // the tier's id resolves to it.
     const plain = m.id.includes(':') ? m.id.slice(0, m.id.indexOf(':')) : m.id
     const id = plain !== m.id && !plainIds.has(plain) ? plain : m.id
     const e: CatalogEntry = { permaslug: m.canonical_slug }
@@ -402,7 +413,7 @@ export function normalizedForms(id: string): string[] {
  * An id without the routing decorations routers add: a region ("…@eu",
  * "…@us-east-1"; a version pin like "@20250929" starts with a digit and stays),
  * a context window ("…[1m]"), a reasoning switch ("…:thinking": models reason
- * by default, so that is the model itself), Bedrock's API version ("…-v1:0", "…-1:0"),
+ * by default, so that is the model itself), a free tier ("…:free", "…-free", "free/…": the row says `free`), Bedrock's API version ("…-v1:0", "…-1:0"),
  * Vertex's model-as-a-service suffix ("…-maas"), and the operation a media
  * host sells separately ("seedance-2-0-text-to-video-basic", "wan-2.7-t2v",
  * "mmaudio-v2-text-to-audio"), so it matches its model; the sync then maps a
@@ -411,10 +422,11 @@ export function normalizedForms(id: string): string[] {
  * (sometimes a separate editing model).
  */
 export function undecorate(id: string): string {
-  return id
+  const s = id
     .trim()
     .replace(/\[\d+[km]\]$/i, '')
     .replace(/:thinking$/i, '')
+  return (isFree(s) ? s.replace(/^free\/|[:-]free$/i, '') : s)
     .replace(/@[a-z][a-z0-9-]*$/i, '')
     .replace(/-v?\d+:\d+$/, '')
     .replace(/-maas$/i, '')
@@ -473,7 +485,7 @@ export function registryMatcher(reg: Registry): Matcher {
     const c = reg.ofOpenRouter(id)
     for (const n of [id, shortName(id), e.permaslug, e.hf, ...(e.formerly ?? [])]) m.add(n, c)
   }
-  // A variant ("tencent/hy3:free") is matched only by its own names: its short name
+  // A variant ("bytedance/seedance-2.0:edit") is matched only by its own names: its short name
   // without the variant is the model's. An operation's names find its model, and the
   // native id then says the operation (withOperation): "runway-gen4-5" is Venice's
   // image-to-video, but Poe's "runway-gen-4.5" is the model.
@@ -519,15 +531,14 @@ export async function loadRegistry(): Promise<{ reg: Registry; models: OrModel[]
  * it in manual.toml. "distill" is here too: "deepseek-r1-distill-qwen-32b" is a
  * different model from "deepseek-r1", and so are fine-tunes ("-abliterated",
  * "-uncensored", "-heretic"): models.dev links some of them to their base model.
- * "web" (a host's web-search variant, "glm-4.7:web") is a different product, and
+ * "web" (a host's web-search offer, "glm-4.7:web") is a different product, and
  * so are "lightning" (MiniMax's highspeed tier), "flashx" (Z.ai's faster Flash),
  * "ultra", "spot" and "economy" (serving tiers; Volcengine and BytePlus sell
  * "deepseek-v4-1-flash-economy-261017" beside the plain id), "cost" (flow7's
  * "…:low-cost" routes, a tenth of its "…:official" price) and "contributor" (Meta's Muse Spark
  * builds, which OpenRouter lists separately). "non" ("-non-thinking",
  * "-non-reasoning"): reasoning switched off is not the model, which reasons by default.
- * "free" is not one: like OpenRouter's ":free", it is a pricing variant of the
- * same model.
+ * "free" is not one: a free tier is the same model (isFree).
  */
 const TIER_WORDS = new Set(['fast', 'faster', 'highspeed', 'ultrafast', 'ultraspeed', 'speed', 'flex', 'turbo', 'priority', 'batch', 'e2ee', 'lite', 'mini', 'nano', 'pro', 'max', 'distill', 'distilled', 'lightning', 'flashx', 'ultra', 'spot', 'economy', 'cost', 'contributor', 'abliterated', 'uncensored', 'heretic', 'web', 'non'])
 const words = (s: string) => new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))

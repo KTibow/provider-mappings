@@ -35,7 +35,7 @@ import { candidates, listIds } from '../lib/discover.ts'
 import { loadAliases, resolveHost } from '../lib/host.ts'
 import { BIG_LIST, defaults, type HostDef, type Listed } from '../lib/hostsync.ts'
 import { getJson } from '../lib/http.ts'
-import { loadRegistry, registryMatcher, operationOf, settlePin, splitVariant, tierMismatch, withOperation, type MatchVia, type Matcher, type Registry } from '../lib/models.ts'
+import { isFree, loadRegistry, registryMatcher, operationOf, settlePin, splitFree, splitVariant, tierMismatch, withOperation, type MatchVia, type Matcher, type Registry } from '../lib/models.ts'
 import { HOSTS_DIR, STATE_DIR, hostFile, isMain, servedFile, type Source } from '../lib/paths.ts'
 import { byKey, formatRows, readRowsFile, stableJson, writeIfChanged, type Row, type RowsFile } from '../lib/rows.ts'
 import { LISTS_FILE, readLists, readState, writeReport, writeState, type Drop } from '../lib/state.ts'
@@ -124,25 +124,27 @@ export function mapEntries(ctx: MapContext, def: Pick<HostDef, 'hints' | 'name' 
     const id = (m.id as string).trim()
     // Already mapped by a person or by OpenRouter on this host: theirs to publish.
     if (others?.get('manual')?.rows.has(id) || others?.get('openrouter')?.rows.has(id)) continue
-    // "x:web": the model x maps to, as that variant ("z-ai/glm-5.1:web").
-    // (Not when the id itself names a model: a model OpenRouter lists only as ":free" is that model.)
-    const variant = reg.explicit(id) ? undefined : splitVariant(id)
+    // "x:edit": the model x maps to, as that operation; "x:free": the model x maps
+    // to, free. (Not when the id itself names a model: a model OpenRouter lists
+    // only as ":free" is that model, and its row is free too.)
+    const variant = reg.explicit(id) ? undefined : (splitVariant(id) ?? (splitFree(id) ? ([splitFree(id)!, 'free'] as const) : undefined))
     if (variant) {
       const [baseId, v] = variant
       const base = others?.get('manual')?.rows.get(baseId) ?? others?.get('openrouter')?.rows.get(baseId) ?? mapEntries(ctx, def, [{ ...m, id: baseId }], prev, undefined, upstream).rows.get(baseId)
-      if (base && !base.model.startsWith('~')) {
+      if (base && (v === 'free' || !base.model.startsWith('~'))) {
         via.exact++
         const quant = (def?.quant ?? defaults.quant)(m)
-        rows.set(id, { model: `${base.model}:${v}`, pin: base.pin, ...(quant ? { quant } : {}) })
+        rows.set(id, { model: v === 'free' ? base.model : `${base.model}:${v}`, pin: base.pin, ...(quant ? { quant } : {}), ...(v === 'free' || base.free ? { free: true as const } : {}) })
       } else unmapped.push(id)
       continue
     }
+    const free = isFree(id) ? { free: true as const } : {}
     // A declared mirror serves the upstream's id as the upstream does.
     const up = upstream?.get(id)
     if (up) {
       via.mirror++
       const quant = (def?.quant ?? defaults.quant)(m)
-      rows.set(id, { model: up.model, pin: up.pin, ...(quant ? { quant } : {}) })
+      rows.set(id, { model: up.model, pin: up.pin, ...(quant ? { quant } : {}), ...free })
       continue
     }
     const hints = [id, ...(def?.hints?.(m) ?? []).filter((h): h is string => typeof h === 'string' && h.length > 0)]
@@ -182,7 +184,7 @@ export function mapEntries(ctx: MapContext, def: Pick<HostDef, 'hints' | 'name' 
     // unless model-aliases.toml names the id ("runway-gen4-turbo": its model only
     // does image-to-video).
     const op = operationOf(id) ?? (how === 'explicit' ? undefined : def?.operation?.(m))
-    rows.set(id, { ...settled, model: withOperation(id, settled.model, op), ...(quant ? { quant } : {}) })
+    rows.set(id, { ...settled, model: withOperation(id, settled.model, op), ...(quant ? { quant } : {}), ...free })
   }
   return { rows, unmapped, via }
 }

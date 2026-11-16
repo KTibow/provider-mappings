@@ -35,8 +35,9 @@ model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["deepseek-v4-flash:free"]
-model = "deepseek/deepseek-v4-flash:free"
+model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
+free = true
 
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
@@ -79,8 +80,9 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 
 ["glm-4-7-flash:free"]
-model = "z-ai/glm-4.7-flash:free"
+model = "z-ai/glm-4.7-flash"
 pin = "pinned"
+free = true
 
 ["glm-5-1"]
 model = "z-ai/glm-5.1"
@@ -155,24 +157,27 @@ model = "tencent/hy3"
 pin = "pinned"
 
 ["hy3:free"]
-model = "tencent/hy3:free"
+model = "tencent/hy3"
 pin = "pinned"
+free = true
 
 ["kimi-k2-6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["kimi-k2-6:free"]
-model = "moonshotai/kimi-k2.6:free"
+model = "moonshotai/kimi-k2.6"
 pin = "pinned"
+free = true
 
 ["kimi-k2-7-code"]
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["kimi-k2-7-code:free"]
-model = "moonshotai/kimi-k2.7-code:free"
+model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
+free = true
 
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
@@ -187,8 +192,9 @@ model = "xiaomi/mimo-v2.5-pro"
 pin = "pinned"
 
 ["mimo-v2-5:free"]
-model = "xiaomi/mimo-v2.5:free"
+model = "xiaomi/mimo-v2.5"
 pin = "pinned"
+free = true
 
 ["minimax-m2-7"]
 model = "minimax/minimax-m2.7"
@@ -203,12 +209,14 @@ model = "minimax/minimax-m3"
 pin = "pinned"
 
 ["mistral-large:free"]
-model = "~mistralai/mistral-large-latest:free"
+model = "~mistralai/mistral-large-latest"
 pin = "floating"
+free = true
 
 ["mistral-medium-3-5:free"]
-model = "mistralai/mistral-medium-2604:free"
+model = "mistralai/mistral-medium-2604"
 pin = "pinned"
+free = true
 
 ["nano-banana-2"]
 model = "google/gemini-3.1-flash-image-preview"
@@ -231,8 +239,9 @@ model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
 
 ["nemotron-3-super-120b-a12b:free"]
-model = "nvidia/nemotron-3-super-120b-a12b:free"
+model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
+free = true
 
 ["nemotron-3-ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
@@ -251,8 +260,9 @@ model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-3-7-flash:free"]
-model = "stepfun/step-3.7-flash:free"
+model = "stepfun/step-3.7-flash"
 pin = "pinned"
+free = true
 
 ["whisper-large-v3-turbo"]
 model = "openai/whisper-large-v3-turbo"

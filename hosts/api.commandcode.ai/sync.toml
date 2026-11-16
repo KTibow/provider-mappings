@@ -302,6 +302,7 @@ pin = "pinned"
 ["thinkingmachines/inkling-2-small:free"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
+free = true
 
 ["thinkingmachines/inkling-small"]
 model = "thinkingmachines/inkling-small"

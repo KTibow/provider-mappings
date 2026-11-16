@@ -11,8 +11,9 @@ model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 
 ["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it:free"
+model = "google/gemma-4-31b-it"
 pin = "pinned"
+free = true
 
 ["glm-5.3"]
 model = "z-ai/glm-5.3"
@@ -31,5 +32,6 @@ model = "meta/muse-spark-1.3-contributor"
 pin = "pinned"
 
 ["nemotron-3-ultra-550b-a55b:free"]
-model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
+free = true

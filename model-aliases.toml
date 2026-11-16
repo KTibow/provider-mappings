@@ -104,7 +104,7 @@ surplus_legacy = ["qwen-3-7-plus"]
 surplus_legacy = ["qwen-3-8-27b"]
 
 ["runway/gen-4.5"]
-surplus_legacy = ["venice-runway-gen4-5-text"]
+surplus_legacy = ["venice-runway-gen4-5-text", "venice-video-gen"]
 aliases = ["runway-gen4-5-text"]
 
 # Venice's "runway-gen4-5" is image-to-video; "runway-gen4-5-text" is text-to-video.
@@ -227,8 +227,8 @@ name = "Qwen3.5 Flash"
 ["alibaba/qwen3.5-plus"]
 name = "Qwen3.5 Plus"
 
-# OpenRouter's free tier of Tencent HY3; the catalog lists it as its own model.
-["tencent/hy3:free"]
+# The catalog's free offer of HY3: a free tier is the model itself.
+["tencent/hy3"]
 surplus_legacy = ["hy3-free"]
 
 ["minimax/minimax-m2"]
@@ -259,7 +259,7 @@ surplus_legacy = ["abliteration-abliterated-model-large-v2"]
 
 ["ace-step/ace-step-1.5"]
 name = "ACE-Step 1.5"
-surplus_legacy = ["venice-ace-step-15"]
+surplus_legacy = ["venice-ace-step-15", "venice-music-gen"]
 
 ["alibaba/happyhorse-1.0"]
 surplus_legacy = ["happyhorse-1-0-text-to-video"]
@@ -381,7 +381,8 @@ surplus_legacy = ["venice-wan-3-0-pro-reference-to-video"]
 
 ["alibaba/z-image-turbo"]
 name = "Z-Image Turbo"
-surplus_legacy = ["venice-z-image-turbo"]
+# "venice-flux-1.1": an old listing Surplus now routes to Venice's Z-Image Turbo.
+surplus_legacy = ["venice-flux-1.1", "venice-z-image-turbo"]
 
 ["anthropic/claude-opus-4.6-fast"]
 name = "Claude Opus 4.6 Fast"
@@ -409,7 +410,8 @@ surplus_legacy = ["venice-flux-2-max"]
 surplus_legacy = ["flux-2-max-edit"]
 
 ["black-forest-labs/flux.2-pro"]
-surplus_legacy = ["venice-flux-2-pro"]
+# "venice-flux-1.1-pro": an old listing Surplus now routes to Venice's FLUX.2 Pro.
+surplus_legacy = ["venice-flux-1.1-pro", "venice-flux-2-pro"]
 
 # The rest of the Seed 2.0 family (OpenRouter lists Lite and Mini); models.dev names
 # these, so hosts' own lists can match them too.
@@ -445,6 +447,14 @@ aliases = ["seedream-v5-pro"]
 
 ["bytedance-seed/seedream-5-0-pro:edit"]
 surplus_legacy = ["seedream-v5-pro-edit"]
+
+["bytedance-seed/seedream-5-5"]
+surplus_legacy = ["venice-seedream-v5-5"]
+aliases = ["seedream-v5-5"]
+
+["bytedance-seed/seedream-5-5:edit"]
+surplus_legacy = ["venice-seedream-v5-5-edit"]
+aliases = ["seedream-v5-5-edit"]
 
 ["bytedance/seedance-1.5-pro"]
 name = "Seedance 1.5 Pro"
@@ -503,6 +513,10 @@ surplus_legacy = ["ovi-image-to-video"]
 
 ["deepseek/deepseek-v4-flash-0731-fast"]
 name = "DeepSeek V4 Flash 0731 Fast"
+
+["deepseek/deepseek-v4.1-flash-1017-uncensored"]
+name = "DeepSeek V4.1 Flash 1017 Uncensored"
+surplus_legacy = ["deepseek-v4-1-flash-1017-uncensored"]
 
 ["deepseek/deepseek-v4.1-flash-uncensored"]
 name = "DeepSeek V4.1 Flash Uncensored"
@@ -624,7 +638,7 @@ surplus_legacy = ["veo3-1-fast-text-to-video"]
 surplus_legacy = ["veo3-1-fast-image-to-video"]
 
 ["hexgrad/kokoro-82m"]
-surplus_legacy = ["venice-kokoro-tts"]
+surplus_legacy = ["venice-kokoro-tts", "venice-tts-1"]
 
 ["ideogram/ideogram-v4"]
 name = "Ideogram V4"
@@ -839,6 +853,7 @@ surplus_legacy = ["kimi-k3-fast-api"]
 
 ["nvidia/cosmos-predict"]
 name = "Cosmos Predict"
+surplus_legacy = ["uncensored-cosmos-predict"]
 
 ["nvidia/cosmos-predict:image-to-video"]
 surplus_legacy = ["cosmos-predict-image-to-video"]
@@ -886,6 +901,20 @@ surplus_legacy = ["venice-gpt-image-2-5-sunburst"]
 ["openai/gpt-image-2.5-sunburst:edit"]
 surplus_legacy = ["gpt-image-2-5-sunburst-edit"]
 
+["openai/gpt-image-2.6-flare"]
+surplus_legacy = ["venice-gpt-image-2-6-flare"]
+
+["openai/gpt-image-2.6-flare:edit"]
+surplus_legacy = ["venice-gpt-image-2-6-flare-edit"]
+aliases = ["gpt-image-2-6-flare-edit"]
+
+["openai/gpt-image-2.6-sunburst"]
+surplus_legacy = ["venice-gpt-image-2-6-sunburst"]
+
+["openai/gpt-image-2.6-sunburst:edit"]
+surplus_legacy = ["venice-gpt-image-2-6-sunburst-edit"]
+aliases = ["gpt-image-2-6-sunburst-edit"]
+
 ["openai/gpt-oss-safeguard-120b"]
 surplus_legacy = ["openai-gpt-oss-safeguard-120b"]
 
@@ -905,7 +934,7 @@ surplus_legacy = ["sora-2-pro-image-to-video"]
 surplus_legacy = ["venice-embed-1"]
 
 ["openai/whisper-large-v3"]
-surplus_legacy = ["fal-wizper","venice-whisper-large-v3"]
+surplus_legacy = ["fal-wizper", "venice-whisper-1", "venice-whisper-large-v3"]
 aliases = ["fal/wizper"]
 
 ["orcacyber/orcacyber-flash-1.0"]
@@ -1031,7 +1060,8 @@ surplus_legacy = ["venice-stable-audio-25"]
 
 ["stabilityai/stable-diffusion-3.5-large"]
 name = "Stable Diffusion 3.5 Large"
-surplus_legacy = ["venice-sd35"]
+# "venice-sdxl": the catalog's old SDXL listing, which Surplus routes to Venice's SD 3.5.
+surplus_legacy = ["venice-sd35", "venice-sdxl"]
 
 ["tencent/hunyuan-image-3.0"]
 name = "Hunyuan Image 3.0"
@@ -1044,9 +1074,6 @@ surplus_legacy = ["topaz-video-upscale"]
 
 ["uncensored-ai/uncensored-av-gen"]
 name = "AV-Gen"
-
-["uncensored-ai/uncensored-cosmos-predict"]
-name = "Cosmos Predict (Uncensored AI)"
 
 ["uncensored-ai/uncensored-i2v-pro"]
 name = "I2V Pro"

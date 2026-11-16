@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { Matcher, Registry, operationOf, settlePin, shortName, splitVariant, tierMismatch, toCatalog, undecorate, variantRoot, withOperation } from '../lib/models.ts'
+import { Matcher, Registry, isFree, operationOf, settlePin, shortName, splitVariant, tierMismatch, toCatalog, undecorate, variantRoot, withOperation } from '../lib/models.ts'
 import { parseBaseUrl } from '../lib/host.ts'
 import { formatRows, guessPin, readRowsText, type RowsFile } from '../lib/rows.ts'
 import { formatServed, merge, readServedText, undatedAlias, type HostFiles } from '../lib/store.ts'
@@ -198,18 +198,15 @@ test('host sync: mirrors, router prefixes, floating names, display-name tiers', 
   assert.deepEqual(out.rows.get('jev-latest'), { model: '~typesafe/jev-latest', pin: 'floating' })
 })
 
-test('web-search variants map as "model:web"; service tiers stay unmapped', () => {
-  assert.deepEqual(splitVariant('glm-5.1:web'), ['glm-5.1', 'web'])
+test('web-search offers and service tiers stay unmapped', () => {
+  assert.equal(splitVariant('glm-5.1:web'), undefined)
   assert.equal(splitVariant('anthropic/claude-haiku-5.5:batch'), undefined)
-  assert.deepEqual(splitVariant('google/gemma-4-31b-it:free'), ['google/gemma-4-31b-it', 'free'])
-  const reg = new Registry({ 'z-ai/glm-5.1': {}, 'z-ai/glm-5.1:web': {} }, new Map())
-  assert.equal(reg.shortOf('z-ai/glm-5.1'), 'glm-5.1') // no collision with its variant
-  assert.equal(reg.shortOf('z-ai/glm-5.1:web'), 'glm-5.1:web')
+  assert.equal(splitVariant('google/gemma-4-31b-it:free'), undefined) // a free tier is the model
+  const reg = new Registry({ 'z-ai/glm-5.1': {} }, new Map())
   const matcher = new Matcher()
   matcher.add('z-ai/glm-5.1', 'z-ai/glm-5.1')
-  const out = mapEntries({ reg, matcher }, undefined, [{ id: 'glm-5.1:web' }, { id: 'glm-5.1:batch' }])
-  assert.equal(out.rows.get('glm-5.1:web')?.model, 'z-ai/glm-5.1:web')
-  assert.deepEqual(out.unmapped, ['glm-5.1:batch'])
+  const out = mapEntries({ reg, matcher }, undefined, [{ id: 'glm-5.1:web' }, { id: 'glm-5.1:batch' }, { id: 'glm-5.1:free:web' }])
+  assert.deepEqual(out.unmapped, ['glm-5.1:web', 'glm-5.1:batch', 'glm-5.1:free:web'])
 })
 
 test('media operations are variants of their model; reasoning modes are not', () => {
@@ -226,11 +223,10 @@ test('media operations are variants of their model; reasoning modes are not', ()
   assert.equal(withOperation('nano-banana-pro-edit', 'google/gemini-3-pro-image-preview'), 'google/gemini-3-pro-image-preview:edit')
   assert.equal(withOperation('k3-edit', 'krea/k3-edit'), 'krea/k3-edit') // the model is the edit model
   assert.equal(withOperation('x-edit', 'a/x:edit'), 'a/x:edit')
-  // Variants nest, and keep their own short names.
-  assert.deepEqual(splitVariant('z-ai/glm-5.1:free:web'), ['z-ai/glm-5.1:free', 'web'])
-  assert.equal(variantRoot('z-ai/glm-5.1:free:web'), 'z-ai/glm-5.1')
-  const reg = new Registry({ 'z-ai/glm-5.1': {}, 'bytedance/seedance-2.0': {} }, new Map([['z-ai/glm-5.1:free', { aliases: [], surplusLegacy: [] }]]))
-  assert.equal(reg.shortOf('z-ai/glm-5.1:free'), 'glm-5.1:free')
+  // Variants keep their own short names.
+  assert.equal(variantRoot('bytedance/seedance-2.0:image-to-video'), 'bytedance/seedance-2.0')
+  const reg = new Registry({ 'z-ai/glm-5.1': {}, 'bytedance/seedance-2.0': {} }, new Map([['bytedance/seedance-2.0:image-to-video', { aliases: [], surplusLegacy: [] }]]))
+  assert.equal(reg.shortOf('bytedance/seedance-2.0:image-to-video'), 'seedance-2.0:image-to-video')
   const matcher = new Matcher()
   matcher.add('seedance-2.0', 'bytedance/seedance-2.0')
   matcher.add('glm-5.1', 'z-ai/glm-5.1')
@@ -251,4 +247,28 @@ test('media operations are variants of their model; reasoning modes are not', ()
   const reg2 = new Registry({ 'runway/gen-4-turbo': {} }, new Map([['runway/gen-4-turbo', { aliases: [], surplusLegacy: ['runway-gen4-turbo'] }]]))
   const one = mapEntries({ reg: reg2, matcher: new Matcher() }, { operation: (m) => m.op as string | undefined }, [{ id: 'runway-gen4-turbo', op: 'image-to-video' }])
   assert.equal(one.rows.get('runway-gen4-turbo')?.model, 'runway/gen-4-turbo')
+})
+
+test('a free tier is the model itself, on a row marked free', () => {
+  assert.ok(isFree('google/gemma-4-31b-it:free') && isFree('glm-4.7-flash-free') && isFree('free/kimi-k3'))
+  assert.ok(!isFree('auto/google/gemma-4-31b-it/cloud-act-free')) // lowrouter's routing policy, not a price
+  assert.ok(!isFree('jailbreak-free-assistant') && !isFree('freepik/mystic'))
+  assert.equal(undecorate('claude-haiku-5-5:free[1m]'), 'claude-haiku-5-5')
+  assert.ok(isFree('claude-haiku-5-5:free[1m]'))
+  const reg = new Registry({ 'z-ai/glm-5.1': {}, 'google/gemma-4-31b-it': {} }, new Map())
+  const matcher = new Matcher()
+  matcher.add('z-ai/glm-5.1', 'z-ai/glm-5.1')
+  matcher.add('google/gemma-4-31b-it', 'google/gemma-4-31b-it')
+  const out = mapEntries({ reg, matcher }, undefined, [{ id: 'glm-5.1:free' }, { id: 'free/glm-5.1' }, { id: 'gemma-4-31b-it-free' }, { id: 'glm-5.1' }])
+  assert.deepEqual(out.rows.get('glm-5.1:free'), { model: 'z-ai/glm-5.1', pin: 'pinned', free: true })
+  assert.deepEqual(out.rows.get('free/glm-5.1'), { model: 'z-ai/glm-5.1', pin: 'pinned', free: true })
+  assert.deepEqual(out.rows.get('gemma-4-31b-it-free'), { model: 'google/gemma-4-31b-it', pin: 'pinned', free: true })
+  assert.deepEqual(out.rows.get('glm-5.1'), { model: 'z-ai/glm-5.1', pin: 'pinned' })
+  // A row can't name a free tier as its model, and free round-trips.
+  const problems: string[] = []
+  readRowsText('["x:free"]\nmodel = "a/x:free"\npin = "pinned"\n', problems)
+  assert.equal(problems.length, 1)
+  const f = readRowsText('["x:free"]\nmodel = "a/x"\npin = "pinned"\nfree = true\n')
+  assert.deepEqual(f.rows.get('x:free'), { model: 'a/x', pin: 'pinned', free: true })
+  assert.equal(readRowsText(formatRows([], f)).rows.get('x:free')?.free, true)
 })

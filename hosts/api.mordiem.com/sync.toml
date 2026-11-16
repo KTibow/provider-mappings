@@ -103,6 +103,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
 ["deepseek-v4-1-flash-uncensored"]
 model = "deepseek/deepseek-v4.1-flash-uncensored"
 pin = "pinned"
@@ -327,8 +331,16 @@ pin = "pinned"
 model = "openai/gpt-image-2.6-flare"
 pin = "pinned"
 
+["gpt-image-2-6-flare-edit"]
+model = "openai/gpt-image-2.6-flare:edit"
+pin = "pinned"
+
 ["gpt-image-2-6-sunburst"]
 model = "openai/gpt-image-2.6-sunburst"
+pin = "pinned"
+
+["gpt-image-2-6-sunburst-edit"]
+model = "openai/gpt-image-2.6-sunburst:edit"
 pin = "pinned"
 
 ["gpt-image-2-edit"]
@@ -1081,6 +1093,14 @@ pin = "pinned"
 
 ["seedream-v4-edit"]
 model = "bytedance-seed/seedream-4.5:edit"
+pin = "pinned"
+
+["seedream-v5-5"]
+model = "bytedance-seed/seedream-5-5"
+pin = "pinned"
+
+["seedream-v5-5-edit"]
+model = "bytedance-seed/seedream-5-5:edit"
 pin = "pinned"
 
 ["seedream-v5-lite"]

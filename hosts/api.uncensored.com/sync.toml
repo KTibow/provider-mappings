@@ -495,6 +495,14 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["seedream-v5.5"]
+model = "bytedance-seed/seedream-5-5"
+pin = "pinned"
+
+["seedream-v5.5/edit"]
+model = "bytedance-seed/seedream-5-5:edit"
+pin = "pinned"
+
 ["wan-2.6"]
 model = "alibaba/wan-2.6:image-to-video"
 pin = "pinned"

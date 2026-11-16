@@ -52,16 +52,19 @@ model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
 ["dots-3-note-preview:free"]
-model = "dots-studio/dots-3-note-preview:free"
+model = "dots-studio/dots-3-note-preview"
 pin = "pinned"
+free = true
 
 ["ernie-5-5-flash-preview:free"]
-model = "baidu/ernie-5.5-flash-preview:free"
+model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
+free = true
 
 ["flint-v1-0:free"]
-model = "recursive/flint-v1.0:free"
+model = "recursive/flint-v1.0"
 pin = "pinned"
+free = true
 
 ["gemini-3-1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
@@ -92,8 +95,9 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 
 ["glm-4-7-flash:free"]
-model = "z-ai/glm-4.7-flash:free"
+model = "z-ai/glm-4.7-flash"
 pin = "pinned"
+free = true
 
 ["glm-5-2"]
 model = "z-ai/glm-5.2"
@@ -216,12 +220,14 @@ model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["lfm-3-1-7b:free"]
-model = "liquid/lfm-3-1.7b:free"
+model = "liquid/lfm-3-1.7b"
 pin = "pinned"
+free = true
 
 ["llama-3-3-70b-instruct:free"]
-model = "meta-llama/llama-3.3-70b-instruct:free"
+model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
+free = true
 
 ["lyria-3-pro"]
 model = "google/lyria-3-pro-preview"
@@ -272,16 +278,19 @@ model = "google/gemini-3-pro-image-preview"
 pin = "pinned"
 
 ["nemotron-3-5-lightning:free"]
-model = "nvidia/nemotron-3.5-lightning:free"
+model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
+free = true
 
 ["nemotron-3-5-super-vl:free"]
-model = "nvidia/nemotron-3.5-super-vl:free"
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
+free = true
 
 ["nemotron-3-nano-omni-30b-a3b-reasoning:free"]
-model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
+free = true
 
 ["nemotron-3-super-120b-a12b"]
 model = "nvidia/nemotron-3-super-120b-a12b"
@@ -292,28 +301,33 @@ model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["nemotron-3-ultra-550b-a55b:free"]
-model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
+free = true
 
 ["north-mini-code:free"]
-model = "cohere/north-mini-code:free"
+model = "cohere/north-mini-code"
 pin = "pinned"
+free = true
 
 ["qwen3-5-397b-a17b:free"]
-model = "qwen/qwen3.5-397b-a17b:free"
+model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
+free = true
 
 ["qwen3-6-27b:free"]
-model = "qwen/qwen3.6-27b:free"
+model = "qwen/qwen3.6-27b"
 pin = "pinned"
+free = true
 
 ["qwen3-7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
 
 ["qwen3-8-27b:free"]
-model = "qwen/qwen3.8-27b:free"
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
+free = true
 
 ["qwen3-8-flash"]
 model = "qwen/qwen3.8-flash"
@@ -328,12 +342,14 @@ model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
 ["qwen3-8-omni-flash:free"]
-model = "qwen/qwen3.8-omni-flash:free"
+model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
+free = true
 
 ["solar-mini4:free"]
-model = "upstage/solar-mini4:free"
+model = "upstage/solar-mini4"
 pin = "pinned"
+free = true
 
 ["step-3-7-flash"]
 model = "stepfun/step-3.7-flash"

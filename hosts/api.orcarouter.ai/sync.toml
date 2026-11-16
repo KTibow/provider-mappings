@@ -67,6 +67,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["deepseek/deepseek-v4-flash-free"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+free = true
+
 ["deepseek/deepseek-v4-flash-vision-exp"]
 model = "deepseek/deepseek-v4-flash-vision-exp"
 pin = "pinned"
@@ -86,6 +91,11 @@ pin = "pinned"
 ["deepseek/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
+
+["deepseek/deepseek-v4.1-flash-free"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+free = true
 
 ["google/gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
@@ -596,12 +606,18 @@ model = "tencent/hy3"
 pin = "pinned"
 
 ["tencent/hy3-free"]
-model = "tencent/hy3:free"
+model = "tencent/hy3"
 pin = "pinned"
+free = true
 
 ["tencent/hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
+
+["tencent/hy4-preview-free"]
+model = "tencent/hy4-preview"
+pin = "pinned"
+free = true
 
 ["typesafe/jev-1.13"]
 model = "typesafe/jev-1.13"
@@ -654,3 +670,8 @@ pin = "pinned"
 ["z-ai/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
+
+["z-ai/glm-5.3-flash-free"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+free = true

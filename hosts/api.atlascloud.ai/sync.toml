@@ -53,6 +53,12 @@ model = "deepseek/deepseek-v3.2-exp"
 pin = "pinned"
 quant = "fp8"
 
+["dots-studio/dots-3-note-prev-free"]
+model = "dots-studio/dots-3-note-preview"
+pin = "pinned"
+quant = "fp8"
+free = true
+
 ["google/gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"

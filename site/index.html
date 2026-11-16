@@ -134,7 +134,7 @@ async function load() {
   for (const [host, rows] of Object.entries(mh)) {
     const list = []
     for (const [native, r] of Object.entries(rows)) {
-      const item = { host, native, model: r.model, pin: r.pin, current: r.current, quant: r.quant }
+      const item = { host, native, model: r.model, pin: r.pin, current: r.current, quant: r.quant, free: r.free }
       list.push(item)
       if (!byModel.has(r.model)) byModel.set(r.model, [])
       byModel.get(r.model).push(item)
@@ -194,7 +194,7 @@ function modelDetail(m) {
     rows.length ? el('table', {}, el('thead', {}, el('tr', {}, el('th', {}, 'Host'), el('th', {}, 'Send as model'), el('th', { class: 'hide-sm' }, 'Quant'))),
       el('tbody', {}, rows.map((x) => el('tr', {},
         el('td', { class: 'mono' }, el('a', { href: '#h=' + encodeURIComponent(x.host) }, x.host)),
-        el('td', { class: 'mono' }, x.native, copyBtn(x.native), floatChip(x)),
+        el('td', { class: 'mono' }, x.native, copyBtn(x.native), floatChip(x), x.free ? el('span', { class: 'chip', title: 'The host\'s free tier of this model: no charge, usually tighter limits' }, 'free') : null),
         el('td', { class: 'mono muted hide-sm' }, x.quant || ''))))) : el('p', { class: 'faint' }, 'No host rows yet.'))
 }
 
@@ -211,7 +211,7 @@ function hostDetail(h) {
     h.family ? el('p', { class: 'muted' }, 'Host family: the ', el('span', { class: 'mono' }, '{…}'), ' label matches any single DNS label.') : null,
     el('table', {}, el('thead', {}, el('tr', {}, el('th', {}, 'Native id'), el('th', {}, 'Model'), el('th', { class: 'hide-sm' }, 'Quant'))),
       el('tbody', {}, rows.map((x) => el('tr', {},
-        el('td', { class: 'mono' }, x.native, copyBtn(x.native), floatChip(x)),
+        el('td', { class: 'mono' }, x.native, copyBtn(x.native), floatChip(x), x.free ? el('span', { class: 'chip', title: 'The host\'s free tier of this model: no charge, usually tighter limits' }, 'free') : null),
         el('td', {}, el('a', { class: 'mono', href: '#m=' + encodeURIComponent(x.model) }, x.model), name.get(x.model) ? el('span', { class: 'faint' }, '  ' + name.get(x.model)) : null,
           x.current ? el('div', { class: 'faint' }, 'now serves ', el('a', { class: 'mono', href: '#m=' + encodeURIComponent(x.current) }, x.current)) : null),
         el('td', { class: 'mono muted hide-sm' }, x.quant || ''))))))

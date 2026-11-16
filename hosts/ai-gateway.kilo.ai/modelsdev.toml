@@ -129,6 +129,7 @@ pin = "pinned"
 ["baidu/ernie-5.5-flash-preview:free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
+free = true
 
 ["baidu/ernie-light-dt-1.0-intl"]
 model = "baidu/ernie-light-dt-1.0-intl"
@@ -177,6 +178,7 @@ pin = "pinned"
 ["cohere/north-mini-code:free"]
 model = "cohere/north-mini-code"
 pin = "pinned"
+free = true
 
 ["deepseek/deepseek-chat"]
 model = "deepseek/deepseek-chat"
@@ -241,6 +243,7 @@ pin = "pinned"
 ["dots-studio/dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview"
 pin = "pinned"
+free = true
 
 ["elorian/glimpse"]
 model = "elorian/glimpse"
@@ -433,6 +436,7 @@ pin = "pinned"
 ["inclusionai/ling-3.2-flash:free"]
 model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
+free = true
 
 ["inference-net/schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
@@ -453,6 +457,11 @@ pin = "pinned"
 ["liquid/lfm-3-1.7b"]
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
+
+["liquid/lfm-3-1.7b:free"]
+model = "liquid/lfm-3-1.7b"
+pin = "pinned"
+free = true
 
 ["mancer/weaver"]
 model = "mancer/weaver"
@@ -737,6 +746,7 @@ pin = "pinned"
 ["nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
+free = true
 
 ["nvidia/nemotron-3-super-120b-a12b"]
 model = "nvidia/nemotron-3-super-120b-a12b"
@@ -747,8 +757,9 @@ model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["nvidia/nemotron-3-ultra-550b-a55b:free"]
-model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
+free = true
 
 ["nvidia/nemotron-3.5-content-safety"]
 model = "nvidia/nemotron-3.5-content-safety"
@@ -759,16 +770,18 @@ model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
 
 ["nvidia/nemotron-3.5-lightning:free"]
-model = "nvidia/nemotron-3.5-lightning:free"
+model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
+free = true
 
 ["nvidia/nemotron-3.5-super-vl"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["nvidia/nemotron-3.5-super-vl:free"]
-model = "nvidia/nemotron-3.5-super-vl:free"
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
+free = true
 
 ["nvidia/nemotron-nano-12b-v2-vl"]
 model = "nvidia/nemotron-nano-12b-v2-vl"
@@ -1030,6 +1043,11 @@ pin = "pinned"
 model = "particle-ai/particle-1"
 pin = "pinned"
 
+["particle-ai/particle-1:free"]
+model = "particle-ai/particle-1"
+pin = "pinned"
+free = true
+
 ["particle/particle-1"]
 model = "particle-ai/particle-1"
 pin = "pinned"
@@ -1249,6 +1267,11 @@ pin = "pinned"
 ["reflection/beam-1.0-501b-a23b"]
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
+
+["reflection/beam-free"]
+model = "reflection/beam-1.0-501b-a23b"
+pin = "pinned"
+free = true
 
 ["rekaai/reka-edge"]
 model = "rekaai/reka-edge"

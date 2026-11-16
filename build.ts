@@ -1,6 +1,6 @@
 /**
  * Merge every hosts/<host>/<source>.toml into dist/:
- *   model-hosts.json  { "<host>": { "<native id>": { model, pin, current?, quant? } } }
+ *   model-hosts.json  { "<host>": { "<native id>": { model, pin, current?, quant?, free? } } }
  *   unmapped.json     { "<host>": { "<native id>": ["<source>", ...] } }
  *   conflicts.json    [{ host, id, chosen: { source, model }, others: [...] }]
  *   needs-review.json [{ host, id, model, reason, source }]
@@ -23,7 +23,7 @@ import hostConfig from './sync/host-config.ts'
 import { loadHostFiles, merge, type HostFiles } from './lib/store.ts'
 
 export interface BuildOutput {
-  modelHosts: Record<string, Record<string, { model: string; pin: string; current?: string; quant?: string }>>
+  modelHosts: Record<string, Record<string, { model: string; pin: string; current?: string; quant?: string; free?: true }>>
   unmapped: Record<string, Record<string, string[]>>
   conflicts: Conflict[]
   needsReview: { host: string; id: string; model: string; reason: string; source: string }[]
@@ -63,7 +63,7 @@ export interface ModelEntry {
   /** The id without its vendor ("kimi-k3"): what a catalog that drops the vendor lists it as. Absent if two models share it. */
   short?: string
   name?: string
-  /** For a variant id ("z-ai/glm-5.1:web": the model with the host's web search), the model it is a variant of. */
+  /** For a variant id ("bytedance/seedance-2.0:image-to-video": an operation other than the model's default), the model it is a variant of. */
   variant_of?: string
   /** OpenRouter's permaslug: the checkpoint currently behind this id. */
   permaslug?: string
@@ -103,7 +103,7 @@ export function build(files: HostFiles): BuildOutput {
   const modelHosts: BuildOutput['modelHosts'] = {}
   for (const [host, m] of rows) {
     const out: BuildOutput['modelHosts'][string] = {}
-    for (const [id, r] of m) out[id] = { model: r.model, pin: r.pin, ...(r.current ? { current: r.current } : {}), ...(r.quant ? { quant: r.quant } : {}) }
+    for (const [id, r] of m) out[id] = { model: r.model, pin: r.pin, ...(r.current ? { current: r.current } : {}), ...(r.quant ? { quant: r.quant } : {}), ...(r.free ? { free: true as const } : {}) }
     modelHosts[host] = out
   }
 
@@ -140,7 +140,7 @@ export function build(files: HostFiles): BuildOutput {
   const aliasMap = reg.aliasesOf()
   const models: Record<string, ModelEntry> = {}
   const surplusLegacy: Record<string, string> = {}
-  // "GLM 5.1 (non-thinking) (web)": a variant is named after its model.
+  // "ByteDance: Seedance 2.0 (image-to-video)": a variant is named after its model.
   const nameOf = (id: string): string | undefined => {
     const v = splitVariant(id)
     const own = reg.declared.get(id)?.name ?? (v ? undefined : reg.catalog[id]?.name)
@@ -150,10 +150,9 @@ export function build(files: HostFiles): BuildOutput {
   }
   for (const id of reg.ids()) {
     const variant = splitVariant(id)
-    // A variant ("z-ai/glm-5.1:web") is described by its model; its names are its own.
+    // A variant ("bytedance/seedance-2.0:edit") is described by its model; its names are its own.
     const c = reg.catalog[id] ?? (variant ? reg.catalog[variantRoot(id)] : undefined)
     const d = reg.declared.get(id)
-    const baseD = variant ? reg.declared.get(variant[0]) : undefined
     const e: ModelEntry = { source: reg.catalog[id] ? 'openrouter' : reg.declared.has(id) ? 'model-aliases.toml' : [...(usedBy.get(id) ?? [])].sort().join(','), hosts: used.get(id)?.size ?? 0 }
     if (variant) e.variant_of = variant[0]
     const short = reg.shortOf(id)
@@ -165,8 +164,8 @@ export function build(files: HostFiles): BuildOutput {
     if (c?.floating || id.startsWith('~')) e.floating = true
     if (c?.input) e.input = c.input
     if (c?.output) e.output = c.output
-    // Every catalog id that is this model; a ":web" or ":free" variant's also its model's plus the variant.
-    const legacy = new Set([...(d?.surplusLegacy ?? []), ...(variant && (variant[1] === 'web' || variant[1] === 'free') ? (baseD?.surplusLegacy ?? []).map((l) => `${l}:${variant[1]}`) : [])])
+    // Every catalog id that is this model.
+    const legacy = new Set(d?.surplusLegacy ?? [])
     const other = (aliasMap.get(id) ?? []).filter((a) => a !== short && !legacy.has(a))
     if (other.length) e.aliases = other
     if (legacy.size) {

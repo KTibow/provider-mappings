@@ -15,8 +15,8 @@ pin = "pinned"
 model = "openai/gpt-5.6-terra"
 pin = "pinned"
 
-["MiniMax-M2.7:web"]
-model = "minimax/minimax-m2.7:web"
+["deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
 ["deepseek-v4-flash-0731"]
@@ -25,14 +25,6 @@ pin = "pinned"
 
 ["deepseek-v4-flash-0731-fast"]
 model = "deepseek/deepseek-v4-flash-0731-fast"
-pin = "pinned"
-
-["deepseek-v4-flash:web"]
-model = "deepseek/deepseek-v4-flash:web"
-pin = "pinned"
-
-["gemma-4-31b:web"]
-model = "google/gemma-4-31b-it:web"
 pin = "pinned"
 
 ["gpt-5-6-luna"]
@@ -45,10 +37,6 @@ pin = "pinned"
 
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
-pin = "pinned"
-
-["kimi-k2.7-code:web"]
-model = "moonshotai/kimi-k2.7-code:web"
 pin = "pinned"
 
 ["nvidia-nemotron-3-5-super-vl-120b-a12b"]

@@ -8,7 +8,7 @@
  *     (see lib/hostsync.ts).
  */
 import { defaults, type HostConfig, type Listed } from '../lib/hostsync.ts'
-import { VARIANTS, operationOf } from '../lib/models.ts'
+import { OPERATIONS, operationOf } from '../lib/models.ts'
 
 /**
  * Venice's list format (also uncensored.com's): an entry's operation from its
@@ -19,7 +19,7 @@ function specOperation(m: Listed): string | undefined {
   const spec = m.model_spec as { name?: unknown; constraints?: { model_type?: unknown } } | undefined
   const byName = typeof spec?.name === 'string' ? operationOf(spec.name.trim().replace(/\s+/g, '-')) : undefined
   const type = spec?.constraints?.model_type === 'image-edit' ? 'edit' : spec?.constraints?.model_type
-  return byName ?? (typeof type === 'string' && (VARIANTS as readonly string[]).includes(type) ? type : undefined)
+  return byName ?? (typeof type === 'string' && (OPERATIONS as readonly string[]).includes(type) ? type : undefined)
 }
 
 const config: Record<string, HostConfig> = {
@@ -80,7 +80,7 @@ const config: Record<string, HostConfig> = {
   'ai-gateway.kilo.ai': { models: 'https://ai-gateway.kilo.ai/api/v1/models' },
   'api.blazeapi.org': { models: 'https://api.blazeapi.org/paid/v1/models' },
   // Proxies Venice under Venice's ids ("llama-3.3-70b"), next to its own
-  // display-name ids ("Claude Opus 4.7") and ":web" (web search) variants.
+  // display-name ids ("Claude Opus 4.7") and ":web" (web search) offers.
   'api.mor.org': { models: 'https://api.mor.org/api/v1/models', mirrors: 'api.venice.ai' },
   'api.orbio.so': { models: 'https://api.orbio.so/api/v1/models' },
   // Ids like "gemma4"; display_name says which one ("Gemma 4 31B").

@@ -127,6 +127,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v3.2"
 pin = "pinned"
 
+["deepseek/deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
 ["deepseek/deepseek-v4-flash"]
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"

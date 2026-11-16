@@ -27,6 +27,7 @@ To view it locally, run `pnpm preview`.
   "api.together.xyz":     { "moonshotai/Kimi-K3": { "model": "moonshotai/kimi-k3", "pin": "pinned" } },
   "inference.baseten.co": { "moonshotai/Kimi-K3": { "model": "moonshotai/kimi-k3", "pin": "pinned", "quant": "fp8" } },
   "api.typesafe.ai":      { "jev-1.14.0":         { "model": "typesafe/jev-1.14",  "pin": "pinned" } },
+  "openrouter.ai":        { "google/gemma-4-31b-it:free": { "model": "google/gemma-4-31b-it", "pin": "pinned", "free": true } },
   "api.deepseek.com":     { "deepseek-flash":     { "model": "~deepseek/deepseek-flash-latest", "pin": "floating",
                                                     "current": "deepseek/deepseek-v4.1-flash-1017" } }
 }
@@ -51,12 +52,16 @@ To view it locally, run `pnpm preview`.
   models.dev names one for the same native id. It changes when the host repoints the
   alias. The site lists the row under that checkpoint too, marked "floating, today".
 - **`quant`**: the quantization, when a source reports one.
+- **`free`**: the host's free tier of the model (`…:free`, `…-free`, `free/…`):
+  the same model at no charge, usually with tighter limits or prompt logging. A
+  free tier is never a model id of its own, so every way to call a model is
+  under that model.
 
 `models.json` lists every model id: OpenRouter's whole catalog plus models only
 other sources know. `source` says where an id comes from: `openrouter`,
 `model-aliases.toml` (declared here), `modelsdev` (made from models.dev's
 `canonical_model_id`; a few of these name a model OpenRouter lists under another
-id), or `sync` (a variant only a host's own list shows, like `z-ai/glm-5.1:web`);
+id), or `sync` (a variant only a host's own list shows, like `bytedance/seedance-2.0:edit`);
 several are joined by commas.
 
 ```jsonc
@@ -133,6 +138,7 @@ A row looks like this:
 model = "moonshotai/kimi-k3"
 pin = "pinned"   # optional in manual.toml: "~" model ids are floating, the rest pinned
 quant = "fp8"    # optional
+free = true      # optional: the host's free tier of the model
 ```
 
 Rows that need a person to check them are written commented out, with the reason
@@ -149,21 +155,19 @@ A model id is an **OpenRouter model id**, exactly as OpenRouter writes it:
 routers, such as `~typesafe/jev-latest`, are model ids too. When OpenRouter tracks a
 checkpoint separately, it gets its own id: `deepseek/deepseek-v4-pro-0813`.
 
-A host id that sells a model as a separate offer maps to that model's variant
-id, in OpenRouter's `model:variant` form; `models.json` lists it with `variant_of`:
-- web search built in: "glm-5.1:web" on mor.org is `z-ai/glm-5.1:web`;
-- a free tier: OpenRouter's `google/gemma-4-31b-it:free`. When OpenRouter lists
-  only the free tier, that is the model itself;
-- a media operation other than the model's default. Text-to-video and image
-  generation are the model itself; `:image-to-video`, `:reference-to-video`,
-  `:enhanced-reference-to-video`, `:transition` and `:edit` are variants. The
-  operation comes from the id ("seedance-2-0-image-to-video",
-  "veo3.1/image-to-video", "gpt-image-2/edit") or, on Venice and uncensored.com,
-  from the list ("seedance-2.0" is "Seedance 2.0 I2V"). A model that does only one
-  operation is the model itself: name the host's id in `model-aliases.toml`.
+A host id for a media operation other than the model's default maps to that
+model's variant id, in OpenRouter's `model:variant` form; `models.json` lists it
+with `variant_of`. Text-to-video and image generation are the model itself;
+`:image-to-video`, `:reference-to-video`, `:enhanced-reference-to-video`,
+`:transition` and `:edit` are variants. The operation comes from the id
+("seedance-2-0-image-to-video", "veo3.1/image-to-video", "gpt-image-2/edit") or,
+on Venice and uncensored.com, from the list ("seedance-2.0" is "Seedance 2.0
+I2V"). A model that does only one operation is the model itself: name the host's
+id in `model-aliases.toml`.
 
-Variants nest (`z-ai/glm-5.1:free:web`). Service tiers (`:batch`, `:flex`,
-`:priority`) are not mapped. A reasoning mode is not a variant: models reason by
+A free tier is not a variant: it is the model, on a row marked `free`. Service
+tiers (`:batch`, `:flex`, `:priority`) and a host's web-search offers (`:web`)
+are not mapped. A reasoning mode is not a variant: models reason by
 default, so "claude-opus-4-5:thinking" is `anthropic/claude-opus-4.5`, and an id
 with reasoning switched off ("glm-5.1-non-thinking", "grok-4.20-0309-non-reasoning")
 is not the model and stays unmapped.
