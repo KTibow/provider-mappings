@@ -683,6 +683,10 @@ pin = "floating"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["step-3-7-flash"]
 model = "stepfun/step-3.7-flash"
 pin = "pinned"

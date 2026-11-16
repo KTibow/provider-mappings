@@ -179,6 +179,11 @@ model = "openai/gpt-6.1-sol"
 pin = "pinned"
 quant = "fp8"
 
+["openai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+quant = "fp8"
+
 ["openai/gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -228,6 +233,11 @@ quant = "fp8"
 model = "tencent/hy4"
 pin = "pinned"
 quant = "fp4"
+
+["tencent/hy4-preview"]
+model = "tencent/hy4-preview"
+pin = "pinned"
+quant = "fp8"
 
 ["xai/grok-4.3"]
 model = "x-ai/grok-4.3"

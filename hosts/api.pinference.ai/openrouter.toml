@@ -27,7 +27,7 @@ quant = "bf16"
 ["google/gemma-4-31b-it"]
 model = "google/gemma-4-31b-it"
 pin = "pinned"
-quant = "fp4"
+quant = "fp8"
 
 ["moondream/moondream3-preview"]
 model = "moondream/moondream3-preview"

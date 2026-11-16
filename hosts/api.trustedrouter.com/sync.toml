@@ -631,10 +631,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistralai/mistral-large-4-1t-a52b"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistralai/mistral-medium-3.5-128b"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
@@ -955,6 +951,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["qwen/qwen-4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["qwen/qwen-plus"]
 model = "qwen/qwen-plus"
 pin = "pinned"
@@ -1147,6 +1147,10 @@ pin = "floating"
 model = "qwen/qwen3.8-max-0902"
 pin = "pinned"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["recraft/recraftv3"]
 model = "recraft/recraft-v3"
 pin = "pinned"
@@ -1245,6 +1249,10 @@ pin = "pinned"
 
 ["tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["tencent/hy4-preview"]

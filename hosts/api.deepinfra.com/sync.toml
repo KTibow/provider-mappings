@@ -135,6 +135,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["Qwen/Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["Sao10K/L3.1-70B-Euryale-v2.2"]
 model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"

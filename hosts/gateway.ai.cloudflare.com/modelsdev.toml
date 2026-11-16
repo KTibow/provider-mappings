@@ -82,6 +82,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["deepseek-ai/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["deepseek/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -142,6 +146,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["meta/muse-ember-1.0"]
 model = "meta/muse-ember"
 pin = "pinned"
@@ -172,6 +180,10 @@ pin = "pinned"
 
 ["moonshotai/kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["moonshotai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["openai/gpt-4.1"]
@@ -304,4 +316,8 @@ pin = "pinned"
 
 ["xai/grok-4.7"]
 model = "x-ai/grok-4.7"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"

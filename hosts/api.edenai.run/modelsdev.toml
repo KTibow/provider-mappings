@@ -334,10 +334,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
 
-["deepinfra/ByteDance/Seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
 ["deepinfra/Gryphe/MythoMax-L2-13b"]
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
@@ -1180,6 +1176,10 @@ pin = "pinned"
 
 ["qwen/qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
+pin = "pinned"
+
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["scaleway/deepseek-v4-flash-0731"]

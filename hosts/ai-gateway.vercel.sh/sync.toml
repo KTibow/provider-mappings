@@ -491,6 +491,14 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["heygen/heygen-decision-1"]
+model = "heygen/heygen-decision-1"
+pin = "pinned"
+
+["heygen/heygen-decision-1-turbo"]
+model = "heygen/heygen-decision-1-turbo"
+pin = "pinned"
+
 ["heygen/heygen-video-1"]
 model = "heygen/heygen-video-1"
 pin = "pinned"
@@ -1119,6 +1127,10 @@ pin = "pinned"
 
 ["tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["tencent/hy4-preview"]

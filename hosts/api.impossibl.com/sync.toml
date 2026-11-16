@@ -467,6 +467,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["stepfun/step-3.7-flash"]
 model = "stepfun/step-3.7-flash"
 pin = "pinned"
@@ -481,6 +485,10 @@ pin = "pinned"
 
 ["tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["thinkingmachines/inkling"]

@@ -203,6 +203,15 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
+["hy4-flash:free"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+free = true
+
 ["kimi-k2-6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
@@ -221,11 +230,6 @@ pin = "pinned"
 
 ["lfm-3-1-7b:free"]
 model = "liquid/lfm-3-1.7b"
-pin = "pinned"
-free = true
-
-["ling-3-2-flash:free"]
-model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
 free = true
 

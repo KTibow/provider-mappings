@@ -219,6 +219,10 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

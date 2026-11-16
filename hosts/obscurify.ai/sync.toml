@@ -855,6 +855,10 @@ pin = "pinned"
 model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
 
+["qwen/qwen3.5-9b"]
+model = "qwen/qwen3.5-9b"
+pin = "pinned"
+
 ["qwen/qwen3.5-plus:thinking"]
 model = "alibaba/qwen3.5-plus"
 pin = "pinned"
@@ -1041,6 +1045,10 @@ pin = "pinned"
 
 ["tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["tencent/hy4-preview"]

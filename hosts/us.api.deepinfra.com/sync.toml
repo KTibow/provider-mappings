@@ -43,6 +43,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["Qwen/Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["Wan-AI/Wan2.6-T2V"]
 model = "alibaba/wan-2.6"
 pin = "pinned"

@@ -7,8 +7,8 @@
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
-["ag/gemini-4-argon"]
-model = "google/gemini-4-argon"
+["ag/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["ag/gemini-4-hydrogen"]
@@ -23,16 +23,8 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["ali/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["ali/glm-5.3"]
 model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["ali/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["ali/kimi-k3"]
@@ -983,6 +975,18 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["kiro/minimax-m2.1"]
+model = "minimax/minimax-m2.1"
+pin = "pinned"
+
+["kiro/minimax-m2.5"]
+model = "minimax/minimax-m2.5"
+pin = "pinned"
+
+["kiro/qwen3-coder-next"]
+model = "qwen/qwen3-coder-next"
+pin = "pinned"
+
 ["kling-video-o-1"]
 model = "kwaivgi/kling-video-o1"
 pin = "pinned"
@@ -1097,6 +1101,14 @@ pin = "pinned"
 
 ["mistral-medium-3.5"]
 model = "mistralai/mistral-medium-3-5"
+pin = "pinned"
+
+["mm/MiniMax-H3-Image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
+["mm/MiniMax-H3-Image-Highspeed"]
+model = "minimax/minimax-h3-image-highspeed"
 pin = "pinned"
 
 ["mm/MiniMax-M2"]

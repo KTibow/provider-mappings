@@ -343,6 +343,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["muse-ember-1.0"]
+model = "meta/muse-ember"
+pin = "pinned"
+
 ["muse-spark-1.2"]
 model = "meta/muse-spark-1.2"
 pin = "pinned"

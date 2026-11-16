@@ -283,10 +283,6 @@ pin = "pinned"
 model = "inception/mercury-2"
 pin = "pinned"
 
-["inception/mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"
@@ -639,10 +635,6 @@ pin = "pinned"
 model = "venice/e2ee-qwen2.5-7b"
 pin = "pinned"
 
-["qwen/e2ee-qwen3-5-122b-a10b"]
-model = "venice/e2ee-qwen3.5-122b-a10b"
-pin = "pinned"
-
 ["qwen/e2ee-qwen3-6-35b-a3b"]
 model = "venice/e2ee-qwen3.6-35b-a3b"
 pin = "pinned"
@@ -767,6 +759,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["reflection/beam-1.0-501b-a23b"]
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
@@ -793,6 +789,10 @@ pin = "pinned"
 
 ["tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["tencent/hy4-preview"]
@@ -877,10 +877,6 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro-ultraspeed"]
 model = "xiaomi/mimo-v2.6-pro-ultraspeed"
-pin = "pinned"
-
-["z-ai/e2ee-glm-4.7-flash"]
-model = "venice/e2ee-glm-4.7-flash"
 pin = "pinned"
 
 ["z-ai/e2ee-glm-5-2-p"]

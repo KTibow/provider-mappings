@@ -729,6 +729,7 @@
     "api.venice.ai": [
       "claude-opus-5-5-fast",
       "deepseek-v4-1-flash-1017-ultrafast",
+      "glm-5-3-flash-uncensored",
       "kimi-k3-1-pro-highspeed",
       "openai-gpt-61-sol-ultrafast",
       "qwen3-coder-480b-a35b-instruct-turbo"
@@ -1024,6 +1025,8 @@
       "deepseek/deepseek-latest",
       "deepseek/deepseek-v4.1-flash-0910-uncensored",
       "deepseek/deepseek-v4.1-flash-0910-uncensored:thinking",
+      "deepseek/deepseek-v4.1-flash-1017-abliterated",
+      "deepseek/deepseek-v4.1-flash-1017-abliterated:thinking",
       "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
       "fastgpt",
       "featherless-ai/Qwerky-72B",
@@ -1062,6 +1065,7 @@
       "huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
       "huihui-ai/Llama-3.3-70B-Instruct-abliterated",
       "huihui-ai/Qwen2.5-32B-Instruct-abliterated",
+      "hyperresearch/ousia-1",
       "inflatebot/MN-12B-Mag-Mell-R1",
       "kimi-k2-instruct-fast",
       "lyber/deepseek-v4.1-flash-1017-abliterated",
@@ -1199,19 +1203,12 @@
     "router.requesty.ai": [
       "devstral-latest",
       "devstral-latest@eu",
-      "glm-5.2-fast",
-      "kat-coder-pro",
       "kimi-k3.1-pro-highspeed",
       "leanstral-1-5",
       "leanstral-1-5@eu",
-      "ling-2.6-1t",
-      "ling-2.6-flash",
       "mistral-medium-latest",
       "mistral-medium-latest@eu",
-      "nemotron-3-nano-omni",
-      "nemotron-3-nano-omni@eu",
-      "nemotron-lightning-3.5-30b-a3b",
-      "ring-2.6-1t"
+      "nemotron-lightning-3.5-30b-a3b"
     ],
     "token-plan.ap-southeast-1.maas.aliyuncs.com": [
       "qwen-image-2.0",

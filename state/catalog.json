@@ -3628,6 +3628,7 @@
   "permaslug": "nousresearch/hermes-4-405b"
  },
  "nvidia/llama-nemotron-embed-vl-1b-v2": {
+  "delisted": "2026-11-16",
   "formerly": [
    "nvidia/llama-nemotron-embed-vl-1b-v2:free"
   ],
@@ -3643,6 +3644,7 @@
   "permaslug": "nvidia/llama-nemotron-embed-vl-1b-v2-20260224"
  },
  "nvidia/llama-nemotron-rerank-vl-1b-v2": {
+  "delisted": "2026-11-16",
   "formerly": [
    "nvidia/llama-nemotron-rerank-vl-1b-v2:free"
   ],
@@ -6262,6 +6264,17 @@
    "text"
   ],
   "permaslug": "tencent/hy4-20261104"
+ },
+ "tencent/hy4-flash": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Tencent: Hy4 flash",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tencent/hy4-flash-20261116"
  },
  "tencent/hy4-preview": {
   "hf": "tencent/Hy4-preview",

@@ -110,10 +110,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["bytedance-seed/seed-1.6-flash"]
-model = "bytedance-seed/seed-1-6-flash"
-pin = "pinned"
-
 ["bytedance-seed/seed-2.0-lite"]
 model = "bytedance-seed/seed-2.0-lite"
 pin = "pinned"
@@ -228,14 +224,6 @@ pin = "pinned"
 
 ["gryphe/mythomax-l2-13b"]
 model = "gryphe/mythomax-l2-13b"
-pin = "pinned"
-
-["inception/mercury-2"]
-model = "inception/mercury-2"
-pin = "pinned"
-
-["inception/mercury-2.5"]
-model = "inception/mercury-2.5"
 pin = "pinned"
 
 ["inference-net/schematron-v2-small"]
@@ -360,14 +348,6 @@ pin = "pinned"
 
 ["morph/morph-v3-large"]
 model = "morph/morph-v3-large"
-pin = "pinned"
-
-["nousresearch/hermes-3-llama-3.1-405b"]
-model = "nousresearch/hermes-3-llama-3.1-405b"
-pin = "pinned"
-
-["nousresearch/hermes-3-llama-3.1-70b"]
-model = "nousresearch/hermes-3-llama-3.1-70b"
 pin = "pinned"
 
 ["openai/gpt-4.1"]

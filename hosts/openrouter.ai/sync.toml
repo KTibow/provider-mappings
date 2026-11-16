@@ -1276,16 +1276,6 @@ pin = "pinned"
 model = "nousresearch/hermes-4-405b"
 pin = "pinned"
 
-["nvidia/llama-nemotron-embed-vl-1b-v2:free"]
-model = "nvidia/llama-nemotron-embed-vl-1b-v2"
-pin = "pinned"
-free = true
-
-["nvidia/llama-nemotron-rerank-vl-1b-v2:free"]
-model = "nvidia/llama-nemotron-rerank-vl-1b-v2"
-pin = "pinned"
-free = true
-
 ["nvidia/nemotron-3-embed-1b:free"]
 model = "nvidia/nemotron-3-embed-1b"
 pin = "pinned"
@@ -2198,6 +2188,10 @@ pin = "pinned"
 
 ["tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["tencent/hy4-preview"]

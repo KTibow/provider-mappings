@@ -34,10 +34,6 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["claude-opus-4-1"]
-model = "anthropic/claude-opus-4.1"
-pin = "pinned"
-
 ["claude-opus-4-5"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
@@ -100,10 +96,6 @@ pin = "pinned"
 
 ["claude-sonnet-4-6@eu"]
 model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-
-["claude-sonnet-4@eu"]
-model = "anthropic/claude-sonnet-4-0"
 pin = "pinned"
 
 ["claude-sonnet-5"]
@@ -246,6 +238,26 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-carbon@eu"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-hydrogen@eu"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-hydrogen@us"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
@@ -255,10 +267,6 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 
 ["glm-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["glm-5.1@eu"]
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
@@ -458,10 +466,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
-["kimi-k2.6@eu"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
 ["kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
@@ -478,20 +482,12 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro@eu"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["kimi-k3@eu"]
 model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["laguna-m.1"]
-model = "poolside/laguna-m.1"
-pin = "pinned"
-
-["laguna-xs.2"]
-model = "poolside/laguna-xs.2"
-pin = "pinned"
-
-["ling-3.0-tiny"]
-model = "inclusionai/ling-3.0-tiny"
 pin = "pinned"
 
 ["mimo-v2.5"]
@@ -578,20 +574,12 @@ pin = "pinned"
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
 
-["nemotron-3-super-120b-a12b"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-
 ["nemotron-3-ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["nemotron-3-ultra-nvfp4"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
-pin = "pinned"
-
-["nemotron-3.5-content-safety"]
-model = "nvidia/nemotron-3.5-content-safety"
 pin = "pinned"
 
 ["nemotron-3.5-lightning-30b-a3b"]

@@ -84,6 +84,7 @@
  "api.qnaigc.com": "https://api.qnaigc.com/v1/models",
  "api.rayline.ai": "https://api.rayline.ai/v1/models",
  "api.regolo.ai": "https://api.regolo.ai/v1/models",
+ "api.routing.run": "https://api.routing.run/v1/models",
  "api.runcrate.ai": "https://api.runcrate.ai/v1/models",
  "api.sambanova.ai": "https://api.sambanova.ai/v1/models",
  "api.sandbase.ai": "https://api.sandbase.ai/api/models",

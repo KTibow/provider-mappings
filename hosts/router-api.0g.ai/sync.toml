@@ -103,6 +103,30 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["eleven_flash_v2"]
+model = "elevenlabs/eleven-flash-v2"
+pin = "pinned"
+
+["eleven_flash_v2_5"]
+model = "elevenlabs/eleven-flash-v2.5"
+pin = "pinned"
+
+["eleven_multilingual_v2"]
+model = "elevenlabs/eleven-multilingual-v2"
+pin = "pinned"
+
+["eleven_v3"]
+model = "elevenlabs/eleven-v3"
+pin = "pinned"
+
+["eleven_v4"]
+model = "elevenlabs/eleven-v4"
+pin = "pinned"
+
+["eleven_v4_turbo"]
+model = "elevenlabs/eleven-v4-turbo"
+pin = "pinned"
+
 ["ernie-5.5-flash-preview"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"

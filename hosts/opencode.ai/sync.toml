@@ -237,6 +237,11 @@ pin = "pinned"
 model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
+["hy4-flash-free"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+free = true
+
 ["inkling-2-small-free"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"

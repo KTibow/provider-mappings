@@ -1395,6 +1395,34 @@ model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 quant = "int4"
 
+["lyceum/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
+["lyceum/deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["lyceum/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["lyceum/glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["lyceum/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["lyceum/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["lyceum/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["melious/clef-flash"]
 model = "cloudflare/clef-flash"
 pin = "pinned"
@@ -1539,11 +1567,6 @@ quant = "fp8"
 
 ["nebius/qwen/qwen3-30b-a3b-instruct-2507"]
 model = "qwen/qwen3-30b-a3b-instruct-2507"
-pin = "pinned"
-quant = "fp8"
-
-["nebius/zai-org/glm-5.1"]
-model = "z-ai/glm-5.1"
 pin = "pinned"
 quant = "fp8"
 
@@ -1946,6 +1969,14 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 quant = "fp8"
+
+["tencent/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
 
 ["tencent/hy4-preview"]
 model = "tencent/hy4-preview"
@@ -2551,16 +2582,6 @@ pin = "pinned"
 ["xai/grok-build-0.1"]
 model = "x-ai/grok-build-0.1"
 pin = "pinned"
-
-["xiaomi/mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-quant = "fp8"
-
-["xiaomi/mimo-v2.5-pro"]
-model = "xiaomi/mimo-v2.5-pro"
-pin = "pinned"
-quant = "fp8"
 
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"

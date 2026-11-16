@@ -475,6 +475,10 @@ pin = "floating"
 model = "~google/gemini-pro-latest"
 pin = "floating"
 
+["gemma-2-27b-it"]
+model = "google/gemma-2-27b-it"
+pin = "pinned"
+
 ["gemma-3-12b-it"]
 model = "google/gemma-3-12b-it"
 pin = "pinned"
@@ -807,10 +811,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio"]
-model = "openai/gpt-audio"
-pin = "pinned"
-
 ["gpt-audio-2025-08-28"]
 model = "openai/gpt-audio"
 pin = "pinned"
@@ -901,6 +901,10 @@ pin = "pinned"
 
 ["happyhorse-1-1"]
 model = "alibaba/happyhorse-1.1"
+pin = "pinned"
+
+["hermes-4-405b"]
+model = "nousresearch/hermes-4-405b"
 pin = "pinned"
 
 ["hy3"]
@@ -1143,10 +1147,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistral-large-4.0"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1332,10 +1332,6 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["o3"]
-model = "openai/o3"
-pin = "pinned"
-
-["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 
@@ -1751,14 +1747,6 @@ pin = "pinned"
 model = "upstage/solar-pro4"
 pin = "pinned"
 
-["sonar"]
-model = "perplexity/sonar"
-pin = "pinned"
-
-["sonar-pro"]
-model = "perplexity/sonar-pro"
-pin = "pinned"
-
 ["stable-diffusion-3.5-large"]
 model = "stabilityai/stable-diffusion-3.5-large"
 pin = "pinned"
@@ -1807,10 +1795,6 @@ pin = "pinned"
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
 pin = "pinned"
 
-["veo3.1-lite"]
-model = "google/veo-3.1-lite"
-pin = "pinned"
-
 ["voxtral-mini-2602"]
 model = "mistralai/voxtral-mini-transcribe"
 pin = "pinned"
@@ -1829,6 +1813,10 @@ pin = "pinned"
 
 ["voxtral-small-transcribe-3.0"]
 model = "mistralai/voxtral-small-transcribe-3-0"
+pin = "pinned"
+
+["wan-2-6"]
+model = "alibaba/wan-2.6"
 pin = "pinned"
 
 ["wan2.7-image"]

@@ -3,12 +3,20 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["aki/deepseek/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
 ["aki/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["aki/qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
+pin = "pinned"
+
+["aki/z-ai/glm-5.3"]
+model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["anthropic/anthropic/claude-fable-5"]
@@ -275,6 +283,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["auto/google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["auto/google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -319,20 +331,28 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
+["auto/intfloat/e5-base-v2"]
+model = "intfloat/e5-base-v2"
+pin = "pinned"
+
+["auto/intfloat/e5-large-v2"]
+model = "intfloat/e5-large-v2"
+pin = "pinned"
+
 ["auto/intfloat/multilingual-e5-large"]
 model = "intfloat/multilingual-e5-large"
+pin = "pinned"
+
+["auto/meta-llama/llama-3.1-8b-instruct"]
+model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
 ["auto/meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
-["auto/meta-llama/llama-4-maverick"]
+["auto/meta-llama/llama-4-maverick-17b-128e-instruct"]
 model = "meta-llama/llama-4-maverick"
-pin = "pinned"
-
-["auto/meta-llama/llama-guard-4-12b"]
-model = "meta-llama/llama-guard-4-12b"
 pin = "pinned"
 
 ["auto/meta/muse-glimmer-30b"]
@@ -387,7 +407,7 @@ pin = "pinned"
 model = "mistralai/codestral-embed-2505"
 pin = "pinned"
 
-["auto/mistralai/devstral-2-123b"]
+["auto/mistralai/devstral-2-123b-instruct-2512"]
 model = "mistralai/devstral-2512"
 pin = "pinned"
 
@@ -395,31 +415,15 @@ pin = "pinned"
 model = "mistralai/magistral-small-2509"
 pin = "pinned"
 
-["auto/mistralai/ministral-14b-2512"]
-model = "mistralai/ministral-14b-2512"
-pin = "pinned"
-
-["auto/mistralai/ministral-3-14b-instruct"]
-model = "mistralai/ministral-14b-2512"
-pin = "pinned"
-
 ["auto/mistralai/ministral-3-14b-instruct-2512"]
 model = "mistralai/ministral-14b-2512"
 pin = "pinned"
 
-["auto/mistralai/ministral-3-3b-instruct"]
+["auto/mistralai/ministral-3-3b-instruct-2512"]
 model = "mistralai/ministral-3b-2512"
 pin = "pinned"
 
-["auto/mistralai/ministral-3-8b-instruct"]
-model = "mistralai/ministral-8b-2512"
-pin = "pinned"
-
-["auto/mistralai/ministral-3b-2512"]
-model = "mistralai/ministral-3b-2512"
-pin = "pinned"
-
-["auto/mistralai/ministral-8b-2512"]
+["auto/mistralai/ministral-3-8b-instruct-2512"]
 model = "mistralai/ministral-8b-2512"
 pin = "pinned"
 
@@ -427,15 +431,7 @@ pin = "pinned"
 model = "mistralai/mistral-embed-2312"
 pin = "pinned"
 
-["auto/mistralai/mistral-large-2407"]
-model = "mistralai/mistral-large-2407"
-pin = "pinned"
-
-["auto/mistralai/mistral-large-2512"]
-model = "mistralai/mistral-large-2512"
-pin = "pinned"
-
-["auto/mistralai/mistral-large-3-675b-instruct-2512-nvfp4"]
+["auto/mistralai/mistral-large-3-675b-instruct-2512"]
 model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
@@ -443,8 +439,8 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["auto/mistralai/mistral-medium-3.5"]
-model = "mistralai/mistral-medium-3-5"
+["auto/mistralai/mistral-large-instruct-2407"]
+model = "mistralai/mistral-large-2407"
 pin = "pinned"
 
 ["auto/mistralai/mistral-medium-3.5-128b"]
@@ -457,10 +453,6 @@ pin = "pinned"
 
 ["auto/mistralai/mistral-small-24b-instruct-2501"]
 model = "mistralai/mistral-small-24b-instruct-2501"
-pin = "pinned"
-
-["auto/mistralai/mistral-small-2603"]
-model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
 ["auto/mistralai/mistral-small-3.2-24b-instruct-2506"]
@@ -495,8 +487,8 @@ pin = "pinned"
 model = "nousresearch/hermes-4-405b"
 pin = "pinned"
 
-["auto/nvidia/llama-3.3-70b-instruct"]
-model = "meta-llama/llama-3.3-70b-instruct"
+["auto/nvidia/llama-nemotron-embed-vl-1b-v2"]
+model = "nvidia/llama-nemotron-embed-vl-1b-v2"
 pin = "pinned"
 
 ["auto/nvidia/nemotron-3-nano-30b-a3b"]
@@ -511,12 +503,20 @@ pin = "pinned"
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
-["auto/nvidia/nemotron-3.5-lightning"]
-model = "nvidia/nemotron-3.5-lightning"
+["auto/nvidia/nemotron-3.5-content-safety"]
+model = "nvidia/nemotron-3.5-content-safety"
 pin = "pinned"
 
 ["auto/nvidia/nemotron-3.5-super-vl"]
 model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["auto/nvidia/nemotron-nano-12b-v2-vl"]
+model = "nvidia/nemotron-nano-12b-v2-vl"
+pin = "pinned"
+
+["auto/nvidia/nemotron-nano-9b-v2"]
+model = "nvidia/nemotron-nano-9b-v2"
 pin = "pinned"
 
 ["auto/openai/gpt-4.1"]
@@ -659,10 +659,6 @@ pin = "pinned"
 model = "qwen/qwen3-14b"
 pin = "pinned"
 
-["auto/qwen/qwen3-235b-a22b-2507"]
-model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
 ["auto/qwen/qwen3-235b-a22b-instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
@@ -677,6 +673,14 @@ pin = "pinned"
 
 ["auto/qwen/qwen3-32b"]
 model = "qwen/qwen3-32b"
+pin = "pinned"
+
+["auto/qwen/qwen3-coder-30b-a3b-instruct"]
+model = "qwen/qwen3-coder-30b-a3b-instruct"
+pin = "pinned"
+
+["auto/qwen/qwen3-coder-480b-a35b-instruct"]
+model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["auto/qwen/qwen3-coder-next"]
@@ -697,6 +701,10 @@ pin = "pinned"
 
 ["auto/qwen/qwen3-vl-30b-a3b-instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
+pin = "pinned"
+
+["auto/qwen/qwen3.5-122b-a10b"]
+model = "qwen/qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["auto/qwen/qwen3.5-27b"]
@@ -727,6 +735,10 @@ pin = "pinned"
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 
+["auto/qwen/qwen3.8-2.4t-a95b"]
+model = "qwen/qwen3.8-2.4t-a95b"
+pin = "pinned"
+
 ["auto/qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
@@ -743,12 +755,32 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
-["auto/qwen/qwen3.8.2.4t-a95b"]
-model = "qwen/qwen3.8-2.4t-a95b"
+["auto/qwen/qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
-["auto/sao10k/l3.1-70b-euryale-v2.2"]
-model = "sao10k/l3.1-euryale-70b"
+["auto/sao10k/l3-8b-lunaris-v1"]
+model = "sao10k/l3-lunaris-8b"
+pin = "pinned"
+
+["auto/sentence-transformers/all-minilm-l12-v2"]
+model = "sentence-transformers/all-minilm-l12-v2"
+pin = "pinned"
+
+["auto/sentence-transformers/all-minilm-l6-v2"]
+model = "sentence-transformers/all-minilm-l6-v2"
+pin = "pinned"
+
+["auto/sentence-transformers/all-mpnet-base-v2"]
+model = "sentence-transformers/all-mpnet-base-v2"
+pin = "pinned"
+
+["auto/sentence-transformers/multi-qa-mpnet-base-dot-v1"]
+model = "sentence-transformers/multi-qa-mpnet-base-dot-v1"
+pin = "pinned"
+
+["auto/sentence-transformers/paraphrase-minilm-l6-v2"]
+model = "sentence-transformers/paraphrase-minilm-l6-v2"
 pin = "pinned"
 
 ["auto/tencent/hy4-preview"]
@@ -801,10 +833,6 @@ pin = "pinned"
 
 ["auto/z-ai/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["auto/z-ai/glm5.2"]
-model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["aws-bedrock/amazon/nova-2-lite"]
@@ -899,6 +927,10 @@ pin = "pinned"
 model = "google/gemma-3-4b-it"
 pin = "pinned"
 
+["aws-bedrock/meta-llama/llama-4-maverick-17b-128e-instruct"]
+model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
 ["aws-bedrock/minimax/minimax-m2"]
 model = "minimax/minimax-m2"
 pin = "pinned"
@@ -911,7 +943,7 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["aws-bedrock/mistralai/devstral-2-123b"]
+["aws-bedrock/mistralai/devstral-2-123b-instruct-2512"]
 model = "mistralai/devstral-2512"
 pin = "pinned"
 
@@ -919,19 +951,23 @@ pin = "pinned"
 model = "mistralai/magistral-small-2509"
 pin = "pinned"
 
-["aws-bedrock/mistralai/ministral-3-14b-instruct"]
+["aws-bedrock/mistralai/ministral-3-14b-instruct-2512"]
 model = "mistralai/ministral-14b-2512"
 pin = "pinned"
 
-["aws-bedrock/mistralai/ministral-3-3b-instruct"]
+["aws-bedrock/mistralai/ministral-3-3b-instruct-2512"]
 model = "mistralai/ministral-3b-2512"
 pin = "pinned"
 
-["aws-bedrock/mistralai/ministral-3-8b-instruct"]
+["aws-bedrock/mistralai/ministral-3-8b-instruct-2512"]
 model = "mistralai/ministral-8b-2512"
 pin = "pinned"
 
-["aws-bedrock/mistralai/mistral-large-2407"]
+["aws-bedrock/mistralai/mistral-large-3-675b-instruct-2512"]
+model = "mistralai/mistral-large-2512"
+pin = "pinned"
+
+["aws-bedrock/mistralai/mistral-large-instruct-2407"]
 model = "mistralai/mistral-large-2407"
 pin = "pinned"
 
@@ -941,6 +977,22 @@ pin = "pinned"
 
 ["aws-bedrock/moonshotai/kimi-k2.5"]
 model = "moonshotai/kimi-k2.5"
+pin = "pinned"
+
+["aws-bedrock/nvidia/nemotron-3-nano-30b-a3b"]
+model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
+["aws-bedrock/nvidia/nemotron-3-super-120b-a12b"]
+model = "nvidia/nemotron-3-super-120b-a12b"
+pin = "pinned"
+
+["aws-bedrock/nvidia/nemotron-nano-12b-v2-vl"]
+model = "nvidia/nemotron-nano-12b-v2-vl"
+pin = "pinned"
+
+["aws-bedrock/nvidia/nemotron-nano-9b-v2"]
+model = "nvidia/nemotron-nano-9b-v2"
 pin = "pinned"
 
 ["aws-bedrock/openai/gpt-oss-120b"]
@@ -959,7 +1011,7 @@ pin = "pinned"
 model = "openai/gpt-oss-safeguard-20b"
 pin = "pinned"
 
-["aws-bedrock/qwen/qwen3-235b-a22b-2507"]
+["aws-bedrock/qwen/qwen3-235b-a22b-instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
@@ -967,8 +1019,16 @@ pin = "pinned"
 model = "qwen/qwen3-32b"
 pin = "pinned"
 
+["aws-bedrock/qwen/qwen3-coder-30b-a3b-instruct"]
+model = "qwen/qwen3-coder-30b-a3b-instruct"
+pin = "pinned"
+
 ["aws-bedrock/qwen/qwen3-coder-next"]
 model = "qwen/qwen3-coder-next"
+pin = "pinned"
+
+["aws-bedrock/qwen/qwen3-vl-235b-a22b-instruct"]
+model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
 
 ["aws-bedrock/writer/palmyra-vision-7b"]
@@ -1067,6 +1127,10 @@ pin = "pinned"
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
 
+["deepinfra/deepseek/deepseek-v3"]
+model = "deepseek/deepseek-chat"
+pin = "pinned"
+
 ["deepinfra/deepseek/deepseek-v3.1"]
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
@@ -1159,12 +1223,24 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
+["deepinfra/intfloat/e5-base-v2"]
+model = "intfloat/e5-base-v2"
+pin = "pinned"
+
+["deepinfra/intfloat/e5-large-v2"]
+model = "intfloat/e5-large-v2"
+pin = "pinned"
+
 ["deepinfra/intfloat/multilingual-e5-large"]
 model = "intfloat/multilingual-e5-large"
 pin = "pinned"
 
-["deepinfra/meta-llama/llama-guard-4-12b"]
-model = "meta-llama/llama-guard-4-12b"
+["deepinfra/meta-llama/llama-3.1-8b-instruct"]
+model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
+["deepinfra/meta-llama/llama-3.3-70b-instruct"]
+model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
 ["deepinfra/meta/muse-glimmer-30b"]
@@ -1203,6 +1279,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["deepinfra/nvidia/llama-nemotron-embed-vl-1b-v2"]
+model = "nvidia/llama-nemotron-embed-vl-1b-v2"
+pin = "pinned"
+
 ["deepinfra/nvidia/nemotron-3-super-120b-a12b"]
 model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
@@ -1211,8 +1291,8 @@ pin = "pinned"
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
-["deepinfra/nvidia/nemotron-3.5-lightning"]
-model = "nvidia/nemotron-3.5-lightning"
+["deepinfra/nvidia/nemotron-3.5-content-safety"]
+model = "nvidia/nemotron-3.5-content-safety"
 pin = "pinned"
 
 ["deepinfra/nvidia/nemotron-3.5-super-vl"]
@@ -1253,6 +1333,10 @@ pin = "pinned"
 
 ["deepinfra/qwen/qwen3-32b"]
 model = "qwen/qwen3-32b"
+pin = "pinned"
+
+["deepinfra/qwen/qwen3-coder-480b-a35b-instruct"]
+model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["deepinfra/qwen/qwen3-embedding-4b"]
@@ -1311,8 +1395,32 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
-["deepinfra/sao10k/l3.1-70b-euryale-v2.2"]
-model = "sao10k/l3.1-euryale-70b"
+["deepinfra/qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
+["deepinfra/sao10k/l3-8b-lunaris-v1"]
+model = "sao10k/l3-lunaris-8b"
+pin = "pinned"
+
+["deepinfra/sentence-transformers/all-minilm-l12-v2"]
+model = "sentence-transformers/all-minilm-l12-v2"
+pin = "pinned"
+
+["deepinfra/sentence-transformers/all-minilm-l6-v2"]
+model = "sentence-transformers/all-minilm-l6-v2"
+pin = "pinned"
+
+["deepinfra/sentence-transformers/all-mpnet-base-v2"]
+model = "sentence-transformers/all-mpnet-base-v2"
+pin = "pinned"
+
+["deepinfra/sentence-transformers/multi-qa-mpnet-base-dot-v1"]
+model = "sentence-transformers/multi-qa-mpnet-base-dot-v1"
+pin = "pinned"
+
+["deepinfra/sentence-transformers/paraphrase-minilm-l6-v2"]
+model = "sentence-transformers/paraphrase-minilm-l6-v2"
 pin = "pinned"
 
 ["deepinfra/tencent/hy4-preview"]
@@ -1359,16 +1467,16 @@ pin = "pinned"
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
+["evroc/meta-llama/llama-3.3-70b-instruct"]
+model = "meta-llama/llama-3.3-70b-instruct"
+pin = "pinned"
+
 ["evroc/mistralai/mistral-medium-3.5-128b"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
 
 ["evroc/moonshotai/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["evroc/nvidia/llama-3.3-70b-instruct"]
-model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
 ["evroc/openai/gpt-oss-120b"]
@@ -1439,16 +1547,16 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["google/google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
 
 ["google/google/gemini-embedding-2"]
 model = "google/gemini-embedding-2"
-pin = "pinned"
-
-["green-pt/deepseek/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
 ["green-pt/deepseek/deepseek-v4.1-flash-1017"]
@@ -1459,8 +1567,12 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
-["green-pt/moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
+["green-pt/moonshotai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["green-pt/qwen/qwen3-embedding-4b"]
+model = "qwen/qwen3-embedding-4b"
 pin = "pinned"
 
 ["green-pt/qwen/qwen3-embedding-8b"]
@@ -1531,6 +1643,10 @@ pin = "pinned"
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["ionos/mistralai/mistral-small-24b-instruct-2501"]
+model = "mistralai/mistral-small-24b-instruct-2501"
+pin = "pinned"
+
 ["ionos/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -1575,15 +1691,15 @@ pin = "pinned"
 model = "mistralai/codestral-embed-2505"
 pin = "pinned"
 
-["mistral/mistralai/ministral-14b-2512"]
+["mistral/mistralai/ministral-3-14b-instruct-2512"]
 model = "mistralai/ministral-14b-2512"
 pin = "pinned"
 
-["mistral/mistralai/ministral-3b-2512"]
+["mistral/mistralai/ministral-3-3b-instruct-2512"]
 model = "mistralai/ministral-3b-2512"
 pin = "pinned"
 
-["mistral/mistralai/ministral-8b-2512"]
+["mistral/mistralai/ministral-3-8b-instruct-2512"]
 model = "mistralai/ministral-8b-2512"
 pin = "pinned"
 
@@ -1591,7 +1707,7 @@ pin = "pinned"
 model = "mistralai/mistral-embed-2312"
 pin = "pinned"
 
-["mistral/mistralai/mistral-large-2512"]
+["mistral/mistralai/mistral-large-3-675b-instruct-2512"]
 model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
@@ -1599,11 +1715,11 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistral/mistralai/mistral-medium-3.5"]
+["mistral/mistralai/mistral-medium-3.5-128b"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
 
-["mistral/mistralai/mistral-small-2603"]
+["mistral/mistralai/mistral-small-4-119b-2603"]
 model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
@@ -1687,7 +1803,7 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["nscale/mistralai/mistral-large-3-675b-instruct-2512-nvfp4"]
+["nscale/mistralai/mistral-large-3-675b-instruct-2512"]
 model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
@@ -1815,6 +1931,10 @@ pin = "pinned"
 model = "baai/bge-m3"
 pin = "pinned"
 
+["ovhcloud/meta-llama/llama-3.3-70b-instruct"]
+model = "meta-llama/llama-3.3-70b-instruct"
+pin = "pinned"
+
 ["ovhcloud/mistralai/mistral-small-3.2-24b-instruct-2506"]
 model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
@@ -1855,12 +1975,20 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["regolo/mistralai/mistral-small-4-119b-2603"]
+model = "mistralai/mistral-small-2603"
+pin = "pinned"
+
 ["regolo/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["regolo/openai/gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
+pin = "pinned"
+
+["regolo/qwen/qwen3.5-122b-a10b"]
+model = "qwen/qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["regolo/qwen/qwen3.5-9b"]
@@ -1871,7 +1999,7 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
-["regolo/z-ai/glm5.2"]
+["regolo/z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
 
@@ -1923,10 +2051,6 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
-["scaleway/z-ai/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["scaleway/z-ai/glm-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
@@ -1959,12 +2083,12 @@ pin = "pinned"
 model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
 
-["tensorx/qwen/qwen3.8-27b"]
-model = "qwen/qwen3.8-27b"
+["tensorx/qwen/qwen3.8-2.4t-a95b"]
+model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 
-["tensorx/qwen/qwen3.8.2.4t-a95b"]
-model = "qwen/qwen3.8-2.4t-a95b"
+["tensorx/qwen/qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["tensorx/z-ai/glm-5.2"]
@@ -1997,14 +2121,6 @@ pin = "pinned"
 
 ["vertex/google/gemini-3.6-flash"]
 model = "google/gemini-3.6-flash"
-pin = "pinned"
-
-["vertex/meta-llama/llama-3.3-70b-instruct"]
-model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-
-["vertex/meta-llama/llama-4-maverick"]
-model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
 ["vertex/openai/gpt-oss-120b"]

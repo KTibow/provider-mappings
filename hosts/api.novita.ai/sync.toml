@@ -131,6 +131,10 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["xiaomimimo/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
