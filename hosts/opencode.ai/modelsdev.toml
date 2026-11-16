@@ -331,6 +331,11 @@ free = true
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-flash-free"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+free = true
+
 ["hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"

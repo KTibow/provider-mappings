@@ -459,9 +459,3 @@ quant = "fp4"
 # model = "meta-llama/llama-3.1-8b-instruct"
 # pin = "pinned"
 # quant = "fp8"
-
-# needs review: native id has "ultra", which openai/gpt-oss-120b lacks: a tier or variant, not the model itself
-# ["openai/gpt-oss-120b-Ultra"]
-# model = "openai/gpt-oss-120b"
-# pin = "pinned"
-# quant = "fp8"

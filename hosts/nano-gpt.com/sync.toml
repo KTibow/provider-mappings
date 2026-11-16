@@ -59,6 +59,10 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
+["TEE/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["TEE/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
@@ -1257,6 +1261,14 @@ pin = "floating"
 
 ["qwen/qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
+pin = "pinned"
+
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
+["qwen/qwen4-max:thinking"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["reflection/beam-1.0"]

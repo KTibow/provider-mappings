@@ -19,10 +19,6 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["meta/llama-guard-4-12b"]
-model = "meta-llama/llama-guard-4-12b"
-pin = "pinned"
-
 ["meta/muse-glimmer-30b"]
 model = "meta/muse-glimmer-30b"
 pin = "pinned"
@@ -33,10 +29,6 @@ pin = "pinned"
 
 ["mistralai/mistral-large-4-1t-a52b"]
 model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["nvidia/llama-nemotron-embed-vl-1b-v2"]
-model = "nvidia/llama-nemotron-embed-vl-1b-v2"
 pin = "pinned"
 
 ["nvidia/nemotron-3-embed-1b"]

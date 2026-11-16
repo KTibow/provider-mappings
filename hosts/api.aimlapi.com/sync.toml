@@ -135,6 +135,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["alibaba/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["alibaba/wan-2-6-i2v"]
 model = "alibaba/wan-2.6:image-to-video"
 pin = "pinned"
@@ -368,14 +372,6 @@ model = "bytedance-seed/seed-2.0-lite"
 pin = "pinned"
 
 ["bytedance-seed/seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
-["bytedance/seed-2-0-lite"]
-model = "bytedance-seed/seed-2.0-lite"
-pin = "pinned"
-
-["bytedance/seed-2-0-mini"]
 model = "bytedance-seed/seed-2.0-mini"
 pin = "pinned"
 

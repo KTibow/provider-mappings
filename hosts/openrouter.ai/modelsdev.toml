@@ -407,6 +407,11 @@ pin = "pinned"
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.2-flash:free"]
+model = "inclusionai/ling-3.2-flash"
+pin = "pinned"
+free = true
+
 ["inference-net/schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
 pin = "pinned"
@@ -1057,10 +1062,6 @@ pin = "pinned"
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"
 
-["qwen/qwen3-vl-30b-a3b-thinking"]
-model = "qwen/qwen3-vl-30b-a3b-thinking"
-pin = "pinned"
-
 ["qwen/qwen3-vl-8b-instruct"]
 model = "qwen/qwen3-vl-8b-instruct"
 pin = "pinned"
@@ -1149,6 +1150,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["recursive/flint-v1.0:free"]
 model = "recursive/flint-v1.0"
 pin = "pinned"
@@ -1210,20 +1215,12 @@ pin = "pinned"
 model = "scaledown/summarize"
 pin = "pinned"
 
-["stepfun/step-3.5-flash"]
-model = "stepfun/step-3.5-flash"
-pin = "pinned"
-
 ["stepfun/step-3.7-flash"]
 model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["stepfun/step-5-preview"]
 model = "stepfun/step-5-preview"
-pin = "pinned"
-
-["tencent/hunyuan-a13b-instruct"]
-model = "tencent/hunyuan-a13b-instruct"
 pin = "pinned"
 
 ["tencent/hy-mt2-1.8b"]

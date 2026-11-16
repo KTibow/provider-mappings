@@ -406,6 +406,10 @@ pin = "pinned"
 model = "alibaba/qwen3.8-max-preview"
 pin = "pinned"
 
+["qwen-4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["qwen3-235b-a22b-instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"

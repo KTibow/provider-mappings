@@ -1015,10 +1015,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
 
-["deepinfra/ByteDance/Seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
 ["deepinfra/ByteDance/Seed-2.0-pro"]
 model = "bytedance-seed/seed-2.0-pro"
 pin = "pinned"
@@ -1441,11 +1437,6 @@ quant = "bf16"
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 quant = "fp4"
-
-["deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-quant = "bf16"
 
 ["deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
@@ -3069,10 +3060,6 @@ pin = "pinned"
 
 ["together_ai/Qwen/Qwen3.5-9B"]
 model = "qwen/qwen3.5-9b"
-pin = "pinned"
-
-["together_ai/Qwen/Qwen3.8-2.4T-A95B"]
-model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 
 ["together_ai/deepseek-ai/DeepSeek-V4-Pro-0813"]

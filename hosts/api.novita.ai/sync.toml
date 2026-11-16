@@ -119,6 +119,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["stepfun/step-5-preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"

@@ -55,6 +55,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["Qwen/Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"

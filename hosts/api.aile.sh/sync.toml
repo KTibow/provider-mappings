@@ -399,6 +399,10 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["gemini/gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
 ["gemini/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
@@ -700,12 +704,16 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 free = true
 
-["openrouter/alibaba/wan-3.0"]
-model = "alibaba/wan-3.0"
-pin = "pinned"
-
 ["openrouter/anthropic/claude-fable-5.2"]
 model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-4.7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-4.8"]
+model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
 ["openrouter/anthropic/claude-opus-5.5"]
@@ -716,76 +724,12 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["openrouter/black-forest-labs/flux-3-image"]
-model = "black-forest-labs/flux-3-image"
+["openrouter/moonshotai/kimi-k3"]
+model = "moonshotai/kimi-k3"
 pin = "pinned"
 
-["openrouter/black-forest-labs/flux-3-video"]
-model = "black-forest-labs/flux-3-video"
-pin = "pinned"
-
-["openrouter/black-forest-labs/flux.2-flex"]
-model = "black-forest-labs/flux.2-flex"
-pin = "pinned"
-
-["openrouter/black-forest-labs/flux.2-max"]
-model = "black-forest-labs/flux.2-max"
-pin = "pinned"
-
-["openrouter/black-forest-labs/flux.2-pro"]
-model = "black-forest-labs/flux.2-pro"
-pin = "pinned"
-
-["openrouter/bytedance-seed/seedream-5-0-flash"]
-model = "bytedance-seed/seedream-5-0-flash"
-pin = "pinned"
-
-["openrouter/bytedance-seed/seedream-5-0-lite"]
-model = "bytedance-seed/seedream-5-0-lite"
-pin = "pinned"
-
-["openrouter/bytedance-seed/seedream-5-0-pro"]
-model = "bytedance-seed/seedream-5-0-pro"
-pin = "pinned"
-
-["openrouter/bytedance/seedance-2.0-fast"]
-model = "bytedance/seedance-2.0-fast"
-pin = "pinned"
-
-["openrouter/bytedance/seedance-2.5"]
-model = "bytedance/seedance-2.5"
-pin = "pinned"
-
-["openrouter/fish-audio/drama-3"]
-model = "fish-audio/drama-3"
-pin = "pinned"
-
-["openrouter/google/lyria-3-pro-preview"]
-model = "google/lyria-3-pro-preview"
-pin = "pinned"
-
-["openrouter/heygen/heygen-voice-1"]
-model = "heygen/heygen-voice-1"
-pin = "pinned"
-
-["openrouter/heygen/heygen-voice-1-turbo"]
-model = "heygen/heygen-voice-1-turbo"
-pin = "pinned"
-
-["openrouter/inclusionai/ling-3.0-tiny"]
-model = "inclusionai/ling-3.0-tiny"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-v3.0-pro"]
-model = "kwaivgi/kling-v3.0-pro"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-v3.0-std"]
-model = "kwaivgi/kling-v3.0-std"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-video-o1"]
-model = "kwaivgi/kling-video-o1"
+["openrouter/x-ai/grok-4.7"]
+model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["openrouter/~anthropic/claude-fable-latest"]
@@ -806,6 +750,10 @@ pin = "floating"
 
 ["openrouter/~openai/gpt-sol-latest"]
 model = "~openai/gpt-sol-latest"
+pin = "floating"
+
+["openrouter/~openai/gpt-terra-latest"]
+model = "~openai/gpt-terra-latest"
 pin = "floating"
 
 ["orcarouter/anthropic/claude-fable-5"]

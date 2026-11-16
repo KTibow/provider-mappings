@@ -71,6 +71,10 @@ pin = "pinned"
 model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"
 
+["Qwen/Qwen3-VL-235B-A22B-Instruct"]
+model = "qwen/qwen3-vl-235b-a22b-instruct"
+pin = "pinned"
+
 ["Qwen/Qwen3-VL-30B-A3B-Instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"

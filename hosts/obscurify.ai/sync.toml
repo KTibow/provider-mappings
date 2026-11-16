@@ -363,6 +363,10 @@ pin = "pinned"
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
+["liquid/lfm-3-1.7b"]
+model = "liquid/lfm-3-1.7b"
+pin = "pinned"
+
 ["mancer/weaver"]
 model = "mancer/weaver"
 pin = "pinned"
@@ -537,6 +541,10 @@ pin = "pinned"
 
 ["motif-technologies/motif-3"]
 model = "motif-technologies/motif-3"
+pin = "pinned"
+
+["nex-agi/nex-n2.6"]
+model = "nex-agi/nex-n2.6"
 pin = "pinned"
 
 ["nousresearch/hermes-4-405b"]
@@ -847,10 +855,6 @@ pin = "pinned"
 model = "qwen/qwen3.5-397b-a17b"
 pin = "pinned"
 
-["qwen/qwen3.5-9b"]
-model = "qwen/qwen3.5-9b"
-pin = "pinned"
-
 ["qwen/qwen3.5-plus:thinking"]
 model = "alibaba/qwen3.5-plus"
 pin = "pinned"
@@ -916,6 +920,10 @@ model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
 ["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
+["qwen/qwen4-max:thinking"]
 model = "qwen/qwen4-max"
 pin = "pinned"
 

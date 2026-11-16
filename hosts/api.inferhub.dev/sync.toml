@@ -7,6 +7,14 @@
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["ag/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
 ["ali/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"

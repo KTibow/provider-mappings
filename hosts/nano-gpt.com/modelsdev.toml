@@ -1386,6 +1386,14 @@ pin = "floating"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
+["qwen/qwen4-max:thinking"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["qwen3-vl-235b-a22b-instruct-original"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"

@@ -110,6 +110,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
+["alibaba/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["amazon/nova-2-lite"]
 model = "amazon/nova-2-lite-v1"
 pin = "pinned"

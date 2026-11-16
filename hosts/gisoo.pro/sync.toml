@@ -1911,10 +1911,6 @@ pin = "pinned"
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"
 
-["openrouter/qwen/qwen3-vl-30b-a3b-thinking"]
-model = "qwen/qwen3-vl-30b-a3b-thinking"
-pin = "pinned"
-
 ["openrouter/qwen/qwen3-vl-8b-instruct"]
 model = "qwen/qwen3-vl-8b-instruct"
 pin = "pinned"
@@ -2001,6 +1997,10 @@ pin = "pinned"
 
 ["openrouter/qwen/qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
+pin = "pinned"
+
+["openrouter/qwen/qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["openrouter/recraft/recraft-v3"]
@@ -2175,10 +2175,6 @@ pin = "pinned"
 model = "speechify/simba-3.5"
 pin = "pinned"
 
-["openrouter/stepfun/step-3.5-flash"]
-model = "stepfun/step-3.5-flash"
-pin = "pinned"
-
 ["openrouter/stepfun/step-3.7-flash"]
 model = "stepfun/step-3.7-flash"
 pin = "pinned"
@@ -2189,10 +2185,6 @@ pin = "pinned"
 
 ["openrouter/tbc/mischief-1"]
 model = "tbc/mischief-1"
-pin = "pinned"
-
-["openrouter/tencent/hunyuan-a13b-instruct"]
-model = "tencent/hunyuan-a13b-instruct"
 pin = "pinned"
 
 ["openrouter/tencent/hy-image-v3.5-preview"]
@@ -2333,10 +2325,6 @@ pin = "pinned"
 
 ["openrouter/x-ai/grok-imagine-video-1.5-lite"]
 model = "x-ai/grok-imagine-video-1.5-lite"
-pin = "pinned"
-
-["openrouter/x-ai/grok-stt-1.0"]
-model = "x-ai/grok-stt-1.0"
 pin = "pinned"
 
 ["openrouter/x-ai/grok-stt-2.0"]
