@@ -515,10 +515,6 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
-["meta-models/muse-spark-open-816b-a42b-nvfp4"]
-model = "meta/muse-spark-open"
-pin = "pinned"
-
 ["meta/muse-spark-1.1"]
 model = "meta/muse-spark-1.1"
 pin = "pinned"

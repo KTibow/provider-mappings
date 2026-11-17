@@ -343,6 +343,10 @@ pin = "pinned"
 model = "google/gemma-3-27b-it"
 pin = "pinned"
 
+["google/gemma-3-4b-it"]
+model = "google/gemma-3-4b-it"
+pin = "pinned"
+
 ["google/gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
@@ -531,10 +535,6 @@ pin = "pinned"
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
 
-["mistralai/mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
-pin = "pinned"
-
 ["mistralai/mistral-medium-3.5"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
@@ -581,10 +581,6 @@ pin = "pinned"
 
 ["moonshotai/kimi-k2-0905"]
 model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["moonshotai/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["moonshotai/kimi-k3.1-pro"]
@@ -797,10 +793,6 @@ pin = "pinned"
 
 ["openai/gpt-6-luna"]
 model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["openai/gpt-6-luna-decisions"]
-model = "openai/gpt-6-luna-decisions"
 pin = "pinned"
 
 ["openai/gpt-6-luna-pro"]
@@ -1053,10 +1045,6 @@ pin = "pinned"
 
 ["respan/span-02"]
 model = "respan/span-02"
-pin = "pinned"
-
-["ricursiveai/ripple-65b-preview"]
-model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 
 ["sakana/fugu-max"]

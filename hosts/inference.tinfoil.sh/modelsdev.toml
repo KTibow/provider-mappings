@@ -22,6 +22,10 @@ pin = "pinned"
 model = "openai/gpt-oss-safeguard-120b"
 pin = "pinned"
 
+["inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["kimi-k3-1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

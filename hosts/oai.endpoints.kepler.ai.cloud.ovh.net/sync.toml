@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["DeepSeek-V4.1-Flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["Mistral-Small-3.2-24B-Instruct-2506"]
 model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
@@ -35,12 +39,24 @@ pin = "pinned"
 model = "baai/bge-m3"
 pin = "pinned"
 
+["clef-flash"]
+model = "cloudflare/clef-flash"
+pin = "pinned"
+
+["gemma-4-26b-a4b"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
+pin = "pinned"
+
+["qwen3.6-35b-a3b"]
+model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
 ["whisper-large-v3"]

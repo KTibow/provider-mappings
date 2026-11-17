@@ -1944,11 +1944,6 @@ model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp4"
 
-["sference/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-quant = "fp4"
-
 ["tencent/glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"

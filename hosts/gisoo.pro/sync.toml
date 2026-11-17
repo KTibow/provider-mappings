@@ -627,6 +627,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["openrouter/bytedance/seedance-2.5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["openrouter/bytedance/ui-tars-1.5-7b"]
 model = "bytedance/ui-tars-1.5-7b"
 pin = "pinned"
@@ -2217,6 +2221,10 @@ pin = "pinned"
 
 ["openrouter/tencent/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["openrouter/tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["openrouter/tencent/hy4-preview"]

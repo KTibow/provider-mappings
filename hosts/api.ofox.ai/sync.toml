@@ -87,6 +87,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["bytedance/seedance-2.5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["deepseek/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -177,6 +181,10 @@ pin = "pinned"
 
 ["google/gemini-4-argon"]
 model = "google/gemini-4-argon"
+pin = "pinned"
+
+["google/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["google/gemini-4-hydrogen"]

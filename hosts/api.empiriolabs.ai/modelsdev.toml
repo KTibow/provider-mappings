@@ -106,14 +106,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-pro-ultraspeed"
 pin = "pinned"
 
-["minimax-m2-7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax-m2-7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
-pin = "pinned"
-
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"

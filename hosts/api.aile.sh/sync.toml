@@ -1328,34 +1328,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["surplus/claude-fable-5.2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["surplus/deepseek-v4-1-flash-1017-uncensored"]
-model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
-pin = "pinned"
-
-["surplus/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["surplus/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["surplus/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["surplus/muse-ember"]
-model = "meta/muse-ember"
-pin = "pinned"
-
-["surplus/step-5-preview"]
-model = "stepfun/step-5-preview"
-pin = "pinned"
-
 ["venice/claude-fable-5-2"]
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"

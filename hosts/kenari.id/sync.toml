@@ -86,6 +86,10 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
+["gemini-3-8-flash-lite-tts"]
+model = "google/gemini-3.8-flash-lite-tts"
+pin = "pinned"
+
 ["gemini-omni-flash"]
 model = "google/gemini-omni-flash"
 pin = "pinned"

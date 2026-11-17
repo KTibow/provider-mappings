@@ -56,6 +56,11 @@ model = "z-ai/glm-5.2"
 pin = "pinned"
 quant = "fp8"
 
+["glm-5.3-flash-intl"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+quant = "fp8"
+
 ["glm-5.3-intl"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

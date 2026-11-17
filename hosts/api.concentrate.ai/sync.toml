@@ -191,6 +191,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["gemini-decision-1"]
+model = "google/gemini-decision-1"
+pin = "pinned"
+
 ["gemma-4-31b"]
 model = "google/gemma-4-31b-it"
 pin = "pinned"
