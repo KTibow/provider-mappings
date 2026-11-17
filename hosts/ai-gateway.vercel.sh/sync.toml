@@ -11,10 +11,6 @@ pin = "pinned"
 model = "qwen/qwen3-32b"
 pin = "pinned"
 
-["alibaba/qwen3-coder"]
-model = "qwen/qwen3-coder"
-pin = "pinned"
-
 ["alibaba/qwen3-coder-next"]
 model = "qwen/qwen3-coder-next"
 pin = "pinned"
@@ -261,6 +257,10 @@ pin = "pinned"
 
 ["bytedance/seedream-5.0-pro"]
 model = "bytedance-seed/seedream-5-0-pro"
+pin = "pinned"
+
+["bytedance/seedream-5.5"]
+model = "bytedance-seed/seedream-5-5"
 pin = "pinned"
 
 ["cohere/command-a"]
@@ -547,6 +547,14 @@ pin = "pinned"
 model = "liquid/d1-ultra"
 pin = "pinned"
 
+["liquid/d1.2"]
+model = "liquid/d1.2"
+pin = "pinned"
+
+["liquid/d1.2-ultra"]
+model = "liquid/d1.2-ultra"
+pin = "pinned"
+
 ["liquid/lfm2.5-24b-a2b"]
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
@@ -595,12 +603,24 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["microsoft/decision-1.1"]
+model = "microsoft/microsoft-decision-1.1"
+pin = "pinned"
+
 ["microsoft/mai-image-2.6"]
 model = "microsoft/mai-image-2.6"
 pin = "pinned"
 
 ["microsoft/mai-image-2.6-flash"]
 model = "microsoft/mai-image-2.6-flash"
+pin = "pinned"
+
+["microsoft/mai-image-2.7"]
+model = "microsoft/mai-image-2.7"
+pin = "pinned"
+
+["microsoft/mai-image-2.7-flash"]
+model = "microsoft/mai-image-2.7-flash"
 pin = "pinned"
 
 ["microsoft/mai-transcribe-2"]
@@ -886,6 +906,14 @@ pin = "pinned"
 
 ["openai/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-image-1-mini"]

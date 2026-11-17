@@ -38,14 +38,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistral-medium-2505"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
-["mistral-medium-2508"]
-model = "mistralai/mistral-medium-3.1"
-pin = "pinned"
-
 ["mistral-medium-3-5"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
@@ -89,7 +81,6 @@ pin = "pinned"
 ["zai-glm-5-2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
-quant = "nvfp4"
 
 ["zai-glm-5-3"]
 model = "z-ai/glm-5.3"

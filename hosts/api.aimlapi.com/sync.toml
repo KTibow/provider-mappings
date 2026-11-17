@@ -723,6 +723,14 @@ pin = "pinned"
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
+["heygen/avatar-6"]
+model = "heygen/heygen-avatar-6"
+pin = "pinned"
+
+["heygen/avatar-6-turbo"]
+model = "heygen/heygen-avatar-6-turbo"
+pin = "pinned"
+
 ["heygen/avatar-iv"]
 model = "heygen/avatar-iv"
 pin = "pinned"
@@ -797,6 +805,14 @@ pin = "pinned"
 
 ["liquid/d1.1"]
 model = "liquid/d1.1"
+pin = "pinned"
+
+["liquid/d1.2"]
+model = "liquid/d1.2"
+pin = "pinned"
+
+["liquid/d1.2-ultra"]
+model = "liquid/d1.2-ultra"
 pin = "pinned"
 
 ["liquid/lfm-2.5-24b-a2b"]
@@ -1313,6 +1329,14 @@ pin = "pinned"
 
 ["openai/gpt-6.1-terra-pro"]
 model = "openai/gpt-6.1-terra-pro"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-audio"]

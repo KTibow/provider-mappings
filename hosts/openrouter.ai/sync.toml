@@ -729,6 +729,14 @@ pin = "pinned"
 model = "heygen/avatar-iv"
 pin = "pinned"
 
+["heygen/heygen-avatar-6"]
+model = "heygen/heygen-avatar-6"
+pin = "pinned"
+
+["heygen/heygen-avatar-6-turbo"]
+model = "heygen/heygen-avatar-6-turbo"
+pin = "pinned"
+
 ["heygen/heygen-decision-1"]
 model = "heygen/heygen-decision-1"
 pin = "pinned"
@@ -968,6 +976,14 @@ pin = "pinned"
 model = "microsoft/mai-image-2.6-flash"
 pin = "pinned"
 
+["microsoft/mai-image-2.7"]
+model = "microsoft/mai-image-2.7"
+pin = "pinned"
+
+["microsoft/mai-image-2.7-flash"]
+model = "microsoft/mai-image-2.7-flash"
+pin = "pinned"
+
 ["microsoft/mai-transcribe-1.5"]
 model = "microsoft/mai-transcribe-1.5"
 pin = "pinned"
@@ -994,6 +1010,10 @@ pin = "pinned"
 
 ["microsoft/microsoft-decision-1"]
 model = "microsoft/microsoft-decision-1"
+pin = "pinned"
+
+["microsoft/microsoft-decision-1.1"]
+model = "microsoft/microsoft-decision-1.1"
 pin = "pinned"
 
 ["microsoft/phi-4"]
@@ -1578,6 +1598,22 @@ pin = "pinned"
 
 ["openai/gpt-6.1-terra-pro"]
 model = "openai/gpt-6.1-terra-pro"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra-pro"]
+model = "openai/gpt-6.2-astra-pro"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["openai/gpt-6.2-sol-pro"]
+model = "openai/gpt-6.2-sol-pro"
 pin = "pinned"
 
 ["openai/gpt-audio"]

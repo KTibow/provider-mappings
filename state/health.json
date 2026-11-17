@@ -6,5 +6,9 @@
  "api.kairence.ai": {
   "error": "DNS: ENOTFOUND",
   "failing_since": "2026-11-12"
+ },
+ "api.tryaiflow.io": {
+  "error": "GET https://api.tryaiflow.io/v1/models -> HTTP 404: 404 page not found\n",
+  "failing_since": "2026-11-17"
  }
 }

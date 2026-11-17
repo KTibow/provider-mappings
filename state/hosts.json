@@ -4,6 +4,14 @@
     "ai-gateway.helicone.ai": [
       "gpt-4.1-mini-2025-04-14"
     ],
+    "ai-gateway.kilo.ai": [
+      "qwen/qwen3-next-80b-a3b-thinking"
+    ],
+    "ai-gateway.vercel.sh": [
+      "alibaba/qwen-3-235b",
+      "alibaba/qwen3-coder",
+      "alibaba/qwen3-next-80b-a3b-thinking"
+    ],
     "aihubmix.com": [
       "alicloud-deepseek-v4-flash",
       "alicloud-deepseek-v4-pro",
@@ -45,6 +53,9 @@
     ],
     "api.above.dev": [
       "deepseek-v4-flash"
+    ],
+    "api.aipowergrid.io": [
+      "qwen38-flash-next-nvfp4"
     ],
     "api.ambient.xyz": [
       "zai-org/GLM-5.2-FP8"
@@ -404,9 +415,12 @@
       "fireworks/kimi-k3",
       "fireworks/kimi-k3-fast",
       "fireworks/kimi-k3.1-pro",
+      "fireworks/minimax-m3.1-flash",
       "fireworks/muse-spark-open",
       "flexai/deepseek-v4-flash",
+      "flexai/deepseek-v4-flash-0731",
       "flexai/deepseek-v4.1-flash-1017",
+      "flexai/gemma-4-26b-a4b-it",
       "flexai/glm-5.2",
       "flexai/glm-5.3-flash",
       "flexai/gpt-oss-120b",
@@ -601,6 +615,8 @@
       "tencent/glm-5v-turbo",
       "tencent/hy-mt2-plus",
       "tencent/hy3",
+      "tencent/hy4",
+      "tencent/hy4-flash",
       "tencent/hy4-preview",
       "tencent/kimi-k2.6",
       "tencent/kimi-k2.7-code",
@@ -625,13 +641,18 @@
       "together-ai/minimax-m3.1-flash",
       "together-ai/muse-glimmer-30b",
       "together-ai/muse-spark-open",
+      "vertex-anthropic/claude-fable-5-1",
+      "vertex-anthropic/claude-fable-5-2",
       "vertex-anthropic/claude-haiku-4-5",
+      "vertex-anthropic/claude-haiku-5-5",
       "vertex-anthropic/claude-opus-4-5-20251101",
       "vertex-anthropic/claude-opus-4-6",
       "vertex-anthropic/claude-opus-4-7",
+      "vertex-anthropic/claude-opus-5-5",
       "vertex-anthropic/claude-sonnet-4-5",
       "vertex-anthropic/claude-sonnet-4-6",
       "vertex-anthropic/claude-sonnet-5",
+      "vertex-anthropic/claude-sonnet-5-5",
       "vertex-openai/grok-4-20-reasoning",
       "vertex-openai/grok-4-6",
       "vertex-openai/grok-4-7",
@@ -916,6 +937,9 @@
       "kimi-k2.7-code-nitro",
       "qwen3.5-9b"
     ],
+    "api.sambanova.ai": [
+      "Meta-Llama-3.3-70B-Instruct"
+    ],
     "api.sarvam.ai": [
       "sarvam-30b"
     ],
@@ -932,6 +956,7 @@
     "api.unorouter.com": [
       "claude-opus-4-8",
       "deepseek-v4-pro:free",
+      "glm-5.2:free",
       "gpt-5.2",
       "gpt-5.4",
       "gpt-5.4:free",
@@ -999,6 +1024,10 @@
       "openai/whisper-large-v3",
       "qwen/qwen-image",
       "z-ai/glm-5.3"
+    ],
+    "kenari.id": [
+      "gemma-4-31b-it",
+      "muse-wonder-full-1-0"
     ],
     "llmtr.com": [
       "gemma-4",
@@ -1458,6 +1487,8 @@
       "openai/gpt-6-sol-fast",
       "openai/gpt-6.1-sol-fast",
       "openai/gpt-6.1-terra-fast",
+      "openai/gpt-6.2-astra-fast",
+      "openai/gpt-6.2-sol-fast",
       "openai/gpt-chat-latest",
       "openai/o1",
       "openai/o3-fast",
@@ -1472,7 +1503,6 @@
       "quiverai/arrow-2",
       "quiverai/arrow-2-telos",
       "qwen/qwen3-max-thinking",
-      "qwen/qwen3-next-80b-a3b-thinking",
       "scaledown/scaledown-extract-1",
       "scaledown/scaledown-summarize-1",
       "stealth/glyph-cluster",
@@ -1488,12 +1518,10 @@
       "z-ai/glm-5.3-fast"
     ],
     "ai-gateway.vercel.sh": [
-      "alibaba/qwen-3-235b",
       "alibaba/qwen-3-30b",
       "alibaba/qwen3-coder-30b-a3b",
       "alibaba/qwen3-embedding-0.6b",
       "alibaba/qwen3-max-thinking",
-      "alibaba/qwen3-next-80b-a3b-thinking",
       "alibaba/qwen3-vl-instruct",
       "alibaba/wan-v2.5-t2v-preview",
       "alibaba/wan-v2.6-i2v",
@@ -1640,6 +1668,8 @@
       "openai/gpt-6.1-sol-batch",
       "openai/gpt-6.1-sol-fast",
       "openai/gpt-6.1-terra-fast",
+      "openai/gpt-6.2-astra-fast",
+      "openai/gpt-6.2-sol-fast",
       "openai/gpt-live-1",
       "openai/gpt-live-transcribe",
       "openai/gpt-realtime-1.5",
@@ -2118,6 +2148,7 @@
       "tngtech/DeepSeek-R1T-Chimera"
     ],
     "aiplatform.googleapis.com": [
+      "mistral-small-2506",
       "xai/grok-4.20-reasoning"
     ],
     "api-inference.modelscope.cn": [
@@ -2244,9 +2275,7 @@
       "parallel/search-turbo",
       "searchapi/google-search",
       "serper/google-search",
-      "venice/deepseek-v4-1-flash-1017-ultrafast",
-      "venice/e2ee-deepseek-v4-1-flash-1017-abliterated",
-      "venice/pareto",
+      "surplus/venice-uncensored",
       "vercel-ai-gateway/alibaba/qwen-3-235b",
       "vercel-ai-gateway/alibaba/qwen-3-30b",
       "vercel-ai-gateway/alibaba/qwen3-coder-30b-a3b",
@@ -2535,8 +2564,6 @@
       "google/veo-3.1-t2v-fast",
       "google/veo3-1-extend-video",
       "google/veo3-1-fast-extend-video",
-      "heygen/avatar-6",
-      "heygen/avatar-6-turbo",
       "heygen/avatar-iii",
       "heygen/avatar-v",
       "heygen/image-to-video",
@@ -2579,6 +2606,8 @@
       "klingai/avatar-pro",
       "klingai/avatar-standard",
       "klingai/image-o1",
+      "klingai/image-v4-image-to-image",
+      "klingai/image-v4-text-to-image",
       "klingai/v2.5-turbo/pro/image-to-video",
       "klingai/v2.5-turbo/pro/text-to-video",
       "klingai/video-o1-image-to-video",
@@ -2839,9 +2868,7 @@
     ],
     "api.blazeapi.org": [
       "deepseek-v4.1-flash-abliterated",
-      "free/Huihui-Qwen3.8-27B-abliterated",
       "free/claude-opus-5-5-temp",
-      "free/deepseek-v4.1-flash-1017-stored",
       "free/deepseek-v4.1-flash-temp",
       "free/glm-5.3-temp",
       "free/gpt-6-astra-temp",
@@ -2872,6 +2899,7 @@
       "@preset/cline-new27-20261022-nemotron35vl-coreweave-r1",
       "@preset/cline-new27-20261022-opus55-vertex-global-r1",
       "@preset/cline-new27-20261022-sonnet55-vertex-global-r1",
+      "@preset/cline-sol62-blog47-20261117-openai-r1",
       "anthropic/claude-fable-5.1:batch",
       "anthropic/claude-fable-5.2:batch",
       "anthropic/claude-fable-5:batch",
@@ -4082,6 +4110,7 @@
       "minimax-m2.1-lightning",
       "minimax-text-01",
       "mistral-ocr-latest",
+      "mistral-small-2506",
       "nemotron-3-ultra-550b",
       "orpheus-arabic-saudi",
       "orpheus-v1-english",
@@ -4792,6 +4821,7 @@
       "GPT-5.5-Pro:web",
       "GPT-5.5:web",
       "GPT-6.1 Sol Ultrafast",
+      "Gemma 3 27B",
       "Gemma 4 26B A4B Uncensored",
       "Gemma-4-26b-a4b:web",
       "Gemma-4-31b:web",
@@ -4817,7 +4847,6 @@
       "Qwen3 VL 235B",
       "Qwen3 VL 30B A3B",
       "Venice Role Play Uncensored",
-      "Vireonix Auto",
       "claude-fable-5:web",
       "clause-opus-4.8:web",
       "deepseek-v4-flash:web",
@@ -4987,7 +5016,8 @@
       "sao10k/l3-70b-euryale-v2.1",
       "zai-org/autoglm-phone-9b-multilingual",
       "zai-org/glm-4.7-h",
-      "zai-org/glm-5.3-p"
+      "zai-org/glm-5.3-p",
+      "zai-org/glm-new"
     ],
     "api.ofox.ai": [
       "deepseek/deepseek-v4-flash-0423",
@@ -5317,7 +5347,6 @@
       "qwen4-max-el",
       "reka-core",
       "reka-flash",
-      "reka-research",
       "remove-background",
       "restyler",
       "retro-diffusion-core",
@@ -5334,7 +5363,6 @@
       "seedream-5.0-lite-el",
       "seedream-5.5-el",
       "sketch-to-image",
-      "solar-pro-2",
       "stable-audio-2.0",
       "stablediffusion3-2b",
       "stablediffusion3.5-l",
@@ -6157,7 +6185,6 @@
       "gemini-2.5-pro-tts",
       "gemini-3-pro",
       "gemini-3-pro-preview",
-      "gemini-flash-lite-latest:free",
       "gemma-4-12b:free",
       "gemma-4-26b-a4b-it-chimerax:free",
       "gemma-4-26b-a4b-it-darksoul:free",
@@ -6171,6 +6198,7 @@
       "glm-5.3-flash-search:free",
       "glm-5.3-flash-think-search:free",
       "glm-5.3-flash-thinking:free",
+      "glm-5.3-flash-uncensored-fp8:free",
       "glyph-cluster:free",
       "gpt-4o-image",
       "gpt-image-2.5-flare:flat",
@@ -6208,7 +6236,6 @@
       "mistral-small",
       "mistral-small-3.2:free",
       "mistral-small:free",
-      "mn-violet-lotus-12b:free",
       "nemotron-3.5-bolt-e4b:free",
       "nemotron-3.5-lightning-30b-a3b:free",
       "nemotron-sea-lion-v4.8-120b-a12b:free",
@@ -6225,7 +6252,6 @@
       "or-kimi-k2.7-code",
       "or-kimi-k3",
       "or-kimi-k3.1-pro",
-      "orca-router:free",
       "phoenix-1.0:free",
       "phonellm-mini-alpha-2:free",
       "plamo-embedding-1b:free",
@@ -6322,6 +6348,7 @@
       "euryale-70b-v2.3",
       "gemini-3-pro-preview",
       "gemini-3.1-pro-preview-low",
+      "gemini-4-argon-uncensored",
       "gemini-flash-lite-latest",
       "gemma-31b-heretic-uncensored",
       "gemma-3n-e2b-it",
@@ -6384,6 +6411,7 @@
       "gpt-6-luna-plus",
       "gpt-6-sol-plus",
       "gpt-6-sol-pro-stable",
+      "gpt-6-sol-uncensored",
       "gpt-6.1-sol-plus",
       "gpt-6.1-sol-pro-max",
       "gpt-6.1-sol-promax",
@@ -6449,7 +6477,6 @@
       "qwen3.8-27b-darkidol",
       "qwen3.8-27b-fable",
       "qwen3.8-27b-fimi",
-      "qwen3.8-27b-hemingway",
       "qwen3.8-27b-kimiko",
       "qwen3.8-27b-kiwen",
       "qwen3.8-27b-novelist",
@@ -6836,7 +6863,6 @@
       "beam-1-0:free",
       "deepseek-v4-1-flash-abliterated",
       "glm-4-6v-flash:free",
-      "glm-5-3-abliterated",
       "glm-5-3-flash-abliterated",
       "kokoro-tts",
       "laguna-xs-2-1:free",
@@ -6845,7 +6871,6 @@
       "muse-ember-1-0",
       "muse-video",
       "muse-wonder-1-0",
-      "muse-wonder-full-1-0",
       "qwen3-8-27b-uncensored"
     ],
     "llm.agent-zero.ai": [
@@ -7488,14 +7513,17 @@
       "google/gemma-4-26b-a4b-meromero:thinking",
       "google/gemma-4-31b-it-fabled",
       "google/gemma-4-31b-it-garnet",
+      "google/gemma-4-31b-it-gembrain",
       "google/gemma-4-31b-it-gemsicle",
       "google/gemma-4-31b-it-isometry",
+      "google/gemma-4-31b-it-novelist",
       "google/gemma-4-31b-it-scarlet",
       "google/gemma-4-31b-meromero-v2",
       "google/gemma4-31b-splituntied",
       "gryphe/gemma-4-31b-styletune",
       "heabsy/cyberheabsy",
       "heabsy/qwen3.8-27b-uncensored-fast",
+      "inception/mercury-decide",
       "kitani/clover-2",
       "kitani/clover-2:thinking",
       "lightonai/lightonocr-2-1b",
@@ -7541,6 +7569,7 @@
       "tee/llama-3.3-70b",
       "tee/qwen3.8-27b-uncensored",
       "tee/qwen3.8-27b-uncensored:thinking",
+      "thedrummer/artemis-v1.1",
       "typesafe/jev-router",
       "upstage/solar-pro-3",
       "vllm-sr/decision-large",
@@ -7920,7 +7949,6 @@
       "flux-pro-v1.1-ultra",
       "flux-realism",
       "fugu-ultra-v1.1",
-      "gemini-2.5-flash-lite-preview",
       "gemini-2.5-flash-nothinking",
       "gemini-3-flash-preview-thinking",
       "gemini-3.1-pro-preview-high",
@@ -8004,7 +8032,6 @@
       "grok-3-fast-beta",
       "grok-3-fast-latest",
       "grok-3-latest",
-      "grok-3-mini-beta",
       "grok-3-mini-fast",
       "grok-3-mini-fast-beta",
       "grok-3-mini-fast-latest",
@@ -8021,7 +8048,6 @@
       "grok-code-fast",
       "grok-code-fast-1",
       "grok-code-fast-1-0825",
-      "h3-max",
       "hermes-3-llama-3.1-70b",
       "hermes-high",
       "hermes-low",
@@ -8048,7 +8074,6 @@
       "kimi-k2-instruct-fast",
       "kimi-k2.7-code-highspeed",
       "kimi-k2.8-preview",
-      "kimi-k3-1-pro-highspeed",
       "kimi-k3.1-pro-highspeed",
       "kling-3-0-turbo",
       "kling-4-0-flash",
@@ -8081,9 +8106,11 @@
       "long-form",
       "longcat-2.5-preview",
       "longcat-image",
+      "ltxv-2",
+      "ltxv-2-fast",
       "lumimaid-v0.2-70b",
       "m2",
-      "m2-5-20260218",
+      "m2-1-highspeed",
       "magidonia-24b-v4.3",
       "magnum-v2-72b",
       "manta-flash-1.0",
@@ -8212,6 +8239,7 @@
       "qwerky-72b",
       "qwq-32b",
       "ray-2",
+      "ray-flash-2",
       "recraft-v4-style",
       "recraft-v4-style-pro",
       "recraft-v4.1-pro-text-to-image-utility",
@@ -8257,7 +8285,6 @@
       "tts-1-hd-1106",
       "v1",
       "veiled-calla-12b",
-      "video-1-text-to-video",
       "voxtral-mini-latest",
       "voxtral-mini-transcribe-realtime-3",
       "voxtral-mini-transcribe-realtime-3.0",
@@ -8535,9 +8562,6 @@
     "router.sokkan.ch": [
       "qwen/qwen3.6-35b-a3b-eu",
       "qwen/qwen3.8-27b-swiss"
-    ],
-    "softforge.cc": [
-      "gpt-6.2-astra"
     ],
     "us.api.deepinfra.com": [
       "BAAI/bge-en-icl",

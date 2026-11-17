@@ -926,6 +926,22 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra-pro"
 pin = "pinned"
 
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra-pro"]
+model = "openai/gpt-6.2-astra-pro"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["openai/gpt-6.2-sol-pro"]
+model = "openai/gpt-6.2-sol-pro"
+pin = "pinned"
+
 ["openai/gpt-audio"]
 model = "openai/gpt-audio"
 pin = "pinned"

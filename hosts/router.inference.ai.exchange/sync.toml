@@ -827,7 +827,7 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio"]
+["gpt-audio-2025-08-28"]
 model = "openai/gpt-audio"
 pin = "pinned"
 
@@ -1180,10 +1180,6 @@ model = "mistralai/mistral-large"
 pin = "pinned"
 
 ["mistral-large-4"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
@@ -1817,10 +1813,6 @@ pin = "pinned"
 
 ["solar-pro4:thinking"]
 model = "upstage/solar-pro4"
-pin = "pinned"
-
-["sonar"]
-model = "perplexity/sonar"
 pin = "pinned"
 
 ["sonar-pro"]

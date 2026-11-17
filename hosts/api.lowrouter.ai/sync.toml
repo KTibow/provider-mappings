@@ -619,6 +619,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["auto/openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["auto/openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["auto/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -1921,6 +1929,14 @@ pin = "pinned"
 
 ["openai/openai/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/openai/o3"]

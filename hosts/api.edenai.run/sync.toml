@@ -311,6 +311,22 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
+["amazon/openai.gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["amazon/openai.gpt-6.2-astra@us"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["amazon/openai.gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["amazon/openai.gpt-6.2-sol@us"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["amazon/openai.gpt-oss-120b-1:0"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -853,6 +869,30 @@ pin = "pinned"
 
 ["azure/gpt-6.1-terra@us"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@eu"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@us"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@eu"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@us"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["azure/mistral-large-3"]
@@ -2536,6 +2576,14 @@ pin = "pinned"
 
 ["openai/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-mini-latest"]

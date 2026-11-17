@@ -49,6 +49,16 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
+["claude-haiku-5-5:free"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+free = true
+
+["claude-haiku-5-5:free[1m]"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+free = true
+
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
@@ -179,8 +189,8 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["deepseek-v4.1-flash:free"]
-model = "deepseek/deepseek-v4.1-flash"
+["deepseek-v4.1-flash-uncensored-fp8:free"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
 pin = "pinned"
 free = true
 
@@ -242,11 +252,6 @@ pin = "pinned"
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
-
-["gemini-3.1-flash-lite:free"]
-model = "google/gemini-3.1-flash-lite"
-pin = "pinned"
-free = true
 
 ["gemini-3.1-pro"]
 model = "google/gemini-3.1-pro"
@@ -329,11 +334,6 @@ pin = "pinned"
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
-
-["glm-5.2:free"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-free = true
 
 ["glm-5.3"]
 model = "z-ai/glm-5.3"
@@ -465,8 +465,8 @@ model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
 free = true
 
-["ling-3.2-flash:free"]
-model = "inclusionai/ling-3.2-flash"
+["ling-3.1-flash:free"]
+model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 free = true
 
@@ -507,6 +507,11 @@ pin = "pinned"
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
+
+["minimax-m3.1-flash:free"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+free = true
 
 ["mistral-large-3"]
 model = "mistralai/mistral-large-2512"

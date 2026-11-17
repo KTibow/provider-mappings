@@ -142,6 +142,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["global.moonshotai.kimi-k3.1"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["global.openai.gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -164,6 +168,14 @@ pin = "pinned"
 
 ["global.openai.gpt-6.1-sol"]
 model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["global.openai.gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["global.openai.gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["global.xai.grok-4.7"]
@@ -216,6 +228,14 @@ pin = "pinned"
 
 ["openai.gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai.gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai.gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai.gpt-oss-120b-1:0"]
@@ -288,6 +308,14 @@ pin = "pinned"
 
 ["us.meta.llama3-1-70b-instruct-v1:0"]
 model = "meta-llama/llama-3.1-70b-instruct"
+pin = "pinned"
+
+["us.moonshotai.kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["us.moonshotai.kimi-k3.1"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["us.writer.palmyra-x5-v1:0"]

@@ -55,6 +55,14 @@ pin = "pinned"
 model = "openai/whisper-large-v3"
 pin = "pinned"
 
+["qwen/qwen3-asr-0.6b"]
+model = "qwen/qwen3-asr-0.6b"
+pin = "pinned"
+
+["qwen/qwen3-asr-1.7b"]
+model = "qwen/qwen3-asr-1.7b"
+pin = "pinned"
+
 ["qwen/qwen3-vl-30b-a3b-instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"

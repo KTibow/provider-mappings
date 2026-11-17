@@ -43,6 +43,10 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"

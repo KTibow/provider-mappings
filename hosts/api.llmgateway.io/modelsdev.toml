@@ -890,6 +890,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["fireworks/minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["fireworks/muse-spark-open"]
 model = "meta/muse-spark-open"
 pin = "pinned"
@@ -898,8 +902,16 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
+["flexai/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
 ["flexai/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["flexai/gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
 ["flexai/glm-5.2"]
@@ -1344,6 +1356,14 @@ pin = "pinned"
 
 ["hy3"]
 model = "tencent/hy3"
+pin = "pinned"
+
+["hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["hy4-preview"]
@@ -2322,6 +2342,14 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
+["tencent/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["tencent/hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -2418,8 +2446,20 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
+["vertex-anthropic/claude-fable-5-1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["vertex-anthropic/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["vertex-anthropic/claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["vertex-anthropic/claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
 ["vertex-anthropic/claude-opus-4-5-20251101"]
@@ -2434,6 +2474,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
+["vertex-anthropic/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
 ["vertex-anthropic/claude-sonnet-4-5"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
@@ -2444,6 +2488,10 @@ pin = "pinned"
 
 ["vertex-anthropic/claude-sonnet-5"]
 model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["vertex-anthropic/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["vertex-openai/grok-4-20-reasoning"]

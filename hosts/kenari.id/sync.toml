@@ -94,10 +94,6 @@ pin = "pinned"
 model = "google/gemini-omni-flash"
 pin = "pinned"
 
-["gemma-4-31b-it"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-
 ["glm-4-7-flash:free"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
@@ -129,6 +125,14 @@ pin = "pinned"
 
 ["gpt-6-1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["gpt-6-2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6-2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["gpt-6-astra"]

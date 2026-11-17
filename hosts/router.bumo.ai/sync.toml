@@ -63,6 +63,10 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
+["gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
 ["gemini-4-carbon"]
 model = "google/gemini-4-carbon"
 pin = "pinned"
@@ -125,6 +129,10 @@ pin = "pinned"
 
 ["gpt-image-2.6-sunburst"]
 model = "openai/gpt-image-2.6-sunburst"
+pin = "pinned"
+
+["mongodb/rerank-3"]
+model = "mongodb/rerank-3"
 pin = "pinned"
 
 ["text-embedding-3-large"]

@@ -10,6 +10,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
+["gpt-5-6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"

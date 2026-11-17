@@ -17,3 +17,11 @@ pin = "pinned"
 ["maiimage26flash"]
 model = "microsoft/mai-image-2.6-flash"
 pin = "pinned"
+
+["maiimage27"]
+model = "microsoft/mai-image-2.7"
+pin = "pinned"
+
+["maiimage27flash"]
+model = "microsoft/mai-image-2.7-flash"
+pin = "pinned"

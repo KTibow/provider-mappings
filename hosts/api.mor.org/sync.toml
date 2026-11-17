@@ -147,6 +147,10 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
+["GPT OSS 20B"]
+model = "openai/gpt-oss-20b"
+pin = "pinned"
+
 ["GPT-4o"]
 model = "openai/gpt-4o"
 pin = "pinned"
@@ -403,6 +407,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["Qwen3 30B A3B"]
+model = "qwen/qwen3-30b-a3b"
+pin = "pinned"
+
 ["Qwen3 Embedding 8B"]
 model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
@@ -461,6 +469,10 @@ pin = "pinned"
 
 ["glm-4.6"]
 model = "z-ai/glm-4.6"
+pin = "pinned"
+
+["glm-4.7"]
+model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["glm-5"]

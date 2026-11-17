@@ -455,6 +455,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -549,6 +557,14 @@ pin = "pinned"
 
 ["hy3"]
 model = "tencent/hy3"
+pin = "pinned"
+
+["hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["hy4-preview"]
@@ -709,10 +725,6 @@ pin = "floating"
 
 ["mistral-medium-3-5"]
 model = "mistralai/mistral-medium-3-5"
-pin = "pinned"
-
-["mistral-small-2506"]
-model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
 
 ["mistral-small-2603"]

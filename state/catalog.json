@@ -2069,6 +2069,32 @@
   ],
   "permaslug": "heygen/avatar-iv-20260625"
  },
+ "heygen/heygen-avatar-6": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "HeyGen: Avatar 6",
+  "output": [
+   "video"
+  ],
+  "permaslug": "heygen/heygen-avatar-6-20261117"
+ },
+ "heygen/heygen-avatar-6-turbo": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "HeyGen: Avatar 6 Turbo",
+  "output": [
+   "video"
+  ],
+  "permaslug": "heygen/heygen-avatar-6-turbo-20261117"
+ },
  "heygen/heygen-decision-1": {
   "input": [
    "image",
@@ -2774,6 +2800,28 @@
   ],
   "permaslug": "microsoft/mai-image-2.6-flash-20260904"
  },
+ "microsoft/mai-image-2.7": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Image-2.7",
+  "output": [
+   "image"
+  ],
+  "permaslug": "microsoft/mai-image-2.7-20261117"
+ },
+ "microsoft/mai-image-2.7-flash": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft AI: MAI-Image-2.7 Flash",
+  "output": [
+   "image"
+  ],
+  "permaslug": "microsoft/mai-image-2.7-flash-20261117"
+ },
  "microsoft/mai-transcribe-1.5": {
   "input": [
    "audio"
@@ -2843,6 +2891,17 @@
    "decisions"
   ],
   "permaslug": "microsoft/microsoft-decision-1-20261009"
+ },
+ "microsoft/microsoft-decision-1.1": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Microsoft: Microsoft-Decision-1.1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "microsoft/microsoft-decision-1.1-20261117"
  },
  "microsoft/phi-4": {
   "hf": "microsoft/phi-4",
@@ -4515,6 +4574,54 @@
    "text"
   ],
   "permaslug": "openai/gpt-6.1-terra-pro-20261026"
+ },
+ "openai/gpt-6.2-astra": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.2 Astra",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.2-astra-20261117"
+ },
+ "openai/gpt-6.2-astra-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.2 Astra Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.2-astra-pro-20261117"
+ },
+ "openai/gpt-6.2-sol": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.2 Sol",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.2-sol-20261117"
+ },
+ "openai/gpt-6.2-sol-pro": {
+  "input": [
+   "file",
+   "image",
+   "text"
+  ],
+  "name": "OpenAI: GPT-6.2 Sol Pro",
+  "output": [
+   "text"
+  ],
+  "permaslug": "openai/gpt-6.2-sol-pro-20261117"
  },
  "openai/gpt-audio": {
   "input": [

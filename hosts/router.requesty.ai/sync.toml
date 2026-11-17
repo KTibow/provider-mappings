@@ -488,6 +488,54 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["azure/gpt-6.2-astra@eastus"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@francecentral"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@germanywestcentral"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@polandcentral"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@swedencentral"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-astra@westeurope"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@eastus"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@francecentral"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@germanywestcentral"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@polandcentral"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@swedencentral"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@westeurope"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["azure/o4-mini@eastus2"]
 model = "openai/o4-mini"
 pin = "pinned"
@@ -1800,6 +1848,14 @@ pin = "pinned"
 
 ["openai/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/o3"]

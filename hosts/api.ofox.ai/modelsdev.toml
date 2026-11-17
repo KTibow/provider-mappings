@@ -246,6 +246,10 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["google/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["google/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
@@ -504,6 +508,10 @@ pin = "floating"
 
 ["qwen/qwen3.8-max-0902"]
 model = "qwen/qwen3.8-max-0902"
+pin = "pinned"
+
+["qwen/qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["volcengine/doubao-seed-2.0-code"]

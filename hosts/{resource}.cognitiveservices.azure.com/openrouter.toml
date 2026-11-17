@@ -110,6 +110,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["mai-transcribe-1.5"]
 model = "microsoft/mai-transcribe-1.5"
 pin = "pinned"
@@ -137,4 +145,14 @@ pin = "pinned"
 # needs review: several OpenRouter models list this id (openai/gpt-6.1-terra, openai/gpt-6.1-terra-pro)
 # ["gpt-6.1-terra-dz"]
 # model = "openai/gpt-6.1-terra"
+# pin = "pinned"
+
+# needs review: several OpenRouter models list this id (openai/gpt-6.2-astra, openai/gpt-6.2-astra-pro)
+# ["gpt-6.2-astra-dz"]
+# model = "openai/gpt-6.2-astra"
+# pin = "pinned"
+
+# needs review: several OpenRouter models list this id (openai/gpt-6.2-sol, openai/gpt-6.2-sol-pro)
+# ["gpt-6.2-sol-dz"]
+# model = "openai/gpt-6.2-sol"
 # pin = "pinned"

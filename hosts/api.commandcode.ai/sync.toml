@@ -203,6 +203,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["inclusionai/ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
@@ -298,6 +306,10 @@ pin = "pinned"
 
 ["stepfun/Step-5-Preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["tencent/hy4"]
+model = "tencent/hy4"
 pin = "pinned"
 
 ["tencent/hy4-flash"]

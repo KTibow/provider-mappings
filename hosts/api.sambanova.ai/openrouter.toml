@@ -6,10 +6,6 @@
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
-["Meta-Llama-3.3-70B-Instruct"]
-model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-
 ["MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"

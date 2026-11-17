@@ -3,36 +3,36 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["ag/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
 ["ag/claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["ag/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["ag/gemini-4-argon"]
 model = "google/gemini-4-argon"
 pin = "pinned"
 
-["ag/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
+["ag/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
-["ali/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
+["ag/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["ali/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
-["ali/deepseek-v4.1-flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
 ["ali/glm-5.3"]
 model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["ali/kimi-k3"]
-model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["ali/kimi-k3.1-pro"]
@@ -57,6 +57,10 @@ pin = "pinned"
 
 ["ali/qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
+pin = "pinned"
+
+["ali/qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["alicn/deepseek-v4-flash-0731"]
@@ -1295,10 +1299,6 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
-["ocg/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["ocg/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -1311,32 +1311,12 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["ocg/kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["ocg/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
 ["ocg/longcat-2.0"]
 model = "meituan/longcat-2.0"
 pin = "pinned"
 
-["ocg/mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
 ["ocg/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["ocg/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["ocg/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
 pin = "pinned"
 
 ["ocg/minimax-m3"]
@@ -1349,10 +1329,6 @@ pin = "pinned"
 
 ["ocg/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
-pin = "pinned"
-
-["ocg/step-5-preview"]
-model = "stepfun/step-5-preview"
 pin = "pinned"
 
 ["qwen-image-3.0-pro"]
