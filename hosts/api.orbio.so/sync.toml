@@ -279,6 +279,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["bytedance/seedance-2.5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["bytedance/ui-tars-1.5-7b"]
 model = "bytedance/ui-tars-1.5-7b"
 pin = "pinned"
@@ -801,6 +805,14 @@ pin = "pinned"
 
 ["liquid/d1.1"]
 model = "liquid/d1.1"
+pin = "pinned"
+
+["liquid/d1.2"]
+model = "liquid/d1.2"
+pin = "pinned"
+
+["liquid/d1.2-ultra"]
+model = "liquid/d1.2-ultra"
 pin = "pinned"
 
 ["liquid/lfm-2.5-24b-a2b"]

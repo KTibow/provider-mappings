@@ -1026,6 +1026,11 @@ model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 quant = "fp16"
 
+["qwen3.8-max-0902"]
+model = "qwen/qwen3.8-max-0902"
+pin = "pinned"
+quant = "fp16"
+
 ["qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
@@ -1285,3 +1290,8 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
+
+["xiaomi-mimo-v2-5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"

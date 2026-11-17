@@ -283,6 +283,10 @@ pin = "pinned"
 model = "inception/mercury-2"
 pin = "pinned"
 
+["inception/mercury-2.5"]
+model = "inception/mercury-2.5"
+pin = "pinned"
+
 ["inception/mercury-3"]
 model = "inception/mercury-3"
 pin = "pinned"
@@ -633,6 +637,10 @@ pin = "pinned"
 
 ["qwen/e2ee-qwen-2-5-7b-p"]
 model = "venice/e2ee-qwen2.5-7b"
+pin = "pinned"
+
+["qwen/e2ee-qwen3-5-122b-a10b"]
+model = "venice/e2ee-qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["qwen/e2ee-qwen3-6-35b-a3b"]

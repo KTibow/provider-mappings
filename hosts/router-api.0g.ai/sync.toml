@@ -283,6 +283,10 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -434,6 +438,10 @@ pin = "pinned"
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
 
 ["step-5-preview"]
 model = "stepfun/step-5-preview"

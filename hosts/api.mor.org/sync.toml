@@ -123,6 +123,10 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
+["GLM 5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
 ["GLM 5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
@@ -357,10 +361,6 @@ pin = "pinned"
 
 ["Muse Wonder"]
 model = "meta/muse-wonder"
-pin = "pinned"
-
-["OpenAI GPT OSS 120B"]
-model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["Qwen 3 235B A22B Instruct 2507"]

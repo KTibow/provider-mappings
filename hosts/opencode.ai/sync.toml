@@ -280,11 +280,6 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
-["minimax-m3.1-flash-free"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-free = true
-
 ["mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"

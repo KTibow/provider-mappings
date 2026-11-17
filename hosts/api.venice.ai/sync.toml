@@ -967,6 +967,18 @@ pin = "pinned"
 model = "bytedance/seedance-2.0"
 pin = "pinned"
 
+["seedance-2-5-flash-image-to-video-basic"]
+model = "bytedance/seedance-2.5-flash:image-to-video"
+pin = "pinned"
+
+["seedance-2-5-flash-reference-to-video-basic"]
+model = "bytedance/seedance-2.5-flash:reference-to-video"
+pin = "pinned"
+
+["seedance-2-5-flash-text-to-video-basic"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["seedance-2-5-image-to-video-basic"]
 model = "bytedance/seedance-2.5:image-to-video"
 pin = "pinned"

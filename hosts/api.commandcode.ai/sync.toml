@@ -279,6 +279,11 @@ pin = "pinned"
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
+["recursive/flint-v1.0:free"]
+model = "recursive/flint-v1.0"
+pin = "pinned"
+free = true
+
 ["sakana/fugu-ultra"]
 model = "sakana/fugu-ultra"
 pin = "pinned"

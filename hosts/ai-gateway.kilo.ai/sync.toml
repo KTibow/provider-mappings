@@ -1236,6 +1236,10 @@ pin = "pinned"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["recursive/flint-v1.0"]
+model = "recursive/flint-v1.0"
+pin = "pinned"
+
 ["reflection/beam-1.0-501b-a23b"]
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"

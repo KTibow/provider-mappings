@@ -83,6 +83,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["Qwen/Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["Sao10K/L3.1-70B-Euryale-v2.2"]
 model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"
@@ -265,6 +269,10 @@ pin = "pinned"
 
 ["gemini/gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["google/gemma-4-31b-it"]

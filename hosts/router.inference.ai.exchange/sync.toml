@@ -79,6 +79,10 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
+["claude-haiku-4-5-20251001"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -100,6 +104,10 @@ model = "anthropic/claude-opus-4.1"
 pin = "pinned"
 
 ["claude-opus-4-5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["claude-opus-4-5-20251101"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
@@ -195,6 +203,10 @@ pin = "pinned"
 model = "deepseek/deepseek-chat"
 pin = "pinned"
 
+["deepseek-pro-latest"]
+model = "~deepseek/deepseek-pro-latest"
+pin = "floating"
+
 ["deepseek-r1"]
 model = "deepseek/deepseek-r1"
 pin = "pinned"
@@ -281,6 +293,10 @@ pin = "pinned"
 
 ["deepseek-v4-pro-0813:thinking"]
 model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
+["deepseek-v4-pro-20260423:thinking"]
+model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
 ["deepseek-v4.1-flash"]
@@ -663,6 +679,10 @@ pin = "pinned"
 model = "openai/gpt-4o-mini"
 pin = "pinned"
 
+["gpt-4o-mini-2024-07-18"]
+model = "openai/gpt-4o-mini-2024-07-18"
+pin = "pinned"
+
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"
@@ -811,8 +831,8 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio-2025-08-28"]
-model = "openai/gpt-audio"
+["gpt-audio-mini"]
+model = "openai/gpt-audio-mini"
 pin = "pinned"
 
 ["gpt-image-2"]
@@ -821,6 +841,10 @@ pin = "pinned"
 
 ["gpt-luna-latest"]
 model = "~openai/gpt-luna-latest"
+pin = "floating"
+
+["gpt-mini-latest"]
+model = "~openai/gpt-mini-latest"
 pin = "floating"
 
 ["gpt-oss-120b"]
@@ -868,6 +892,10 @@ model = "x-ai/grok-4.1-fast"
 pin = "pinned"
 
 ["grok-4.20"]
+model = "x-ai/grok-4.20"
+pin = "pinned"
+
+["grok-4.20-0309-reasoning"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
@@ -925,6 +953,10 @@ pin = "pinned"
 
 ["inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["inkling-small"]
@@ -995,6 +1027,10 @@ pin = "pinned"
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
 
+["lfm2.5-24b-a2b"]
+model = "liquid/lfm-2.5-24b-a2b"
+pin = "pinned"
+
 ["lightricks-ltx-2-fast"]
 model = "lightricks/ltx-2-fast"
 pin = "pinned"
@@ -1033,6 +1069,10 @@ pin = "pinned"
 
 ["llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
+["llama-3.2-1b-instruct"]
+model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["llama-3.2-3b-instruct"]
@@ -1323,8 +1363,24 @@ pin = "pinned"
 model = "amazon/nova-pro-v1"
 pin = "pinned"
 
+["nvidia-nemotron-3-nano-30b-a3b-bf16"]
+model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
+["nvidia-nemotron-3-super-120b-a12b-fp8"]
+model = "nvidia/nemotron-3-super-120b-a12b"
+pin = "pinned"
+
 ["nvidia-nemotron-3-ultra-550b-a55b-bf16"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["nvidia-nemotron-3.5-lightning-30b-a3b-bf16"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+
+["nvidia-nemotron-3.5-super-vl-120b-a12b-bf16"]
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["nvidia/nemotron-3.5-super-vl:thinking"]
@@ -1332,6 +1388,10 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["o3"]
+model = "openai/o3"
+pin = "pinned"
+
+["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 
@@ -1415,6 +1475,10 @@ pin = "pinned"
 model = "pixverse/pixverse-c1"
 pin = "pinned"
 
+["pixverse-v5-6"]
+model = "pixverse/pixverse-v5.6"
+pin = "pinned"
+
 ["qwen-2.5-72b-instruct"]
 model = "qwen/qwen-2.5-72b-instruct"
 pin = "pinned"
@@ -1493,6 +1557,10 @@ pin = "pinned"
 
 ["qwen3-vl-30b-a3b-instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
+pin = "pinned"
+
+["qwen3-vl-8b-instruct"]
+model = "qwen/qwen3-vl-8b-instruct"
 pin = "pinned"
 
 ["qwen3.5-122b-a10b"]
@@ -1719,6 +1787,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["seedance-2-5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["seedream-4-0"]
 model = "bytedance-seed/seedream-4.0"
 pin = "pinned"
@@ -1729,6 +1801,10 @@ pin = "pinned"
 
 ["seedream-5-0-flash"]
 model = "bytedance-seed/seedream-5-0-flash"
+pin = "pinned"
+
+["seedream-5-5"]
+model = "bytedance-seed/seedream-5-5"
 pin = "pinned"
 
 ["solar-mini4"]
@@ -1787,6 +1863,10 @@ pin = "pinned"
 model = "openai/text-embedding-ada-002"
 pin = "pinned"
 
+["ui-tars-1.5-7b"]
+model = "bytedance/ui-tars-1.5-7b"
+pin = "pinned"
+
 ["unslopnemo-12b-v4.1"]
 model = "thedrummer/unslopnemo-12b"
 pin = "pinned"
@@ -1817,6 +1897,10 @@ pin = "pinned"
 
 ["wan-2-6"]
 model = "alibaba/wan-2.6"
+pin = "pinned"
+
+["wan-3-0"]
+model = "alibaba/wan-3.0"
 pin = "pinned"
 
 ["wan2.7-image"]

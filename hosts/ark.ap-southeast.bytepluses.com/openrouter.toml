@@ -17,3 +17,7 @@ pin = "pinned"
 ["dreamina-seedance-2-5-260628"]
 model = "bytedance/seedance-2.5"
 pin = "pinned"
+
+["dreamina-seedance-2-5-flash-261115"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"

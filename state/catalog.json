@@ -811,6 +811,19 @@
   ],
   "permaslug": "bytedance/seedance-2.5-20260807"
  },
+ "bytedance/seedance-2.5-flash": {
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "ByteDance: Seedance 2.5 Flash",
+  "output": [
+   "video"
+  ],
+  "permaslug": "bytedance/seedance-2.5-flash-20261115"
+ },
  "bytedance/ui-tars-1.5-7b": {
   "hf": "ByteDance-Seed/UI-TARS-1.5-7B",
   "input": [
@@ -2059,7 +2072,8 @@
  "heygen/heygen-decision-1": {
   "input": [
    "image",
-   "text"
+   "text",
+   "video"
   ],
   "name": "HeyGen: HeyGen Decision",
   "output": [
@@ -2070,7 +2084,8 @@
  "heygen/heygen-decision-1-turbo": {
   "input": [
    "image",
-   "text"
+   "text",
+   "video"
   ],
   "name": "HeyGen: HeyGen Decision Turbo",
   "output": [
@@ -2390,6 +2405,28 @@
    "decisions"
   ],
   "permaslug": "liquid/d1.1-20261027"
+ },
+ "liquid/d1.2": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "LiquidAI: d1.2",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "liquid/d1.2-20261116"
+ },
+ "liquid/d1.2-ultra": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "LiquidAI: d1.2-ultra",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "liquid/d1.2-ultra-20261116"
  },
  "liquid/lfm-2.5-2.6b": {
   "delisted": "2026-11-13",

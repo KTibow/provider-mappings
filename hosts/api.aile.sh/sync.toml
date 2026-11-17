@@ -655,6 +655,14 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["opencode-go/muse-spark-1.2-contributor"]
+model = "meta/muse-spark-1.2-contributor"
+pin = "pinned"
+
+["opencode-go/muse-spark-1.3-contributor"]
+model = "meta/muse-spark-1.3-contributor"
+pin = "pinned"
+
 ["opencode-go/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"

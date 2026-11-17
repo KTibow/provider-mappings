@@ -294,6 +294,10 @@ pin = "pinned"
 model = "z-ai/autoglm-phone-9b-multilingual"
 pin = "pinned"
 
+["zai-org/GLM-4.5"]
+model = "z-ai/glm-4.5"
+pin = "pinned"
+
 ["zai-org/GLM-4.5-Air"]
 model = "z-ai/glm-4.5-air"
 pin = "pinned"
@@ -304,6 +308,10 @@ pin = "pinned"
 
 ["zai-org/GLM-4.6"]
 model = "z-ai/glm-4.6"
+pin = "pinned"
+
+["zai-org/GLM-4.6V"]
+model = "z-ai/glm-4.6v"
 pin = "pinned"
 
 ["zai-org/GLM-4.6V-Flash"]

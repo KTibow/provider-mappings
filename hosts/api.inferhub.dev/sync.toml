@@ -7,8 +7,8 @@
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
-["ag/claude-sonnet-5-5"]
-model = "anthropic/claude-sonnet-5.5"
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
 pin = "pinned"
 
 ["ag/gemini-4-hydrogen"]
@@ -489,10 +489,6 @@ pin = "pinned"
 
 ["cmc/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["cmc/gpt-6-luna"]
-model = "openai/gpt-6-luna"
 pin = "pinned"
 
 ["cmc/inclusionai/ling-3.1-flash"]
@@ -1051,10 +1047,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimotp/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
 ["minimax-h3-image"]
 model = "minimax/minimax-h3-image"
 pin = "pinned"
@@ -1307,10 +1299,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["ocg/hy4"]
-model = "tencent/hy4"
-pin = "pinned"
-
 ["ocg/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
@@ -1345,10 +1333,6 @@ pin = "pinned"
 
 ["ocg/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
-["ocg/qwen3.7-max"]
-model = "qwen/qwen3.7-max"
 pin = "pinned"
 
 ["ocg/qwen3.7-plus"]

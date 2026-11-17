@@ -243,6 +243,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["bytedance/seedance-2.5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["bytedance/seedream-4.0"]
 model = "bytedance-seed/seedream-4.0"
 pin = "pinned"
@@ -1030,6 +1034,10 @@ pin = "pinned"
 
 ["recraft/recraft-v4.1-utility-pro"]
 model = "recraft/recraft-v4.1-utility-pro"
+pin = "pinned"
+
+["recursive/flint-v1.0"]
+model = "recursive/flint-v1.0"
 pin = "pinned"
 
 ["reflection/beam"]

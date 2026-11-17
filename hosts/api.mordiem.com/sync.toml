@@ -939,6 +939,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["qwen-4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["qwen-edit-uncensored"]
 model = "venice/qwen-image-edit-uncensored"
 pin = "pinned"
@@ -1073,6 +1077,18 @@ pin = "pinned"
 
 ["seedance-2-0-text-to-video-basic"]
 model = "bytedance/seedance-2.0"
+pin = "pinned"
+
+["seedance-2-5-flash-image-to-video-basic"]
+model = "bytedance/seedance-2.5-flash:image-to-video"
+pin = "pinned"
+
+["seedance-2-5-flash-reference-to-video-basic"]
+model = "bytedance/seedance-2.5-flash:reference-to-video"
+pin = "pinned"
+
+["seedance-2-5-flash-text-to-video-basic"]
+model = "bytedance/seedance-2.5-flash"
 pin = "pinned"
 
 ["seedance-2-5-image-to-video-basic"]

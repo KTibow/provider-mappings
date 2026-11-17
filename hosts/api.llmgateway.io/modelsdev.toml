@@ -2,10 +2,6 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["alibaba/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["alibaba/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -132,6 +128,10 @@ pin = "pinned"
 
 ["alibaba/qwen35-397b-a17b"]
 model = "qwen/qwen3.5-397b-a17b"
+pin = "pinned"
+
+["alibaba/qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["anthropic/claude-fable-5"]
@@ -314,6 +314,22 @@ pin = "pinned"
 model = "openai/gpt-6-astra"
 pin = "pinned"
 
+["aws-mantle/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["aws-mantle/gpt-6-sol"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
+["aws-mantle/gpt-6.1-sol"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["aws-mantle/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
 ["azure-anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -486,10 +502,6 @@ pin = "pinned"
 model = "x-ai/grok-4.3"
 pin = "pinned"
 
-["baidu/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["baidu/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -528,10 +540,6 @@ pin = "pinned"
 
 ["beam-1.0-501b-a23b"]
 model = "reflection/beam-1.0-501b-a23b"
-pin = "pinned"
-
-["bytedance/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["bytedance/deepseek-v4-flash-0731"]
@@ -646,10 +654,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["cloudflare/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["cloudflare/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -714,6 +718,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["deepinfra/deepseek-v4-flash-vision-exp"]
+model = "deepseek/deepseek-v4-flash-vision-exp"
+pin = "pinned"
+
 ["deepinfra/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -734,8 +742,16 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["deepinfra/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
 ["deepinfra/granite-4.2-8b"]
 model = "ibm-granite/granite-4.2-8b"
+pin = "pinned"
+
+["deepinfra/hy4-preview"]
+model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["deepinfra/ling-3.0-flash"]
@@ -834,6 +850,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["fireworks/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["fireworks/glm-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
@@ -848,6 +868,14 @@ pin = "pinned"
 
 ["fireworks/kimi-k3-fast"]
 model = "moonshotai/kimi-k3-fast"
+pin = "pinned"
+
+["fireworks/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["fireworks/muse-spark-open"]
+model = "meta/muse-spark-open"
 pin = "pinned"
 
 ["flexai/deepseek-v4-flash"]
@@ -1302,6 +1330,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
+["inference.net/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
 ["inference.net/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
@@ -1640,10 +1672,6 @@ pin = "pinned"
 
 ["nemotron-3-ultra-550b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
-pin = "pinned"
-
-["novita/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["novita/deepseek-v4-flash-0731"]
@@ -2042,20 +2070,8 @@ pin = "pinned"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
-["ranoai/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["reka-ai/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["reka-ai/deepseek-v4.1-flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
-["reka-ai/glm-5.3"]
-model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["reka-ai/glm-5.3-flash"]
@@ -2206,10 +2222,6 @@ pin = "pinned"
 model = "stepfun/step-5-preview"
 pin = "pinned"
 
-["tencent/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["tencent/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -2310,6 +2322,10 @@ pin = "pinned"
 model = "stepfun/step-5-preview"
 pin = "pinned"
 
+["together-ai/beam-1.0-501b-a23b"]
+model = "reflection/beam-1.0-501b-a23b"
+pin = "pinned"
+
 ["together-ai/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -2342,12 +2358,20 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["together-ai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["together-ai/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["together-ai/muse-glimmer-30b"]
 model = "meta/muse-glimmer-30b"
+pin = "pinned"
+
+["together-ai/muse-spark-open"]
+model = "meta/muse-spark-open"
 pin = "pinned"
 
 ["vertex-anthropic/claude-haiku-4-5"]
@@ -2426,6 +2450,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
+["xiaomi/mimo-v2.6-pro-ultraspeed"]
+model = "xiaomi/mimo-v2.6-pro-ultraspeed"
+pin = "pinned"
+
 ["zai/glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"
@@ -2472,4 +2500,8 @@ pin = "pinned"
 
 ["zai/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["zai/glm-5.3-flashx"]
+model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
