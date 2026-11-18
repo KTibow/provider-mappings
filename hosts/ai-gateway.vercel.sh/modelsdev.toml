@@ -6,20 +6,12 @@
 model = "qwen/qwen3-14b"
 pin = "pinned"
 
-["alibaba/qwen-3-235b"]
-model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
 ["alibaba/qwen-3-30b"]
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
 
 ["alibaba/qwen-3-32b"]
 model = "qwen/qwen3-32b"
-pin = "pinned"
-
-["alibaba/qwen3-coder"]
-model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["alibaba/qwen3-coder-30b-a3b"]
@@ -44,10 +36,6 @@ pin = "pinned"
 
 ["alibaba/qwen3-next-80b-a3b-instruct"]
 model = "qwen/qwen3-next-80b-a3b-instruct"
-pin = "pinned"
-
-["alibaba/qwen3-next-80b-a3b-thinking"]
-model = "alibaba/qwen3-next-80b-a3b-thinking"
 pin = "pinned"
 
 ["alibaba/qwen3.5-flash"]
@@ -646,10 +634,6 @@ pin = "pinned"
 model = "minimax/MiniMax-H3-Max"
 pin = "pinned"
 
-["minimax/minimax-m2"]
-model = "minimax/minimax-m2"
-pin = "pinned"
-
 ["minimax/minimax-m2.1"]
 model = "minimax/minimax-m2.1"
 pin = "pinned"
@@ -658,16 +642,8 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["minimax/minimax-m2.5-highspeed"]
-model = "minimax/minimax-m2.5-highspeed"
-pin = "pinned"
-
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m3"]

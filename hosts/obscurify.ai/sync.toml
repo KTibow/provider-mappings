@@ -1163,6 +1163,10 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
+["thedrummer/cydonia-24b-v4.1"]
+model = "thedrummer/cydonia-24b-v4.1"
+pin = "pinned"
+
 ["thedrummer/skyfall-36b-v2"]
 model = "thedrummer/skyfall-36b-v2"
 pin = "pinned"

@@ -135,24 +135,8 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
-["gemini-4-argon"]
-model = "google/gemini-4-argon"
-pin = "pinned"
-
-["gemini-4-carbon"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
-pin = "pinned"
-
-["gemini-omni-flash"]
-model = "google/gemini-omni-flash"
-pin = "pinned"
-
-["google/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["google/gemma-3-12b-it"]
@@ -279,6 +263,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -299,10 +291,6 @@ pin = "pinned"
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
-["grok-4.20-multi-agent-0309"]
-model = "x-ai/grok-4.20-multi-agent"
-pin = "pinned"
-
 ["grok-4.3"]
 model = "x-ai/grok-4.3"
 pin = "pinned"
@@ -313,10 +301,6 @@ pin = "pinned"
 
 ["grok-4.6"]
 model = "x-ai/grok-4.6"
-pin = "pinned"
-
-["grok-4.7"]
-model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["gryphe/mythomax-l2-13b"]

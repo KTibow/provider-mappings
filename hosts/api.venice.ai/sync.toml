@@ -599,6 +599,14 @@ pin = "pinned"
 model = "google/lyria-3-pro-preview"
 pin = "pinned"
 
+["mai-image-2-7"]
+model = "microsoft/mai-image-2.7"
+pin = "pinned"
+
+["mai-image-2-7-flash"]
+model = "microsoft/mai-image-2.7-flash"
+pin = "pinned"
+
 ["minimax-h3-enhanced-reference-to-video"]
 model = "minimax/hailuo-3:enhanced-reference-to-video"
 pin = "pinned"

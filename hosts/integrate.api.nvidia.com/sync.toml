@@ -27,6 +27,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["moonshotai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["nvidia/nemotron-3-embed-1b"]
 model = "nvidia/nemotron-3-embed-1b"
 pin = "pinned"

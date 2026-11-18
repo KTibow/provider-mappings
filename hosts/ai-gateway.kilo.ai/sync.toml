@@ -535,10 +535,6 @@ pin = "pinned"
 model = "microsoft/phi-4"
 pin = "pinned"
 
-["minimax/minimax-m2"]
-model = "minimax/minimax-m2"
-pin = "pinned"
-
 ["minimax/minimax-m2.1"]
 model = "minimax/minimax-m2.1"
 pin = "pinned"
@@ -547,16 +543,8 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["minimax/minimax-m2.5-highspeed"]
-model = "minimax/minimax-m2.5-highspeed"
-pin = "pinned"
-
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m3"]

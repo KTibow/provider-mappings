@@ -3,6 +3,14 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["bytedance/seedance-2.0-fast"]
+model = "bytedance/seedance-2.0-fast"
+pin = "pinned"
+
+["bytedance/seedance-2.0-mini"]
+model = "bytedance/seedance-2.0-mini"
+pin = "pinned"
+
 ["bytedance/seedream-5.0-flash"]
 model = "bytedance-seed/seedream-5-0-flash"
 pin = "pinned"

@@ -10,5 +10,9 @@
  "api.tryaiflow.io": {
   "error": "GET https://api.tryaiflow.io/v1/models -> HTTP 404: 404 page not found\n",
   "failing_since": "2026-11-17"
+ },
+ "apihub.agnes-ai.com": {
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261118035037240262334gpKtbRxK)\",\"type\":\"AgnesAI_error\"}}",
+  "failing_since": "2026-11-18"
  }
 }

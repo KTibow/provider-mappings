@@ -3,6 +3,38 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["anthropic/claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["anthropic/claude-fable-5-1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["anthropic/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["anthropic/claude-opus-4.7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["anthropic/claude-opus-4.8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["anthropic/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["anthropic/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["anthropic/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
 ["antigravity/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
@@ -704,6 +736,30 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 free = true
 
+["openrouter/anthropic/claude-fable-5.2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-5.5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["openrouter/anthropic/claude-sonnet-5.5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
+["openrouter/~anthropic/claude-fable-latest"]
+model = "~anthropic/claude-fable-latest"
+pin = "floating"
+
+["openrouter/~anthropic/claude-opus-latest"]
+model = "~anthropic/claude-opus-latest"
+pin = "floating"
+
+["openrouter/~anthropic/claude-sonnet-latest"]
+model = "~anthropic/claude-sonnet-latest"
+pin = "floating"
+
 ["orcarouter/anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -1348,6 +1404,22 @@ pin = "pinned"
 model = "venice/venice-uncensored-role-play"
 pin = "pinned"
 
+["venice/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["venice/deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
+["venice/deepseek-v4-1-flash-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+
+["venice/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["vercel-ai-gateway/alibaba/qwen-3-14b"]
 model = "qwen/qwen3-14b"
 pin = "pinned"
@@ -1832,10 +1904,6 @@ pin = "pinned"
 model = "microsoft/microsoft-decision-1"
 pin = "pinned"
 
-["vercel-ai-gateway/minimax/minimax-m2"]
-model = "minimax/minimax-m2"
-pin = "pinned"
-
 ["vercel-ai-gateway/minimax/minimax-m2.1"]
 model = "minimax/minimax-m2.1"
 pin = "pinned"
@@ -1844,16 +1912,8 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["vercel-ai-gateway/minimax/minimax-m2.5-highspeed"]
-model = "minimax/minimax-m2.5-highspeed"
-pin = "pinned"
-
 ["vercel-ai-gateway/minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["vercel-ai-gateway/minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["vercel-ai-gateway/minimax/minimax-m3"]

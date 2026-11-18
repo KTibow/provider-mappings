@@ -11,10 +11,6 @@ pin = "pinned"
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
-["Sao10K/L3.1-70B-Euryale-v2.2"]
-model = "sao10k/l3.1-euryale-70b"
-pin = "pinned"
-
 ["TEE/deepseek-v3.2"]
 model = "deepseek/deepseek-v3.2"
 pin = "pinned"
@@ -85,14 +81,6 @@ pin = "pinned"
 
 ["TEE/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["TheDrummer/Cydonia-24B-v4.1"]
-model = "thedrummer/cydonia-24b-v4.1"
-pin = "pinned"
-
-["TheDrummer/UnslopNemo-12B-v4.1"]
-model = "thedrummer/unslopnemo-12b"
 pin = "pinned"
 
 ["abliteration-ai/abliterated-model-large-flash"]
@@ -1335,10 +1323,6 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
-["thedrummer/skyfall-36b-v2"]
-model = "thedrummer/skyfall-36b-v2"
-pin = "pinned"
-
 ["thinkingmachines/Inkling-Small"]
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
@@ -1361,10 +1345,6 @@ pin = "pinned"
 
 ["unbiased/pareto-26.9"]
 model = "unbiased/pareto-26.9"
-pin = "pinned"
-
-["undi95/remm-slerp-l2-13b"]
-model = "undi95/remm-slerp-l2-13b"
 pin = "pinned"
 
 ["unsloth/gemma-3-12b-it"]

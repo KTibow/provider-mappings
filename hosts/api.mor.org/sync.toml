@@ -367,6 +367,10 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["OpenAI GPT OSS 120B"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+
 ["Qwen 3 235B A22B Instruct 2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
