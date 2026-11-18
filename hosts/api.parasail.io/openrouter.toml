@@ -64,7 +64,7 @@ quant = "fp4"
 ["parasail-glm-53-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
-quant = "fp4"
+quant = "fp8"
 
 ["parasail-googlegemma-3-4b-it"]
 model = "google/gemma-3-4b-it"

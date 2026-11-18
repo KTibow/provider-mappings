@@ -342,6 +342,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["global.openai.gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["global.openai.gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["global.xai.grok-4.6"]
 model = "x-ai/grok-4.6"
 pin = "pinned"
@@ -724,6 +732,14 @@ pin = "pinned"
 
 ["us.openai.gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["us.openai.gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["us.openai.gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["us.writer.palmyra-x4-v1:0"]

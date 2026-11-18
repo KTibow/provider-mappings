@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["aki/baai/bge-m3"]
+model = "baai/bge-m3"
+pin = "pinned"
+
 ["aki/deepseek/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -287,6 +291,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["auto/google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["auto/google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -353,10 +361,6 @@ pin = "pinned"
 
 ["auto/meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-
-["auto/meta-llama/llama-4-maverick-17b-128e-instruct"]
-model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
 ["auto/meta/muse-glimmer-30b"]
@@ -937,10 +941,6 @@ pin = "pinned"
 
 ["aws-bedrock/google/gemma-3-4b-it"]
 model = "google/gemma-3-4b-it"
-pin = "pinned"
-
-["aws-bedrock/meta-llama/llama-4-maverick-17b-128e-instruct"]
-model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
 ["aws-bedrock/minimax/minimax-m2"]
@@ -1561,6 +1561,10 @@ pin = "pinned"
 
 ["google/google/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["google/google/gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["google/google/gemini-embedding-001"]

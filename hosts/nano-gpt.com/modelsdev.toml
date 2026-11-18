@@ -10,10 +10,6 @@ pin = "pinned"
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
-["Sao10K/L3.1-70B-Euryale-v2.2"]
-model = "sao10k/l3.1-euryale-70b"
-pin = "pinned"
-
 ["Sao10K/L3.3-70B-Euryale-v2.3"]
 model = "sao10k/l3.3-euryale-70b"
 pin = "pinned"
@@ -96,18 +92,6 @@ pin = "pinned"
 
 ["TEE/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["TheDrummer/Cydonia-24B-v4.1"]
-model = "thedrummer/cydonia-24b-v4.1"
-pin = "pinned"
-
-["TheDrummer/UnslopNemo-12B-v4.1"]
-model = "thedrummer/unslopnemo-12b"
-pin = "pinned"
-
-["TheDrummer/skyfall-36b-v2"]
-model = "thedrummer/skyfall-36b-v2"
 pin = "pinned"
 
 ["abliteration-ai/abliterated-model-large-flash"]
@@ -894,10 +878,6 @@ pin = "pinned"
 model = "nvidia/llama-3.1-nemotron-70b-instruct"
 pin = "pinned"
 
-["nvidia/Llama-3.3-Nemotron-Super-49B-v1"]
-model = "nvidia/llama-3.3-nemotron-super-49b-v1"
-pin = "pinned"
-
 ["nvidia/nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
@@ -1154,6 +1134,14 @@ pin = "pinned"
 model = "orcacyber/orcacyber-qwen3.8-flash-next"
 pin = "pinned"
 
+["orca/orcacyber-ultra-1.0"]
+model = "orcacyber/orcacyber-ultra-1.0"
+pin = "pinned"
+
+["orca/orcacyber-zero-1.0"]
+model = "orcacyber/orcacyber-zero-1.0"
+pin = "pinned"
+
 ["orca/orcacyber-zero-1.5"]
 model = "orcacyber/orcacyber-zero-1.5"
 pin = "pinned"
@@ -1258,16 +1246,8 @@ pin = "pinned"
 model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"
 
-["qwen/qwen3-next-80b-a3b-thinking"]
-model = "alibaba/qwen3-next-80b-a3b-thinking"
-pin = "pinned"
-
 ["qwen/qwen3-vl-235b-a22b-instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
-pin = "pinned"
-
-["qwen/qwen3-vl-235b-a22b-thinking"]
-model = "alibaba/qwen3-vl-235b-a22b-thinking"
 pin = "pinned"
 
 ["qwen/qwen3.5-122b-a10b"]
@@ -1492,10 +1472,6 @@ pin = "pinned"
 
 ["unbiased/pareto-26.9"]
 model = "unbiased/pareto-26.9"
-pin = "pinned"
-
-["undi95/remm-slerp-l2-13b"]
-model = "undi95/remm-slerp-l2-13b"
 pin = "pinned"
 
 ["unsloth/gemma-3-12b-it"]

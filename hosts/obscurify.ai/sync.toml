@@ -631,10 +631,6 @@ pin = "pinned"
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
 
-["nvidia/nemotron-3-super-120b-a12b"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-
 ["nvidia/nemotron-3-ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
@@ -793,6 +789,10 @@ pin = "pinned"
 
 ["openai/gpt-6-luna"]
 model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["openai/gpt-6-luna-decisions"]
+model = "openai/gpt-6-luna-decisions"
 pin = "pinned"
 
 ["openai/gpt-6-luna-pro"]

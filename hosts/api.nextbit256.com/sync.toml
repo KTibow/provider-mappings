@@ -22,8 +22,3 @@ quant = "fp8"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 quant = "fp8"
-
-["glm:5.3-flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-quant = "fp4"

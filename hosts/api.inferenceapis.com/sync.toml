@@ -11,6 +11,10 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
+["MiniMaxAI/MiniMax-M3.1-Flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["Qwen/Qwen3-Embedding-8B"]
 model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
@@ -59,6 +63,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["deepseek-ai/DeepSeek-V4.1-Flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["deepseek-chat"]
 model = "deepseek/deepseek-chat"
 pin = "pinned"
@@ -77,6 +85,10 @@ pin = "pinned"
 
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["glm-5.3"]
@@ -99,8 +111,28 @@ pin = "pinned"
 model = "hexgrad/kokoro-82m"
 pin = "pinned"
 
+["kimi-k2-6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
+["kimi-k2-instruct"]
+model = "moonshotai/kimi-k2"
+pin = "pinned"
+
+["kimi-k2-instruct-0905"]
+model = "moonshotai/kimi-k2-0905"
+pin = "pinned"
+
+["kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
 ["kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["kokoro-82m"]
@@ -119,12 +151,36 @@ pin = "pinned"
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["llama-4-maverick-17b-128e-instruct"]
+model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
+["llama-4-scout-17b-16e-instruct"]
+model = "meta-llama/llama-4-scout"
+pin = "pinned"
+
 ["meta-llama/Llama-3.3-70B-Instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["meta-llama/llama-4-maverick-17b-128e-instruct"]
+model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
+["meta-llama/llama-4-scout-17b-16e-instruct"]
+model = "meta-llama/llama-4-scout"
+pin = "pinned"
+
 ["minimax-m3"]
 model = "minimax/minimax-m3"
+pin = "pinned"
+
+["minimax-m3-1-flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
+["minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["mistralai/Voxtral-Mini-3B-2507"]
@@ -135,8 +191,48 @@ pin = "pinned"
 model = "mistralai/voxtral-small-24b-2507"
 pin = "pinned"
 
+["moonshotai/Kimi-K2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
 ["moonshotai/Kimi-K2.7-Code"]
 model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["moonshotai/kimi-k2-instruct"]
+model = "moonshotai/kimi-k2"
+pin = "pinned"
+
+["moonshotai/kimi-k2-instruct-0905"]
+model = "moonshotai/kimi-k2-0905"
+pin = "pinned"
+
+["moonshotai/kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
+["moonshotai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["nemotron-3-5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3.5-Super-VL"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["nvidia/nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["nvidia/parakeet-tdt-0.6b-v3"]
@@ -159,12 +255,28 @@ pin = "pinned"
 model = "nvidia/parakeet-tdt-0.6b-v3"
 pin = "pinned"
 
+["qwen/qwen3-32b"]
+model = "qwen/qwen3-32b"
+pin = "pinned"
+
+["qwen/qwen3.6-27b"]
+model = "qwen/qwen3.6-27b"
+pin = "pinned"
+
+["qwen3-32b"]
+model = "qwen/qwen3-32b"
+pin = "pinned"
+
 ["qwen3-embedding-8b"]
 model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
 
 ["qwen3-reranker-8b"]
 model = "qwen/qwen3-reranker-8b"
+pin = "pinned"
+
+["qwen3.6-27b"]
+model = "qwen/qwen3.6-27b"
 pin = "pinned"
 
 ["qwen3.8-flash"]

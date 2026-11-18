@@ -198,6 +198,18 @@ pin = "pinned"
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
 
+["openai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"

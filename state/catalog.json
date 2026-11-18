@@ -1816,6 +1816,20 @@
   ],
   "permaslug": "google/gemini-4-hydrogen-20261112"
  },
+ "google/gemini-4-neon": {
+  "input": [
+   "audio",
+   "file",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Google: Gemini 4 Neon",
+  "output": [
+   "text"
+  ],
+  "permaslug": "google/gemini-4-neon-20261118"
+ },
  "google/gemini-decision-1": {
   "input": [
    "audio",

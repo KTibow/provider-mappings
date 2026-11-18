@@ -109,7 +109,7 @@ quant = "fp8"
 ["Qwen/Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
-quant = "bf16"
+quant = "fp8"
 
 ["Sao10K/L3.1-70B-Euryale-v2.2"]
 model = "sao10k/l3.1-euryale-70b"

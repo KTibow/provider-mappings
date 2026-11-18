@@ -311,22 +311,6 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
-["amazon/openai.gpt-6.2-astra"]
-model = "openai/gpt-6.2-astra"
-pin = "pinned"
-
-["amazon/openai.gpt-6.2-astra@us"]
-model = "openai/gpt-6.2-astra"
-pin = "pinned"
-
-["amazon/openai.gpt-6.2-sol"]
-model = "openai/gpt-6.2-sol"
-pin = "pinned"
-
-["amazon/openai.gpt-6.2-sol@us"]
-model = "openai/gpt-6.2-sol"
-pin = "pinned"
-
 ["amazon/openai.gpt-oss-120b-1:0"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -1858,6 +1842,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["google/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -2339,7 +2327,7 @@ quant = "fp8"
 ["nebius/deepseek-ai/DeepSeek-V4.1-Flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
-quant = "fp8"
+quant = "fp4"
 
 ["nebius/google/gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
@@ -3563,6 +3551,18 @@ pin = "pinned"
 
 ["vertex/gemini-4-hydrogen@us"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["vertex/gemini-4-neon@eu"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["vertex/gemini-4-neon@us"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["vertex/gemini-flash-latest"]

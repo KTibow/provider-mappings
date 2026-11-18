@@ -11,20 +11,44 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
-["ag/claude-sonnet-5-5"]
-model = "anthropic/claude-sonnet-5.5"
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
 pin = "pinned"
 
 ["ag/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["ali/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
+["ali/deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
 ["ali/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["ali/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["ali/glm-5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
 ["ali/glm-5.3"]
 model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["ali/kimi-k2.7-code"]
+model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["ali/kimi-k3"]
+model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["ali/kimi-k3.1-pro"]
@@ -42,6 +66,10 @@ pin = "pinned"
 ["ali/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
+
+["ali/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
 
 ["ali/qwen3.8-max-0902"]
 model = "qwen/qwen3.8-max-0902"
@@ -495,10 +523,6 @@ pin = "pinned"
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
 
-["cmc/gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
 ["cmc/inclusionai/ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
@@ -585,6 +609,54 @@ pin = "pinned"
 
 ["cmc/zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["cp/anthropic/claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["cp/anthropic/claude-fable-5.1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["cp/anthropic/claude-haiku-5.5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-4.1"]
+model = "anthropic/claude-opus-4.1"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-4.5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-4.6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-4.7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-4.8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["cp/anthropic/claude-opus-5.5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["cp/openai/gpt-6-astra"]
+model = "openai/gpt-6-astra"
+pin = "pinned"
+
+["cp/openai/gpt-6-astra-pro"]
+model = "openai/gpt-6-astra-pro"
 pin = "pinned"
 
 ["cx/gpt-5.6-luna"]
@@ -1323,6 +1395,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
+["ocg/deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
 ["ocg/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -1335,8 +1411,28 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["ocg/gpt-5.6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["ocg/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["ocg/grok-4.6"]
+model = "x-ai/grok-4.6"
+pin = "pinned"
+
+["ocg/grok-4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+
 ["ocg/hy4"]
 model = "tencent/hy4"
+pin = "pinned"
+
+["ocg/hy4-preview"]
+model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["ocg/kimi-k2.6"]
@@ -1345,6 +1441,14 @@ pin = "pinned"
 
 ["ocg/kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["ocg/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["ocg/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["ocg/longcat-2.0"]
@@ -1379,6 +1483,10 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["ocg/qwen3.7-max"]
+model = "qwen/qwen3.7-max"
+pin = "pinned"
+
 ["ocg/qwen3.7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
@@ -1386,6 +1494,10 @@ pin = "pinned"
 ["ocg/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
+
+["ocg/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
 
 ["ocg/step-5-preview"]
 model = "stepfun/step-5-preview"

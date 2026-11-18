@@ -87,10 +87,6 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
-["claude-haiku-4-5-20251001"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -156,6 +152,10 @@ model = "~anthropic/claude-opus-latest"
 pin = "floating"
 
 ["claude-sonnet-4-5"]
+model = "anthropic/claude-sonnet-4.5"
+pin = "pinned"
+
+["claude-sonnet-4-5-20250929"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
@@ -1135,14 +1135,6 @@ pin = "pinned"
 model = "anthracite-org/magnum-v4-72b"
 pin = "pinned"
 
-["mai-image-2.6"]
-model = "microsoft/mai-image-2.6"
-pin = "pinned"
-
-["mai-image-2.6-flash"]
-model = "microsoft/mai-image-2.6-flash"
-pin = "pinned"
-
 ["mercury-2"]
 model = "inception/mercury-2"
 pin = "pinned"
@@ -1208,6 +1200,10 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["mistral-large-4-1t-a52b"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
