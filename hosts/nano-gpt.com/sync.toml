@@ -1047,6 +1047,14 @@ pin = "pinned"
 model = "orcacyber/orcacyber-qwen3.8-flash-next"
 pin = "pinned"
 
+["orca/orcacyber-ultra-1.0"]
+model = "orcacyber/orcacyber-ultra-1.0"
+pin = "pinned"
+
+["orca/orcacyber-zero-1.0"]
+model = "orcacyber/orcacyber-zero-1.0"
+pin = "pinned"
+
 ["orca/orcacyber-zero-1.5"]
 model = "orcacyber/orcacyber-zero-1.5"
 pin = "pinned"

@@ -728,6 +728,11 @@ model = "moonshotai/kimi-k3"
 pin = "pinned"
 quant = "fp16"
 
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+quant = "fp16"
+
 ["llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
@@ -740,16 +745,6 @@ quant = "fp16"
 
 ["mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-quant = "fp16"
-
-["mimo-v2.6-flash"]
-model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-quant = "fp16"
-
-["mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 quant = "fp16"
 

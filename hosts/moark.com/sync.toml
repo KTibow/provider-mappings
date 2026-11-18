@@ -231,6 +231,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["minimax-h3-image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
 ["qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"

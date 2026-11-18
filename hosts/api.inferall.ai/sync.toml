@@ -167,6 +167,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["moonshotai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
@@ -261,10 +265,6 @@ pin = "pinned"
 
 ["openai/gpt-6.2-sol"]
 model = "openai/gpt-6.2-sol"
-pin = "pinned"
-
-["openai/gpt-oss-20b"]
-model = "openai/gpt-oss-20b"
 pin = "pinned"
 
 ["openai/o3"]

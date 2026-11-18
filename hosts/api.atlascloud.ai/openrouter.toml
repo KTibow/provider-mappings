@@ -102,11 +102,6 @@ model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 quant = "fp8"
 
-["xiaomi/mimo-v2.5-pro"]
-model = "xiaomi/mimo-v2.5-pro"
-pin = "pinned"
-quant = "fp8"
-
 ["zai-org/glm-5.1"]
 model = "z-ai/glm-5.1"
 pin = "pinned"
@@ -119,10 +114,5 @@ quant = "fp8"
 
 ["zai-org/glm-5.3"]
 model = "z-ai/glm-5.3"
-pin = "pinned"
-quant = "fp8"
-
-["zai-org/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp8"

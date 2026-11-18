@@ -1023,6 +1023,10 @@ pin = "pinned"
 model = "cohere/command-r7b-12-2024"
 pin = "pinned"
 
+["cohere/north-mini-code-1.0"]
+model = "cohere/north-mini-code"
+pin = "pinned"
+
 ["compactifai/glm-5-2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"

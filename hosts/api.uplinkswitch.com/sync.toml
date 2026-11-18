@@ -343,6 +343,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -559,6 +567,14 @@ pin = "pinned"
 model = "alibaba/qwen3.5-flash"
 pin = "pinned"
 
+["qwen3.5-flash-2026-02-23"]
+model = "qwen/qwen3.5-flash-02-23"
+pin = "pinned"
+
+["qwen3.5-plus-2026-04-20"]
+model = "qwen/qwen3.5-plus-20260420"
+pin = "pinned"
+
 ["qwen3.6-27b"]
 model = "qwen/qwen3.6-27b"
 pin = "pinned"
@@ -577,10 +593,6 @@ pin = "pinned"
 
 ["qwen3.8-2.4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
-pin = "pinned"
-
-["qwen3.8-27b"]
-model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["qwen3.8-flash"]

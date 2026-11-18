@@ -875,6 +875,14 @@ pin = "pinned"
 model = "orcacyber/orcacyber-qwen3.8-flash-next"
 pin = "pinned"
 
+["orca/orcacyber-ultra-1.0"]
+model = "orcacyber/orcacyber-ultra-1.0"
+pin = "pinned"
+
+["orca/orcacyber-zero-1.0"]
+model = "orcacyber/orcacyber-zero-1.0"
+pin = "pinned"
+
 ["orca/orcacyber-zero-1.5"]
 model = "orcacyber/orcacyber-zero-1.5"
 pin = "pinned"
@@ -925,10 +933,6 @@ pin = "pinned"
 
 ["qwen/qwen3-30b-a3b-instruct-2507"]
 model = "qwen/qwen3-30b-a3b-instruct-2507"
-pin = "pinned"
-
-["qwen/qwen3-coder"]
-model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["qwen/qwen3-coder-next"]
@@ -1125,6 +1129,10 @@ pin = "pinned"
 
 ["tee/kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["tee/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["tee/qwen3.6-27b"]

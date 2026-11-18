@@ -10,12 +10,3 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 quant = "fp8"
-
-# ---------------------------------------------------------------------------
-# Rows below need a person to check them, so they are commented out.
-# Once verified, copy the row (uncommented) into manual.toml.
-
-# needs review: native id has "flex", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
-# ["deepseek-ai/deepseek-v4.1-flash-1017-flex"]
-# model = "deepseek/deepseek-v4.1-flash-1017"
-# pin = "pinned"

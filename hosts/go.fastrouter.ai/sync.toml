@@ -99,6 +99,10 @@ pin = "pinned"
 model = "bytedance/seedance-1.5-pro"
 pin = "pinned"
 
+["bytedance/seedance-2.5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["bytedance/seedream-4.0"]
 model = "bytedance-seed/seedream-4.0"
 pin = "pinned"
@@ -533,6 +537,14 @@ pin = "pinned"
 
 ["openai/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-image-1"]

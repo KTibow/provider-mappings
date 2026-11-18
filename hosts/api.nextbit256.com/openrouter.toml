@@ -27,11 +27,6 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 quant = "fp4"
 
-["glm:5.3-flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-quant = "fp4"
-
 ["qwen3:14b"]
 model = "qwen/qwen3-14b"
 pin = "pinned"

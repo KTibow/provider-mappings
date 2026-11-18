@@ -63,10 +63,6 @@ pin = "pinned"
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
-["openai/gpt-oss-20b"]
-model = "openai/gpt-oss-20b"
-pin = "pinned"
-
 ["stepfun-ai/step-5-preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"

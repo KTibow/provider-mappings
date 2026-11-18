@@ -1163,6 +1163,14 @@ pin = "pinned"
 model = "microsoft/mai-image-2.6-flash"
 pin = "pinned"
 
+["openrouter/microsoft/mai-image-2.7"]
+model = "microsoft/mai-image-2.7"
+pin = "pinned"
+
+["openrouter/microsoft/mai-image-2.7-flash"]
+model = "microsoft/mai-image-2.7-flash"
+pin = "pinned"
+
 ["openrouter/microsoft/mai-voice-2"]
 model = "microsoft/mai-voice-2"
 pin = "pinned"
@@ -1673,6 +1681,22 @@ pin = "pinned"
 
 ["openrouter/openai/gpt-6.1-terra-pro"]
 model = "openai/gpt-6.1-terra-pro"
+pin = "pinned"
+
+["openrouter/openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openrouter/openai/gpt-6.2-astra-pro"]
+model = "openai/gpt-6.2-astra-pro"
+pin = "pinned"
+
+["openrouter/openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["openrouter/openai/gpt-6.2-sol-pro"]
+model = "openai/gpt-6.2-sol-pro"
 pin = "pinned"
 
 ["openrouter/openai/gpt-audio"]

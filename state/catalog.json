@@ -6410,6 +6410,7 @@
   "permaslug": "tencent/hy4-20261104"
  },
  "tencent/hy4-flash": {
+  "hf": "tencent/Hy4-flash",
   "input": [
    "image",
    "text"

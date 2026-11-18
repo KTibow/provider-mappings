@@ -14,10 +14,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
-["zai-org/GLM-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

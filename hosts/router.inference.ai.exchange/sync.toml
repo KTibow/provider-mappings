@@ -3,6 +3,14 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["MiniMax-H3"]
+model = "minimax/hailuo-3"
+pin = "pinned"
+
+["MiniMax-H3-Max"]
+model = "minimax/hailuo-3-max"
+pin = "pinned"
+
 ["MiniMax-M2.1"]
 model = "minimax/minimax-m2.1"
 pin = "pinned"
@@ -79,6 +87,10 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
+["claude-haiku-4-5-20251001"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -147,10 +159,6 @@ pin = "floating"
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
-["claude-sonnet-4-5-20250929"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-
 ["claude-sonnet-4-5:thinking"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
@@ -193,10 +201,6 @@ pin = "pinned"
 
 ["command-r-plus-08-2024"]
 model = "cohere/command-r-plus-08-2024"
-pin = "pinned"
-
-["cydonia-24b-v4.1"]
-model = "thedrummer/cydonia-24b-v4.1"
 pin = "pinned"
 
 ["deepseek-chat"]
@@ -1027,10 +1031,6 @@ pin = "floating"
 model = "sao10k/l3-lunaris-8b"
 pin = "pinned"
 
-["l3.1-70b-euryale-v2.2"]
-model = "sao10k/l3.1-euryale-70b"
-pin = "pinned"
-
 ["lfm-2.5-2.6b"]
 model = "liquid/lfm-2.5-2.6b"
 pin = "pinned"
@@ -1208,10 +1208,6 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["mistral-large-4-1t-a52b"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
@@ -1855,14 +1851,6 @@ pin = "pinned"
 model = "upstage/solar-pro4"
 pin = "pinned"
 
-["sonar"]
-model = "perplexity/sonar"
-pin = "pinned"
-
-["sonar-pro"]
-model = "perplexity/sonar-pro"
-pin = "pinned"
-
 ["stable-diffusion-3.5-large"]
 model = "stabilityai/stable-diffusion-3.5-large"
 pin = "pinned"
@@ -1905,10 +1893,6 @@ pin = "pinned"
 
 ["ui-tars-1.5-7b"]
 model = "bytedance/ui-tars-1.5-7b"
-pin = "pinned"
-
-["unslopnemo-12b-v4.1"]
-model = "thedrummer/unslopnemo-12b"
 pin = "pinned"
 
 ["venice-uncensored"]

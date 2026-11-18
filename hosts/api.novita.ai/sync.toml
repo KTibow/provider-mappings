@@ -3,10 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["apodex/apodex-1.1-mini"]
-model = "apodex/apodex-1.1-mini"
-pin = "pinned"
-
 ["deepseek/deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
@@ -49,10 +45,6 @@ pin = "pinned"
 
 ["meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-
-["meta-llama/llama-4-maverick-17b-128e-instruct-fp8"]
-model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
 ["meta-llama/llama-4-scout-17b-16e-instruct"]

@@ -128,11 +128,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["glm-5.3-flash-free"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-free = true
-
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"

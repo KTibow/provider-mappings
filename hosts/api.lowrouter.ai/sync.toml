@@ -307,6 +307,10 @@ pin = "pinned"
 model = "google/gemma-3-4b-it"
 pin = "pinned"
 
+["auto/google/gemma-4-26b-a4b"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
 ["auto/google/gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
@@ -1947,6 +1951,14 @@ pin = "pinned"
 model = "baai/bge-m3"
 pin = "pinned"
 
+["ovhcloud/deepseek/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["ovhcloud/google/gemma-4-26b-a4b"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
 ["ovhcloud/meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
@@ -1981,6 +1993,10 @@ pin = "pinned"
 
 ["ovhcloud/qwen/qwen3.6-27b"]
 model = "qwen/qwen3.6-27b"
+pin = "pinned"
+
+["ovhcloud/qwen/qwen3.6-35b-a3b"]
+model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
 ["ovhcloud/qwen/qwen3.8-27b"]

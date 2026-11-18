@@ -490,6 +490,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["azure/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["azure/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["azure/gpt-live-transcribe"]
 model = "openai/gpt-live-transcribe"
 pin = "pinned"
@@ -2277,6 +2285,10 @@ pin = "pinned"
 ["scx-ai-gp/qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["scx-ai-gp/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
 
 ["scx-ai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
