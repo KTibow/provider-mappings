@@ -165,3 +165,11 @@ pin = "pinned"
 ["mai-code-1.1-flash"]
 model = "microsoft/mai-code-1.1-flash"
 pin = "pinned"
+
+["mai-code-2"]
+model = "microsoft/mai-code-2"
+pin = "pinned"
+
+["mai-code-2-flash"]
+model = "microsoft/mai-code-2-flash"
+pin = "pinned"

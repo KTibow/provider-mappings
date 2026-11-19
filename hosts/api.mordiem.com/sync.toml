@@ -451,10 +451,6 @@ pin = "pinned"
 model = "ideogram/ideogram-v4.5:edit"
 pin = "pinned"
 
-["kimi-k2-5"]
-model = "moonshotai/kimi-k2.5"
-pin = "pinned"
-
 ["kimi-k2-6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
@@ -645,6 +641,14 @@ pin = "pinned"
 
 ["lyria-3-pro"]
 model = "google/lyria-3-pro-preview"
+pin = "pinned"
+
+["mai-image-2-7"]
+model = "microsoft/mai-image-2.7"
+pin = "pinned"
+
+["mai-image-2-7-flash"]
+model = "microsoft/mai-image-2.7-flash"
 pin = "pinned"
 
 ["minimax-h3-enhanced-reference-to-video"]

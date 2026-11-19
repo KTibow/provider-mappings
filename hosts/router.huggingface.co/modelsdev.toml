@@ -50,6 +50,10 @@ pin = "pinned"
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
 
+["Qwen/Qwen3-30B-A3B-Instruct-2507"]
+model = "qwen/qwen3-30b-a3b-instruct-2507"
+pin = "pinned"
+
 ["Qwen/Qwen3-32B"]
 model = "qwen/qwen3-32b"
 pin = "pinned"
@@ -190,6 +194,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["google/gemma-2-27b-it"]
+model = "google/gemma-2-27b-it"
+pin = "pinned"
+
 ["google/gemma-3-12b-it"]
 model = "google/gemma-3-12b-it"
 pin = "pinned"
@@ -210,8 +218,20 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["meta-llama/Llama-3.1-70B-Instruct"]
+model = "meta-llama/llama-3.1-70b-instruct"
+pin = "pinned"
+
 ["meta-llama/Llama-3.1-8B-Instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
+["meta-llama/Llama-3.2-1B-Instruct"]
+model = "meta-llama/llama-3.2-1b-instruct"
+pin = "pinned"
+
+["meta-llama/Llama-3.2-3B-Instruct"]
+model = "meta-llama/llama-3.2-3b-instruct"
 pin = "pinned"
 
 ["meta-llama/Llama-3.3-70B-Instruct"]

@@ -214,10 +214,6 @@ pin = "pinned"
 model = "openai/whisper-large-v3"
 pin = "pinned"
 
-["qwen/qwen3.7-max"]
-model = "qwen/qwen3.7-max"
-pin = "pinned"
-
 ["x-ai/grok-4.6"]
 model = "x-ai/grok-4.6"
 pin = "pinned"

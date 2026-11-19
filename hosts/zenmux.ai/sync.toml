@@ -455,10 +455,6 @@ pin = "pinned"
 model = "openai/gpt-transcribe"
 pin = "pinned"
 
-["openai/o4-mini"]
-model = "openai/o4-mini"
-pin = "pinned"
-
 ["openai/text-embedding-3-large"]
 model = "openai/text-embedding-3-large"
 pin = "pinned"

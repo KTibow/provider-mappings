@@ -23,10 +23,6 @@ pin = "pinned"
 model = "cohere/command-a-plus"
 pin = "pinned"
 
-["CohereLabs/command-a-plus-05-2026-fp8"]
-model = "cohere/command-a-plus"
-pin = "pinned"
-
 ["Gryphe/MythoMax-L2-13b"]
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"

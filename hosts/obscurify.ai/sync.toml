@@ -315,6 +315,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["google/gemini-decision-1"]
 model = "google/gemini-decision-1"
 pin = "pinned"
@@ -1097,6 +1101,14 @@ pin = "pinned"
 
 ["tee/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["tee/deepseek-v4.1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
+["tee/deepseek-v4.1-flash-1017-uncensored:thinking"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
 ["tee/gemma-4-31b-it"]

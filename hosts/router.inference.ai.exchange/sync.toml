@@ -155,10 +155,6 @@ pin = "floating"
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
-["claude-sonnet-4-5-20250929"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-
 ["claude-sonnet-4-5:thinking"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
@@ -851,10 +847,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio-mini"]
-model = "openai/gpt-audio-mini"
-pin = "pinned"
-
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -925,10 +917,6 @@ pin = "pinned"
 
 ["grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["grok-imagine-image"]
-model = "x-ai/grok-imagine-image"
 pin = "pinned"
 
 ["grok-imagine-image-2-0"]
@@ -1203,10 +1191,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistral-large-4.0"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1301,10 +1285,6 @@ pin = "pinned"
 
 ["mythomax-l2-13b"]
 model = "gryphe/mythomax-l2-13b"
-pin = "pinned"
-
-["nano-banana-2"]
-model = "google/gemini-3.1-flash-image-preview"
 pin = "pinned"
 
 ["nemotron-3-nano-30b-a3b"]
@@ -1497,10 +1477,6 @@ pin = "pinned"
 
 ["qwen-2.5-72b-instruct"]
 model = "qwen/qwen-2.5-72b-instruct"
-pin = "pinned"
-
-["qwen-image"]
-model = "qwen/qwen-image"
 pin = "pinned"
 
 ["qwen-plus"]

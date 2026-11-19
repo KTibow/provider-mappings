@@ -154,6 +154,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["glm-4.6"]
 model = "z-ai/glm-4.6"
 pin = "pinned"

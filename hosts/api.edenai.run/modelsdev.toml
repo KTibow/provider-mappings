@@ -678,6 +678,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["google/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -1436,6 +1440,18 @@ pin = "pinned"
 
 ["vertex/gemini-4-hydrogen@us"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["vertex/gemini-4-neon@eu"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["vertex/gemini-4-neon@us"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["vertex/gemini-flash-latest"]

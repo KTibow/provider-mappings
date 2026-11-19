@@ -179,10 +179,6 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
-["cloudflare/clairic"]
-model = "cloudflare/clairic"
-pin = "pinned"
-
 ["cloudflare/clef-flash"]
 model = "cloudflare/clef-flash"
 pin = "pinned"
@@ -377,6 +373,10 @@ pin = "pinned"
 
 ["google/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["google/gemini-embedding-001"]
@@ -665,10 +665,6 @@ pin = "pinned"
 
 ["moonshotai/kimi-k2-0905"]
 model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["moonshotai/kimi-k2-5"]
-model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
 ["moonshotai/kimi-k2-6"]

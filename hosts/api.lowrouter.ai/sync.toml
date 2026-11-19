@@ -2155,10 +2155,6 @@ pin = "pinned"
 model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
 
-["vertex/google/gemini-3.6-flash"]
-model = "google/gemini-3.6-flash"
-pin = "pinned"
-
 ["vertex/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"

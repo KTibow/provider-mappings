@@ -287,6 +287,7 @@
       "claudius"
     ],
     "api.cloudflare.com": [
+      "@cf/cloudflare/clairic-flash",
       "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
       "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
     ],
@@ -1159,6 +1160,7 @@
       "ring-2.6-1t-free",
       "space-bunny",
       "space-bunny-free",
+      "tidepool-alpha-free",
       "x-preview-f-free"
     ],
     "openrouter.ai": [

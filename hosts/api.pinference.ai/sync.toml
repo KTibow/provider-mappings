@@ -139,6 +139,10 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["google/gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
 pin = "pinned"
@@ -329,6 +333,14 @@ pin = "pinned"
 
 ["openai/gpt-6.1-sol-pro"]
 model = "openai/gpt-6.1-sol-pro"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["qwen/qwen3-235b-a22b-2507"]
