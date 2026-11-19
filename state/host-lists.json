@@ -89,6 +89,7 @@
  "api.sambanova.ai": "https://api.sambanova.ai/v1/models",
  "api.sandbase.ai": "https://api.sandbase.ai/api/models",
  "api.sarvam.ai": "https://api.sarvam.ai/v2/models",
+ "api.scx.ai": "https://api.scx.ai/v1/models",
  "api.sparrowcodes.com": "https://api.sparrowcodes.com/v1/models",
  "api.stdcmpt.com": "https://api.stdcmpt.com/v1/models",
  "api.synthetic.new": "https://api.synthetic.new/openai/v1/models",

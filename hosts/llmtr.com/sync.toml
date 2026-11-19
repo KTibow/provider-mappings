@@ -554,6 +554,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["openai/gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -773,6 +781,14 @@ pin = "pinned"
 
 ["recraft/recraft-v4.1-vector"]
 model = "recraft/recraft-v4.1-vector"
+pin = "pinned"
+
+["reka/reka-edge-2603"]
+model = "rekaai/reka-edge"
+pin = "pinned"
+
+["reka/reka-flash-3"]
+model = "rekaai/reka-flash-3"
 pin = "pinned"
 
 ["ricursive/ripple-65b-preview"]

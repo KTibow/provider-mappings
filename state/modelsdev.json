@@ -157,6 +157,7 @@
       "openai/o3-fast",
       "paperinstruments/ultramarine-1-flash",
       "recraft/recraft-v2",
+      "scaledown/extract-1",
       "scaledown/scaledown-extract-1",
       "scaledown/scaledown-summarize-1",
       "spacexai/grok-4.20-non-reasoning",

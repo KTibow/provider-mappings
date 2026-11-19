@@ -543,6 +543,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["arkanecloud/nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
 ["arkanecloud/nvidia/nemotron-3-super-120b-a12b"]
 model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
@@ -604,6 +608,10 @@ model = "openai/gpt-4.1-nano"
 pin = "pinned"
 
 ["azure/gpt-4.1-nano@eu"]
+model = "openai/gpt-4.1-nano"
+pin = "pinned"
+
+["azure/gpt-4.1-nano@us"]
 model = "openai/gpt-4.1-nano"
 pin = "pinned"
 
@@ -1161,7 +1169,7 @@ pin = "pinned"
 ["deepinfra/Qwen/Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
-quant = "bf16"
+quant = "fp8"
 
 ["deepinfra/Qwen/Qwen3.8-Flash"]
 model = "qwen/qwen3.8-flash"

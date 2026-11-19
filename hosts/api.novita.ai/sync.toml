@@ -7,14 +7,6 @@
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
 
-["deepseek/deepseek_v3"]
-model = "deepseek/deepseek-chat"
-pin = "pinned"
-
-["dev/glm46"]
-model = "z-ai/glm-4.6"
-pin = "pinned"
-
 ["google/gemma-3-12b-it"]
 model = "google/gemma-3-12b-it"
 pin = "pinned"
@@ -51,26 +43,6 @@ pin = "pinned"
 model = "meta-llama/llama-4-scout"
 pin = "pinned"
 
-["minimax/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["minimax/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
-pin = "pinned"
-
-["minimax/minimax-m3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-
-["minimax/minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
 ["moonshotai/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -81,18 +53,6 @@ pin = "pinned"
 
 ["nvidia/nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
-pin = "pinned"
-
-["openai/gpt-6.1-terra"]
-model = "openai/gpt-6.1-terra"
-pin = "pinned"
-
-["openai/gpt-6.2-astra"]
-model = "openai/gpt-6.2-astra"
-pin = "pinned"
-
-["openai/gpt-6.2-sol"]
-model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-oss-120b"]

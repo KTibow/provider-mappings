@@ -199,6 +199,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["gpt-image-1-mini"]
 model = "openai/gpt-image-1-mini"
 pin = "pinned"
@@ -217,6 +225,14 @@ pin = "pinned"
 
 ["gpt-image-2.5-sunburst"]
 model = "openai/gpt-image-2.5-sunburst"
+pin = "pinned"
+
+["gpt-image-2.6-flare"]
+model = "openai/gpt-image-2.6-flare"
+pin = "pinned"
+
+["gpt-image-2.6-sunburst"]
+model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
 ["gpt-oss-120b"]
@@ -322,6 +338,10 @@ pin = "pinned"
 ["qwen-3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
 
 ["text-embedding-3-large"]
 model = "openai/text-embedding-3-large"

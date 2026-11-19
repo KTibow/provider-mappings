@@ -1191,6 +1191,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["mistral-large-4.0"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1388,6 +1392,10 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["o3"]
+model = "openai/o3"
+pin = "pinned"
+
+["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 

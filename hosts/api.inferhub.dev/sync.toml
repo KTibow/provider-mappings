@@ -11,16 +11,24 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
+["ag/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["ag/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["ag/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["ali/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["ali/deepseek-v4.1-flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
-["ali/glm-5.2"]
-model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["ali/glm-5.3"]
@@ -327,6 +335,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["cbcn/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+
 ["cbcn/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"
@@ -587,54 +599,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
-["cp/anthropic/claude-fable-5"]
-model = "anthropic/claude-fable-5"
-pin = "pinned"
-
-["cp/anthropic/claude-fable-5.1"]
-model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["cp/anthropic/claude-haiku-5.5"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.1"]
-model = "anthropic/claude-opus-4.1"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.6"]
-model = "anthropic/claude-opus-4.6"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.8"]
-model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-5"]
-model = "anthropic/claude-opus-5"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-5.5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["cp/openai/gpt-6-astra"]
-model = "openai/gpt-6-astra"
-pin = "pinned"
-
-["cp/openai/gpt-6-astra-pro"]
-model = "openai/gpt-6-astra-pro"
-pin = "pinned"
-
 ["cx/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -761,6 +725,10 @@ pin = "pinned"
 
 ["gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["gemini-omni-flash"]

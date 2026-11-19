@@ -668,10 +668,6 @@ pin = "pinned"
 model = "meituan/longcat-2.0"
 pin = "pinned"
 
-["mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["mercury-2.5-preview"]
 model = "inception/mercury-2.5-preview"
 pin = "pinned"

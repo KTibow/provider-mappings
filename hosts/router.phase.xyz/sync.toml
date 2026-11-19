@@ -239,6 +239,10 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["glimpse"]
+model = "elorian/glimpse"
+pin = "pinned"
+
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"
@@ -383,6 +387,10 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -477,6 +485,10 @@ pin = "pinned"
 
 ["ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
+pin = "pinned"
+
+["ling-3.0-tiny"]
+model = "inclusionai/ling-3.0-tiny"
 pin = "pinned"
 
 ["ling-3.1-flash"]
@@ -953,10 +965,6 @@ pin = "pinned"
 
 ["qwen3.5-122b-a10b"]
 model = "qwen/qwen3.5-122b-a10b"
-pin = "pinned"
-
-["qwen3.5-27b"]
-model = "qwen/qwen3.5-27b"
 pin = "pinned"
 
 ["qwen3.5-35b-a3b"]

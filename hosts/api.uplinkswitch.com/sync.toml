@@ -383,6 +383,10 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -605,6 +609,10 @@ pin = "floating"
 
 ["qwen3.8-max-0902"]
 model = "qwen/qwen3.8-max-0902"
+pin = "pinned"
+
+["qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["remm-slerp-l2-13b"]

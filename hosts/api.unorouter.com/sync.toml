@@ -189,8 +189,13 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["deepseek-v4.1-flash-1017:free"]
-model = "deepseek/deepseek-v4.1-flash-1017"
+["deepseek-v4.1-flash-uncensored-fp8:free"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+free = true
+
+["deepseek-v4.1-flash:free"]
+model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 free = true
 
@@ -229,6 +234,16 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
+["gemini-2.5-flash-lite:free"]
+model = "google/gemini-2.5-flash-lite"
+pin = "pinned"
+free = true
+
+["gemini-2.5-flash:free"]
+model = "google/gemini-2.5-flash"
+pin = "pinned"
+free = true
+
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
@@ -258,6 +273,19 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
+["gemini-3.1-flash-lite:free"]
+model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+free = true
+
+["gemini-3.1-pro"]
+model = "google/gemini-3.1-pro"
+pin = "pinned"
+
+["gemini-3.1-pro-preview"]
+model = "google/gemini-3.1-pro-preview"
+pin = "pinned"
+
 ["gemini-3.5-flash"]
 model = "google/gemini-3.5-flash"
 pin = "pinned"
@@ -284,11 +312,6 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
-["gemini-3.8-flash:free"]
-model = "google/gemini-3.8-flash"
-pin = "pinned"
-free = true
-
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
 pin = "pinned"
@@ -301,22 +324,19 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
-["gemini-embedding-001"]
-model = "google/gemini-embedding-001"
-pin = "pinned"
-
 ["gemini-embedding-001:free"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
 free = true
 
-["gemini-embedding-2"]
-model = "google/gemini-embedding-2"
-pin = "pinned"
-
 ["gemini-embedding-2:free"]
 model = "google/gemini-embedding-2"
 pin = "pinned"
+free = true
+
+["gemini-flash-latest:free"]
+model = "~google/gemini-flash-latest"
+pin = "floating"
 free = true
 
 ["gemini-nano-banana-2.1"]
@@ -366,6 +386,15 @@ model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 free = true
 
+["glm-5.3-flashx"]
+model = "z-ai/glm-5.3-flashx"
+pin = "pinned"
+
+["glm-5.3:free"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+free = true
+
 ["gpt-4o:free"]
 model = "openai/gpt-4o"
 pin = "pinned"
@@ -394,11 +423,6 @@ pin = "pinned"
 ["gpt-6-luna"]
 model = "openai/gpt-6-luna"
 pin = "pinned"
-
-["gpt-6-luna:free"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-free = true
 
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
@@ -487,6 +511,11 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro:free"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+free = true
+
 ["lfm-2.5-embedding-350m:free"]
 model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
@@ -494,11 +523,6 @@ free = true
 
 ["ling-3.1-flash:free"]
 model = "inclusionai/ling-3.1-flash"
-pin = "pinned"
-free = true
-
-["ling-3.2-flash:free"]
-model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
 free = true
 
@@ -541,11 +565,6 @@ model = "minimax/minimax-m2.7"
 pin = "pinned"
 free = true
 
-["minimax-m2:free"]
-model = "minimax/minimax-m2"
-pin = "pinned"
-free = true
-
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -556,11 +575,6 @@ pin = "pinned"
 
 ["minimax-m3.1-flash:free"]
 model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-free = true
-
-["minimax-m3:free"]
-model = "minimax/minimax-m3"
 pin = "pinned"
 free = true
 
@@ -666,10 +680,6 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 free = true
-
-["qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
 
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"

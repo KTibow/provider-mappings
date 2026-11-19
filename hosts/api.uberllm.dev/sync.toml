@@ -99,10 +99,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2-1-turbo"
 pin = "pinned"
 
-["bytedance/seed-2.0-code"]
-model = "bytedance-seed/seed-2.0-code"
-pin = "pinned"
-
 ["cohere/command-a-plus"]
 model = "cohere/command-a-plus"
 pin = "pinned"
@@ -649,6 +645,10 @@ pin = "pinned"
 
 ["qwen/e2ee-qwen-2-5-7b-p"]
 model = "venice/e2ee-qwen2.5-7b"
+pin = "pinned"
+
+["qwen/e2ee-qwen3-5-122b-a10b"]
+model = "venice/e2ee-qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["qwen/e2ee-qwen3-6-35b-a3b"]

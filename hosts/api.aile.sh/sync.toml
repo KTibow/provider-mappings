@@ -355,58 +355,6 @@ pin = "pinned"
 model = "fish-audio/transcribe-1-pro"
 pin = "pinned"
 
-["g4f-gemini/models/gemini-2.5-flash"]
-model = "google/gemini-2.5-flash"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3-flash-preview"]
-model = "google/gemini-3-flash-preview"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.1-flash-lite"]
-model = "google/gemini-3.1-flash-lite"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.1-flash-lite-preview"]
-model = "google/gemini-3.1-flash-lite-preview"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.5-flash"]
-model = "google/gemini-3.5-flash"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.5-flash-lite"]
-model = "google/gemini-3.5-flash-lite"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.6-flash"]
-model = "google/gemini-3.6-flash"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.7-flash"]
-model = "google/gemini-3.7-flash"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-3.8-flash"]
-model = "google/gemini-3.8-flash"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["g4f-gemini/models/gemini-flash-latest"]
-model = "~google/gemini-flash-latest"
-pin = "floating"
-
-["g4f-gemini/models/gemma-4-26b-a4b-it"]
-model = "google/gemma-4-26b-a4b-it"
-pin = "pinned"
-
-["g4f-gemini/models/gemma-4-31b-it"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-
 ["gemini/gemini-3-flash-preview"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
@@ -583,110 +531,6 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
-["opencode-go/claude-haiku-5-5"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["opencode-go/deepseek-v4-pro"]
-model = "deepseek/deepseek-v4-pro"
-pin = "pinned"
-
-["opencode-go/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["opencode-go/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["opencode-go/glm-5.3"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["opencode-go/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["opencode-go/gpt-5.6-luna"]
-model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["opencode-go/gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["opencode-go/grok-4.7"]
-model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["opencode-go/hy3"]
-model = "tencent/hy3"
-pin = "pinned"
-
-["opencode-go/hy4"]
-model = "tencent/hy4"
-pin = "pinned"
-
-["opencode-go/hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-
-["opencode-go/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
-["opencode-go/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["opencode-go/kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-
-["opencode-go/longcat-2.0"]
-model = "meituan/longcat-2.0"
-pin = "pinned"
-
-["opencode-go/mimo-v2.6-flash"]
-model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["opencode-go/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["opencode-go/minimax-m3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-
-["opencode-go/minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
-["opencode-go/muse-spark-1.2-contributor"]
-model = "meta/muse-spark-1.2-contributor"
-pin = "pinned"
-
-["opencode-go/muse-spark-1.3-contributor"]
-model = "meta/muse-spark-1.3-contributor"
-pin = "pinned"
-
-["opencode-go/qwen3.7-plus"]
-model = "qwen/qwen3.7-plus"
-pin = "pinned"
-
-["opencode-go/qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
-["opencode-go/qwen3.8-max"]
-model = "~qwen/qwen3.8-max-latest"
-pin = "floating"
-
-["opencode-go/step-5-preview"]
-model = "stepfun/step-5-preview"
-pin = "pinned"
-
 ["opencode/deepseek-v4.1-flash-free"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -726,10 +570,6 @@ pin = "pinned"
 
 ["orcarouter/anthropic/claude-fable-5.1"]
 model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["orcarouter/anthropic/claude-fable-5.2"]
-model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
 ["orcarouter/anthropic/claude-haiku-4.5"]
@@ -852,14 +692,6 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
-["orcarouter/google/gemini-4-argon"]
-model = "google/gemini-4-argon"
-pin = "pinned"
-
-["orcarouter/google/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
 ["orcarouter/google/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -880,132 +712,20 @@ pin = "pinned"
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
 
-["orcarouter/grok/grok-4.3"]
-model = "x-ai/grok-4.3"
-pin = "pinned"
-
-["orcarouter/grok/grok-4.5"]
-model = "x-ai/grok-4.5"
-pin = "pinned"
-
-["orcarouter/grok/grok-4.6"]
-model = "x-ai/grok-4.6"
-pin = "pinned"
-
-["orcarouter/grok/grok-4.7"]
-model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["orcarouter/kimi/kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["orcarouter/kimi/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
-["orcarouter/kimi/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["orcarouter/kimi/kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-
-["orcarouter/meta/muse-spark-1.1"]
-model = "meta/muse-spark-1.1"
-pin = "pinned"
-
-["orcarouter/meta/muse-spark-1.2"]
-model = "meta/muse-spark-1.2"
-pin = "pinned"
-
-["orcarouter/minimax/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["orcarouter/minimax/minimax-m2.5-highspeed"]
-model = "minimax/minimax-m2.5-highspeed"
-pin = "pinned"
-
 ["orcarouter/minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["orcarouter/minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
-pin = "pinned"
-
-["orcarouter/minimax/minimax-m3"]
-model = "minimax/minimax-m3"
 pin = "pinned"
 
 ["orcarouter/minimax/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["orcarouter/obsidian/Qwen3.6-35B-A3B"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-
-["orcarouter/obsidian/Qwen3.8-27B"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
 ["orcarouter/obsidian/gemma-4-26B-A4B"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
-["orcarouter/openai/gpt-3.5-turbo-16k"]
-model = "openai/gpt-3.5-turbo-16k"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4"]
-model = "openai/gpt-4"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4-turbo"]
-model = "openai/gpt-4-turbo"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4.1"]
-model = "openai/gpt-4.1"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4.1-2025-04-14"]
-model = "openai/gpt-4.1"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4.1-mini"]
-model = "openai/gpt-4.1-mini"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4.1-mini-2025-04-14"]
-model = "openai/gpt-4.1-mini"
-pin = "pinned"
-
 ["orcarouter/openai/gpt-4.1-nano"]
 model = "openai/gpt-4.1-nano"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4.1-nano-2025-04-14"]
-model = "openai/gpt-4.1-nano"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4o"]
-model = "openai/gpt-4o"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4o-2024-05-13"]
-model = "openai/gpt-4o-2024-05-13"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4o-2024-08-06"]
-model = "openai/gpt-4o-2024-08-06"
-pin = "pinned"
-
-["orcarouter/openai/gpt-4o-2024-11-20"]
-model = "openai/gpt-4o-2024-11-20"
 pin = "pinned"
 
 ["orcarouter/openai/gpt-4o-mini"]
@@ -1016,22 +736,6 @@ pin = "pinned"
 model = "openai/gpt-4o-mini-2024-07-18"
 pin = "pinned"
 
-["orcarouter/openai/gpt-5"]
-model = "openai/gpt-5"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5-2025-08-07"]
-model = "openai/gpt-5"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5-mini"]
-model = "openai/gpt-5-mini"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5-mini-2025-08-07"]
-model = "openai/gpt-5-mini"
-pin = "pinned"
-
 ["orcarouter/openai/gpt-5-nano"]
 model = "openai/gpt-5-nano"
 pin = "pinned"
@@ -1040,136 +744,12 @@ pin = "pinned"
 model = "openai/gpt-5-nano"
 pin = "pinned"
 
-["orcarouter/openai/gpt-5-pro"]
-model = "openai/gpt-5-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5-pro-2025-10-06"]
-model = "openai/gpt-5-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.1"]
-model = "openai/gpt-5.1"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.1-2025-11-13"]
-model = "openai/gpt-5.1"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.1-codex"]
-model = "openai/gpt-5.1-codex"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.1-codex-mini"]
-model = "openai/gpt-5.1-codex-mini"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.2"]
-model = "openai/gpt-5.2"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.2-2025-12-11"]
-model = "openai/gpt-5.2"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.2-codex"]
-model = "openai/gpt-5.2-codex"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.2-pro"]
-model = "openai/gpt-5.2-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.2-pro-2025-12-11"]
-model = "openai/gpt-5.2-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.3-codex"]
-model = "openai/gpt-5.3-codex"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4"]
-model = "openai/gpt-5.4"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-2026-03-05"]
-model = "openai/gpt-5.4"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-mini"]
-model = "openai/gpt-5.4-mini"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-mini-2026-03-17"]
-model = "openai/gpt-5.4-mini"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-nano"]
-model = "openai/gpt-5.4-nano"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-nano-2026-03-17"]
-model = "openai/gpt-5.4-nano"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-pro"]
-model = "openai/gpt-5.4-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.4-pro-2026-03-05"]
-model = "openai/gpt-5.4-pro"
-pin = "pinned"
-
 ["orcarouter/openai/gpt-5.5"]
 model = "openai/gpt-5.5"
 pin = "pinned"
 
-["orcarouter/openai/gpt-5.5-2026-04-23"]
-model = "openai/gpt-5.5"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.5-pro"]
-model = "openai/gpt-5.5-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.5-pro-2026-04-23"]
-model = "openai/gpt-5.5-pro"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.6-luna"]
-model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.6-sol"]
-model = "openai/gpt-5.6-sol"
-pin = "pinned"
-
-["orcarouter/openai/gpt-5.6-terra"]
-model = "openai/gpt-5.6-terra"
-pin = "pinned"
-
-["orcarouter/openai/gpt-6-astra"]
-model = "openai/gpt-6-astra"
-pin = "pinned"
-
 ["orcarouter/openai/gpt-6-luna"]
 model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["orcarouter/openai/gpt-6-sol"]
-model = "openai/gpt-6-sol"
-pin = "pinned"
-
-["orcarouter/openai/gpt-6.1-sol"]
-model = "openai/gpt-6.1-sol"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3-vl-235b-a22b-instruct"]
-model = "qwen/qwen3-vl-235b-a22b-instruct"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3-vl-8b-instruct"]
-model = "qwen/qwen3-vl-8b-instruct"
 pin = "pinned"
 
 ["orcarouter/qwen/qwen3.5-122b-a10b"]
@@ -1192,22 +772,6 @@ pin = "pinned"
 model = "alibaba/qwen3.5-flash"
 pin = "pinned"
 
-["orcarouter/qwen/qwen3.5-plus"]
-model = "alibaba/qwen3.5-plus"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3.6-35b-a3b"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3.6-flash"]
-model = "qwen/qwen3.6-flash"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3.6-plus"]
-model = "qwen/qwen3.6-plus"
-pin = "pinned"
-
 ["orcarouter/qwen/qwen3.7-flash"]
 model = "qwen/qwen3.7-flash"
 pin = "pinned"
@@ -1216,28 +780,8 @@ pin = "pinned"
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 
-["orcarouter/qwen/qwen3.7-max-2026-05-20"]
-model = "qwen/qwen3.7-max"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3.7-plus"]
-model = "qwen/qwen3.7-plus"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3.8-27b"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
 ["orcarouter/qwen/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
-["orcarouter/qwen/qwen3.8-max"]
-model = "~qwen/qwen3.8-max-latest"
-pin = "floating"
-
-["orcarouter/qwen/qwen3.8-max-0902"]
-model = "qwen/qwen3.8-max-0902"
 pin = "pinned"
 
 ["orcarouter/tencent/hy3"]
@@ -1248,48 +792,12 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
-["orcarouter/tencent/hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-
 ["orcarouter/xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
 ["orcarouter/xiaomi/mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-4.5"]
-model = "z-ai/glm-4.5"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-4.5-air"]
-model = "z-ai/glm-4.5-air"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-4.6"]
-model = "z-ai/glm-4.6"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-4.7"]
-model = "z-ai/glm-4.7"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-5"]
-model = "z-ai/glm-5"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["orcarouter/z-ai/glm-5.3"]
-model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["orcarouter/z-ai/glm-5.3-flash"]
@@ -1340,20 +848,32 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
-["surplus/gemini-4-neon"]
-model = "google/gemini-4-neon"
+["surplus/grok-4.20-beta"]
+model = "x-ai/grok-4.20"
 pin = "pinned"
 
-["surplus/gpt-6-astra"]
-model = "openai/gpt-6-astra"
+["surplus/grok-4.20-multi-agent-beta"]
+model = "x-ai/grok-4.20-multi-agent"
 pin = "pinned"
 
-["surplus/gpt-6.2-astra"]
-model = "openai/gpt-6.2-astra"
+["surplus/grok-4.3"]
+model = "x-ai/grok-4.3"
 pin = "pinned"
 
-["surplus/gpt-6.2-sol"]
-model = "openai/gpt-6.2-sol"
+["surplus/grok-4.5"]
+model = "x-ai/grok-4.5"
+pin = "pinned"
+
+["surplus/grok-4.6"]
+model = "x-ai/grok-4.6"
+pin = "pinned"
+
+["surplus/grok-4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+
+["surplus/grok-build-0-1"]
+model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["surplus/hy4-flash"]

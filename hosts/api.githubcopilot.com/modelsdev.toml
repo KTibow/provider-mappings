@@ -78,6 +78,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["gpt-5-mini"]
 model = "openai/gpt-5-mini"
 pin = "pinned"

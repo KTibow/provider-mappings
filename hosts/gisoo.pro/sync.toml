@@ -927,6 +927,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["openrouter/google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["openrouter/google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"

@@ -112,16 +112,12 @@ pin = "pinned"
 model = "google/gemini-4-neon"
 pin = "pinned"
 
-["glm-5"]
-model = "z-ai/glm-5"
+["gemini-decision-1"]
+model = "google/gemini-decision-1"
 pin = "pinned"
 
-["glm-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["glm-5.2"]
-model = "z-ai/glm-5.2"
+["gemini-nano-banana-2.1"]
+model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
 
 ["glm-5.3"]
@@ -228,6 +224,10 @@ pin = "pinned"
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
+["gpt-image-2.5-sunburst"]
+model = "openai/gpt-image-2.5-sunburst"
+pin = "pinned"
+
 ["grok-4.5"]
 model = "x-ai/grok-4.5"
 pin = "pinned"
@@ -244,6 +244,10 @@ pin = "pinned"
 model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
+["grok-imagine-image-2.0"]
+model = "x-ai/grok-imagine-image-2.0"
+pin = "pinned"
+
 ["hy4-flash-free"]
 model = "tencent/hy4-flash"
 pin = "pinned"
@@ -254,13 +258,14 @@ model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 free = true
 
-["kimi-k2.5"]
-model = "moonshotai/kimi-k2.5"
+["jev-1.13"]
+model = "typesafe/jev-1.13"
 pin = "pinned"
 
-["kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
+["jev-1.13-free"]
+model = "typesafe/jev-1.13"
 pin = "pinned"
+free = true
 
 ["kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"

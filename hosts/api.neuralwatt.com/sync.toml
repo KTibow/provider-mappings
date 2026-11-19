@@ -23,6 +23,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["mammoth-1"]
+model = "baseten/mammoth-1"
+pin = "pinned"
+
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
