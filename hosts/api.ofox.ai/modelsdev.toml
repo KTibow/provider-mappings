@@ -254,6 +254,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["minimax/m2-her"]
 model = "minimax/MiniMax-M2-Her"
 pin = "pinned"

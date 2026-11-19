@@ -179,10 +179,6 @@ pin = "pinned"
 model = "cohere/command-a-plus"
 pin = "pinned"
 
-["deepseek/deepseek-chat"]
-model = "deepseek/deepseek-chat"
-pin = "pinned"
-
 ["deepseek/deepseek-chat-v3-0324"]
 model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
@@ -331,10 +327,6 @@ pin = "pinned"
 model = "google/gemini-omni-1.1-flash"
 pin = "pinned"
 
-["google/gemini-omni-1.2-flash"]
-model = "google/gemini-omni-1.2-flash"
-pin = "pinned"
-
 ["google/gemma-2-27b-it"]
 model = "google/gemma-2-27b-it"
 pin = "pinned"
@@ -421,10 +413,6 @@ pin = "pinned"
 
 ["liquid/d1.2-ultra"]
 model = "liquid/d1.2-ultra"
-pin = "pinned"
-
-["liquid/lfm-2.5-24b-a2b"]
-model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
 ["liquid/lfm-3-1.7b"]
@@ -633,6 +621,10 @@ pin = "pinned"
 
 ["nvidia/nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
+["nvidia/nemotron-3-super-120b-a12b"]
+model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
 
 ["nvidia/nemotron-3-ultra-550b-a55b"]
@@ -1285,10 +1277,6 @@ pin = "pinned"
 
 ["x-ai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["x-ai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-flash"]

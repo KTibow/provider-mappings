@@ -358,11 +358,6 @@ model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 quant = "fp16"
 
-["claude-sonnet-4.5"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-quant = "fp16"
-
 ["claude-sonnet-4.6"]
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
@@ -385,16 +380,6 @@ quant = "fp16"
 
 ["deepseek-v3.2"]
 model = "deepseek/deepseek-v3.2"
-pin = "pinned"
-quant = "fp16"
-
-["deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-quant = "fp16"
-
-["deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 quant = "fp16"
 
@@ -1197,8 +1182,3 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
-
-["xiaomi-mimo-v2-5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-quant = "fp16"

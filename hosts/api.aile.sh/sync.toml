@@ -824,6 +824,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
+["surplus/deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+
 ["surplus/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -840,12 +844,36 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["surplus/gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
+["surplus/gemini-3.1-flash-lite"]
+model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+
+["surplus/gemini-3.1-pro-preview"]
+model = "google/gemini-3.1-pro-preview"
+pin = "pinned"
+
 ["surplus/gemini-4-carbon"]
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["surplus/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["surplus/glm-5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["surplus/glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["surplus/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["surplus/grok-4.20-beta"]
@@ -882,6 +910,18 @@ pin = "pinned"
 
 ["surplus/muse-ember"]
 model = "meta/muse-ember"
+pin = "pinned"
+
+["surplus/qwen3.8-flash"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
+["surplus/qwen3.8-max-0902"]
+model = "qwen/qwen3.8-max-0902"
+pin = "pinned"
+
+["surplus/qwen3.8-omni-flash"]
+model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
 ["surplus/qwen4-max"]

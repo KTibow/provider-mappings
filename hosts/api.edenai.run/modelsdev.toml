@@ -194,10 +194,6 @@ pin = "pinned"
 model = "mistralai/ministral-14b"
 pin = "pinned"
 
-["arkanecloud/nvidia/nemotron-3-super-120b-a12b"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-
 ["arkanecloud/nvidia/nemotron-3-ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"

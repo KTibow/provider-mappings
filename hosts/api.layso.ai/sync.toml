@@ -15,7 +15,7 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
-["claude-haiku-4-5-20251001"]
+["claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
@@ -23,7 +23,7 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["claude-opus-4-5-20251101"]
+["claude-opus-4-5"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
@@ -47,7 +47,7 @@ pin = "pinned"
 model = "anthropic/claude-opus-5.5"
 pin = "pinned"
 
-["claude-sonnet-4-5-20250929"]
+["claude-sonnet-4-5"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
@@ -107,8 +107,16 @@ pin = "pinned"
 model = "google/gemini-2.5-flash-image"
 pin = "pinned"
 
+["gemini-2.5-pro"]
+model = "google/gemini-2.5-pro"
+pin = "pinned"
+
 ["gemini-3-5-flash"]
 model = "google/gemini-3.5-flash"
+pin = "pinned"
+
+["gemini-3-5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
 
 ["gemini-3-flash-preview"]
@@ -135,28 +143,8 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
-["gemini-3.1-flash-lite-image"]
-model = "google/gemini-3.1-flash-lite-image"
-pin = "pinned"
-
-["gemini-3.1-flash-lite-preview"]
-model = "google/gemini-3.1-flash-lite-preview"
-pin = "pinned"
-
 ["gemini-3.1-pro-preview"]
 model = "google/gemini-3.1-pro-preview"
-pin = "pinned"
-
-["gemini-3.5-flash"]
-model = "google/gemini-3.5-flash"
-pin = "pinned"
-
-["gemini-3.5-flash-lite"]
-model = "google/gemini-3.5-flash-lite"
-pin = "pinned"
-
-["gemini-3.6-flash"]
-model = "google/gemini-3.6-flash"
 pin = "pinned"
 
 ["gemini-3.7-flash"]
@@ -173,6 +161,10 @@ pin = "pinned"
 
 ["gemini-4-carbon"]
 model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["glm-4.6"]

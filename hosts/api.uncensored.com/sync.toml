@@ -151,6 +151,18 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
 pin = "pinned"
@@ -273,6 +285,22 @@ pin = "pinned"
 
 ["gpt-61-sol"]
 model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["gpt-62-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-62-astra-pro"]
+model = "openai/gpt-6.2-astra-pro"
+pin = "pinned"
+
+["gpt-62-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["gpt-62-sol-pro"]
+model = "openai/gpt-6.2-sol-pro"
 pin = "pinned"
 
 ["gpt-image-2"]
@@ -431,6 +459,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["qwen-4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["qwen3-235b-a22b-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
@@ -489,6 +521,14 @@ pin = "pinned"
 
 ["seedance-2.5"]
 model = "bytedance/seedance-2.5:image-to-video"
+pin = "pinned"
+
+["seedance-2.5-flash"]
+model = "bytedance/seedance-2.5-flash:image-to-video"
+pin = "pinned"
+
+["seedance-2.5-flash-t2v"]
+model = "bytedance/seedance-2.5-flash"
 pin = "pinned"
 
 ["seedance-2.5-t2v"]

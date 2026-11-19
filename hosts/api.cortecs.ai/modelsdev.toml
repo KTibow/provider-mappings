@@ -126,6 +126,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
 pin = "pinned"
@@ -226,6 +230,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -324,6 +336,10 @@ pin = "pinned"
 
 ["mixtral-8x7B-instruct-v0.1"]
 model = "mistralai/mixtral-8x7b-instruct-v0.1"
+pin = "pinned"
+
+["nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["nemotron-nano-v2-12b"]

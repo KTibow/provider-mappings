@@ -155,10 +155,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
-pin = "pinned"
-
 ["meta/muse-glimmer-30b"]
 model = "meta/muse-glimmer-30b"
 pin = "pinned"

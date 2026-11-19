@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["MiniMax-H3"]
+model = "minimax/hailuo-3"
+pin = "pinned"
+
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -229,4 +233,8 @@ pin = "pinned"
 
 ["seedance-2.5"]
 model = "bytedance/seedance-2.5"
+pin = "pinned"
+
+["wan3.0-video"]
+model = "alibaba/wan-3.0"
 pin = "pinned"

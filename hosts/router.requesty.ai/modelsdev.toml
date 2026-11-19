@@ -258,6 +258,18 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["gemini-4-neon@eu"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["gemini-4-neon@us"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"

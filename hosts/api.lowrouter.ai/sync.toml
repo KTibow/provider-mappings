@@ -2007,6 +2007,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["regolo/deepseek/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
 ["regolo/google/gemma4-31b"]
 model = "google/gemma-4-31b-it"
 pin = "pinned"

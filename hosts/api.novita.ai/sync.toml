@@ -7,6 +7,10 @@
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
 
+["dev/glm46"]
+model = "z-ai/glm-4.6"
+pin = "pinned"
+
 ["google/gemma-3-12b-it"]
 model = "google/gemma-3-12b-it"
 pin = "pinned"
@@ -43,16 +47,24 @@ pin = "pinned"
 model = "meta-llama/llama-4-scout"
 pin = "pinned"
 
-["moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
 ["moonshotai/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["nvidia/nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
+["openai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-oss-120b"]

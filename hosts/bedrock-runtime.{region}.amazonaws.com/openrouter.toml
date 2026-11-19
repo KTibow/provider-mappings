@@ -246,6 +246,10 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
+["openai.gpt-oss-safeguard-20b"]
+model = "openai/gpt-oss-safeguard-20b"
+pin = "pinned"
+
 ["qwen.qwen3-coder-30b-a3b-v1:0"]
 model = "qwen/qwen3-coder-30b-a3b-instruct"
 pin = "pinned"
@@ -308,6 +312,14 @@ pin = "pinned"
 
 ["us.meta.llama3-1-70b-instruct-v1:0"]
 model = "meta-llama/llama-3.1-70b-instruct"
+pin = "pinned"
+
+["us.meta.llama3-1-8b-instruct-v1:0"]
+model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
+["us.meta.llama3-3-70b-instruct-v1:0"]
+model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
 ["us.moonshotai.kimi-k3"]

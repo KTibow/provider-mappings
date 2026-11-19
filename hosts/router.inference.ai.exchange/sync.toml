@@ -155,6 +155,10 @@ pin = "floating"
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
+["claude-sonnet-4-5-20250929"]
+model = "anthropic/claude-sonnet-4.5"
+pin = "pinned"
+
 ["claude-sonnet-4-5:thinking"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
@@ -1031,10 +1035,6 @@ pin = "pinned"
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
 
-["lfm2.5-24b-a2b"]
-model = "liquid/lfm-2.5-24b-a2b"
-pin = "pinned"
-
 ["lfm3-1.7b"]
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
@@ -1392,10 +1392,6 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["o3"]
-model = "openai/o3"
-pin = "pinned"
-
-["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 

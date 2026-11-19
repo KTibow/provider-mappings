@@ -27,8 +27,20 @@ pin = "pinned"
 model = "google/gemini-4-neon"
 pin = "pinned"
 
+["ali/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
 ["ali/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["ali/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["ali/glm-5.2"]
+model = "z-ai/glm-5.2"
 pin = "pinned"
 
 ["ali/glm-5.3"]
