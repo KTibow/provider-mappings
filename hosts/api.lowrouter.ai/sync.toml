@@ -471,6 +471,10 @@ pin = "pinned"
 model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
+["auto/mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
+pin = "pinned"
+
 ["auto/moonshotai/kimi-k2-thinking"]
 model = "moonshotai/kimi-k2-thinking"
 pin = "pinned"
@@ -981,6 +985,10 @@ pin = "pinned"
 
 ["aws-bedrock/mistralai/mistral-large-instruct-2407"]
 model = "mistralai/mistral-large-2407"
+pin = "pinned"
+
+["aws-bedrock/mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["aws-bedrock/moonshotai/kimi-k2-thinking"]

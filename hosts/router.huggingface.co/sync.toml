@@ -295,10 +295,6 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
-["inclusionAI/Ling-3.0-tiny"]
-model = "inclusionai/ling-3.0-tiny"
-pin = "pinned"
-
 ["inclusionAI/Ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
@@ -309,10 +305,6 @@ pin = "pinned"
 
 ["meta-llama/Llama-3.1-8B-Instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["meta-llama/Llama-3.2-1B-Instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["meta-llama/Llama-3.2-3B-Instruct"]
@@ -441,6 +433,10 @@ pin = "pinned"
 
 ["tencent/Hy3"]
 model = "tencent/hy3"
+pin = "pinned"
+
+["tencent/Hy4"]
+model = "tencent/hy4"
 pin = "pinned"
 
 ["tencent/Hy4-flash"]

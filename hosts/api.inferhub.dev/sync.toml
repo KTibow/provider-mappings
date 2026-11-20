@@ -15,20 +15,8 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["ag/gemini-4-argon"]
-model = "google/gemini-4-argon"
-pin = "pinned"
-
 ["ag/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["ag/gemini-4-neon"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
-["ali/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
 ["ali/deepseek-v4.1-flash"]
@@ -39,12 +27,12 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["ali/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["ali/glm-5.3"]
 model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["ali/kimi-k3"]
+model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["ali/kimi-k3.1-pro"]

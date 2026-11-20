@@ -239,6 +239,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["google/gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
@@ -419,6 +423,22 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra-pro"
 pin = "pinned"
 
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra-pro"]
+model = "openai/gpt-6.2-astra-pro"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["openai/gpt-6.2-sol-pro"]
+model = "openai/gpt-6.2-sol-pro"
+pin = "pinned"
+
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -433,6 +453,14 @@ pin = "pinned"
 
 ["tencent/hy3"]
 model = "tencent/hy3"
+pin = "pinned"
+
+["tencent/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["tencent/hy4-flash"]
+model = "tencent/hy4-flash"
 pin = "pinned"
 
 ["tencent/hy4-preview"]

@@ -682,24 +682,12 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["cloudflare/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-
-["cloudflare/deepseek-v4-pro"]
-model = "deepseek/deepseek-v4-pro"
-pin = "pinned"
-
 ["cloudflare/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["cloudflare/glm-5.3"]
 model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["cloudflare/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["codestral-2508"]

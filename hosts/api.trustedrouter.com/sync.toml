@@ -475,18 +475,6 @@ pin = "pinned"
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
-["meta-llama/llama-3.1-8b-instruct-fp8"]
-model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["meta-llama/llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
-pin = "pinned"
-
-["meta-llama/llama-3.2-3b-instruct"]
-model = "meta-llama/llama-3.2-3b-instruct"
-pin = "pinned"
-
 ["meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
@@ -624,6 +612,10 @@ model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
 ["mistralai/mistral-large-4"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistralai/mistral-large-4-1t-a52b"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
@@ -1020,10 +1012,6 @@ model = "qwen/qwen3-235b-a22b-thinking-2507"
 pin = "pinned"
 
 ["qwen/qwen3-30b-a3b"]
-model = "qwen/qwen3-30b-a3b"
-pin = "pinned"
-
-["qwen/qwen3-30b-a3b-fp8"]
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
 

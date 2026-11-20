@@ -31,6 +31,14 @@ pin = "pinned"
 model = "sakana/fugu-max"
 pin = "pinned"
 
+["gemini-2-5-flash-tts"]
+model = "google/gemini-2.5-flash-tts"
+pin = "pinned"
+
+["gemini-2-5-pro-tts"]
+model = "google/gemini-2.5-pro-tts"
+pin = "pinned"
+
 ["gemini-3-8-flash-lite-tts"]
 model = "google/gemini-3.8-flash-lite-tts"
 pin = "pinned"

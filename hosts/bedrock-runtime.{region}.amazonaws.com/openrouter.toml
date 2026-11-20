@@ -322,6 +322,10 @@ pin = "pinned"
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["us.mistral.pixtral-large-2502-v1:0"]
+model = "mistralai/pixtral-large-2502"
+pin = "pinned"
+
 ["us.moonshotai.kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

@@ -91,6 +91,14 @@ pin = "pinned"
 model = "black-forest-labs/flux.2-pro"
 pin = "pinned"
 
+["gemini-2.5-flash-tts"]
+model = "google/gemini-2.5-flash-tts"
+pin = "pinned"
+
+["gemini-2.5-pro-tts"]
+model = "google/gemini-2.5-pro-tts"
+pin = "pinned"
+
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"

@@ -1124,10 +1124,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["spacexai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
-pin = "pinned"
-
 ["spacexai/grok-imagine-image"]
 model = "x-ai/grok-imagine-image"
 pin = "pinned"

@@ -15,8 +15,32 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["Qwen/Qwen2.5-Coder-32B-Instruct"]
+model = "qwen/qwen-2.5-coder-32b-instruct"
+pin = "pinned"
+
+["Qwen/Qwen2.5-VL-72B-Instruct"]
+model = "qwen/qwen2.5-vl-72b-instruct"
+pin = "pinned"
+
+["Qwen/Qwen3-235B-A22B-Thinking-2507"]
+model = "qwen/qwen3-235b-a22b-thinking-2507"
+pin = "pinned"
+
+["Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"]
+model = "qwen/qwen3-coder"
+pin = "pinned"
+
+["Qwen/Qwen3-Coder-Next-FP8"]
+model = "qwen/qwen3-coder-next"
+pin = "pinned"
+
 ["Qwen/Qwen3-Embedding-8B"]
 model = "qwen/qwen3-embedding-8b"
+pin = "pinned"
+
+["Qwen/Qwen3-Next-80B-A3B-Instruct"]
+model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"
 
 ["Qwen/Qwen3-Reranker-8B"]
@@ -25,6 +49,10 @@ pin = "pinned"
 
 ["Qwen/Qwen3-VL-235B-A22B-Instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
+pin = "pinned"
+
+["Qwen/Qwen3-VL-8B-Instruct"]
+model = "qwen/qwen3-vl-8b-instruct"
 pin = "pinned"
 
 ["Qwen/Qwen3.8-Flash"]
@@ -39,8 +67,20 @@ pin = "pinned"
 model = "canopylabs/orpheus-3b-0.1-ft"
 pin = "pinned"
 
+["deepseek-ai/DeepSeek-R1"]
+model = "deepseek/deepseek-r1"
+pin = "pinned"
+
 ["deepseek-ai/DeepSeek-V3"]
 model = "deepseek/deepseek-chat"
+pin = "pinned"
+
+["deepseek-ai/DeepSeek-V3-0324"]
+model = "deepseek/deepseek-chat-v3-0324"
+pin = "pinned"
+
+["deepseek-ai/DeepSeek-V3.1"]
+model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V4-Flash"]
@@ -97,6 +137,14 @@ pin = "pinned"
 
 ["glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["google/gemma-2-27b-it"]
+model = "google/gemma-2-27b-it"
+pin = "pinned"
+
+["google/gemma-4-31B-it"]
+model = "google/gemma-4-31b-it"
 pin = "pinned"
 
 ["gpt-oss-120b"]
@@ -163,6 +211,10 @@ pin = "pinned"
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"]
+model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
 ["meta-llama/llama-4-maverick-17b-128e-instruct"]
 model = "meta-llama/llama-4-maverick"
 pin = "pinned"
@@ -183,12 +235,24 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["mistralai/Mistral-Small-24B-Instruct-2501"]
+model = "mistralai/mistral-small-24b-instruct-2501"
+pin = "pinned"
+
 ["mistralai/Voxtral-Mini-3B-2507"]
 model = "mistralai/voxtral-mini-3b-2507"
 pin = "pinned"
 
 ["mistralai/Voxtral-Small-24B-2507"]
 model = "mistralai/voxtral-small-24b-2507"
+pin = "pinned"
+
+["moonshotai/Kimi-K2-Thinking"]
+model = "moonshotai/kimi-k2-thinking"
+pin = "pinned"
+
+["moonshotai/Kimi-K2.5"]
+model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
 ["moonshotai/Kimi-K2.6"]
@@ -283,6 +347,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
+["thinkingmachines/Inkling-Small"]
+model = "thinkingmachines/inkling-small"
+pin = "pinned"
+
 ["whisper-1"]
 model = "openai/whisper-1"
 pin = "pinned"
@@ -293,6 +361,26 @@ pin = "pinned"
 
 ["whisper-large-v3-turbo"]
 model = "openai/whisper-large-v3-turbo"
+pin = "pinned"
+
+["zai-org/GLM-4.5-Air-FP8"]
+model = "z-ai/glm-4.5-air"
+pin = "pinned"
+
+["zai-org/GLM-4.6"]
+model = "z-ai/glm-4.6"
+pin = "pinned"
+
+["zai-org/GLM-4.7"]
+model = "z-ai/glm-4.7"
+pin = "pinned"
+
+["zai-org/GLM-5"]
+model = "z-ai/glm-5"
+pin = "pinned"
+
+["zai-org/GLM-5.1"]
+model = "z-ai/glm-5.1"
 pin = "pinned"
 
 ["zai-org/GLM-5.3"]

@@ -164,11 +164,6 @@ pin = "pinned"
 model = "cohere/command-r7b-12-2024"
 pin = "pinned"
 
-["cohere/north-mini-code:free"]
-model = "cohere/north-mini-code"
-pin = "pinned"
-free = true
-
 ["deepseek/deepseek-chat"]
 model = "deepseek/deepseek-chat"
 pin = "pinned"
@@ -604,6 +599,10 @@ pin = "pinned"
 
 ["mistralai/mixtral-8x22b-instruct"]
 model = "mistralai/mixtral-8x22b-instruct"
+pin = "pinned"
+
+["mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["mistralai/voxtral-small-24b-2507"]
@@ -1338,10 +1337,6 @@ pin = "pinned"
 
 ["x-ai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["x-ai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.5"]

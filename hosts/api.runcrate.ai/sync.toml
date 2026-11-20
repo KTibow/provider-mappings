@@ -16,6 +16,10 @@ quant = "fp32"
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
 
+["LiquidAI/lfm-2.5-24b-a2b"]
+model = "liquid/lfm-2.5-24b-a2b"
+pin = "pinned"
+
 ["MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"

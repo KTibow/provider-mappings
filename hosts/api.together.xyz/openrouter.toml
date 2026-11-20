@@ -74,6 +74,10 @@ pin = "pinned"
 model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 
+["tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"

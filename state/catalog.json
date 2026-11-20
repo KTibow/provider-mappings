@@ -986,6 +986,7 @@
   "permaslug": "cohere/embed-5-pro-20261029"
  },
  "cohere/north-mini-code": {
+  "delisted": "2026-11-20",
   "formerly": [
    "cohere/north-mini-code:free"
   ],
@@ -1507,6 +1508,16 @@
   ],
   "permaslug": "google/gemini-2.5-flash-lite"
  },
+ "google/gemini-2.5-flash-tts": {
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemini 2.5 Flash TTS",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "google/gemini-2.5-flash-tts"
+ },
  "google/gemini-2.5-pro": {
   "input": [
    "audio",
@@ -1533,6 +1544,16 @@
    "text"
   ],
   "permaslug": "google/gemini-2.5-pro-preview-06-05"
+ },
+ "google/gemini-2.5-pro-tts": {
+  "input": [
+   "text"
+  ],
+  "name": "Google: Gemini 2.5 Pro TTS",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "google/gemini-2.5-pro-tts"
  },
  "google/gemini-3-flash-preview": {
   "input": [
@@ -3298,6 +3319,17 @@
    "text"
   ],
   "permaslug": "mistralai/mixtral-8x22b-instruct"
+ },
+ "mistralai/pixtral-large-2502": {
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Mistral: Pixtral Large 2502",
+  "output": [
+   "text"
+  ],
+  "permaslug": "mistralai/pixtral-large-2502"
  },
  "mistralai/voxtral-mini-3b-2507": {
   "hf": "mistralai/Voxtral-Mini-3B-2507",
@@ -6675,7 +6707,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok 4.20",
+  "name": "SpaceXSI: Grok 4.20",
   "output": [
    "text"
   ],
@@ -6687,7 +6719,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+  "name": "SpaceXSI: Grok 4.20 Multi-Agent",
   "output": [
    "text"
   ],
@@ -6699,7 +6731,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok 4.3",
+  "name": "SpaceXSI: Grok 4.3",
   "output": [
    "text"
   ],
@@ -6711,7 +6743,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok 4.5",
+  "name": "SpaceXSI: Grok 4.5",
   "output": [
    "text"
   ],
@@ -6723,7 +6755,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok 4.6",
+  "name": "SpaceXSI: Grok 4.6",
   "output": [
    "text"
   ],
@@ -6735,13 +6767,14 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok 4.7",
+  "name": "SpaceXSI: Grok 4.7",
   "output": [
    "text"
   ],
   "permaslug": "x-ai/grok-4.7-20260916"
  },
  "x-ai/grok-build-0.1": {
+  "delisted": "2026-11-20",
   "input": [
    "file",
    "image",
@@ -6769,7 +6802,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok Imagine Video",
+  "name": "SpaceXSI: Grok Imagine Video",
   "output": [
    "video"
   ],
@@ -6780,7 +6813,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok Imagine Video 1.5",
+  "name": "SpaceXSI: Grok Imagine Video 1.5",
   "output": [
    "video"
   ],
@@ -6791,7 +6824,7 @@
    "image",
    "text"
   ],
-  "name": "SpaceXAI: Grok Imagine Video 1.5 Lite",
+  "name": "SpaceXSI: Grok Imagine Video 1.5 Lite",
   "output": [
    "video"
   ],
@@ -6812,7 +6845,7 @@
   "input": [
    "audio"
   ],
-  "name": "SpaceXAI: Grok STT 2.0",
+  "name": "SpaceXSI: Grok STT 2.0",
   "output": [
    "transcription"
   ],
@@ -6822,7 +6855,7 @@
   "input": [
    "text"
   ],
-  "name": "SpaceXAI: Grok Voice TTS 1.0",
+  "name": "SpaceXSI: Grok Voice TTS 1.0",
   "output": [
    "speech"
   ],

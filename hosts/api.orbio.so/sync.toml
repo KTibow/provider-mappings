@@ -519,12 +519,20 @@ pin = "pinned"
 model = "google/gemini-2.5-flash-lite"
 pin = "pinned"
 
+["google/gemini-2.5-flash-tts"]
+model = "google/gemini-2.5-flash-tts"
+pin = "pinned"
+
 ["google/gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
 
 ["google/gemini-2.5-pro-preview"]
 model = "google/gemini-2.5-pro-preview"
+pin = "pinned"
+
+["google/gemini-2.5-pro-tts"]
+model = "google/gemini-2.5-pro-tts"
 pin = "pinned"
 
 ["google/gemini-3-flash-preview"]
@@ -1105,6 +1113,10 @@ pin = "pinned"
 
 ["mistralai/mixtral-8x22b-instruct"]
 model = "mistralai/mixtral-8x22b-instruct"
+pin = "pinned"
+
+["mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["mistralai/voxtral-mini-3b-2507"]
@@ -2249,10 +2261,6 @@ pin = "pinned"
 
 ["x-ai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["x-ai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["x-ai/grok-imagine-image-2.0"]

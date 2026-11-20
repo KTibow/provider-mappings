@@ -155,10 +155,6 @@ pin = "floating"
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
-["claude-sonnet-4-5-20250929"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-
 ["claude-sonnet-4-5:thinking"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
@@ -851,6 +847,14 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
+["gpt-audio"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
+["gpt-audio-2025-08-28"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -1035,6 +1039,10 @@ pin = "pinned"
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
 
+["lfm2.5-24b-a2b"]
+model = "liquid/lfm-2.5-24b-a2b"
+pin = "pinned"
+
 ["lfm3-1.7b"]
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
@@ -1077,10 +1085,6 @@ pin = "pinned"
 
 ["llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["llama-3.2-3b-instruct"]
@@ -1188,10 +1192,6 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["mistral-large-4-1t-a52b"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 

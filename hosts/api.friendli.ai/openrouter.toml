@@ -6,10 +6,6 @@
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["zai-org/GLM-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-
 ["zai-org/GLM-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
