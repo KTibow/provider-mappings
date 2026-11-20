@@ -339,10 +339,6 @@ pin = "pinned"
 model = "x-ai/grok-4.6"
 pin = "pinned"
 
-["grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
-pin = "pinned"
-
 ["gte-base"]
 model = "thenlper/gte-base"
 pin = "pinned"
@@ -385,6 +381,10 @@ pin = "pinned"
 
 ["hy3"]
 model = "tencent/hy3"
+pin = "pinned"
+
+["hy4"]
+model = "tencent/hy4"
 pin = "pinned"
 
 ["hy4-flash"]
@@ -487,20 +487,12 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
-["ling-3.0-tiny"]
-model = "inclusionai/ling-3.0-tiny"
-pin = "pinned"
-
 ["ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
 ["llama-3.1-70b-instruct"]
 model = "meta-llama/llama-3.1-70b-instruct"
-pin = "pinned"
-
-["llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["llama-3.2-3b-instruct"]
@@ -855,6 +847,10 @@ pin = "pinned"
 model = "microsoft/phi-4"
 pin = "pinned"
 
+["pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
+pin = "pinned"
+
 ["pixverse-v5.6"]
 model = "pixverse/pixverse-v5.6"
 pin = "pinned"
@@ -965,6 +961,10 @@ pin = "pinned"
 
 ["qwen3.5-122b-a10b"]
 model = "qwen/qwen3.5-122b-a10b"
+pin = "pinned"
+
+["qwen3.5-27b"]
+model = "qwen/qwen3.5-27b"
 pin = "pinned"
 
 ["qwen3.5-35b-a3b"]

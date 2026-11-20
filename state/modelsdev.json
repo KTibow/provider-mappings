@@ -1046,6 +1046,7 @@
       "google/gemini-flash-lite-latest",
       "google/gemini-pro-latest",
       "google/gemma-4-26b-a4b-it-cybersecurity",
+      "google/gemma4-31b-splituntied",
       "heabsy/cyberheabsy",
       "heabsy/qwen3.8-27b-uncensored-fast",
       "hermes-high",

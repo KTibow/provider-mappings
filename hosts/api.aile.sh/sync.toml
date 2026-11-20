@@ -351,6 +351,58 @@ pin = "pinned"
 model = "fish-audio/transcribe-1-pro"
 pin = "pinned"
 
+["g4f-gemini/models/gemini-2.5-flash"]
+model = "google/gemini-2.5-flash"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.1-flash-lite"]
+model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.1-flash-lite-preview"]
+model = "google/gemini-3.1-flash-lite-preview"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.5-flash"]
+model = "google/gemini-3.5-flash"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.6-flash"]
+model = "google/gemini-3.6-flash"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.7-flash"]
+model = "google/gemini-3.7-flash"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-3.8-flash"]
+model = "google/gemini-3.8-flash"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["g4f-gemini/models/gemini-flash-latest"]
+model = "~google/gemini-flash-latest"
+pin = "floating"
+
+["g4f-gemini/models/gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
+["g4f-gemini/models/gemma-4-31b-it"]
+model = "google/gemma-4-31b-it"
+pin = "pinned"
+
 ["gemini/gemini-3-flash-preview"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
@@ -1782,10 +1834,6 @@ pin = "pinned"
 
 ["vercel-ai-gateway/spacexai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["vercel-ai-gateway/spacexai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["vercel-ai-gateway/spacexai/grok-imagine-image"]

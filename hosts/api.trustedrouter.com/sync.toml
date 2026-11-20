@@ -1351,6 +1351,10 @@ pin = "pinned"
 model = "x-ai/grok-4.6"
 pin = "pinned"
 
+["x-ai/grok4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+
 ["xiaomi/mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"

@@ -905,29 +905,12 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 quant = "fp16"
 
-["cloudflare/@cf/deepseek-ai/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-
-["cloudflare/@cf/deepseek-ai/deepseek-v4-pro-0813"]
-model = "deepseek/deepseek-v4-pro-0813"
-pin = "pinned"
-
 ["cloudflare/@cf/deepseek-ai/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["cloudflare/@cf/google/gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
-pin = "pinned"
-
-["cloudflare/@cf/meta/llama-3.1-8b-instruct-fp8"]
-model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-quant = "fp8"
-
-["cloudflare/@cf/meta/llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["cloudflare/@cf/meta/llama-3.2-3b-instruct"]
@@ -946,10 +929,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
-["cloudflare/@cf/moonshotai/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
 ["cloudflare/@cf/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -960,10 +939,6 @@ pin = "pinned"
 
 ["cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct"]
 model = "qwen/qwen-2.5-coder-32b-instruct"
-pin = "pinned"
-
-["cloudflare/@cf/qwen/qwen3-30b-a3b-fp8"]
-model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
 
 ["cloudflare/@cf/qwen/qwen3.8-27b"]
@@ -978,16 +953,8 @@ pin = "pinned"
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
-["cloudflare/@cf/zai-org/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["cloudflare/@cf/zai-org/glm-5.3"]
 model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["cloudflare/@cf/zai-org/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["cohere/command-a-03-2025"]
@@ -3145,6 +3112,10 @@ pin = "pinned"
 model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 
+["together_ai/tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["together_ai/thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -3533,42 +3504,6 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
-["vertex/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["vertex/gemini-4-carbon@eu"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["vertex/gemini-4-carbon@us"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["vertex/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["vertex/gemini-4-hydrogen@eu"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["vertex/gemini-4-hydrogen@us"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["vertex/gemini-4-neon"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
-["vertex/gemini-4-neon@eu"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
-["vertex/gemini-4-neon@us"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
 ["vertex/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -3643,10 +3578,6 @@ pin = "pinned"
 
 ["xai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["xai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["xai/grok-latest"]

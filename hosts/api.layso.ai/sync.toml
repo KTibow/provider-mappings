@@ -63,10 +63,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["deepseek-v3"]
-model = "deepseek/deepseek-chat"
-pin = "pinned"
-
 ["deepseek-v3.1"]
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
@@ -165,6 +161,14 @@ pin = "pinned"
 
 ["gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["glm-4.5"]
+model = "z-ai/glm-4.5"
+pin = "pinned"
+
+["glm-4.5-air"]
+model = "z-ai/glm-4.5-air"
 pin = "pinned"
 
 ["glm-4.6"]

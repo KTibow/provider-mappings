@@ -175,11 +175,6 @@ pin = "pinned"
 model = "cohere/command-r7b-12-2024"
 pin = "pinned"
 
-["cohere/north-mini-code:free"]
-model = "cohere/north-mini-code"
-pin = "pinned"
-free = true
-
 ["deepseek/deepseek-chat"]
 model = "deepseek/deepseek-chat"
 pin = "pinned"
@@ -483,10 +478,6 @@ pin = "pinned"
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
 
-["meta-llama/llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
-pin = "pinned"
-
 ["meta-llama/llama-3.2-3b-instruct"]
 model = "meta-llama/llama-3.2-3b-instruct"
 pin = "pinned"
@@ -649,6 +640,10 @@ pin = "pinned"
 
 ["mistralai/mixtral-8x22b-instruct"]
 model = "mistralai/mixtral-8x22b-instruct"
+pin = "pinned"
+
+["mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["mistralai/voxtral-small-24b-2507"]

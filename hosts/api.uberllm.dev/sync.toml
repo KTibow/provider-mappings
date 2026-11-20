@@ -67,6 +67,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
+["anthropic/claude-opus-4.8-fast"]
+model = "anthropic/claude-opus-4.8-fast"
+pin = "pinned"
+
 ["anthropic/claude-opus-5"]
 model = "anthropic/claude-opus-5"
 pin = "pinned"
@@ -101,6 +105,10 @@ pin = "pinned"
 
 ["cohere/command-a-plus"]
 model = "cohere/command-a-plus"
+pin = "pinned"
+
+["deepseek/deepseek-r1"]
+model = "deepseek/deepseek-r1"
 pin = "pinned"
 
 ["deepseek/deepseek-v3.1"]
@@ -175,6 +183,14 @@ pin = "pinned"
 model = "venice/e2ee-gemma-4-31b"
 pin = "pinned"
 
+["google/gemini-2.5-flash"]
+model = "google/gemini-2.5-flash"
+pin = "pinned"
+
+["google/gemini-2.5-pro"]
+model = "google/gemini-2.5-pro"
+pin = "pinned"
+
 ["google/gemini-3-5-flash-lite"]
 model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
@@ -197,6 +213,10 @@ pin = "pinned"
 
 ["google/gemini-3.5-flash"]
 model = "google/gemini-3.5-flash"
+pin = "pinned"
+
+["google/gemini-3.5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
 
 ["google/gemini-3.7-flash"]
@@ -277,6 +297,10 @@ pin = "pinned"
 
 ["meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
+pin = "pinned"
+
+["meta-llama/llama-4-maverick"]
+model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
 ["meta-llama/muse-ember"]
@@ -385,6 +409,10 @@ pin = "pinned"
 
 ["mistralai/mistral-small-4"]
 model = "mistralai/mistral-small-2603"
+pin = "pinned"
+
+["mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["mistralai/voxtral-mini-3b-2507"]

@@ -16,10 +16,6 @@ quant = "fp32"
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
 
-["LiquidAI/lfm-2.5-24b-a2b"]
-model = "liquid/lfm-2.5-24b-a2b"
-pin = "pinned"
-
 ["MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -335,16 +331,16 @@ pin = "pinned"
 model = "openai/gpt-oss-safeguard-120b"
 pin = "pinned"
 
-["openai/gpt-oss-safeguard-20b"]
-model = "openai/gpt-oss-safeguard-20b"
-pin = "pinned"
-
 ["openai/whisper-large-v3"]
 model = "openai/whisper-large-v3"
 pin = "pinned"
 
 ["openai/whisper-large-v3-turbo"]
 model = "openai/whisper-large-v3-turbo"
+pin = "pinned"
+
+["reflection/beam-1.0-501b-a23b"]
+model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
 ["stabilityai/stable-diffusion-3-5-large"]

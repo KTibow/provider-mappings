@@ -7,8 +7,8 @@
   "error": "DNS: ENOTFOUND",
   "failing_since": "2026-11-12"
  },
- "void-api.tech": {
-  "error": "GET https://void-api.tech/v1/models -> HTTP 500: {\"error\":{\"type\":\"server_error\",\"message\":\"VoidAPI - Unable to process request.\",\"param\":null,\"code\":\"server_error\"}}",
-  "failing_since": "2026-11-19"
+ "apihub.agnes-ai.com": {
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261120113721863876395rcgxz2uj)\",\"type\":\"AgnesAI_error\"}}",
+  "failing_since": "2026-11-20"
  }
 }

@@ -1306,6 +1306,10 @@ pin = "pinned"
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
+["together_ai/tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["together_ai/thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -1488,10 +1492,6 @@ pin = "pinned"
 
 ["xai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["xai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["xai/grok-latest"]

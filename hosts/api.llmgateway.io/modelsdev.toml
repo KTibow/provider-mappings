@@ -2458,6 +2458,10 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
+["together-ai/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["together-ai/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

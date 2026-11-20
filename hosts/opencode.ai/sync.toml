@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["bge-m3"]
+model = "baai/bge-m3"
+pin = "pinned"
+
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -114,6 +118,14 @@ pin = "pinned"
 
 ["gemini-decision-1"]
 model = "google/gemini-decision-1"
+pin = "pinned"
+
+["gemini-embedding-001"]
+model = "google/gemini-embedding-001"
+pin = "pinned"
+
+["gemini-embedding-2"]
+model = "google/gemini-embedding-2"
 pin = "pinned"
 
 ["gemini-nano-banana-2.1"]
@@ -317,6 +329,10 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 free = true
 
+["qwen3-embedding-8b"]
+model = "qwen/qwen3-embedding-8b"
+pin = "pinned"
+
 ["qwen3.5-plus"]
 model = "alibaba/qwen3.5-plus"
 pin = "pinned"
@@ -332,3 +348,19 @@ pin = "pinned"
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["text-embedding-3-large"]
+model = "openai/text-embedding-3-large"
+pin = "pinned"
+
+["text-embedding-3-small"]
+model = "openai/text-embedding-3-small"
+pin = "pinned"
+
+["voyage-4"]
+model = "mongodb/voyage-4"
+pin = "pinned"
+
+["voyage-code-4"]
+model = "mongodb/voyage-code-4"
+pin = "pinned"

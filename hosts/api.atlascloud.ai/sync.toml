@@ -109,6 +109,21 @@ model = "google/gemini-3.5-flash"
 pin = "pinned"
 quant = "fp8"
 
+["google/gemini-3.5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
+pin = "pinned"
+quant = "fp8"
+
+["google/gemini-3.6-flash"]
+model = "google/gemini-3.6-flash"
+pin = "pinned"
+quant = "fp8"
+
+["google/gemini-3.7-flash"]
+model = "google/gemini-3.7-flash"
+pin = "pinned"
+quant = "fp8"
+
 ["google/gemini-3.8-flash"]
 model = "google/gemini-3.8-flash"
 pin = "pinned"
