@@ -2132,6 +2132,7 @@
  },
  "heygen/heygen-decision-1": {
   "input": [
+   "audio",
    "image",
    "text",
    "video"
@@ -2144,6 +2145,7 @@
  },
  "heygen/heygen-decision-1-turbo": {
   "input": [
+   "audio",
    "image",
    "text",
    "video"
@@ -2435,6 +2437,7 @@
   "permaslug": "kwaivgi/kling-video-o1-20260420"
  },
  "liquid/d1": {
+  "delisted": "2026-11-20",
   "input": [
    "image",
    "text"
@@ -6434,6 +6437,7 @@
   "permaslug": "tencent/hy3-20260706"
  },
  "tencent/hy3-preview": {
+  "delisted": "2026-11-20",
   "hf": "tencent/Hy3-preview",
   "input": [
    "text"

@@ -315,6 +315,10 @@ pin = "pinned"
 model = "openai/whisper-large-v3"
 pin = "pinned"
 
+["openai/whisper-large-v3-turbo"]
+model = "openai/whisper-large-v3-turbo"
+pin = "pinned"
+
 ["parakeet-tdt-0.6b-v3"]
 model = "nvidia/parakeet-tdt-0.6b-v3"
 pin = "pinned"

@@ -331,6 +331,10 @@ pin = "pinned"
 model = "openai/gpt-oss-safeguard-120b"
 pin = "pinned"
 
+["openai/gpt-oss-safeguard-20b"]
+model = "openai/gpt-oss-safeguard-20b"
+pin = "pinned"
+
 ["openai/whisper-large-v3"]
 model = "openai/whisper-large-v3"
 pin = "pinned"

@@ -54,6 +54,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro-prime"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["qwen-audio-3.0-tts-flash"]
 model = "qwen/qwen-audio-3.0-tts-flash"
 pin = "pinned"

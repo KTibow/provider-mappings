@@ -7,13 +7,8 @@ model = "qwen/qwen3-32b"
 pin = "pinned"
 quant = "fp8"
 
-["Qwen/Qwen3.8-27B"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-quant = "fp8"
-
-["deepseek-ai/DeepSeek-V4.1-Flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
+["xiaomi/mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 quant = "fp8"
 

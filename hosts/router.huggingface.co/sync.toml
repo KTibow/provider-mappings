@@ -27,10 +27,6 @@ pin = "pinned"
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
-["LiquidAI/LFM2.5-24B-A2B"]
-model = "liquid/lfm-2.5-24b-a2b"
-pin = "pinned"
-
 ["LiquidAI/LFM3-1.7B"]
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"

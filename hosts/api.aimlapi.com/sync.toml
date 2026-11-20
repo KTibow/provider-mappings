@@ -739,6 +739,14 @@ pin = "pinned"
 model = "heygen/avatar-iv"
 pin = "pinned"
 
+["heygen/decision-1"]
+model = "heygen/heygen-decision-1"
+pin = "pinned"
+
+["heygen/decision-1-turbo"]
+model = "heygen/heygen-decision-1-turbo"
+pin = "pinned"
+
 ["heygen/video-1-image-to-video"]
 model = "heygen/heygen-video-1:image-to-video"
 pin = "pinned"
@@ -997,6 +1005,10 @@ pin = "pinned"
 
 ["mistralai/mixtral-8x22b-instruct"]
 model = "mistralai/mixtral-8x22b-instruct"
+pin = "pinned"
+
+["mistralai/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["mistralai/voxtral-small-24b-2507"]

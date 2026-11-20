@@ -238,20 +238,8 @@ pin = "pinned"
 model = "aisingapore/gemma-sea-lion-v4-27b-it"
 pin = "pinned"
 
-["cloudflare/@cf/deepseek-ai/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-
-["cloudflare/@cf/deepseek-ai/deepseek-v4-pro-0813"]
-model = "deepseek/deepseek-v4-pro-0813"
-pin = "pinned"
-
 ["cloudflare/@cf/deepseek-ai/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
-["cloudflare/@cf/meta/llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["cloudflare/@cf/meta/llama-3.2-3b-instruct"]
@@ -1428,42 +1416,6 @@ pin = "pinned"
 
 ["vertex/gemini-4-argon@us"]
 model = "google/gemini-4-argon"
-pin = "pinned"
-
-["vertex/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["vertex/gemini-4-carbon@eu"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["vertex/gemini-4-carbon@us"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["vertex/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["vertex/gemini-4-hydrogen@eu"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["vertex/gemini-4-hydrogen@us"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["vertex/gemini-4-neon"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
-["vertex/gemini-4-neon@eu"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
-["vertex/gemini-4-neon@us"]
-model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["vertex/gemini-flash-latest"]

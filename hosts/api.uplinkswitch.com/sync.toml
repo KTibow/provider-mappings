@@ -615,10 +615,6 @@ pin = "pinned"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
-["remm-slerp-l2-13b"]
-model = "undi95/remm-slerp-l2-13b"
-pin = "pinned"
-
 ["skyfall-36b-v2"]
 model = "thedrummer/skyfall-36b-v2"
 pin = "pinned"

@@ -54,6 +54,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"]
+model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
 ["nvidia/Nemotron-3-Ultra-550b-a55b"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"

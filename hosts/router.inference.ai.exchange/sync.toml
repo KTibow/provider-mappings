@@ -683,6 +683,10 @@ pin = "pinned"
 model = "openai/gpt-4o-mini"
 pin = "pinned"
 
+["gpt-4o-mini-2024-07-18"]
+model = "openai/gpt-4o-mini-2024-07-18"
+pin = "pinned"
+
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"
@@ -846,6 +850,10 @@ pin = "pinned"
 ["gpt-astra-latest"]
 model = "~openai/gpt-astra-latest"
 pin = "floating"
+
+["gpt-audio-2025-08-28"]
+model = "openai/gpt-audio"
+pin = "pinned"
 
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
@@ -1029,10 +1037,6 @@ pin = "pinned"
 
 ["lfm-3-1.7b"]
 model = "liquid/lfm-3-1.7b"
-pin = "pinned"
-
-["lfm2.5-24b-a2b"]
-model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
 ["lfm3-1.7b"]
@@ -1873,6 +1877,14 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+pin = "pinned"
+
+["veo3.1"]
+model = "google/veo-3.1"
+pin = "pinned"
+
+["veo3.1-fast"]
+model = "google/veo-3.1-fast"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

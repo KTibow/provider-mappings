@@ -348,11 +348,6 @@ model = "anthropic/claude-opus-5"
 pin = "pinned"
 quant = "fp16"
 
-["claude-opus-5-5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-quant = "fp16"
-
 ["claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
@@ -385,6 +380,11 @@ quant = "fp16"
 
 ["deepseek-v4-flash"]
 model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+quant = "fp16"
+
+["deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 quant = "fp16"
 
@@ -460,11 +460,6 @@ quant = "fp16"
 
 ["gemini-3.7-flash"]
 model = "google/gemini-3.7-flash"
-pin = "pinned"
-quant = "fp16"
-
-["gemini-3.8-flash"]
-model = "google/gemini-3.8-flash"
 pin = "pinned"
 quant = "fp16"
 
@@ -598,6 +593,11 @@ model = "openai/gpt-5.2"
 pin = "pinned"
 quant = "fp16"
 
+["gpt-5.3-codex"]
+model = "openai/gpt-5.3-codex"
+pin = "pinned"
+quant = "fp16"
+
 ["gpt-5.4"]
 model = "openai/gpt-5.4"
 pin = "pinned"
@@ -683,6 +683,11 @@ model = "x-ai/grok-4.6"
 pin = "pinned"
 quant = "fp16"
 
+["grok-4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+quant = "fp16"
+
 ["hy3"]
 model = "tencent/hy3"
 pin = "pinned"
@@ -735,11 +740,6 @@ quant = "fp16"
 
 ["mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-quant = "fp16"
-
-["mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 quant = "fp16"
 
@@ -915,11 +915,6 @@ quant = "fp16"
 
 ["qwen3-vl-235b-a22b-instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
-pin = "pinned"
-quant = "fp16"
-
-["qwen3.8-2.4t-a95b"]
-model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 quant = "fp16"
 
@@ -1197,8 +1192,3 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
-
-["xiaomi-mimo-v2-5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-quant = "fp16"

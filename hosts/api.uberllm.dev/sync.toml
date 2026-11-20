@@ -271,6 +271,10 @@ pin = "pinned"
 model = "google/gemma-4-E2B-it"
 pin = "pinned"
 
+["google/gemma-4-uncensored"]
+model = "google/gemma-4-uncensored"
+pin = "pinned"
+
 ["inception/mercury-2"]
 model = "inception/mercury-2"
 pin = "pinned"

@@ -399,10 +399,6 @@ pin = "pinned"
 model = "kt/midm-k-3.0-pro"
 pin = "pinned"
 
-["liquid/d1"]
-model = "liquid/d1"
-pin = "pinned"
-
 ["liquid/d1-ultra"]
 model = "liquid/d1-ultra"
 pin = "pinned"

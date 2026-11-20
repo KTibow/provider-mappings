@@ -615,6 +615,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro-prime"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["kling-v3-0-pro"]
 model = "kwaivgi/kling-v3.0-pro"
 pin = "pinned"

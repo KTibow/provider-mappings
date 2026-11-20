@@ -1007,10 +1007,6 @@ pin = "pinned"
 model = "qwen/qwen3-235b-a22b-thinking-2507"
 pin = "pinned"
 
-["qwen/qwen3-235b-a22b-thinking-2507-fp8"]
-model = "qwen/qwen3-235b-a22b-thinking-2507"
-pin = "pinned"
-
 ["qwen/qwen3-30b-a3b"]
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
@@ -1036,10 +1032,6 @@ model = "qwen/qwen3-coder-30b-a3b-instruct"
 pin = "pinned"
 
 ["qwen/qwen3-coder-480b-a35b-instruct"]
-model = "qwen/qwen3-coder"
-pin = "pinned"
-
-["qwen/qwen3-coder-480b-a35b-instruct-fp8"]
 model = "qwen/qwen3-coder"
 pin = "pinned"
 

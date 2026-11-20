@@ -417,6 +417,7 @@
     ],
     "api.llmgateway.io": [
       "alibaba/deepseek-v4.1-flash-latest",
+      "alibaba/kimi-k3.1-pro-prime",
       "alibaba/qwen-plus-latest",
       "auto",
       "baidu/deepseek-v4.1-flash-latest",
@@ -458,6 +459,7 @@
       "moonshot/kimi-k3.1-pro-highspeed",
       "novita/deepseek-v4.1-flash-latest",
       "qwen-plus-latest",
+      "reka-ai/deepseek-v4.1-flash-latest",
       "runpod/kimi-k3.1-pro-highspeed",
       "runware/deepseek-v4.1-flash-latest",
       "sciforium/deepseek-v4.1-flash-latest",
@@ -1117,6 +1119,7 @@
       "qwen/qwen3.8-27b-synthia",
       "qwen/qwen3.8-27b-uncensored",
       "qwen/qwen3.8-27b-uncensored:thinking",
+      "radixark/daisyrose-27b",
       "sakana/fugu-ultra-v1.1",
       "shisa-ai/shisa-v2-llama3.3-70b",
       "shisa-ai/shisa-v2.1-llama3.3-70b",

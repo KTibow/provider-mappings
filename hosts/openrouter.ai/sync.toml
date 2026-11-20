@@ -850,10 +850,6 @@ pin = "pinned"
 model = "kwaivgi/kling-video-o1"
 pin = "pinned"
 
-["liquid/d1"]
-model = "liquid/d1"
-pin = "pinned"
-
 ["liquid/d1-ultra"]
 model = "liquid/d1-ultra"
 pin = "pinned"
@@ -2235,10 +2231,6 @@ pin = "pinned"
 
 ["tencent/hy3"]
 model = "tencent/hy3"
-pin = "pinned"
-
-["tencent/hy3-preview"]
-model = "tencent/hy3-preview"
 pin = "pinned"
 
 ["tencent/hy4"]

@@ -3,10 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["deepseek-v4-1-flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
 ["mistral-large-latest"]
 model = "~mistralai/mistral-large-latest"
 pin = "floating"

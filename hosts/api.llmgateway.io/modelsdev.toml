@@ -698,10 +698,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
-["consensusprotocol/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
 ["consensusprotocol/deepseek-v4.1-flash-uncensored"]
 model = "deepseek/deepseek-v4.1-flash-uncensored"
 pin = "pinned"
@@ -1454,6 +1450,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro-prime"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
@@ -2164,6 +2164,10 @@ pin = "pinned"
 
 ["reka-ai/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["reka-ai/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["reka-ai/glm-5.3-flash"]
