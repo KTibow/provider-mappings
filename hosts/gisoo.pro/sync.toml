@@ -375,8 +375,20 @@ pin = "pinned"
 model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
+["gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+
+["gpt-oss-20b"]
+model = "openai/gpt-oss-20b"
+pin = "pinned"
+
 ["gpt-transcribe"]
 model = "openai/gpt-transcribe"
+pin = "pinned"
+
+["groq/qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["lyria-3-clip-preview"]
@@ -2653,4 +2665,12 @@ pin = "pinned"
 
 ["whisper-1"]
 model = "openai/whisper-1"
+pin = "pinned"
+
+["whisper-large-v3"]
+model = "openai/whisper-large-v3"
+pin = "pinned"
+
+["whisper-large-v3-turbo"]
+model = "openai/whisper-large-v3-turbo"
 pin = "pinned"

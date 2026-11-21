@@ -107,6 +107,14 @@ pin = "pinned"
 model = "openai/gpt-image-2.6-sunburst"
 pin = "pinned"
 
+["qwen/qwen-audio-3.0-tts-flash"]
+model = "qwen/qwen-audio-3.0-tts-flash"
+pin = "pinned"
+
+["qwen/qwen3.7-plus"]
+model = "qwen/qwen3.7-plus"
+pin = "pinned"
+
 ["qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"

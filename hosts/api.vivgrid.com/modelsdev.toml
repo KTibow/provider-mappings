@@ -70,6 +70,18 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"

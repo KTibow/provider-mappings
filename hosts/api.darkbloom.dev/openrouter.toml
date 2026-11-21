@@ -20,6 +20,7 @@ quant = "fp4"
 ["gemma-4-26b-a4b-it"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
+quant = "int4"
 
 ["glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"

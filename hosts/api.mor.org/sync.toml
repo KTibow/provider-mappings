@@ -123,10 +123,6 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
-["GLM 5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["GLM 5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
@@ -231,32 +227,12 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
-["GPT-6.1 Terra"]
-model = "openai/gpt-6.1-terra"
-pin = "pinned"
-
-["GPT-6.2 Astra"]
-model = "openai/gpt-6.2-astra"
-pin = "pinned"
-
-["GPT-6.2 Astra Pro"]
-model = "openai/gpt-6.2-astra-pro"
-pin = "pinned"
-
-["GPT-6.2 Sol"]
-model = "openai/gpt-6.2-sol"
-pin = "pinned"
-
 ["GPT-6.2 Sol Pro"]
 model = "openai/gpt-6.2-sol-pro"
 pin = "pinned"
 
 ["Gemini 3 Flash Preview"]
 model = "google/gemini-3-flash-preview"
-pin = "pinned"
-
-["Gemini 3.5 Flash"]
-model = "google/gemini-3.5-flash"
 pin = "pinned"
 
 ["Gemini 3.5 Flash-Lite"]
@@ -277,10 +253,6 @@ pin = "pinned"
 
 ["Gemini 4 Argon"]
 model = "google/gemini-4-argon"
-pin = "pinned"
-
-["Gemini 4 Carbon"]
-model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["Gemini 4 Hydrogen"]
@@ -339,10 +311,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3-fast"
 pin = "pinned"
 
-["Kimi K3.1 Pro"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-
 ["Kimi-K2.5"]
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
@@ -383,10 +351,6 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
-["OpenAI GPT OSS 120B"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-
 ["Qwen 3 235B A22B Instruct 2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
@@ -401,10 +365,6 @@ pin = "pinned"
 
 ["Qwen 3.6 35B A3B"]
 model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-
-["Qwen 3.6 Plus Uncensored"]
-model = "venice/qwen3.6-plus-uncensored"
 pin = "pinned"
 
 ["Qwen 3.7 Max"]
@@ -422,10 +382,6 @@ pin = "pinned"
 ["Qwen 3.8 Flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
-
-["Qwen 3.8 Max"]
-model = "~qwen/qwen3.8-max-latest"
-pin = "floating"
 
 ["Qwen 4 Max"]
 model = "qwen/qwen4-max"
@@ -461,10 +417,6 @@ pin = "pinned"
 
 ["claude-opus-4.8"]
 model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["deepseek-v4-1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
 ["deepseek-v4-flash"]
@@ -613,6 +565,10 @@ pin = "pinned"
 
 ["qwen3.5-flash"]
 model = "alibaba/qwen3.5-flash"
+pin = "pinned"
+
+["qwen3.6-plus"]
+model = "qwen/qwen3.6-plus"
 pin = "pinned"
 
 ["qwen3.7-flash"]

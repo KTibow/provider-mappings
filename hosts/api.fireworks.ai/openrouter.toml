@@ -22,6 +22,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["accounts/fireworks/models/gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+
 ["accounts/fireworks/models/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -38,6 +42,10 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
+["accounts/fireworks/models/nemotron-3-ultra-nvfp4"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
 ["accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"]
 model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
@@ -49,6 +57,11 @@ pin = "pinned"
 # ---------------------------------------------------------------------------
 # Rows below need a person to check them, so they are commented out.
 # Once verified, copy the row (uncommented) into manual.toml.
+
+# needs review: native id has "max", which qwen/qwen3.8-2.4t-a95b lacks: a tier or variant, not the model itself
+# ["accounts/fireworks/models/qwen3p8-max"]
+# model = "qwen/qwen3.8-2.4t-a95b"
+# pin = "pinned"
 
 # needs review: native id has "spot", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
 # ["accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot"]

@@ -16,6 +16,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-max-0902"
 pin = "pinned"
 
+["Qwen/Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["deepseek-ai/DeepSeek-V3.2-TEE"]
 model = "deepseek/deepseek-v3.2"
 pin = "pinned"

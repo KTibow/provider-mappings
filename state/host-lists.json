@@ -3,6 +3,7 @@
  "ai-gateway.kilo.ai": "https://ai-gateway.kilo.ai/api/v1/models",
  "ai-gateway.vercel.sh": "https://ai-gateway.vercel.sh/v1/models",
  "ai.zenifra.com": "https://ai.zenifra.com/v1/models",
+ "aigrow.gg": "https://aigrow.gg/v1/models",
  "aihubmix.com": "https://aihubmix.com/v1/models",
  "api-inference.modelscope.cn": "https://api-inference.modelscope.cn/v1/models",
  "api.abliteratedllm.dev": "https://api.abliteratedllm.dev/v1/models",

@@ -31,10 +31,6 @@ pin = "pinned"
 model = "z-ai/glm-5.2"
 pin = "pinned"
 
-["accounts/fireworks/models/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-
 ["accounts/fireworks/models/inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -61,10 +57,6 @@ pin = "pinned"
 
 ["accounts/fireworks/models/muse-glimmer-30b"]
 model = "meta/muse-glimmer-30b"
-pin = "pinned"
-
-["accounts/fireworks/models/nemotron-3-ultra-nvfp4"]
-model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["accounts/fireworks/models/qwen3-235b-a22b-instruct-2507"]

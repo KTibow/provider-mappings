@@ -1430,10 +1430,6 @@ pin = "pinned"
 model = "sarvam/sarvam-105b"
 pin = "pinned"
 
-["stepfun-ai/step-3.5-flash"]
-model = "stepfun/step-3.5-flash"
-pin = "pinned"
-
 ["stepfun/step-3.7-flash:thinking"]
 model = "stepfun/step-3.7-flash"
 pin = "pinned"

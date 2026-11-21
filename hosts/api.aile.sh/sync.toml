@@ -992,6 +992,10 @@ pin = "pinned"
 model = "meta/muse-ember"
 pin = "pinned"
 
+["surplus/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
+pin = "pinned"
+
 ["surplus/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"

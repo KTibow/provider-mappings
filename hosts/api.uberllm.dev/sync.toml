@@ -207,6 +207,10 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
+["google/gemini-3.1-pro"]
+model = "google/gemini-3.1-pro"
+pin = "pinned"
+
 ["google/gemini-3.1-pro-preview"]
 model = "google/gemini-3.1-pro-preview"
 pin = "pinned"
