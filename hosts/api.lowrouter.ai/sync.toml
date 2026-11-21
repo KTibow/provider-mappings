@@ -815,6 +815,10 @@ pin = "pinned"
 model = "sentence-transformers/paraphrase-minilm-l6-v2"
 pin = "pinned"
 
+["auto/tencent/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["auto/tencent/hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -1461,6 +1465,10 @@ pin = "pinned"
 
 ["deepinfra/sentence-transformers/paraphrase-minilm-l6-v2"]
 model = "sentence-transformers/paraphrase-minilm-l6-v2"
+pin = "pinned"
+
+["deepinfra/tencent/hy4"]
+model = "tencent/hy4"
 pin = "pinned"
 
 ["deepinfra/tencent/hy4-preview"]

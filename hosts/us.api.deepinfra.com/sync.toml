@@ -138,3 +138,7 @@ pin = "pinned"
 ["nvidia/llama-nemotron-embed-vl-1b-v2"]
 model = "nvidia/llama-nemotron-embed-vl-1b-v2"
 pin = "pinned"
+
+["tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"

@@ -3,7 +3,7 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["qwen/qwen3.6-35b-a3b"]
-model = "qwen/qwen3.6-35b-a3b"
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
-quant = "fp8"
+quant = "fp4"

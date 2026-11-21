@@ -15,10 +15,6 @@ pin = "pinned"
 model = "minimax/minimax-m2.1"
 pin = "pinned"
 
-["MiniMax-M3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-
 ["MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
@@ -84,10 +80,6 @@ model = "~anthropic/claude-fable-latest"
 pin = "floating"
 
 ["claude-haiku-4-5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
-["claude-haiku-4-5-20251001"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
@@ -787,10 +779,6 @@ pin = "pinned"
 model = "openai/gpt-5.5-pro"
 pin = "pinned"
 
-["gpt-5.6-sol"]
-model = "openai/gpt-5.6-sol"
-pin = "pinned"
-
 ["gpt-6-astra"]
 model = "openai/gpt-6-astra"
 pin = "pinned"
@@ -850,6 +838,10 @@ pin = "pinned"
 ["gpt-astra-latest"]
 model = "~openai/gpt-astra-latest"
 pin = "floating"
+
+["gpt-audio-2025-08-28"]
+model = "openai/gpt-audio"
+pin = "pinned"
 
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
@@ -953,10 +945,6 @@ pin = "pinned"
 
 ["hy4"]
 model = "tencent/hy4"
-pin = "pinned"
-
-["hy4-preview"]
-model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["ideogram-v4.5"]
@@ -1295,10 +1283,6 @@ pin = "pinned"
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
 
-["nemotron-3-super-120b-a12b"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-
 ["nemotron-3-super-120b-a12b:thinking"]
 model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
@@ -1521,10 +1505,6 @@ pin = "pinned"
 
 ["qwen3-32b"]
 model = "qwen/qwen3-32b"
-pin = "pinned"
-
-["qwen3-coder"]
-model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["qwen3-coder-30b-a3b-instruct"]
@@ -1829,6 +1809,10 @@ pin = "pinned"
 
 ["solar-pro4:thinking"]
 model = "upstage/solar-pro4"
+pin = "pinned"
+
+["sonar-pro"]
+model = "perplexity/sonar-pro"
 pin = "pinned"
 
 ["stable-diffusion-3.5-large"]

@@ -123,6 +123,10 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
+["GLM 5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
 ["GLM 5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
@@ -141,10 +145,6 @@ pin = "pinned"
 
 ["GLM-5.1"]
 model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["GPT OSS 20B"]
-model = "openai/gpt-oss-20b"
 pin = "pinned"
 
 ["GPT-4o"]
@@ -227,12 +227,32 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
+["GPT-6.1 Terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["GPT-6.2 Astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["GPT-6.2 Astra Pro"]
+model = "openai/gpt-6.2-astra-pro"
+pin = "pinned"
+
+["GPT-6.2 Sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["GPT-6.2 Sol Pro"]
 model = "openai/gpt-6.2-sol-pro"
 pin = "pinned"
 
 ["Gemini 3 Flash Preview"]
 model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
+["Gemini 3.5 Flash"]
+model = "google/gemini-3.5-flash"
 pin = "pinned"
 
 ["Gemini 3.5 Flash-Lite"]
@@ -253,6 +273,10 @@ pin = "pinned"
 
 ["Gemini 4 Argon"]
 model = "google/gemini-4-argon"
+pin = "pinned"
+
+["Gemini 4 Carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["Gemini 4 Hydrogen"]
@@ -309,6 +333,10 @@ pin = "pinned"
 
 ["Kimi K3 Fast"]
 model = "moonshotai/kimi-k3-fast"
+pin = "pinned"
+
+["Kimi K3.1 Pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["Kimi-K2.5"]
@@ -383,6 +411,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
+["Qwen 3.8 Max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
+
 ["Qwen 4 Max"]
 model = "qwen/qwen4-max"
 pin = "pinned"
@@ -441,10 +473,6 @@ pin = "pinned"
 
 ["glm-4.6"]
 model = "z-ai/glm-4.6"
-pin = "pinned"
-
-["glm-4.7"]
-model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["glm-5"]

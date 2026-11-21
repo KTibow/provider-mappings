@@ -77,6 +77,11 @@ model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 quant = "int4"
 
+["nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+quant = "bf16"
+
 ["nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"]
 model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"

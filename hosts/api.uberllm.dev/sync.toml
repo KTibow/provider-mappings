@@ -115,10 +115,6 @@ pin = "pinned"
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
-["deepseek/deepseek-v3.1-terminus"]
-model = "deepseek/deepseek-v3.1-terminus"
-pin = "pinned"
-
 ["deepseek/deepseek-v3.2"]
 model = "deepseek/deepseek-v3.2"
 pin = "pinned"
@@ -309,10 +305,6 @@ pin = "pinned"
 
 ["meta-llama/llama-4-maverick"]
 model = "meta-llama/llama-4-maverick"
-pin = "pinned"
-
-["meta-llama/llama-4-scout"]
-model = "meta-llama/llama-4-scout"
 pin = "pinned"
 
 ["meta-llama/muse-ember"]

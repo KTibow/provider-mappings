@@ -383,6 +383,11 @@ model = "deepseek/deepseek-v3.2"
 pin = "pinned"
 quant = "fp16"
 
+["deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+quant = "fp16"
+
 ["deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -400,11 +405,6 @@ quant = "fp16"
 
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-quant = "fp16"
-
-["deepseek-v4.1-flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 quant = "fp16"
 

@@ -49,16 +49,6 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["claude-haiku-5-5:free"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-free = true
-
-["claude-haiku-5-5:free[1m]"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-free = true
-
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
@@ -159,6 +149,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v3.1-terminus"
 pin = "pinned"
 
+["deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+
 ["deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -183,11 +177,6 @@ pin = "pinned"
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
-
-["deepseek-v4.1-flash:free"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-free = true
 
 ["dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview"
@@ -332,9 +321,10 @@ pin = "pinned"
 model = "z-ai/glm-4.7"
 pin = "pinned"
 
-["glm-4.7-flash"]
+["glm-4.7-flash:free"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
+free = true
 
 ["glm-5.1"]
 model = "z-ai/glm-5.1"
@@ -418,6 +408,11 @@ pin = "pinned"
 model = "openai/gpt-image-2.5-sunburst"
 pin = "pinned"
 
+["gpt-oss-120b:free"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+free = true
+
 ["gpt-oss-20b:free"]
 model = "openai/gpt-oss-20b"
 pin = "pinned"
@@ -449,6 +444,10 @@ free = true
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-preview"]
+model = "tencent/hy4-preview"
+pin = "pinned"
+
 ["jev-1.13"]
 model = "typesafe/jev-1.13"
 pin = "pinned"
@@ -473,13 +472,13 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["kimi-k3.1-pro:free"]
-model = "moonshotai/kimi-k3.1-pro"
+["lfm-2.5-embedding-350m:free"]
+model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
 free = true
 
-["lfm-2.5-embedding-350m:free"]
-model = "liquid/lfm-2.5-embedding-350m"
+["llama-4-scout:free"]
+model = "meta-llama/llama-4-scout"
 pin = "pinned"
 free = true
 
@@ -495,14 +494,14 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
+["mimo-v2.6-flash:free"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+free = true
+
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
-
-["minimax-m2.5:free"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-free = true
 
 ["minimax-m2.7"]
 model = "minimax/minimax-m2.7"
@@ -510,6 +509,10 @@ pin = "pinned"
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
+pin = "pinned"
+
+["minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["minimax-m3.1-flash:free"]
@@ -567,16 +570,6 @@ model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
 free = true
 
-["qwen3.5-flash:free"]
-model = "alibaba/qwen3.5-flash"
-pin = "pinned"
-free = true
-
-["qwen3.5-plus:free"]
-model = "alibaba/qwen3.5-plus"
-pin = "pinned"
-free = true
-
 ["qwen3.7-flash:free"]
 model = "qwen/qwen3.7-flash"
 pin = "pinned"
@@ -590,6 +583,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 free = true
+
+["qwen3.8-flash"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
 
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
