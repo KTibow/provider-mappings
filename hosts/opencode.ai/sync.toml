@@ -132,6 +132,10 @@ pin = "pinned"
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
 
+["gemini-omni-1.2-flash"]
+model = "google/gemini-omni-1.2-flash"
+pin = "pinned"
+
 ["glm-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

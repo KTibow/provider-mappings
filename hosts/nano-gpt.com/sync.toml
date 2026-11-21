@@ -435,6 +435,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["google/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -1277,10 +1281,6 @@ pin = "pinned"
 
 ["sakana/fugu-ultra"]
 model = "sakana/fugu-ultra"
-pin = "pinned"
-
-["stepfun-ai/step-3.5-flash"]
-model = "stepfun/step-3.5-flash"
 pin = "pinned"
 
 ["stepfun/step-3.7-flash:thinking"]

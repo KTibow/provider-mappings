@@ -215,6 +215,10 @@ pin = "pinned"
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
 
+["deepseek-v3"]
+model = "deepseek/deepseek-chat"
+pin = "pinned"
+
 ["deepseek-v3-0324"]
 model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
@@ -843,10 +847,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio"]
-model = "openai/gpt-audio"
-pin = "pinned"
-
 ["gpt-audio-2025-08-28"]
 model = "openai/gpt-audio"
 pin = "pinned"
@@ -1031,6 +1031,10 @@ pin = "pinned"
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
+["lfm2.5-24b-a2b"]
+model = "liquid/lfm-2.5-24b-a2b"
+pin = "pinned"
+
 ["lfm3-1.7b"]
 model = "liquid/lfm-3-1.7b"
 pin = "pinned"
@@ -1180,6 +1184,10 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["mistral-large-4-1t-a52b"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
@@ -1380,10 +1388,6 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
 ["o3"]
-model = "openai/o3"
-pin = "pinned"
-
-["o3-2025-04-16"]
 model = "openai/o3"
 pin = "pinned"
 
@@ -1819,14 +1823,6 @@ pin = "pinned"
 model = "upstage/solar-pro4"
 pin = "pinned"
 
-["sonar"]
-model = "perplexity/sonar"
-pin = "pinned"
-
-["sonar-pro"]
-model = "perplexity/sonar-pro"
-pin = "pinned"
-
 ["stable-diffusion-3.5-large"]
 model = "stabilityai/stable-diffusion-3.5-large"
 pin = "pinned"
@@ -1873,10 +1869,6 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
-pin = "pinned"
-
-["veo3.1"]
-model = "google/veo-3.1"
 pin = "pinned"
 
 ["veo3.1-fast"]

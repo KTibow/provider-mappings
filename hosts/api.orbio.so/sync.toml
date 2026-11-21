@@ -35,14 +35,6 @@ pin = "pinned"
 model = "alibaba/happyhorse-1.1"
 pin = "pinned"
 
-["alibaba/wan-2.6"]
-model = "alibaba/wan-2.6"
-pin = "pinned"
-
-["alibaba/wan-2.7"]
-model = "alibaba/wan-2.7"
-pin = "pinned"
-
 ["alibaba/wan-3.0"]
 model = "alibaba/wan-3.0"
 pin = "pinned"
@@ -811,18 +803,6 @@ pin = "pinned"
 model = "kt/midm-k-3.0-pro"
 pin = "pinned"
 
-["kwaivgi/kling-v3.0-pro"]
-model = "kwaivgi/kling-v3.0-pro"
-pin = "pinned"
-
-["kwaivgi/kling-v3.0-std"]
-model = "kwaivgi/kling-v3.0-std"
-pin = "pinned"
-
-["kwaivgi/kling-video-o1"]
-model = "kwaivgi/kling-video-o1"
-pin = "pinned"
-
 ["liquid/d1-ultra"]
 model = "liquid/d1-ultra"
 pin = "pinned"
@@ -849,10 +829,6 @@ pin = "pinned"
 
 ["mancer/weaver"]
 model = "mancer/weaver"
-pin = "pinned"
-
-["meituan/longcat-2.0"]
-model = "meituan/longcat-2.0"
 pin = "pinned"
 
 ["meta-llama/llama-3.1-70b-instruct"]
@@ -2193,6 +2169,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["thinkingmachines/inkling-2-small"]

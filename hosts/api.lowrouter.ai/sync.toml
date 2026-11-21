@@ -1683,6 +1683,10 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["infomaniak/sentence-transformers/all-minilm-l12-v2"]
+model = "sentence-transformers/all-minilm-l12-v2"
+pin = "pinned"
+
 ["ionos/meta-llama/llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"

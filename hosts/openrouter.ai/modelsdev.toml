@@ -219,11 +219,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["dots-studio/dots-3-note-preview:free"]
-model = "dots-studio/dots-3-note-preview"
-pin = "pinned"
-free = true
-
 ["elorian/glimpse"]
 model = "elorian/glimpse"
 pin = "pinned"
@@ -438,10 +433,6 @@ free = true
 
 ["mancer/weaver"]
 model = "mancer/weaver"
-pin = "pinned"
-
-["meituan/longcat-2.0"]
-model = "meituan/longcat-2.0"
 pin = "pinned"
 
 ["meta-llama/llama-3.1-70b-instruct"]
@@ -1284,6 +1275,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["thinkingmachines/inkling-2-small"]

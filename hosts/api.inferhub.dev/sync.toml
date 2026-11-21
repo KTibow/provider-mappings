@@ -15,16 +15,8 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["ag/gemini-4-argon"]
-model = "google/gemini-4-argon"
-pin = "pinned"
-
 ["ag/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["ag/gemini-4-neon"]
-model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["ali/deepseek-v4.1-flash-1017"]
@@ -33,6 +25,10 @@ pin = "pinned"
 
 ["ali/glm-5.3"]
 model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["ali/kimi-k3"]
+model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["ali/kimi-k3.1-pro"]
@@ -50,6 +46,10 @@ pin = "pinned"
 ["ali/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
+
+["ali/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
 
 ["ali/qwen3.8-max-0902"]
 model = "qwen/qwen3.8-max-0902"
@@ -599,8 +599,20 @@ pin = "pinned"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
-["cp/zai/glm-5.3-flash"]
+["cp/cline-pass/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["cp/cline-pass/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["cp/cline-pass/mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["cp/cline-pass/muse-spark-1.3-contributor"]
+model = "meta/muse-spark-1.3-contributor"
 pin = "pinned"
 
 ["cx/gpt-5.6-luna"]

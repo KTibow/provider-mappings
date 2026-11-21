@@ -302,6 +302,10 @@ pin = "pinned"
 model = "meta/llama-4-scout-17b-instruct"
 pin = "pinned"
 
+["aws-bedrock/pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
+pin = "pinned"
+
 ["aws-mantle/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -2044,6 +2048,10 @@ pin = "pinned"
 
 ["perplexity/sonar"]
 model = "perplexity/sonar"
+pin = "pinned"
+
+["pixtral-large-2502"]
+model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
 ["quartz/gemini-3.1-pro-preview"]

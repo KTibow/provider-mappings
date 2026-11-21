@@ -114,6 +114,11 @@ model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 quant = "bf16"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+quant = "fp4"
+
 ["thinkingmachines/inkling-2-small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"

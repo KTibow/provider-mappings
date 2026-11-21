@@ -115,6 +115,10 @@ pin = "pinned"
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
+["deepseek/deepseek-v3.1-terminus"]
+model = "deepseek/deepseek-v3.1-terminus"
+pin = "pinned"
+
 ["deepseek/deepseek-v3.2"]
 model = "deepseek/deepseek-v3.2"
 pin = "pinned"
@@ -177,10 +181,6 @@ pin = "pinned"
 
 ["google/e2ee-gemma-4-26b-a4b-uncensored-p"]
 model = "venice/e2ee-gemma-4-26b-a4b-uncensored"
-pin = "pinned"
-
-["google/e2ee-gemma-4-31b"]
-model = "venice/e2ee-gemma-4-31b"
 pin = "pinned"
 
 ["google/gemini-2.5-flash"]
@@ -305,6 +305,10 @@ pin = "pinned"
 
 ["meta-llama/llama-4-maverick"]
 model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
+["meta-llama/llama-4-scout"]
+model = "meta-llama/llama-4-scout"
 pin = "pinned"
 
 ["meta-llama/muse-ember"]

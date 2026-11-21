@@ -499,6 +499,10 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
+["muse-wonder"]
+model = "meta/muse-wonder"
+pin = "pinned"
+
 ["mythomax-l2-13b"]
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
@@ -571,10 +575,6 @@ pin = "pinned"
 model = "qwen/qwen3.5-plus-20260420"
 pin = "pinned"
 
-["qwen3.6-27b"]
-model = "qwen/qwen3.6-27b"
-pin = "pinned"
-
 ["qwen3.6-35b-a3b"]
 model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
@@ -589,6 +589,10 @@ pin = "pinned"
 
 ["qwen3.8-2.4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
+pin = "pinned"
+
+["qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["qwen3.8-flash"]
@@ -617,8 +621,4 @@ pin = "pinned"
 
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
-pin = "pinned"
-
-["unslopnemo-12b-v4.1"]
-model = "thedrummer/unslopnemo-12b"
 pin = "pinned"

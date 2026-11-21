@@ -47,6 +47,10 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
+["claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -199,6 +203,18 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -323,6 +339,14 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
 ["gpt-image-1-mini"]
 model = "openai/gpt-image-1-mini"
 pin = "pinned"
@@ -401,14 +425,6 @@ pin = "pinned"
 
 ["openrouter/alibaba/happyhorse-1.1"]
 model = "alibaba/happyhorse-1.1"
-pin = "pinned"
-
-["openrouter/alibaba/wan-2.6"]
-model = "alibaba/wan-2.6"
-pin = "pinned"
-
-["openrouter/alibaba/wan-2.7"]
-model = "alibaba/wan-2.7"
 pin = "pinned"
 
 ["openrouter/alibaba/wan-3.0"]
@@ -1067,18 +1083,6 @@ pin = "pinned"
 model = "kt/midm-k-3.0-pro"
 pin = "pinned"
 
-["openrouter/kwaivgi/kling-v3.0-pro"]
-model = "kwaivgi/kling-v3.0-pro"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-v3.0-std"]
-model = "kwaivgi/kling-v3.0-std"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-video-o1"]
-model = "kwaivgi/kling-video-o1"
-pin = "pinned"
-
 ["openrouter/liquid/lfm-2.5-24b-a2b"]
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
@@ -1091,20 +1095,12 @@ pin = "pinned"
 model = "mancer/weaver"
 pin = "pinned"
 
-["openrouter/meituan/longcat-2.0"]
-model = "meituan/longcat-2.0"
-pin = "pinned"
-
 ["openrouter/meta-llama/llama-3.1-70b-instruct"]
 model = "meta-llama/llama-3.1-70b-instruct"
 pin = "pinned"
 
 ["openrouter/meta-llama/llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["openrouter/meta-llama/llama-3.2-1b-instruct"]
-model = "meta-llama/llama-3.2-1b-instruct"
 pin = "pinned"
 
 ["openrouter/meta-llama/llama-3.2-3b-instruct"]
@@ -1203,26 +1199,6 @@ pin = "pinned"
 model = "microsoft/phi-4"
 pin = "pinned"
 
-["openrouter/minimax/hailuo-2.3"]
-model = "minimax/hailuo-2.3"
-pin = "pinned"
-
-["openrouter/minimax/hailuo-3"]
-model = "minimax/hailuo-3"
-pin = "pinned"
-
-["openrouter/minimax/hailuo-3-max"]
-model = "minimax/hailuo-3-max"
-pin = "pinned"
-
-["openrouter/minimax/minimax-h3-image"]
-model = "minimax/minimax-h3-image"
-pin = "pinned"
-
-["openrouter/minimax/minimax-h3-image-highspeed"]
-model = "minimax/minimax-h3-image-highspeed"
-pin = "pinned"
-
 ["openrouter/minimax/minimax-m2.5"]
 model = "minimax/minimax-m2.5"
 pin = "pinned"
@@ -1237,14 +1213,6 @@ pin = "pinned"
 
 ["openrouter/minimax/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
-["openrouter/minimax/speech-2.8-hd"]
-model = "minimax/speech-2.8-hd"
-pin = "pinned"
-
-["openrouter/minimax/speech-2.8-turbo"]
-model = "minimax/speech-2.8-turbo"
 pin = "pinned"
 
 ["openrouter/mistralai/codestral-2508"]
@@ -1819,6 +1787,14 @@ pin = "pinned"
 model = "perplexity/pplx-embed-v1-4b"
 pin = "pinned"
 
+["openrouter/perplexity/pplx-embed-v2-context-0.6b"]
+model = "perplexity/pplx-embed-v2-context-0.6b"
+pin = "pinned"
+
+["openrouter/perplexity/pplx-embed-v2-context-9b"]
+model = "perplexity/pplx-embed-v2-context-9b"
+pin = "pinned"
+
 ["openrouter/perplexity/sonar"]
 model = "perplexity/sonar"
 pin = "pinned"
@@ -1947,6 +1923,10 @@ pin = "pinned"
 model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"
 
+["openrouter/qwen/qwen3-tts-1.7b"]
+model = "qwen/qwen3-tts-1.7b"
+pin = "pinned"
+
 ["openrouter/qwen/qwen3-vl-235b-a22b-instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
@@ -2045,6 +2025,10 @@ pin = "pinned"
 
 ["openrouter/qwen/qwen4-max"]
 model = "qwen/qwen4-max"
+pin = "pinned"
+
+["openrouter/radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
 pin = "pinned"
 
 ["openrouter/recraft/recraft-v3"]
@@ -2255,10 +2239,6 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
-["openrouter/tencent/hy3-preview"]
-model = "tencent/hy3-preview"
-pin = "pinned"
-
 ["openrouter/tencent/hy4"]
 model = "tencent/hy4"
 pin = "pinned"
@@ -2293,6 +2273,10 @@ pin = "pinned"
 
 ["openrouter/thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["openrouter/thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["openrouter/thinkingmachines/inkling-2-small"]

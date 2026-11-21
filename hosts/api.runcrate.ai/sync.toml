@@ -16,6 +16,10 @@ quant = "fp32"
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
 
+["LiquidAI/lfm-2.5-24b-a2b"]
+model = "liquid/lfm-2.5-24b-a2b"
+pin = "pinned"
+
 ["MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -259,12 +263,12 @@ pin = "pinned"
 model = "mistralai/ministral-8b-2512"
 pin = "pinned"
 
-["mistralai/mistral-large-3"]
-model = "mistralai/mistral-large-2512"
-pin = "pinned"
-
 ["mistralai/mistral-large-4-0"]
 model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistralai/mistral-small-4"]
+model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
 ["moondream/moondream3-preview"]

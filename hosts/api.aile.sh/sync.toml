@@ -604,12 +604,32 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 free = true
 
+["openrouter/anthropic/claude-opus-4.5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-4.6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-4.7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-4.8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["openrouter/anthropic/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
 ["openrouter/anthropic/claude-opus-5.5"]
 model = "anthropic/claude-opus-5.5"
 pin = "pinned"
 
-["openrouter/anthropic/claude-sonnet-5.5"]
-model = "anthropic/claude-sonnet-5.5"
+["openrouter/moonshotai/kimi-k3"]
+model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["openrouter/moonshotai/kimi-k3.1-pro"]

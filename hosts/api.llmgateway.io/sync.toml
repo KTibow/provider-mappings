@@ -643,6 +643,14 @@ pin = "pinned"
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["lyria-3-clip-preview"]
+model = "google/lyria-3-clip-preview"
+pin = "pinned"
+
+["lyria-3-pro-preview"]
+model = "google/lyria-3-pro-preview"
+pin = "pinned"
+
 ["microsoft-decision-1"]
 model = "microsoft/microsoft-decision-1"
 pin = "pinned"

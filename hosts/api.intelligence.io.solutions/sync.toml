@@ -131,6 +131,10 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["zai-org/GLM-4.5-Air"]
 model = "z-ai/glm-4.5-air"
 pin = "pinned"

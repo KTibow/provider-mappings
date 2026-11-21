@@ -543,10 +543,6 @@ pin = "pinned"
 model = "inference-net/schematron-v2-turbo"
 pin = "pinned"
 
-["liquid/d1"]
-model = "liquid/d1"
-pin = "pinned"
-
 ["liquid/d1-ultra"]
 model = "liquid/d1-ultra"
 pin = "pinned"

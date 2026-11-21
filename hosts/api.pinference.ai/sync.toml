@@ -7,10 +7,6 @@
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
-["Qwen/Qwen3-235B-A22B-Thinking-2507"]
-model = "qwen/qwen3-235b-a22b-thinking-2507"
-pin = "pinned"
-
 ["anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -75,16 +71,8 @@ pin = "pinned"
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
-["deepseek/deepseek-v3.1-terminus"]
-model = "deepseek/deepseek-v3.1-terminus"
-pin = "pinned"
-
 ["deepseek/deepseek-v3.2"]
 model = "deepseek/deepseek-v3.2"
-pin = "pinned"
-
-["deepseek/deepseek-v3.2-exp"]
-model = "deepseek/deepseek-v3.2-exp"
 pin = "pinned"
 
 ["deepseek/deepseek-v4-flash"]
@@ -171,10 +159,6 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["minimax/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
 ["minimax/minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -193,10 +177,6 @@ pin = "pinned"
 
 ["mistralai/mixtral-8x22b-instruct"]
 model = "mistralai/mixtral-8x22b-instruct"
-pin = "pinned"
-
-["moonshotai/kimi-k2-0905"]
-model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.5"]
@@ -355,22 +335,6 @@ pin = "pinned"
 model = "qwen/qwen3-coder"
 pin = "pinned"
 
-["qwen/qwen3-coder-next"]
-model = "qwen/qwen3-coder-next"
-pin = "pinned"
-
-["qwen/qwen3-vl-235b-a22b-instruct"]
-model = "qwen/qwen3-vl-235b-a22b-instruct"
-pin = "pinned"
-
-["qwen/qwen3-vl-30b-a3b-instruct"]
-model = "qwen/qwen3-vl-30b-a3b-instruct"
-pin = "pinned"
-
-["qwen/qwen3.5-397b-a17b"]
-model = "qwen/qwen3.5-397b-a17b"
-pin = "pinned"
-
 ["x-ai/grok-4.20"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
@@ -387,24 +351,8 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["xiaomi/mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
 ["xiaomi/mimo-v2.5-pro"]
 model = "xiaomi/mimo-v2.5-pro"
-pin = "pinned"
-
-["z-ai/glm-4.5-air"]
-model = "z-ai/glm-4.5-air"
-pin = "pinned"
-
-["z-ai/glm-4.6"]
-model = "z-ai/glm-4.6"
-pin = "pinned"
-
-["z-ai/glm-4.7"]
-model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["z-ai/glm-4.7-flash"]
@@ -415,14 +363,6 @@ pin = "pinned"
 model = "z-ai/glm-5"
 pin = "pinned"
 
-["z-ai/glm-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-
 ["z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["zai-org/GLM-4.7"]
-model = "z-ai/glm-4.7"
 pin = "pinned"

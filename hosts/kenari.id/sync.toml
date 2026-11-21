@@ -241,11 +241,6 @@ model = "liquid/lfm-3-1.7b"
 pin = "pinned"
 free = true
 
-["llama-3-3-70b-instruct:free"]
-model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-free = true
-
 ["lyria-3-pro"]
 model = "google/lyria-3-pro-preview"
 pin = "pinned"
@@ -353,24 +348,9 @@ model = "particle-ai/particle-1"
 pin = "pinned"
 free = true
 
-["qwen3-5-397b-a17b:free"]
-model = "qwen/qwen3.5-397b-a17b"
-pin = "pinned"
-free = true
-
-["qwen3-6-27b:free"]
-model = "qwen/qwen3.6-27b"
-pin = "pinned"
-free = true
-
 ["qwen3-7-plus"]
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
-
-["qwen3-8-27b:free"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-free = true
 
 ["qwen3-8-flash"]
 model = "qwen/qwen3.8-flash"

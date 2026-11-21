@@ -22,10 +22,6 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
 ["moonshotai/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

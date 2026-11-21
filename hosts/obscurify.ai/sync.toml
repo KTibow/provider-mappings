@@ -1227,6 +1227,10 @@ pin = "pinned"
 model = "thedrummer/unslopnemo-12b"
 pin = "pinned"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["thinkingmachines/inkling-2-small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
@@ -1305,6 +1309,10 @@ pin = "pinned"
 
 ["x-ai/grok-4.5"]
 model = "x-ai/grok-4.5"
+pin = "pinned"
+
+["x-ai/grok-4.6"]
+model = "x-ai/grok-4.6"
 pin = "pinned"
 
 ["x-ai/grok-4.7"]

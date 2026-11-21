@@ -83,6 +83,7 @@
   "permaslug": "alibaba/happyhorse-1.1-20260624"
  },
  "alibaba/wan-2.6": {
+  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -94,6 +95,7 @@
   "permaslug": "alibaba/wan-2.6-20260327"
  },
  "alibaba/wan-2.7": {
+  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -1262,6 +1264,7 @@
   "permaslug": "deepseek/deepseek-v4.1-flash-20261017"
  },
  "dots-studio/dots-3-note-preview": {
+  "delisted": "2026-11-21",
   "formerly": [
    "dots-studio/dots-3-note-preview:free"
   ],
@@ -2428,6 +2431,7 @@
   "permaslug": "kt/midm-k-3.0-pro"
  },
  "kwaivgi/kling-v3.0-pro": {
+  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -2439,6 +2443,7 @@
   "permaslug": "kwaivgi/kling-v3.0-pro-20260429"
  },
  "kwaivgi/kling-v3.0-std": {
+  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -2450,6 +2455,7 @@
   "permaslug": "kwaivgi/kling-v3.0-std-20260429"
  },
  "kwaivgi/kling-video-o1": {
+  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -2576,6 +2582,7 @@
   "permaslug": "mancer/weaver"
  },
  "meituan/longcat-2.0": {
+  "delisted": "2026-11-21",
   "hf": "meituan-longcat/LongCat-2.0",
   "input": [
    "text"
@@ -6620,6 +6627,18 @@
    "text"
   ],
   "permaslug": "thinkingmachines/inkling-20260715"
+ },
+ "thinkingmachines/inkling-2-mini": {
+  "hf": "thinkingmachines/Inkling-2-Mini",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Thinking Machines: Inkling 2 Mini",
+  "output": [
+   "text"
+  ],
+  "permaslug": "thinkingmachines/inkling-2-mini-20261120"
  },
  "thinkingmachines/inkling-2-small": {
   "formerly": [

@@ -203,6 +203,10 @@ pin = "pinned"
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
 
+["deepseek-ai/DeepSeek-V3"]
+model = "deepseek/deepseek-chat"
+pin = "pinned"
+
 ["deepseek-ai/DeepSeek-V3-0324"]
 model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
@@ -437,6 +441,10 @@ pin = "pinned"
 
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-2-Small"]
