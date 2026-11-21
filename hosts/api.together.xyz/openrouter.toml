@@ -6,6 +6,10 @@
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["Qwen/Qwen3-TTS-12Hz-1.7B"]
+model = "qwen/qwen3-tts-1.7b"
+pin = "pinned"
+
 ["Qwen/Qwen3.5-9B"]
 model = "qwen/qwen3.5-9b"
 pin = "pinned"

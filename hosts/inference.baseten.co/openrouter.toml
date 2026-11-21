@@ -69,8 +69,18 @@ quant = "fp8"
 # Once verified, copy the row (uncommented) into manual.toml.
 
 # needs review: native id is a moving alias; floating rows only go under "~" model ids
+# ["decision-models/baseten-bison-latest"]
+# model = "baseten/bison-1"
+# pin = "floating"
+
+# needs review: native id is a moving alias; floating rows only go under "~" model ids
 # ["decision-models/baseten-elephant-9b-latest"]
 # model = "baseten/elephant-1"
+# pin = "floating"
+
+# needs review: native id is a moving alias; floating rows only go under "~" model ids
+# ["decision-models/baseten-groundhog-latest"]
+# model = "baseten/groundhog-1"
 # pin = "floating"
 
 # needs review: native id is a moving alias; floating rows only go under "~" model ids

@@ -1244,6 +1244,10 @@ pin = "pinned"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+
 ["recursive/flint-v1.0"]
 model = "recursive/flint-v1.0"
 pin = "pinned"

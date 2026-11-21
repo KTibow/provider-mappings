@@ -75,10 +75,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["cydonia-24b-v4.1"]
-model = "thedrummer/cydonia-24b-v4.1"
-pin = "pinned"
-
 ["deepseek-r1"]
 model = "deepseek/deepseek-r1"
 pin = "pinned"
@@ -441,10 +437,6 @@ pin = "pinned"
 
 ["longcat-2.0"]
 model = "meituan/longcat-2.0"
-pin = "pinned"
-
-["magnum-v4-72b"]
-model = "anthracite-org/magnum-v4-72b"
 pin = "pinned"
 
 ["mimo-v2.5"]

@@ -139,6 +139,10 @@ pin = "floating"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["RadixArk/DaisyRose-27B"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+
 ["Sao10K/L3.1-70B-Euryale-v2.2"]
 model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"

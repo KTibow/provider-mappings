@@ -1365,10 +1365,6 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
-["tencent/hy3-preview"]
-model = "tencent/hy3-preview"
-pin = "pinned"
-
 ["tencent/hy4"]
 model = "tencent/hy4"
 pin = "pinned"

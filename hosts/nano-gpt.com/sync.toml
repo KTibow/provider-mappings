@@ -511,10 +511,6 @@ pin = "pinned"
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
 
-["liquid/lfm-3-1.7b"]
-model = "liquid/lfm-3-1.7b"
-pin = "pinned"
-
 ["longcat-2.0"]
 model = "meituan/longcat-2.0"
 pin = "pinned"
@@ -1253,6 +1249,10 @@ pin = "pinned"
 
 ["qwen/qwen4-max:thinking"]
 model = "qwen/qwen4-max"
+pin = "pinned"
+
+["radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
 pin = "pinned"
 
 ["reflection/beam-1.0"]

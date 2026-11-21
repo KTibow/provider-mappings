@@ -1169,6 +1169,10 @@ pin = "pinned"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+
 ["recursive/flint-v1.0:free"]
 model = "recursive/flint-v1.0"
 pin = "pinned"
@@ -1252,10 +1256,6 @@ pin = "pinned"
 
 ["tencent/hy3"]
 model = "tencent/hy3"
-pin = "pinned"
-
-["tencent/hy3-preview"]
-model = "tencent/hy3-preview"
 pin = "pinned"
 
 ["tencent/hy4"]

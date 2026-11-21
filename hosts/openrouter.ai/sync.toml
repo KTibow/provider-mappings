@@ -184,8 +184,16 @@ free = true
 model = "baidu/ernie-light-dt-1.0-intl"
 pin = "pinned"
 
+["baseten/bison-1"]
+model = "baseten/bison-1"
+pin = "pinned"
+
 ["baseten/elephant-1"]
 model = "baseten/elephant-1"
+pin = "pinned"
+
+["baseten/groundhog-1"]
+model = "baseten/groundhog-1"
 pin = "pinned"
 
 ["baseten/joey-1"]
@@ -1750,6 +1758,14 @@ pin = "pinned"
 model = "perplexity/pplx-embed-v1-4b"
 pin = "pinned"
 
+["perplexity/pplx-embed-v2-context-0.6b"]
+model = "perplexity/pplx-embed-v2-context-0.6b"
+pin = "pinned"
+
+["perplexity/pplx-embed-v2-context-9b"]
+model = "perplexity/pplx-embed-v2-context-9b"
+pin = "pinned"
+
 ["perplexity/sonar"]
 model = "perplexity/sonar"
 pin = "pinned"
@@ -1886,6 +1902,10 @@ pin = "pinned"
 model = "qwen/qwen3-reranker-8b"
 pin = "pinned"
 
+["qwen/qwen3-tts-1.7b"]
+model = "qwen/qwen3-tts-1.7b"
+pin = "pinned"
+
 ["qwen/qwen3-vl-235b-a22b-instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
@@ -1984,6 +2004,10 @@ pin = "pinned"
 
 ["qwen/qwen4-max"]
 model = "qwen/qwen4-max"
+pin = "pinned"
+
+["radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
 pin = "pinned"
 
 ["recraft/recraft-v3"]

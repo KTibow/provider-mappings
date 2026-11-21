@@ -7,30 +7,6 @@
 model = "aion-labs/aion-3.0"
 pin = "pinned"
 
-["Aion 3.0 Mini"]
-model = "aion-labs/aion-3.0-mini"
-pin = "pinned"
-
-["Aion 3.5"]
-model = "aion-labs/aion-3.5"
-pin = "pinned"
-
-["Aion 3.5 Mini"]
-model = "aion-labs/aion-3.5-mini"
-pin = "pinned"
-
-["Claude Fable 5.1"]
-model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["Claude Fable 5.2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["Claude Haiku 5.5"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
 ["Claude Opus 4.5"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
@@ -49,10 +25,6 @@ pin = "pinned"
 
 ["Claude Opus 5 Fast"]
 model = "anthropic/claude-opus-5-fast"
-pin = "pinned"
-
-["Claude Opus 5.5"]
-model = "anthropic/claude-opus-5.5"
 pin = "pinned"
 
 ["Claude Sonnet 4.5"]
@@ -79,10 +51,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
-["DeepSeek V4 Flash 0731 Fast"]
-model = "deepseek/deepseek-v4-flash-0731-fast"
-pin = "pinned"
-
 ["DeepSeek V4 Pro 0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -91,24 +59,8 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
-["DeepSeek V4.1 Flash 1017 Uncensored"]
-model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
-pin = "pinned"
-
-["DeepSeek V4.1 Flash Uncensored"]
-model = "deepseek/deepseek-v4.1-flash-uncensored"
-pin = "pinned"
-
 ["DeepSeek v4.1 Flash (1017)"]
 model = "deepseek/deepseek-v4.1-flash-1017"
-pin = "pinned"
-
-["DeepSeek-V3.2"]
-model = "deepseek/deepseek-v3.2"
-pin = "pinned"
-
-["GLM 4.7"]
-model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["GLM 4.7 Flash Heretic"]
@@ -121,14 +73,6 @@ pin = "pinned"
 
 ["GLM 5.1"]
 model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["GLM 5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["GLM 5.3"]
-model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["GLM 5.3 Flash"]
@@ -145,6 +89,10 @@ pin = "pinned"
 
 ["GLM-5.1"]
 model = "z-ai/glm-5.1"
+pin = "pinned"
+
+["GPT OSS 20B"]
+model = "openai/gpt-oss-20b"
 pin = "pinned"
 
 ["GPT-4o"]
@@ -169,10 +117,6 @@ pin = "pinned"
 
 ["GPT-5.4 Mini"]
 model = "openai/gpt-5.4-mini"
-pin = "pinned"
-
-["GPT-5.4 Pro"]
-model = "openai/gpt-5.4-pro"
 pin = "pinned"
 
 ["GPT-5.5"]
@@ -207,36 +151,16 @@ pin = "pinned"
 model = "openai/gpt-5.6-terra-pro"
 pin = "pinned"
 
-["GPT-6 Astra"]
-model = "openai/gpt-6-astra"
-pin = "pinned"
-
-["GPT-6 Astra Pro"]
-model = "openai/gpt-6-astra-pro"
-pin = "pinned"
-
-["GPT-6 Luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["GPT-6 Sol"]
-model = "openai/gpt-6-sol"
-pin = "pinned"
-
 ["GPT-6.1 Sol"]
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
-["GPT-6.1 Terra"]
-model = "openai/gpt-6.1-terra"
+["GPT-6.2 Sol Pro"]
+model = "openai/gpt-6.2-sol-pro"
 pin = "pinned"
 
 ["Gemini 3 Flash Preview"]
 model = "google/gemini-3-flash-preview"
-pin = "pinned"
-
-["Gemini 3.5 Flash"]
-model = "google/gemini-3.5-flash"
 pin = "pinned"
 
 ["Gemini 3.5 Flash-Lite"]
@@ -257,26 +181,6 @@ pin = "pinned"
 
 ["Gemini 4 Argon"]
 model = "google/gemini-4-argon"
-pin = "pinned"
-
-["Gemini 4 Carbon"]
-model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["Gemini 4 Hydrogen"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["Gemini 4 Neon"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
-["Gemini Embedding 2 Preview"]
-model = "google/gemini-embedding-2-preview"
-pin = "pinned"
-
-["Gemma 4 Uncensored"]
-model = "google/gemma-4-uncensored"
 pin = "pinned"
 
 ["Gemma-4-26b-a4b"]
@@ -307,20 +211,12 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
-["Kimi K2.6"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
 ["Kimi K3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["Kimi K3 Fast"]
 model = "moonshotai/kimi-k3-fast"
-pin = "pinned"
-
-["Kimi K3.1 Pro"]
-model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["Kimi-K2.5"]
@@ -339,10 +235,6 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
-["MiniMax M3.1 Flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
 ["MiniMax-M2.5"]
 model = "minimax/minimax-m2.5"
 pin = "pinned"
@@ -351,20 +243,8 @@ pin = "pinned"
 model = "minimax/minimax-m2.7"
 pin = "pinned"
 
-["Mistral Small 3.2 24B Instruct"]
-model = "mistralai/mistral-small-3.2-24b-instruct"
-pin = "pinned"
-
-["Muse Spark Open"]
-model = "meta/muse-spark-open"
-pin = "pinned"
-
 ["Muse Wonder"]
 model = "meta/muse-wonder"
-pin = "pinned"
-
-["OpenAI GPT OSS 120B"]
-model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["Qwen 3 235B A22B Instruct 2507"]
@@ -383,48 +263,8 @@ pin = "pinned"
 model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
-["Qwen 3.6 Plus Uncensored"]
-model = "venice/qwen3.6-plus-uncensored"
-pin = "pinned"
-
-["Qwen 3.7 Max"]
-model = "qwen/qwen3.7-max"
-pin = "pinned"
-
-["Qwen 3.7 Plus"]
-model = "qwen/qwen3.7-plus"
-pin = "pinned"
-
-["Qwen 3.8 27B"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["Qwen 3.8 Flash"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
-["Qwen 3.8 Max"]
-model = "~qwen/qwen3.8-max-latest"
-pin = "floating"
-
-["Qwen3 Embedding 8B"]
-model = "qwen/qwen3-embedding-8b"
-pin = "pinned"
-
 ["Seed 2.1 Turbo"]
 model = "bytedance-seed/seed-2-1-turbo"
-pin = "pinned"
-
-["Text Embedding 3 Large"]
-model = "openai/text-embedding-3-large"
-pin = "pinned"
-
-["Text Embedding 3 Small"]
-model = "openai/text-embedding-3-small"
-pin = "pinned"
-
-["Venice Uncensored 1.2"]
-model = "venice/venice-uncensored-1.2"
 pin = "pinned"
 
 ["claude-fable-5"]

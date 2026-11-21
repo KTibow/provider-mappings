@@ -787,6 +787,10 @@ pin = "floating"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["auto/radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+
 ["auto/sao10k/l3-8b-lunaris-v1"]
 model = "sao10k/l3-lunaris-8b"
 pin = "pinned"
@@ -1429,6 +1433,10 @@ pin = "floating"
 
 ["deepinfra/qwen/qwen4-max"]
 model = "qwen/qwen4-max"
+pin = "pinned"
+
+["deepinfra/radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
 pin = "pinned"
 
 ["deepinfra/sao10k/l3-8b-lunaris-v1"]
@@ -2185,6 +2193,10 @@ pin = "pinned"
 
 ["vertex/google/gemini-3.5-flash-lite"]
 model = "google/gemini-3.5-flash-lite"
+pin = "pinned"
+
+["vertex/google/gemini-3.6-flash"]
+model = "google/gemini-3.6-flash"
 pin = "pinned"
 
 ["vertex/google/gemini-3.7-flash"]

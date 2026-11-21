@@ -15,8 +15,16 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
 ["ag/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["ag/gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["ali/deepseek-v4.1-flash-1017"]
@@ -1081,10 +1089,6 @@ pin = "pinned"
 
 ["mimotp/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["mimotp/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["minimax-h3-image"]

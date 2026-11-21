@@ -111,6 +111,11 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 quant = "fp8"
 
+["RadixArk/DaisyRose-27B"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+quant = "bf16"
+
 ["Sao10K/L3.1-70B-Euryale-v2.2"]
 model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"

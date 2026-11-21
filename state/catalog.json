@@ -521,6 +521,18 @@
   ],
   "permaslug": "baidu/ernie-light-dt-1.0-intl-20261110"
  },
+ "baseten/bison-1": {
+  "hf": "baselabs/bison-1",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Baseten: Bison 1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "baseten/bison-1-20261120"
+ },
  "baseten/elephant-1": {
   "hf": "baselabs/elephant-1",
   "input": [
@@ -532,6 +544,18 @@
    "decisions"
   ],
   "permaslug": "baseten/elephant-1-20261021"
+ },
+ "baseten/groundhog-1": {
+  "hf": "baselabs/groundhog-1",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Baseten: Groundhog 1",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "baseten/groundhog-1-20261120"
  },
  "baseten/joey-1": {
   "hf": "baselabs/joey-1",
@@ -5065,6 +5089,30 @@
   ],
   "permaslug": "perplexity/pplx-embed-v1-4B"
  },
+ "perplexity/pplx-embed-v2-context-0.6b": {
+  "hf": "perplexity-ai/pplx-embed-v2-context-0.6b",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Embed V2 Context 0.6B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "perplexity/pplx-embed-v2-context-0.6b-20261120"
+ },
+ "perplexity/pplx-embed-v2-context-9b": {
+  "hf": "perplexity-ai/pplx-embed-v2-context-9b",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "Perplexity: Embed V2 Context 9B",
+  "output": [
+   "embeddings"
+  ],
+  "permaslug": "perplexity/pplx-embed-v2-context-9b-20261120"
+ },
  "perplexity/sonar": {
   "input": [
    "image",
@@ -5437,6 +5485,16 @@
   ],
   "permaslug": "qwen/qwen3-reranker-8b"
  },
+ "qwen/qwen3-tts-1.7b": {
+  "input": [
+   "text"
+  ],
+  "name": "Qwen: Qwen3 TTS 1.7B",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "qwen/qwen3-tts-1.7b"
+ },
  "qwen/qwen3-vl-235b-a22b-instruct": {
   "hf": "Qwen/Qwen3-VL-235B-A22B-Instruct",
   "input": [
@@ -5755,6 +5813,18 @@
    "text"
   ],
   "permaslug": "qwen/qwen4-max-20261115"
+ },
+ "radixark/daisyrose-27b": {
+  "hf": "RadixArk/DaisyRose-27B",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "RadixArk: DaisyRose 27B",
+  "output": [
+   "text"
+  ],
+  "permaslug": "radixark/daisyrose-27b-20261120"
  },
  "recraft/recraft-v3": {
   "input": [
