@@ -1119,6 +1119,10 @@ pin = "pinned"
 model = "sao10k/l3-lunaris-8b"
 pin = "pinned"
 
+["sao10k/l3.1-euryale-70b"]
+model = "sao10k/l3.1-euryale-70b"
+pin = "pinned"
+
 ["scaledown/classify-1"]
 model = "scaledown/classify-1"
 pin = "pinned"

@@ -43,20 +43,12 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
-["claude-haiku-4.5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
 ["claude-haiku-5.5"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
 ["claude-opus-4-8"]
 model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
 ["claude-opus-4.6"]
@@ -107,6 +99,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["eleven_flash_v2"]
 model = "elevenlabs/eleven-flash-v2"
 pin = "pinned"
@@ -133,10 +129,6 @@ pin = "pinned"
 
 ["ernie-5.5-flash-preview"]
 model = "baidu/ernie-5.5-flash-preview"
-pin = "pinned"
-
-["gemini-2.5-flash"]
-model = "google/gemini-2.5-flash"
 pin = "pinned"
 
 ["gemini-2.5-flash-lite"]
@@ -169,18 +161,6 @@ pin = "pinned"
 
 ["gemini-3.6-flash"]
 model = "google/gemini-3.6-flash"
-pin = "pinned"
-
-["gemini-3.7-flash"]
-model = "google/gemini-3.7-flash"
-pin = "pinned"
-
-["gemini-3.8-flash"]
-model = "google/gemini-3.8-flash"
-pin = "pinned"
-
-["gemini-4-argon"]
-model = "google/gemini-4-argon"
 pin = "pinned"
 
 ["glm-5"]
@@ -265,14 +245,6 @@ pin = "pinned"
 
 ["gpt-6-astra"]
 model = "openai/gpt-6-astra"
-pin = "pinned"
-
-["gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["gpt-6-sol"]
-model = "openai/gpt-6-sol"
 pin = "pinned"
 
 ["gpt-6.1-sol"]
@@ -361,10 +333,6 @@ pin = "pinned"
 
 ["qwen-plus"]
 model = "qwen/qwen-plus"
-pin = "pinned"
-
-["qwen2.5-vl-72b-instruct"]
-model = "qwen/qwen2.5-vl-72b-instruct"
 pin = "pinned"
 
 ["qwen3-coder-flash"]

@@ -87,6 +87,10 @@ pin = "pinned"
 model = "radixark/daisyrose-27b"
 pin = "pinned"
 
+["deepseek-chat"]
+model = "deepseek/deepseek-chat"
+pin = "pinned"
+
 ["deepseek-chat-v3.1"]
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
@@ -105,10 +109,6 @@ pin = "pinned"
 
 ["deepseek-v3.1"]
 model = "deepseek/deepseek-chat-v3.1"
-pin = "pinned"
-
-["deepseek-v3.1-terminus"]
-model = "deepseek/deepseek-v3.1-terminus"
 pin = "pinned"
 
 ["deepseek-v3.2"]
@@ -917,6 +917,10 @@ pin = "pinned"
 
 ["qwen3-vl-8b-instruct"]
 model = "qwen/qwen3-vl-8b-instruct"
+pin = "pinned"
+
+["qwen3.5-27b"]
+model = "qwen/qwen3.5-27b"
 pin = "pinned"
 
 ["qwen3.5-35b-a3b"]

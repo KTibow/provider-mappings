@@ -1498,6 +1498,11 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
+["deepinfra/tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+quant = "fp4"
+
 ["deepinfra/tencent/Hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -1578,10 +1583,6 @@ pin = "pinned"
 model = "fireworks/ember-1"
 pin = "pinned"
 
-["fireworks_ai/accounts/fireworks/models/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-
 ["fireworks_ai/accounts/fireworks/models/inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -1604,10 +1605,6 @@ pin = "pinned"
 
 ["fireworks_ai/accounts/fireworks/routers/kimi-k3-fast"]
 model = "moonshotai/kimi-k3-fast"
-pin = "pinned"
-
-["fireworks_ai/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["fireworks_ai/kimi-k3"]

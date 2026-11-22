@@ -318,6 +318,11 @@ model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 quant = "fp16"
 
+["claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+quant = "fp16"
+
 ["claude-opus-4-6"]
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
@@ -655,11 +660,6 @@ quant = "fp16"
 
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
-pin = "pinned"
-quant = "fp16"
-
-["gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
 pin = "pinned"
 quant = "fp16"
 

@@ -506,6 +506,10 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
+["deepinfra/tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["deepinfra/tencent/Hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -546,20 +550,12 @@ pin = "pinned"
 model = "fireworks/ember-1"
 pin = "pinned"
 
-["fireworks_ai/accounts/fireworks/models/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-
 ["fireworks_ai/accounts/fireworks/models/inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
 ["fireworks_ai/accounts/fireworks/models/muse-spark-open"]
 model = "meta/muse-spark-open"
-pin = "pinned"
-
-["fireworks_ai/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["flexai/DeepSeek-V4-Flash-0731"]

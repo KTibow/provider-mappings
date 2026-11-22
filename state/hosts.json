@@ -982,7 +982,7 @@
     ],
     "api.unorouter.com": [
       "claude-opus-4-8",
-      "deepseek-v4-flash",
+      "deepseek-v4-flash:free",
       "deepseek-v4-pro:free",
       "gemma-4-31b-it:free",
       "glm-5.2:free",
@@ -999,11 +999,13 @@
     "api.vultrinference.com": [
       "deepseek-v4-flash-0731",
       "deepseek-v4.1-flash",
+      "glm-5.2",
       "glm-5.x-menthol",
       "laguna-s-2.1",
       "mimo-v2.6-flash-rl",
       "mimo-v2.6-pro-rl",
-      "minimax-m3"
+      "minimax-m3",
+      "muse-glimmer-30b"
     ],
     "api.zerogpu.ai": [
       "deepseek-v4.1-flash",
@@ -1165,10 +1167,6 @@
       "step-5-preview",
       "step-5-preview-free",
       "trinity-large-preview-free"
-    ],
-    "pass.wafer.ai": [
-      "DeepSeek-V4.1-Flash",
-      "Qwen3.8-27B"
     ],
     "routellm.abacus.ai": [
       "MiniMaxAI/MiniMax-M2.7",
@@ -1423,7 +1421,6 @@
       "DeepSeek-V4.1-Flash-1017-US",
       "DeepSeek-V4.1-Flash-US",
       "GLM-5.2-US",
-      "GLM-5.3-Flash-US",
       "GLM-5.3-US",
       "Kimi-K3-US"
     ],
@@ -2783,7 +2780,8 @@
       "zhipu/glm-ocr"
     ],
     "api.aipowergrid.io": [
-      "auto"
+      "auto",
+      "grid/qwen3:8b"
     ],
     "api.ambient.xyz": [
       "ambient/large"
@@ -3709,7 +3707,6 @@
       "fastino/gliner2.5-multi-v1"
     ],
     "api.flyrouter.ai": [
-      "glm-5.3-flash-uncensored",
       "kling-v4",
       "nano-banana"
     ],
@@ -3999,7 +3996,9 @@
     ],
     "api.iteracompute.com": [
       "Auto",
+      "qwen/qwen-audio-3.1-realtime-plus",
       "qwen/qwen-image-3.0-pro",
+      "qwen/qwen3.8-omni-flash-realtime",
       "wan/wan3.0-video",
       "wan/wan3.0-video-prime"
     ],
@@ -5313,11 +5312,6 @@
       "openai/tts-1-1106",
       "openai/tts-1-hd",
       "openai/tts-1-hd-1106",
-      "orca/orcacyber-glm-5.3",
-      "orca/orcacyber-hy4",
-      "orca/orcacyber-hy4-flash",
-      "orca/orcacyber-k3.1-pro",
-      "orcarouter/auto",
       "orcarouter/free",
       "orcarouter/fusion",
       "orcarouter/fusion-flash",
@@ -6325,9 +6319,7 @@
       "anything-xl",
       "aura-1:free",
       "autismmix-sdxl",
-      "beam-1-0:free",
       "beam:free",
-      "bge-multilingual-gemma2:free",
       "bge-small-en-v1.5:free",
       "big-pickle:free",
       "claude-opus-4-5-thinking",
@@ -6368,6 +6360,7 @@
       "gemini-2.5-pro-thinking",
       "gemini-3-pro",
       "gemini-3-pro-preview",
+      "gemini-flash-lite-latest:free",
       "gemini-robotics-er-2-preview:free",
       "gemma-4-12b:free",
       "gemma-4-26b-a4b-it-chimerax:free",
@@ -6379,7 +6372,6 @@
       "glm-4.5-flash:free",
       "glm-4.7-thinking",
       "glm-5.3-flash-uncensored-fp8:free",
-      "glyph-cluster:free",
       "gpt-4o-image",
       "granite-4.0-micro:free",
       "grok-video-3",
@@ -6398,11 +6390,10 @@
       "juggernaut-xl:free",
       "k-exaone-2.5:free",
       "k2-horizon:free",
-      "l3-70b-euryale-v2.1:free",
       "l3-8b-stheno-v3.2:free",
-      "l3.3-ms-nevoria-70b:free",
       "laguna-xs-2.1:free",
       "llama-3.1-8b:free",
+      "llama-3.2-11b-vision:free",
       "lucid-origin:free",
       "majicmix-realistic",
       "manta-flash-1.0:free",
@@ -6411,7 +6402,6 @@
       "mindshub-air:free",
       "minicpm5-2b:free",
       "mistral-small",
-      "mistral-small-3.2:free",
       "mistral-small:free",
       "mn-violet-lotus-12b:free",
       "nemotron-3.5-bolt-e4b:free",
@@ -6447,7 +6437,6 @@
       "rev-animated",
       "rev-animated:free",
       "riva-translate-4b-instruct-v2:free",
-      "sapphira-l3.3-70b-0.1:free",
       "sea-lion-e5-embedding-600m:free",
       "sea-lion-modernbert-embedding-300m:free",
       "sea-lion-modernbert-embedding-600m:free",
@@ -6510,29 +6499,18 @@
       "cu-mai-r1-70b-uncensored",
       "cyber-frontier",
       "deepseek-flash",
-      "deepseek-flash-max",
-      "deepseek-flash-max-uncensored",
-      "deepseek-flash-none",
       "deepseek-flash-uncensored",
       "deepseek-r1-distill-llama-70b-abliterated",
       "deepseek-r1-distill-qwen-32b-abliterated",
       "deepseek-r1-uncensored",
-      "deepseek-reasoner",
-      "deepseek-reasoner-uncensored",
       "deepseek-v3-uncensored",
       "deepseek-v3.1-terminus-uncensored",
       "deepseek-v3.1-uncensored",
       "deepseek-v3.2-exp-uncensored",
       "deepseek-v3.2-uncensored",
       "deepseek-v4-flash-0731-uncensored",
-      "deepseek-v4-flash-max",
-      "deepseek-v4-flash-max-uncensored",
-      "deepseek-v4-flash-none",
       "deepseek-v4-pro-0813-uncensored",
       "deepseek-v4-pro-abliterated",
-      "deepseek-v4-pro-max",
-      "deepseek-v4-pro-max-uncensored",
-      "deepseek-v4-pro-none",
       "deepseek-v4-pro-qwen3.5-9b-uncensored-heretic",
       "deepseek-v4-pro-uncensored",
       "deepseek-v4.1-flash-0910-uncensored",
@@ -7024,7 +7002,6 @@
       "moss-image",
       "qwen-image-2.1",
       "qwen3-tts-12hz-1.7b",
-      "raon-1-mini-preview",
       "voxtral-mini-4b-realtime"
     ],
     "api.zerogpu.ai": [
@@ -7223,9 +7200,13 @@
       "gpt-6.1-sol-fast"
     ],
     "inference.phala.com": [
+      "ath-maas/ovisocr3",
+      "paddlepaddle/paddleocr-vl-1.6",
       "phala/gemma-4-26b-a4b-uncensored",
       "phala/qwen3.8-27b-uncensored",
-      "qwen/qwen-2.5-7b-instruct"
+      "qwen/qwen-2.5-7b-instruct",
+      "xiaomi-research/xiaomi-ocr-0",
+      "zai-org/glm-ocr"
     ],
     "inference.runanywhere.ai": [
       "deepseek-v4-pro-fast",
@@ -8273,7 +8254,6 @@
       "collection:content-creator-voice",
       "collection:deepseek",
       "collection:devstral",
-      "collection:dola",
       "collection:doubao",
       "collection:eleven-speech",
       "collection:enhanced-transcription",
@@ -8308,7 +8288,6 @@
       "devstral-small-2505",
       "devstral-small-latest",
       "diffusiongemma",
-      "dola-seed-2.0-code",
       "doubao-seed-2.0-code-preview-260215",
       "doubao-seed-2.0-lite-260215",
       "doubao-seed-2.0-mini-260215",
@@ -8409,7 +8388,6 @@
       "glm-4.7-original:thinking",
       "glm-5-original",
       "glm-5-original:thinking",
-      "glm-5.2-fast-preview",
       "glm-5.3-flash-apex",
       "glm-5.3-flash-apex-abliterated",
       "glm-5.3-flash-cybersecurity",
@@ -8441,7 +8419,7 @@
       "grok-4.20-beta-0309-non-reasoning",
       "grok-4.20-beta-0309-reasoning",
       "grok-4.3-latest",
-      "h3-max",
+      "grok-code-fast-1",
       "hermes-3-llama-3.1-70b",
       "hermes-high",
       "hermes-low",
@@ -8467,6 +8445,7 @@
       "kimi-k2-instruct-fast",
       "kimi-k2.7-code-highspeed",
       "kimi-k2.8-preview",
+      "kimi-k3-1-pro-highspeed",
       "kimi-k3.1-pro-abliterated",
       "kimi-k3.1-pro-highspeed",
       "kling-3-0-turbo",
@@ -8494,7 +8473,7 @@
       "long-form",
       "longcat-2.5-preview",
       "longcat-image",
-      "m2-5-highspeed-20260218",
+      "m2-1-highspeed",
       "magnum-v2-72b",
       "manta-flash-1.0",
       "manta-mini-1.0",
@@ -8659,7 +8638,6 @@
       "tts-1-hd-1106",
       "v1",
       "veiled-calla-12b",
-      "video-1-text-to-video",
       "voxtral-mini-latest",
       "voxtral-mini-transcribe-realtime-3",
       "voxtral-mini-transcribe-realtime-3.0",
@@ -8692,7 +8670,6 @@
       "agentic",
       "alia-40b-instruct-2606",
       "apertus-70b-instruct-2509",
-      "apertus-8b-instruct-2509",
       "apertus-v1.5-70b",
       "arize-ai-qwen-2-1.5b-instruct",
       "auto",
@@ -8750,7 +8727,6 @@
       "ltx-2.5-fast",
       "ltx-2.5-pro",
       "meta-llama-3.1-8b-instruct-turbo",
-      "minimax-m1-80k",
       "multilingual-e5-large-instruct",
       "nemotron-3-embed-8b",
       "nemotron-sea-lion-v4.8-120b-a12b",

@@ -83,12 +83,12 @@ pin = "pinned"
 model = "google/gemini-4-carbon"
 pin = "pinned"
 
-["glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
-["glm-5.3-uncensored"]
-model = "z-ai/glm-5.3-uncensored"
+["glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["gpt-5.6-luna"]

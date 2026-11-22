@@ -535,6 +535,10 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
+["ollama-cloud/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["ollama-cloud/inkling-2-small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
@@ -880,6 +884,54 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["qwen-cloud-token-plan/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
+["qwen-cloud-token-plan/deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["qwen-cloud-token-plan/deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
+["qwen-cloud-token-plan/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["qwen-cloud-token-plan/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["qwen-cloud-token-plan/glm-5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["qwen-cloud-token-plan/glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["qwen-cloud-token-plan/qwen3.6-flash"]
+model = "qwen/qwen3.6-flash"
+pin = "pinned"
+
+["qwen-cloud-token-plan/qwen3.7-max"]
+model = "qwen/qwen3.7-max"
+pin = "pinned"
+
+["qwen-cloud-token-plan/qwen3.7-plus"]
+model = "qwen/qwen3.7-plus"
+pin = "pinned"
+
+["qwen-cloud-token-plan/qwen3.8-flash"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
+["qwen-cloud-token-plan/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
+
 ["surplus/claude-fable-5.2"]
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
@@ -954,6 +1006,10 @@ pin = "pinned"
 
 ["surplus/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["surplus/gpt-6-astra"]
+model = "openai/gpt-6-astra"
 pin = "pinned"
 
 ["surplus/grok-4.20-beta"]

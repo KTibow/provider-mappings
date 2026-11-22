@@ -83,6 +83,10 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
+["claude-haiku-4-5-20251001"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -508,6 +512,10 @@ model = "google/gemma-3-4b-it"
 pin = "pinned"
 
 ["gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
+["gemma-4-26b-a4b-it-maas"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
@@ -1172,6 +1180,10 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["mistral-large-4-1t-a52b"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 

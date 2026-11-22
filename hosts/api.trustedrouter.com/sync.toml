@@ -619,10 +619,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistralai/mistral-large-4-1t-a52b"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistralai/mistral-medium-3.5-128b"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"

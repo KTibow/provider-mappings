@@ -15,6 +15,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
+["DeepSeek-V4.1-Flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
 ["DeepSeek-V4.1-Flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
@@ -41,4 +45,8 @@ pin = "pinned"
 
 ["MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
+["Qwen3.8-27B"]
+model = "qwen/qwen3.8-27b"
 pin = "pinned"
