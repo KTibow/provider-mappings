@@ -278,6 +278,10 @@ model = "typesafe/jev-1.13"
 pin = "pinned"
 free = true
 
+["jev-1.14"]
+model = "typesafe/jev-1.14"
+pin = "pinned"
+
 ["kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"

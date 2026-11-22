@@ -63,6 +63,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
+["anthropic/claude-opus-4.7-fast"]
+model = "anthropic/claude-opus-4.7-fast"
+pin = "pinned"
+
 ["anthropic/claude-opus-4.8"]
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
@@ -357,6 +361,10 @@ pin = "pinned"
 
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
+pin = "pinned"
+
+["minimax/minimax-m2.7-highspeed"]
+model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m3"]

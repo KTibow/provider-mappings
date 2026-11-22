@@ -32,6 +32,11 @@ model = "z-ai/glm-5.3"
 pin = "pinned"
 quant = "fp4"
 
+["GLM-5.3-Flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+quant = "nvfp4"
+
 ["Kimi-K3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

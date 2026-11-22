@@ -424,6 +424,10 @@ model = "meituan/longcat-2.0"
 pin = "pinned"
 free = true
 
+["longcat-2.5"]
+model = "meituan/longcat-2.5"
+pin = "pinned"
+
 ["longcat-2.5-free"]
 model = "meituan/longcat-2.5"
 pin = "pinned"

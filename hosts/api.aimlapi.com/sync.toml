@@ -1455,6 +1455,10 @@ pin = "pinned"
 model = "prism-ml/ternary-bonsai-2-9b"
 pin = "pinned"
 
+["radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+
 ["recraft-v3"]
 model = "recraft/recraft-v3"
 pin = "pinned"

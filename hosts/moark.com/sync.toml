@@ -191,10 +191,6 @@ pin = "pinned"
 model = "alibaba/wan-2.7"
 pin = "pinned"
 
-["all-mpnet-base-v2"]
-model = "sentence-transformers/all-mpnet-base-v2"
-pin = "pinned"
-
 ["bge-m3"]
 model = "baai/bge-m3"
 pin = "pinned"
