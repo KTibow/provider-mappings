@@ -195,6 +195,10 @@ pin = "pinned"
 model = "cohere/command-a-plus"
 pin = "pinned"
 
+["deepseek/deepseek-chat"]
+model = "deepseek/deepseek-chat"
+pin = "pinned"
+
 ["deepseek/deepseek-chat-v3-0324"]
 model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
@@ -1113,10 +1117,6 @@ pin = "pinned"
 
 ["sao10k/l3-lunaris-8b"]
 model = "sao10k/l3-lunaris-8b"
-pin = "pinned"
-
-["sao10k/l3.1-euryale-70b"]
-model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"
 
 ["scaledown/classify-1"]

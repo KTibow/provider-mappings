@@ -1177,3 +1177,8 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
+
+["xiaomi-mimo-v2-5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"

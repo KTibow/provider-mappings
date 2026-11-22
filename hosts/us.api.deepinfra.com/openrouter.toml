@@ -383,6 +383,11 @@ pin = "pinned"
 model = "sesame/csm-1b"
 pin = "pinned"
 
+["tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+quant = "fp4"
+
 ["tencent/Hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"

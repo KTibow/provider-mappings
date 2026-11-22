@@ -19,8 +19,16 @@ pin = "pinned"
 model = "google/gemini-4-argon"
 pin = "pinned"
 
+["ag/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
 ["ag/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["ag/gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["ali/glm-5.3"]
@@ -580,46 +588,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
-["cp/anthropic/claude-fable-5"]
-model = "anthropic/claude-fable-5"
-pin = "pinned"
-
-["cp/anthropic/claude-fable-5.1"]
-model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["cp/anthropic/claude-haiku-5.5"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.1"]
-model = "anthropic/claude-opus-4.1"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.6"]
-model = "anthropic/claude-opus-4.6"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-4.8"]
-model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-5"]
-model = "anthropic/claude-opus-5"
-pin = "pinned"
-
-["cp/anthropic/claude-opus-5.5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
 ["cp/cline-pass/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -667,14 +635,6 @@ pin = "pinned"
 ["cp/cline-pass/qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
-
-["cp/openai/gpt-6-astra"]
-model = "openai/gpt-6-astra"
-pin = "pinned"
-
-["cp/openai/gpt-6-astra-pro"]
-model = "openai/gpt-6-astra-pro"
-pin = "pinned"
 
 ["cx/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"

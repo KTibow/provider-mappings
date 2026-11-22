@@ -147,6 +147,10 @@ pin = "pinned"
 model = "z-ai/glm-5.1"
 pin = "pinned"
 
+["GPT OSS 20B"]
+model = "openai/gpt-oss-20b"
+pin = "pinned"
+
 ["GPT-4o"]
 model = "openai/gpt-4o"
 pin = "pinned"
@@ -379,6 +383,10 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["OpenAI GPT OSS 120B"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+
 ["Qwen 3 235B A22B Instruct 2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
@@ -451,6 +459,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
+["deepseek-v4-1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
 ["deepseek-v4-flash"]
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
@@ -473,6 +485,10 @@ pin = "pinned"
 
 ["glm-4.6"]
 model = "z-ai/glm-4.6"
+pin = "pinned"
+
+["glm-4.7"]
+model = "z-ai/glm-4.7"
 pin = "pinned"
 
 ["glm-5"]

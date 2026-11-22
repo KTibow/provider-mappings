@@ -521,6 +521,38 @@ pin = "pinned"
 model = "openai/text-embedding-ada-002"
 pin = "pinned"
 
+["orca/orcacyber-flash-1.0"]
+model = "orcacyber/orcacyber-flash-1.0"
+pin = "pinned"
+
+["orca/orcacyber-glm-5.3-flash"]
+model = "orcacyber/orcacyber-glm-5.3-flash"
+pin = "pinned"
+
+["orca/orcacyber-mimo-flash"]
+model = "orcacyber/orcacyber-mimo-flash"
+pin = "pinned"
+
+["orca/orcacyber-minimax-m3.1-flash"]
+model = "orcacyber/orcacyber-minimax-m3.1-flash"
+pin = "pinned"
+
+["orca/orcacyber-qwen3.8-flash-next"]
+model = "orcacyber/orcacyber-qwen3.8-flash-next"
+pin = "pinned"
+
+["orca/orcacyber-ultra-1.0"]
+model = "orcacyber/orcacyber-ultra-1.0"
+pin = "pinned"
+
+["orca/orcacyber-zero-1.0"]
+model = "orcacyber/orcacyber-zero-1.0"
+pin = "pinned"
+
+["orca/orcacyber-zero-1.5"]
+model = "orcacyber/orcacyber-zero-1.5"
+pin = "pinned"
+
 ["qwen/qwen3-vl-235b-a22b-instruct"]
 model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"

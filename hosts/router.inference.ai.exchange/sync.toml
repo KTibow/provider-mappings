@@ -839,10 +839,6 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
-["gpt-audio-2025-08-28"]
-model = "openai/gpt-audio"
-pin = "pinned"
-
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -1809,10 +1805,6 @@ pin = "pinned"
 
 ["solar-pro4:thinking"]
 model = "upstage/solar-pro4"
-pin = "pinned"
-
-["sonar-pro"]
-model = "perplexity/sonar-pro"
 pin = "pinned"
 
 ["stable-diffusion-3.5-large"]

@@ -571,6 +571,10 @@ pin = "pinned"
 model = "qwen/qwen3.5-flash-02-23"
 pin = "pinned"
 
+["qwen3.5-plus-2026-02-15"]
+model = "qwen/qwen3.5-plus-02-15"
+pin = "pinned"
+
 ["qwen3.5-plus-2026-04-20"]
 model = "qwen/qwen3.5-plus-20260420"
 pin = "pinned"
