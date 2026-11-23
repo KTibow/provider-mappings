@@ -470,10 +470,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
-pin = "pinned"
-
 ["hy3"]
 model = "tencent/hy3"
 pin = "pinned"
@@ -532,14 +528,6 @@ pin = "pinned"
 
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["minimax-m3"]

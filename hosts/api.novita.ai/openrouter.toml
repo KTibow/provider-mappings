@@ -88,10 +88,6 @@ model = "qwen/qwen3.5-27b"
 pin = "pinned"
 quant = "bf16"
 
-["qwen/qwen3.5-397b-a17b"]
-model = "qwen/qwen3.5-397b-a17b"
-pin = "pinned"
-
 ["qwen/qwen3.8-2.4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"

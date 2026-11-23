@@ -2,14 +2,6 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["gpt-4"]
-model = "openai/gpt-4"
-pin = "pinned"
-
-["gpt-4-turbo"]
-model = "openai/gpt-4-turbo"
-pin = "pinned"
-
 ["gpt-4.1"]
 model = "openai/gpt-4.1"
 pin = "pinned"
@@ -18,16 +10,8 @@ pin = "pinned"
 model = "openai/gpt-4.1-mini"
 pin = "pinned"
 
-["gpt-4.1-nano"]
-model = "openai/gpt-4.1-nano"
-pin = "pinned"
-
 ["gpt-4o"]
 model = "openai/gpt-4o"
-pin = "pinned"
-
-["gpt-4o-2024-05-13"]
-model = "openai/gpt-4o-2024-05-13"
 pin = "pinned"
 
 ["gpt-4o-2024-08-06"]
@@ -162,16 +146,8 @@ pin = "pinned"
 model = "openai/o3"
 pin = "pinned"
 
-["o3-mini"]
-model = "openai/o3-mini"
-pin = "pinned"
-
 ["o3-pro"]
 model = "openai/o3-pro"
-pin = "pinned"
-
-["o4-mini"]
-model = "openai/o4-mini"
 pin = "pinned"
 
 ["text-embedding-3-large"]

@@ -86,11 +86,6 @@ quant = "fp8"
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 
-["qwen-3-8-27b"]
-model = "qwen/qwen3.8-27b"
-pin = "pinned"
-quant = "fp8"
-
 ["qwen3-235b-a22b-instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"

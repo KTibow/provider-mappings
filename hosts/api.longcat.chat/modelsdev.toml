@@ -6,6 +6,10 @@
 model = "meituan/longcat-2.0"
 pin = "pinned"
 
+["LongCat-2.5"]
+model = "meituan/longcat-2.5"
+pin = "pinned"
+
 ["LongCat-2.5-Preview"]
 model = "meituan/longcat-2.5-preview"
 pin = "pinned"

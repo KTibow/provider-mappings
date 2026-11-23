@@ -364,16 +364,6 @@ pin = "floating"
 model = "qwen/qwen3.8-omni-flash"
 pin = "pinned"
 
-["qwen3-8-omni-flash:free"]
-model = "qwen/qwen3.8-omni-flash"
-pin = "pinned"
-free = true
-
-["qwen4-max:free"]
-model = "qwen/qwen4-max"
-pin = "pinned"
-free = true
-
 ["solar-mini4:free"]
 model = "upstage/solar-mini4"
 pin = "pinned"

@@ -7,6 +7,11 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 quant = "fp8"
 
+["deepseek-ai/DeepSeek-V4-Pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+quant = "fp8"
+
 ["deepseek-ai/DeepSeek-V4.1-Flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"

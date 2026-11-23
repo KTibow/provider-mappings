@@ -63,6 +63,10 @@ pin = "pinned"
 model = "qwen/qwen3.5-35b-a3b"
 pin = "pinned"
 
+["qwen/qwen3.5-397b-a17b"]
+model = "qwen/qwen3.5-397b-a17b"
+pin = "pinned"
+
 ["qwen/qwen3.6-27b"]
 model = "qwen/qwen3.6-27b"
 pin = "pinned"

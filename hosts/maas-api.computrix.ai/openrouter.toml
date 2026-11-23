@@ -11,3 +11,8 @@ quant = "fp8"
 model = "inclusionai/ling-3.0-tiny"
 pin = "pinned"
 quant = "fp8"
+
+["ling-3.1-flash"]
+model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+quant = "fp8"

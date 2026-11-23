@@ -1145,7 +1145,7 @@ pin = "pinned"
 ["deepinfra/RadixArk/DaisyRose-27B"]
 model = "radixark/daisyrose-27b"
 pin = "pinned"
-quant = "bf16"
+quant = "fp8"
 
 ["deepinfra/Sao10K/L3.1-70B-Euryale-v2.2"]
 model = "sao10k/l3.1-euryale-70b"
@@ -3344,6 +3344,10 @@ pin = "pinned"
 
 ["vertex/claude-sonnet-5@us"]
 model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["vertex/deepseek-ai/deepseek-v4.1-flash-1017-maas"]
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["vertex/deepseek-ai/deepseek-v4.1-flash-maas"]

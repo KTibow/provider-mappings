@@ -10,8 +10,16 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
+["claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
 ["claude-opus-4-6"]
@@ -40,6 +48,10 @@ pin = "pinned"
 
 ["claude-sonnet-5"]
 model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["gpt-5-5"]

@@ -10,10 +10,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["devstral-2512"]
-model = "mistralai/devstral-2512"
-pin = "pinned"
-
 ["glm-5-2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
@@ -38,21 +34,9 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistral-large-4-0-8"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistral-large-latest"]
 model = "~mistralai/mistral-large-latest"
 pin = "floating"
-
-["mistral-medium-2505"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
-["mistral-medium-2508"]
-model = "mistralai/mistral-medium-3.1"
-pin = "pinned"
 
 ["mistral-small-2603"]
 model = "mistralai/mistral-small-2603"

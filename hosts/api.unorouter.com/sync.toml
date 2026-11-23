@@ -3,16 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["bge-base-en-v1.5:free"]
-model = "baai/bge-base-en-v1.5"
-pin = "pinned"
-free = true
-
-["bge-large-en-v1.5:free"]
-model = "baai/bge-large-en-v1.5"
-pin = "pinned"
-free = true
-
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -159,14 +149,13 @@ pin = "pinned"
 model = "deepseek/deepseek-v3.1-terminus"
 pin = "pinned"
 
+["deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+
 ["deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
-
-["deepseek-v4-flash-0731:free"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-free = true
 
 ["deepseek-v4-flash:free"]
 model = "deepseek/deepseek-v4-flash"
@@ -204,11 +193,6 @@ model = "recursive/flint-v1.0"
 pin = "pinned"
 free = true
 
-["flux-2-klein-4b:free"]
-model = "black-forest-labs/flux.2-klein-4b"
-pin = "pinned"
-free = true
-
 ["flux.2-flex"]
 model = "black-forest-labs/flux.2-flex"
 pin = "pinned"
@@ -229,11 +213,6 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
-["gemini-2.5-flash-lite:free"]
-model = "google/gemini-2.5-flash-lite"
-pin = "pinned"
-free = true
-
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
@@ -245,6 +224,11 @@ pin = "pinned"
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
+
+["gemini-3-flash:free"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+free = true
 
 ["gemini-3-pro-image"]
 model = "google/gemini-3-pro-image"
@@ -409,11 +393,6 @@ pin = "pinned"
 model = "openai/gpt-6-luna"
 pin = "pinned"
 
-["gpt-6-luna:free"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-free = true
-
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
 pin = "pinned"
@@ -497,8 +476,18 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro:free"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+free = true
+
 ["lfm-2.5-embedding-350m:free"]
 model = "liquid/lfm-2.5-embedding-350m"
+pin = "pinned"
+free = true
+
+["ling-3.1-flash:free"]
+model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 free = true
 
@@ -514,34 +503,16 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash:free"]
-model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-free = true
-
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["minimax-m2.5"]
-model = "minimax/minimax-m2.5"
 pin = "pinned"
 
 ["minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"
 
-["minimax-m2.7:free"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-free = true
-
 ["minimax-m3"]
 model = "minimax/minimax-m3"
-pin = "pinned"
-
-["minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["minimax-m3.1-flash:free"]
@@ -559,11 +530,6 @@ pin = "pinned"
 
 ["muse-glimmer-30b:free"]
 model = "meta/muse-glimmer-30b"
-pin = "pinned"
-free = true
-
-["muse-spark-1.1:free"]
-model = "meta/muse-spark-1.1"
 pin = "pinned"
 free = true
 

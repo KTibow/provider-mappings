@@ -6966,6 +6966,7 @@
   "permaslug": "xiaomi/mimo-v2.5-20260422"
  },
  "xiaomi/mimo-v2.5-pro": {
+  "delisted": "2026-11-23",
   "hf": "XiaomiMiMo/MiMo-V2.5-Pro",
   "input": [
    "text"

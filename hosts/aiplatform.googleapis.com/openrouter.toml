@@ -66,6 +66,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["deepseek-ai/deepseek-v4.1-flash-1017-maas"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["deepseek-ai/deepseek-v4.1-flash-maas"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -200,6 +204,18 @@ pin = "pinned"
 
 ["meta/muse-wonder-1.0"]
 model = "meta/muse-wonder"
+pin = "pinned"
+
+["openai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["openai/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["openai/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["openai/gpt-oss-120b-maas"]

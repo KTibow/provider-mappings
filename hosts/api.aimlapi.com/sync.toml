@@ -523,10 +523,6 @@ pin = "pinned"
 model = "google/gemini-2.5-flash-image"
 pin = "pinned"
 
-["gemini-3-pro-image-preview"]
-model = "google/gemini-3-pro-image-preview"
-pin = "pinned"
-
 ["google/gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"

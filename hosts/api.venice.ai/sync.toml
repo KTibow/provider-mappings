@@ -875,6 +875,10 @@ pin = "pinned"
 model = "qwen/qwen3.7-plus"
 pin = "pinned"
 
+["qwen-3-8-27b"]
+model = "qwen/qwen3.8-27b"
+pin = "pinned"
+
 ["qwen-3-8-flash"]
 model = "qwen/qwen3.8-flash"
 pin = "pinned"

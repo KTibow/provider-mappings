@@ -18,6 +18,10 @@ pin = "pinned"
 model = "minimax/minimax-m3"
 pin = "pinned"
 
+["MiniMaxAI/MiniMax-M3.1-Flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
 ["Qwen/Qwen3-235B-A22B-Instruct-2507-tput"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
@@ -46,6 +50,10 @@ pin = "pinned"
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 
+["Qwen/Qwen4-Max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+
 ["deepseek-ai/DeepSeek-R1"]
 model = "deepseek/deepseek-r1"
 pin = "pinned"
@@ -70,8 +78,16 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["deepseek-ai/DeepSeek-V4.1-Flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["essentialai/Rnj-1-Instruct"]
 model = "essentialai/rnj-1-instruct"
+pin = "pinned"
+
+["meta-models/Muse-Glimmer-30B"]
+model = "meta/muse-glimmer-30b"
 pin = "pinned"
 
 ["meta-models/Muse-Spark-Open-816B-A42B"]
@@ -102,8 +118,16 @@ pin = "pinned"
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
+["tencent/Hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["zai-org/GLM-5"]

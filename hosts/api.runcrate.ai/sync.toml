@@ -271,6 +271,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["mistralai/mistral-small-4"]
+model = "mistralai/mistral-small-2603"
+pin = "pinned"
+
 ["moondream/moondream3-preview"]
 model = "moondream/moondream3-preview"
 pin = "pinned"

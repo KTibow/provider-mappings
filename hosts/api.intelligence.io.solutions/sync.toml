@@ -107,6 +107,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["nvidia/nemotron-3.5-lightning"]
 model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"

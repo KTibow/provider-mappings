@@ -63,6 +63,10 @@ pin = "pinned"
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
+["gpt-image-2.6-flare"]
+model = "openai/gpt-image-2.6-flare"
+pin = "pinned"
+
 ["grok-4.7"]
 model = "x-ai/grok-4.7"
 pin = "pinned"

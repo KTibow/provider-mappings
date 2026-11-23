@@ -479,26 +479,6 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["muse-code/muse-spark-1.1"]
-model = "meta/muse-spark-1.1"
-pin = "pinned"
-
-["muse-code/muse-spark-1.2"]
-model = "meta/muse-spark-1.2"
-pin = "pinned"
-
-["muse-code/muse-spark-1.2-contributor"]
-model = "meta/muse-spark-1.2-contributor"
-pin = "pinned"
-
-["muse-code/muse-spark-1.3"]
-model = "meta/muse-spark-1.3"
-pin = "pinned"
-
-["muse-code/muse-spark-1.3-contributor"]
-model = "meta/muse-spark-1.3-contributor"
-pin = "pinned"
-
 ["ollama-cloud/deepseek-v4-pro:0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -1126,22 +1106,6 @@ pin = "pinned"
 
 ["surplus/venice-uncensored-role-play"]
 model = "venice/venice-uncensored-role-play"
-pin = "pinned"
-
-["venice/claude-fable-5-2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["venice/deepseek-v4-1-flash-1017-uncensored"]
-model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
-pin = "pinned"
-
-["venice/deepseek-v4-1-flash-uncensored"]
-model = "deepseek/deepseek-v4.1-flash-uncensored"
-pin = "pinned"
-
-["venice/gemini-4-carbon"]
-model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["vercel-ai-gateway/alibaba/qwen-3-14b"]

@@ -615,6 +615,11 @@ pin = "floating"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["qwen4-max-free"]
+model = "qwen/qwen4-max"
+pin = "pinned"
+free = true
+
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"

@@ -496,19 +496,13 @@
     ],
     "api.mistral.ai": [
       "codestral-latest",
-      "devstral-latest",
-      "devstral-medium-latest",
-      "labs-devstral-small-2512",
-      "labs-leanstral-1-5-1",
       "magistral-medium-latest",
+      "ministral-14b-latest",
       "ministral-3b-latest",
       "ministral-8b-latest",
       "mistral-embed",
       "mistral-medium-2604",
       "mistral-medium-latest",
-      "mistral-small-2506",
-      "open-mistral-nemo",
-      "pixtral-12b",
       "voxtral-mini-latest",
       "voxtral-mini-tts-latest",
       "voxtral-small-latest"
@@ -565,12 +559,8 @@
     ],
     "api.openai.com": [
       "chatgpt-image-latest",
-      "gpt-3.5-turbo",
-      "gpt-5.3-codex-spark",
       "gpt-daybreak-blue-latest",
-      "gpt-daybreak-red-latest",
-      "o1",
-      "o1-pro"
+      "gpt-daybreak-red-latest"
     ],
     "api.orcarouter.ai": [
       "google/gemini-flash-lite-latest",
@@ -940,6 +930,9 @@
       "jad-code",
       "jad-go"
     ],
+    "kenari.id": [
+      "inkling-2-mini-uncensored"
+    ],
     "llm.chutes.ai": [
       "google/gemma-4-31B-turbo-TEE",
       "zai-org/GLM-5.2-Fast"
@@ -1069,7 +1062,6 @@
       "inflatebot/MN-12B-Mag-Mell-R1",
       "jcartu/deepseek-v4.1-flash-1017-abliterated-lossless-csf",
       "jiunsong/supergemma4-26b-uncensored",
-      "kimi-k2-instruct-fast",
       "kitani/clover-2",
       "kitani/clover-2:thinking",
       "lyber/deepseek-v4.1-flash-1017-abliterated",
@@ -1102,7 +1094,11 @@
       "openai/gpt-terra-latest",
       "orca/orcacyber-glm-5.3",
       "orca/orcacyber-hy4",
+      "orca/orcacyber-hy4-flash",
+      "orca/orcacyber-inkling-2-mini",
       "orca/orcacyber-k3.1-pro",
+      "orca/orcacyber-ling-3.2-flash",
+      "orca/orcacyber-step-5-preview",
       "ornith-ai/ornith-1.5-122b",
       "ornith-ai/ornith-1.5-35b-a3b",
       "ornith-ai/ornith-1.5-35b-a3b:thinking",
@@ -1209,8 +1205,6 @@
       "devstral-latest",
       "devstral-latest@eu",
       "kimi-k3.1-pro-highspeed",
-      "leanstral-1-5",
-      "leanstral-1-5@eu",
       "mistral-medium-latest",
       "mistral-medium-latest@eu",
       "nemotron-lightning-3.5-30b-a3b"

@@ -167,6 +167,10 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
 ["qwen3.7-max"]
 model = "qwen/qwen3.7-max"
 pin = "pinned"

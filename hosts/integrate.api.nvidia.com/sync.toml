@@ -31,10 +31,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["nvidia/nemotron-3-embed-1b"]
-model = "nvidia/nemotron-3-embed-1b"
-pin = "pinned"
-
 ["nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"

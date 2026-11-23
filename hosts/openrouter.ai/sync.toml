@@ -2393,10 +2393,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
-["xiaomi/mimo-v2.5-pro"]
-model = "xiaomi/mimo-v2.5-pro"
-pin = "pinned"
-
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"

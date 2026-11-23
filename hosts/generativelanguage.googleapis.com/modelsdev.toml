@@ -10,10 +10,6 @@ pin = "pinned"
 model = "google/deep-research-preview-04-2026"
 pin = "pinned"
 
-["gemini-2.5-computer-use-preview-10-2025"]
-model = "google/gemini-2.5-computer-use-preview-10-2025"
-pin = "pinned"
-
 ["gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"
@@ -48,10 +44,6 @@ pin = "pinned"
 
 ["gemini-3.1-flash-lite-image"]
 model = "google/gemini-3.1-flash-lite-image"
-pin = "pinned"
-
-["gemini-3.1-flash-lite-preview"]
-model = "google/gemini-3.1-flash-lite-preview"
 pin = "pinned"
 
 ["gemini-3.1-flash-live-preview"]
@@ -116,10 +108,6 @@ pin = "pinned"
 
 ["gemini-embedding-2"]
 model = "google/gemini-embedding-2"
-pin = "pinned"
-
-["gemini-omni-flash-preview"]
-model = "google/gemini-omni-flash-preview"
 pin = "pinned"
 
 ["gemini-pro-latest"]

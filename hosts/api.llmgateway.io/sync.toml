@@ -959,6 +959,10 @@ pin = "pinned"
 model = "bytedance/seedance-2.5"
 pin = "pinned"
 
+["seedance-2-5-flash"]
+model = "bytedance/seedance-2.5-flash"
+pin = "pinned"
+
 ["seedream-4-0"]
 model = "bytedance-seed/seedream-4.0"
 pin = "pinned"
@@ -977,6 +981,10 @@ pin = "pinned"
 
 ["seedream-5-0-pro"]
 model = "bytedance-seed/seedream-5-0-pro"
+pin = "pinned"
+
+["seedream-5-5"]
+model = "bytedance-seed/seedream-5-5"
 pin = "pinned"
 
 ["sonar"]

@@ -45,7 +45,7 @@ quant = "nvfp4"
 ["openai-gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
 pin = "pinned"
-quant = "fp8"
+quant = "fp4"
 
 ["qwen3.5-35b-a3b"]
 model = "qwen/qwen3.5-35b-a3b"

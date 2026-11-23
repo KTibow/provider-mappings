@@ -17,3 +17,7 @@ pin = "pinned"
 ["accounts/fireworks/routers/kimi-k3-us"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
+
+["accounts/fireworks/routers/kimi-k3p1-pro-us"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"

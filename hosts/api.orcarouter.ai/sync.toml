@@ -627,6 +627,10 @@ model = "tencent/hy4-preview"
 pin = "pinned"
 free = true
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["typesafe/jev-1.13"]
 model = "typesafe/jev-1.13"
 pin = "pinned"

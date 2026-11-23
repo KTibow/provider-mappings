@@ -83,6 +83,10 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
+["claude-haiku-4-5-20251001"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -95,15 +99,11 @@ pin = "pinned"
 model = "~anthropic/claude-haiku-latest"
 pin = "floating"
 
-["claude-opus-4-1"]
-model = "anthropic/claude-opus-4.1"
-pin = "pinned"
-
-["claude-opus-4-1:thinking"]
-model = "anthropic/claude-opus-4.1"
-pin = "pinned"
-
 ["claude-opus-4-5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["claude-opus-4-5-20251101"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
@@ -915,10 +915,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["grok-imagine-image"]
-model = "x-ai/grok-imagine-image"
-pin = "pinned"
-
 ["grok-imagine-image-2-0"]
 model = "x-ai/grok-imagine-image-2.0"
 pin = "pinned"
@@ -985,10 +981,6 @@ pin = "pinned"
 
 ["kimi-k2-instruct-0905"]
 model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["kimi-k2-instruct-fp4"]
-model = "moonshotai/kimi-k2"
 pin = "pinned"
 
 ["kimi-k2.5:thinking"]
@@ -1191,10 +1183,6 @@ pin = "pinned"
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
 
-["mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
-pin = "pinned"
-
 ["mistral-medium-3.5"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
@@ -1281,10 +1269,6 @@ pin = "pinned"
 
 ["mythomax-l2-13b"]
 model = "gryphe/mythomax-l2-13b"
-pin = "pinned"
-
-["nano-banana-2"]
-model = "google/gemini-3.1-flash-image-preview"
 pin = "pinned"
 
 ["nemotron-3-nano-30b-a3b"]
@@ -1481,10 +1465,6 @@ pin = "pinned"
 
 ["qwen-2.5-72b-instruct"]
 model = "qwen/qwen-2.5-72b-instruct"
-pin = "pinned"
-
-["qwen-image"]
-model = "qwen/qwen-image"
 pin = "pinned"
 
 ["qwen-plus"]

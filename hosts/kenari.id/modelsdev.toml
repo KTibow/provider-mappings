@@ -318,11 +318,6 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
-["qwen4-max:free"]
-model = "qwen/qwen4-max"
-pin = "pinned"
-free = true
-
 ["solar-mini4:free"]
 model = "upstage/solar-mini4"
 pin = "pinned"

@@ -300,6 +300,10 @@ pin = "pinned"
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
 
+["azure/gpt-5.6-luna@polandcentral"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
 ["azure/gpt-5.6-luna@swedencentral"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -328,6 +332,10 @@ pin = "pinned"
 model = "openai/gpt-5.6-sol"
 pin = "pinned"
 
+["azure/gpt-5.6-sol@polandcentral"]
+model = "openai/gpt-5.6-sol"
+pin = "pinned"
+
 ["azure/gpt-5.6-sol@swedencentral"]
 model = "openai/gpt-5.6-sol"
 pin = "pinned"
@@ -345,6 +353,10 @@ model = "openai/gpt-5.6-terra"
 pin = "pinned"
 
 ["azure/gpt-5.6-terra@germanywestcentral"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["azure/gpt-5.6-terra@polandcentral"]
 model = "openai/gpt-5.6-terra"
 pin = "pinned"
 
@@ -392,6 +404,10 @@ pin = "pinned"
 model = "openai/gpt-6-luna"
 pin = "pinned"
 
+["azure/gpt-6-luna@polandcentral"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
 ["azure/gpt-6-luna@swedencentral"]
 model = "openai/gpt-6-luna"
 pin = "pinned"
@@ -409,6 +425,10 @@ model = "openai/gpt-6-sol"
 pin = "pinned"
 
 ["azure/gpt-6-sol@germanywestcentral"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
+["azure/gpt-6-sol@polandcentral"]
 model = "openai/gpt-6-sol"
 pin = "pinned"
 
@@ -432,6 +452,10 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
+["azure/gpt-6.1-sol@polandcentral"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
 ["azure/gpt-6.1-sol@swedencentral"]
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
@@ -449,6 +473,10 @@ model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
 ["azure/gpt-6.1-terra@germanywestcentral"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["azure/gpt-6.1-terra@polandcentral"]
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
@@ -472,6 +500,10 @@ pin = "pinned"
 model = "openai/gpt-6.2-astra"
 pin = "pinned"
 
+["azure/gpt-6.2-astra@polandcentral"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
 ["azure/gpt-6.2-astra@swedencentral"]
 model = "openai/gpt-6.2-astra"
 pin = "pinned"
@@ -489,6 +521,10 @@ model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["azure/gpt-6.2-sol@germanywestcentral"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["azure/gpt-6.2-sol@polandcentral"]
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
@@ -1467,34 +1503,6 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
-["minimaxi/minimax-m2"]
-model = "minimax/minimax-m2"
-pin = "pinned"
-
-["minimaxi/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["minimaxi/minimax-m2.5-highspeed"]
-model = "minimax/minimax-m2.5-highspeed"
-pin = "pinned"
-
-["minimaxi/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimaxi/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
-pin = "pinned"
-
-["minimaxi/minimax-m3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-
-["minimaxi/minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
 ["mistral/glm-5-2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
@@ -1709,16 +1717,6 @@ quant = "bf16"
 
 ["novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8"]
 model = "meta-llama/llama-4-maverick"
-pin = "pinned"
-quant = "fp8"
-
-["novita/minimax/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-quant = "fp8"
-
-["novita/minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 quant = "fp8"
 
@@ -2009,11 +2007,6 @@ quant = "nvfp4"
 model = "z-ai/glm-5.2"
 pin = "pinned"
 quant = "fp8"
-
-["sail/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-quant = "mxfp4"
 
 ["sail/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
@@ -2366,10 +2359,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
-["vertex/deepseek-v3.2"]
-model = "deepseek/deepseek-v3.2"
-pin = "pinned"
-
 ["vertex/gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"
@@ -2704,10 +2693,6 @@ pin = "pinned"
 
 ["xai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["xai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-flash"]
