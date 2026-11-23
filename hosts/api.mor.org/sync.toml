@@ -91,10 +91,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
-["DeepSeek V4.1 Flash 1017 Uncensored"]
-model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
-pin = "pinned"
-
 ["DeepSeek V4.1 Flash Uncensored"]
 model = "deepseek/deepseek-v4.1-flash-uncensored"
 pin = "pinned"
@@ -141,10 +137,6 @@ pin = "pinned"
 
 ["GLM-5.1"]
 model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["GPT OSS 20B"]
-model = "openai/gpt-oss-20b"
 pin = "pinned"
 
 ["GPT-4o"]
@@ -371,10 +363,6 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
 
-["Muse Spark Open"]
-model = "meta/muse-spark-open"
-pin = "pinned"
-
 ["Muse Wonder"]
 model = "meta/muse-wonder"
 pin = "pinned"
@@ -593,10 +581,6 @@ pin = "pinned"
 
 ["qwen3-coder-flash"]
 model = "qwen/qwen3-coder-flash"
-pin = "pinned"
-
-["qwen3-coder-next"]
-model = "qwen/qwen3-coder-next"
 pin = "pinned"
 
 ["qwen3-next-80b"]

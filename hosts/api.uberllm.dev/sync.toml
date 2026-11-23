@@ -59,6 +59,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
 
+["anthropic/claude-opus-4.6-fast"]
+model = "anthropic/claude-opus-4.6-fast"
+pin = "pinned"
+
 ["anthropic/claude-opus-4.7"]
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
@@ -117,6 +121,10 @@ pin = "pinned"
 
 ["deepseek/deepseek-v3.1"]
 model = "deepseek/deepseek-chat-v3.1"
+pin = "pinned"
+
+["deepseek/deepseek-v3.1-terminus"]
+model = "deepseek/deepseek-v3.1-terminus"
 pin = "pinned"
 
 ["deepseek/deepseek-v3.2"]
@@ -205,10 +213,6 @@ pin = "pinned"
 
 ["google/gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
-pin = "pinned"
-
-["google/gemini-3.1-pro"]
-model = "google/gemini-3.1-pro"
 pin = "pinned"
 
 ["google/gemini-3.1-pro-preview"]
@@ -311,6 +315,10 @@ pin = "pinned"
 model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
+["meta-llama/llama-4-scout"]
+model = "meta-llama/llama-4-scout"
+pin = "pinned"
+
 ["meta-llama/muse-ember"]
 model = "meta/muse-ember"
 pin = "pinned"
@@ -361,10 +369,6 @@ pin = "pinned"
 
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["minimax/minimax-m2.7-highspeed"]
-model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
 
 ["minimax/minimax-m3"]
@@ -669,6 +673,10 @@ pin = "pinned"
 
 ["qwen/e2ee-qwen-2-5-7b-p"]
 model = "venice/e2ee-qwen2.5-7b"
+pin = "pinned"
+
+["qwen/e2ee-qwen3-5-122b-a10b"]
+model = "venice/e2ee-qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["qwen/e2ee-qwen3-6-35b-a3b"]

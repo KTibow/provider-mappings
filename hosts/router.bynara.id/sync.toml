@@ -91,6 +91,10 @@ pin = "pinned"
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
+["grok-4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+
 ["jev-1.14.0"]
 model = "typesafe/jev-1.14"
 pin = "pinned"

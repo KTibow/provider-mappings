@@ -1,8 +1,4 @@
 {
- "api.blazeapi.org": {
-  "error": "GET https://api.blazeapi.org/paid/v1/models -> HTTP 522: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/\",\"title\":\"Error 522: Conn",
-  "failing_since": "2026-11-22"
- },
  "api.featherless.ai": {
   "error": "list shrank to 50 entries (had 198 mapped rows)",
   "failing_since": "2026-11-14"
@@ -12,7 +8,7 @@
   "failing_since": "2026-11-12"
  },
  "apihub.agnes-ai.com": {
-  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261122183844739567519Di2FXOFE)\",\"type\":\"AgnesAI_error\"}}",
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 2026112300244270965857hh7fslZa)\",\"type\":\"AgnesAI_error\"}}",
   "failing_since": "2026-11-22"
  }
 }
