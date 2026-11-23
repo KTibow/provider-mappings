@@ -432,6 +432,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["dots-studio/dots-3-note-preview:free"]
+model = "dots-studio/dots-3-note-preview"
+pin = "pinned"
+free = true
+
 ["elevenlabs/eleven-flash-v2"]
 model = "elevenlabs/eleven-flash-v2"
 pin = "pinned"
@@ -831,6 +836,18 @@ pin = "pinned"
 
 ["kt/midm-k-3.0-pro"]
 model = "kt/midm-k-3.0-pro"
+pin = "pinned"
+
+["kwaivgi/kling-v3.0-pro"]
+model = "kwaivgi/kling-v3.0-pro"
+pin = "pinned"
+
+["kwaivgi/kling-v3.0-std"]
+model = "kwaivgi/kling-v3.0-std"
+pin = "pinned"
+
+["kwaivgi/kling-video-o1"]
+model = "kwaivgi/kling-video-o1"
 pin = "pinned"
 
 ["liquid/d1-ultra"]

@@ -26,10 +26,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
-["deepseek-v4-pro-0813"]
-model = "deepseek/deepseek-v4-pro-0813"
-pin = "pinned"
-
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"

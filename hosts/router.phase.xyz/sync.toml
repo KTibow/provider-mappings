@@ -83,10 +83,6 @@ pin = "pinned"
 model = "thedrummer/cydonia-24b-v4.1"
 pin = "pinned"
 
-["daisyrose-27b"]
-model = "radixark/daisyrose-27b"
-pin = "pinned"
-
 ["deepseek-chat"]
 model = "deepseek/deepseek-chat"
 pin = "pinned"

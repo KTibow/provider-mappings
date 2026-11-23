@@ -1264,7 +1264,6 @@
   "permaslug": "deepseek/deepseek-v4.1-flash-20261017"
  },
  "dots-studio/dots-3-note-preview": {
-  "delisted": "2026-11-21",
   "formerly": [
    "dots-studio/dots-3-note-preview:free"
   ],
@@ -2431,7 +2430,6 @@
   "permaslug": "kt/midm-k-3.0-pro"
  },
  "kwaivgi/kling-v3.0-pro": {
-  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -2443,7 +2441,6 @@
   "permaslug": "kwaivgi/kling-v3.0-pro-20260429"
  },
  "kwaivgi/kling-v3.0-std": {
-  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"
@@ -2455,7 +2452,6 @@
   "permaslug": "kwaivgi/kling-v3.0-std-20260429"
  },
  "kwaivgi/kling-video-o1": {
-  "delisted": "2026-11-21",
   "input": [
    "image",
    "text"

@@ -762,6 +762,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
+["writer.palmyra-vision-7b"]
+model = "writer/palmyra-vision-7b"
+pin = "pinned"
+
 ["writer.palmyra-x4-v1:0"]
 model = "writer/palmyra-x4"
 pin = "pinned"

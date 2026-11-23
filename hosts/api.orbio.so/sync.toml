@@ -803,6 +803,18 @@ pin = "pinned"
 model = "kt/midm-k-3.0-pro"
 pin = "pinned"
 
+["kwaivgi/kling-v3.0-pro"]
+model = "kwaivgi/kling-v3.0-pro"
+pin = "pinned"
+
+["kwaivgi/kling-v3.0-std"]
+model = "kwaivgi/kling-v3.0-std"
+pin = "pinned"
+
+["kwaivgi/kling-video-o1"]
+model = "kwaivgi/kling-video-o1"
+pin = "pinned"
+
 ["liquid/d1-ultra"]
 model = "liquid/d1-ultra"
 pin = "pinned"

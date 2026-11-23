@@ -94,6 +94,10 @@ pin = "pinned"
 model = "qwen/qwen3-coder-next"
 pin = "pinned"
 
+["amazon/writer.palmyra-vision-7b"]
+model = "writer/palmyra-vision-7b"
+pin = "pinned"
+
 ["amazon/zai.glm-4.7-flash"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
@@ -1424,6 +1428,10 @@ pin = "pinned"
 
 ["xai/grok-4.20-0309-reasoning"]
 model = "x-ai/grok-4.20"
+pin = "pinned"
+
+["xai/grok-4.20-multi-agent-0309"]
+model = "x-ai/grok-4.20-multi-agent-0309"
 pin = "pinned"
 
 ["xai/grok-4.3"]

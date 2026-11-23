@@ -3,6 +3,10 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["ag/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
 ["ag/claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
@@ -11,16 +15,12 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
 ["ag/gemini-4-carbon"]
 model = "google/gemini-4-carbon"
-pin = "pinned"
-
-["ag/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
-pin = "pinned"
-
-["ag/gemini-4-neon"]
-model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["ali/kimi-k3"]
@@ -171,62 +171,6 @@ pin = "pinned"
 model = "alibaba/wan-2.7-image"
 pin = "pinned"
 
-["ant/claude-fable-5"]
-model = "anthropic/claude-fable-5"
-pin = "pinned"
-
-["ant/claude-fable-5-1"]
-model = "anthropic/claude-fable-5.1"
-pin = "pinned"
-
-["ant/claude-fable-5-2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["ant/claude-haiku-4-5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
-["ant/claude-haiku-5-5"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["ant/claude-opus-4-5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
-["ant/claude-opus-4-6"]
-model = "anthropic/claude-opus-4.6"
-pin = "pinned"
-
-["ant/claude-opus-4-7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["ant/claude-opus-4-8"]
-model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["ant/claude-opus-5"]
-model = "anthropic/claude-opus-5"
-pin = "pinned"
-
-["ant/claude-opus-5-5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["ant/claude-sonnet-4-6"]
-model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-
-["ant/claude-sonnet-5"]
-model = "anthropic/claude-sonnet-5"
-pin = "pinned"
-
-["ant/claude-sonnet-5-5"]
-model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
 ["cb/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -245,6 +189,10 @@ pin = "pinned"
 
 ["cb/gpt-5.3-codex"]
 model = "openai/gpt-5.3-codex"
+pin = "pinned"
+
+["cb/grok-4.7"]
+model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["cb/hy3"]
@@ -510,6 +458,10 @@ pin = "pinned"
 
 ["cmc/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["cmc/gpt-6-luna"]
+model = "openai/gpt-6-luna"
 pin = "pinned"
 
 ["cmc/inclusionai/ling-3.1-flash"]
@@ -1090,6 +1042,10 @@ pin = "pinned"
 
 ["mimotp/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["mimotp/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["minimax-h3-image"]

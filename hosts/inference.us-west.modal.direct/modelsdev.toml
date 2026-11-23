@@ -6,6 +6,10 @@
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 
+["Qwen/Qwen3.8-Max-VL-Thinking"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
+
 ["deepseek-ai/DeepSeek-V4.1-Flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -16,6 +20,10 @@ pin = "pinned"
 
 ["moonshotai/Kimi-K3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["nvidia/GLM-5.3-Flash-NVFP4"]

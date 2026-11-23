@@ -766,6 +766,10 @@ pin = "pinned"
 model = "ibm-granite/granite-4.2-8b"
 pin = "pinned"
 
+["deepinfra/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["deepinfra/hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"

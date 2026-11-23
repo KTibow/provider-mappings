@@ -307,10 +307,6 @@ pin = "pinned"
 model = "nvidia/nemotron-3.5-embed-8b"
 pin = "pinned"
 
-["nvidia/Nemotron-Content-Safety-3.5"]
-model = "nvidia/nemotron-3.5-content-safety"
-pin = "pinned"
-
 ["nvidia/llama-nemotron-embed-vl-1b-v2"]
 model = "nvidia/llama-nemotron-embed-vl-1b-v2"
 pin = "pinned"
@@ -333,10 +329,6 @@ pin = "pinned"
 
 ["openai/gpt-oss-safeguard-120b"]
 model = "openai/gpt-oss-safeguard-120b"
-pin = "pinned"
-
-["openai/gpt-oss-safeguard-20b"]
-model = "openai/gpt-oss-safeguard-20b"
 pin = "pinned"
 
 ["openai/whisper-large-v3"]

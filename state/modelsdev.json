@@ -67,7 +67,6 @@
       "openrouter/bodybuilder",
       "openrouter/free",
       "openrouter/pareto-code",
-      "paperinstruments/ultramarine-1-flash",
       "quiverai/arrow-2",
       "quiverai/arrow-2-telos",
       "qwen/qwen3-max-thinking",
@@ -155,7 +154,6 @@
       "openai/gpt-6.2-astra-fast",
       "openai/gpt-6.2-sol-fast",
       "openai/o3-fast",
-      "paperinstruments/ultramarine-1-flash",
       "recraft/recraft-v2",
       "scaledown/extract-1",
       "scaledown/scaledown-extract-1",
@@ -297,6 +295,13 @@
       "deepseek/deepseek-v4.1-flash-fast",
       "stealth/glyph-cluster:free",
       "zai-org/GLM-5.2-Fast"
+    ],
+    "api.concentrate.ai": [
+      "deepseek-v4-1-fast",
+      "deepseek-v4-1-flash-fast",
+      "grok-4.20-non-reasoning",
+      "kimi-k3-1-pro-highspeed",
+      "minimax-m2-1-highspeed"
     ],
     "api.cortecs.ai": [
       "mistral-7b-instruct-v0.2",

@@ -475,6 +475,10 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -943,12 +947,20 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["ideogram-v4.5"]
 model = "ideogram/ideogram-v4.5"
 pin = "pinned"
 
 ["inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["inkling-2-small"]
@@ -1079,6 +1091,10 @@ pin = "pinned"
 model = "meta-llama/llama-4-maverick"
 pin = "pinned"
 
+["llama-4-maverick-17b-128e-instruct-fp8"]
+model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
 ["llama-4-scout"]
 model = "meta-llama/llama-4-scout"
 pin = "pinned"
@@ -1168,10 +1184,6 @@ model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["mistral-large-4-1t-a52b"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
@@ -1411,6 +1423,14 @@ pin = "pinned"
 model = "orcacyber/orcacyber-qwen3.8-flash-next"
 pin = "pinned"
 
+["orcacyber-ultra-1.0"]
+model = "orcacyber/orcacyber-ultra-1.0"
+pin = "pinned"
+
+["orcacyber-zero-1.0"]
+model = "orcacyber/orcacyber-zero-1.0"
+pin = "pinned"
+
 ["orcacyber-zero-1.5"]
 model = "orcacyber/orcacyber-zero-1.5"
 pin = "pinned"
@@ -1533,6 +1553,10 @@ pin = "pinned"
 
 ["qwen3-vl-30b-a3b-instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
+pin = "pinned"
+
+["qwen3-vl-8b-instruct"]
+model = "qwen/qwen3-vl-8b-instruct"
 pin = "pinned"
 
 ["qwen3.5-122b-a10b"]
@@ -1843,12 +1867,12 @@ pin = "pinned"
 model = "openai/text-embedding-ada-002"
 pin = "pinned"
 
-["venice-uncensored"]
-model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+["ui-tars-1.5-7b"]
+model = "bytedance/ui-tars-1.5-7b"
 pin = "pinned"
 
-["veo3.1-lite"]
-model = "google/veo-3.1-lite"
+["venice-uncensored"]
+model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
 pin = "pinned"
 
 ["voxtral-mini-2602"]

@@ -2,10 +2,30 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["deepseekv4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["deepseekv4.1-flash-1017-interactive"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["gemma4"]
+model = "google/gemma-4-31b-it"
+pin = "pinned"
+
+["glm5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["glm5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
 ["sarvam-105b"]
 model = "sarvam/sarvam-105b"
 pin = "pinned"
 
-["sarvam-30b"]
-model = "sarvam/sarvam-30b"
+["sarvam-105b-conversations"]
+model = "sarvam/sarvam-105b"
 pin = "pinned"

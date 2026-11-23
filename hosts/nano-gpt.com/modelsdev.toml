@@ -1146,6 +1146,10 @@ pin = "pinned"
 model = "orcacyber/orcacyber-zero-1.5"
 pin = "pinned"
 
+["paperinstruments/ultramarine-1-flash"]
+model = "paperinstruments/ultramarine-1-flash"
+pin = "pinned"
+
 ["particle-ai/particle-1"]
 model = "particle-ai/particle-1"
 pin = "pinned"

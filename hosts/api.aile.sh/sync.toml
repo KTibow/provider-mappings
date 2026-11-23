@@ -475,38 +475,6 @@ pin = "pinned"
 model = "openai/whisper-large-v3-turbo"
 pin = "pinned"
 
-["inferhub/deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
-["inferhub/deepseek-v4.1-flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["inferhub/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["inferhub/gpt-5.6-luna"]
-model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["inferhub/gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["inferhub/hy3"]
-model = "tencent/hy3"
-pin = "pinned"
-
-["inferhub/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["inferhub/minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
 ["minimax/MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"

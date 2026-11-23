@@ -70,6 +70,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
 
+["glm-5.4"]
+model = "z-ai/glm-5.4"
+pin = "pinned"
+
 ["glm-5v-turbo"]
 model = "z-ai/glm-5v-turbo"
 pin = "pinned"

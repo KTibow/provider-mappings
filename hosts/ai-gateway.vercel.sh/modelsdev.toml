@@ -1011,6 +1011,10 @@ pin = "pinned"
 model = "openai/whisper-1"
 pin = "pinned"
 
+["paperinstruments/ultramarine-1-flash"]
+model = "paperinstruments/ultramarine-1-flash"
+pin = "pinned"
+
 ["particle/particle-1"]
 model = "particle-ai/particle-1"
 pin = "pinned"

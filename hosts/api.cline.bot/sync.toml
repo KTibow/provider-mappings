@@ -220,6 +220,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["dots-studio/dots-3-note-preview:free"]
+model = "dots-studio/dots-3-note-preview"
+pin = "pinned"
+free = true
+
 ["elorian/glimpse"]
 model = "elorian/glimpse"
 pin = "pinned"

@@ -143,10 +143,6 @@ pin = "pinned"
 model = "black-forest-labs/flux.2-pro"
 pin = "pinned"
 
-["bytedance-seed/seed-2-1-turbo"]
-model = "bytedance-seed/seed-2-1-turbo"
-pin = "pinned"
-
 ["bytedance/seed-2.0-code"]
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
@@ -611,11 +607,11 @@ pin = "pinned"
 model = "mistralai/mistral-large-2512"
 pin = "pinned"
 
-["mistralai/mistral-large-3-675b-instruct-2512-nvfp4"]
-model = "mistralai/mistral-large-2512"
+["mistralai/mistral-large-4"]
+model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistralai/mistral-large-4"]
+["mistralai/mistral-large-4-1t-a52b"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
