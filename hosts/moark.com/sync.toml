@@ -71,10 +71,6 @@ pin = "pinned"
 model = "lightricks/ltx-2"
 pin = "pinned"
 
-["MiMo-V2.5-Pro"]
-model = "xiaomi/mimo-v2.5-pro"
-pin = "pinned"
-
 ["MiniMax-H3"]
 model = "minimax/hailuo-3"
 pin = "pinned"

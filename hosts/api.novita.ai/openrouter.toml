@@ -37,14 +37,6 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 quant = "bf16"
 
-["inclusionai/ling-3.0-flash"]
-model = "inclusionai/ling-3.0-flash"
-pin = "pinned"
-
-["inclusionai/ling-3.1-flash"]
-model = "inclusionai/ling-3.1-flash"
-pin = "pinned"
-
 ["moonshotai/kimi-k2-0905"]
 model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
@@ -68,11 +60,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
-["moonshotai/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-quant = "int4"
-
 ["qwen/qwen3-vl-30b-a3b-instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"
@@ -95,20 +82,6 @@ pin = "pinned"
 ["qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
-
-["stepfun/step-3.7-flash"]
-model = "stepfun/step-3.7-flash"
-pin = "pinned"
-quant = "fp8"
-
-["tencent/hy3"]
-model = "tencent/hy3"
-pin = "pinned"
-
-["tencent/hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-quant = "fp8"
 
 ["zai-org/glm-4.5-air"]
 model = "z-ai/glm-4.5-air"

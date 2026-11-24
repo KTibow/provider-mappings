@@ -10,12 +10,17 @@ pin = "pinned"
 ["clef"]
 model = "cloudflare/clef"
 pin = "pinned"
-quant = "bf16"
+quant = "fp8"
 
 ["clef-flash"]
 model = "cloudflare/clef-flash"
 pin = "pinned"
 quant = "bf16"
+
+["clef-omni"]
+model = "cloudflare/clef-omni"
+pin = "pinned"
+quant = "fp8"
 
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
@@ -61,10 +66,10 @@ model = "nvidia/nemotron-3.5-content-safety"
 pin = "pinned"
 quant = "bf16"
 
-["pplx-decider-v1.2"]
-model = "perplexity/pplx-decider-v1.2"
+["pplx-decider-v1.3"]
+model = "perplexity/pplx-decider-v1.3"
 pin = "pinned"
-quant = "bf16"
+quant = "fp8"
 
 ["qwen3-asr-1.7b"]
 model = "qwen/qwen3-asr-1.7b"

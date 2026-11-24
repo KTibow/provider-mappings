@@ -478,6 +478,7 @@
       "seed-2-0-pro-260328",
       "tencent/deepseek-v4.1-flash-latest",
       "together-ai/deepseek-v4.1-flash-latest",
+      "vertex-openai/deepseek-v4.1-flash-latest",
       "vertex-openai/grok-4-20-non-reasoning",
       "xai/grok-4-20-beta-0309-non-reasoning",
       "zai/glm-4-32b-0414-128k",
@@ -575,6 +576,9 @@
     ],
     "api.perplexity.ai": [
       "xai/grok-4-1-fast-non-reasoning"
+    ],
+    "api.pinference.ai": [
+      "thinkingmachines/inkling-2-small-fast"
     ],
     "api.poe.com": [
       "anthropic/claude-sonnet-3.5-june",
@@ -710,6 +714,9 @@
     "api.together.xyz": [
       "Qwen/Qwen2.5-7B-Instruct-Turbo",
       "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+    ],
+    "api.tokenfactory.nebius.com": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017-fast"
     ],
     "api.tokenlab.sh": [
       "grok-4.20-non-reasoning"
@@ -1062,8 +1069,6 @@
       "inflatebot/MN-12B-Mag-Mell-R1",
       "jcartu/deepseek-v4.1-flash-1017-abliterated-lossless-csf",
       "jiunsong/supergemma4-26b-uncensored",
-      "kitani/clover-2",
-      "kitani/clover-2:thinking",
       "lyber/deepseek-v4.1-flash-1017-abliterated",
       "lyber/kimi-k3.1-pro-abliterated",
       "meganova-ai/manta-flash-1.0",
@@ -1162,6 +1167,7 @@
       "exo-free",
       "fledge-alpha-free",
       "gemini-4-argon-contributor",
+      "hungerg-free",
       "iceman-contributor-free",
       "iceman-free",
       "ling-2.6-flash-free",

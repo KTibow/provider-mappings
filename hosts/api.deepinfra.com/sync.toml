@@ -455,6 +455,10 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["tencent/Hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["thenlper/gte-base"]
 model = "thenlper/gte-base"
 pin = "pinned"

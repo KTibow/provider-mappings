@@ -19,6 +19,10 @@ pin = "pinned"
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
+["inclusionai/ling-3.0-flash"]
+model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash-fin"]
 model = "inclusionai/ling-3.0-flash-fin"
 pin = "pinned"
@@ -31,6 +35,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
+["inclusionai/ling-3.1-flash"]
+model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+
 ["meta-llama/llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"
@@ -41,6 +49,10 @@ pin = "pinned"
 
 ["meta-llama/llama-4-scout-17b-16e-instruct"]
 model = "meta-llama/llama-4-scout"
+pin = "pinned"
+
+["moonshotai/kimi-k2.7-code"]
+model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["moonshotai/kimi-k3"]
@@ -91,8 +103,16 @@ pin = "floating"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["stepfun/step-3.7-flash"]
+model = "stepfun/step-3.7-flash"
+pin = "pinned"
+
 ["stepfun/step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["tencent/hy3"]
+model = "tencent/hy3"
 pin = "pinned"
 
 ["tencent/hy4"]
@@ -101,6 +121,10 @@ pin = "pinned"
 
 ["tencent/hy4-flash"]
 model = "tencent/hy4-flash"
+pin = "pinned"
+
+["tencent/hy4-preview"]
+model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["xiaomimimo/mimo-v2.6-flash"]

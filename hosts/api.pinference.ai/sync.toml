@@ -79,6 +79,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
+["deepseek/deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
 ["deepseek/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -365,4 +369,8 @@ pin = "pinned"
 
 ["z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["z-ai/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
 pin = "pinned"

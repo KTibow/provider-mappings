@@ -1391,16 +1391,8 @@ pin = "pinned"
 model = "moondream/parakeet-ultra"
 pin = "pinned"
 
-["openrouter/moonshotai/kimi-k2"]
-model = "moonshotai/kimi-k2"
-pin = "pinned"
-
 ["openrouter/moonshotai/kimi-k2-0905"]
 model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["openrouter/moonshotai/kimi-k2-thinking"]
-model = "moonshotai/kimi-k2-thinking"
 pin = "pinned"
 
 ["openrouter/moonshotai/kimi-k2.5"]
@@ -2389,10 +2381,6 @@ pin = "pinned"
 
 ["openrouter/xiaomi/mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
-["openrouter/xiaomi/mimo-v2.5-pro"]
-model = "xiaomi/mimo-v2.5-pro"
 pin = "pinned"
 
 ["openrouter/xiaomi/mimo-v2.6-flash"]

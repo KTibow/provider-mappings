@@ -275,10 +275,6 @@ pin = "pinned"
 model = "stepfun/step-5-preview"
 pin = "pinned"
 
-["z-ai/glm-5.3"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-
 ["z-ai/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"

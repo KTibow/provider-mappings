@@ -31,6 +31,10 @@ pin = "pinned"
 model = "motif-technologies/motif-3"
 pin = "pinned"
 
+["nvidia/nvidia-nemotron-3.5-transcribe-30b-a4b"]
+model = "nvidia/nemotron-3.5-transcribe"
+pin = "pinned"
+
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"

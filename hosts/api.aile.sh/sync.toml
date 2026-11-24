@@ -479,6 +479,22 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
+["mistral/deepseek-v4-1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["mistral/mistral-large-4"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistral/zai-glm-5-3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["mistral/zai-glm-5-3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
 ["ollama-cloud/deepseek-v4-pro:0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -948,6 +964,10 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
+["orcarouter/thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["orcarouter/xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -1106,6 +1126,22 @@ pin = "pinned"
 
 ["surplus/venice-uncensored-role-play"]
 model = "venice/venice-uncensored-role-play"
+pin = "pinned"
+
+["venice/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["venice/deepseek-v4-1-flash-1017-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
+pin = "pinned"
+
+["venice/deepseek-v4-1-flash-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+
+["venice/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["vercel-ai-gateway/alibaba/qwen-3-14b"]

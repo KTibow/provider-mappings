@@ -1187,16 +1187,8 @@ pin = "pinned"
 model = "moondream/parakeet-ultra"
 pin = "pinned"
 
-["moonshotai/kimi-k2"]
-model = "moonshotai/kimi-k2"
-pin = "pinned"
-
 ["moonshotai/kimi-k2-0905"]
 model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["moonshotai/kimi-k2-thinking"]
-model = "moonshotai/kimi-k2-thinking"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.5"]

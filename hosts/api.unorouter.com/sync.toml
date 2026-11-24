@@ -3,6 +3,16 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["bge-base-en-v1.5:free"]
+model = "baai/bge-base-en-v1.5"
+pin = "pinned"
+free = true
+
+["bge-large-en-v1.5:free"]
+model = "baai/bge-large-en-v1.5"
+pin = "pinned"
+free = true
+
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -157,11 +167,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
-["deepseek-v4-flash:free"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-free = true
-
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -225,11 +230,6 @@ pin = "pinned"
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
 
-["gemini-3-flash:free"]
-model = "google/gemini-3-flash-preview"
-pin = "pinned"
-free = true
-
 ["gemini-3-pro-image"]
 model = "google/gemini-3-pro-image"
 pin = "pinned"
@@ -245,6 +245,11 @@ pin = "pinned"
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
+
+["gemini-3.1-flash-lite:free"]
+model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+free = true
 
 ["gemini-3.1-pro"]
 model = "google/gemini-3.1-pro"
@@ -279,6 +284,11 @@ pin = "pinned"
 ["gemini-3.8-flash"]
 model = "google/gemini-3.8-flash"
 pin = "pinned"
+
+["gemini-3.8-flash:free"]
+model = "google/gemini-3.8-flash"
+pin = "pinned"
+free = true
 
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
@@ -364,6 +374,11 @@ free = true
 model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
 
+["glm-5.3:free"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+free = true
+
 ["gpt-4o:free"]
 model = "openai/gpt-4o"
 pin = "pinned"
@@ -392,6 +407,11 @@ pin = "pinned"
 ["gpt-6-luna"]
 model = "openai/gpt-6-luna"
 pin = "pinned"
+
+["gpt-6-luna:free"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+free = true
 
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
@@ -448,8 +468,13 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["hy4"]
-model = "tencent/hy4"
+["hy3:free"]
+model = "tencent/hy3"
+pin = "pinned"
+free = true
+
+["hy4-preview"]
+model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["jev-1.13"]
@@ -476,11 +501,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["kimi-k3.1-pro:free"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-free = true
-
 ["lfm-2.5-embedding-350m:free"]
 model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
@@ -495,13 +515,14 @@ free = true
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
-["mimo-v2.5-pro"]
-model = "xiaomi/mimo-v2.5-pro"
-pin = "pinned"
-
 ["mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
+
+["mimo-v2.6-flash:free"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+free = true
 
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
@@ -513,6 +534,10 @@ pin = "pinned"
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
+pin = "pinned"
+
+["minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
 ["minimax-m3.1-flash:free"]

@@ -264,6 +264,14 @@ pin = "pinned"
 model = "x-ai/grok-imagine-image-2.0"
 pin = "pinned"
 
+["grok-imagine-video-1.5"]
+model = "x-ai/grok-imagine-video-1.5"
+pin = "pinned"
+
+["grok-imagine-video-1.5-lite"]
+model = "x-ai/grok-imagine-video-1.5-lite"
+pin = "pinned"
+
 ["hy4-flash-free"]
 model = "tencent/hy4-flash"
 pin = "pinned"

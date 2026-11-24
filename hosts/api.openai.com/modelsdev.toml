@@ -138,10 +138,6 @@ pin = "pinned"
 model = "openai/gpt-image-2"
 pin = "pinned"
 
-["gpt-realtime-2.1"]
-model = "openai/gpt-realtime-2.1"
-pin = "pinned"
-
 ["o3"]
 model = "openai/o3"
 pin = "pinned"

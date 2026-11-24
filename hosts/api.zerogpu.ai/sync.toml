@@ -7,6 +7,11 @@
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["deepseek/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+quant = "fp8"
+
 ["meta-llama/llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"

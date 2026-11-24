@@ -643,6 +643,10 @@ free = true
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["ling-3.1-flash"]
+model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+
 ["ling-3.2-flash-free"]
 model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
@@ -650,10 +654,6 @@ free = true
 
 ["llama-3.1-8b-instant"]
 model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["llama-3.3-70b-instruct"]
-model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
 ["llama-4-maverick"]

@@ -770,6 +770,10 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
+["deepinfra/hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["deepinfra/hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -2548,6 +2552,10 @@ pin = "pinned"
 
 ["vertex-anthropic/claude-sonnet-5-5"]
 model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
+["vertex-openai/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["vertex-openai/grok-4-20-reasoning"]

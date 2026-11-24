@@ -10,21 +10,11 @@ pin = "pinned"
 model = "cloudflare/clef-flash"
 pin = "pinned"
 
-["deepseek/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-quant = "fp4"
-
 ["deepseek/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["google/gemma-4-26b-a4b-it"]
-model = "google/gemma-4-26b-a4b-it"
-pin = "pinned"
-quant = "bf16"
-
-["google/gemma-4-26b-a4b-it-prime"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 quant = "bf16"
@@ -124,11 +114,6 @@ model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 quant = "fp4"
 
-["thinkingmachines/inkling-2-mini-prime"]
-model = "thinkingmachines/inkling-2-mini"
-pin = "pinned"
-quant = "fp4"
-
 ["thinkingmachines/inkling-2-small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
@@ -138,11 +123,23 @@ quant = "fp4"
 # Rows below need a person to check them, so they are commented out.
 # Once verified, copy the row (uncommented) into manual.toml.
 
+# needs review: native id has "fast", which google/gemma-4-26b-a4b-it lacks: a tier or variant, not the model itself
+# ["google/gemma-4-26b-a4b-it-fast"]
+# model = "google/gemma-4-26b-a4b-it"
+# pin = "pinned"
+# quant = "bf16"
+
 # needs review: native id has "flex", which google/gemma-4-26b-a4b-it lacks: a tier or variant, not the model itself
 # ["google/gemma-4-26b-a4b-it-flex"]
 # model = "google/gemma-4-26b-a4b-it"
 # pin = "pinned"
 # quant = "bf16"
+
+# needs review: native id has "fast", which thinkingmachines/inkling-2-mini lacks: a tier or variant, not the model itself
+# ["thinkingmachines/inkling-2-mini-fast"]
+# model = "thinkingmachines/inkling-2-mini"
+# pin = "pinned"
+# quant = "fp4"
 
 # needs review: native id has "flex", which thinkingmachines/inkling-2-mini lacks: a tier or variant, not the model itself
 # ["thinkingmachines/inkling-2-mini-flex"]

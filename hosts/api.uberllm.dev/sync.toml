@@ -59,6 +59,10 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
 
+["anthropic/claude-opus-4.6-fast"]
+model = "anthropic/claude-opus-4.6-fast"
+pin = "pinned"
+
 ["anthropic/claude-opus-4.7"]
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
@@ -199,10 +203,6 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
-["google/gemini-3.1-pro"]
-model = "google/gemini-3.1-pro"
-pin = "pinned"
-
 ["google/gemini-3.1-pro-preview"]
 model = "google/gemini-3.1-pro-preview"
 pin = "pinned"
@@ -263,12 +263,12 @@ pin = "pinned"
 model = "google/gemma-4-E2B-it"
 pin = "pinned"
 
-["inception/mercury-2"]
-model = "inception/mercury-2"
+["google/gemma-4-uncensored"]
+model = "google/gemma-4-uncensored"
 pin = "pinned"
 
-["inception/mercury-2.5"]
-model = "inception/mercury-2.5"
+["inception/mercury-2"]
+model = "inception/mercury-2"
 pin = "pinned"
 
 ["inception/mercury-3"]

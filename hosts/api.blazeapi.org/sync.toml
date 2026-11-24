@@ -463,6 +463,11 @@ model = "google/gemini-3.7-flash"
 pin = "pinned"
 quant = "fp16"
 
+["gemini-3.8-flash"]
+model = "google/gemini-3.8-flash"
+pin = "pinned"
+quant = "fp16"
+
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
 pin = "pinned"
@@ -628,11 +633,6 @@ model = "openai/gpt-6-sol"
 pin = "pinned"
 quant = "fp16"
 
-["gpt-6.1-terra"]
-model = "openai/gpt-6.1-terra"
-pin = "pinned"
-quant = "fp16"
-
 ["gpt-image-1-5-edit"]
 model = "openai/gpt-image-1.5:edit"
 pin = "pinned"
@@ -698,11 +698,6 @@ model = "moonshotai/kimi-k3"
 pin = "pinned"
 quant = "fp16"
 
-["kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-quant = "fp16"
-
 ["llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
@@ -725,6 +720,11 @@ quant = "fp16"
 
 ["minimax-m2.5"]
 model = "minimax/minimax-m2.5"
+pin = "pinned"
+quant = "fp16"
+
+["minimax-m2.7"]
+model = "minimax/minimax-m2.7"
 pin = "pinned"
 quant = "fp16"
 
@@ -1167,3 +1167,8 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
+
+["xiaomi-mimo-v2-5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"

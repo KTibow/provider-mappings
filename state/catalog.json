@@ -2163,7 +2163,7 @@
    "text",
    "video"
   ],
-  "name": "HeyGen: HeyGen Decision",
+  "name": "HeyGen: HeyGen Decision 1",
   "output": [
    "decisions"
   ],
@@ -2176,7 +2176,7 @@
    "text",
    "video"
   ],
-  "name": "HeyGen: HeyGen Decision Turbo",
+  "name": "HeyGen: HeyGen Decision 1 Turbo",
   "output": [
    "decisions"
   ],
@@ -3574,6 +3574,7 @@
   "permaslug": "moondream/parakeet-ultra-20261102"
  },
  "moonshotai/kimi-k2": {
+  "delisted": "2026-11-24",
   "hf": "moonshotai/Kimi-K2-Instruct",
   "input": [
    "text"
@@ -3596,6 +3597,7 @@
   "permaslug": "moonshotai/kimi-k2-0905"
  },
  "moonshotai/kimi-k2-thinking": {
+  "delisted": "2026-11-24",
   "hf": "moonshotai/Kimi-K2-Thinking",
   "input": [
    "text"
