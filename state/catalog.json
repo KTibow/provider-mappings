@@ -2486,6 +2486,7 @@
   "permaslug": "liquid/d1-ultra-20261015"
  },
  "liquid/d1.1": {
+  "delisted": "2026-11-24",
   "input": [
    "image",
    "text"
@@ -3586,6 +3587,7 @@
   "permaslug": "moonshotai/kimi-k2"
  },
  "moonshotai/kimi-k2-0905": {
+  "delisted": "2026-11-24",
   "hf": "moonshotai/Kimi-K2-Instruct-0905",
   "input": [
    "text"

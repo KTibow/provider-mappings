@@ -56,10 +56,6 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["anthropic/claude-opus-4-5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
 ["anthropic/claude-opus-4-6"]
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
@@ -1332,11 +1328,6 @@ quant = "fp8"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["fireworks/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-quant = "fp4"
-
 ["fireworks/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -1447,10 +1438,6 @@ quant = "int4"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
-["lyceum/deepseek-v4-pro"]
-model = "deepseek/deepseek-v4-pro"
-pin = "pinned"
-
 ["lyceum/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -1461,10 +1448,6 @@ pin = "pinned"
 
 ["lyceum/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["lyceum/kimi-k3"]
-model = "moonshotai/kimi-k3"
 pin = "pinned"
 
 ["lyceum/kimi-k3.1-pro"]
@@ -1790,10 +1773,6 @@ pin = "pinned"
 
 ["openai/gpt-4o"]
 model = "openai/gpt-4o"
-pin = "pinned"
-
-["openai/gpt-4o-2024-05-13"]
-model = "openai/gpt-4o-2024-05-13"
 pin = "pinned"
 
 ["openai/gpt-4o-2024-08-06"]

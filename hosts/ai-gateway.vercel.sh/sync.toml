@@ -551,10 +551,6 @@ pin = "pinned"
 model = "inference-net/schematron-v2-turbo"
 pin = "pinned"
 
-["liquid/d1-ultra"]
-model = "liquid/d1-ultra"
-pin = "pinned"
-
 ["liquid/d1.2"]
 model = "liquid/d1.2"
 pin = "pinned"
@@ -1167,6 +1163,10 @@ pin = "pinned"
 
 ["thinkingmachines/inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["thinkingmachines/inkling-2-small"]

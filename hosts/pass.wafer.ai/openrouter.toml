@@ -52,6 +52,11 @@ model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 quant = "nvfp4"
 
+["Qwen3.8-27B"]
+model = "qwen/qwen3.8-27b"
+pin = "pinned"
+quant = "fp8"
+
 # ---------------------------------------------------------------------------
 # Rows below need a person to check them, so they are commented out.
 # Once verified, copy the row (uncommented) into manual.toml.

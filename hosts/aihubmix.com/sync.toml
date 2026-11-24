@@ -601,6 +601,10 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
+["inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["kimi-k2-instruct"]
 model = "moonshotai/kimi-k2"
 pin = "pinned"

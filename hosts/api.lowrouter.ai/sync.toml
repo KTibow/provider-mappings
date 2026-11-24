@@ -823,6 +823,10 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
+["auto/thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["auto/thinkingmachines/inkling-2-small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
@@ -1473,6 +1477,10 @@ pin = "pinned"
 
 ["deepinfra/tencent/hy4-flash"]
 model = "tencent/hy4-flash"
+pin = "pinned"
+
+["deepinfra/thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["deepinfra/thinkingmachines/inkling-2-small"]

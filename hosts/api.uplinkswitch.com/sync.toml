@@ -255,10 +255,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
 
-["glm-5.3-prime"]
-model = "z-ai/glm-5.3-prime"
-pin = "pinned"
-
 ["glm-5.3-uncensored"]
 model = "z-ai/glm-5.3-uncensored"
 pin = "pinned"

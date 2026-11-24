@@ -52,35 +52,8 @@ model = "moonshotai/kimi-k2-thinking"
 pin = "pinned"
 quant = "bf16"
 
-["moonshotai/kimi-k2.5"]
-model = "moonshotai/kimi-k2.5"
-pin = "pinned"
-
 ["moonshotai/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["qwen/qwen3-vl-30b-a3b-instruct"]
-model = "qwen/qwen3-vl-30b-a3b-instruct"
-pin = "pinned"
-quant = "bf16"
-
-["qwen/qwen3.5-122b-a10b"]
-model = "qwen/qwen3.5-122b-a10b"
-pin = "pinned"
-quant = "bf16"
-
-["qwen/qwen3.5-27b"]
-model = "qwen/qwen3.5-27b"
-pin = "pinned"
-quant = "bf16"
-
-["qwen/qwen3.8-2.4t-a95b"]
-model = "qwen/qwen3.8-2.4t-a95b"
-pin = "pinned"
-
-["qwen/qwen3.8-27b"]
-model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
 ["zai-org/glm-4.5-air"]

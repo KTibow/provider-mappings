@@ -3,16 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["bge-base-en-v1.5:free"]
-model = "baai/bge-base-en-v1.5"
-pin = "pinned"
-free = true
-
-["bge-large-en-v1.5:free"]
-model = "baai/bge-large-en-v1.5"
-pin = "pinned"
-free = true
-
 ["claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -48,16 +38,6 @@ pin = "pinned"
 ["claude-haiku-5-5"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
-
-["claude-haiku-5-5:free"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-free = true
-
-["claude-haiku-5-5:free[1m]"]
-model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-free = true
 
 ["claude-haiku-5-5[1m]"]
 model = "anthropic/claude-haiku-5.5"
@@ -166,6 +146,11 @@ pin = "pinned"
 ["deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
+
+["deepseek-v4-flash:free"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+free = true
 
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
@@ -285,11 +270,6 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
-["gemini-3.8-flash:free"]
-model = "google/gemini-3.8-flash"
-pin = "pinned"
-free = true
-
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
 pin = "pinned"
@@ -374,11 +354,6 @@ free = true
 model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
 
-["glm-5.3:free"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-free = true
-
 ["gpt-4o:free"]
 model = "openai/gpt-4o"
 pin = "pinned"
@@ -407,11 +382,6 @@ pin = "pinned"
 ["gpt-6-luna"]
 model = "openai/gpt-6-luna"
 pin = "pinned"
-
-["gpt-6-luna:free"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-free = true
 
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
@@ -528,6 +498,10 @@ free = true
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
+["minimax-m2.5"]
+model = "minimax/minimax-m2.5"
+pin = "pinned"
+
 ["minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"
@@ -535,15 +509,6 @@ pin = "pinned"
 ["minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
-
-["minimax-m3.1-flash"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
-["minimax-m3.1-flash:free"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-free = true
 
 ["mistral-large-3"]
 model = "mistralai/mistral-large-2512"
@@ -627,11 +592,6 @@ pin = "pinned"
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"
-
-["step-5-preview:free"]
-model = "stepfun/step-5-preview"
-pin = "pinned"
-free = true
 
 ["text-embedding-3-large"]
 model = "openai/text-embedding-3-large"

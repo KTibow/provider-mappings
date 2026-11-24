@@ -6,6 +6,10 @@
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
+["deepseek-ai/deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
 ["deepseek-ai/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"

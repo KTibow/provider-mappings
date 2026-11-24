@@ -298,6 +298,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["mimo-v2.6-flash-free"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"

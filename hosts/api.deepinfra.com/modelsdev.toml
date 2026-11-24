@@ -282,6 +282,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["thinkingmachines/Inkling-2-Mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["thinkingmachines/Inkling-2-Small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"

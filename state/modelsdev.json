@@ -69,7 +69,6 @@
       "openrouter/pareto-code",
       "quiverai/arrow-2",
       "quiverai/arrow-2-telos",
-      "qwen/qwen3-max-thinking",
       "scaledown/scaledown-extract-1",
       "scaledown/scaledown-summarize-1",
       "stealth/glyph-cluster",
@@ -83,7 +82,6 @@
       "z-ai/glm-5.3-fast"
     ],
     "ai-gateway.vercel.sh": [
-      "alibaba/qwen3-max-thinking",
       "alibaba/qwen3-vl-instruct",
       "alibaba/wan-v2.5-t2v-preview",
       "alibaba/wan-v2.6-i2v",
@@ -1069,6 +1067,8 @@
       "inflatebot/MN-12B-Mag-Mell-R1",
       "jcartu/deepseek-v4.1-flash-1017-abliterated-lossless-csf",
       "jiunsong/supergemma4-26b-uncensored",
+      "kitani/clover-2",
+      "kitani/clover-2:thinking",
       "lyber/deepseek-v4.1-flash-1017-abliterated",
       "lyber/kimi-k3.1-pro-abliterated",
       "meganova-ai/manta-flash-1.0",

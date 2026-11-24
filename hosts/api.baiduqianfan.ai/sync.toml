@@ -6,3 +6,8 @@
 ["ernie-5.5-flash-preview"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
+
+["kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+quant = "fp4"

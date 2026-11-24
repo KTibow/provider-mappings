@@ -415,10 +415,6 @@ pin = "pinned"
 model = "liquid/d1-ultra"
 pin = "pinned"
 
-["liquid/d1.1"]
-model = "liquid/d1.1"
-pin = "pinned"
-
 ["liquid/d1.2"]
 model = "liquid/d1.2"
 pin = "pinned"
@@ -601,10 +597,6 @@ pin = "pinned"
 
 ["moondream/moondream3.1-9b-a2b"]
 model = "moondream/moondream3.1-9b-a2b"
-pin = "pinned"
-
-["moonshotai/kimi-k2-0905"]
-model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.7-code"]
@@ -1301,6 +1293,10 @@ pin = "pinned"
 
 ["upstage/solar-pro4:thinking"]
 model = "upstage/solar-pro4"
+pin = "pinned"
+
+["writer/palmyra-x5"]
+model = "writer/palmyra-x5"
 pin = "pinned"
 
 ["x-ai/grok-4.20"]

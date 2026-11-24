@@ -1092,6 +1092,14 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
+["surplus/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
+["surplus/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["surplus/muse-ember"]
 model = "meta/muse-ember"
 pin = "pinned"

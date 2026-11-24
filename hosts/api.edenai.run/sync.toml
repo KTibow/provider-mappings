@@ -1503,6 +1503,11 @@ model = "tencent/hy4"
 pin = "pinned"
 quant = "fp4"
 
+["deepinfra/tencent/Hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+quant = "fp4"
+
 ["deepinfra/tencent/Hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -1511,6 +1516,11 @@ quant = "fp4"
 ["deepinfra/thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
+
+["deepinfra/thinkingmachines/Inkling-2-Mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+quant = "fp4"
 
 ["deepinfra/thinkingmachines/Inkling-2-Small"]
 model = "thinkingmachines/inkling-2-small"

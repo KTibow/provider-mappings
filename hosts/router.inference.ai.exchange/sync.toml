@@ -83,6 +83,10 @@ pin = "floating"
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
+["claude-haiku-4-5-20251001"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
 ["claude-haiku-4-5:thinking"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -96,6 +100,10 @@ model = "~anthropic/claude-haiku-latest"
 pin = "floating"
 
 ["claude-opus-4-5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["claude-opus-4-5-20251101"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
@@ -140,10 +148,6 @@ model = "~anthropic/claude-opus-latest"
 pin = "floating"
 
 ["claude-sonnet-4-5"]
-model = "anthropic/claude-sonnet-4.5"
-pin = "pinned"
-
-["claude-sonnet-4-5-20250929"]
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
@@ -839,6 +843,10 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
+["gpt-audio-mini"]
+model = "openai/gpt-audio-mini"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
@@ -1179,6 +1187,10 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
+["mistral-large-4.0"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
 ["mistral-medium-3"]
 model = "mistralai/mistral-medium-3"
 pin = "pinned"
@@ -1375,10 +1387,6 @@ pin = "pinned"
 model = "openai/o3"
 pin = "pinned"
 
-["o3-2025-04-16"]
-model = "openai/o3"
-pin = "pinned"
-
 ["o3-mini"]
 model = "openai/o3-mini"
 pin = "pinned"
@@ -1503,16 +1511,8 @@ pin = "pinned"
 model = "qwen/qwen3-235b-a22b-thinking-2507"
 pin = "pinned"
 
-["qwen3-30b-a3b"]
-model = "qwen/qwen3-30b-a3b"
-pin = "pinned"
-
 ["qwen3-30b-a3b-instruct-2507"]
 model = "qwen/qwen3-30b-a3b-instruct-2507"
-pin = "pinned"
-
-["qwen3-32b"]
-model = "qwen/qwen3-32b"
 pin = "pinned"
 
 ["qwen3-coder-30b-a3b-instruct"]

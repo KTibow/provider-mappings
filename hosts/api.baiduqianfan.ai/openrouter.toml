@@ -60,23 +60,3 @@ quant = "fp8"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 quant = "fp8"
-
-["glm-5.3-intl"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-quant = "fp8"
-
-["kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-quant = "fp4"
-
-# ---------------------------------------------------------------------------
-# Rows below need a person to check them, so they are commented out.
-# Once verified, copy the row (uncommented) into manual.toml.
-
-# needs review: native id has "fast", which z-ai/glm-5.2 lacks: a tier or variant, not the model itself
-# ["glm-5.2-fast-intl"]
-# model = "z-ai/glm-5.2"
-# pin = "pinned"
-# quant = "fp4"

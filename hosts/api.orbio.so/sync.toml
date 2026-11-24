@@ -819,10 +819,6 @@ pin = "pinned"
 model = "liquid/d1-ultra"
 pin = "pinned"
 
-["liquid/d1.1"]
-model = "liquid/d1.1"
-pin = "pinned"
-
 ["liquid/d1.2"]
 model = "liquid/d1.2"
 pin = "pinned"
@@ -1185,10 +1181,6 @@ pin = "pinned"
 
 ["moondream/parakeet-ultra"]
 model = "moondream/parakeet-ultra"
-pin = "pinned"
-
-["moonshotai/kimi-k2-0905"]
-model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.5"]
