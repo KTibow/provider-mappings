@@ -23,6 +23,11 @@ model = "openai/gpt-oss-120b"
 pin = "pinned"
 quant = "mxfp4"
 
+["hf:thinkingmachines/Inkling-2-Mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+quant = "nvfp4"
+
 ["hf:zai-org/GLM-4.7-Flash"]
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"

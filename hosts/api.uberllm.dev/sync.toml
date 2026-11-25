@@ -107,16 +107,8 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
 
-["anthropic/claude-opus-4.6-fast"]
-model = "anthropic/claude-opus-4.6-fast"
-pin = "pinned"
-
 ["anthropic/claude-opus-4.7"]
 model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["anthropic/claude-opus-4.7-fast"]
-model = "anthropic/claude-opus-4.7-fast"
 pin = "pinned"
 
 ["anthropic/claude-opus-4.8"]
@@ -367,6 +359,10 @@ pin = "pinned"
 model = "google/gemini-3.5-flash"
 pin = "pinned"
 
+["google/gemini-3.5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
+pin = "pinned"
+
 ["google/gemini-3.7-flash"]
 model = "google/gemini-3.7-flash"
 pin = "pinned"
@@ -445,10 +441,6 @@ pin = "pinned"
 
 ["ibm-granite/granite-4.2-8b"]
 model = "ibm-granite/granite-4.2-8b"
-pin = "pinned"
-
-["inception/mercury-2"]
-model = "inception/mercury-2"
 pin = "pinned"
 
 ["inception/mercury-3"]
@@ -995,10 +987,6 @@ pin = "pinned"
 model = "openai/gpt-6-luna"
 pin = "pinned"
 
-["openai/gpt-6-luna-decisions"]
-model = "openai/gpt-6-luna-decisions"
-pin = "pinned"
-
 ["openai/gpt-6-luna-pro"]
 model = "openai/gpt-6-luna-pro"
 pin = "pinned"
@@ -1403,6 +1391,10 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
+["tencent/hy4-preview"]
+model = "tencent/hy4-preview"
+pin = "pinned"
+
 ["thedrummer/cydonia-24b-v4.1"]
 model = "thedrummer/cydonia-24b-v4.1"
 pin = "pinned"
@@ -1429,14 +1421,6 @@ pin = "pinned"
 
 ["thinking-machines/inkling-small"]
 model = "thinkingmachines/inkling-small"
-pin = "pinned"
-
-["typesafe/jev-1.13"]
-model = "typesafe/jev-1.13"
-pin = "pinned"
-
-["typesafe/jev-1.14"]
-model = "typesafe/jev-1.14"
 pin = "pinned"
 
 ["unbiased/pareto-26.10"]
@@ -1549,10 +1533,6 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro-ultraspeed"]
 model = "xiaomi/mimo-v2.6-pro-ultraspeed"
-pin = "pinned"
-
-["z-ai/e2ee-glm-4.7-flash"]
-model = "venice/e2ee-glm-4.7-flash"
 pin = "pinned"
 
 ["z-ai/e2ee-glm-5-2-p"]

@@ -2,6 +2,14 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["gemma-4-26b-a4b"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -10,12 +18,24 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
+["laguna-xs-2.1"]
+model = "poolside/laguna-xs-2.1"
+pin = "pinned"
+
 ["meta-llama-3_3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
 ["mistral-small-3.2-24b-instruct-2506"]
 model = "mistralai/mistral-small-3.2-24b-instruct"
+pin = "pinned"
+
+["nemotron3-nano-30b"]
+model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
+["nemotron3-omni-30b"]
+model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 pin = "pinned"
 
 ["qwen2.5-vl-72b-instruct"]
@@ -32,6 +52,10 @@ pin = "pinned"
 
 ["qwen3.6-27b"]
 model = "qwen/qwen3.6-27b"
+pin = "pinned"
+
+["qwen3.6-35b-a3b"]
+model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
 ["qwen3.8-27b"]

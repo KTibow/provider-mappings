@@ -1510,6 +1510,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
+["xiaomi/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
+pin = "pinned"
+
 ["xiaomi/mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"

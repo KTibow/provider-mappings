@@ -2,6 +2,10 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["ByteDance/Seed-1.8"]
+model = "bytedance-seed/seed-1-8"
+pin = "pinned"
+
 ["ByteDance/Seed-2.0-code"]
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
@@ -162,12 +166,28 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["ibm-granite/granite-4.2-8b"]
+model = "ibm-granite/granite-4.2-8b"
+pin = "pinned"
+
+["inclusionAI/Ling-3.0-flash"]
+model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["inclusionAI/Ling-3.0-flash-VL"]
+model = "inclusionai/ling-3.0-flash-vl"
+pin = "pinned"
+
 ["meta-llama/Llama-4-Scout-17B-16E-Instruct"]
 model = "meta/llama-4-scout-17b-instruct"
 pin = "pinned"
 
 ["meta-llama/Llama-Guard-4-12B"]
 model = "meta-llama/llama-guard-4-12b"
+pin = "pinned"
+
+["meta-models/Muse-Glimmer-30B"]
+model = "meta/muse-glimmer-30b"
 pin = "pinned"
 
 ["mistralai/Mistral-Nemo-Instruct-2407"]
@@ -192,6 +212,18 @@ pin = "pinned"
 
 ["moonshotai/Kimi-K3.1-Pro"]
 model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"]
+model = "nvidia/nemotron-3-super-120b-a12b"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3.5-Lightning"]
+model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
 
 ["openai/gpt-oss-120b"]

@@ -147,11 +147,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
-["deepseek-v4-flash-0731:free"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-free = true
-
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -167,6 +162,11 @@ pin = "pinned"
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
+
+["deepseek-v4.1-flash-uncensored-fp8:free"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+free = true
 
 ["deepseek-v4.1-flash:free"]
 model = "deepseek/deepseek-v4.1-flash"
@@ -202,6 +202,16 @@ pin = "pinned"
 ["gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"
+
+["gemini-2.5-flash-lite:free"]
+model = "google/gemini-2.5-flash-lite"
+pin = "pinned"
+free = true
+
+["gemini-2.5-flash:free"]
+model = "google/gemini-2.5-flash"
+pin = "pinned"
+free = true
 
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
@@ -253,10 +263,6 @@ pin = "pinned"
 model = "google/gemini-3.5-flash"
 pin = "pinned"
 
-["gemini-3.5-flash-lite"]
-model = "google/gemini-3.5-flash-lite"
-pin = "pinned"
-
 ["gemini-3.5-flash-lite:free"]
 model = "google/gemini-3.5-flash-lite"
 pin = "pinned"
@@ -274,11 +280,6 @@ pin = "pinned"
 ["gemini-3.8-flash"]
 model = "google/gemini-3.8-flash"
 pin = "pinned"
-
-["gemini-3.8-flash:free"]
-model = "google/gemini-3.8-flash"
-pin = "pinned"
-free = true
 
 ["gemini-4-argon"]
 model = "google/gemini-4-argon"
@@ -317,11 +318,6 @@ free = true
 ["gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
-
-["gemma-4-31b-it:free"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-free = true
 
 ["glm-4.6"]
 model = "z-ai/glm-4.6"
@@ -368,6 +364,11 @@ free = true
 ["glm-5.3-flashx"]
 model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
+
+["glm-5.3:free"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+free = true
 
 ["gpt-4o:free"]
 model = "openai/gpt-4o"
@@ -458,14 +459,14 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
+["hy3"]
+model = "tencent/hy3"
+pin = "pinned"
+
 ["hy3:free"]
 model = "tencent/hy3"
 pin = "pinned"
 free = true
-
-["hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
 
 ["jev-1.13"]
 model = "typesafe/jev-1.13"
@@ -473,6 +474,10 @@ pin = "pinned"
 
 ["jev-1.14"]
 model = "typesafe/jev-1.14"
+pin = "pinned"
+
+["kimi-k2.5"]
+model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
 ["kimi-k2.6"]
@@ -506,14 +511,19 @@ model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 free = true
 
-["llama-4-scout:free"]
-model = "meta-llama/llama-4-scout"
+["ling-3.2-flash:free"]
+model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
 free = true
 
 ["mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
+
+["mimo-v2.6-flash:free"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+free = true
 
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
@@ -522,11 +532,6 @@ pin = "pinned"
 ["minimax-m2.5"]
 model = "minimax/minimax-m2.5"
 pin = "pinned"
-
-["minimax-m2.5:free"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-free = true
 
 ["minimax-m2.7"]
 model = "minimax/minimax-m2.7"
@@ -550,11 +555,6 @@ model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 free = true
 
-["minimax-m3:free"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-free = true
-
 ["mistral-large-3"]
 model = "mistralai/mistral-large-2512"
 pin = "pinned"
@@ -562,11 +562,6 @@ pin = "pinned"
 ["mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
-
-["muse-glimmer-30b:free"]
-model = "meta/muse-glimmer-30b"
-pin = "pinned"
-free = true
 
 ["muse-spark-1.2-contributor"]
 model = "meta/muse-spark-1.2-contributor"
@@ -580,18 +575,8 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
-["nemotron-3-nano-omni-30b-a3b-reasoning-free:free"]
-model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
-pin = "pinned"
-free = true
-
 ["nemotron-3-nano-omni-30b-a3b-reasoning:free"]
 model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
-pin = "pinned"
-free = true
-
-["nemotron-3-ultra-550b-a55b-free:free"]
-model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 free = true
 
@@ -619,11 +604,6 @@ model = "qwen/qwen3-embedding-8b"
 pin = "pinned"
 free = true
 
-["qwen3.5-flash:free"]
-model = "alibaba/qwen3.5-flash"
-pin = "pinned"
-free = true
-
 ["qwen3.7-max"]
 model = "qwen/qwen3.7-max"
 pin = "pinned"
@@ -632,10 +612,6 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 free = true
-
-["qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
 
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"

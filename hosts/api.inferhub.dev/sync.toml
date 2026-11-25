@@ -15,12 +15,12 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["ag/gemini-4-hydrogen"]
-model = "google/gemini-4-hydrogen"
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
 pin = "pinned"
 
-["ag/gemini-4-neon"]
-model = "google/gemini-4-neon"
+["ag/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
 ["ali/kimi-k3"]
@@ -37,10 +37,6 @@ pin = "pinned"
 
 ["ali/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["ali/qwen3.8-flash"]
-model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
 ["ali/qwen3.8-max-0902"]
@@ -171,8 +167,64 @@ pin = "pinned"
 model = "alibaba/wan-2.7-image"
 pin = "pinned"
 
+["az/claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["az/claude-fable-5-1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["az/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["az/claude-haiku-4-5"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["az/claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["az/claude-opus-4-5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["az/claude-opus-4-6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
+["az/claude-opus-4-7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["az/claude-opus-4-8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["az/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
 ["az/claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["az/claude-sonnet-4-6"]
+model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["az/claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["az/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
+["az/gpt-5.4-mini"]
+model = "openai/gpt-5.4-mini"
 pin = "pinned"
 
 ["az/gpt-6.2-astra"]
@@ -1196,18 +1248,6 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["moon/kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["moon/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
-["moon/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
 ["muse-ember-1.0"]
 model = "meta/muse-ember"
 pin = "pinned"
@@ -1366,6 +1406,10 @@ pin = "pinned"
 
 ["ocg/kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["ocg/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["ocg/longcat-2.0"]

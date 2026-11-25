@@ -1102,6 +1102,10 @@ pin = "pinned"
 model = "openai/o3-pro"
 pin = "pinned"
 
+["ovhcloud/DeepSeek-V4.1-Flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["ovhcloud/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"

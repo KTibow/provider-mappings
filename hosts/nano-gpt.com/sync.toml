@@ -1311,12 +1311,28 @@ pin = "pinned"
 model = "google/gemma-3-4b-it"
 pin = "pinned"
 
+["upstage/solar-mini-4-5"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
+["upstage/solar-mini-4-5:thinking"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
 ["upstage/solar-mini4"]
 model = "upstage/solar-mini4"
 pin = "pinned"
 
 ["upstage/solar-mini4:thinking"]
 model = "upstage/solar-mini4"
+pin = "pinned"
+
+["upstage/solar-pro-4-contributor"]
+model = "upstage/solar-pro-4-contributor"
+pin = "pinned"
+
+["upstage/solar-pro-4-contributor:thinking"]
+model = "upstage/solar-pro-4-contributor"
 pin = "pinned"
 
 ["upstage/solar-pro4"]

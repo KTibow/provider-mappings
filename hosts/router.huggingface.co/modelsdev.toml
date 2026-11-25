@@ -38,6 +38,10 @@ pin = "pinned"
 model = "nousresearch/hermes-3-llama-3.1-70b"
 pin = "pinned"
 
+["NousResearch/Hermes-4-405B"]
+model = "nousresearch/hermes-4-405b"
+pin = "pinned"
+
 ["Qwen/Qwen2.5-Coder-32B-Instruct"]
 model = "qwen/qwen-2.5-coder-32b-instruct"
 pin = "pinned"
@@ -132,6 +136,10 @@ pin = "pinned"
 
 ["Qwen/Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
+pin = "pinned"
+
+["Qwen/Qwen3.8-Flash-Next"]
+model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
 ["Qwen/Qwen3.8-Flash-Next-FP8"]

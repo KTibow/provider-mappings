@@ -22,6 +22,31 @@ model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 quant = "fp8"
 
+["deepseek-ai/DeepSeek-V3-0324"]
+model = "deepseek/deepseek-chat-v3-0324"
+pin = "pinned"
+quant = "fp4"
+
+["deepseek-ai/DeepSeek-V3.2"]
+model = "deepseek/deepseek-v3.2"
+pin = "pinned"
+quant = "fp8"
+
+["deepseek-ai/DeepSeek-V4-Flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+quant = "fp8"
+
+["deepseek-ai/DeepSeek-V4.1-Flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+quant = "fp8"
+
+["deepseek-ai/DeepSeek-V4.1-Flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+quant = "fp8"
+
 ["stepfun-ai/Step-5-Preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"

@@ -78,6 +78,10 @@ pin = "pinned"
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
+["ricursive-ai/Ripple-65B-Preview"]
+model = "ricursiveai/ripple-65b-preview"
+pin = "pinned"
+
 ["tencent/Hy4"]
 model = "tencent/hy4"
 pin = "pinned"

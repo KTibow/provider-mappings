@@ -1095,18 +1095,6 @@ pin = "pinned"
 model = "kt/midm-k-3.0-pro"
 pin = "pinned"
 
-["openrouter/kwaivgi/kling-v3.0-pro"]
-model = "kwaivgi/kling-v3.0-pro"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-v3.0-std"]
-model = "kwaivgi/kling-v3.0-std"
-pin = "pinned"
-
-["openrouter/kwaivgi/kling-video-o1"]
-model = "kwaivgi/kling-video-o1"
-pin = "pinned"
-
 ["openrouter/liquid/lfm-2.5-24b-a2b"]
 model = "liquid/lfm-2.5-24b-a2b"
 pin = "pinned"
@@ -1283,16 +1271,8 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["openrouter/mistralai/mistral-medium-3"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
 ["openrouter/mistralai/mistral-medium-3-5"]
 model = "mistralai/mistral-medium-3-5"
-pin = "pinned"
-
-["openrouter/mistralai/mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
 pin = "pinned"
 
 ["openrouter/mistralai/mistral-nemo"]
@@ -1389,10 +1369,6 @@ pin = "pinned"
 
 ["openrouter/moondream/parakeet-ultra"]
 model = "moondream/parakeet-ultra"
-pin = "pinned"
-
-["openrouter/moonshotai/kimi-k2-0905"]
-model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["openrouter/moonshotai/kimi-k2.5"]
@@ -2319,8 +2295,16 @@ pin = "pinned"
 model = "undi95/remm-slerp-l2-13b"
 pin = "pinned"
 
+["openrouter/upstage/solar-mini-4-5"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
 ["openrouter/upstage/solar-mini4"]
 model = "upstage/solar-mini4"
+pin = "pinned"
+
+["openrouter/upstage/solar-pro-4-contributor"]
+model = "upstage/solar-pro-4-contributor"
 pin = "pinned"
 
 ["openrouter/upstage/solar-pro4"]
@@ -2379,12 +2363,12 @@ pin = "pinned"
 model = "x-ai/grok-voice-tts-1.0"
 pin = "pinned"
 
-["openrouter/xiaomi/mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
 ["openrouter/xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["openrouter/xiaomi/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["openrouter/xiaomi/mimo-v2.6-pro"]

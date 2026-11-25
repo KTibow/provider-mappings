@@ -739,6 +739,10 @@ pin = "floating"
 model = "qwen/qwen4-max"
 pin = "pinned"
 
+["radixark/daisyrose-27b"]
+model = "radixark/daisyrose-27b"
+pin = "pinned"
+
 ["recraft/recraft-v3"]
 model = "recraft/recraft-v3"
 pin = "pinned"

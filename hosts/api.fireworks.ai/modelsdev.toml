@@ -22,6 +22,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["accounts/fireworks/models/hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["accounts/fireworks/models/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -49,6 +53,10 @@ pin = "pinned"
 ["accounts/fireworks/models/qwen3p8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["accounts/fireworks/models/qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
 
 ["accounts/fireworks/models/ultramarine-1-flash-us"]
 model = "paperinstruments/ultramarine-1-flash"

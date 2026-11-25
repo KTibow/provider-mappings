@@ -167,6 +167,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["deepseek/deepseek-v4.1-flash:free"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+free = true
+
 ["google/gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"

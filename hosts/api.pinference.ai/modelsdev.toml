@@ -238,6 +238,10 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
+["openai/gpt-6.1-sol-pro"]
+model = "openai/gpt-6.1-sol-pro"
+pin = "pinned"
+
 ["openai/gpt-6.2-astra"]
 model = "openai/gpt-6.2-astra"
 pin = "pinned"
@@ -260,6 +264,10 @@ pin = "pinned"
 
 ["qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
+pin = "pinned"
+
+["ricursiveai/ripple-65b-preview"]
+model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 
 ["thinkingmachines/inkling-2-small"]

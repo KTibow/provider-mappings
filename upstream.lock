@@ -1,6 +1,6 @@
 # Upstream snapshots the committed data was built from. Written by the syncs.
 
 [modelsdev]
-fetched_at = "2026-11-25T00:48:04Z"
-sha256 = "7bcfb768c0ee9f3a780c34690f8b1dea73a5aeff7abd0ae11858082b74acdef8"
+fetched_at = "2026-11-25T09:56:52Z"
+sha256 = "3db62c4f2c5aaac69c1ab27e24e508f2204f587b389ef4a4926ab59d2d781980"
 url = "https://models.dev/api.json"

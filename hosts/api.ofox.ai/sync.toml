@@ -211,6 +211,14 @@ pin = "pinned"
 model = "microsoft/mai-image-2.5-pro"
 pin = "pinned"
 
+["microsoft/mai-image-2.6"]
+model = "microsoft/mai-image-2.6"
+pin = "pinned"
+
+["microsoft/mai-image-2.6-flash"]
+model = "microsoft/mai-image-2.6-flash"
+pin = "pinned"
+
 ["minimax/hailuo-3"]
 model = "minimax/hailuo-3"
 pin = "pinned"

@@ -1118,6 +1118,8 @@
       "glm-5.3-flash-uncensored"
     ],
     "oai.endpoints.kepler.ai.cloud.ovh.net": [
+      "olala-v1.0-translate",
+      "qwen3-vl-30b-a3b",
       "qwen3guard-gen-0.6b",
       "qwen3guard-gen-8b"
     ],

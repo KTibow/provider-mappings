@@ -26,6 +26,10 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
+["accounts/fireworks/models/hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["accounts/fireworks/models/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

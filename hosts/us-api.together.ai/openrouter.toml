@@ -14,6 +14,10 @@ pin = "pinned"
 model = "meta/muse-glimmer-30b"
 pin = "pinned"
 
+["thinkingmachines/Inkling"]
+model = "thinkingmachines/inkling"
+pin = "pinned"
+
 ["zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

@@ -55,6 +55,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
+["moonshotai/kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
 ["moonshotai/kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
@@ -157,6 +161,22 @@ pin = "pinned"
 
 ["xiaomimimo/mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+
+["zai-org/glm-4.5-air"]
+model = "z-ai/glm-4.5-air"
+pin = "pinned"
+
+["zai-org/glm-4.5v"]
+model = "z-ai/glm-4.5v"
+pin = "pinned"
+
+["zai-org/glm-4.6v"]
+model = "z-ai/glm-4.6v"
+pin = "pinned"
+
+["zai-org/glm-4.7-flash"]
+model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
 ["zai-org/glm-5.3-flashX"]

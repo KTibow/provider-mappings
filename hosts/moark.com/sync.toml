@@ -71,6 +71,10 @@ pin = "pinned"
 model = "lightricks/ltx-2"
 pin = "pinned"
 
+["MiMo-V2.6-Pro-UltraSpeed"]
+model = "xiaomi/mimo-v2.6-pro-ultraspeed"
+pin = "pinned"
+
 ["MiniMax-H3"]
 model = "minimax/hailuo-3"
 pin = "pinned"
@@ -197,6 +201,10 @@ pin = "pinned"
 
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["flux-3-image-klein"]
+model = "black-forest-labs/flux-3-image-klein"
 pin = "pinned"
 
 ["gemma-4-26B-A4B-it"]

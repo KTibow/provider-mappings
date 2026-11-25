@@ -778,6 +778,10 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
+["deepinfra/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["deepinfra/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
@@ -1428,6 +1432,10 @@ pin = "pinned"
 
 ["inference.net/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
+["inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["kimi-k2"]

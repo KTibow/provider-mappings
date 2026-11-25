@@ -175,8 +175,12 @@ pin = "pinned"
 model = "anthracite-org/magnum-v4-72b"
 pin = "pinned"
 
-["deepseek-ai/DeepSeek-R1-0528"]
-model = "deepseek/deepseek-r1-0528"
+["deepseek-ai/DeepSeek-V3"]
+model = "deepseek/deepseek-chat"
+pin = "pinned"
+
+["deepseek-ai/DeepSeek-V3-0324"]
+model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V3.1"]

@@ -55,24 +55,12 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
-["anthropic/claude-haiku-4-5"]
-model = "anthropic/claude-haiku-4.5"
-pin = "pinned"
-
 ["anthropic/claude-haiku-4.5"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
 ["anthropic/claude-haiku-5.5"]
 model = "anthropic/claude-haiku-5.5"
-pin = "pinned"
-
-["anthropic/claude-opus-4-7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["anthropic/claude-opus-4-8"]
-model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
 ["anthropic/claude-opus-4.5"]
@@ -95,16 +83,8 @@ pin = "pinned"
 model = "anthropic/claude-opus-5"
 pin = "pinned"
 
-["anthropic/claude-opus-5-5"]
-model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
 ["anthropic/claude-opus-5.5"]
 model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["anthropic/claude-sonnet-4-6"]
-model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
 ["anthropic/claude-sonnet-4.5"]
@@ -117,10 +97,6 @@ pin = "pinned"
 
 ["anthropic/claude-sonnet-5"]
 model = "anthropic/claude-sonnet-5"
-pin = "pinned"
-
-["anthropic/claude-sonnet-5-5"]
-model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["anthropic/claude-sonnet-5.5"]
@@ -141,18 +117,6 @@ pin = "pinned"
 
 ["black-forest-labs/flux-2-pro"]
 model = "black-forest-labs/flux.2-pro"
-pin = "pinned"
-
-["bytedance/seed-2.0-code"]
-model = "bytedance-seed/seed-2.0-code"
-pin = "pinned"
-
-["bytedance/seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
-["bytedance/seed-2.0-pro"]
-model = "bytedance-seed/seed-2.0-pro"
 pin = "pinned"
 
 ["bytedance/seedance-2.0"]
@@ -319,14 +283,6 @@ pin = "pinned"
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
-["google/gemini-3.1-flash-lite-preview"]
-model = "google/gemini-3.1-flash-lite-preview"
-pin = "pinned"
-
-["google/gemini-3.1-pro"]
-model = "google/gemini-3.1-pro"
-pin = "pinned"
-
 ["google/gemini-3.1-pro-preview"]
 model = "google/gemini-3.1-pro-preview"
 pin = "pinned"
@@ -377,10 +333,6 @@ pin = "pinned"
 
 ["google/gemini-embedding-001"]
 model = "google/gemini-embedding-001"
-pin = "pinned"
-
-["google/gemini-omni-flash"]
-model = "google/gemini-omni-flash"
 pin = "pinned"
 
 ["google/gemma-3-12b-it"]
@@ -521,10 +473,6 @@ pin = "pinned"
 
 ["microsoft/phi-4"]
 model = "microsoft/phi-4"
-pin = "pinned"
-
-["minimax/hailuo-3"]
-model = "minimax/hailuo-3"
 pin = "pinned"
 
 ["minimax/minimax-m2"]
@@ -931,10 +879,6 @@ pin = "pinned"
 model = "openai/whisper-large-v3-turbo"
 pin = "pinned"
 
-["perplexity/sonar"]
-model = "perplexity/sonar"
-pin = "pinned"
-
 ["pixverse/c1"]
 model = "pixverse/pixverse-c1"
 pin = "pinned"
@@ -1135,10 +1079,6 @@ pin = "pinned"
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
-["qwen/qwen3.8-flash-next-fp8"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
 ["qwen/qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
@@ -1307,10 +1247,6 @@ pin = "pinned"
 model = "x-ai/grok-4.20"
 pin = "pinned"
 
-["x-ai/grok-4.20-multi-agent"]
-model = "x-ai/grok-4.20-multi-agent"
-pin = "pinned"
-
 ["x-ai/grok-4.3"]
 model = "x-ai/grok-4.3"
 pin = "pinned"
@@ -1327,24 +1263,12 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["x-ai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
-pin = "pinned"
-
 ["x-ai/grok-imagine-video"]
 model = "x-ai/grok-imagine-video"
 pin = "pinned"
 
 ["x-ai/grok-voice-tts-1.0"]
 model = "x-ai/grok-voice-tts-1.0"
-pin = "pinned"
-
-["x-ai/grok4.6"]
-model = "x-ai/grok-4.6"
-pin = "pinned"
-
-["x-ai/grok4.7"]
-model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.5"]
