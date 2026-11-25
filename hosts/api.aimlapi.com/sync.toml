@@ -79,10 +79,6 @@ pin = "pinned"
 model = "qwen/qwen3-32b"
 pin = "pinned"
 
-["alibaba/qwen3-coder-480b-a35b-instruct"]
-model = "qwen/qwen3-coder"
-pin = "pinned"
-
 ["alibaba/qwen3-next-80b-a3b-instruct"]
 model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"
@@ -385,10 +381,6 @@ pin = "pinned"
 
 ["bytedance/seed-audio-1-0"]
 model = "bytedance-seed/seed-audio-1-0"
-pin = "pinned"
-
-["bytedance/seedance-1-5-pro"]
-model = "bytedance/seedance-1.5-pro"
 pin = "pinned"
 
 ["bytedance/seedance-2-0"]
@@ -1491,10 +1483,6 @@ pin = "pinned"
 model = "sakana/fugu-ultra-v2"
 pin = "pinned"
 
-["sakana/sakana-namazu"]
-model = "sakana/sakana-namazu"
-pin = "pinned"
-
 ["sao10k/l3-lunaris-8b"]
 model = "sao10k/l3-lunaris-8b"
 pin = "pinned"
@@ -1573,10 +1561,6 @@ pin = "pinned"
 
 ["typesafe/jev-1.14"]
 model = "typesafe/jev-1.14"
-pin = "pinned"
-
-["unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
 pin = "pinned"
 
 ["unbiased/pareto-26.10-preview"]
@@ -1677,6 +1661,10 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro"]

@@ -1258,16 +1258,8 @@ pin = "pinned"
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
 
-["unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
-pin = "pinned"
-
-["unbiased/pareto-26.10-preview"]
-model = "unbiased/pareto-26.10-preview"
-pin = "pinned"
-
-["unbiased/pareto-26.9"]
-model = "unbiased/pareto-26.9"
+["tngtech/deepseek-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
 pin = "pinned"
 
 ["undi95/remm-slerp-l2-13b"]
@@ -1460,10 +1452,6 @@ pin = "floating"
 
 ["~openai/gpt-terra-latest"]
 model = "~openai/gpt-terra-latest"
-pin = "floating"
-
-["~unbiased/pareto-latest"]
-model = "~unbiased/pareto-latest"
 pin = "floating"
 
 ["~x-ai/grok-latest"]

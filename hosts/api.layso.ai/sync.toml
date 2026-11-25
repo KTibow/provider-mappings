@@ -23,10 +23,6 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["claude-opus-4-5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
 ["claude-opus-4-6"]
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
@@ -45,10 +41,6 @@ pin = "pinned"
 
 ["claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["claude-sonnet-4-5"]
-model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
 ["claude-sonnet-4-6"]

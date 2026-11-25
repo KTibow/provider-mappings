@@ -52,6 +52,11 @@ model = "relace/relace-search"
 pin = "pinned"
 quant = "bf16"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+quant = "fp4"
+
 ["z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"

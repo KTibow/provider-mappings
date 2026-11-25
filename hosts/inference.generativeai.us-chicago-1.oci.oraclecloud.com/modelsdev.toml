@@ -33,3 +33,7 @@ pin = "pinned"
 ["xai.grok-4.6"]
 model = "x-ai/grok-4.6"
 pin = "pinned"
+
+["xai.grok-4.7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"

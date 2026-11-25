@@ -22,10 +22,6 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["claude-mythos-5"]
-model = "anthropic/claude-mythos-5"
-pin = "pinned"
-
 ["claude-opus-4-5"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
@@ -88,4 +84,8 @@ pin = "pinned"
 
 ["kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"

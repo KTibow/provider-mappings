@@ -1018,6 +1018,10 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["glm-4-32b-0414-128k"]
+model = "z-ai/glm-4-32b-0414-128k"
+pin = "pinned"
+
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"

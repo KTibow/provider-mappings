@@ -726,6 +726,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["moonshotai/kimi-k3.1-pro-highspeed"]
+model = "moonshotai/kimi-k3.1-pro-highspeed"
+pin = "pinned"
+
 ["morph/morph-v3-fast"]
 model = "morph/morph-v3-fast"
 pin = "pinned"

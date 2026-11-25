@@ -303,6 +303,10 @@ pin = "pinned"
 model = "minimax/hailuo-3"
 pin = "pinned"
 
+["minimax-h3-image"]
+model = "minimax/minimax-h3-image"
+pin = "pinned"
+
 ["minimax-m2.5"]
 model = "minimax/minimax-m2.5"
 pin = "pinned"
@@ -329,6 +333,10 @@ pin = "pinned"
 
 ["minimax-speech-2.8-turbo"]
 model = "minimax/speech-2.8-turbo"
+pin = "pinned"
+
+["qwen-image-3.0-pro"]
+model = "qwen/qwen-image-3-pro"
 pin = "pinned"
 
 ["qwen-plus"]
@@ -417,6 +425,10 @@ pin = "pinned"
 
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["wan3.0-video"]
+model = "alibaba/wan-3.0"
 pin = "pinned"
 
 ["whisper-large-v3"]

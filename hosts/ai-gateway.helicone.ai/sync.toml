@@ -15,6 +15,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-4.5"
 pin = "pinned"
 
+["deepseek-tng-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
+pin = "pinned"
+
 ["deepseek-v3"]
 model = "deepseek/deepseek-chat"
 pin = "pinned"

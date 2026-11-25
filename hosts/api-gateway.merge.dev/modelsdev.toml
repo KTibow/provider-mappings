@@ -738,6 +738,10 @@ pin = "pinned"
 model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
+["zai/glm-4-32b-0414-128k"]
+model = "z-ai/glm-4-32b-0414-128k"
+pin = "pinned"
+
 ["zai/glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"

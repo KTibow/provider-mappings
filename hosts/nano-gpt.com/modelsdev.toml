@@ -58,6 +58,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["TEE/glm-5.3-uncensored"]
+model = "z-ai/glm-5.3-uncensored"
+pin = "pinned"
+
 ["TEE/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -818,6 +822,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["moonshotai/kimi-k3.1-pro-highspeed"]
+model = "moonshotai/kimi-k3.1-pro-highspeed"
+pin = "pinned"
+
 ["nex-agi/nex-n2.5-mini"]
 model = "nex-agi/nex-n2.5-mini"
 pin = "pinned"
@@ -1056,10 +1064,6 @@ pin = "pinned"
 
 ["openai/o3"]
 model = "openai/o3"
-pin = "pinned"
-
-["openai/o3-pro-2025-06-10"]
-model = "openai/o3-pro"
 pin = "pinned"
 
 ["orca/orcacyber-flash-1.0"]
@@ -1422,6 +1426,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["thinkingmachines/inkling:thinking"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -1446,12 +1454,28 @@ pin = "pinned"
 model = "google/gemma-3-4b-it"
 pin = "pinned"
 
+["upstage/solar-mini-4-5"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
+["upstage/solar-mini-4-5:thinking"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
 ["upstage/solar-mini4"]
 model = "upstage/solar-mini4"
 pin = "pinned"
 
 ["upstage/solar-mini4:thinking"]
 model = "upstage/solar-mini4"
+pin = "pinned"
+
+["upstage/solar-pro-4-contributor"]
+model = "upstage/solar-pro-4-contributor"
+pin = "pinned"
+
+["upstage/solar-pro-4-contributor:thinking"]
+model = "upstage/solar-pro-4-contributor"
 pin = "pinned"
 
 ["upstage/solar-pro4"]
@@ -1508,10 +1532,6 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["xiaomi/mimo-v2.6-flash-mopd"]
-model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro"]

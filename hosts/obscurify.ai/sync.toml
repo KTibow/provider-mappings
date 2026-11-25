@@ -1179,10 +1179,6 @@ pin = "pinned"
 model = "tencent/hy-mt2-1.8b"
 pin = "pinned"
 
-["tencent/hy-mt2-30b-a3b"]
-model = "tencent/hy-mt2-30b-a3b"
-pin = "pinned"
-
 ["tencent/hy-mt2-7b"]
 model = "tencent/hy-mt2-7b"
 pin = "pinned"
@@ -1234,18 +1230,6 @@ pin = "pinned"
 ["typesafe/jev-latest"]
 model = "~typesafe/jev-latest"
 pin = "floating"
-
-["unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
-pin = "pinned"
-
-["unbiased/pareto-26.10-preview"]
-model = "unbiased/pareto-26.10-preview"
-pin = "pinned"
-
-["unbiased/pareto-26.9"]
-model = "unbiased/pareto-26.9"
-pin = "pinned"
 
 ["undi95/remm-slerp-l2-13b"]
 model = "undi95/remm-slerp-l2-13b"

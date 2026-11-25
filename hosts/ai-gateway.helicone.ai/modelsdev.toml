@@ -58,6 +58,10 @@ pin = "pinned"
 model = "deepseek/deepseek-reasoner"
 pin = "pinned"
 
+["deepseek-tng-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
+pin = "pinned"
+
 ["deepseek-v3"]
 model = "deepseek/deepseek-chat"
 pin = "pinned"

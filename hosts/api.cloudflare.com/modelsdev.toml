@@ -6,12 +6,8 @@
 model = "aisingapore/gemma-sea-lion-v4-27b-it"
 pin = "pinned"
 
-["@cf/deepseek-ai/deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-
-["@cf/deepseek-ai/deepseek-v4-pro-0813"]
-model = "deepseek/deepseek-v4-pro-0813"
+["@cf/daily-co/phonellm-mini-alpha-2"]
+model = "pipecat-ai/phonellm-mini-alpha-2"
 pin = "pinned"
 
 ["@cf/deepseek-ai/deepseek-v4.1-flash-1017"]
@@ -26,20 +22,8 @@ pin = "pinned"
 model = "ibm/granite-4-h-micro"
 pin = "pinned"
 
-["@cf/meta/llama-3.1-8b-instruct-fp8"]
-model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
 ["@cf/meta/llama-3.2-11b-vision-instruct"]
 model = "meta/llama-3.2-11b-vision-instruct"
-pin = "pinned"
-
-["@cf/meta/llama-3.2-1b-instruct"]
-model = "meta/llama-3.2-1b"
-pin = "pinned"
-
-["@cf/meta/llama-3.2-3b-instruct"]
-model = "meta/llama-3.2-3b"
 pin = "pinned"
 
 ["@cf/meta/llama-4-scout-17b-16e-instruct"]
@@ -54,18 +38,6 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.1-24b-instruct"
 pin = "pinned"
 
-["@cf/moonshotai/kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["@cf/moonshotai/kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-
-["@cf/nvidia/nemotron-3-120b-a12b"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-
 ["@cf/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -78,16 +50,8 @@ pin = "pinned"
 model = "qwen/qwen-2.5-coder-32b-instruct"
 pin = "pinned"
 
-["@cf/qwen/qwen3-30b-a3b-fp8"]
-model = "qwen/qwen3-30b-a3b"
-pin = "pinned"
-
 ["@cf/qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["@cf/qwen/qwq-32b"]
-model = "alibaba/qwq-32b"
 pin = "pinned"
 
 ["@cf/thinkingmachines/inkling-2-small"]
@@ -98,14 +62,6 @@ pin = "pinned"
 model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
-["@cf/zai-org/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["@cf/zai-org/glm-5.3"]
 model = "z-ai/glm-5.3"
-pin = "pinned"
-
-["@cf/zai-org/glm-5.3-flash"]
-model = "z-ai/glm-5.3-flash"
 pin = "pinned"

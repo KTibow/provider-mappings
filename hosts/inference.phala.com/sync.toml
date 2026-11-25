@@ -59,6 +59,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017-uncensored"
 pin = "pinned"
 
+["phala/glm-5.3-uncensored"]
+model = "z-ai/glm-5.3-uncensored"
+pin = "pinned"
+
 ["qwen/qwen3-asr-0.6b"]
 model = "qwen/qwen3-asr-0.6b"
 pin = "pinned"

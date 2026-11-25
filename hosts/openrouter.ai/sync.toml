@@ -2252,6 +2252,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
 
+["tngtech/deepseek-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
+pin = "pinned"
+
 ["togethercomputer/tev1-4b-experimental"]
 model = "togethercomputer/tev1-4b-experimental"
 pin = "pinned"
@@ -2262,18 +2266,6 @@ pin = "pinned"
 
 ["typesafe/jev-1.14"]
 model = "typesafe/jev-1.14"
-pin = "pinned"
-
-["unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
-pin = "pinned"
-
-["unbiased/pareto-26.10-preview"]
-model = "unbiased/pareto-26.10-preview"
-pin = "pinned"
-
-["unbiased/pareto-26.9"]
-model = "unbiased/pareto-26.9"
 pin = "pinned"
 
 ["undi95/remm-slerp-l2-13b"]

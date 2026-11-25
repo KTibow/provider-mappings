@@ -147,6 +147,11 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["deepseek-v4-flash:free"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+free = true
+
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -162,16 +167,6 @@ pin = "pinned"
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
-
-["deepseek-v4.1-flash-uncensored-fp8:free"]
-model = "deepseek/deepseek-v4.1-flash-uncensored"
-pin = "pinned"
-free = true
-
-["deepseek-v4.1-flash:free"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-free = true
 
 ["dots-3-note-preview:free"]
 model = "dots-studio/dots-3-note-preview"
@@ -203,16 +198,6 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
-["gemini-2.5-flash-lite:free"]
-model = "google/gemini-2.5-flash-lite"
-pin = "pinned"
-free = true
-
-["gemini-2.5-flash:free"]
-model = "google/gemini-2.5-flash"
-pin = "pinned"
-free = true
-
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
 pin = "pinned"
@@ -224,11 +209,6 @@ pin = "pinned"
 ["gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
-
-["gemini-3-flash:free"]
-model = "google/gemini-3-flash-preview"
-pin = "pinned"
-free = true
 
 ["gemini-3-pro-image"]
 model = "google/gemini-3-pro-image"
@@ -245,11 +225,6 @@ pin = "pinned"
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
-
-["gemini-3.1-flash-lite:free"]
-model = "google/gemini-3.1-flash-lite"
-pin = "pinned"
-free = true
 
 ["gemini-3.1-pro"]
 model = "google/gemini-3.1-pro"
@@ -365,11 +340,6 @@ free = true
 model = "z-ai/glm-5.3-flashx"
 pin = "pinned"
 
-["glm-5.3:free"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-free = true
-
 ["gpt-4o:free"]
 model = "openai/gpt-4o"
 pin = "pinned"
@@ -398,11 +368,6 @@ pin = "pinned"
 ["gpt-6-luna"]
 model = "openai/gpt-6-luna"
 pin = "pinned"
-
-["gpt-6-luna:free"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-free = true
 
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
@@ -496,11 +461,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["kimi-k3.1-pro:free"]
-model = "moonshotai/kimi-k3.1-pro"
-pin = "pinned"
-free = true
-
 ["lfm-2.5-embedding-350m:free"]
 model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
@@ -508,11 +468,6 @@ free = true
 
 ["ling-3.1-flash:free"]
 model = "inclusionai/ling-3.1-flash"
-pin = "pinned"
-free = true
-
-["ling-3.2-flash:free"]
-model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
 free = true
 
@@ -529,18 +484,9 @@ free = true
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
-["minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
 ["minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"
-
-["minimax-m2.7:free"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-free = true
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
@@ -549,11 +495,6 @@ pin = "pinned"
 ["minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
-
-["minimax-m3.1-flash:free"]
-model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-free = true
 
 ["mistral-large-3"]
 model = "mistralai/mistral-large-2512"

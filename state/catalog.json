@@ -6674,6 +6674,17 @@
   ],
   "permaslug": "thinkingmachines/inkling-small-20260730"
  },
+ "tngtech/deepseek-r1t2-chimera": {
+  "hf": "tngtech/DeepSeek-TNG-R1T2-Chimera",
+  "input": [
+   "text"
+  ],
+  "name": "TNG: DeepSeek R1T2 Chimera",
+  "output": [
+   "text"
+  ],
+  "permaslug": "tngtech/deepseek-r1t2-chimera"
+ },
  "togethercomputer/tev1-4b-experimental": {
   "hf": "togethercomputer/Tev1-4B-experimental",
   "input": [
@@ -6708,6 +6719,7 @@
   "permaslug": "typesafe/jev-1.14-20261014"
  },
  "unbiased/pareto-26.10": {
+  "delisted": "2026-11-25",
   "input": [
    "image",
    "text"
@@ -6719,6 +6731,7 @@
   "permaslug": "unbiased/pareto-26.10-20261015"
  },
  "unbiased/pareto-26.10-preview": {
+  "delisted": "2026-11-25",
   "input": [
    "image",
    "text"
@@ -6730,6 +6743,7 @@
   "permaslug": "unbiased/pareto-26.10-preview-20260929"
  },
  "unbiased/pareto-26.9": {
+  "delisted": "2026-11-25",
   "input": [
    "image",
    "text"

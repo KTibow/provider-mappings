@@ -94,10 +94,6 @@ pin = "pinned"
 model = "amazon/nova-pro-v1"
 pin = "pinned"
 
-["apac.anthropic.claude-sonnet-4-20250514-v1:0"]
-model = "anthropic/claude-sonnet-4-20250514"
-pin = "pinned"
-
 ["au.anthropic.claude-haiku-4-5-20251001-v1:0"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -146,6 +142,14 @@ pin = "pinned"
 model = "amazon/nova-lite-v1"
 pin = "pinned"
 
+["ca.anthropic.claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["ca.anthropic.claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
 ["deepseek.r1-v1:0"]
 model = "deepseek/deepseek-r1"
 pin = "pinned"
@@ -172,10 +176,6 @@ pin = "pinned"
 
 ["eu.amazon.nova-pro-v1:0"]
 model = "amazon/nova-pro-v1"
-pin = "pinned"
-
-["eu.anthropic.claude-fable-5"]
-model = "anthropic/claude-fable-5"
 pin = "pinned"
 
 ["eu.anthropic.claude-haiku-4-5-20251001-v1:0"]
@@ -208,10 +208,6 @@ pin = "pinned"
 
 ["eu.anthropic.claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["eu.anthropic.claude-sonnet-4-20250514-v1:0"]
-model = "anthropic/claude-sonnet-4-20250514"
 pin = "pinned"
 
 ["eu.anthropic.claude-sonnet-4-5-20250929-v1:0"]
@@ -280,10 +276,6 @@ pin = "pinned"
 
 ["global.anthropic.claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["global.anthropic.claude-sonnet-4-20250514-v1:0"]
-model = "anthropic/claude-sonnet-4-20250514"
 pin = "pinned"
 
 ["global.anthropic.claude-sonnet-4-5-20250929-v1:0"]
@@ -386,6 +378,14 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
+["in.moonshotai.kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["in.moonshotai.kimi-k3.1"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["in.openai.gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -414,10 +414,6 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
-["jp.anthropic.claude-opus-5"]
-model = "anthropic/claude-opus-5"
-pin = "pinned"
-
 ["jp.anthropic.claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
 pin = "pinned"
@@ -428,10 +424,6 @@ pin = "pinned"
 
 ["jp.anthropic.claude-sonnet-4-6"]
 model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-
-["jp.anthropic.claude-sonnet-5"]
-model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
 ["meta.llama3-1-70b-instruct-v1:0"]
@@ -590,10 +582,6 @@ pin = "pinned"
 model = "amazon/nova-micro-v1"
 pin = "pinned"
 
-["us.amazon.nova-premier-v1:0"]
-model = "amazon/nova-premier"
-pin = "pinned"
-
 ["us.amazon.nova-pro-v1:0"]
 model = "amazon/nova-pro-v1"
 pin = "pinned"
@@ -644,10 +632,6 @@ pin = "pinned"
 
 ["us.anthropic.claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["us.anthropic.claude-sonnet-4-20250514-v1:0"]
-model = "anthropic/claude-sonnet-4-20250514"
 pin = "pinned"
 
 ["us.anthropic.claude-sonnet-4-5-20250929-v1:0"]

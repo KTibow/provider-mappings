@@ -391,10 +391,6 @@ pin = "pinned"
 model = "perplexity/sonar"
 pin = "pinned"
 
-["perplexity-sonar-pro"]
-model = "perplexity/sonar-pro"
-pin = "pinned"
-
 ["pixverse-v5.6"]
 model = "pixverse/pixverse-v5.6"
 pin = "pinned"

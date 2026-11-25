@@ -42,36 +42,12 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["mistralai/magistral-small-2506"]
-model = "mistralai/magistral-small-2506"
-pin = "pinned"
-
-["mistralai/mistral-7b-instruct-v0.3"]
-model = "mistralai/mistral-7b-instruct-v0.3"
-pin = "pinned"
-
-["mistralai/mistral-medium-3-instruct"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
 ["moonshotai/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
-["moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
-pin = "pinned"
-
-["nvidia/llama-3.1-nemotron-70b-instruct"]
-model = "nvidia/llama-3.1-nemotron-70b-instruct"
-pin = "pinned"
-
 ["nvidia/llama-3.1-nemotron-safety-guard-8b-v3"]
 model = "nvidia/llama-3.1-nemotron-safety-guard-8b-v3"
-pin = "pinned"
-
-["nvidia/llama-3.1-nemotron-ultra-253b-v1"]
-model = "nvidia/llama-3.1-nemotron-ultra-253b"
 pin = "pinned"
 
 ["nvidia/llama-nemotron-embed-vl-1b-v2"]
@@ -120,10 +96,6 @@ pin = "pinned"
 
 ["stepfun-ai/step-5-preview"]
 model = "stepfun/step-5-preview"
-pin = "pinned"
-
-["z-ai/glm-5.3"]
-model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["z-ai/glm-5.3-flash"]

@@ -94,6 +94,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["glm-5.4"]
+model = "z-ai/glm-5.4"
+pin = "pinned"
+
 ["kimi-k2.8-preview"]
 model = "moonshotai/kimi-k2.8-preview"
 pin = "pinned"

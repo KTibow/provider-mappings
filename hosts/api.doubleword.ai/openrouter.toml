@@ -2,6 +2,11 @@
 # Do not edit: this file is rewritten every hour. Put fixes and additions in
 # manual.toml next to it, which takes precedence.
 
+["moonshotai/Kimi-K3.1-Pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+quant = "mxfp4"
+
 ["zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

@@ -4,7 +4,6 @@
     "ai-gateway.helicone.ai": [
       "chatgpt-4o-latest",
       "deepseek-r1-distill-llama-70b",
-      "deepseek-tng-r1t2-chimera",
       "ernie-4.5-21b-a3b-thinking",
       "gemma2-9b-it",
       "gpt-5-chat-latest",
@@ -39,7 +38,6 @@
       "mistralai/ministral-8b",
       "mistralai/mistral-small",
       "mixedbread/toast-1",
-      "moonshotai/kimi-k3.1-pro-highspeed",
       "openai/gpt-4.1-fast",
       "openai/gpt-4.1-mini-fast",
       "openai/gpt-4o-fast",
@@ -130,7 +128,6 @@
       "mistral/voxtral-mini-transcribe-3",
       "mistral/voxtral-mini-tts-3",
       "mistral/voxtral-small-transcribe-3",
-      "moonshotai/kimi-k3.1-pro-highspeed",
       "openai/gpt-4.1-fast",
       "openai/gpt-4.1-mini-fast",
       "openai/gpt-4o-fast",
@@ -177,9 +174,6 @@
       "voyage/voyage-law-2",
       "zai/glm-5.2-fast",
       "zai/glm-5.3-fast"
-    ],
-    "ai.api.nvidia.com": [
-      "nvidia/rerank-qa-mistral-4b"
     ],
     "aihubmix.com": [
       "grok-4-fast-non-reasoning"
@@ -287,7 +281,6 @@
     ],
     "api.cloudflare.com": [
       "@cf/cloudflare/clairic-flash",
-      "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
       "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
     ],
     "api.commandcode.ai": [
@@ -318,23 +311,15 @@
       "openai/gpt-oss-120b-Ultra"
     ],
     "api.edenai.run": [
-      "google/gemini-pro-latest",
-      "mistral/codestral-latest",
-      "mistral/codestral-latest@eu",
-      "mistral/devstral-medium-latest",
-      "mistral/devstral-medium-latest@eu",
-      "mistral/magistral-medium-latest",
-      "mistral/magistral-medium-latest@eu",
-      "mistral/mistral-medium-latest",
-      "mistral/mistral-medium-latest@eu",
-      "mistral/voxtral-small-latest",
-      "mistral/voxtral-small-latest@eu",
-      "openai/gpt-latest",
-      "openai/gpt-mini-latest",
-      "openai/gpt-pro-latest",
-      "vertex/gemini-pro-latest",
-      "xai/grok-4-fast-non-reasoning",
-      "xai/grok-4.20-0309-non-reasoning"
+      "codestral-latest",
+      "devstral-medium-latest",
+      "glm-5.3-fast",
+      "grok-4-fast-non-reasoning",
+      "grok-4.20-0309-non-reasoning",
+      "magistral-medium-latest",
+      "mistral-medium-latest",
+      "voxtral-small-latest",
+      "~gemini-pro-latest"
     ],
     "api.fastino.ai": [
       "fastino/GLiNER-2.5-Decide",
@@ -442,7 +427,6 @@
       "fireworks/deepseek-v4.1-flash-latest",
       "flexai/deepseek-v4.1-flash-latest",
       "gemini-pro-latest",
-      "glm-4-32b-0414-128k",
       "glm-4.5-airx",
       "glm-4.5-x",
       "glm-4.6v-flashx",
@@ -740,7 +724,6 @@
       "claude-opus-5-5-fast",
       "deepseek-v4-1-flash-1017-ultrafast",
       "glm-5-3-flash-uncensored",
-      "kimi-k3-1-pro-highspeed",
       "openai-gpt-61-sol-ultrafast",
       "qwen3-coder-480b-a35b-instruct-turbo"
     ],
@@ -885,13 +868,10 @@
       "nvidia/cosmos-reason2-8b",
       "nvidia/cosmos-transfer2_5-2b",
       "nvidia/magpie-tts-zeroshot",
-      "nvidia/riva-translate-4b-instruct-v1.1",
       "nvidia/sparsedrive",
       "nvidia/streampetr",
       "nvidia/studiovoice",
       "nvidia/synthetic-video-detector",
-      "nvidia/usdcode",
-      "nvidia/usdvalidate",
       "qwen/qwen-image-edit"
     ],
     "jadai.freesrv.com": [
@@ -981,7 +961,6 @@
       "claw-high",
       "claw-low",
       "claw-medium",
-      "deepcogito/cogito-v1-preview-qwen-32B",
       "deepseek-ai/deepseek-v3.2-exp-thinking",
       "deepseek/deepseek-latest",
       "deepseek/deepseek-v4.1-flash-0910-uncensored",
@@ -1033,6 +1012,7 @@
       "jiunsong/supergemma4-26b-uncensored",
       "kitani/clover-2",
       "kitani/clover-2:thinking",
+      "kitani/evolve-beta",
       "lyber/deepseek-v4.1-flash-1017-abliterated",
       "lyber/kimi-k3.1-pro-abliterated",
       "meganova-ai/manta-flash-1.0",
@@ -1046,7 +1026,6 @@
       "mistral-code-latest",
       "mistralai/devstral-small-2505",
       "mlabonne/NeuralDaredevil-8B-abliterated",
-      "moonshotai/kimi-k3.1-pro-highspeed",
       "moonshotai/kimi-latest",
       "nano-gpt-help",
       "nanogpt/coding-router",
@@ -1218,7 +1197,6 @@
     ],
     "{resource}.cognitiveservices.azure.com": [
       "codestral-2501",
-      "codex-mini",
       "deepseek-v3.2-speciale",
       "gpt-3.5-turbo-0125",
       "gpt-3.5-turbo-1106",
@@ -1232,16 +1210,13 @@
       "ministral-3b",
       "mistral-small-2503",
       "model-router",
-      "o1",
       "phi-4-mini",
       "phi-4-mini-reasoning",
       "phi-4-multimodal",
-      "phi-4-reasoning",
-      "phi-4-reasoning-plus"
+      "phi-4-reasoning"
     ],
     "{resource}.openai.azure.com": [
       "codestral-2501",
-      "codex-mini",
       "deepseek-v3.2-speciale",
       "gpt-3.5-turbo-0125",
       "gpt-3.5-turbo-1106",
@@ -1255,12 +1230,10 @@
       "ministral-3b",
       "mistral-small-2503",
       "model-router",
-      "o1",
       "phi-4-mini",
       "phi-4-mini-reasoning",
       "phi-4-multimodal",
-      "phi-4-reasoning",
-      "phi-4-reasoning-plus"
+      "phi-4-reasoning"
     ],
     "{resource}.services.ai.azure.com": [
       "cohere-embed-v-4-0",

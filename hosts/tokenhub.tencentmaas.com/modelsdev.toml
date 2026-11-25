@@ -46,6 +46,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["glm-5.4"]
+model = "z-ai/glm-5.4"
+pin = "pinned"
+
 ["hy3"]
 model = "tencent/hy3"
 pin = "pinned"

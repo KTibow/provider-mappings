@@ -15,10 +15,6 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["ag/gemini-4-argon"]
-model = "google/gemini-4-argon"
-pin = "pinned"
-
 ["ag/gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
@@ -167,60 +163,64 @@ pin = "pinned"
 model = "alibaba/wan-2.7-image"
 pin = "pinned"
 
-["az/claude-fable-5"]
+["ant/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
 
-["az/claude-fable-5-1"]
+["ant/claude-fable-5-1"]
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
-["az/claude-fable-5-2"]
+["ant/claude-fable-5-2"]
 model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
-["az/claude-haiku-4-5"]
+["ant/claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
 
-["az/claude-haiku-5-5"]
+["ant/claude-haiku-5-5"]
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["az/claude-opus-4-5"]
+["ant/claude-opus-4-5"]
 model = "anthropic/claude-opus-4.5"
 pin = "pinned"
 
-["az/claude-opus-4-6"]
+["ant/claude-opus-4-6"]
 model = "anthropic/claude-opus-4.6"
 pin = "pinned"
 
-["az/claude-opus-4-7"]
+["ant/claude-opus-4-7"]
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
-["az/claude-opus-4-8"]
+["ant/claude-opus-4-8"]
 model = "anthropic/claude-opus-4.8"
 pin = "pinned"
 
-["az/claude-opus-5"]
+["ant/claude-opus-5"]
 model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["ant/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["ant/claude-sonnet-4-6"]
+model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["ant/claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["ant/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["az/claude-opus-5-5"]
 model = "anthropic/claude-opus-5.5"
-pin = "pinned"
-
-["az/claude-sonnet-4-6"]
-model = "anthropic/claude-sonnet-4.6"
-pin = "pinned"
-
-["az/claude-sonnet-5"]
-model = "anthropic/claude-sonnet-5"
-pin = "pinned"
-
-["az/claude-sonnet-5-5"]
-model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
 ["az/gpt-5.4-mini"]
@@ -237,6 +237,10 @@ pin = "pinned"
 
 ["cb/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["cb/gemini-3.1-pro"]
+model = "google/gemini-3.1-pro"
 pin = "pinned"
 
 ["cb/gemini-4-argon"]
@@ -265,6 +269,10 @@ pin = "pinned"
 
 ["cb/gpt-6-astra"]
 model = "openai/gpt-6-astra"
+pin = "pinned"
+
+["cb/gpt-6-sol"]
+model = "openai/gpt-6-sol"
 pin = "pinned"
 
 ["cb/gpt-6.1-terra"]
@@ -1132,10 +1140,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimotp/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
 ["minimax-h3-image"]
 model = "minimax/minimax-h3-image"
 pin = "pinned"
@@ -1376,6 +1380,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
+["ocg/deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
 ["ocg/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -1388,8 +1396,20 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["ocg/gpt-5.6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["ocg/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
 ["ocg/grok-4.6"]
 model = "x-ai/grok-4.6"
+pin = "pinned"
+
+["ocg/grok-4.7"]
+model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["ocg/hy4"]
@@ -1408,6 +1428,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
+["ocg/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
 ["ocg/kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
@@ -1422,6 +1446,10 @@ pin = "pinned"
 
 ["ocg/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["ocg/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["ocg/minimax-m3"]
@@ -1442,6 +1470,14 @@ pin = "pinned"
 
 ["ocg/qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
+["ocg/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
+
+["ocg/step-5-preview"]
+model = "stepfun/step-5-preview"
 pin = "pinned"
 
 ["qwen-image-3.0-pro"]

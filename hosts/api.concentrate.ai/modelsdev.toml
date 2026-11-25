@@ -210,6 +210,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["glm-5.3-flashx-legal"]
+model = "z-ai/glm-5.3-flashx-legal"
+pin = "pinned"
+
 ["gpt-4.1"]
 model = "openai/gpt-4.1"
 pin = "pinned"

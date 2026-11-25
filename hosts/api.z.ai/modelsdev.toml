@@ -2,6 +2,10 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["glm-4-32b-0414-128k"]
+model = "z-ai/glm-4-32b-0414-128k"
+pin = "pinned"
+
 ["glm-4.5"]
 model = "z-ai/glm-4.5"
 pin = "pinned"

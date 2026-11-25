@@ -7,10 +7,10 @@ model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 quant = "fp4"
 
-["qwen/qwen3.6-35b-a3b"]
-model = "qwen/qwen3.6-35b-a3b"
+["google/gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
-quant = "fp8"
+quant = "nvfp4"
 
 ["z-ai/glm-5.2"]
 model = "z-ai/glm-5.2"

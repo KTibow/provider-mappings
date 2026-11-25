@@ -10,6 +10,34 @@ pin = "pinned"
 model = "deepseek/deepseek-v3.2"
 pin = "pinned"
 
+["fw-deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["fw-glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["fw-glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["fw-kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["fw-kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["fw-nemotron-3-ultra-nvfp4"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["fw-nemotron-lightning-3.5-30b-a3b"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+
 ["gpt-4-turbo"]
 model = "openai/gpt-4-turbo"
 pin = "pinned"
@@ -138,8 +166,8 @@ pin = "pinned"
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
-["gpt-image-1"]
-model = "openai/gpt-image-1"
+["gpt-image-1-mini"]
+model = "openai/gpt-image-1-mini"
 pin = "pinned"
 
 ["gpt-image-1.5"]
@@ -156,6 +184,10 @@ pin = "pinned"
 
 ["gpt-image-2.5-sunburst"]
 model = "openai/gpt-image-2.5-sunburst"
+pin = "pinned"
+
+["gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["grok-4-1-fast-reasoning"]
@@ -184,18 +216,6 @@ pin = "pinned"
 
 ["mistral-medium-2505"]
 model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
-["o3"]
-model = "openai/o3"
-pin = "pinned"
-
-["o3-mini"]
-model = "openai/o3-mini"
-pin = "pinned"
-
-["o4-mini"]
-model = "openai/o4-mini"
 pin = "pinned"
 
 ["phi-4"]

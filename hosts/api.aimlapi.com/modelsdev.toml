@@ -14,10 +14,6 @@ pin = "pinned"
 model = "qwen/qwen-plus"
 pin = "pinned"
 
-["alibaba/qwen3-coder-480b-a35b-instruct"]
-model = "qwen/qwen3-coder"
-pin = "pinned"
-
 ["alibaba/qwen3-next-80b-a3b-instruct"]
 model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"

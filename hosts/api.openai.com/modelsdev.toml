@@ -102,6 +102,10 @@ pin = "pinned"
 model = "openai/gpt-6-astra"
 pin = "pinned"
 
+["gpt-6-astra-healthcare"]
+model = "openai/gpt-6-astra-healthcare"
+pin = "pinned"
+
 ["gpt-6-luna"]
 model = "openai/gpt-6-luna"
 pin = "pinned"
@@ -114,6 +118,10 @@ pin = "pinned"
 model = "openai/gpt-6.1-sol"
 pin = "pinned"
 
+["gpt-6.1-sol-healthcare"]
+model = "openai/gpt-6.1-sol-healthcare"
+pin = "pinned"
+
 ["gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
@@ -122,8 +130,16 @@ pin = "pinned"
 model = "openai/gpt-6.2-astra"
 pin = "pinned"
 
+["gpt-6.2-astra-healthcare"]
+model = "openai/gpt-6.2-astra-healthcare"
+pin = "pinned"
+
 ["gpt-6.2-sol"]
 model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["gpt-6.2-sol-healthcare"]
+model = "openai/gpt-6.2-sol-healthcare"
 pin = "pinned"
 
 ["gpt-image-1-mini"]

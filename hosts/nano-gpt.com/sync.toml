@@ -35,6 +35,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["TEE/glm-5.3-uncensored"]
+model = "z-ai/glm-5.3-uncensored"
+pin = "pinned"
+
 ["TEE/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -959,10 +963,6 @@ pin = "floating"
 model = "openai/o3"
 pin = "pinned"
 
-["openai/o3-pro-2025-06-10"]
-model = "openai/o3-pro"
-pin = "pinned"
-
 ["orca/orcacyber-flash-1.0"]
 model = "orcacyber/orcacyber-flash-1.0"
 pin = "pinned"
@@ -1287,16 +1287,12 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["thinkingmachines/inkling:thinking"]
 model = "thinkingmachines/inkling"
-pin = "pinned"
-
-["unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
-pin = "pinned"
-
-["unbiased/pareto-26.9"]
-model = "unbiased/pareto-26.9"
 pin = "pinned"
 
 ["unsloth/gemma-3-12b-it"]
@@ -1393,10 +1389,6 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
-pin = "pinned"
-
-["xiaomi/mimo-v2.6-flash-mopd"]
-model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro"]

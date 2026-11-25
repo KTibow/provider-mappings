@@ -206,6 +206,10 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
+["hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
 ["hy4-preview"]
 model = "tencent/hy4-preview"
 pin = "pinned"
@@ -228,6 +232,10 @@ pin = "pinned"
 
 ["kimi-k3-1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["kimi-k3-1-pro-highspeed"]
+model = "moonshotai/kimi-k3.1-pro-highspeed"
 pin = "pinned"
 
 ["kimi-k3-fast-api"]
