@@ -18,10 +18,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
 
-["qwen3-coder-next"]
-model = "qwen/qwen3-coder-next"
-pin = "pinned"
-
 ["qwen3.5-plus"]
 model = "alibaba/qwen3.5-plus"
 pin = "pinned"

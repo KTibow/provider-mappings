@@ -511,10 +511,6 @@ pin = "pinned"
 model = "minimax/minimax-m2.1"
 pin = "pinned"
 
-["minimax/minimax-m2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
 ["minimax/minimax-m2.7"]
 model = "minimax/minimax-m2.7"
 pin = "pinned"
@@ -549,10 +545,6 @@ pin = "pinned"
 
 ["mistralai/mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistralai/mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
 pin = "pinned"
 
 ["mistralai/mistral-medium-3.5"]
@@ -1003,10 +995,6 @@ pin = "pinned"
 model = "qwen/qwen3.6-27b"
 pin = "pinned"
 
-["qwen/qwen3.6-35b-a3b"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-
 ["qwen/qwen3.6-flash"]
 model = "qwen/qwen3.6-flash"
 pin = "pinned"
@@ -1109,10 +1097,6 @@ pin = "pinned"
 
 ["sao10k/l3-lunaris-8b"]
 model = "sao10k/l3-lunaris-8b"
-pin = "pinned"
-
-["sao10k/l3.1-euryale-70b"]
-model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"
 
 ["scaledown/classify-1"]
@@ -1239,10 +1223,6 @@ pin = "pinned"
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
-["togethercomputer/tev1-4b-experimental"]
-model = "togethercomputer/tev1-4b-experimental"
-pin = "pinned"
-
 ["typesafe/jev-1.13"]
 model = "typesafe/jev-1.13"
 pin = "pinned"
@@ -1325,6 +1305,10 @@ pin = "pinned"
 
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro"]

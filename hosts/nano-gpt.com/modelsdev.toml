@@ -786,14 +786,6 @@ pin = "pinned"
 model = "moondream/moondream3.1-9b-a2b"
 pin = "pinned"
 
-["moonshotai/Kimi-K2-Instruct-0905"]
-model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["moonshotai/kimi-k2-instruct"]
-model = "moonshotai/kimi-k2"
-pin = "pinned"
-
 ["moonshotai/kimi-k2.5"]
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"

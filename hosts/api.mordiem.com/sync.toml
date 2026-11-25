@@ -375,10 +375,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["grok-build-0-1"]
-model = "x-ai/grok-build-0.1"
-pin = "pinned"
-
 ["grok-imagine-1-5-image-to-video-private"]
 model = "x-ai/grok-imagine-video-1.5:image-to-video"
 pin = "pinned"
@@ -453,6 +449,10 @@ pin = "pinned"
 
 ["ideogram-v4-5-edit"]
 model = "ideogram/ideogram-v4.5:edit"
+pin = "pinned"
+
+["inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
 pin = "pinned"
 
 ["kimi-k2-6"]

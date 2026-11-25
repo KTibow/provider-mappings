@@ -6,14 +6,6 @@
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["deepseek-v3.2"]
-model = "deepseek/deepseek-v3.2"
-pin = "pinned"
-
-["deepseek-v4-flash"]
-model = "deepseek/deepseek-v4-flash"
-pin = "pinned"
-
 ["deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -98,8 +90,8 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
-["qwen3.8-max-preview"]
-model = "alibaba/qwen3.8-max-preview"
+["qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["wan2.7-image"]

@@ -383,6 +383,11 @@ model = "deepseek/deepseek-v3.2"
 pin = "pinned"
 quant = "fp16"
 
+["deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+quant = "fp16"
+
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
@@ -455,6 +460,11 @@ quant = "fp16"
 
 ["gemini-3.7-flash"]
 model = "google/gemini-3.7-flash"
+pin = "pinned"
+quant = "fp16"
+
+["gemini-3.8-flash"]
+model = "google/gemini-3.8-flash"
 pin = "pinned"
 quant = "fp16"
 
@@ -688,6 +698,11 @@ model = "moonshotai/kimi-k3"
 pin = "pinned"
 quant = "fp16"
 
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+quant = "fp16"
+
 ["llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
@@ -816,11 +831,6 @@ quant = "fp16"
 ["palmyra-vision-7b"]
 model = "writer/palmyra-vision-7b"
 pin = "pinned"
-quant = "fp16"
-
-["qwen-3-8-max"]
-model = "~qwen/qwen3.8-max-latest"
-pin = "floating"
 quant = "fp16"
 
 ["qwen-edit-uncensored"]
@@ -1157,3 +1167,8 @@ quant = "fp16"
 model = "openai/whisper-1"
 pin = "pinned"
 quant = "na"
+
+["xiaomi-mimo-v2-5"]
+model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"

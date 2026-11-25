@@ -206,6 +206,10 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["openai/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
 ["openai/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
 pin = "pinned"

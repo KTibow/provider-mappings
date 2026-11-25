@@ -522,6 +522,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["deepinfra/thinkingmachines/Inkling-2-Mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["deepinfra/thinkingmachines/Inkling-2-Small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
@@ -1488,6 +1492,10 @@ pin = "pinned"
 
 ["zai/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["zai/glm-5.3-flashx-legal"]
+model = "z-ai/glm-5.3-flashx-legal"
 pin = "pinned"
 
 ["zai/glm-5v-turbo"]

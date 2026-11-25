@@ -1264,6 +1264,7 @@
   "permaslug": "deepseek/deepseek-v4.1-flash-20261017"
  },
  "dots-studio/dots-3-note-preview": {
+  "delisted": "2026-11-25",
   "formerly": [
    "dots-studio/dots-3-note-preview:free"
   ],
@@ -2430,6 +2431,7 @@
   "permaslug": "kt/midm-k-3.0-pro"
  },
  "kwaivgi/kling-v3.0-pro": {
+  "delisted": "2026-11-25",
   "input": [
    "image",
    "text"
@@ -2441,6 +2443,7 @@
   "permaslug": "kwaivgi/kling-v3.0-pro-20260429"
  },
  "kwaivgi/kling-v3.0-std": {
+  "delisted": "2026-11-25",
   "input": [
    "image",
    "text"
@@ -2452,6 +2455,7 @@
   "permaslug": "kwaivgi/kling-v3.0-std-20260429"
  },
  "kwaivgi/kling-video-o1": {
+  "delisted": "2026-11-25",
   "input": [
    "image",
    "text"
@@ -3235,6 +3239,7 @@
   "permaslug": "mistralai/mistral-large-4-0-20261006"
  },
  "mistralai/mistral-medium-3": {
+  "delisted": "2026-11-25",
   "input": [
    "file",
    "image",
@@ -3260,6 +3265,7 @@
   "permaslug": "mistralai/mistral-medium-3.5-20260430"
  },
  "mistralai/mistral-medium-3.1": {
+  "delisted": "2026-11-25",
   "input": [
    "file",
    "image",
@@ -6765,6 +6771,16 @@
   ],
   "permaslug": "upstage/solar-decide-flash-20261008"
  },
+ "upstage/solar-mini-4-5": {
+  "input": [
+   "text"
+  ],
+  "name": "Upstage: Solar Mini 4.5 (Preview)",
+  "output": [
+   "text"
+  ],
+  "permaslug": "upstage/solar-mini-4-5-20261125"
+ },
  "upstage/solar-mini4": {
   "input": [
    "text"
@@ -6774,6 +6790,16 @@
    "text"
   ],
   "permaslug": "upstage/solar-mini4-20260922"
+ },
+ "upstage/solar-pro-4-contributor": {
+  "input": [
+   "text"
+  ],
+  "name": "Upstage: Solar Pro 4 Contributor",
+  "output": [
+   "text"
+  ],
+  "permaslug": "upstage/solar-pro-4-contributor-20261125"
  },
  "upstage/solar-pro4": {
   "input": [
@@ -6956,6 +6982,7 @@
   "permaslug": "x-ai/grok-voice-tts-1.0"
  },
  "xiaomi/mimo-v2.5": {
+  "delisted": "2026-11-25",
   "hf": "XiaomiMiMo/MiMo-V2.5",
   "input": [
    "audio",
@@ -6994,6 +7021,20 @@
    "text"
   ],
   "permaslug": "xiaomi/mimo-v2.6-flash-20260921"
+ },
+ "xiaomi/mimo-v2.6-flash-mopd": {
+  "hf": "XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
+  "input": [
+   "audio",
+   "image",
+   "text",
+   "video"
+  ],
+  "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+  "output": [
+   "text"
+  ],
+  "permaslug": "xiaomi/mimo-v2.6-flash-mopd-20260927"
  },
  "xiaomi/mimo-v2.6-pro": {
   "hf": "XiaomiMiMo/MiMo-V2.6-Pro-RL",

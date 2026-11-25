@@ -2,40 +2,12 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["LiquidAI/LFM2-24B-A2B"]
-model = "liquid/lfm2-24b-a2b"
-pin = "pinned"
-
-["MiniMaxAI/MiniMax-M2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["MiniMaxAI/MiniMax-M2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["MiniMaxAI/MiniMax-M3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-
 ["MiniMaxAI/MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["Qwen/Qwen3-235B-A22B-Instruct-2507-tput"]
-model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
-["Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"]
-model = "qwen/qwen3-coder"
-pin = "pinned"
-
-["Qwen/Qwen3-Coder-Next-FP8"]
-model = "qwen/qwen3-coder-next"
-pin = "pinned"
-
-["Qwen/Qwen3.5-397B-A17B"]
-model = "qwen/qwen3.5-397b-a17b"
+["Prism-ML/Ternary-Bonsai-27B"]
+model = "prism-ml/ternary-bonsai-27b"
 pin = "pinned"
 
 ["Qwen/Qwen3.5-9B"]
@@ -50,24 +22,16 @@ pin = "pinned"
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 
+["Qwen/Qwen3.7-Plus"]
+model = "qwen/qwen3.7-plus"
+pin = "pinned"
+
+["Qwen/Qwen3.8-Flash"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
 ["Qwen/Qwen4-Max"]
 model = "qwen/qwen4-max"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-R1"]
-model = "deepseek/deepseek-r1"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-V3"]
-model = "deepseek/deepseek-chat"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-V3-1"]
-model = "deepseek/deepseek-chat-v3.1"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-V4-Flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V4-Pro-0813"]
@@ -82,8 +46,8 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["essentialai/Rnj-1-Instruct"]
-model = "essentialai/rnj-1-instruct"
+["elorian-labs/glimpse-1.0"]
+model = "elorian/glimpse"
 pin = "pinned"
 
 ["meta-models/Muse-Glimmer-30B"]
@@ -106,10 +70,6 @@ pin = "pinned"
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 
-["nvidia/nemotron-3-ultra-550b-a55b"]
-model = "nvidia/nemotron-3-ultra-550b-a55b"
-pin = "pinned"
-
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -128,14 +88,6 @@ pin = "pinned"
 
 ["thinkingmachines/Inkling-2-Small"]
 model = "thinkingmachines/inkling-2-small"
-pin = "pinned"
-
-["zai-org/GLM-5"]
-model = "z-ai/glm-5"
-pin = "pinned"
-
-["zai-org/GLM-5.1"]
-model = "z-ai/glm-5.1"
 pin = "pinned"
 
 ["zai-org/GLM-5.2"]

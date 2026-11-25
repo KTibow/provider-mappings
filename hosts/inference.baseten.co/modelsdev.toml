@@ -18,6 +18,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["meta-models/muse-spark-open"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
 ["moonshotai/Kimi-K3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -30,8 +34,16 @@ pin = "pinned"
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
+["nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
+pin = "pinned"
+
+["reflection/Beam-1.0"]
+model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
 ["zai-org/GLM-5.2"]

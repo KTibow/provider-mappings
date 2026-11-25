@@ -423,6 +423,10 @@ pin = "pinned"
 model = "~typesafe/jev-latest"
 pin = "floating"
 
+["kimi-k2-7-code"]
+model = "moonshotai/kimi-k2.7-code"
+pin = "pinned"
+
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -641,6 +645,10 @@ pin = "pinned"
 
 ["minimax-h3-text-to-video"]
 model = "minimax/hailuo-3"
+pin = "pinned"
+
+["minimax-m25"]
+model = "minimax/minimax-m2.5"
 pin = "pinned"
 
 ["minimax-m27"]
@@ -1265,4 +1273,12 @@ pin = "pinned"
 
 ["z-image-turbo"]
 model = "alibaba/z-image-turbo"
+pin = "pinned"
+
+["zai-org-glm-5"]
+model = "z-ai/glm-5"
+pin = "pinned"
+
+["zai-org-glm-5-1"]
+model = "z-ai/glm-5.1"
 pin = "pinned"

@@ -50,7 +50,15 @@ pin = "pinned"
 model = "cohere/north-mini-code"
 pin = "pinned"
 
+["north-mini-code-1.0"]
+model = "cohere/north-mini-code"
+pin = "pinned"
+
 ["north-small-translate-09-2026"]
+model = "cohere/north-small-translate-1-0"
+pin = "pinned"
+
+["north-small-translate-1.0"]
 model = "cohere/north-small-translate-1-0"
 pin = "pinned"
 

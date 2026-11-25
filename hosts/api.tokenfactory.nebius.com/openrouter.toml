@@ -37,11 +37,6 @@ model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 quant = "fp8"
 
-["deepseek-ai/DeepSeek-V4.1-Flash"]
-model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-quant = "fp8"
-
 ["google/gemma-3-27b-it"]
 model = "google/gemma-3-27b-it"
 pin = "pinned"

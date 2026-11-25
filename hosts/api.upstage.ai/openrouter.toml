@@ -10,8 +10,16 @@ pin = "pinned"
 model = "upstage/solar-decide-flash"
 pin = "pinned"
 
+["solar-mini-4-5-preview"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
 ["solar-mini4"]
 model = "upstage/solar-mini4"
+pin = "pinned"
+
+["solar-pro-4-contributor"]
+model = "upstage/solar-pro-4-contributor"
 pin = "pinned"
 
 ["solar-pro4"]

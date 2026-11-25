@@ -25,6 +25,7 @@
       "deepseek/deepseek-v4.1-flash-1017-fast",
       "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "deepseek/deepseek-v4.1-flash-fast",
+      "google/gemini-4-neon-fast",
       "humansand/ampersand-v0.1",
       "inclusionai/ling-3.1-flash-1019",
       "interfaze/interfaze-beta",
@@ -109,6 +110,7 @@
       "deepseek/deepseek-v4.1-flash-1017-fast",
       "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "deepseek/deepseek-v4.1-flash-fast",
+      "google/gemini-4-neon-fast",
       "humansand/ampersand-v0.1",
       "inclusionai/ling-3.1-flash-1019",
       "interfaze/interfaze-beta",
@@ -309,7 +311,11 @@
     ],
     "api.deepinfra.com": [
       "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
-      "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+      "google/gemma-4-31B-it-Ultra",
+      "google/gemma-4-31B-it-turbo",
+      "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "openai/gpt-oss-120b-Ultra"
     ],
     "api.edenai.run": [
       "google/gemini-pro-latest",
@@ -343,6 +349,7 @@
       "fastino/gliner2.5-multi-v1"
     ],
     "api.fireworks.ai": [
+      "accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
       "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
       "accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
       "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
@@ -350,7 +357,6 @@
       "accounts/fireworks/routers/glm-5p3-spot",
       "accounts/fireworks/routers/glm-fast-latest",
       "accounts/fireworks/routers/kimi-fast-latest",
-      "accounts/fireworks/routers/kimi-k3-spot",
       "accounts/fireworks/routers/minimax-latest"
     ],
     "api.greenpt.ai": [
@@ -412,10 +418,6 @@
       "deepseek-ai/DeepSeek-V4.1-Flash-ultra"
     ],
     "api.lkeap.cloud.tencent.com": [
-      "hunyuan-2.0-instruct",
-      "hunyuan-2.0-thinking",
-      "hunyuan-t1",
-      "hunyuan-turbos",
       "tc-code-latest"
     ],
     "api.llmgateway.io": [
@@ -677,7 +679,6 @@
       "standardcompute"
     ],
     "api.stepfun.ai": [
-      "step-tts-2",
       "stepaudio-2.5-asr",
       "stepaudio-2.5-tts"
     ],
@@ -710,8 +711,7 @@
       "text-standard"
     ],
     "api.together.xyz": [
-      "Qwen/Qwen2.5-7B-Instruct-Turbo",
-      "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017-fast"
     ],
     "api.tokenfactory.nebius.com": [
       "deepseek-ai/DeepSeek-V4.1-Flash-1017-fast"
@@ -776,44 +776,23 @@
       "deepseek-v4-1-flash-economy-261017"
     ],
     "ark.cn-beijing.volces.com": [
+      "deepseek-v4-1-flash-economy-261017",
       "deepseek-v4.1-flash-economy"
     ],
     "cloud-api.near.ai": [
       "Qwen/Qwen3.8-27B-abliterated",
       "deepseek-ai/DeepSeek-V4.1-Flash-1017-abliterated"
     ],
-    "coding-intl.dashscope.aliyuncs.com": [
-      "qwen3-coder-plus",
-      "qwen3-max-2026-01-23"
-    ],
-    "coding.dashscope.aliyuncs.com": [
-      "qwen3-coder-plus",
-      "qwen3-max-2026-01-23"
-    ],
     "dashscope-intl.aliyuncs.com": [
-      "qvq-max",
       "qwen-flash",
       "qwen-max",
       "qwen-mt-plus",
-      "qwen-mt-turbo",
-      "qwen-omni-turbo",
       "qwen-plus-character-ja",
-      "qwen-turbo",
-      "qwen-vl-max",
       "qwen-vl-ocr",
-      "qwen-vl-plus",
-      "qwen2-5-omni-7b",
-      "qwen3-235b-a22b",
-      "qwen3-8b",
       "qwen3-asr-flash",
-      "qwen3-coder-plus",
-      "qwen3-max",
-      "qwen3-next-80b-a3b-thinking",
       "qwen3-omni-flash",
       "qwen3-vl-30b-a3b",
-      "qwen3-vl-plus",
-      "qwen3.6-max-preview",
-      "qwq-plus"
+      "qwen3-vl-plus"
     ],
     "dashscope.aliyuncs.com": [
       "deepseek-r1-distill-llama-70b",
@@ -823,34 +802,19 @@
       "deepseek-r1-distill-qwen-32b",
       "deepseek-r1-distill-qwen-7b",
       "moonshot-kimi-k2-instruct",
-      "qvq-max",
       "qwen-deep-research",
       "qwen-doc-turbo",
       "qwen-flash",
       "qwen-long",
-      "qwen-math-plus",
       "qwen-math-turbo",
       "qwen-max",
       "qwen-mt-plus",
-      "qwen-mt-turbo",
-      "qwen-omni-turbo",
       "qwen-plus-character",
-      "qwen-turbo",
-      "qwen-vl-max",
       "qwen-vl-ocr",
-      "qwen-vl-plus",
-      "qwen2-5-omni-7b",
-      "qwen3-235b-a22b",
-      "qwen3-8b",
       "qwen3-asr-flash",
-      "qwen3-coder-plus",
-      "qwen3-max",
-      "qwen3-next-80b-a3b-thinking",
       "qwen3-omni-flash",
       "qwen3-vl-30b-a3b",
       "qwen3-vl-plus",
-      "qwen3.6-max-preview",
-      "qwq-plus",
       "tongyi-intent-detect-v3"
     ],
     "echo.tracerml.ai": [

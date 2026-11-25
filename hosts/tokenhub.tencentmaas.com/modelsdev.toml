@@ -2,6 +2,22 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
+["deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["deepseek/deepseek-flash"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
@@ -34,28 +50,52 @@ pin = "pinned"
 model = "tencent/hy3"
 pin = "pinned"
 
-["hy3-preview"]
-model = "tencent/hy3-preview"
+["hy3-202608"]
+model = "tencent/hy3"
 pin = "pinned"
 
 ["hy4"]
 model = "tencent/hy4"
 pin = "pinned"
 
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["hy4-preview"]
 model = "tencent/hy4-preview"
+pin = "pinned"
+
+["kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["kimi-k2.7-code"]
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
+["kimi-k2.7-code-highspeed"]
+model = "moonshotai/kimi-k2.7-code-highspeed"
+pin = "pinned"
+
+["kimi-k2.8-preview"]
+model = "moonshotai/kimi-k2.8-preview"
+pin = "pinned"
+
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["minimax-m-3-0"]
@@ -64,4 +104,12 @@ pin = "pinned"
 
 ["minimax-m3"]
 model = "minimax/minimax-m3"
+pin = "pinned"
+
+["minimax-m3.1-flash"]
+model = "minimax/minimax-m3.1-flash"
+pin = "pinned"
+
+["step-5-preview"]
+model = "stepfun/step-5-preview"
 pin = "pinned"

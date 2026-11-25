@@ -107,8 +107,16 @@ pin = "pinned"
 model = "apodex/apodex-1.1-mini"
 pin = "pinned"
 
+["baseten/bison-1"]
+model = "baseten/bison-1"
+pin = "pinned"
+
 ["baseten/elephant-1"]
 model = "baseten/elephant-1"
+pin = "pinned"
+
+["baseten/groundhog-1"]
+model = "baseten/groundhog-1"
 pin = "pinned"
 
 ["baseten/joey-1"]
@@ -620,6 +628,14 @@ pin = "pinned"
 
 ["perplexity/pplx-embed-v1-4b"]
 model = "perplexity/pplx-embed-v1-4b"
+pin = "pinned"
+
+["perplexity/pplx-embed-v2-context-0.6b"]
+model = "perplexity/pplx-embed-v2-context-0.6b"
+pin = "pinned"
+
+["perplexity/pplx-embed-v2-context-9b"]
+model = "perplexity/pplx-embed-v2-context-9b"
 pin = "pinned"
 
 ["perplexity/sonar"]

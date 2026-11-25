@@ -37,10 +37,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
-["tencent/Hy4"]
-model = "tencent/hy4"
-pin = "pinned"
-
 ["zai-org/GLM-5.2-TEE"]
 model = "z-ai/glm-5.2"
 pin = "pinned"

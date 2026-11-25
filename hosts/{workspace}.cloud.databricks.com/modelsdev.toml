@@ -2,8 +2,20 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["databricks-claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["databricks-claude-fable-5-1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
 ["databricks-claude-haiku-4-5"]
 model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["databricks-claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
 ["databricks-claude-opus-4-1"]
@@ -22,8 +34,16 @@ pin = "pinned"
 model = "anthropic/claude-opus-4.7"
 pin = "pinned"
 
-["databricks-claude-sonnet-4"]
-model = "anthropic/claude-sonnet-4-20250514"
+["databricks-claude-opus-4-8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["databricks-claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["databricks-claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
 pin = "pinned"
 
 ["databricks-claude-sonnet-4-5"]
@@ -34,16 +54,20 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-4.6"
 pin = "pinned"
 
-["databricks-gemini-2-5-flash"]
-model = "google/gemini-2.5-flash"
+["databricks-claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
 pin = "pinned"
 
-["databricks-gemini-2-5-pro"]
-model = "google/gemini-2.5-pro"
+["databricks-claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
+["databricks-deepseek-v4-1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["databricks-gemini-3-1-flash-lite"]
-model = "google/gemini-3.1-flash-lite-preview"
+model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
 ["databricks-gemini-3-1-pro"]
@@ -54,16 +78,40 @@ pin = "pinned"
 model = "google/gemini-3.5-flash"
 pin = "pinned"
 
+["databricks-gemini-3-5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
+pin = "pinned"
+
+["databricks-gemini-3-7-flash"]
+model = "google/gemini-3.7-flash"
+pin = "pinned"
+
+["databricks-gemini-3-8-flash"]
+model = "google/gemini-3.8-flash"
+pin = "pinned"
+
 ["databricks-gemini-3-flash"]
 model = "google/gemini-3-flash-preview"
 pin = "pinned"
 
-["databricks-gemini-3-pro"]
-model = "google/gemini-3-pro-preview"
+["databricks-gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["databricks-gemma-3-12b"]
+model = "google/gemma-3-12b-it"
 pin = "pinned"
 
 ["databricks-glm-5-2"]
 model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["databricks-glm-5-3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["databricks-glm-5-3-flash"]
+model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
 ["databricks-gpt-5"]
@@ -76,6 +124,10 @@ pin = "pinned"
 
 ["databricks-gpt-5-2"]
 model = "openai/gpt-5.2"
+pin = "pinned"
+
+["databricks-gpt-5-3-codex"]
+model = "openai/gpt-5.3-codex"
 pin = "pinned"
 
 ["databricks-gpt-5-4"]
@@ -92,6 +144,10 @@ pin = "pinned"
 
 ["databricks-gpt-5-5"]
 model = "openai/gpt-5.5"
+pin = "pinned"
+
+["databricks-gpt-5-5-pro"]
+model = "openai/gpt-5.5-pro"
 pin = "pinned"
 
 ["databricks-gpt-5-6-luna"]
@@ -114,6 +170,26 @@ pin = "pinned"
 model = "openai/gpt-5-nano"
 pin = "pinned"
 
+["databricks-gpt-6-1-sol"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["databricks-gpt-6-1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["databricks-gpt-6-astra"]
+model = "openai/gpt-6-astra"
+pin = "pinned"
+
+["databricks-gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["databricks-gpt-6-sol"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
 ["databricks-gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
@@ -122,6 +198,50 @@ pin = "pinned"
 model = "openai/gpt-oss-20b"
 pin = "pinned"
 
-["databricks-kimi-k2-7-code"]
-model = "moonshotai/kimi-k2.7-code"
+["databricks-grok-4-6"]
+model = "x-ai/grok-4.6"
+pin = "pinned"
+
+["databricks-grok-4-7"]
+model = "x-ai/grok-4.7"
+pin = "pinned"
+
+["databricks-kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["databricks-kimi-k3-1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["databricks-llama-4-maverick"]
+model = "meta/llama-4-maverick-17b-instruct"
+pin = "pinned"
+
+["databricks-meta-llama-3-1-8b-instruct"]
+model = "meta-llama/llama-3.1-8b-instruct"
+pin = "pinned"
+
+["databricks-meta-llama-3-3-70b-instruct"]
+model = "meta-llama/llama-3.3-70b-instruct"
+pin = "pinned"
+
+["system.ai.claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["system.ai.gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["system.ai.gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["system.ai.gpt-6-2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["system.ai.gpt-6-2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"

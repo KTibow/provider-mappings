@@ -53,15 +53,6 @@ model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 quant = "int4"
 
-["kimi-k2-7-code"]
-model = "moonshotai/kimi-k2.7-code"
-pin = "pinned"
-quant = "int4"
-
-["minimax-m25"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
 ["minimax-m3-preview"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -147,16 +138,6 @@ model = "z-ai/glm-4.7"
 pin = "pinned"
 quant = "fp4"
 
-["zai-org-glm-5"]
-model = "z-ai/glm-5"
-pin = "pinned"
-quant = "fp8"
-
-["zai-org-glm-5-1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-quant = "fp8"
-
 ["zai-org-glm-5-2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
@@ -183,8 +164,3 @@ quant = "fp8"
 # model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
 # pin = "pinned"
 # quant = "fp16"
-
-# needs review: native id has "turbo", which z-ai/glm-5 lacks: a tier or variant, not the model itself
-# ["z-ai-glm-5-turbo"]
-# model = "z-ai/glm-5"
-# pin = "pinned"

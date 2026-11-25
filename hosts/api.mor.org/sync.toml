@@ -11,10 +11,6 @@ pin = "pinned"
 model = "aion-labs/aion-3.0-mini"
 pin = "pinned"
 
-["Aion 3.5"]
-model = "aion-labs/aion-3.5"
-pin = "pinned"
-
 ["Aion 3.5 Mini"]
 model = "aion-labs/aion-3.5-mini"
 pin = "pinned"
@@ -569,10 +565,6 @@ pin = "pinned"
 
 ["meta/llama-3.1-8b-instruct"]
 model = "meta-llama/llama-3.1-8b-instruct"
-pin = "pinned"
-
-["mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
 ["mistral-31-24b"]

@@ -11,14 +11,6 @@ pin = "pinned"
 model = "google/gemma-3-4b-it"
 pin = "pinned"
 
-["google/gemma-4-31b-it"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-
-["meta/muse-glimmer-30b"]
-model = "meta/muse-glimmer-30b"
-pin = "pinned"
-
 ["minimaxai/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"

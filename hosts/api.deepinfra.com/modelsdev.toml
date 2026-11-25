@@ -14,14 +14,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-pro"
 pin = "pinned"
 
-["MiniMaxAI/MiniMax-M2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["MiniMaxAI/MiniMax-M2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
 ["MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -38,10 +30,6 @@ pin = "pinned"
 model = "qwen/qwen3-32b"
 pin = "pinned"
 
-["Qwen/Qwen3-Max"]
-model = "alibaba/qwen3-max"
-pin = "pinned"
-
 ["Qwen/Qwen3-Next-80B-A3B-Instruct"]
 model = "qwen/qwen3-next-80b-a3b-instruct"
 pin = "pinned"
@@ -52,10 +40,6 @@ pin = "pinned"
 
 ["Qwen/Qwen3-VL-30B-A3B-Instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
-pin = "pinned"
-
-["Qwen/Qwen3.5-122B-A10B"]
-model = "qwen/qwen3.5-122b-a10b"
 pin = "pinned"
 
 ["Qwen/Qwen3.5-27B"]
@@ -86,10 +70,6 @@ pin = "pinned"
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 
-["Qwen/Qwen3.8-2.4T-A95B"]
-model = "qwen/qwen3.8-2.4t-a95b"
-pin = "pinned"
-
 ["Qwen/Qwen3.8-27B"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
@@ -104,14 +84,6 @@ pin = "floating"
 
 ["Qwen/Qwen4-Max"]
 model = "qwen/qwen4-max"
-pin = "pinned"
-
-["XiaomiMiMo/MiMo-V2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
-["XiaomiMiMo/MiMo-V2.5-Pro"]
-model = "xiaomi/mimo-v2.5-pro"
 pin = "pinned"
 
 ["XiaomiMiMo/MiMo-V2.6-Flash"]
@@ -132,10 +104,6 @@ pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V3"]
 model = "deepseek/deepseek-chat"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-V3-0324"]
-model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V3.1"]
@@ -194,14 +162,6 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["google/gemma-4-E4B-it"]
-model = "google/gemma-4-E4B-it"
-pin = "pinned"
-
-["meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"]
-model = "meta/llama-4-maverick-17b-instruct"
-pin = "pinned"
-
 ["meta-llama/Llama-4-Scout-17B-16E-Instruct"]
 model = "meta/llama-4-scout-17b-instruct"
 pin = "pinned"
@@ -210,20 +170,20 @@ pin = "pinned"
 model = "meta-llama/llama-guard-4-12b"
 pin = "pinned"
 
+["mistralai/Mistral-Nemo-Instruct-2407"]
+model = "mistralai/mistral-nemo"
+pin = "pinned"
+
 ["mistralai/Mistral-Small-24B-Instruct-2501"]
 model = "mistralai/mistral-small-24b-instruct-2501"
 pin = "pinned"
 
-["moonshotai/Kimi-K2.5"]
-model = "moonshotai/kimi-k2.5"
+["mistralai/Mistral-Small-3.2-24B-Instruct-2506"]
+model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
 
 ["moonshotai/Kimi-K2.6"]
 model = "moonshotai/kimi-k2.6"
-pin = "pinned"
-
-["moonshotai/Kimi-K2.7-Code"]
-model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["moonshotai/Kimi-K3"]
@@ -234,36 +194,12 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["nvidia/Llama-3.3-Nemotron-Super-49B-v1.5"]
-model = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
-pin = "pinned"
-
-["nvidia/Nemotron-3-Nano-30B-A3B"]
-model = "nvidia/nemotron-3-nano-30b-a3b"
-pin = "pinned"
-
-["nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"]
-model = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
-pin = "pinned"
-
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["openai/gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
-pin = "pinned"
-
-["stepfun-ai/Step-3.7-Flash"]
-model = "stepfun/step-3.7-flash"
-pin = "pinned"
-
-["stepfun-ai/Step-5-Preview"]
-model = "stepfun/step-5-preview"
-pin = "pinned"
-
-["tencent/Hy3"]
-model = "tencent/hy3"
 pin = "pinned"
 
 ["tencent/Hy4"]
@@ -276,10 +212,6 @@ pin = "pinned"
 
 ["tencent/Hy4-preview"]
 model = "tencent/hy4-preview"
-pin = "pinned"
-
-["thinkingmachines/Inkling"]
-model = "thinkingmachines/inkling"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-2-Mini"]
@@ -300,18 +232,6 @@ pin = "pinned"
 
 ["zai-org/GLM-4.7"]
 model = "z-ai/glm-4.7"
-pin = "pinned"
-
-["zai-org/GLM-4.7-Flash"]
-model = "z-ai/glm-4.7-flash"
-pin = "pinned"
-
-["zai-org/GLM-5"]
-model = "z-ai/glm-5"
-pin = "pinned"
-
-["zai-org/GLM-5.1"]
-model = "z-ai/glm-5.1"
 pin = "pinned"
 
 ["zai-org/GLM-5.2"]

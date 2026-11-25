@@ -2,6 +2,10 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
+["step-1o-turbo-vision"]
+model = "stepfun/step-1o-turbo-vision"
+pin = "pinned"
+
 ["step-3.5-flash"]
 model = "stepfun/step-3.5-flash"
 pin = "pinned"
@@ -16,4 +20,8 @@ pin = "pinned"
 
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["stepaudio-2.5-chat"]
+model = "stepfun/stepaudio-2.5-chat"
 pin = "pinned"

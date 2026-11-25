@@ -22,16 +22,8 @@ pin = "pinned"
 model = "anthropic/claude-haiku-5.5"
 pin = "pinned"
 
-["claude-opus-4.7"]
-model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
 ["claude-opus-4.8"]
 model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["claude-opus-5"]
-model = "anthropic/claude-opus-5"
 pin = "pinned"
 
 ["claude-opus-5.5"]
@@ -48,18 +40,6 @@ pin = "pinned"
 
 ["claude-sonnet-5.5"]
 model = "anthropic/claude-sonnet-5.5"
-pin = "pinned"
-
-["gemini-3.5-flash"]
-model = "google/gemini-3.5-flash"
-pin = "pinned"
-
-["gemini-3.6-flash"]
-model = "google/gemini-3.6-flash"
-pin = "pinned"
-
-["gemini-3.7-flash"]
-model = "google/gemini-3.7-flash"
 pin = "pinned"
 
 ["gemini-3.8-flash"]
@@ -82,28 +62,12 @@ pin = "pinned"
 model = "google/gemini-4-neon"
 pin = "pinned"
 
-["gpt-5-mini"]
-model = "openai/gpt-5-mini"
-pin = "pinned"
-
 ["gpt-5.3-codex"]
 model = "openai/gpt-5.3-codex"
 pin = "pinned"
 
-["gpt-5.4"]
-model = "openai/gpt-5.4"
-pin = "pinned"
-
-["gpt-5.4-mini"]
-model = "openai/gpt-5.4-mini"
-pin = "pinned"
-
 ["gpt-5.4-nano"]
 model = "openai/gpt-5.4-nano"
-pin = "pinned"
-
-["gpt-5.5"]
-model = "openai/gpt-5.5"
 pin = "pinned"
 
 ["gpt-5.6-luna"]
@@ -112,10 +76,6 @@ pin = "pinned"
 
 ["gpt-5.6-sol"]
 model = "openai/gpt-5.6-sol"
-pin = "pinned"
-
-["gpt-5.6-terra"]
-model = "openai/gpt-5.6-terra"
 pin = "pinned"
 
 ["gpt-6-astra"]
@@ -156,10 +116,6 @@ pin = "pinned"
 
 ["grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["kimi-k2.7-code"]
-model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["kimi-k3"]

@@ -7,10 +7,29 @@ model = "minimax/minimax-m3"
 pin = "pinned"
 quant = "fp8"
 
+["Qwen/Qwen3.8-Flash-Next"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+quant = "fp8"
+
+["XiaomiMiMo/MiMo-V2.6-Flash-MOPD"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
+pin = "pinned"
+quant = "fp8"
+
+["XiaomiMiMo/MiMo-V2.6-Flash-RL"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+quant = "fp8"
+
 ["stepfun-ai/Step-5-Preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"
 quant = "fp4"
+
+["zai-org/GLM-5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
 
 ["zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"

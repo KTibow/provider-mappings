@@ -2,8 +2,12 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["MiniMaxAI/MiniMax-M1-80k"]
-model = "minimax/minimax-m1-80k"
+["CohereLabs/command-a-plus-05-2026-bf16"]
+model = "cohere/command-a-plus"
+pin = "pinned"
+
+["Gryphe/MythoMax-L2-13b"]
+model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
 ["MiniMaxAI/MiniMax-M2"]
@@ -30,12 +34,12 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["Qwen/Qwen2.5-Coder-32B-Instruct"]
-model = "qwen/qwen-2.5-coder-32b-instruct"
+["NousResearch/Hermes-3-Llama-3.1-70B"]
+model = "nousresearch/hermes-3-llama-3.1-70b"
 pin = "pinned"
 
-["Qwen/Qwen3-235B-A22B"]
-model = "alibaba/qwen3-235b-a22b"
+["Qwen/Qwen2.5-Coder-32B-Instruct"]
+model = "qwen/qwen-2.5-coder-32b-instruct"
 pin = "pinned"
 
 ["Qwen/Qwen3-235B-A22B-Instruct-2507"]
@@ -90,10 +94,6 @@ pin = "pinned"
 model = "qwen/qwen3-vl-235b-a22b-instruct"
 pin = "pinned"
 
-["Qwen/Qwen3-VL-235B-A22B-Thinking"]
-model = "alibaba/qwen3-vl-235b-a22b-thinking"
-pin = "pinned"
-
 ["Qwen/Qwen3-VL-30B-A3B-Instruct"]
 model = "qwen/qwen3-vl-30b-a3b-instruct"
 pin = "pinned"
@@ -134,12 +134,32 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
+["Qwen/Qwen3.8-Flash-Next-FP8"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
+["Undi95/ReMM-SLERP-L2-13B"]
+model = "undi95/remm-slerp-l2-13b"
+pin = "pinned"
+
 ["XiaomiMiMo/MiMo-V2.5"]
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"
 
 ["XiaomiMiMo/MiMo-V2.5-Pro"]
 model = "xiaomi/mimo-v2.5-pro"
+pin = "pinned"
+
+["aisingapore/Gemma-SEA-LION-v4-27B-IT"]
+model = "aisingapore/gemma-sea-lion-v4-27b-it"
+pin = "pinned"
+
+["alpindale/WizardLM-2-8x22B"]
+model = "microsoft/wizardlm-2-8x22b"
+pin = "pinned"
+
+["anthracite-org/magnum-v4-72b"]
+model = "anthracite-org/magnum-v4-72b"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-R1"]
@@ -194,6 +214,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["dphn/Dolphin-Mistral-24B-Venice-Edition"]
+model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+pin = "pinned"
+
 ["google/gemma-2-27b-it"]
 model = "google/gemma-2-27b-it"
 pin = "pinned"
@@ -218,6 +242,26 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
+["ibm-granite/granite-4.2-8b"]
+model = "ibm-granite/granite-4.2-8b"
+pin = "pinned"
+
+["inclusionAI/Ling-3.0-flash"]
+model = "inclusionai/ling-3.0-flash"
+pin = "pinned"
+
+["inclusionAI/Ling-3.0-flash-Fin"]
+model = "inclusionai/ling-3.0-flash-fin"
+pin = "pinned"
+
+["inclusionAI/Ling-3.0-flash-VL"]
+model = "inclusionai/ling-3.0-flash-vl"
+pin = "pinned"
+
+["inclusionAI/Ling-3.1-flash"]
+model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+
 ["meta-llama/Llama-3.1-70B-Instruct"]
 model = "meta-llama/llama-3.1-70b-instruct"
 pin = "pinned"
@@ -238,8 +282,28 @@ pin = "pinned"
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
+["meta-llama/Llama-4-Maverick-17B-128E-Instruct"]
+model = "meta/llama-4-maverick-17b-instruct"
+pin = "pinned"
+
+["meta-llama/Llama-4-Scout-17B-16E-Instruct"]
+model = "meta/llama-4-scout-17b-instruct"
+pin = "pinned"
+
 ["meta-llama/Llama-Guard-4-12B"]
 model = "meta-llama/llama-guard-4-12b"
+pin = "pinned"
+
+["meta-models/Muse-Glimmer-30B"]
+model = "meta/muse-glimmer-30b"
+pin = "pinned"
+
+["meta-models/Muse-Spark-Open-816B-A42B"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
+["mistralai/Mistral-Large-4-1T-A52B"]
+model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
 ["moonshotai/Kimi-K2-Instruct"]
@@ -274,12 +338,44 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"]
+model = "nvidia/nemotron-3-nano-30b-a3b"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"]
+model = "nvidia/nemotron-3-super-120b-a12b"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
 ["openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
 ["openai/gpt-oss-20b"]
 model = "openai/gpt-oss-20b"
+pin = "pinned"
+
+["openai/gpt-oss-safeguard-20b"]
+model = "openai/gpt-oss-safeguard-20b"
+pin = "pinned"
+
+["reflection/Beam-1.0-501B-A23B"]
+model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
 
 ["stepfun-ai/Step-3.5-Flash"]

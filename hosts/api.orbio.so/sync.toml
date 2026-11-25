@@ -803,18 +803,6 @@ pin = "pinned"
 model = "kt/midm-k-3.0-pro"
 pin = "pinned"
 
-["kwaivgi/kling-v3.0-pro"]
-model = "kwaivgi/kling-v3.0-pro"
-pin = "pinned"
-
-["kwaivgi/kling-v3.0-std"]
-model = "kwaivgi/kling-v3.0-std"
-pin = "pinned"
-
-["kwaivgi/kling-video-o1"]
-model = "kwaivgi/kling-video-o1"
-pin = "pinned"
-
 ["liquid/d1-ultra"]
 model = "liquid/d1-ultra"
 pin = "pinned"
@@ -1059,16 +1047,8 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistralai/mistral-medium-3"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
 ["mistralai/mistral-medium-3-5"]
 model = "mistralai/mistral-medium-3-5"
-pin = "pinned"
-
-["mistralai/mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
 pin = "pinned"
 
 ["mistralai/mistral-nemo"]
@@ -2215,8 +2195,16 @@ pin = "pinned"
 model = "upstage/solar-decide-flash"
 pin = "pinned"
 
+["upstage/solar-mini-4-5"]
+model = "upstage/solar-mini-4-5"
+pin = "pinned"
+
 ["upstage/solar-mini4"]
 model = "upstage/solar-mini4"
+pin = "pinned"
+
+["upstage/solar-pro-4-contributor"]
+model = "upstage/solar-pro-4-contributor"
 pin = "pinned"
 
 ["upstage/solar-pro4"]
@@ -2275,12 +2263,12 @@ pin = "pinned"
 model = "x-ai/grok-voice-tts-1.0"
 pin = "pinned"
 
-["xiaomi/mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro"]

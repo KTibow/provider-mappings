@@ -507,6 +507,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
+["thinkingmachines/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
 ["thinkingmachines/inkling-2-small"]
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
@@ -537,10 +541,6 @@ pin = "pinned"
 
 ["xai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["xai/grok-build-0.1"]
-model = "x-ai/grok-build-0.1"
 pin = "pinned"
 
 ["xai/grok-stt-1.0"]

@@ -220,11 +220,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
-["dots-studio/dots-3-note-preview:free"]
-model = "dots-studio/dots-3-note-preview"
-pin = "pinned"
-free = true
-
 ["elorian/glimpse"]
 model = "elorian/glimpse"
 pin = "pinned"
@@ -553,16 +548,8 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistralai/mistral-medium-3"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
 ["mistralai/mistral-medium-3-5"]
 model = "mistralai/mistral-medium-3-5"
-pin = "pinned"
-
-["mistralai/mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
 pin = "pinned"
 
 ["mistralai/mistral-nemo"]
@@ -1323,12 +1310,12 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["xiaomi/mimo-v2.5"]
-model = "xiaomi/mimo-v2.5"
-pin = "pinned"
-
 ["xiaomi/mimo-v2.6-flash"]
 model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["xiaomi/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["xiaomi/mimo-v2.6-pro"]

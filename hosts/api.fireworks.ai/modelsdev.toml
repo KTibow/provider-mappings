@@ -50,6 +50,10 @@ pin = "pinned"
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
 
+["accounts/fireworks/models/ultramarine-1-flash-us"]
+model = "paperinstruments/ultramarine-1-flash"
+pin = "pinned"
+
 ["accounts/fireworks/routers/deepseek-flash-latest"]
 model = "~deepseek/deepseek-flash-latest"
 pin = "floating"

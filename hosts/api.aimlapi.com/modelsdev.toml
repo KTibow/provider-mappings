@@ -330,10 +330,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k3"
 pin = "pinned"
 
-["moonshotai/kimi-k2-0905"]
-model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
 ["morph/morph-v3-fast"]
 model = "morph/morph-v3-fast"
 pin = "pinned"

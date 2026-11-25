@@ -105,3 +105,12 @@ pin = "pinned"
 ["zai-org/GLM-5.3-Flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
+
+# ---------------------------------------------------------------------------
+# Rows below need a person to check them, so they are commented out.
+# Once verified, copy the row (uncommented) into manual.toml.
+
+# needs review: native id has "fast", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
+# ["deepseek-ai/DeepSeek-V4.1-Flash-1017-fast"]
+# model = "deepseek/deepseek-v4.1-flash-1017"
+# pin = "pinned"

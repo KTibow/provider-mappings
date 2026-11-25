@@ -34,10 +34,6 @@ pin = "pinned"
 model = "alibaba/qwen3.5-9b-base"
 pin = "pinned"
 
-["Qwen/Qwen3.6-27B"]
-model = "qwen/qwen3.6-27b"
-pin = "pinned"
-
 ["Qwen/Qwen3.6-35B-A3B"]
 model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
@@ -52,10 +48,6 @@ pin = "pinned"
 
 ["Qwen/Qwen3.8-27B:peft:262144"]
 model = "qwen/qwen3.8-27b"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-V3.1"]
-model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V4.1-Flash-1017:peft:262144"]
@@ -74,8 +66,8 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
-["nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"]
-model = "nvidia/nemotron-3-nano-30b-a3b"
+["moonshotai/Kimi-K3.1-Pro:peft:262144"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"]
@@ -124,6 +116,22 @@ pin = "pinned"
 
 ["thinkingmachines/Inkling"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Mini:peft:262144"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small:peft:262144"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-Small"]
