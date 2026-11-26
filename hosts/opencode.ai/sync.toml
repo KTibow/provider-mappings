@@ -244,6 +244,10 @@ pin = "pinned"
 model = "openai/gpt-image-2.5-sunburst"
 pin = "pinned"
 
+["gpt-transcribe"]
+model = "openai/gpt-transcribe"
+pin = "pinned"
+
 ["grok-4.5"]
 model = "x-ai/grok-4.5"
 pin = "pinned"
@@ -270,6 +274,10 @@ pin = "pinned"
 
 ["grok-imagine-video-1.5-lite"]
 model = "x-ai/grok-imagine-video-1.5-lite"
+pin = "pinned"
+
+["grok-voice-transcribe-2.0"]
+model = "x-ai/grok-stt-2.0"
 pin = "pinned"
 
 ["hy4-flash-free"]

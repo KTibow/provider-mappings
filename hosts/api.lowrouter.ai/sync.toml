@@ -175,10 +175,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
 
-["auto/bytedance/seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
 ["auto/bytedance/seed-2.0-pro"]
 model = "bytedance-seed/seed-2.0-pro"
 pin = "pinned"
@@ -337,6 +333,10 @@ pin = "pinned"
 
 ["auto/inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
+pin = "pinned"
+
+["auto/inclusionai/lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
 pin = "pinned"
 
 ["auto/intfloat/e5-base-v2"]
@@ -1155,10 +1155,6 @@ pin = "pinned"
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
 
-["deepinfra/bytedance/seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
 ["deepinfra/bytedance/seed-2.0-pro"]
 model = "bytedance-seed/seed-2.0-pro"
 pin = "pinned"
@@ -1257,6 +1253,10 @@ pin = "pinned"
 
 ["deepinfra/inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
+pin = "pinned"
+
+["deepinfra/inclusionai/lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
 pin = "pinned"
 
 ["deepinfra/intfloat/e5-base-v2"]
@@ -1833,10 +1833,6 @@ pin = "pinned"
 
 ["nebius/openai/gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
-pin = "pinned"
-
-["nebius/qwen/qwen3-235b-a22b-instruct-2507"]
-model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
 ["nebius/qwen/qwen3-30b-a3b-instruct-2507"]

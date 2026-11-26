@@ -26,10 +26,6 @@ pin = "pinned"
 model = "openai/gpt-oss-120b"
 pin = "pinned"
 
-["inkling"]
-model = "thinkingmachines/inkling"
-pin = "pinned"
-
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

@@ -1027,6 +1027,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["moonshotai/kimi-k2"]
+model = "moonshotai/kimi-k2"
+pin = "pinned"
+
 ["moonshotai/kimi-k2.5"]
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"

@@ -195,6 +195,14 @@ pin = "pinned"
 model = "deepseek/deepseek-chat"
 pin = "pinned"
 
+["deepseek-pro-latest"]
+model = "~deepseek/deepseek-pro-latest"
+pin = "floating"
+
+["deepseek-r1"]
+model = "deepseek/deepseek-r1"
+pin = "pinned"
+
 ["deepseek-r1-0528"]
 model = "deepseek/deepseek-r1-0528"
 pin = "pinned"
@@ -319,6 +327,42 @@ pin = "pinned"
 model = "mistralai/devstral-2512"
 pin = "pinned"
 
+["eleven_flash_v2"]
+model = "elevenlabs/eleven-flash-v2"
+pin = "pinned"
+
+["eleven_flash_v2_5"]
+model = "elevenlabs/eleven-flash-v2.5"
+pin = "pinned"
+
+["eleven_multilingual_v2"]
+model = "elevenlabs/eleven-multilingual-v2"
+pin = "pinned"
+
+["eleven_turbo_v2"]
+model = "elevenlabs/eleven-turbo-v2"
+pin = "pinned"
+
+["eleven_turbo_v2_5"]
+model = "elevenlabs/eleven-turbo-v2.5"
+pin = "pinned"
+
+["eleven_v3"]
+model = "elevenlabs/eleven-v3"
+pin = "pinned"
+
+["eleven_v3_conversational"]
+model = "elevenlabs/eleven-v3-conversational"
+pin = "pinned"
+
+["eleven_v4"]
+model = "elevenlabs/eleven-v4"
+pin = "pinned"
+
+["eleven_v4_turbo"]
+model = "elevenlabs/eleven-v4-turbo"
+pin = "pinned"
+
 ["embed-5-fast"]
 model = "cohere/embed-5-fast"
 pin = "pinned"
@@ -355,6 +399,10 @@ pin = "pinned"
 model = "google/gemini-2.5-flash"
 pin = "pinned"
 
+["gemini-2.5-flash-image"]
+model = "google/gemini-2.5-flash-image"
+pin = "pinned"
+
 ["gemini-2.5-flash-lite"]
 model = "google/gemini-2.5-flash-lite"
 pin = "pinned"
@@ -367,16 +415,36 @@ pin = "pinned"
 model = "google/gemini-2.5-pro-preview"
 pin = "pinned"
 
+["gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+
 ["gemini-3-pro-image-preview"]
 model = "google/gemini-3-pro-image-preview"
+pin = "pinned"
+
+["gemini-3.1-flash-image-preview"]
+model = "google/gemini-3.1-flash-image-preview"
 pin = "pinned"
 
 ["gemini-3.1-flash-lite"]
 model = "google/gemini-3.1-flash-lite"
 pin = "pinned"
 
+["gemini-3.1-flash-lite-preview"]
+model = "google/gemini-3.1-flash-lite-preview"
+pin = "pinned"
+
 ["gemini-3.1-pro-preview"]
 model = "google/gemini-3.1-pro-preview"
+pin = "pinned"
+
+["gemini-3.1-pro-preview-customtools"]
+model = "google/gemini-3.1-pro-preview-customtools"
+pin = "pinned"
+
+["gemini-3.5-flash"]
+model = "google/gemini-3.5-flash"
 pin = "pinned"
 
 ["gemini-3.5-flash-lite"]
@@ -405,6 +473,10 @@ pin = "pinned"
 
 ["gemini-4-hydrogen"]
 model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["gemini-4-neon"]
+model = "google/gemini-4-neon"
 pin = "pinned"
 
 ["gemini-embedding-001"]
@@ -543,6 +615,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["glm-5.3-flashx"]
+model = "z-ai/glm-5.3-flashx"
+pin = "pinned"
+
 ["glm-5.3-flashx-legal"]
 model = "z-ai/glm-5.3-flashx-legal"
 pin = "pinned"
@@ -575,8 +651,20 @@ pin = "floating"
 model = "openai/gpt-4.1"
 pin = "pinned"
 
+["gpt-4.1-2025-04-14"]
+model = "openai/gpt-4.1"
+pin = "pinned"
+
 ["gpt-4.1-mini"]
 model = "openai/gpt-4.1-mini"
+pin = "pinned"
+
+["gpt-4.1-mini-2025-04-14"]
+model = "openai/gpt-4.1-mini"
+pin = "pinned"
+
+["gpt-4.1-nano"]
+model = "openai/gpt-4.1-nano"
 pin = "pinned"
 
 ["gpt-4o"]
@@ -591,6 +679,14 @@ pin = "pinned"
 model = "openai/gpt-4o-2024-11-20"
 pin = "pinned"
 
+["gpt-4o-mini"]
+model = "openai/gpt-4o-mini"
+pin = "pinned"
+
+["gpt-4o-mini-2024-07-18"]
+model = "openai/gpt-4o-mini-2024-07-18"
+pin = "pinned"
+
 ["gpt-5"]
 model = "openai/gpt-5"
 pin = "pinned"
@@ -603,7 +699,15 @@ pin = "pinned"
 model = "openai/gpt-5-mini"
 pin = "pinned"
 
+["gpt-5-mini-2025-08-07"]
+model = "openai/gpt-5-mini"
+pin = "pinned"
+
 ["gpt-5-nano"]
+model = "openai/gpt-5-nano"
+pin = "pinned"
+
+["gpt-5-nano-2025-08-07"]
 model = "openai/gpt-5-nano"
 pin = "pinned"
 
@@ -612,6 +716,10 @@ model = "openai/gpt-5-pro"
 pin = "pinned"
 
 ["gpt-5.1"]
+model = "openai/gpt-5.1"
+pin = "pinned"
+
+["gpt-5.1-2025-11-13"]
 model = "openai/gpt-5.1"
 pin = "pinned"
 
@@ -627,11 +735,23 @@ pin = "pinned"
 model = "openai/gpt-5.1-codex-mini"
 pin = "pinned"
 
+["gpt-5.2-2025-12-11"]
+model = "openai/gpt-5.2"
+pin = "pinned"
+
 ["gpt-5.2-codex"]
 model = "openai/gpt-5.2-codex"
 pin = "pinned"
 
+["gpt-5.2-pro-2025-12-11"]
+model = "openai/gpt-5.2-pro"
+pin = "pinned"
+
 ["gpt-5.4"]
+model = "openai/gpt-5.4"
+pin = "pinned"
+
+["gpt-5.4-2026-03-05"]
 model = "openai/gpt-5.4"
 pin = "pinned"
 
@@ -639,12 +759,32 @@ pin = "pinned"
 model = "openai/gpt-5.4-mini"
 pin = "pinned"
 
+["gpt-5.4-mini-2026-03-17"]
+model = "openai/gpt-5.4-mini"
+pin = "pinned"
+
 ["gpt-5.4-nano"]
 model = "openai/gpt-5.4-nano"
 pin = "pinned"
 
+["gpt-5.4-nano-2026-03-17"]
+model = "openai/gpt-5.4-nano"
+pin = "pinned"
+
+["gpt-5.4-pro-2026-03-05"]
+model = "openai/gpt-5.4-pro"
+pin = "pinned"
+
 ["gpt-5.5"]
 model = "openai/gpt-5.5"
+pin = "pinned"
+
+["gpt-5.5-2026-04-23"]
+model = "openai/gpt-5.5"
+pin = "pinned"
+
+["gpt-5.5-pro-2026-04-23"]
+model = "openai/gpt-5.5-pro"
 pin = "pinned"
 
 ["gpt-6-astra"]
@@ -707,12 +847,20 @@ pin = "pinned"
 model = "~openai/gpt-astra-latest"
 pin = "floating"
 
+["gpt-audio-2025-08-28"]
+model = "openai/gpt-audio"
+pin = "pinned"
+
 ["gpt-image-2"]
 model = "openai/gpt-image-2"
 pin = "pinned"
 
 ["gpt-luna-latest"]
 model = "~openai/gpt-luna-latest"
+pin = "floating"
+
+["gpt-mini-latest"]
+model = "~openai/gpt-mini-latest"
 pin = "floating"
 
 ["gpt-oss-120b"]
@@ -739,6 +887,26 @@ pin = "floating"
 model = "ibm-granite/granite-4.2-8b"
 pin = "pinned"
 
+["grok-4"]
+model = "x-ai/grok-4"
+pin = "pinned"
+
+["grok-4-fast"]
+model = "x-ai/grok-4-fast"
+pin = "pinned"
+
+["grok-4-fast-reasoning"]
+model = "x-ai/grok-4-fast"
+pin = "pinned"
+
+["grok-4.1-fast"]
+model = "x-ai/grok-4.1-fast"
+pin = "pinned"
+
+["grok-4.1-fast-reasoning"]
+model = "x-ai/grok-4.1-fast"
+pin = "pinned"
+
 ["grok-4.20"]
 model = "x-ai/grok-4.20"
 pin = "pinned"
@@ -753,6 +921,10 @@ pin = "pinned"
 
 ["grok-4.7"]
 model = "x-ai/grok-4.7"
+pin = "pinned"
+
+["grok-imagine-image"]
+model = "x-ai/grok-imagine-image"
 pin = "pinned"
 
 ["grok-imagine-image-2-0"]
@@ -813,6 +985,14 @@ pin = "pinned"
 
 ["inkling:thinking"]
 model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["kimi-k2-instruct"]
+model = "moonshotai/kimi-k2"
+pin = "pinned"
+
+["kimi-k2-instruct-0905"]
+model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["kimi-k2.5:thinking"]
@@ -967,10 +1147,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash-mopd"]
-model = "xiaomi/mimo-v2.6-flash-mopd"
-pin = "pinned"
-
 ["mimo-v2.6-flash-rl"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -1103,6 +1279,10 @@ pin = "pinned"
 model = "gryphe/mythomax-l2-13b"
 pin = "pinned"
 
+["nano-banana-2"]
+model = "google/gemini-3.1-flash-image-preview"
+pin = "pinned"
+
 ["nemotron-3-nano-30b-a3b"]
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
@@ -1141,6 +1321,10 @@ pin = "pinned"
 
 ["nemotron-3.5-super-vl"]
 model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+
+["nemotron-nano-9b-v2"]
+model = "nvidia/nemotron-nano-9b-v2"
 pin = "pinned"
 
 ["nex-n2.5-mini"]
@@ -1197,6 +1381,14 @@ pin = "pinned"
 
 ["o3"]
 model = "openai/o3"
+pin = "pinned"
+
+["o3-mini"]
+model = "openai/o3-mini"
+pin = "pinned"
+
+["open-mixtral-8x22b"]
+model = "mistralai/mixtral-8x22b-instruct"
 pin = "pinned"
 
 ["orcacyber-flash-1.0"]
@@ -1663,8 +1855,20 @@ pin = "pinned"
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
 pin = "pinned"
 
+["voxtral-mini-2602"]
+model = "mistralai/voxtral-mini-transcribe"
+pin = "pinned"
+
 ["voxtral-mini-transcribe-3.0"]
 model = "mistralai/voxtral-mini-transcribe-3-0"
+pin = "pinned"
+
+["voxtral-mini-tts-2603"]
+model = "mistralai/voxtral-mini-tts-2603"
+pin = "pinned"
+
+["voxtral-mini-tts-3.0"]
+model = "mistralai/voxtral-mini-tts-3-0"
 pin = "pinned"
 
 ["voxtral-small-transcribe-3.0"]

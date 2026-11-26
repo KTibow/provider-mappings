@@ -46,6 +46,10 @@ pin = "pinned"
 model = "qwen/qwen-2.5-coder-32b-instruct"
 pin = "pinned"
 
+["Qwen/Qwen2.5-VL-72B-Instruct"]
+model = "qwen/qwen2.5-vl-72b-instruct"
+pin = "pinned"
+
 ["Qwen/Qwen3-235B-A22B-Instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
@@ -146,6 +150,14 @@ pin = "pinned"
 model = "qwen/qwen3.8-flash"
 pin = "pinned"
 
+["RekaAI/reka-edge-2603"]
+model = "rekaai/reka-edge"
+pin = "pinned"
+
+["Sao10K/L3-8B-Lunaris-v1"]
+model = "sao10k/l3-lunaris-8b"
+pin = "pinned"
+
 ["Undi95/ReMM-SLERP-L2-13B"]
 model = "undi95/remm-slerp-l2-13b"
 pin = "pinned"
@@ -156,6 +168,14 @@ pin = "pinned"
 
 ["XiaomiMiMo/MiMo-V2.5-Pro"]
 model = "xiaomi/mimo-v2.5-pro"
+pin = "pinned"
+
+["XiaomiMiMo/MiMo-V2.6-Flash-RL"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["XiaomiMiMo/MiMo-V2.6-Pro-RL"]
+model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
 
 ["aisingapore/Gemma-SEA-LION-v4-27B-IT"]

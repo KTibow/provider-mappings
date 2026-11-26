@@ -219,6 +219,20 @@
   ],
   "permaslug": "amazon/titan-embed-text-v2-20261026"
  },
+ "antdigital/lingdt-decision-fast-1.0": {
+  "formerly": [
+   "antdigital/lingdt-decision-fast-1.0:free"
+  ],
+  "hf": "antdigital-ai/LingDT-Decision-Fast-1.0",
+  "input": [
+   "text"
+  ],
+  "name": "Ant Digital: LingDT Decision Fast 1.0",
+  "output": [
+   "decisions"
+  ],
+  "permaslug": "antdigital/lingdt-decision-fast-1.0-20261126"
+ },
  "anthracite-org/magnum-v4-72b": {
   "hf": "anthracite-org/magnum-v4-72b",
   "input": [
@@ -2320,6 +2334,18 @@
   ],
   "permaslug": "inclusionai/ling-3.2-flash-20261113"
  },
+ "inclusionai/lingsante-3.1-air-vl": {
+  "hf": "inclusionAI/LingSante-3.1-air-VL",
+  "input": [
+   "image",
+   "text"
+  ],
+  "name": "inclusionAI: LingSante 3.1 Air VL",
+  "output": [
+   "text"
+  ],
+  "permaslug": "inclusionai/lingsante-3.1-air-vl-20261126"
+ },
  "inference-net/schematron-v2-small": {
   "hf": "inference-net/schematron-v2-llama-3.2-3b",
   "input": [
@@ -3591,7 +3617,6 @@
   "permaslug": "moondream/parakeet-ultra-20261102"
  },
  "moonshotai/kimi-k2": {
-  "delisted": "2026-11-24",
   "hf": "moonshotai/Kimi-K2-Instruct",
   "input": [
    "text"
@@ -3603,7 +3628,6 @@
   "permaslug": "moonshotai/kimi-k2"
  },
  "moonshotai/kimi-k2-0905": {
-  "delisted": "2026-11-24",
   "hf": "moonshotai/Kimi-K2-Instruct-0905",
   "input": [
    "text"

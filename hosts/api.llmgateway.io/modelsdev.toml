@@ -306,6 +306,14 @@ pin = "pinned"
 model = "mistralai/pixtral-large-2502"
 pin = "pinned"
 
+["aws-mantle/gpt-5.4"]
+model = "openai/gpt-5.4"
+pin = "pinned"
+
+["aws-mantle/gpt-5.5"]
+model = "openai/gpt-5.5"
+pin = "pinned"
+
 ["aws-mantle/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
@@ -336,6 +344,22 @@ pin = "pinned"
 
 ["aws-mantle/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["aws-mantle/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["aws-mantle/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["aws-mantle/gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+
+["aws-mantle/gpt-oss-20b"]
+model = "openai/gpt-oss-20b"
 pin = "pinned"
 
 ["azure-anthropic/claude-fable-5"]

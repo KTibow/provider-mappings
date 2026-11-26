@@ -2,16 +2,8 @@
 # snapshot pinned in upstream.lock. Lowest precedence. Do not edit: put fixes
 # and additions in manual.toml next to it.
 
-["ByteDance/Seed-1.8"]
-model = "bytedance-seed/seed-1-8"
-pin = "pinned"
-
 ["ByteDance/Seed-2.0-code"]
 model = "bytedance-seed/seed-2.0-code"
-pin = "pinned"
-
-["ByteDance/Seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
 pin = "pinned"
 
 ["ByteDance/Seed-2.0-pro"]
@@ -88,6 +80,10 @@ pin = "floating"
 
 ["Qwen/Qwen4-Max"]
 model = "qwen/qwen4-max"
+pin = "pinned"
+
+["Sao10K/L3.1-70B-Euryale-v2.2"]
+model = "sao10k/l3.1-euryale-70b"
 pin = "pinned"
 
 ["XiaomiMiMo/MiMo-V2.6-Flash"]

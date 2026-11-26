@@ -7,8 +7,8 @@
   "error": "list shrank to 50 entries (had 198 mapped rows)",
   "failing_since": "2026-11-14"
  },
- "apihub.agnes-ai.com": {
-  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261126123024934573510iU3grenU)\",\"type\":\"AgnesAI_error\"}}",
+ "oai.endpoints.kepler.ai.cloud.ovh.net": {
+  "error": "The operation was aborted due to timeout",
   "failing_since": "2026-11-26"
  }
 }

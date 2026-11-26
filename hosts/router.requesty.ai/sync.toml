@@ -1542,10 +1542,6 @@ pin = "floating"
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
 
-["mistral/mistral-small-2603"]
-model = "mistralai/mistral-small-2603"
-pin = "pinned"
-
 ["mistral/mistral-small-latest"]
 model = "~mistralai/mistral-small-latest"
 pin = "floating"
@@ -1694,10 +1690,6 @@ pin = "pinned"
 
 ["openai/gpt-4o-2024-08-06"]
 model = "openai/gpt-4o-2024-08-06"
-pin = "pinned"
-
-["openai/gpt-4o-2024-11-20"]
-model = "openai/gpt-4o-2024-11-20"
 pin = "pinned"
 
 ["openai/gpt-4o-mini"]
@@ -1941,8 +1933,16 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["scaleway/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["scaleway/glm-5.2"]
 model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["scaleway/glm-5.3"]
+model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["scaleway/gpt-oss-120b"]
@@ -2086,10 +2086,6 @@ quant = "fp8"
 
 ["tensorx/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
-["tensorx/qwen3.8-2.4t-a95b"]
-model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 
 ["tensorx/qwen3.8-flash-next"]

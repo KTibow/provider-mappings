@@ -26,6 +26,14 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
+["accounts/fireworks/models/inkling-2-mini"]
+model = "thinkingmachines/inkling-2-mini"
+pin = "pinned"
+
+["accounts/fireworks/models/inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["accounts/fireworks/models/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"

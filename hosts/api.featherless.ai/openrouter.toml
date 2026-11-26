@@ -52,10 +52,6 @@ model = "stepfun/step-5-preview"
 pin = "pinned"
 quant = "fp8"
 
-["zai-org/GLM-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

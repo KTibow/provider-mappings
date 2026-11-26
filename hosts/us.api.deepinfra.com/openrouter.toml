@@ -234,6 +234,11 @@ model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 quant = "fp4"
 
+["inclusionAI/LingSante-3.1-air-VL"]
+model = "inclusionai/lingsante-3.1-air-vl"
+pin = "pinned"
+quant = "fp4"
+
 ["intfloat/e5-base-v2"]
 model = "intfloat/e5-base-v2"
 pin = "pinned"

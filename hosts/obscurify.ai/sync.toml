@@ -387,12 +387,20 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
 ["inclusionai/ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+
+["inclusionai/lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
 pin = "pinned"
 
 ["inference-net/schematron-v2-small"]

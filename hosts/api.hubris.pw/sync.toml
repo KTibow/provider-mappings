@@ -399,6 +399,10 @@ model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
 free = true
 
+["inclusionai/lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
+pin = "pinned"
+
 ["inference-net/schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
 pin = "pinned"
@@ -594,6 +598,14 @@ pin = "pinned"
 
 ["moondream/moondream3.1-9b-a2b"]
 model = "moondream/moondream3.1-9b-a2b"
+pin = "pinned"
+
+["moonshotai/kimi-k2"]
+model = "moonshotai/kimi-k2"
+pin = "pinned"
+
+["moonshotai/kimi-k2-0905"]
+model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.5"]

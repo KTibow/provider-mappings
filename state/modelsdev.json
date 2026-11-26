@@ -304,6 +304,7 @@
     ],
     "api.deepinfra.com": [
       "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+      "Sao10K/L3-8B-Lunaris-v1-Turbo",
       "google/gemma-4-31B-it-Ultra",
       "google/gemma-4-31B-it-turbo",
       "meta-llama/Llama-3.3-70B-Instruct-Turbo",
@@ -344,6 +345,7 @@
       "accounts/fireworks/routers/glm-5p3-spot",
       "accounts/fireworks/routers/glm-fast-latest",
       "accounts/fireworks/routers/kimi-fast-latest",
+      "accounts/fireworks/routers/kimi-k3p1-pro-ultrafast",
       "accounts/fireworks/routers/minimax-latest"
     ],
     "api.greenpt.ai": [
@@ -1159,7 +1161,6 @@
     "router.requesty.ai": [
       "devstral-latest",
       "devstral-latest@eu",
-      "kimi-k3.1-pro-highspeed",
       "mistral-medium-latest",
       "mistral-medium-latest@eu",
       "nemotron-lightning-3.5-30b-a3b"

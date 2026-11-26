@@ -1040,6 +1040,10 @@ pin = "pinned"
 model = "recraft/recraft-v4.1-flash"
 pin = "pinned"
 
+["recraft/recraft-v4.1-flash-v2"]
+model = "recraft/recraft-v4.1-flash-v2"
+pin = "pinned"
+
 ["recraft/recraft-v4.1-pro"]
 model = "recraft/recraft-v4.1-pro"
 pin = "pinned"

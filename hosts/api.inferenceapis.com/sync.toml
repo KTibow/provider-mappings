@@ -159,6 +159,14 @@ pin = "pinned"
 model = "hexgrad/kokoro-82m"
 pin = "pinned"
 
+["inkling"]
+model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["inkling-2-small"]
+model = "thinkingmachines/inkling-2-small"
+pin = "pinned"
+
 ["kimi-k2-6"]
 model = "moonshotai/kimi-k2.6"
 pin = "pinned"
@@ -349,6 +357,14 @@ pin = "pinned"
 
 ["qwen3.8-flash"]
 model = "qwen/qwen3.8-flash"
+pin = "pinned"
+
+["thinkingmachines/Inkling"]
+model = "thinkingmachines/inkling"
+pin = "pinned"
+
+["thinkingmachines/Inkling-2-Small"]
+model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
 ["thinkingmachines/Inkling-Small"]

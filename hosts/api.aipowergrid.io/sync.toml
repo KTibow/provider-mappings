@@ -6,3 +6,7 @@
 ["gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
 pin = "pinned"
+
+["qwen38-flash-next-nvfp4"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"

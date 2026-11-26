@@ -470,10 +470,6 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["hy3"]
-model = "tencent/hy3"
-pin = "pinned"
-
 ["inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -504,6 +500,10 @@ pin = "pinned"
 
 ["kimi-k3.1-pro"]
 model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["kimi-k3.1-pro-highspeed"]
+model = "moonshotai/kimi-k3.1-pro-highspeed"
 pin = "pinned"
 
 ["kimi-k3.1-pro@eu"]
@@ -676,10 +676,6 @@ pin = "pinned"
 
 ["seed-2.0-pro"]
 model = "bytedance-seed/seed-2.0-pro"
-pin = "pinned"
-
-["step-3.7-flash"]
-model = "stepfun/step-3.7-flash"
 pin = "pinned"
 
 ["step-5-preview"]

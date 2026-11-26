@@ -562,6 +562,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["inclusionai/ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
+pin = "pinned"
+
 ["inclusionai/ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
@@ -788,6 +792,10 @@ pin = "pinned"
 
 ["moondream/moondream3.1-9b-a2b"]
 model = "moondream/moondream3.1-9b-a2b"
+pin = "pinned"
+
+["moonshotai/kimi-k2-thinking"]
+model = "moonshotai/kimi-k2-thinking"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.5"]

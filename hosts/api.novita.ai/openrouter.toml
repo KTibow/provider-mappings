@@ -27,16 +27,6 @@ model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 quant = "fp8"
 
-["google/gemma-4-26b-a4b-it"]
-model = "google/gemma-4-26b-a4b-it"
-pin = "pinned"
-quant = "bf16"
-
-["google/gemma-4-31b-it"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-quant = "bf16"
-
 ["moonshotai/kimi-k2-0905"]
 model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
@@ -52,23 +42,8 @@ model = "moonshotai/kimi-k2-thinking"
 pin = "pinned"
 quant = "bf16"
 
-["zai-org/glm-4.6"]
-model = "z-ai/glm-4.6"
-pin = "pinned"
-quant = "bf16"
-
 ["zai-org/glm-4.7"]
 model = "z-ai/glm-4.7"
-pin = "pinned"
-quant = "fp8"
-
-["zai-org/glm-5"]
-model = "z-ai/glm-5"
-pin = "pinned"
-quant = "fp8"
-
-["zai-org/glm-5.1"]
-model = "z-ai/glm-5.1"
 pin = "pinned"
 quant = "fp8"
 

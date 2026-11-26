@@ -7,16 +7,8 @@
 model = "bytedance-seed/seed-2.0-code"
 pin = "pinned"
 
-["ByteDance/Seed-2.0-mini"]
-model = "bytedance-seed/seed-2.0-mini"
-pin = "pinned"
-
 ["ByteDance/Seed-2.0-pro"]
 model = "bytedance-seed/seed-2.0-pro"
-pin = "pinned"
-
-["ByteDance/Seedance-1.5-Pro"]
-model = "bytedance/seedance-1.5-pro"
 pin = "pinned"
 
 ["ByteDance/Seedance-2.0"]

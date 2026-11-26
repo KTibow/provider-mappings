@@ -1345,6 +1345,11 @@ quant = "fp4"
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
+["deepinfra/inclusionAI/LingSante-3.1-air-VL"]
+model = "inclusionai/lingsante-3.1-air-vl"
+pin = "pinned"
+quant = "fp4"
+
 ["deepinfra/meta-llama/Llama-3.2-3B-Instruct"]
 model = "meta-llama/llama-3.2-3b-instruct"
 pin = "pinned"
@@ -1441,6 +1446,11 @@ quant = "bf16"
 model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 quant = "fp4"
+
+["deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"]
+model = "nvidia/nemotron-3-super-120b-a12b"
+pin = "pinned"
+quant = "bf16"
 
 ["deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
@@ -1641,6 +1651,10 @@ pin = "pinned"
 model = "z-ai/glm-4.5-air"
 pin = "pinned"
 
+["flexai/GLM-4.5-Air-FP8@eu"]
+model = "z-ai/glm-4.5-air"
+pin = "pinned"
+
 ["flexai/GLM-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
@@ -1685,6 +1699,10 @@ pin = "pinned"
 model = "qwen/qwen3-coder-30b-a3b-instruct"
 pin = "pinned"
 
+["flexai/Qwen3-Coder-30B-A3B-Instruct-FP8@eu"]
+model = "qwen/qwen3-coder-30b-a3b-instruct"
+pin = "pinned"
+
 ["flexai/Qwen3.5-9B"]
 model = "qwen/qwen3.5-9b"
 pin = "pinned"
@@ -1698,6 +1716,10 @@ model = "qwen/qwen3.6-27b"
 pin = "pinned"
 
 ["flexai/Qwen3.6-35B-A3B-FP8"]
+model = "qwen/qwen3.6-35b-a3b"
+pin = "pinned"
+
+["flexai/Qwen3.6-35B-A3B-FP8@eu"]
 model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
@@ -3164,34 +3186,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["tsystems/GLM-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
-["tsystems/GLM-5.3-Flash"]
-model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["tsystems/Mistral-Small-4-119B-2603"]
-model = "mistralai/mistral-small-2603"
-pin = "pinned"
-
-["tsystems/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"]
-model = "nvidia/nemotron-3-super-120b-a12b"
-pin = "pinned"
-
-["tsystems/Qwen3.6-35B-A3B-FP8"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-
-["tsystems/gemma-4-31B-it-FP8"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-
-["tsystems/gpt-oss-120b"]
-model = "openai/gpt-oss-120b"
-pin = "pinned"
-
 ["vertex/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -3508,6 +3502,54 @@ pin = "pinned"
 model = "google/gemini-3.8-flash"
 pin = "pinned"
 
+["vertex/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["vertex/gemini-4-argon@eu"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["vertex/gemini-4-argon@us"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["vertex/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["vertex/gemini-4-carbon@eu"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["vertex/gemini-4-carbon@us"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen@eu"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-hydrogen@us"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["vertex/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["vertex/gemini-4-neon@eu"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["vertex/gemini-4-neon@us"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
 ["vertex/gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
 pin = "floating"
@@ -3515,6 +3557,10 @@ pin = "floating"
 ["vertex/gemini-nano-banana-2.1"]
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
+
+["vertex/gemini-pro-latest"]
+model = "~google/gemini-pro-latest"
+pin = "floating"
 
 ["vertex/google/gemma-4-26b-a4b-it-maas"]
 model = "google/gemma-4-26b-a4b-it"

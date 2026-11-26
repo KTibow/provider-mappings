@@ -471,10 +471,6 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
-["mercury-2.5"]
-model = "inception/mercury-2.5"
-pin = "pinned"
-
 ["mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
 pin = "pinned"

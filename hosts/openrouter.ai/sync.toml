@@ -75,6 +75,11 @@ pin = "pinned"
 model = "amazon/titan-embed-text-v2"
 pin = "pinned"
 
+["antdigital/lingdt-decision-fast-1.0:free"]
+model = "antdigital/lingdt-decision-fast-1.0"
+pin = "pinned"
+free = true
+
 ["anthracite-org/magnum-v4-72b"]
 model = "anthracite-org/magnum-v4-72b"
 pin = "pinned"
@@ -793,6 +798,10 @@ model = "inclusionai/ling-3.2-flash"
 pin = "pinned"
 free = true
 
+["inclusionai/lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
+pin = "pinned"
+
 ["inference-net/schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
 pin = "pinned"
@@ -1200,6 +1209,14 @@ pin = "pinned"
 
 ["moondream/parakeet-ultra"]
 model = "moondream/parakeet-ultra"
+pin = "pinned"
+
+["moonshotai/kimi-k2"]
+model = "moonshotai/kimi-k2"
+pin = "pinned"
+
+["moonshotai/kimi-k2-0905"]
+model = "moonshotai/kimi-k2-0905"
 pin = "pinned"
 
 ["moonshotai/kimi-k2.5"]
