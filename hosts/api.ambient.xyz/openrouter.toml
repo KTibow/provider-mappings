@@ -11,8 +11,3 @@ quant = "fp4"
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 quant = "nvfp4"
-
-["z-ai/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-quant = "fp8"

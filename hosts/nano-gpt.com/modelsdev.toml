@@ -1434,14 +1434,6 @@ pin = "pinned"
 model = "thinkingmachines/inkling"
 pin = "pinned"
 
-["unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
-pin = "pinned"
-
-["unbiased/pareto-26.9"]
-model = "unbiased/pareto-26.9"
-pin = "pinned"
-
 ["unsloth/gemma-3-12b-it"]
 model = "google/gemma-3-12b-it"
 pin = "pinned"

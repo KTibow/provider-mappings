@@ -831,11 +831,6 @@ model = "nvidia/nemotron-3-super-120b-a12b"
 pin = "pinned"
 quant = "fp16"
 
-["nvidia-nemotron-3-ultra-550b-a55b"]
-model = "nvidia/nemotron-3-ultra-550b-a55b"
-pin = "pinned"
-quant = "fp16"
-
 ["nvidia-nemotron-nano-12b-v2"]
 model = "nvidia/nemotron-nano-12b-v2-vl"
 pin = "pinned"

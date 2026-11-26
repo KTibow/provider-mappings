@@ -730,6 +730,16 @@
   ],
   "permaslug": "bytedance-seed/seed-audio-1-0-20260630"
  },
+ "bytedance-seed/seed-tts-3-0": {
+  "input": [
+   "text"
+  ],
+  "name": "ByteDance Seed: Seed-TTS 3.0",
+  "output": [
+   "speech"
+  ],
+  "permaslug": "bytedance-seed/seed-tts-3-0-20261125"
+ },
  "bytedance-seed/seedream-4.5": {
   "input": [
    "image",

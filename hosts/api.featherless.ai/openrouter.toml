@@ -50,7 +50,7 @@ quant = "fp8"
 ["stepfun-ai/Step-5-Preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"
-quant = "fp4"
+quant = "fp8"
 
 ["zai-org/GLM-5.2"]
 model = "z-ai/glm-5.2"

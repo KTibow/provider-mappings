@@ -67,6 +67,11 @@ pin = "pinned"
 # model = "qwen/qwen3.8-2.4t-a95b"
 # pin = "pinned"
 
+# needs review: native id has "flex", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
+# ["accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex"]
+# model = "deepseek/deepseek-v4.1-flash-1017"
+# pin = "pinned"
+
 # needs review: native id has "spot", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
 # ["accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot"]
 # model = "deepseek/deepseek-v4.1-flash-1017"
@@ -79,6 +84,16 @@ pin = "pinned"
 
 # needs review: native id has "fast", which z-ai/glm-5.3 lacks: a tier or variant, not the model itself
 # ["accounts/fireworks/routers/glm-5p3-fast"]
+# model = "z-ai/glm-5.3"
+# pin = "pinned"
+
+# needs review: native id has "flex", which z-ai/glm-5.3-flash lacks: a tier or variant, not the model itself
+# ["accounts/fireworks/routers/glm-5p3-flash-flex"]
+# model = "z-ai/glm-5.3-flash"
+# pin = "pinned"
+
+# needs review: native id has "flex", which z-ai/glm-5.3 lacks: a tier or variant, not the model itself
+# ["accounts/fireworks/routers/glm-5p3-flex"]
 # model = "z-ai/glm-5.3"
 # pin = "pinned"
 

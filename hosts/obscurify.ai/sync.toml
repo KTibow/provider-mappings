@@ -1219,6 +1219,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling-2-small"
 pin = "pinned"
 
+["togethercomputer/tev1-4b-experimental"]
+model = "togethercomputer/tev1-4b-experimental"
+pin = "pinned"
+
 ["typesafe/jev-1.13"]
 model = "typesafe/jev-1.13"
 pin = "pinned"

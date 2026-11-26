@@ -17,11 +17,6 @@ model = "qwen/qwen3.6-27b"
 pin = "pinned"
 quant = "fp8"
 
-["qwen/qwen3.6-35b-a3b"]
-model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-quant = "fp8"
-
 ["qwen/qwen3.8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"

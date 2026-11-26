@@ -51,11 +51,6 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
-["dots-3-note-preview:free"]
-model = "dots-studio/dots-3-note-preview"
-pin = "pinned"
-free = true
-
 ["ernie-5-5-flash-preview:free"]
 model = "baidu/ernie-5.5-flash-preview"
 pin = "pinned"
@@ -269,11 +264,6 @@ pin = "pinned"
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
 
-["muse-glimmer-30b:free"]
-model = "meta/muse-glimmer-30b"
-pin = "pinned"
-free = true
-
 ["muse-image"]
 model = "meta/muse-image"
 pin = "pinned"
@@ -335,11 +325,6 @@ pin = "pinned"
 
 ["nemotron-3-ultra-550b-a55b:free"]
 model = "nvidia/nemotron-3-ultra-550b-a55b"
-pin = "pinned"
-free = true
-
-["north-mini-code:free"]
-model = "cohere/north-mini-code"
 pin = "pinned"
 free = true
 

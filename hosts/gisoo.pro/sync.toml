@@ -19,6 +19,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
+["alibaba/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["alibaba/glm-5.1"]
 model = "z-ai/glm-5.1"
 pin = "pinned"
@@ -37,6 +41,10 @@ pin = "pinned"
 
 ["alibaba/kimi-k3"]
 model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["alibaba/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["claude-fable-5"]
@@ -2279,16 +2287,8 @@ pin = "pinned"
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
 
-["openrouter/unbiased/pareto-26.10"]
-model = "unbiased/pareto-26.10"
-pin = "pinned"
-
-["openrouter/unbiased/pareto-26.10-preview"]
-model = "unbiased/pareto-26.10-preview"
-pin = "pinned"
-
-["openrouter/unbiased/pareto-26.9"]
-model = "unbiased/pareto-26.9"
+["openrouter/tngtech/deepseek-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
 pin = "pinned"
 
 ["openrouter/undi95/remm-slerp-l2-13b"]
@@ -2507,10 +2507,6 @@ pin = "floating"
 model = "~openai/gpt-terra-latest"
 pin = "floating"
 
-["openrouter/~unbiased/pareto-latest"]
-model = "~unbiased/pareto-latest"
-pin = "floating"
-
 ["openrouter/~x-ai/grok-latest"]
 model = "~x-ai/grok-latest"
 pin = "floating"
@@ -2625,6 +2621,10 @@ pin = "pinned"
 
 ["qwen3.8-omni-flash"]
 model = "qwen/qwen3.8-omni-flash"
+pin = "pinned"
+
+["qwen4-max"]
+model = "qwen/qwen4-max"
 pin = "pinned"
 
 ["scribe-v2"]

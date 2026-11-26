@@ -1555,6 +1555,10 @@ pin = "pinned"
 model = "thinkingmachines/inkling-small"
 pin = "pinned"
 
+["tngtech/deepseek-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
+pin = "pinned"
+
 ["typesafe/jev-1.13"]
 model = "typesafe/jev-1.13"
 pin = "pinned"

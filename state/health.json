@@ -7,12 +7,8 @@
   "error": "list shrank to 50 entries (had 198 mapped rows)",
   "failing_since": "2026-11-14"
  },
- "api.kairence.ai": {
-  "error": "DNS: ENOTFOUND",
-  "failing_since": "2026-11-12"
- },
- "apihub.agnes-ai.com": {
-  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261125200339347037057zhCiN92g)\",\"type\":\"AgnesAI_error\"}}",
-  "failing_since": "2026-11-24"
+ "api.kitani.ai": {
+  "error": "GET https://api.kitani.ai/v1/models -> HTTP 403: {\"error\":{\"message\":\"API access is temporarily restricted.\",\"type\":\"access_restricted\",\"code\":\"access_restricted\"}}",
+  "failing_since": "2026-11-26"
  }
 }

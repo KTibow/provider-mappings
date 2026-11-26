@@ -255,11 +255,6 @@ pin = "pinned"
 model = "meta/muse-ember"
 pin = "pinned"
 
-["muse-glimmer-30b:free"]
-model = "meta/muse-glimmer-30b"
-pin = "pinned"
-free = true
-
 ["muse-spark-1-2"]
 model = "meta/muse-spark-1.2"
 pin = "pinned"

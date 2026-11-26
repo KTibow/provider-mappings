@@ -83,6 +83,10 @@ pin = "pinned"
 model = "qwen/qwen3-coder-30b-a3b-instruct"
 pin = "pinned"
 
+["Qwen/Qwen3-Coder-480B-A35B-Instruct"]
+model = "qwen/qwen3-coder"
+pin = "pinned"
+
 ["Qwen/Qwen3-Coder-Next"]
 model = "qwen/qwen3-coder-next"
 pin = "pinned"
