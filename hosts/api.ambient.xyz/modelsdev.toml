@@ -10,6 +10,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["google/gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+
 ["minimax/minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"

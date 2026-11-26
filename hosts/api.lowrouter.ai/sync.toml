@@ -331,10 +331,6 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["auto/ibm-granite/granite-4.2-8b"]
-model = "ibm-granite/granite-4.2-8b"
-pin = "pinned"
-
 ["auto/inclusionai/ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
@@ -1253,10 +1249,6 @@ pin = "pinned"
 
 ["deepinfra/google/gemma-4-31b-it"]
 model = "google/gemma-4-31b-it"
-pin = "pinned"
-
-["deepinfra/ibm-granite/granite-4.2-8b"]
-model = "ibm-granite/granite-4.2-8b"
 pin = "pinned"
 
 ["deepinfra/inclusionai/ling-3.0-flash"]

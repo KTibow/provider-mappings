@@ -361,6 +361,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
+["mimo/mimo-v2.6-flash-mopd"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
+pin = "pinned"
+
 ["mimo/mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
@@ -443,10 +447,6 @@ pin = "pinned"
 
 ["nace/drex-max-finance"]
 model = "nace-ai/drex-max-finance"
-pin = "pinned"
-
-["nace/drex-v2.0"]
-model = "nace-ai/drex-v2.0"
 pin = "pinned"
 
 ["nvidia/nemotron-3-ultra-550b-a55b"]
@@ -827,6 +827,10 @@ pin = "pinned"
 model = "sakana/fugu-ultra"
 pin = "pinned"
 
+["sakana/sakana-namazu"]
+model = "sakana/sakana-namazu"
+pin = "pinned"
+
 ["stepfun/step-3.5-flash"]
 model = "stepfun/step-3.5-flash"
 pin = "pinned"
@@ -878,6 +882,10 @@ pin = "pinned"
 
 ["upstage/solar-decide"]
 model = "upstage/solar-decide"
+pin = "pinned"
+
+["upstage/solar-mini-4-5"]
+model = "upstage/solar-mini-4-5"
 pin = "pinned"
 
 ["upstage/solar-mini4"]

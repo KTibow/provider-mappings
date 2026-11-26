@@ -383,11 +383,6 @@ model = "deepseek/deepseek-v3.2"
 pin = "pinned"
 quant = "fp16"
 
-["deepseek-v4-flash-0731"]
-model = "deepseek/deepseek-v4-flash-0731"
-pin = "pinned"
-quant = "fp16"
-
 ["deepseek-v4-pro-0813"]
 model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
@@ -423,10 +418,173 @@ model = "black-forest-labs/flux.2-klein-4b"
 pin = "pinned"
 quant = "fp16"
 
+["free/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+quant = "fp16"
+free = true
+
+["free/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+free = true
+
+["free/deepseek-v4.1-flash-uncensored-fp8"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+free = true
+
+["free/ernie-5.5-flash-preview"]
+model = "baidu/ernie-5.5-flash-preview"
+pin = "pinned"
+free = true
+
+["free/flint-v1.0"]
+model = "recursive/flint-v1.0"
+pin = "pinned"
+free = true
+
+["free/gemini-2.5-flash"]
+model = "google/gemini-2.5-flash"
+pin = "pinned"
+free = true
+
+["free/gemini-2.5-flash-lite"]
+model = "google/gemini-2.5-flash-lite"
+pin = "pinned"
+free = true
+
+["free/gemini-2.5-pro"]
+model = "google/gemini-2.5-pro"
+pin = "pinned"
+free = true
+
+["free/gemini-3-flash-preview"]
+model = "google/gemini-3-flash-preview"
+pin = "pinned"
+free = true
+
+["free/gemini-3.1-flash-lite"]
+model = "google/gemini-3.1-flash-lite"
+pin = "pinned"
+free = true
+
+["free/gemini-3.1-flash-lite-preview"]
+model = "google/gemini-3.1-flash-lite-preview"
+pin = "pinned"
+free = true
+
+["free/gemini-3.1-pro-preview"]
+model = "google/gemini-3.1-pro-preview"
+pin = "pinned"
+free = true
+
+["free/gemini-3.1-pro-preview-customtools"]
+model = "google/gemini-3.1-pro-preview-customtools"
+pin = "pinned"
+free = true
+
+["free/gemini-3.5-flash"]
+model = "google/gemini-3.5-flash"
+pin = "pinned"
+free = true
+
+["free/gemini-3.5-flash-lite"]
+model = "google/gemini-3.5-flash-lite"
+pin = "pinned"
+free = true
+
+["free/gemini-3.6-flash"]
+model = "google/gemini-3.6-flash"
+pin = "pinned"
+free = true
+
+["free/gemini-3.7-flash"]
+model = "google/gemini-3.7-flash"
+pin = "pinned"
+free = true
+
+["free/gemini-3.8-flash"]
+model = "google/gemini-3.8-flash"
+pin = "pinned"
+free = true
+
+["free/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+free = true
+
+["free/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
+pin = "pinned"
+free = true
+
+["free/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+free = true
+
+["free/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+free = true
+
+["free/gemini-flash-latest"]
+model = "~google/gemini-flash-latest"
+pin = "floating"
+free = true
+
+["free/gemini-pro-latest"]
+model = "~google/gemini-pro-latest"
+pin = "floating"
+free = true
+
+["free/gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+free = true
+
 ["free/gemma-4-31b-it"]
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 quant = "fp16"
+free = true
+
+["free/glm-4.7-flash"]
+model = "z-ai/glm-4.7-flash"
+pin = "pinned"
+free = true
+
+["free/glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+quant = "fp16"
+free = true
+
+["free/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+quant = "fp16"
+free = true
+
+["free/gpt-oss-120b"]
+model = "openai/gpt-oss-120b"
+pin = "pinned"
+free = true
+
+["free/gpt-oss-20b"]
+model = "openai/gpt-oss-20b"
+pin = "pinned"
+free = true
+
+["free/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+free = true
+
+["free/lfm-3-1.7b"]
+model = "liquid/lfm-3-1.7b"
+pin = "pinned"
 free = true
 
 ["free/minimax-m2.5"]
@@ -465,10 +623,51 @@ pin = "pinned"
 quant = "fp16"
 free = true
 
+["free/mistral-large-4"]
+model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+free = true
+
+["free/nemotron-3-ultra"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+free = true
+
+["free/nemotron-3-ultra-550b-a55b"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+free = true
+
+["free/nemotron-3.5-lightning"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+free = true
+
+["free/nemotron-3.5-super-vl"]
+model = "nvidia/nemotron-3.5-super-vl"
+pin = "pinned"
+free = true
+
+["free/particle-1"]
+model = "particle-ai/particle-1"
+pin = "pinned"
+free = true
+
 ["free/qwen3.7-max"]
 model = "qwen/qwen3.7-max"
 pin = "pinned"
 quant = "fp16"
+free = true
+
+["free/qwen3.8-27b"]
+model = "qwen/qwen3.8-27b"
+pin = "pinned"
+quant = "fp16"
+free = true
+
+["free/step-5-preview"]
+model = "stepfun/step-5-preview"
+pin = "pinned"
 free = true
 
 ["gemini-2.5-flash"]
@@ -503,6 +702,11 @@ quant = "fp16"
 
 ["gemini-3.7-flash"]
 model = "google/gemini-3.7-flash"
+pin = "pinned"
+quant = "fp16"
+
+["gemini-3.8-flash"]
+model = "google/gemini-3.8-flash"
 pin = "pinned"
 quant = "fp16"
 
@@ -581,11 +785,6 @@ model = "z-ai/glm-5"
 pin = "pinned"
 quant = "fp16"
 
-["glm-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-quant = "fp16"
-
 ["glm-5.2"]
 model = "z-ai/glm-5.2"
 pin = "pinned"
@@ -618,11 +817,6 @@ quant = "fp16"
 
 ["gpt-5-image-mini"]
 model = "openai/gpt-5-image-mini"
-pin = "pinned"
-quant = "fp16"
-
-["gpt-5-nano"]
-model = "openai/gpt-5-nano"
 pin = "pinned"
 quant = "fp16"
 
@@ -733,11 +927,6 @@ quant = "fp16"
 
 ["kimi-k3"]
 model = "moonshotai/kimi-k3"
-pin = "pinned"
-quant = "fp16"
-
-["kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 quant = "fp16"
 
@@ -923,16 +1112,6 @@ quant = "fp16"
 
 ["qwen3.6-27b"]
 model = "qwen/qwen3.6-27b"
-pin = "pinned"
-quant = "fp16"
-
-["qwen3.7-flash"]
-model = "qwen/qwen3.7-flash"
-pin = "pinned"
-quant = "fp16"
-
-["qwen3.8-2.4t-a95b"]
-model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 quant = "fp16"
 

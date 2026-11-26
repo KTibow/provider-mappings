@@ -3208,18 +3208,6 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
-["vertex/claude-fable-5-2"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["vertex/claude-fable-5-2@eu"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
-["vertex/claude-fable-5-2@us"]
-model = "anthropic/claude-fable-5.2"
-pin = "pinned"
-
 ["vertex/claude-fable-5@eu"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"

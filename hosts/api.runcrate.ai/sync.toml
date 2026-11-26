@@ -195,10 +195,6 @@ pin = "pinned"
 model = "hexgrad/kokoro-82m"
 pin = "pinned"
 
-["ibm-granite/granite-4.2-8b"]
-model = "ibm-granite/granite-4.2-8b"
-pin = "pinned"
-
 ["inclusionAI/Ling-3.0-flash-VL"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
@@ -241,6 +237,10 @@ quant = "bf16"
 
 ["mistralai/devstral-2-123b"]
 model = "mistralai/devstral-2512"
+pin = "pinned"
+
+["mistralai/magistral-small-2509"]
+model = "mistralai/magistral-small-2509"
 pin = "pinned"
 
 ["mistralai/ministral-3-14b-instruct"]

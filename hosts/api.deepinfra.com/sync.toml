@@ -311,10 +311,6 @@ pin = "pinned"
 model = "hexgrad/kokoro-82m"
 pin = "pinned"
 
-["ibm-granite/granite-4.2-8b"]
-model = "ibm-granite/granite-4.2-8b"
-pin = "pinned"
-
 ["inclusionAI/Ling-3.0-flash"]
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"

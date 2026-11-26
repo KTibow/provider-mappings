@@ -111,10 +111,6 @@ pin = "pinned"
 model = "qwen/qwen3-coder-flash"
 pin = "pinned"
 
-["Qwen3-Coder-Next"]
-model = "qwen/qwen3-coder-next"
-pin = "pinned"
-
 ["Qwen3-Embedding-4B"]
 model = "qwen/qwen3-embedding-4b"
 pin = "pinned"

@@ -395,22 +395,6 @@ pin = "pinned"
 model = "tencent/hy4-preview"
 pin = "pinned"
 
-["kimi-k2-0905"]
-model = "moonshotai/kimi-k2-0905"
-pin = "pinned"
-
-["kimi-k2-instruct"]
-model = "moonshotai/kimi-k2"
-pin = "pinned"
-
-["kimi-k2-instruct-fp4"]
-model = "moonshotai/kimi-k2"
-pin = "pinned"
-
-["kimi-k2-thinking"]
-model = "moonshotai/kimi-k2-thinking"
-pin = "pinned"
-
 ["kimi-k2.5"]
 model = "moonshotai/kimi-k2.5"
 pin = "pinned"
@@ -465,10 +449,6 @@ pin = "pinned"
 
 ["minimax-m2"]
 model = "minimax/minimax-m2"
-pin = "pinned"
-
-["minimax-m2.1"]
-model = "minimax/minimax-m2.1"
 pin = "pinned"
 
 ["minimax-m2.5"]
@@ -605,14 +585,6 @@ pin = "pinned"
 
 ["qwen4-max"]
 model = "qwen/qwen4-max"
-pin = "pinned"
-
-["skyfall-36b-v2"]
-model = "thedrummer/skyfall-36b-v2"
-pin = "pinned"
-
-["step-3.5-flash"]
-model = "stepfun/step-3.5-flash"
 pin = "pinned"
 
 ["step-5-preview"]

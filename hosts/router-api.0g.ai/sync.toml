@@ -255,6 +255,10 @@ pin = "pinned"
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
+["happyhorse-1.1"]
+model = "alibaba/happyhorse-1.1"
+pin = "pinned"
+
 ["hy3"]
 model = "tencent/hy3"
 pin = "pinned"

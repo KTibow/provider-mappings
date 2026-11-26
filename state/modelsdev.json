@@ -339,6 +339,8 @@
       "accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
       "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
       "accounts/fireworks/routers/glm-5p3-fast",
+      "accounts/fireworks/routers/glm-5p3-flash-flex",
+      "accounts/fireworks/routers/glm-5p3-flex",
       "accounts/fireworks/routers/glm-5p3-spot",
       "accounts/fireworks/routers/glm-fast-latest",
       "accounts/fireworks/routers/kimi-fast-latest",

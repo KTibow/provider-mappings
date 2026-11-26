@@ -331,6 +331,10 @@ pin = "pinned"
 model = "openai/gpt-6-luna"
 pin = "pinned"
 
+["gpt-6-luna-decisions"]
+model = "openai/gpt-6-luna-decisions"
+pin = "pinned"
+
 ["gpt-6-sol"]
 model = "openai/gpt-6-sol"
 pin = "pinned"

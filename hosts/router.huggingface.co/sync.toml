@@ -71,10 +71,6 @@ pin = "pinned"
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
 
-["Qwen/Qwen3-30B-A3B-Instruct-2507"]
-model = "qwen/qwen3-30b-a3b-instruct-2507"
-pin = "pinned"
-
 ["Qwen/Qwen3-32B"]
 model = "qwen/qwen3-32b"
 pin = "pinned"
@@ -409,10 +405,6 @@ pin = "pinned"
 
 ["zai-org/GLM-4.7"]
 model = "z-ai/glm-4.7"
-pin = "pinned"
-
-["zai-org/GLM-4.7-Flash"]
-model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
 ["zai-org/GLM-5"]

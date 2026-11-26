@@ -182,6 +182,10 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["moonshotai/kimi-k3.1-pro-highspeed"]
+model = "moonshotai/kimi-k3.1-pro-highspeed"
+pin = "pinned"
+
 ["openai/gpt-4.1"]
 model = "openai/gpt-4.1"
 pin = "pinned"
@@ -292,6 +296,10 @@ pin = "pinned"
 
 ["openai/o4-mini"]
 model = "openai/o4-mini"
+pin = "pinned"
+
+["particle/particle-1"]
+model = "particle-ai/particle-1"
 pin = "pinned"
 
 ["reflection-ai/beam-1.0-501b-a23b"]

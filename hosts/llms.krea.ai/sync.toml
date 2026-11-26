@@ -6,3 +6,7 @@
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
+
+["glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"

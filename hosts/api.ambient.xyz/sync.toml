@@ -3,6 +3,11 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["google/gemma-4-26b-a4b-it"]
+model = "google/gemma-4-26b-a4b-it"
+pin = "pinned"
+quant = "nvfp4"
+
 ["minimax/minimax-m3"]
 model = "minimax/minimax-m3"
 pin = "pinned"

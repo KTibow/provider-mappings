@@ -1599,6 +1599,10 @@ pin = "pinned"
 model = "openai/whisper-large-v3-turbo"
 pin = "pinned"
 
+["orbio/deepseek-v4.1-flash-uncensored"]
+model = "deepseek/deepseek-v4.1-flash-uncensored"
+pin = "pinned"
+
 ["parallel/decisions-fast"]
 model = "parallel/decisions-fast"
 pin = "pinned"

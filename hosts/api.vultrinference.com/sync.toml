@@ -27,6 +27,12 @@ model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 quant = "nvfp4"
 
+["deepseek-v4.1-flash-1017:free"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+quant = "mxfp4"
+free = true
+
 ["glm-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"

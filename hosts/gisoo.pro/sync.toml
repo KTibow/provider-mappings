@@ -627,6 +627,10 @@ pin = "pinned"
 model = "bytedance-seed/seed-audio-1-0"
 pin = "pinned"
 
+["openrouter/bytedance-seed/seed-tts-3-0"]
+model = "bytedance-seed/seed-tts-3-0"
+pin = "pinned"
+
 ["openrouter/bytedance-seed/seedream-4.5"]
 model = "bytedance-seed/seedream-4.5"
 pin = "pinned"
