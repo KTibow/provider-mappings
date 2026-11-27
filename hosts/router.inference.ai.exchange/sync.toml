@@ -11,6 +11,10 @@ pin = "pinned"
 model = "minimax/hailuo-3-max"
 pin = "pinned"
 
+["MiniMax-M2.1"]
+model = "minimax/minimax-m2.1"
+pin = "pinned"
+
 ["MiniMax-M3.1-Flash"]
 model = "minimax/minimax-m3.1-flash"
 pin = "pinned"
@@ -547,10 +551,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
-["glm-5.3-flashx"]
-model = "z-ai/glm-5.3-flashx"
-pin = "pinned"
-
 ["glm-5.3-flashx-legal"]
 model = "z-ai/glm-5.3-flashx-legal"
 pin = "pinned"
@@ -587,14 +587,6 @@ pin = "pinned"
 model = "openai/gpt-4.1-mini"
 pin = "pinned"
 
-["gpt-4.1-mini-2025-04-14"]
-model = "openai/gpt-4.1-mini"
-pin = "pinned"
-
-["gpt-4o"]
-model = "openai/gpt-4o"
-pin = "pinned"
-
 ["gpt-4o-2024-08-06"]
 model = "openai/gpt-4o-2024-08-06"
 pin = "pinned"
@@ -615,10 +607,6 @@ pin = "pinned"
 model = "openai/gpt-5-nano"
 pin = "pinned"
 
-["gpt-5-nano-2025-08-07"]
-model = "openai/gpt-5-nano"
-pin = "pinned"
-
 ["gpt-5-pro"]
 model = "openai/gpt-5-pro"
 pin = "pinned"
@@ -629,10 +617,6 @@ pin = "pinned"
 
 ["gpt-5.1-codex"]
 model = "openai/gpt-5.1-codex"
-pin = "pinned"
-
-["gpt-5.1-codex-max"]
-model = "openai/gpt-5.1-codex-max"
 pin = "pinned"
 
 ["gpt-5.1-codex-mini"]
@@ -749,10 +733,6 @@ pin = "floating"
 
 ["granite-4.2-8b"]
 model = "ibm-granite/granite-4.2-8b"
-pin = "pinned"
-
-["grok-4-fast-reasoning"]
-model = "x-ai/grok-4-fast"
 pin = "pinned"
 
 ["grok-4.20"]
@@ -891,6 +871,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash"
 pin = "pinned"
 
+["ling-3.0-flash-sante"]
+model = "inclusionai/ling-3.0-flash-sante"
+pin = "pinned"
+
 ["ling-3.0-flash-vl"]
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
@@ -937,6 +921,10 @@ pin = "pinned"
 
 ["llama-4-maverick-17b-128e-instruct-fp8"]
 model = "meta-llama/llama-4-maverick"
+pin = "pinned"
+
+["llama-4-scout"]
+model = "meta-llama/llama-4-scout"
 pin = "pinned"
 
 ["llama-4-scout-17b-16e-instruct"]
@@ -1267,6 +1255,10 @@ pin = "pinned"
 model = "perceptron/perceptron-mk1"
 pin = "pinned"
 
+["perceptron-mk1.5"]
+model = "perceptron/perceptron-mk1.5"
+pin = "pinned"
+
 ["perplexity-sonar"]
 model = "perplexity/sonar"
 pin = "pinned"
@@ -1333,6 +1325,10 @@ pin = "pinned"
 
 ["qwen3-coder-30b-a3b-instruct"]
 model = "qwen/qwen3-coder-30b-a3b-instruct"
+pin = "pinned"
+
+["qwen3-coder-480b-a35b-instruct"]
+model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["qwen3-coder-next"]
@@ -1547,10 +1543,6 @@ pin = "pinned"
 model = "undi95/remm-slerp-l2-13b"
 pin = "pinned"
 
-["ripple-65b-preview"]
-model = "ricursiveai/ripple-65b-preview"
-pin = "pinned"
-
 ["schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
 pin = "pinned"
@@ -1681,14 +1673,6 @@ pin = "pinned"
 
 ["venice-uncensored"]
 model = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
-pin = "pinned"
-
-["voxtral-mini-transcribe-3.0"]
-model = "mistralai/voxtral-mini-transcribe-3-0"
-pin = "pinned"
-
-["voxtral-small-transcribe-3.0"]
-model = "mistralai/voxtral-small-transcribe-3-0"
 pin = "pinned"
 
 ["wan-2-6"]

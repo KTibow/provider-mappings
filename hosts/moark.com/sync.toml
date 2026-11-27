@@ -67,10 +67,6 @@ pin = "pinned"
 model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
-["LTX-2"]
-model = "lightricks/ltx-2"
-pin = "pinned"
-
 ["MiMo-V2.6-Pro-UltraSpeed"]
 model = "xiaomi/mimo-v2.6-pro-ultraspeed"
 pin = "pinned"
@@ -101,10 +97,6 @@ pin = "pinned"
 
 ["Qwen3-32B"]
 model = "qwen/qwen3-32b"
-pin = "pinned"
-
-["Qwen3-Coder-30B-A3B-Instruct"]
-model = "qwen/qwen3-coder-30b-a3b-instruct"
 pin = "pinned"
 
 ["Qwen3-Coder-Flash"]

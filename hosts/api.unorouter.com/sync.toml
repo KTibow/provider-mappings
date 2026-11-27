@@ -151,12 +151,12 @@ pin = "pinned"
 model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
 
-["deepseek-v3.1"]
-model = "deepseek/deepseek-chat-v3.1"
-pin = "pinned"
-
 ["deepseek-v3.1-terminus"]
 model = "deepseek/deepseek-v3.1-terminus"
+pin = "pinned"
+
+["deepseek-v4-flash"]
+model = "deepseek/deepseek-v4-flash"
 pin = "pinned"
 
 ["deepseek-v4-flash-0731"]
@@ -183,6 +183,11 @@ pin = "pinned"
 ["deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
+
+["deepseek-v4.1-flash-1017:free"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+free = true
 
 ["deepseek-v4.1-flash:free"]
 model = "deepseek/deepseek-v4.1-flash"
@@ -218,11 +223,6 @@ pin = "pinned"
 ["gemini-2.5-flash"]
 model = "google/gemini-2.5-flash"
 pin = "pinned"
-
-["gemini-2.5-flash-lite:free"]
-model = "google/gemini-2.5-flash-lite"
-pin = "pinned"
-free = true
 
 ["gemini-2.5-pro"]
 model = "google/gemini-2.5-pro"
@@ -330,21 +330,8 @@ free = true
 model = "google/gemini-nano-banana-2.1"
 pin = "pinned"
 
-["gemma-4-31b:free"]
-model = "google/gemma-4-31b-it"
-pin = "pinned"
-free = true
-
-["glm-4.6"]
-model = "z-ai/glm-4.6"
-pin = "pinned"
-
 ["glm-4.7"]
 model = "z-ai/glm-4.7"
-pin = "pinned"
-
-["glm-4.7-flash"]
-model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
 ["glm-4.7-flash:free"]
@@ -354,10 +341,6 @@ free = true
 
 ["glm-5"]
 model = "z-ai/glm-5"
-pin = "pinned"
-
-["glm-5-turbo"]
-model = "z-ai/glm-5-turbo"
 pin = "pinned"
 
 ["glm-5.1"]
@@ -498,22 +481,8 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
-["grok-4.7:free"]
-model = "x-ai/grok-4.7"
-pin = "pinned"
-free = true
-
 ["hy3"]
 model = "tencent/hy3"
-pin = "pinned"
-
-["hy3:free"]
-model = "tencent/hy3"
-pin = "pinned"
-free = true
-
-["hy4-preview"]
-model = "tencent/hy4-preview"
 pin = "pinned"
 
 ["jev-1.13"]
@@ -544,6 +513,11 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["kimi-k3.1-pro:free"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+free = true
+
 ["lfm-2.5-embedding-350m:free"]
 model = "liquid/lfm-2.5-embedding-350m"
 pin = "pinned"
@@ -566,6 +540,11 @@ free = true
 ["mimo-v2.6-pro"]
 model = "xiaomi/mimo-v2.6-pro"
 pin = "pinned"
+
+["mimo-v2.6-pro:free"]
+model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+free = true
 
 ["minimax-m2.5"]
 model = "minimax/minimax-m2.5"
@@ -656,6 +635,11 @@ model = "qwen/qwen3.8-27b"
 pin = "pinned"
 free = true
 
+["qwen3.8-flash:free"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+free = true
+
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
@@ -681,6 +665,11 @@ free = true
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
 pin = "pinned"
+
+["step-5-preview:free"]
+model = "stepfun/step-5-preview"
+pin = "pinned"
+free = true
 
 ["text-embedding-3-large"]
 model = "openai/text-embedding-3-large"

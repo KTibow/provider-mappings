@@ -15,6 +15,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["ag/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
 ["ag/gemini-4-carbon"]
 model = "google/gemini-4-carbon"
 pin = "pinned"
@@ -25,10 +29,6 @@ pin = "pinned"
 
 ["ag/gemini-4-neon"]
 model = "google/gemini-4-neon"
-pin = "pinned"
-
-["ali/deepseek-v4.1-flash-1017"]
-model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["ali/glm-5.2"]
@@ -171,6 +171,58 @@ pin = "pinned"
 model = "alibaba/wan-2.7-image"
 pin = "pinned"
 
+["ant/claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["ant/claude-fable-5-1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["ant/claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["ant/claude-haiku-4-5"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["ant/claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["ant/claude-opus-4-5"]
+model = "anthropic/claude-opus-4.5"
+pin = "pinned"
+
+["ant/claude-opus-4-7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["ant/claude-opus-4-8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["ant/claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["ant/claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["ant/claude-sonnet-4-6"]
+model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["ant/claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["ant/claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
 ["az/claude-fable-5"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -235,6 +287,22 @@ pin = "pinned"
 model = "openai/gpt-5.4-mini"
 pin = "pinned"
 
+["az/gpt-5.5"]
+model = "openai/gpt-5.5"
+pin = "pinned"
+
+["az/gpt-5.6-terra"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["az/gpt-6-sol"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
+["az/gpt-6.1-sol"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
 ["az/gpt-6.2-astra"]
 model = "openai/gpt-6.2-astra"
 pin = "pinned"
@@ -249,10 +317,6 @@ pin = "pinned"
 
 ["cb/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
-pin = "pinned"
-
-["cb/gemini-3.1-pro"]
-model = "google/gemini-3.1-pro"
 pin = "pinned"
 
 ["cb/gemini-4-argon"]
@@ -279,32 +343,8 @@ pin = "pinned"
 model = "openai/gpt-5.3-codex"
 pin = "pinned"
 
-["cb/gpt-5.4"]
-model = "openai/gpt-5.4"
-pin = "pinned"
-
-["cb/gpt-5.5"]
-model = "openai/gpt-5.5"
-pin = "pinned"
-
-["cb/gpt-5.6-luna"]
-model = "openai/gpt-5.6-luna"
-pin = "pinned"
-
-["cb/gpt-5.6-terra"]
-model = "openai/gpt-5.6-terra"
-pin = "pinned"
-
 ["cb/gpt-6-astra"]
 model = "openai/gpt-6-astra"
-pin = "pinned"
-
-["cb/gpt-6-luna"]
-model = "openai/gpt-6-luna"
-pin = "pinned"
-
-["cb/gpt-6-sol"]
-model = "openai/gpt-6-sol"
 pin = "pinned"
 
 ["cb/gpt-6.1-terra"]
@@ -317,14 +357,6 @@ pin = "pinned"
 
 ["cb/gpt-6.2-sol"]
 model = "openai/gpt-6.2-sol"
-pin = "pinned"
-
-["cb/grok-4.6"]
-model = "x-ai/grok-4.6"
-pin = "pinned"
-
-["cb/grok-4.7"]
-model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["cb/hy3"]
@@ -679,6 +711,34 @@ pin = "pinned"
 ["cmc/zai-org/GLM-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
+
+["cp/cline-pass/deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["cp/cline-pass/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["cp/cline-pass/glm-5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
+["cp/cline-pass/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["cp/cline-pass/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["cp/cline-pass/muse-spark-1.3-contributor"]
+model = "meta/muse-spark-1.3-contributor"
+pin = "pinned"
+
+["cp/cline-pass/qwen3.8-max"]
+model = "~qwen/qwen3.8-max-latest"
+pin = "floating"
 
 ["cx/gpt-5.6-luna"]
 model = "openai/gpt-5.6-luna"
@@ -1180,6 +1240,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
+["mimotp/mimo-v2.6-pro"]
+model = "xiaomi/mimo-v2.6-pro"
+pin = "pinned"
+
 ["minimax-h3-image"]
 model = "minimax/minimax-h3-image"
 pin = "pinned"
@@ -1678,6 +1742,42 @@ pin = "pinned"
 
 ["step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["tctp/glm-5.2"]
+model = "z-ai/glm-5.2"
+pin = "pinned"
+
+["tctp/glm-5.3-flash"]
+model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+
+["tctp/hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["tctp/hy4-preview"]
+model = "tencent/hy4-preview"
+pin = "pinned"
+
+["tctp/kimi-k2.6"]
+model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
+["tctp/kimi-k3"]
+model = "moonshotai/kimi-k3"
+pin = "pinned"
+
+["tctp/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
+["tctp/mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
+pin = "pinned"
+
+["tctp/minimax-m3"]
+model = "minimax/minimax-m3"
 pin = "pinned"
 
 ["veo-3.1-fast-generate-001"]

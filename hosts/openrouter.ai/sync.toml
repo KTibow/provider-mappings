@@ -946,14 +946,6 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
-["microsoft/mai-image-2.5"]
-model = "microsoft/mai-image-2.5"
-pin = "pinned"
-
-["microsoft/mai-image-2.5-pro"]
-model = "microsoft/mai-image-2.5-pro"
-pin = "pinned"
-
 ["microsoft/mai-image-2.6"]
 model = "microsoft/mai-image-2.6"
 pin = "pinned"
@@ -1807,10 +1799,6 @@ pin = "pinned"
 
 ["qwen/qwen3-235b-a22b-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
-["qwen/qwen3-235b-a22b-thinking-2507"]
-model = "qwen/qwen3-235b-a22b-thinking-2507"
 pin = "pinned"
 
 ["qwen/qwen3-30b-a3b"]

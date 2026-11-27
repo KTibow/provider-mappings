@@ -179,6 +179,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["assemblyai/tts-1"]
+model = "assemblyai/assemblyai-tts-1"
+pin = "pinned"
+
 ["baseten/bison-1"]
 model = "baseten/bison-1"
 pin = "pinned"

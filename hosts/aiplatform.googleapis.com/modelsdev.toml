@@ -78,12 +78,8 @@ pin = "pinned"
 model = "mistralai/codestral-2508"
 pin = "pinned"
 
-["deepseek-ai/deepseek-v3.1-maas"]
-model = "deepseek/deepseek-chat-v3.1"
-pin = "pinned"
-
-["deepseek-ai/deepseek-v3.2-maas"]
-model = "deepseek/deepseek-v3.2"
+["deepseek-ai/deepseek-v4.1-flash-1017-maas"]
+model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
 ["gemini-2.5-flash"]
@@ -186,10 +182,6 @@ pin = "pinned"
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
-["meta/llama-3.3-70b-instruct-maas"]
-model = "meta-llama/llama-3.3-70b-instruct"
-pin = "pinned"
-
 ["meta/llama-4-maverick-17b-128e-instruct-maas"]
 model = "meta-llama/llama-4-maverick"
 pin = "pinned"
@@ -206,20 +198,8 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.1-24b-instruct"
 pin = "pinned"
 
-["moonshotai/kimi-k2-thinking-maas"]
-model = "moonshotai/kimi-k2-thinking"
-pin = "pinned"
-
 ["openai/gpt-oss-120b-maas"]
 model = "openai/gpt-oss-120b"
-pin = "pinned"
-
-["openai/gpt-oss-20b-maas"]
-model = "openai/gpt-oss-20b"
-pin = "pinned"
-
-["qwen/qwen3-235b-a22b-instruct-2507-maas"]
-model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
 ["xai/grok-4.1-fast-reasoning"]
@@ -240,14 +220,6 @@ pin = "pinned"
 
 ["xai/grok-4.7"]
 model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["zai-org/glm-4.7-maas"]
-model = "z-ai/glm-4.7"
-pin = "pinned"
-
-["zai-org/glm-5-maas"]
-model = "z-ai/glm-5"
 pin = "pinned"
 
 ["zai-org/glm-5.2-maas"]

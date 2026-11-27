@@ -162,7 +162,3 @@ pin = "pinned"
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
-
-["qwen4-max"]
-model = "qwen/qwen4-max"
-pin = "pinned"

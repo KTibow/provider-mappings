@@ -27,6 +27,11 @@ model = "google/gemma-4-31b-it"
 pin = "pinned"
 quant = "fp4"
 
+["mistral:nemo-12b"]
+model = "mistralai/mistral-nemo"
+pin = "pinned"
+quant = "int4"
+
 ["qwen3:14b"]
 model = "qwen/qwen3-14b"
 pin = "pinned"

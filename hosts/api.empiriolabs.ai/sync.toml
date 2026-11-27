@@ -275,6 +275,14 @@ pin = "pinned"
 model = "bytedance-seed/seed-2-1-turbo"
 pin = "pinned"
 
+["seed-audio-1-0"]
+model = "bytedance-seed/seed-audio-1-0"
+pin = "pinned"
+
+["seed-tts-3-0"]
+model = "bytedance-seed/seed-tts-3-0"
+pin = "pinned"
+
 ["seedance-2-0-fast"]
 model = "bytedance/seedance-2.0-fast"
 pin = "pinned"

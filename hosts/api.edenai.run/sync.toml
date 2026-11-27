@@ -990,10 +990,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
-["compactifai/glm-5-3@us"]
-model = "z-ai/glm-5.3"
-pin = "pinned"
-
 ["compactifai/qwen-3-8-27b"]
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
@@ -1607,10 +1603,6 @@ pin = "pinned"
 model = "tencent/hy4-flash"
 pin = "pinned"
 
-["fireworks_ai/accounts/fireworks/models/inkling"]
-model = "thinkingmachines/inkling"
-pin = "pinned"
-
 ["fireworks_ai/accounts/fireworks/models/kimi-k3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -2115,10 +2107,6 @@ pin = "pinned"
 model = "openai/gpt-4o-mini"
 pin = "pinned"
 
-["microsoft/o3-mini"]
-model = "openai/o3-mini"
-pin = "pinned"
-
 ["minimax/MiniMax-M2"]
 model = "minimax/minimax-m2"
 pin = "pinned"
@@ -2345,10 +2333,6 @@ quant = "fp4"
 model = "nousresearch/hermes-4-405b"
 pin = "pinned"
 quant = "fp8"
-
-["nebius/Qwen/Qwen3-235B-A22B-Instruct-2507"]
-model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
 
 ["nebius/Qwen/Qwen3-30B-A3B-Instruct-2507"]
 model = "qwen/qwen3-30b-a3b-instruct-2507"

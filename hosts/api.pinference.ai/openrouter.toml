@@ -141,6 +141,18 @@ quant = "fp4"
 # pin = "pinned"
 # quant = "bf16"
 
+# needs review: native id has "flex", which qwen/qwen3.5-9b lacks: a tier or variant, not the model itself
+# ["qwen/qwen3.5-9b-flex"]
+# model = "qwen/qwen3.5-9b"
+# pin = "pinned"
+# quant = "bf16"
+
+# needs review: native id has "flex", which qwen/qwen3.6-35b-a3b lacks: a tier or variant, not the model itself
+# ["qwen/qwen3.6-35b-a3b-flex"]
+# model = "qwen/qwen3.6-35b-a3b"
+# pin = "pinned"
+# quant = "fp8"
+
 # needs review: native id has "fast", which qwen/qwen3.8-27b lacks: a tier or variant, not the model itself
 # ["qwen/qwen3.8-27b-fast"]
 # model = "qwen/qwen3.8-27b"

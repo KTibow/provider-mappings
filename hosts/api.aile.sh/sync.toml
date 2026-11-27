@@ -448,24 +448,12 @@ model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
 free = true
 
-["openrouter/anthropic/claude-opus-4.5"]
-model = "anthropic/claude-opus-4.5"
-pin = "pinned"
-
-["openrouter/anthropic/claude-opus-4.6"]
-model = "anthropic/claude-opus-4.6"
+["openrouter/anthropic/claude-fable-5.2"]
+model = "anthropic/claude-fable-5.2"
 pin = "pinned"
 
 ["openrouter/anthropic/claude-opus-4.7"]
 model = "anthropic/claude-opus-4.7"
-pin = "pinned"
-
-["openrouter/anthropic/claude-opus-4.8"]
-model = "anthropic/claude-opus-4.8"
-pin = "pinned"
-
-["openrouter/anthropic/claude-opus-5"]
-model = "anthropic/claude-opus-5"
 pin = "pinned"
 
 ["openrouter/anthropic/claude-opus-5.5"]
@@ -476,12 +464,36 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
-["openrouter/moonshotai/kimi-k3"]
-model = "moonshotai/kimi-k3"
+["openrouter/google/gemini-4-argon"]
+model = "google/gemini-4-argon"
 pin = "pinned"
 
-["openrouter/moonshotai/kimi-k3.1-pro"]
-model = "moonshotai/kimi-k3.1-pro"
+["openrouter/google/gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+
+["openrouter/google/gemini-4-neon"]
+model = "google/gemini-4-neon"
+pin = "pinned"
+
+["openrouter/inclusionai/ling-3.2-flash"]
+model = "inclusionai/ling-3.2-flash"
+pin = "pinned"
+
+["openrouter/meta/muse-spark-open"]
+model = "meta/muse-spark-open"
+pin = "pinned"
+
+["openrouter/meta/muse-wonder"]
+model = "meta/muse-wonder"
+pin = "pinned"
+
+["openrouter/openai/gpt-6.1-sol"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["openrouter/openai/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
 pin = "pinned"
 
 ["openrouter/openai/gpt-6.2-astra"]
@@ -491,22 +503,6 @@ pin = "pinned"
 ["openrouter/openai/gpt-6.2-sol"]
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
-
-["openrouter/x-ai/grok-4.7"]
-model = "x-ai/grok-4.7"
-pin = "pinned"
-
-["openrouter/~anthropic/claude-fable-latest"]
-model = "~anthropic/claude-fable-latest"
-pin = "floating"
-
-["openrouter/~anthropic/claude-opus-latest"]
-model = "~anthropic/claude-opus-latest"
-pin = "floating"
-
-["openrouter/~anthropic/claude-sonnet-latest"]
-model = "~anthropic/claude-sonnet-latest"
-pin = "floating"
 
 ["orcarouter/anthropic/claude-fable-5"]
 model = "anthropic/claude-fable-5"

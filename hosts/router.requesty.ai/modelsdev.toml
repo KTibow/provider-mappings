@@ -14,6 +14,10 @@ pin = "pinned"
 model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 
+["claude-fable-5.2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
 ["claude-fable-5@eu"]
 model = "anthropic/claude-fable-5"
 pin = "pinned"
@@ -470,6 +474,14 @@ pin = "pinned"
 model = "x-ai/grok-4.7"
 pin = "pinned"
 
+["hy4"]
+model = "tencent/hy4"
+pin = "pinned"
+
+["hy4-flash"]
+model = "tencent/hy4-flash"
+pin = "pinned"
+
 ["inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -661,6 +673,10 @@ pin = "pinned"
 ["qwen3.8-max"]
 model = "~qwen/qwen3.8-max-latest"
 pin = "floating"
+
+["qwen4-max"]
+model = "qwen/qwen4-max"
+pin = "pinned"
 
 ["seed-1.8"]
 model = "bytedance-seed/seed-1-8"

@@ -778,10 +778,6 @@ pin = "pinned"
 model = "openai/o3"
 pin = "pinned"
 
-["o3-mini"]
-model = "openai/o3-mini"
-pin = "pinned"
-
 ["o3-pro"]
 model = "openai/o3-pro"
 pin = "pinned"

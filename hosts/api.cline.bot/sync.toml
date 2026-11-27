@@ -1020,10 +1020,6 @@ pin = "pinned"
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
-["qwen/qwen3-235b-a22b-thinking-2507"]
-model = "qwen/qwen3-235b-a22b-thinking-2507"
-pin = "pinned"
-
 ["qwen/qwen3-30b-a3b"]
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"

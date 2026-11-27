@@ -26,6 +26,18 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
+["mindlab/macaron-v1-tall"]
+model = "mindlab/macaron-v1-tall"
+pin = "pinned"
+
+["mindlab/macaron-v1.1-coding-venti"]
+model = "mindlab/macaron-v1.1-venti"
+pin = "pinned"
+
+["mindlab/macaron-v1.1-venti"]
+model = "mindlab/macaron-v1.1-venti"
+pin = "pinned"
+
 ["qwen-plus"]
 model = "qwen/qwen-plus"
 pin = "pinned"

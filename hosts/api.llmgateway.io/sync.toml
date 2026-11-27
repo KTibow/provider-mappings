@@ -103,6 +103,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 
+["deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
 ["deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
@@ -641,10 +645,6 @@ pin = "pinned"
 
 ["llama-3.1-70b-instruct"]
 model = "meta-llama/llama-3.1-70b-instruct"
-pin = "pinned"
-
-["llama-3.3-70b-instruct"]
-model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
 
 ["lyria-3-clip-preview"]

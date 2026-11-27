@@ -27,10 +27,6 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
-["MiniMaxAI/MiniMax-M2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
 ["MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -63,10 +59,6 @@ pin = "pinned"
 model = "qwen/qwen3-235b-a22b-2507"
 pin = "pinned"
 
-["Qwen/Qwen3-235B-A22B-Thinking-2507"]
-model = "qwen/qwen3-235b-a22b-thinking-2507"
-pin = "pinned"
-
 ["Qwen/Qwen3-30B-A3B"]
 model = "qwen/qwen3-30b-a3b"
 pin = "pinned"
@@ -81,6 +73,10 @@ pin = "pinned"
 
 ["Qwen/Qwen3-Coder-30B-A3B-Instruct"]
 model = "qwen/qwen3-coder-30b-a3b-instruct"
+pin = "pinned"
+
+["Qwen/Qwen3-Coder-480B-A35B-Instruct"]
+model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["Qwen/Qwen3-Coder-Next"]
@@ -197,6 +193,10 @@ pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V4-Flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+
+["deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"]
+model = "deepseek/deepseek-v4-flash-vision-exp"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V4-Pro"]

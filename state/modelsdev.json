@@ -771,6 +771,7 @@
       "deepseek-ai/DeepSeek-V4.1-Flash-1017-abliterated"
     ],
     "dashscope-intl.aliyuncs.com": [
+      "mindlab/macaron-v1.1-venti-pro",
       "qwen-flash",
       "qwen-max",
       "qwen-mt-plus",
@@ -938,7 +939,6 @@
       "Qwen3.5-27B-BlueStar-v3-Derestricted",
       "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-Derestricted",
       "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-Derestricted-Lite",
-      "Qwen3.5-27B-Queen-Derestricted",
       "ReadyArt/MS3.2-The-Omega-Directive-24B-Unslop-v2.0",
       "Steelskull/L3.3-Cu-Mai-R1-70b",
       "Steelskull/L3.3-Electra-R1-70b",

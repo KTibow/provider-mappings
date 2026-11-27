@@ -151,9 +151,9 @@ quant = "fp8"
 # Rows below need a person to check them, so they are commented out.
 # Once verified, copy the row (uncommented) into manual.toml.
 
-# needs review: native id has "ultrafast", which deepseek/deepseek-v4.1-flash lacks: a tier or variant, not the model itself
+# needs review: native id has "ultrafast", which deepseek/deepseek-v4.1-flash-1017 lacks: a tier or variant, not the model itself
 # ["deepseek-v4-1-flash-1017-ultrafast"]
-# model = "deepseek/deepseek-v4.1-flash"
+# model = "deepseek/deepseek-v4.1-flash-1017"
 # pin = "pinned"
 # quant = "fp8"
 

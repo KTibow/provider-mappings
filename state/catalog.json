@@ -2864,6 +2864,7 @@
   "permaslug": "meta/muse-wonder-20261012"
  },
  "microsoft/mai-image-2.5": {
+  "delisted": "2026-11-27",
   "input": [
    "image",
    "text"
@@ -2875,6 +2876,7 @@
   "permaslug": "microsoft/mai-image-2.5"
  },
  "microsoft/mai-image-2.5-pro": {
+  "delisted": "2026-11-27",
   "input": [
    "image",
    "text"
@@ -5369,6 +5371,7 @@
   "permaslug": "qwen/qwen3-235b-a22b-07-25"
  },
  "qwen/qwen3-235b-a22b-thinking-2507": {
+  "delisted": "2026-11-27",
   "hf": "Qwen/Qwen3-235B-A22B-Thinking-2507",
   "input": [
    "text"

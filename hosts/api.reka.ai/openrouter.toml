@@ -10,6 +10,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
 
+["glm5.3"]
+model = "z-ai/glm-5.3"
+pin = "pinned"
+
 ["glm5.3-flash"]
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
