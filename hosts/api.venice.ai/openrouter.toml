@@ -2,6 +2,10 @@
 # Do not edit: this file is rewritten every hour. Put fixes and additions in
 # manual.toml next to it, which takes precedence.
 
+["deepseek-v3.2"]
+model = "deepseek/deepseek-v3.2"
+pin = "pinned"
+
 ["deepseek-v4-1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"

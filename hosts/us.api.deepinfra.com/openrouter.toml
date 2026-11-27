@@ -398,11 +398,6 @@ model = "tencent/hy4-flash"
 pin = "pinned"
 quant = "fp4"
 
-["tencent/Hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-quant = "fp4"
-
 ["thenlper/gte-base"]
 model = "thenlper/gte-base"
 pin = "pinned"

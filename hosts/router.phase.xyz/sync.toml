@@ -99,12 +99,16 @@ pin = "pinned"
 model = "deepseek/deepseek-r1"
 pin = "pinned"
 
-["deepseek-v3"]
-model = "deepseek/deepseek-chat"
+["deepseek-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
 pin = "pinned"
 
-["deepseek-v3-0324"]
-model = "deepseek/deepseek-chat-v3-0324"
+["deepseek-tng-r1t2-chimera"]
+model = "tngtech/deepseek-r1t2-chimera"
+pin = "pinned"
+
+["deepseek-v3"]
+model = "deepseek/deepseek-chat"
 pin = "pinned"
 
 ["deepseek-v3.1"]
@@ -427,6 +431,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-flash-vl"
 pin = "pinned"
 
+["lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
+pin = "pinned"
+
 ["llama-3.1-70b-instruct"]
 model = "meta-llama/llama-3.1-70b-instruct"
 pin = "pinned"
@@ -591,6 +599,10 @@ pin = "pinned"
 model = "mistralai/mistral-small-3.1-24b-instruct"
 pin = "pinned"
 
+["mistral-small-3.2-24b-instruct"]
+model = "mistralai/mistral-small-3.2-24b-instruct"
+pin = "pinned"
+
 ["mistral-small-3.2-24b-instruct-2506"]
 model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
@@ -707,6 +719,10 @@ pin = "pinned"
 model = "nvidia/nemotron-3-nano-30b-a3b"
 pin = "pinned"
 
+["nvidia-nemotron-3.5-lightning"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+
 ["nvidia-nemotron-3.5-lightning-30b-a3b-bf16"]
 model = "nvidia/nemotron-3.5-lightning"
 pin = "pinned"
@@ -741,10 +757,6 @@ pin = "pinned"
 
 ["paraphrase-minilm-l6-v2"]
 model = "sentence-transformers/paraphrase-minilm-l6-v2"
-pin = "pinned"
-
-["pareto-26.10"]
-model = "unbiased/pareto-26.10"
 pin = "pinned"
 
 ["particle-1"]
@@ -827,8 +839,16 @@ pin = "pinned"
 model = "qwen/qwen3-asr-1.7b"
 pin = "pinned"
 
+["qwen3-coder"]
+model = "qwen/qwen3-coder"
+pin = "pinned"
+
 ["qwen3-coder-30b-a3b-instruct"]
 model = "qwen/qwen3-coder-30b-a3b-instruct"
+pin = "pinned"
+
+["qwen3-coder-480b-a35b-instruct"]
+model = "qwen/qwen3-coder"
 pin = "pinned"
 
 ["qwen3-coder-next"]
@@ -945,10 +965,6 @@ pin = "pinned"
 
 ["seed-2.0-pro"]
 model = "bytedance-seed/seed-2.0-pro"
-pin = "pinned"
-
-["seedance-1.5-pro"]
-model = "bytedance/seedance-1.5-pro"
 pin = "pinned"
 
 ["seedance-2.0"]

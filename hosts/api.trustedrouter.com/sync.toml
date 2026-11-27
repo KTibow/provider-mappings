@@ -579,10 +579,6 @@ pin = "pinned"
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
 
-["mistralai/mistral-large-4-1t-a52b"]
-model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
 ["mistralai/mistral-medium-3.5-128b"]
 model = "mistralai/mistral-medium-3-5"
 pin = "pinned"
@@ -1395,6 +1391,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flashx-legal"
 pin = "pinned"
 
+["z-ai/glm-5.3-uncensored"]
+model = "z-ai/glm-5.3-uncensored"
+pin = "pinned"
+
 ["z-ai/glm-5v-turbo"]
 model = "z-ai/glm-5v-turbo"
 pin = "pinned"
@@ -1403,24 +1403,12 @@ pin = "pinned"
 model = "z-ai/glm-4.5-air"
 pin = "pinned"
 
-["zai-org/glm-4.5v"]
-model = "z-ai/glm-4.5v"
-pin = "pinned"
-
 ["zai-org/glm-4.6"]
 model = "z-ai/glm-4.6"
 pin = "pinned"
 
-["zai-org/glm-4.6v"]
-model = "z-ai/glm-4.6v"
-pin = "pinned"
-
 ["zai-org/glm-4.7"]
 model = "z-ai/glm-4.7"
-pin = "pinned"
-
-["zai-org/glm-4.7-flash"]
-model = "z-ai/glm-4.7-flash"
 pin = "pinned"
 
 ["zai-org/glm-5"]

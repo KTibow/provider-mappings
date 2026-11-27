@@ -495,6 +495,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
+["inclusionai/lingsante-3.1-air-vl"]
+model = "inclusionai/lingsante-3.1-air-vl"
+pin = "pinned"
+
 ["inference-net/schematron-v2-small"]
 model = "inference-net/schematron-v2-small"
 pin = "pinned"

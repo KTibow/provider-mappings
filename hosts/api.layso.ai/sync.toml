@@ -3,6 +3,58 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
+["claude-fable-5"]
+model = "anthropic/claude-fable-5"
+pin = "pinned"
+
+["claude-fable-5-1"]
+model = "anthropic/claude-fable-5.1"
+pin = "pinned"
+
+["claude-fable-5-2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+
+["claude-haiku-4-5"]
+model = "anthropic/claude-haiku-4.5"
+pin = "pinned"
+
+["claude-haiku-5-5"]
+model = "anthropic/claude-haiku-5.5"
+pin = "pinned"
+
+["claude-opus-4-6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
+["claude-opus-4-7"]
+model = "anthropic/claude-opus-4.7"
+pin = "pinned"
+
+["claude-opus-4-8"]
+model = "anthropic/claude-opus-4.8"
+pin = "pinned"
+
+["claude-opus-5"]
+model = "anthropic/claude-opus-5"
+pin = "pinned"
+
+["claude-opus-5-5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["claude-sonnet-4-6"]
+model = "anthropic/claude-sonnet-4.6"
+pin = "pinned"
+
+["claude-sonnet-5"]
+model = "anthropic/claude-sonnet-5"
+pin = "pinned"
+
+["claude-sonnet-5-5"]
+model = "anthropic/claude-sonnet-5.5"
+pin = "pinned"
+
 ["deepseek-v3.1"]
 model = "deepseek/deepseek-chat-v3.1"
 pin = "pinned"
@@ -245,10 +297,6 @@ pin = "pinned"
 
 ["gpt-5.6-sol"]
 model = "openai/gpt-5.6-sol"
-pin = "pinned"
-
-["gpt-5.6-terra"]
-model = "openai/gpt-5.6-terra"
 pin = "pinned"
 
 ["gpt-6-astra"]

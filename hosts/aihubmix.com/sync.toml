@@ -651,11 +651,6 @@ pin = "pinned"
 model = "inclusionai/ling-3.1-flash"
 pin = "pinned"
 
-["ling-3.2-flash-free"]
-model = "inclusionai/ling-3.2-flash"
-pin = "pinned"
-free = true
-
 ["llama-3.1-8b-instant"]
 model = "meta-llama/llama-3.1-8b-instruct"
 pin = "pinned"

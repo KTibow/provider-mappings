@@ -293,8 +293,7 @@
       "deepseek-v4-1-fast",
       "deepseek-v4-1-flash-fast",
       "grok-4.20-non-reasoning",
-      "kimi-k3-1-pro-highspeed",
-      "minimax-m2-1-highspeed"
+      "kimi-k3-1-pro-highspeed"
     ],
     "api.cortecs.ai": [
       "mistral-7b-instruct-v0.2",

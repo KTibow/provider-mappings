@@ -37,11 +37,6 @@ model = "qwen/qwen3-vl-30b-a3b-thinking"
 pin = "pinned"
 quant = "fp8"
 
-["Qwen/Qwen3.5-122B-A10B"]
-model = "qwen/qwen3.5-122b-a10b"
-pin = "pinned"
-quant = "fp8"
-
 ["Qwen/Qwen3.5-27B"]
 model = "qwen/qwen3.5-27b"
 pin = "pinned"
@@ -64,11 +59,6 @@ quant = "fp8"
 
 ["Qwen/Qwen3.6-35B-A3B"]
 model = "qwen/qwen3.6-35b-a3b"
-pin = "pinned"
-quant = "fp8"
-
-["Qwen/Qwen3.8-2.4T-A95B"]
-model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"
 quant = "fp8"
 

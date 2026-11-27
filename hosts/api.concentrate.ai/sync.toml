@@ -3,10 +3,6 @@
 # manual.toml next to it, which takes precedence. Ids this sync could not map
 # are listed in state/hosts.json.
 
-["apodex-1.1-mini"]
-model = "apodex/apodex-1.1-mini"
-pin = "pinned"
-
 ["beam-1.0-501b-a23b"]
 model = "reflection/beam-1.0-501b-a23b"
 pin = "pinned"
@@ -403,10 +399,6 @@ pin = "pinned"
 model = "tencent/hy4"
 pin = "pinned"
 
-["hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-
 ["inkling"]
 model = "thinkingmachines/inkling"
 pin = "pinned"
@@ -491,18 +483,6 @@ pin = "pinned"
 model = "minimax/minimax-m2.1"
 pin = "pinned"
 
-["minimax-m2-5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
-["minimax-m2-5-highspeed"]
-model = "minimax/minimax-m2.5-highspeed"
-pin = "pinned"
-
-["minimax-m2-7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
 ["minimax-m2-7-highspeed"]
 model = "minimax/minimax-m2.7-highspeed"
 pin = "pinned"
@@ -521,14 +501,6 @@ pin = "pinned"
 
 ["mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistral-medium-3"]
-model = "mistralai/mistral-medium-3"
-pin = "pinned"
-
-["mistral-medium-3.1"]
-model = "mistralai/mistral-medium-3.1"
 pin = "pinned"
 
 ["mistral-nemo"]

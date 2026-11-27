@@ -2230,6 +2230,10 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flash"
 pin = "pinned"
 
+["reka-ai/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+
 ["reka-ai/reka-edge-2603"]
 model = "rekaai/reka-edge"
 pin = "pinned"
