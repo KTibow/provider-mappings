@@ -97,6 +97,12 @@ model = "qwen/qwen3.8-flash"
 pin = "pinned"
 quant = "nvfp4"
 
+["qwen3.8-flash-next:free"]
+model = "qwen/qwen3.8-flash"
+pin = "pinned"
+quant = "fp8"
+free = true
+
 ["whisper-large-v3-turbo"]
 model = "openai/whisper-large-v3-turbo"
 pin = "pinned"

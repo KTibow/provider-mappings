@@ -383,10 +383,6 @@ pin = "pinned"
 model = "google/gemini-4-neon"
 pin = "pinned"
 
-["google/gemini-nano-banana-2.1"]
-model = "google/gemini-nano-banana-2.1"
-pin = "pinned"
-
 ["google/gemini-omni-1.1-flash"]
 model = "google/gemini-omni-1.1-flash"
 pin = "pinned"
@@ -421,6 +417,10 @@ pin = "pinned"
 
 ["google/gemma-4-e2b"]
 model = "google/gemma-4-E2B-it"
+pin = "pinned"
+
+["google/gemma-4-uncensored"]
+model = "google/gemma-4-uncensored"
 pin = "pinned"
 
 ["gryphe/mythomax-l2-13b"]

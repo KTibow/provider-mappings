@@ -170,6 +170,10 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.5-pro"
 pin = "pinned"
 
+["XiaomiMiMo/MiMo-V2.6-Flash-MOPD"]
+model = "xiaomi/mimo-v2.6-flash-mopd"
+pin = "pinned"
+
 ["XiaomiMiMo/MiMo-V2.6-Flash-RL"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -288,6 +292,10 @@ pin = "pinned"
 
 ["inclusionAI/Ling-3.1-flash"]
 model = "inclusionai/ling-3.1-flash"
+pin = "pinned"
+
+["inclusionAI/LingSante-3.1-air-VL"]
+model = "inclusionai/lingsante-3.1-air-vl"
 pin = "pinned"
 
 ["meta-llama/Llama-3.1-70B-Instruct"]

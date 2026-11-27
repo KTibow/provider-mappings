@@ -534,6 +534,18 @@ model = "~google/gemini-flash-latest"
 pin = "floating"
 free = true
 
+["free/gemini-omni-1.1-flash"]
+model = "google/gemini-omni-1.1-flash"
+pin = "pinned"
+quant = "fp16"
+free = true
+
+["free/gemini-omni-1.2-flash"]
+model = "google/gemini-omni-1.2-flash"
+pin = "pinned"
+quant = "fp16"
+free = true
+
 ["free/gemini-pro-latest"]
 model = "~google/gemini-pro-latest"
 pin = "floating"
@@ -563,6 +575,12 @@ free = true
 
 ["free/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
+pin = "pinned"
+quant = "fp16"
+free = true
+
+["free/gpt-image-2"]
+model = "openai/gpt-image-2"
 pin = "pinned"
 quant = "fp16"
 free = true
@@ -626,6 +644,12 @@ free = true
 ["free/mistral-large-4"]
 model = "mistralai/mistral-large-4-0"
 pin = "pinned"
+free = true
+
+["free/nano-banana-2.1"]
+model = "google/gemini-nano-banana-2.1"
+pin = "pinned"
+quant = "fp16"
 free = true
 
 ["free/nemotron-3-ultra"]
@@ -782,6 +806,11 @@ quant = "fp16"
 
 ["glm-5"]
 model = "z-ai/glm-5"
+pin = "pinned"
+quant = "fp16"
+
+["glm-5.1"]
+model = "z-ai/glm-5.1"
 pin = "pinned"
 quant = "fp16"
 

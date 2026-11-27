@@ -54,6 +54,14 @@ pin = "pinned"
 model = "meta/muse-spark-open"
 pin = "pinned"
 
+["accounts/fireworks/models/nemotron-3-ultra-nvfp4"]
+model = "nvidia/nemotron-3-ultra-550b-a55b"
+pin = "pinned"
+
+["accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+
 ["accounts/fireworks/models/qwen3p8-2p4t-a95b"]
 model = "qwen/qwen3.8-2.4t-a95b"
 pin = "pinned"

@@ -566,6 +566,7 @@
       "xai/grok-4-1-fast-non-reasoning"
     ],
     "api.pinference.ai": [
+      "qwen/qwen3.8-27b-fast",
       "thinkingmachines/inkling-2-small-fast"
     ],
     "api.poe.com": [

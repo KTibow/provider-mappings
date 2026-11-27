@@ -19,10 +19,6 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
-["ag/gemini-4-neon"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
 ["ali/deepseek-v4-flash-0731"]
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
@@ -267,6 +263,14 @@ pin = "pinned"
 model = "openai/gpt-5.4-mini"
 pin = "pinned"
 
+["az/gpt-5.6-terra"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["az/gpt-6-astra"]
+model = "openai/gpt-6-astra"
+pin = "pinned"
+
 ["az/gpt-6.2-astra"]
 model = "openai/gpt-6.2-astra"
 pin = "pinned"
@@ -275,8 +279,24 @@ pin = "pinned"
 model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
+["cb/claude-opus-4.6"]
+model = "anthropic/claude-opus-4.6"
+pin = "pinned"
+
 ["cb/deepseek-v4.1-flash"]
 model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["cb/gemini-3.1-pro"]
+model = "google/gemini-3.1-pro"
+pin = "pinned"
+
+["cb/gemini-4-argon"]
+model = "google/gemini-4-argon"
+pin = "pinned"
+
+["cb/gemini-4-carbon"]
+model = "google/gemini-4-carbon"
 pin = "pinned"
 
 ["cb/glm-5.2"]
@@ -295,6 +315,34 @@ pin = "pinned"
 model = "openai/gpt-5.3-codex"
 pin = "pinned"
 
+["cb/gpt-5.4"]
+model = "openai/gpt-5.4"
+pin = "pinned"
+
+["cb/gpt-5.5"]
+model = "openai/gpt-5.5"
+pin = "pinned"
+
+["cb/gpt-5.6-luna"]
+model = "openai/gpt-5.6-luna"
+pin = "pinned"
+
+["cb/gpt-5.6-terra"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["cb/gpt-6-astra"]
+model = "openai/gpt-6-astra"
+pin = "pinned"
+
+["cb/gpt-6-luna"]
+model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["cb/gpt-6-sol"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
 ["cb/gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
 pin = "pinned"
@@ -305,6 +353,14 @@ pin = "pinned"
 
 ["cb/gpt-6.2-sol"]
 model = "openai/gpt-6.2-sol"
+pin = "pinned"
+
+["cb/grok-4.6"]
+model = "x-ai/grok-4.6"
+pin = "pinned"
+
+["cb/grok-4.7"]
+model = "x-ai/grok-4.7"
 pin = "pinned"
 
 ["cb/hy3"]
@@ -351,37 +407,12 @@ pin = "pinned"
 model = "deepseek/deepseek-v4.1-flash"
 pin = "pinned"
 
-["cbcn/glm-5.1"]
-model = "z-ai/glm-5.1"
-pin = "pinned"
-
-["cbcn/glm-5.2"]
-model = "z-ai/glm-5.2"
-pin = "pinned"
-
 ["cbcn/glm-5.3"]
 model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["cbcn/glm-5.3-flash"]
 model = "z-ai/glm-5.3-flash"
-pin = "pinned"
-
-["cbcn/hy4-preview"]
-model = "tencent/hy4-preview"
-pin = "pinned"
-
-["cbcn/hy4flash-free"]
-model = "tencent/hy4-flash"
-pin = "pinned"
-free = true
-
-["cbcn/kimi-k2.5"]
-model = "moonshotai/kimi-k2.5"
-pin = "pinned"
-
-["cbcn/kimi-k2.6"]
-model = "moonshotai/kimi-k2.6"
 pin = "pinned"
 
 ["cbcn/kimi-k3"]
@@ -392,24 +423,8 @@ pin = "pinned"
 model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
-["cbcn/mimo-v2.6-pro"]
-model = "xiaomi/mimo-v2.6-pro"
-pin = "pinned"
-
-["cbcn/minimax-m2.7"]
-model = "minimax/minimax-m2.7"
-pin = "pinned"
-
-["cbcn/minimax-m3"]
-model = "minimax/minimax-m3"
-pin = "pinned"
-
 ["cbcn/minimax-m3.1-flash"]
 model = "minimax/minimax-m3.1-flash"
-pin = "pinned"
-
-["cbcn/step-5-preview"]
-model = "stepfun/step-5-preview"
 pin = "pinned"
 
 ["cc/claude-fable-5"]
@@ -664,8 +679,40 @@ pin = "pinned"
 model = "openai/gpt-5.6-luna"
 pin = "pinned"
 
+["cx/gpt-5.6-sol"]
+model = "openai/gpt-5.6-sol"
+pin = "pinned"
+
+["cx/gpt-5.6-terra"]
+model = "openai/gpt-5.6-terra"
+pin = "pinned"
+
+["cx/gpt-6-astra"]
+model = "openai/gpt-6-astra"
+pin = "pinned"
+
 ["cx/gpt-6-luna"]
 model = "openai/gpt-6-luna"
+pin = "pinned"
+
+["cx/gpt-6-sol"]
+model = "openai/gpt-6-sol"
+pin = "pinned"
+
+["cx/gpt-6.1-sol"]
+model = "openai/gpt-6.1-sol"
+pin = "pinned"
+
+["cx/gpt-6.1-terra"]
+model = "openai/gpt-6.1-terra"
+pin = "pinned"
+
+["cx/gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+
+["cx/gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 
 ["deepseek-v4-flash"]
@@ -1470,6 +1517,22 @@ pin = "floating"
 
 ["ocg/step-5-preview"]
 model = "stepfun/step-5-preview"
+pin = "pinned"
+
+["orca/anthropic/claude-opus-5.5"]
+model = "anthropic/claude-opus-5.5"
+pin = "pinned"
+
+["orca/deepseek/deepseek-v4.1-flash"]
+model = "deepseek/deepseek-v4.1-flash"
+pin = "pinned"
+
+["orca/deepseek/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["orca/kimi/kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
 pin = "pinned"
 
 ["qwen-image-3.0-pro"]
