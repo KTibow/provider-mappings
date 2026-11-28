@@ -602,6 +602,10 @@ pin = "pinned"
 model = "deepseek/deepseek-v4-flash-0731"
 pin = "pinned"
 
+["canopywave/deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
+pin = "pinned"
+
 ["canopywave/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
 pin = "pinned"
@@ -620,6 +624,10 @@ pin = "pinned"
 
 ["canopywave/kimi-k2.6"]
 model = "moonshotai/kimi-k2.6"
+pin = "pinned"
+
+["canopywave/kimi-k2.7-code"]
+model = "moonshotai/kimi-k2.7-code"
 pin = "pinned"
 
 ["canopywave/kimi-k3"]
@@ -860,6 +868,10 @@ pin = "pinned"
 
 ["deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
+pin = "pinned"
+
+["deepseek-v4-pro-0813"]
+model = "deepseek/deepseek-v4-pro-0813"
 pin = "pinned"
 
 ["deepseek-v4.1-flash"]
@@ -2208,6 +2220,10 @@ pin = "pinned"
 
 ["reka-ai/deepseek-v4.1-flash-1017"]
 model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
+["reka-ai/glm-5.3"]
+model = "z-ai/glm-5.3"
 pin = "pinned"
 
 ["reka-ai/glm-5.3-flash"]

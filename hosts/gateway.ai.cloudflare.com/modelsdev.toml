@@ -82,6 +82,10 @@ pin = "pinned"
 model = "anthropic/claude-sonnet-5.5"
 pin = "pinned"
 
+["deepseek-ai/deepseek-v4.1-flash-1017"]
+model = "deepseek/deepseek-v4.1-flash-1017"
+pin = "pinned"
+
 ["deepseek/deepseek-v4-pro"]
 model = "deepseek/deepseek-v4-pro"
 pin = "pinned"

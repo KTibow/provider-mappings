@@ -33,7 +33,6 @@
  "api.entrim.ai": "https://api.entrim.ai/v1/models",
  "api.eu.munito.ai": "https://api.eu.munito.ai/inference/v1/models",
  "api.fastino.ai": "https://api.fastino.ai/v1/models",
- "api.featherless.ai": "https://api.featherless.ai/v1/models",
  "api.flyrouter.ai": "https://api.flyrouter.ai/v1/models",
  "api.freemodel.dev": "https://api.freemodel.dev/v1/models",
  "api.friendli.ai": "https://api.friendli.ai/serverless/v1/models",

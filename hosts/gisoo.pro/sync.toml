@@ -1083,6 +1083,10 @@ pin = "pinned"
 model = "inclusionai/ling-3.0-tiny"
 pin = "pinned"
 
+["openrouter/inclusionai/ling-3.2-flash"]
+model = "inclusionai/ling-3.2-flash"
+pin = "pinned"
+
 ["openrouter/inclusionai/lingsante-3.1-air-vl"]
 model = "inclusionai/lingsante-3.1-air-vl"
 pin = "pinned"
@@ -1181,14 +1185,6 @@ pin = "pinned"
 
 ["openrouter/meta/muse-wonder"]
 model = "meta/muse-wonder"
-pin = "pinned"
-
-["openrouter/microsoft/mai-image-2.5"]
-model = "microsoft/mai-image-2.5"
-pin = "pinned"
-
-["openrouter/microsoft/mai-image-2.5-pro"]
-model = "microsoft/mai-image-2.5-pro"
 pin = "pinned"
 
 ["openrouter/microsoft/mai-image-2.6"]
@@ -1885,10 +1881,6 @@ pin = "pinned"
 
 ["openrouter/qwen/qwen3-235b-a22b-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
-["openrouter/qwen/qwen3-235b-a22b-thinking-2507"]
-model = "qwen/qwen3-235b-a22b-thinking-2507"
 pin = "pinned"
 
 ["openrouter/qwen/qwen3-30b-a3b"]

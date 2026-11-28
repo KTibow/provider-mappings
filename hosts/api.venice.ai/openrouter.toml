@@ -67,6 +67,11 @@ model = "mistralai/mistral-small-3.2-24b-instruct"
 pin = "pinned"
 quant = "fp8"
 
+["nvidia-nemotron-3-5-lightning-30b-a3b"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+quant = "fp4"
+
 ["nvidia-nemotron-3-5-super-vl-120b-a12b"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"

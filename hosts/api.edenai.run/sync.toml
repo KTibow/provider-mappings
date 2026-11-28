@@ -479,10 +479,6 @@ pin = "pinned"
 model = "~anthropic/claude-sonnet-latest"
 pin = "floating"
 
-["arkanecloud/MiniMaxAI/MiniMax-M2.5"]
-model = "minimax/minimax-m2.5"
-pin = "pinned"
-
 ["arkanecloud/MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -493,10 +489,6 @@ pin = "pinned"
 
 ["arkanecloud/Qwen/Qwen3-235B-A22B-Instruct-2507"]
 model = "qwen/qwen3-235b-a22b-2507"
-pin = "pinned"
-
-["arkanecloud/Qwen/Qwen3.6-35B-A3B"]
-model = "qwen/qwen3.6-35b-a3b"
 pin = "pinned"
 
 ["arkanecloud/deepseek-ai/DeepSeek-V3.2"]
@@ -527,14 +519,6 @@ pin = "pinned"
 model = "google/gemma-4-31b-it"
 pin = "pinned"
 
-["arkanecloud/mistralai/Mistral-Medium-3.5-128B"]
-model = "mistralai/mistral-medium-3-5"
-pin = "pinned"
-
-["arkanecloud/mistralai/Mistral-Small-4-119B-2603"]
-model = "mistralai/mistral-small-2603"
-pin = "pinned"
-
 ["arkanecloud/moonshotai/Kimi-K3"]
 model = "moonshotai/kimi-k3"
 pin = "pinned"
@@ -545,10 +529,6 @@ pin = "pinned"
 
 ["arkanecloud/nemotron-3.5-super-vl"]
 model = "nvidia/nemotron-3.5-super-vl"
-pin = "pinned"
-
-["arkanecloud/nvidia/nemotron-3-ultra-550b-a55b"]
-model = "nvidia/nemotron-3-ultra-550b-a55b"
 pin = "pinned"
 
 ["arkanecloud/openai/gpt-oss-120b"]

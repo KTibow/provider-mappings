@@ -3,12 +3,8 @@
   "error": "GET https://api.atlascloud.ai/v1/models -> HTTP 401: {\"code\":401,\"msg\":\"invalid token\"}",
   "failing_since": "2026-11-23"
  },
- "api.featherless.ai": {
-  "error": "list shrank to 50 entries (had 198 mapped rows)",
-  "failing_since": "2026-11-14"
- },
  "apihub.agnes-ai.com": {
-  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261127233337412064486kgfbyCYz)\",\"type\":\"AgnesAI_error\"}}",
+  "error": "GET https://apihub.agnes-ai.com/v1/models -> HTTP 401: {\"error\":{\"code\":\"\",\"message\":\"Token not provided (request id: 20261128074942522707768JKKLkWHZ)\",\"type\":\"AgnesAI_error\"}}",
   "failing_since": "2026-11-27"
  }
 }

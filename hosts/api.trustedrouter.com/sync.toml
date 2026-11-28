@@ -1395,10 +1395,6 @@ pin = "pinned"
 model = "z-ai/glm-5.3-flashx-legal"
 pin = "pinned"
 
-["z-ai/glm-5.3-uncensored"]
-model = "z-ai/glm-5.3-uncensored"
-pin = "pinned"
-
 ["z-ai/glm-5v-turbo"]
 model = "z-ai/glm-5v-turbo"
 pin = "pinned"

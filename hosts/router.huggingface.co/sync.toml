@@ -27,6 +27,10 @@ pin = "pinned"
 model = "minimax/minimax-m2.5"
 pin = "pinned"
 
+["MiniMaxAI/MiniMax-M2.7"]
+model = "minimax/minimax-m2.7"
+pin = "pinned"
+
 ["MiniMaxAI/MiniMax-M3"]
 model = "minimax/minimax-m3"
 pin = "pinned"
@@ -131,10 +135,6 @@ pin = "pinned"
 model = "qwen/qwen3.8-27b"
 pin = "pinned"
 
-["Qwen/Qwen3.8-Flash-Next"]
-model = "qwen/qwen3.8-flash"
-pin = "pinned"
-
 ["RadixArk/DaisyRose-27B"]
 model = "radixark/daisyrose-27b"
 pin = "pinned"
@@ -149,10 +149,6 @@ pin = "pinned"
 
 ["Undi95/ReMM-SLERP-L2-13B"]
 model = "undi95/remm-slerp-l2-13b"
-pin = "pinned"
-
-["XiaomiMiMo/MiMo-V2.6-Flash-MOPD"]
-model = "xiaomi/mimo-v2.6-flash-mopd"
 pin = "pinned"
 
 ["XiaomiMiMo/MiMo-V2.6-Flash-RL"]
@@ -173,10 +169,6 @@ pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V3"]
 model = "deepseek/deepseek-chat"
-pin = "pinned"
-
-["deepseek-ai/DeepSeek-V3-0324"]
-model = "deepseek/deepseek-chat-v3-0324"
 pin = "pinned"
 
 ["deepseek-ai/DeepSeek-V3.1"]

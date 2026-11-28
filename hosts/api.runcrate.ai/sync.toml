@@ -247,16 +247,12 @@ pin = "pinned"
 model = "mistralai/ministral-3b-2512"
 pin = "pinned"
 
-["mistralai/mistral-large-3"]
-model = "mistralai/mistral-large-2512"
+["mistralai/ministral-3-8b-instruct"]
+model = "mistralai/ministral-8b-2512"
 pin = "pinned"
 
 ["mistralai/mistral-large-4-0"]
 model = "mistralai/mistral-large-4-0"
-pin = "pinned"
-
-["mistralai/mistral-small-4"]
-model = "mistralai/mistral-small-2603"
 pin = "pinned"
 
 ["moonshotai/Kimi-K2.6"]
@@ -289,6 +285,10 @@ pin = "pinned"
 
 ["nvidia/llama-nemotron-embed-vl-1b-v2"]
 model = "nvidia/llama-nemotron-embed-vl-1b-v2"
+pin = "pinned"
+
+["nvidia/nvidia-nemotron-nano-12b-v2"]
+model = "nvidia/nemotron-nano-12b-v2-vl"
 pin = "pinned"
 
 ["openai/gpt-image-2"]

@@ -278,6 +278,10 @@ pin = "pinned"
 model = "meta/muse-wonder"
 pin = "pinned"
 
+["nvidia-nemotron-3-5-lightning-30b-a3b"]
+model = "nvidia/nemotron-3.5-lightning"
+pin = "pinned"
+
 ["nvidia-nemotron-3-5-super-vl-120b-a12b"]
 model = "nvidia/nemotron-3.5-super-vl"
 pin = "pinned"
@@ -396,10 +400,6 @@ pin = "pinned"
 
 ["openai-gpt-oss-120b"]
 model = "openai/gpt-oss-120b"
-pin = "pinned"
-
-["pareto"]
-model = "unbiased/pareto"
 pin = "pinned"
 
 ["qwen-3-6-plus"]

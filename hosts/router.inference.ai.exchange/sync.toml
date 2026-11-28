@@ -407,10 +407,6 @@ pin = "pinned"
 model = "google/gemini-4-hydrogen"
 pin = "pinned"
 
-["gemini-4-neon"]
-model = "google/gemini-4-neon"
-pin = "pinned"
-
 ["gemini-embedding-001"]
 model = "google/gemini-embedding-001"
 pin = "pinned"
@@ -421,10 +417,6 @@ pin = "pinned"
 
 ["gemini-flash-latest"]
 model = "~google/gemini-flash-latest"
-pin = "floating"
-
-["gemini-pro-latest"]
-model = "~google/gemini-pro-latest"
 pin = "floating"
 
 ["gemma-2-27b-it"]
@@ -444,10 +436,6 @@ model = "google/gemma-3-4b-it"
 pin = "pinned"
 
 ["gemma-4-26b-a4b-it"]
-model = "google/gemma-4-26b-a4b-it"
-pin = "pinned"
-
-["gemma-4-26b-a4b-it-maas"]
 model = "google/gemma-4-26b-a4b-it"
 pin = "pinned"
 
@@ -617,6 +605,10 @@ pin = "pinned"
 
 ["gpt-5.1-codex"]
 model = "openai/gpt-5.1-codex"
+pin = "pinned"
+
+["gpt-5.1-codex-max"]
+model = "openai/gpt-5.1-codex-max"
 pin = "pinned"
 
 ["gpt-5.1-codex-mini"]
@@ -975,10 +967,6 @@ pin = "pinned"
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 
-["mimo-v2.6-flash-mopd"]
-model = "xiaomi/mimo-v2.6-flash-mopd"
-pin = "pinned"
-
 ["mimo-v2.6-flash-rl"]
 model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
@@ -1021,6 +1009,10 @@ pin = "pinned"
 
 ["mistral-large-4.0"]
 model = "mistralai/mistral-large-4-0"
+pin = "pinned"
+
+["mistral-medium-3"]
+model = "mistralai/mistral-medium-3"
 pin = "pinned"
 
 ["mistral-medium-3.5"]
@@ -1311,10 +1303,6 @@ pin = "pinned"
 model = "qwen/qwen3-235b-a22b-thinking-2507"
 pin = "pinned"
 
-["qwen3-30b-a3b"]
-model = "qwen/qwen3-30b-a3b"
-pin = "pinned"
-
 ["qwen3-30b-a3b-instruct-2507"]
 model = "qwen/qwen3-30b-a3b-instruct-2507"
 pin = "pinned"
@@ -1541,6 +1529,10 @@ pin = "pinned"
 
 ["remm-slerp-l2-13b"]
 model = "undi95/remm-slerp-l2-13b"
+pin = "pinned"
+
+["ripple-65b-preview"]
+model = "ricursiveai/ripple-65b-preview"
 pin = "pinned"
 
 ["schematron-v2-small"]

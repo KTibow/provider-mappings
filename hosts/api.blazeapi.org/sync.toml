@@ -308,6 +308,11 @@ model = "anthropic/claude-fable-5.1"
 pin = "pinned"
 quant = "fp16"
 
+["claude-fable-5.2"]
+model = "anthropic/claude-fable-5.2"
+pin = "pinned"
+quant = "fp16"
+
 ["claude-haiku-4-5-20251001"]
 model = "anthropic/claude-haiku-4.5"
 pin = "pinned"
@@ -385,6 +390,16 @@ quant = "fp16"
 
 ["deepseek-v4-flash"]
 model = "deepseek/deepseek-v4-flash"
+pin = "pinned"
+quant = "fp16"
+
+["deepseek-v4-flash-0731"]
+model = "deepseek/deepseek-v4-flash-0731"
+pin = "pinned"
+quant = "fp16"
+
+["deepseek-v4-pro"]
+model = "deepseek/deepseek-v4-pro"
 pin = "pinned"
 quant = "fp16"
 
@@ -749,6 +764,11 @@ model = "google/gemini-4-carbon"
 pin = "pinned"
 quant = "fp16"
 
+["gemini-4-hydrogen"]
+model = "google/gemini-4-hydrogen"
+pin = "pinned"
+quant = "fp16"
+
 ["gemini-4-neon"]
 model = "google/gemini-4-neon"
 pin = "pinned"
@@ -874,6 +894,11 @@ model = "openai/gpt-5.4-image-2"
 pin = "pinned"
 quant = "fp16"
 
+["gpt-5.4-mini"]
+model = "openai/gpt-5.4-mini"
+pin = "pinned"
+quant = "fp16"
+
 ["gpt-5.4-nano"]
 model = "openai/gpt-5.4-nano"
 pin = "pinned"
@@ -916,6 +941,16 @@ quant = "fp16"
 
 ["gpt-6.1-terra"]
 model = "openai/gpt-6.1-terra"
+pin = "pinned"
+quant = "fp16"
+
+["gpt-6.2-astra"]
+model = "openai/gpt-6.2-astra"
+pin = "pinned"
+quant = "fp16"
+
+["gpt-6.2-sol"]
+model = "openai/gpt-6.2-sol"
 pin = "pinned"
 quant = "fp16"
 
@@ -984,6 +1019,11 @@ model = "moonshotai/kimi-k3"
 pin = "pinned"
 quant = "fp16"
 
+["kimi-k3.1-pro"]
+model = "moonshotai/kimi-k3.1-pro"
+pin = "pinned"
+quant = "fp16"
+
 ["llama-3.3-70b-instruct"]
 model = "meta-llama/llama-3.3-70b-instruct"
 pin = "pinned"
@@ -996,6 +1036,11 @@ quant = "fp16"
 
 ["mimo-v2.5"]
 model = "xiaomi/mimo-v2.5"
+pin = "pinned"
+quant = "fp16"
+
+["mimo-v2.6-flash"]
+model = "xiaomi/mimo-v2.6-flash"
 pin = "pinned"
 quant = "fp16"
 

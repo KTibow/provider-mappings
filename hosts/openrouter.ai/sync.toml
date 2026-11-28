@@ -2013,11 +2013,6 @@ pin = "pinned"
 model = "recraft/recraft-v4.1-flash-v2"
 pin = "pinned"
 
-["recraft/recraft-v4.1-flash-v2:free"]
-model = "recraft/recraft-v4.1-flash-v2"
-pin = "pinned"
-free = true
-
 ["recraft/recraft-v4.1-pro"]
 model = "recraft/recraft-v4.1-pro"
 pin = "pinned"

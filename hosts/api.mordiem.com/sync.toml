@@ -903,10 +903,6 @@ pin = "pinned"
 model = "character-ai/ovi:image-to-video"
 pin = "pinned"
 
-["pareto"]
-model = "unbiased/pareto"
-pin = "pinned"
-
 ["pixverse-c1-image-to-video"]
 model = "pixverse/pixverse-c1:image-to-video"
 pin = "pinned"
